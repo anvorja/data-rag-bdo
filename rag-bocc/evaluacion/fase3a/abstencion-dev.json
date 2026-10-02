@@ -1,0 +1,39 @@
+{
+ "n_sin_respuesta": 27,
+ "n_respondibles": 333,
+ "senales": {
+  "coseno": {
+   "auroc": 0.826,
+   "umbral_balanceado": 0.8851,
+   "abstencion_correcta": 0.926,
+   "rechazo_falso": 0.387,
+   "umbral_rechazo_falso_10": [
+    0.8725,
+    0.556,
+    0.099
+   ]
+  },
+  "cobertura": {
+   "auroc": 0.776,
+   "umbral_balanceado": 0.7,
+   "abstencion_correcta": 0.704,
+   "rechazo_falso": 0.228,
+   "umbral_rechazo_falso_10": [
+    0.6,
+    0.481,
+    0.099
+   ]
+  },
+  "combinada": {
+   "auroc": 0.807,
+   "umbral_balanceado": 1.5557,
+   "abstencion_correcta": 0.704,
+   "rechazo_falso": 0.195,
+   "umbral_rechazo_falso_10": [
+    1.4816,
+    0.481,
+    0.099
+   ]
+  }
+ }
+}

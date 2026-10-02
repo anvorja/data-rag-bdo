@@ -305,6 +305,107 @@ Fuentes web usadas (de calidad desigual; tratarlas como pistas, no como prueba):
 - Comparar **A** (texto+tablas) vs **B** (+VLM selectivo) vs **C** (+índice visual) en recall@k y fidelidad **solo en ese bloque** y reportar costo por página y latencia. Decidir con datos.
 - Chunking de imágenes: Kimothi indica que a las imágenes **normalmente no se les hace chunking**; la unidad es la figura (con su pie y su página), no un recorte.
 
+### 3.5 Fase 3a: experimentos de recuperación (set de desarrollo, en curso)
+
+Todo se mide en la partición `dev` del golden set v0 (167 preguntas con fuente + sus reformulaciones coloquiales); `test` no se usa para decidir. **Advertencia:** el set es plata y tiene sesgo léxico, así que las cifras absolutas están infladas; lo informativo es la **comparación entre configuraciones**. Código en `pipeline/fase3a/` y `pipeline/09_fase3a_experimentos.py`; resultados en `rag-bocc/evaluacion/fase3a/`.
+
+**Paso 1 — fragmentación con BM25** (recall en el top-10 y MRR de la cita):
+
+| Configuración | Fragmentos | Pregunta: doc@10 | Pregunta: cita@10 | MRR | Variantes: cita@10 |
+|---|---|---|---|---|---|
+| Fija 1.100 car. | 31.530 | 0,934 | 0,838 | 0,675 | 0,643 |
+| Estructural | 21.972 | 0,940 | 0,850 | 0,681 | 0,714 |
+| **Estructural + contexto (metadatos)** | 21.972 | **0,964** | **0,892** | **0,722** | **0,756** |
+
+Lectura: respetar la estructura (encabezados y páginas) ayuda poco con la pregunta original y bastante con las reformulaciones (+7 puntos); **anteponer a cada fragmento el título, tipo, área, segmento y vigencia del documento** (contextual retrieval sin LLM) suma otros 4 puntos en cita@10 y 4 en variantes. Es barato y se adopta como base. Casos todavía débiles en `dev`: multi-salto (0/2), comparativas (2/3), temporales y premisa falsa (67 %).
+
+**Paso 2 — denso, híbrido (RRF) y filtro de vigencia** (`multilingual-e5-small`, fragmentación estructural, `dev`):
+
+| Sistema | Pregunta: doc@10 | cita@5 | cita@10 | MRR | Variantes: cita@10 | MRR |
+|---|---|---|---|---|---|---|
+| BM25 + contexto (base) | 0,964 | 0,844 | 0,892 | 0,722 | 0,756 | 0,503 |
+| Denso sin contexto | 0,850 | 0,749 | 0,826 | 0,585 | 0,655 | 0,418 |
+| Denso con contexto | 0,916 | 0,814 | 0,874 | 0,628 | 0,696 | 0,419 |
+| Híbrido sin contexto | 0,928 | 0,808 | 0,880 | 0,667 | 0,750 | 0,510 |
+| **Híbrido con contexto** | **0,970** | **0,892** | **0,934** | **0,728** | **0,798** | **0,536** |
+| Híbrido con contexto + vigencia | 0,970 | 0,898 | **0,940** | 0,729 | **0,804** | 0,542 |
+
+Lecturas:
+- **El denso solo queda por debajo de BM25** en este set (el sesgo léxico del golden set favorece a BM25: las preguntas se parecen al texto) y con un modelo pequeño. **La fusión sí gana a ambos**: +4 puntos de cita@10 sobre BM25 y +4 en reformulaciones. Con consultas reales de clientes, el denso debería pesar más: otra razón para validar con consultas reales.
+- **El contexto de metadatos ayuda en todos los sistemas** (+5 puntos al denso, +5 al híbrido).
+- **Filtro de vigencia:** sin él, **106 de 367 consultas sin intención temporal (29 %) traían algún fragmento de un documento vencido o histórico en el top-10**; con el filtro, 0. No pierde recall (sube 0,6-1,2 puntos y ninguna pregunta pierde su fuente). Es la métrica «citas de documentos no vigentes = 0» de la sección 2.4.
+
+**Paso 3 — reranker local** (sobre el híbrido con contexto + vigencia, top-30 reordenado; `cross-encoder/mmarco-mMiniLMv2-L12-H384`, multilingüe, 118 M de parámetros):
+
+| Sistema | Pregunta: cita@1 | cita@5 | cita@10 | MRR | Variantes: cita@10 | MRR |
+|---|---|---|---|---|---|---|
+| Híbrido + contexto + vigencia (sin reranker) | — | 0,898 | 0,940 | 0,729 | 0,804 | 0,542 |
+| + reranker mmarco, texto sin contexto | 0,647 | 0,910 | 0,934 | 0,758 | 0,845 | 0,531 |
+| **+ reranker mmarco, texto con contexto** | **0,707** | **0,940** | **0,958** | **0,805** | **0,863** | **0,596** |
+
+Lectura: el reranker sube sobre todo el **orden** (MRR +7,6 puntos, cita@5 +4,2) y las **reformulaciones coloquiales** (+5,9 en cita@10); darle al reranker el contexto de metadatos vuelve a ayudar. Costo: ~13 minutos por 10.000 pares en CPU (≈ 13 pares/s): usable para el top-20/30 de una consulta (~2 s), no para indexar.
+
+**Comparación de rerankers** (solo preguntas originales de `dev`, texto con contexto; el `bge` se midió sin las reformulaciones por su costo):
+
+| Reranker | Parámetros | cita@1 | cita@5 | cita@10 | MRR | Costo en CPU |
+|---|---|---|---|---|---|---|
+| mmarco-mMiniLMv2 (top-30) | 118 M | 0,707 | 0,940 | 0,958 | 0,805 | ≈ 13 pares/s |
+| **bge-reranker-v2-m3 (top-20)** | 568 M | **0,808** | **0,952** | 0,958 | **0,870** | ≈ 1-4 pares/s (2.680 s para 3.340 pares, con otras tareas en paralelo) |
+
+Lectura: el recall@10 es el mismo, pero `bge` pone la cita correcta **en el primer lugar 10 puntos más a menudo** (MRR +6,5). Esa diferencia importa cuando se pasan solo 3-5 fragmentos al generador. En **CPU** es lento para producción (varios segundos por consulta); con **GPU** o una API de rerank es viable. Regla propuesta: `bge-reranker-v2-m3` si hay GPU/servicio de rerank, `mmarco` como alternativa de CPU.
+
+**Paso 4 — abstención por umbral de evidencia** (`dev`: 27 consultas sin respuesta frente a 333 respondibles, incluidas las reformulaciones):
+
+| Señal (antes de generar) | AUROC | Con rechazo falso ≤ 10 % abstiene bien… | Umbral que maximiza la exactitud balanceada |
+|---|---|---|---|
+| Coseno denso del mejor fragmento | 0,826 | 56 % de las sin respuesta | 93 % de abstención correcta, pero **39 % de rechazo falso** |
+| Cobertura léxica de la consulta en el top-3 | 0,776 | 48 % | 70 % / 23 % |
+| Combinada | 0,807 | 48 % | 70 % / 20 % |
+
+Lectura: **un umbral sobre la puntuación de recuperación no basta**: o se deja pasar casi la mitad de lo que no está en el corpus, o se rechaza a un tercio de las consultas respondibles. Para un banco, el error caro es responder lo que no debía, y el umbral conservador (10 % de rechazo falso) deja pasar ~45 % de esos casos. Hace falta un **verificador de suficiencia de evidencia** (clasificador entrenado con el golden set, un modelo NLI o un LLM que juzgue «¿estos fragmentos responden la pregunta?») y, mientras tanto, reglas determinísticas (preguntas sobre datos personales, inyección y asesoría de inversión se detectan por clasificador de intención antes de buscar). Esto entra en la fase 3b/4.
+
+**Paso 5 — análisis de fallos** (híbrido con contexto + vigencia, **antes** del reranker; primer fragmento relevante de cada pregunta de `dev`):
+
+| Dónde aparece | Preguntas (167) | Reformulaciones (168) |
+|---|---|---|
+| Top-10 | 157 (94 %) | 135 (80 %) |
+| Puestos 11-30 (lo puede corregir el reranker) | 5 | 15 |
+| Puestos 31-200 | 1 | 11 |
+| Fuera de los 200 candidatos | 4 | 7 |
+
+Los 4 fallos «duros» de las preguntas originales **no son solo de recuperación**:
+1. **Pregunta temporal sin fecha** («¿Qué instrumento derivado usa…?», fuente: estados financieros de septiembre de 2024): el filtro de vigencia la excluye porque la pregunta no menciona un periodo. Es un **defecto del golden set** (falta precisar el periodo) y, a la vez, una decisión de diseño: sin fecha debe contestarse con el periodo más reciente.
+2. **«¿Cuáles son los valores del Banco?»**: «valores» aparece también en todo el vocabulario bursátil; se necesita el contexto/sinónimos o el denso más fuerte (`bge-m3`).
+3. **Contradicción de tres fuentes** (cajeros, 3 documentos): el multi-salto de 3 fuentes encuentra 2 de 3.
+4. **«Tasas vigentes hoy»**: la única publicación (septiembre de 2026) está vencida y el filtro la oculta. Decisión pendiente para la 3b: **recuperar el documento vencido solo para decir que está vencido** («la última publicación disponible venció el…»), en vez de ocultarlo; hoy el filtro puede producir una respuesta que ignora que no hay tasas vigentes. El detector de intención temporal debe incluir «vigente(s)», «hoy», «actual», «este mes».
+
+### 3.6 Fase 3a: configuración elegida y corrida única en `test`
+
+**Configuración recomendada de recuperación** (`rag-bocc/evaluacion/fase3a/configuracion-elegida.json`):
+1. Fragmentación **estructural** (encabezados, páginas, ≤ 1.500 caracteres, fusión de fragmentos cortos) con **prefijo de contexto** de metadatos (título, tipo, área, segmento, periodo, vigencia) tanto en BM25 como en los embeddings y en el texto que ve el reranker.
+2. **Híbrido BM25 + denso** (`multilingual-e5-small` hoy; comparar `bge-m3`) fusionados con **RRF (k = 60)**, 200 candidatos.
+3. **Filtro de vigencia** con detección de intención temporal, ampliado a «vigente(s)/hoy/actual» (los documentos vencidos solo se recuperan para advertir que lo están).
+4. **Reranker** sobre el top-20/30: `bge-reranker-v2-m3` (GPU o servicio) o `mmarco-mMiniLM` (CPU).
+5. Pasar al generador los 3-5 mejores fragmentos con documento, página y vigencia.
+
+**Corrida única en `test`** (88 preguntas con fuente; **informativa**, no se usó para decidir; el tamaño hace que ±1 pregunta mueva ~1 punto y el intervalo sea de unos ±4-5 puntos):
+
+| Sistema | doc@10 | cita@1 | cita@5 | cita@10 | MRR | Reformulaciones: cita@10 |
+|---|---|---|---|---|---|---|
+| BM25 + contexto | 0,932 | — | 0,841 | 0,875 | 0,690 | 0,716 |
+| Híbrido + contexto + vigencia | 0,943 | — | 0,875 | 0,909 | 0,728 | 0,807 |
+| + reranker `mmarco` (top-30) | 0,989 | 0,648 | 0,943 | **0,966** | 0,778 | no medido |
+| + reranker `bge-reranker-v2-m3` (top-20) | 0,977 | **0,761** | 0,943 | 0,943 | **0,843** | no medido |
+
+Lectura: **el orden de los sistemas se repite entre `dev` y `test`** (BM25 < híbrido < híbrido + reranker; `bge` mejora el primer puesto y el MRR, `mmarco` empata o supera en cita@10 por dos preguntas), así que las conclusiones no parecen un ajuste al `dev`. Las cifras absolutas siguen infladas por el sesgo léxico del golden set y no equivalen a la calidad con clientes reales.
+
+**Lo que 3a NO resolvió** (pasa a 3b/4 o depende de personas):
+- **Generación con citas, fidelidad y abstención verificada** (3b): depende de elegir proveedor/modelo y residencia de datos; el umbral de recuperación por sí solo no detecta bien lo que no está en el corpus (sección 3.5, paso 4).
+- **Mini-benchmark de parsing de tablas financieras y de capturas** (OCR/VLM): no se hizo; la recuperación sobre tablas depende de él.
+- **Embeddings más fuertes** (`bge-m3`), más lentos en CPU, y **ajuste fino** de embeddings con pares sintéticos: candidatos de la fase 4.
+- **Consultas reales** (call center, PQRS) para medir el efecto del sesgo léxico.
+- **Validación experta** del golden set (oro) antes de usar `test` para decidir.
+
 ---
 
 ## 4. Arquitectura y decisiones de diseño (cambios sobre la v1)
@@ -347,10 +448,18 @@ _Salida:_ inventario con estado/vigencia por documento; lista de huecos restante
 - Montar Langfuse/Phoenix + RAGAS/DeepEval en CI con **canarios**.
 _Salida:_ `golden.jsonl` versionado, métricas definidas y tablero base.
 
-**Fase 3 — Línea base y parsing (semanas 4-6)**
-- Mini-benchmark de parsing (30-50 páginas: tarifas, estados financieros, instructivos con capturas, escaneados) y elección de herramienta.
-- RAG base: chunking estructural + híbrido (BM25+denso) + reranker + filtro de vigencia + citas obligatorias + abstención.
-- Medir en `dev` por segmento y tipo; fijar umbrales de la sección 2.4.
+**Fase 3 — Línea base y parsing (semanas 4-6) — _3a (solo recuperación, sin LLM externo) HECHA el 2026-10-02 (`feature/fase3a-recuperacion`); 3b (generación, citas, juez) bloqueada hasta decidir proveedor/residencia de datos; mini-benchmark de parsing pendiente_**
+**Checklist Fase 3a (solo recuperación; se mide en `dev`)**
+- ☑ Fragmentación comparada con BM25: fija (1.100 car.), estructural (encabezados/páginas, ≤ 1.500) y estructural + contexto de metadatos.
+- ☑ Embeddings multilingües locales (`multilingual-e5-small`, CPU; `bge-m3` queda para comparar con la configuración ganadora) y búsqueda densa exacta (NumPy, sin base vectorial).
+- ☑ Híbrido BM25 + denso con RRF.
+- ☑ Reranker multilingüe local: `mmarco-mMiniLM` y `bge-reranker-v2-m3` medidos en `dev` (ver 3.5).
+- ☑ Filtro de vigencia con detección de intención temporal (`pipeline/fase3a/vigencia.py`).
+- ☑ Abstención por umbral de evidencia (`pipeline/11_fase3a_abstencion.py`): medida; **insuficiente por sí sola** (AUROC 0,83); pasa a la 3b con verificador de suficiencia.
+- ☑ Informe de fallos clasificados (`pipeline/12_fase3a_fallos.py`) y configuración elegida (ver 3.6).
+- ☑ Una única corrida en `test` con la configuración elegida (informativa; ver 3.6).
+- ☐ _Fase 3b:_ generación con citas, fidelidad y juez (bloqueada por proveedor/residencia de datos).
+- ☐ _Pendiente de otra fase:_ mini-benchmark de parsing (30-50 páginas difíciles) y elección de herramienta.
 _Salida:_ informe de línea base con fallos clasificados (retrieval vs generación).
 
 **Fase 4 — Mejora dirigida por errores (semanas 6-10)**

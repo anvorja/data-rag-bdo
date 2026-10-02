@@ -1,0 +1,48 @@
+{
+ "version": "fase3a-1",
+ "fecha": "2026-10-02",
+ "fragmentacion": {
+  "modo": "estructural",
+  "max_caracteres": 1500,
+  "min_caracteres": 350,
+  "contexto": "titulo|tipo_doc|area|segmento|periodo|vigencia"
+ },
+ "lexico": {
+  "motor": "BM25 propio",
+  "k1": 1.5,
+  "b": 0.75,
+  "texto": "contexto+texto"
+ },
+ "denso": {
+  "modelo": "intfloat/multilingual-e5-small",
+  "dim": 384,
+  "busqueda": "exacta (NumPy)",
+  "max_seq": 384,
+  "prefijos": [
+   "query: ",
+   "passage: "
+  ]
+ },
+ "fusion": {
+  "metodo": "RRF",
+  "k": 60,
+  "candidatos": 200
+ },
+ "vigencia": {
+  "filtro": "excluye vencido|historico salvo intencion temporal",
+  "pendiente": "incluir vigente/hoy/actual y recuperar vencidos solo para advertir"
+ },
+ "reranker": {
+  "preferido": "BAAI/bge-reranker-v2-m3 (top-20, GPU o servicio)",
+  "alternativa_cpu": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1 (top-30)",
+  "texto_entrada": "contexto+texto"
+ },
+ "abstencion": {
+  "estado": "insuficiente con umbral de recuperacion (AUROC 0.83); requiere verificador de suficiencia en 3b"
+ },
+ "evaluacion": {
+  "set": "golden-v0 (plata, sin validacion experta)",
+  "decision": "dev",
+  "test": "una corrida informativa"
+ }
+}

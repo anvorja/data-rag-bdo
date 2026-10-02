@@ -1,0 +1,3 @@
+# Experimentos de recuperación (fase 3a). Instalar en un entorno aparte: python -m venv --system-site-packages .venv && .venv/bin/pip install -r requirements-ml.txt
+sentence-transformers>=3.0
+numpy>=1.26

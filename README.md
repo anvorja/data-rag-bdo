@@ -14,6 +14,7 @@ Insumos para un asesor virtual bancario (RAG) con la documentación **pública**
 ## Estado
 
 - Fase 0-1 (corpus, rastreo, auditoría automática): hecha (2026-10-01). Pendiente la revisión humana de la muestra.
+- Fase 3a (recuperación, sin LLM): configuración recomendada = fragmentación estructural + contexto, híbrido BM25+denso (RRF), filtro de vigencia y reranker (`rag-bocc/evaluacion/fase3a/`). Pendiente 3b (generación, requiere proveedor) y parsing de tablas.
 - Fase 2 (golden set v0): 290 pares plata con partición de prueba congelada (`rag-bocc/golden/`). Pendiente la validación por expertos para obtener el oro.
 
 ## Uso

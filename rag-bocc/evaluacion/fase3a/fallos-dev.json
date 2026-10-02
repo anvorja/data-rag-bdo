@@ -1,0 +1,214 @@
+{
+ "resumen": {
+  "ambigua|pregunta": {
+   "top10": 1
+  },
+  "ambigua|variante": {
+   "top10": 1
+  },
+  "comparativa|pregunta": {
+   "top10": 2,
+   "11-30": 1
+  },
+  "comparativa|variante": {
+   "top10": 2,
+   "fuera_de_200": 1
+  },
+  "factual|pregunta": {
+   "top10": 86,
+   "fuera_de_200": 2,
+   "11-30": 2,
+   "31-200": 1
+  },
+  "factual|variante": {
+   "top10": 74,
+   "31-200": 4,
+   "11-30": 9,
+   "fuera_de_200": 5
+  },
+  "multi_salto|pregunta": {
+   "top10": 1,
+   "fuera_de_200": 1
+  },
+  "multi_salto|variante": {
+   "31-200": 2
+  },
+  "numerica_tabla|pregunta": {
+   "top10": 41
+  },
+  "numerica_tabla|variante": {
+   "top10": 37,
+   "11-30": 3,
+   "31-200": 1
+  },
+  "premisa_falsa|pregunta": {
+   "top10": 5,
+   "11-30": 1
+  },
+  "premisa_falsa|variante": {
+   "top10": 4,
+   "31-200": 2
+  },
+  "regulatoria|pregunta": {
+   "top10": 8
+  },
+  "regulatoria|variante": {
+   "top10": 6,
+   "11-30": 1,
+   "31-200": 1
+  },
+  "temporal|pregunta": {
+   "11-30": 1,
+   "top10": 13,
+   "fuera_de_200": 1
+  },
+  "temporal|variante": {
+   "11-30": 2,
+   "top10": 11,
+   "31-200": 1,
+   "fuera_de_200": 1
+  },
+  "todos|pregunta": {
+   "top10": 157,
+   "11-30": 5,
+   "fuera_de_200": 4,
+   "31-200": 1
+  },
+  "todos|variante": {
+   "top10": 135,
+   "31-200": 11,
+   "11-30": 15,
+   "fuera_de_200": 7
+  }
+ },
+ "fallos_pregunta": [
+  {
+   "id": "G-8cb3e03b",
+   "tipo": "temporal",
+   "categoria": "11-30",
+   "pregunta": "¿Cambió la tasa de libre inversión del préstamo personal en Cuenta Activa entre mayo de 2025 y septiembre de 2026?",
+   "rangos": [
+    4,
+    15
+   ],
+   "docs": [
+    "880",
+    "097"
+   ]
+  },
+  {
+   "id": "G-8ba7af77",
+   "tipo": "factual",
+   "categoria": "fuera_de_200",
+   "pregunta": "¿Qué instrumento derivado usa el Banco de Occidente para cubrir el valor razonable de sus préstamos a tasa fija?",
+   "rangos": [
+    null
+   ],
+   "docs": [
+    "630"
+   ]
+  },
+  {
+   "id": "G-0c069f18",
+   "tipo": "comparativa",
+   "categoria": "11-30",
+   "pregunta": "¿El crédito de moto financia más o menos que el de vehículo liviano Occiauto?",
+   "rangos": [
+    1,
+    29
+   ],
+   "docs": [
+    "151",
+    "149"
+   ]
+  },
+  {
+   "id": "G-0c1fd6e8",
+   "tipo": "factual",
+   "categoria": "11-30",
+   "pregunta": "Según el contenido de compra de cartera, ¿qué tipo de saldos se recogen de créditos del propio Banco de Occidente?",
+   "rangos": [
+    13
+   ],
+   "docs": [
+    "288"
+   ]
+  },
+  {
+   "id": "G-ddaa60a3",
+   "tipo": "factual",
+   "categoria": "11-30",
+   "pregunta": "Según la presentación general del banco, ¿cuántas millas acumulan hasta por compras las tarjetas LATAM Pass?",
+   "rangos": [
+    24
+   ],
+   "docs": [
+    "487"
+   ]
+  },
+  {
+   "id": "G-88a4c580",
+   "tipo": "factual",
+   "categoria": "fuera_de_200",
+   "pregunta": "¿Cuáles son los valores del Banco de Occidente?",
+   "rangos": [
+    null
+   ],
+   "docs": [
+    "332"
+   ]
+  },
+  {
+   "id": "G-ce487f00",
+   "tipo": "factual",
+   "categoria": "31-200",
+   "pregunta": "¿Durante cuánto tiempo no se cobra cuota de manejo en la cuenta de ahorros?",
+   "rangos": [
+    34
+   ],
+   "docs": [
+    "235"
+   ]
+  },
+  {
+   "id": "G-728e591b",
+   "tipo": "multi_salto",
+   "categoria": "fuera_de_200",
+   "pregunta": "¿En cuántos cajeros automáticos puedo retirar con mi tarjeta débito del Banco de Occidente?",
+   "rangos": [
+    7,
+    40,
+    null
+   ],
+   "docs": [
+    "324",
+    "235",
+    "276"
+   ]
+  },
+  {
+   "id": "G-e5f0d4f7",
+   "tipo": "premisa_falsa",
+   "categoria": "11-30",
+   "pregunta": "¿Por qué Occiauto solo financia hasta el 50% del valor del vehículo?",
+   "rangos": [
+    12
+   ],
+   "docs": [
+    "149"
+   ]
+  },
+  {
+   "id": "G-07dd3684",
+   "tipo": "temporal",
+   "categoria": "fuera_de_200",
+   "pregunta": "¿Cuáles son las tasas vigentes hoy del préstamo personal de Cuenta Activa?",
+   "rangos": [
+    null
+   ],
+   "docs": [
+    "097"
+   ]
+  }
+ ]
+}
