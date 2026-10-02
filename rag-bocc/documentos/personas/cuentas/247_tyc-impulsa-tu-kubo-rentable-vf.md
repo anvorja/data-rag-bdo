@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vencido
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-02-17
+vigente_hasta: 2026-06-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 14223
 paginas: 6
 hash_contenido: 2b6765656c13bab5
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -6,7 +6,7 @@ tipo_doc: terminos_condiciones
 area: pagos_recaudos_canales
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: sujeta_a_existencias
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 10939
 paginas: 5
 hash_contenido: 211a9eb313aaf52d
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

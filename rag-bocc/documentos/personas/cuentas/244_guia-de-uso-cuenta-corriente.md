@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2023
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 3509
 paginas: 19
 hash_contenido: 2b13d45b1afb4da4
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

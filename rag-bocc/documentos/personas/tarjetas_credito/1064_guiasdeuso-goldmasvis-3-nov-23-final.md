@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 34448
 paginas: 25
 hash_contenido: ca0b80261292948b
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

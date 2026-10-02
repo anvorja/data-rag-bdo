@@ -6,7 +6,7 @@ tipo_doc: estudio_economico
 area: estudios_economicos
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 15405
 paginas: 3
 hash_contenido: 75761406652d16cd
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

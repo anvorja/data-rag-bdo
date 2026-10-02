@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 114853
 paginas: null
 hash_contenido: bff973461c7b8320
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vencido
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-07-27
+vigente_hasta: 2026-09-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 11115
 paginas: 6
 hash_contenido: 53f5379f421b8f0e
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -6,7 +6,7 @@ tipo_doc: terminos_condiciones
 area: otros
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,7 +21,9 @@ caracteres: 1722
 paginas: 1
 hash_contenido: 19ceb6e2e710162a
 lote: "crawl2-documentos"
-indexar: true
+vigencia_validada: true
+indexar: false
+motivo_no_indexar: [contenido_sensible]
 flags: [sin_fecha]
 ---
 

@@ -10,6 +10,18 @@ Registro fechado. Lo que no está confirmado figura como **pendiente**. Última 
 - **Versionamiento obligatorio** (exigido por los directores): al recapturar una URL «viva», la versión anterior se conserva como histórica con su fecha de fin; nunca se sobrescribe.
 - Campañas con fecha de fin cumplida quedan `vencido`; el ingeniero del RAG las actualiza con las siguientes.
 
+## Estados de vigencia (tras validar los 164 «por verificar», 2026-10-02)
+| Estado | Significado | Comportamiento del asistente |
+|---|---|---|
+| `vigente` | Vigente, con fecha de fin o sin vencimiento | Responde normalmente |
+| `vigente_hasta_reemplazo` | Tasas del último mes publicado (docs 097 y 230) | Responde, indicando hasta qué fecha llegaba y que se actualiza cada mes |
+| `sujeta_a_existencias` | Campaña sin fecha de fin que termina al agotarse el cupo (docs 927 y 947) | No la presenta como activa sin avisar: depende de disponibilidad y de lo que comunique el banco |
+| `vencido` | Fecha de fin cumplida | Solo se recupera si se pregunta por ese periodo; responde con la fecha |
+| `historico` | Versión anterior reemplazada (p. ej. tarifas antiguas, tasas de meses pasados) | Igual que `vencido` |
+Resultado: 135 vigentes, 24 vencidos, 3 históricos (884, 892, 1066) y 2 sujetos a existencias entre los 164; más 097/230 como «vigente hasta reemplazo». Ya no queda ningún documento «por verificar».
+`rag-bocc/vigencia/decisiones.jsonl` se aplica con `pipeline/05_escribir_y_auditar.py` (manda la última decisión por id) y los documentos validados llevan `vigencia_validada: true`.
+El doc 806 (carta de Comware con la cédula de una persona) quedó **fuera del índice** (`motivo_no_indexar: contenido_sensible`). Indexables: 957.
+
 ## Autoridad de las fuentes
 - Si dos fuentes se contradicen, **manda el PDF oficial** sobre la página web. Cada inconsistencia genera una **alerta al ingeniero del RAG**.
 - Responsable por tipo de contenido (campañas, tasas, contratos, seguros, sostenibilidad): las directivas confirman que se requiere un contacto por área. **Pendiente:** nombres/contactos.

@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: cumplimiento_riesgos
 segmento: inversionistas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -23,6 +23,7 @@ hash_contenido: 6309f7e350f046d1
 lote: "crawl2-documentos"
 casi_duplicado_de: 059
 similitud: 0.91
+vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]
 ---

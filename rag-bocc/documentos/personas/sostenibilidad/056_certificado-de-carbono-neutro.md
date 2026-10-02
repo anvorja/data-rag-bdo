@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: sostenibilidad
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2027
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 2406
 paginas: 2
 hash_contenido: 9004dd47941ae11d
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

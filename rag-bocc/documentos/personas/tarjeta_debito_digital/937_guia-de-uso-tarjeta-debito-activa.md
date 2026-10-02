@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: tarjeta_debito_digital
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 14422
 paginas: 15
 hash_contenido: 068f781f5c0a53c3
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, sin_fecha]
 ---

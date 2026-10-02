@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2020
 periodo_fin: null
 vigente_desde: null
@@ -23,6 +23,7 @@ hash_contenido: 6b9a78ecddf6ac6d
 lote: "crawl2-documentos"
 casi_duplicado_de: 112
 similitud: 0.92
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, casi_duplicado]
 ---

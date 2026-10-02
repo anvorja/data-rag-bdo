@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: leasing_empresas
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 112330
 paginas: 21
 hash_contenido: 919ef6d1c488e216
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -28,7 +28,7 @@ Actualizado 2026-10-02. Resume qué está resuelto en el corpus (fase 1) y qué 
 | Estado: vigente / histórico / por verificar / periodo reciente / vencido | 620 / 166 / 164 / 5 / 3 |
 
 Las etiquetas de fecha **sí existen, pero son heurísticas** (se infieren del título, el texto y el nombre del archivo) y están incompletas:
-164 documentos quedan «por verificar» (entre ellos el T&C de la campaña de ejemplo: año 2026, sin fechas de vigencia). El filtro de vigencia del recuperador
+164 documentos quedaron inicialmente «por verificar»; **ya están todos validados** (ver `DECISIONES.md`). Ejemplo: el T&C de la campaña de ejemplo (doc 033) vigente del 1-ago-2026 al 31-oct-2026. El filtro de vigencia del recuperador
 usa estas etiquetas, así que un error aquí se propaga a las respuestas sobre tasas, campañas y plazos.
 
 ## Límites conocidos (no ocultar)

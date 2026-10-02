@@ -6,10 +6,10 @@ tipo_doc: guia_de_uso
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
-vigente_desde: 2023-01-01
+vigente_desde: null
 vigente_hasta: null
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
@@ -21,6 +21,7 @@ caracteres: 70602
 paginas: 40
 hash_contenido: 5b1184e30a7b8673
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

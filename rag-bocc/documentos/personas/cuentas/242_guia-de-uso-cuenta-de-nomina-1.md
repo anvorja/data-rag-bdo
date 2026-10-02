@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2022
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 17285
 paginas: 19
 hash_contenido: 4263687059968757
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

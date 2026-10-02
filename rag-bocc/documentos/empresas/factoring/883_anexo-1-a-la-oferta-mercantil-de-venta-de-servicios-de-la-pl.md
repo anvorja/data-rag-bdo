@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: factoring
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 5714
 paginas: 3
 hash_contenido: 7d75635e39d4f511
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

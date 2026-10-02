@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: otros
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-01-15
+vigente_hasta: 2026-12-31
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "portalpublico.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 7949
 paginas: 3
 hash_contenido: 53a92531acaa63bf
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

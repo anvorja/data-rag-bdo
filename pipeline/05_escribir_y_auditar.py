@@ -22,6 +22,17 @@ for r in rows:
     if r['idioma'] == 'en': mot.append('ingles')
     r['indexar'] = not mot; r['motivo_no_indexar'] = mot
 
+# ---- decisiones de vigencia validadas por una persona (rag-bocc/vigencia/decisiones.jsonl); si un id aparece varias veces manda la última ----
+dec = {}
+if os.path.exists(OUT + 'vigencia/decisiones.jsonl'):
+    for l in open(OUT + 'vigencia/decisiones.jsonl'):
+        x = json.loads(l); dec[x['id']] = x
+for r in rows:
+    x = dec.get(r['id'])
+    if not x: continue
+    r['estado_vigencia'] = x['estado']; r['vigente_desde'] = x.get('vigente_desde'); r['vigente_hasta'] = x.get('vigente_hasta'); r['vigencia_validada'] = True
+    if x.get('accion') == 'no_indexar': r['indexar'] = False; r['motivo_no_indexar'] = list(r['motivo_no_indexar']) + ['contenido_sensible']
+
 # ---- reorganizar arbol: documentos/<segmento>/<area>/NNN_slug.md ----
 shutil.rmtree(OUT + 'documentos', ignore_errors=True)
 for r in rows:
@@ -43,6 +54,7 @@ for r in rows:
            f"hash_contenido: {r['hash_contenido'] or 'null'}", f"lote: {yq(r.get('lote', 'lote1'))}"]
     if r['duplicado_de']: fm.append(f"duplicado_de: {r['duplicado_de']}")
     if r['casi_duplicado_de']: fm += [f"casi_duplicado_de: {r['casi_duplicado_de']}", f"similitud: {r['similitud']}"]
+    if r.get('vigencia_validada'): fm.append('vigencia_validada: true')
     fm.append(f"indexar: {str(r['indexar']).lower()}")
     if r['motivo_no_indexar']: fm.append('motivo_no_indexar: [' + ', '.join(r['motivo_no_indexar']) + ']')
     fm.append('flags: [' + ', '.join(r['flags']) + ']')
@@ -58,7 +70,7 @@ with open(OUT + 'corpus.jsonl', 'w') as jl:
 idx = []
 for r in rows:
     idx.append({k: r.get(k) for k in ('id', 'url', 'titulo', 'tipo_contenido', 'fuente', 'archivo', 'nota', 'tipo_doc', 'area', 'segmento', 'idioma', 'estado_vigencia', 'anio_documento',
-                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar')}
+                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar', 'vigencia_validada')}
                | {'caracteres': len(r['texto']), 'etiquetas_origen': r['etiquetas_origen']})
 json.dump(idx, open(OUT + 'indice.json', 'w'), ensure_ascii=False, indent=1)
 

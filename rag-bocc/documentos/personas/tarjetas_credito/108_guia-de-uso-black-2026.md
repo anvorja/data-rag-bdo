@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 32824
 paginas: 20
 hash_contenido: b8ebe94e66ef7c7b
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

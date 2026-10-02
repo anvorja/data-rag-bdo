@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: inversion
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 3600
 paginas: null
 hash_contenido: e853b9fe40a04c2c
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

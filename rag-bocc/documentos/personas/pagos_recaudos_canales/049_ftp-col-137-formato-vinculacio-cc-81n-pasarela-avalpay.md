@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: pagos_recaudos_canales
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 28682
 paginas: 10
 hash_contenido: b3e9ace06e3f73b3
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

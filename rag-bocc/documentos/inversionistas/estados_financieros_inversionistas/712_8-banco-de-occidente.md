@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: estados_financieros_inversionistas
 segmento: inversionistas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2022
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 1877
 paginas: 1
 hash_contenido: e63a7f0922f3f6c9
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [ocr]
 ---

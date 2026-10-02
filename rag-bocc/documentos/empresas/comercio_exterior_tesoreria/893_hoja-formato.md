@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: comercio_exterior_tesoreria
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2024
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 1661
 paginas: null
 hash_contenido: a15970dbbfea9cce
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

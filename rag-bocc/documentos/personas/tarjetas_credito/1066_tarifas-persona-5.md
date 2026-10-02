@@ -6,7 +6,7 @@ tipo_doc: tarifas_tasas
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 86570
 paginas: 17
 hash_contenido: 4de281633a75a671
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

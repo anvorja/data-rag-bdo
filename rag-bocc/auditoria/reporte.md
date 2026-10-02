@@ -72,11 +72,13 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 
 | estado_vigencia | docs |
 |---|---|
-| vigente | 689 |
-| historico | 241 |
-| por_verificar | 227 |
+| vigente | 824 |
+| historico | 244 |
+| por_verificar | 63 |
+| vencido | 25 |
 | periodo_reciente | 15 |
-| vencido | 3 |
+| vigente_hasta_reemplazo | 2 |
+| sujeta_a_existencias | 2 |
 
 ## Alertas
 
@@ -99,13 +101,35 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | vigencia_vencida | 3 | el propio documento declara una vigencia ya terminada |
 | muy_corto | 2 | < 200 caracteres |
 
-**Indexables por defecto: 958 de 1175** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=119, ingles=73, sin_contenido_util=17, casi_duplicado=12.
+**Indexables por defecto: 957 de 1175** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=119, ingles=73, sin_contenido_util=17, casi_duplicado=12, contenido_sensible=1.
 
 ## Hallazgos con impacto en el diseño
 
-- **Vigencia vencida:** id 097 «tasas personas bdo» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 037 «TÉRMINOS Y CONDICIONES CAMPAÑA CONECTA AVAL   NACIONAL VF» declara vigencia hasta 2026-08-04 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 050 «Terminos y condiciones campana de gamificacion (1)» declara vigencia hasta 2024-12-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 099 «Términos y Condiciones   Embajadores Unicef 2026» declara vigencia hasta 2026-10-01 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 100 «Términos y Condiciones   Activa tu TC Unicef y conviértete en embajador 2026» declara vigencia hasta 2026-09-01 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
 - **Vigencia vencida:** id 145 «tasas personas 2025 9» declara vigencia hasta 2025-12-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 182 «TyC Primas Junio (2)» declara vigencia hasta 2026-06-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 183 «TyC   Campaña Intereses no reclamados CDT Junio 2025» declara vigencia hasta 2025-06-17 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 247 «TyC Impulsa tu KUBO Rentable VF» declara vigencia hasta 2026-06-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 729 «tyc tasa 0 exito» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 730 «tyc alfa septiembre» declara vigencia hasta 2026-09-27 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 731 «tyc tasa 0 dafiti» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 733 «tyc arturo calle 1» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 734 «tyc tasa 0 exito a junio» declara vigencia hasta 2026-06-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 735 «tyc ollas y sartenes» declara vigencia hasta 2026-06-15 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 737 «tyc tasa 0 despegar» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 738 «tyc price travel septiembre» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
 - **Vigencia vencida:** id 880 «tasas personas 2025» declara vigencia hasta 2025-05-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 926 «Términos y Condiciones de la campaña Credencial LATAM» declara vigencia hasta 2025-12-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 940 «Términos y condiciones Campaña» declara vigencia hasta 2026-09-30 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 943 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA “TERCERA CAMPAÑA SOMBRILLA – DUPLICA» declara vigencia hasta 2025-10-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 944 «Términos y Condiciones campaña cuenta de ahorros jóvenes – 16 de» declara vigencia hasta 2026-03-16 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 945 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA “Banca Diplomática» declara vigencia hasta 2025-10-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 946 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA “ABRE TU CUENTA NÓMINA Y» declara vigencia hasta 2025-12-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 956 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA» declara vigencia hasta 2025-07-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
+- **Vigencia vencida:** id 1115 «tyc campana q3» declara vigencia hasta 2025-10-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
 - **Sin fecha detectable:** 45 documentos de tarifas/T&C/guías/informes (lista en `auditoria.csv`, filtrar alerta `sin_fecha`).
 
 ## Archivos

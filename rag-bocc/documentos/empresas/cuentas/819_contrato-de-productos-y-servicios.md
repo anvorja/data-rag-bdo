@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: cuentas
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 223789
 paginas: 11
 hash_contenido: 26d6c25d84db5d71
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -6,7 +6,7 @@ tipo_doc: terminos_condiciones
 area: tarjeta_debito_digital
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 16935
 paginas: 6
 hash_contenido: 4f3b6fc7daa8ed5e
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

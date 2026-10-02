@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: creditos_vehiculo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2025
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 58560
 paginas: 21
 hash_contenido: 9edb67afa2f74e37
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

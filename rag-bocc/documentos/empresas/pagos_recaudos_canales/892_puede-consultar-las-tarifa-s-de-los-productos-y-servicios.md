@@ -6,7 +6,7 @@ tipo_doc: tarifas_tasas
 area: pagos_recaudos_canales
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 68900
 paginas: 29
 hash_contenido: d3018aaf4dc6b196
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---
