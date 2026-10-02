@@ -1,0 +1,15 @@
+{"id":"033","vigente_desde":"2026-08-01","vigente_hasta":"2026-10-31","estado":"vigente","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"182","vigente_desde":"2026-06-01","vigente_hasta":"2026-06-30","estado":"vencido","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"246","vigente_desde":"2026-08-01","vigente_hasta":"2026-12-31","estado":"vigente","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"247","vigente_desde":"2026-02-17","vigente_hasta":"2026-06-30","estado":"vencido","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"731","vigente_desde":"2026-08-05","vigente_hasta":"2026-09-30","estado":"vencido","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"732","vigente_desde":"2026-01-01","vigente_hasta":"2026-12-31","estado":"vigente","fuente":"texto del documento","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"227","vigente_hasta":"2026-12-31","estado":"vigente","fuente":"expertos del banco (2026-10-02): las tarifas vencen el 31-dic-2026","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"228","vigente_hasta":"2026-12-31","estado":"vigente","fuente":"expertos del banco (2026-10-02): las tarifas vencen el 31-dic-2026","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id":"230","vigente_desde":"2026-09-01","vigente_hasta":"2026-09-30","estado":"vencido","fuente":"texto del documento; la web ya publica octubre, falta recapturar","validado_por":"anvorja","fecha_validacion":"2026-10-02"}
+{"id": "737", "vigente_desde": "2026-09-01", "vigente_hasta": "2026-09-30", "estado": "vencido", "fuente": "texto del documento", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}
+{"id": "738", "vigente_desde": "2026-09-01", "vigente_hasta": "2026-09-30", "estado": "vencido", "fuente": "texto del documento", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}
+{"id": "739", "vigente_desde": "2026-07-01", "vigente_hasta": "2026-12-31", "estado": "vigente", "fuente": "texto del documento", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}
+{"id": "740", "vigente_desde": "2026-07-03", "vigente_hasta": "2026-12-31", "estado": "vigente", "fuente": "texto del documento", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}
+{"id": "884", "vigente_desde": "2026-04-01", "vigente_hasta": "2026-04-30", "estado": "historico", "fuente": "texto del documento; versión anterior de la tasa mensual", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}
+{"id": "940", "vigente_desde": "2026-09-01", "vigente_hasta": "2026-09-30", "estado": "vencido", "fuente": "texto del documento", "validado_por": "anvorja", "fecha_validacion": "2026-10-02"}

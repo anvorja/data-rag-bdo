@@ -1,0 +1,50 @@
+"""Fase 3a-bis · paso 3: híbrido + vigencia + reranker bge (top-20, con contexto) para cada modelo de embeddings elegido.
+Los pares (consulta, fragmento) puntuados por el reranker se comparten entre modelos (caché), así no se repite trabajo.
+Uso: python 15_embeddings_con_reranker.py --modelos voyage-context-4 voyage-4-large [--split dev]
+Salida: rag-bocc/evaluacion/fase3a/embeddings-reranker-<split>.json
+"""
+import argparse, json, os, sys, time
+import numpy as np
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'fase3a'))
+from chunking import chunk_corpus
+from retrieval import BM25, rrf
+from evaluar import Evaluador, cargar_golden
+from vigencia import doc_ok
+
+ap = argparse.ArgumentParser(); ap.add_argument('--modelos', nargs='+', required=True); ap.add_argument('--split', default='dev'); ap.add_argument('--topk', type=int, default=20)
+args = ap.parse_args()
+B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
+rows = [json.loads(l) for l in open(B + 'rag-bocc/corpus.jsonl')]
+est = {r['id']: r['estado_vigencia'] for r in rows}
+gold = cargar_golden(B, args.split)
+ch = chunk_corpus(rows, 'estructural'); ids = [c['cid'] for c in ch]
+ev = Evaluador(ch, gold)
+bm1 = BM25([c['ctx'] + '\n' + c['texto'] for c in ch])
+from sentence_transformers import CrossEncoder
+ce = CrossEncoder('BAAI/bge-reranker-v2-m3', device='cpu', max_length=512)
+par = {}
+def puntuar(q, cand):
+    falta = [i for i in cand if (q, i) not in par]
+    if falta:
+        sc = ce.predict([(q, ch[i]['ctx'] + '\n' + ch[i]['texto']) for i in falta], batch_size=16, show_progress_bar=False)
+        for i, s in zip(falta, sc): par[(q, i)] = float(s)
+    return sorted(((i, par[(q, i)]) for i in cand), key=lambda x: -x[1])
+res = {}
+for m in args.modelos:
+    z = np.load(B + f'_raw/emb/q__{m}.npz', allow_pickle=True); Q = dict(zip(z['textos'].tolist(), z['emb']))
+    fn = B + f'_raw/emb/{m}__estructural__ctx1.npy'
+    assert json.load(open(fn.replace('.npy', '.ids.json'))) == ids
+    E = np.load(fn); cd = {}; cr = {}
+    def den(q):
+        if q not in cd:
+            s = E @ Q[q]; top = np.argpartition(-s, 199)[:200]; top = top[np.argsort(-s[top])]; cd[q] = [(int(i), float(s[i])) for i in top]
+        return cd[q]
+    def f(q):
+        if q not in cr:
+            base = [(i, s) for i, s in rrf([bm1.search(q, 200), den(q)], top=200) if doc_ok(est[ch[i]['doc']], q)][:args.topk]
+            cr[q] = puntuar(q, [i for i, _ in base])
+        return cr[q]
+    t = time.time(); r = ev.evaluar(f); res[m] = r
+    a, v = r['todos|pregunta'], r['todos|variante']
+    print(f"{m:20s} +bge top{args.topk}  doc@10 {a['doc@10']:.3f} cita@1 {a['cita@1']:.3f} cita@5 {a['cita@5']:.3f} cita@10 {a['cita@10']:.3f} mrr {a['mrr']:.3f} | var cita@1 {v['cita@1']:.3f} cita@10 {v['cita@10']:.3f} mrr {v['mrr']:.3f} ({time.time()-t:.0f}s)", flush=True)
+    json.dump(res, open(B + f'rag-bocc/evaluacion/fase3a/embeddings-reranker-{args.split}.json', 'w'), ensure_ascii=False, indent=1)
