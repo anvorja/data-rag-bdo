@@ -1,0 +1,30 @@
+# Datos pesados / regenerables (guardar fuera de git; ver pipeline/README.md)
+_raw/
+rag-bocc/corpus.jsonl
+rag-bocc.bak*/
+.playwright-mcp/
+
+# Secretos y entorno (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+secrets/
+
+# Python / herramientas
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+.pytest_cache/
+
+# Originales descargados
+*.dat
+
+# Archivos del entorno de trabajo local (no son parte del producto)
+/nota_importante.txt
+/GitFlow_CICD.md
+/rulesets/
+.DS_Store
