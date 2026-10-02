@@ -12,6 +12,8 @@ Orden de ejecución (desde la raíz del repositorio; `RAG_BASE` es opcional):
 | 5 | `05_escribir_y_auditar.py` | Reescribe `documentos/<segmento>/<área>/`, `indice.json`, `corpus.jsonl` y `auditoria/` |
 | 6 | `16_vigencia_propuesta.py` | Propone vigencias leyendo fechas del texto (`vigencia/propuesta.jsonl`); las decisiones humanas van en `vigencia/decisiones.jsonl` y las aplica el paso 5 |
 | 7 | `17_recaptura.py` | Recaptura de documentos «vivos» (tarifas y tasas) **con versionamiento**: la versión anterior queda `historico`, la nueva enlaza con `version_de`. Luego ejecutar el paso 5 |
+| 8 | `18_organizar_embeddings.py` | Migra los embeddings al formato por subcarpetas con hashes (una sola vez) |
+| 9 | `19_relaciones.py` | Tabla página → documentos (`rag-bocc/relaciones.jsonl`) desde los enlaces del texto y el grafo del rastreo |
 | – | `validate.py` | Validaciones de CI |
 
 Requisitos del sistema: `poppler-utils` (`pdftotext`, `pdfinfo`, `pdfimages`, `pdftoppm`), `tesseract-ocr` + datos `spa`, Python 3.12, `lxml`.

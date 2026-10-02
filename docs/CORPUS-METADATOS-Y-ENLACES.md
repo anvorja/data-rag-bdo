@@ -15,8 +15,14 @@ Actualizado 2026-10-02. Resume qué está resuelto en el corpus (fase 1) y qué 
 - Cada fragmento conserva el `doc` del que sale, y de ahí se obtiene la URL, la página del PDF (cuando la hay) y el título.
   **Por ahora la URL no viaja dentro del índice de fragmentos: se une por `doc` al responder.** Es trivial, pero hay que hacerlo explícito en la fase 3b.
 - Por eso el escenario «te respondo y además te paso el PDF oficial» es **posible con lo que hay**: la respuesta cita el documento fuente con su URL.
-  Lo que **no existe todavía** es una tabla de relaciones «página ↔ documentos que ofrece» (la página de la campaña ↔ su PDF de T&C).
-  Parte de esa información está dentro del texto: 146 documentos conservan enlaces Markdown a PDFs u otros documentos; el resto no.
+  La tabla de relaciones «página ↔ documentos que ofrece» ya existe (ver abajo).
+
+## Tabla de relaciones página → documentos (hecha)
+`rag-bocc/relaciones.jsonl` (generada por `pipeline/19_relaciones.py`) une cada página con los documentos que ofrece, combinando los enlaces del texto y el grafo del rastreo
+(el botón de descarga muchas veces no quedó como enlace en el texto). Ejemplo: la página «Independientes» (doc 032) → T&C de la campaña (doc 033).
+Cada fila lleva `destino_url` y `destino_id`; si el destino es un documento «vivo» con varias versiones, apunta a la versión vigente y lista las demás en `versiones_destino`.
+Tipos: `ofrece_documento`, `enlace_pagina`, `navegacion` (menús y pies de página), `externo`, `fuera_del_corpus`. Detalle en `rag-bocc/relaciones-resumen.md`;
+documentos que el banco enlaza y no tenemos: `rag-bocc/relaciones-sin-destino.csv`.
 
 ## Cobertura de fechas y vigencia (958 documentos indexables)
 | Campo | Con valor |
