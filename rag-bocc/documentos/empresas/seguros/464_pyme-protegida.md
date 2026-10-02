@@ -1,0 +1,84 @@
+---
+id: 464
+url: "https://www.bancodeoccidente.com.co/web/empresas/seguros/pyme"
+titulo: "Pyme Protegida"
+titulo_original: "Soluciones de Recaudo en Línea | Banco de Occidente - Empresas"
+descripcion: "Descubre las soluciones de recaudo en línea del Banco de Occidente. Facilita el cobro de tus pagos y mejora la eficiencia de tu empresa con servicios digitales seguros."
+tipo_doc: producto_pagina
+area: seguros
+segmento: empresas
+idioma: es
+estado_vigencia: vigente
+anio_documento: null
+periodo_fin: null
+vigente_desde: null
+vigente_hasta: null
+clasificacion_acceso: publico
+tipo_contenido: "pagina_web"
+fuente: "www.bancodeoccidente.com.co"
+etiquetas_origen:
+  - "EMPRESAS > seguros"
+fecha_extraccion: 2026-10-01
+caracteres: 1823
+paginas: null
+hash_contenido: 9b19ea3a3fcc7d92
+lote: "crawl2-paginas"
+indexar: true
+flags: [titulo_dudoso]
+---
+
+# Pyme Protegida
+
+1. Inicio
+2. Empresas
+3. Seguros Empresa
+4. Seguros Pyme
+Seguros Empresariales
+Asegura el futuro de tu empresa
+Protege vehículos, maquinaria, inmuebles y más con seguros diseñados para empresas.
+(imagen: Ingeniero) (imagen: Ingeniero)
+Seguros Empresariales
+- Vehículo y Maquinaria
+- Inmuebles
+- Tecnología
+- Pyme
+- Vida Leasing no habitacional
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Seguros Empresariales
+
+### Pyme Protegida
+
+Cubre riesgos esenciales y da tranquilidad a tu negocio.
+[Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/asegura-tu-pyme)
+(imagen: Mujer con paquetes) (imagen: Mujer con paquetes)
+Beneficios
+(imagen: Icono carro)
+
+### Protección para cada necesidad
+
+Encuentra seguros diseñados para autos, maquinaria, propiedades y más.
+(imagen: Caja fuerte)
+
+### Respaldo ante imprevistos
+
+Minimiza el impacto de robos, daños o accidentes en tu empresa.
+(imagen: Caja fuerte segura)
+
+### Cobertura a la medida
+
+Diseña un seguro adaptado a los riesgos específicos de tu negocio.
+(imagen: Caja fuerte segura)
+
+### Seguridad y confianza
+
+Asegura el crecimiento de tu empresa con el respaldo de expertos en protección.
+Hazte Cliente
+Protege lo que más importa
+Déjanos tus datos y recibe asesoría para elegir el seguro ideal para tu empresa.
+[Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
+(imagen: Asesor) (imagen: Asesor)
+
+## Título máximo de caracteres 60
+
+Por favor digitar máximo 240 caracteres en este párrafo.
+[(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=seguros) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

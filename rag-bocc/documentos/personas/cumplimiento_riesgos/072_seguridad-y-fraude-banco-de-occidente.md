@@ -1,0 +1,268 @@
+---
+id: 072
+url: "https://www.bancodeoccidente.com.co/ayuda/seguridad-fraude"
+titulo: "Seguridad y Fraude Banco de Occidente"
+descripcion: "Descubre cómo el Banco de Occidente protege tus transacciones y aprende a prevenir fraudes con nuestras medidas de seguridad avanzadas."
+tipo_doc: faq_ayuda
+area: cumplimiento_riesgos
+segmento: personas
+idioma: es
+estado_vigencia: vigente
+anio_documento: 2025
+periodo_fin: null
+vigente_desde: null
+vigente_hasta: null
+clasificacion_acceso: publico
+tipo_contenido: "pagina_web"
+fuente: "www.bancodeoccidente.com.co"
+etiquetas_origen:
+  - "PERSONAS > ayuda"
+fecha_extraccion: 2026-10-01
+caracteres: 26771
+paginas: null
+hash_contenido: c2da2c1a1b53742c
+lote: "lote1"
+indexar: true
+flags: []
+---
+
+# Seguridad y Fraude Banco de Occidente
+
+1. Inicio
+2. Ayuda y asesoría
+3. Seguridad y Fraude
+Seguridad Bancaria
+Protege tu información siempre
+Aprende cómo prevenir fraudes y mantén tus datos seguros al usar nuestros canales digitales y físicos.
+(imagen: 1SF-Banner-principal-persona-seguro)
+Seguridad y fraude
+Canales digitales
+Otros canales
+Modalidades de fraude
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Portal transaccional
+
+Accede a www.bancodeoccidente.com.co.
+Conoce más
+(imagen: 2SF-card-transaccional) (imagen: 2_Mob_SF-card-transaccional)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Banca móvil
+
+App oficial. No compartas claves. Cambia contraseñas seguido.
+Conoce más
+(imagen: 2025-05-19T182626.760_Desk) (imagen: 2025-05-19T182626.760_Mob)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Cajeros automáticos
+
+No prestes tu tarjeta ni reveles tu clave secreta a otras personas.
+Conoce más
+(imagen: 4SF-Desk_card-cajero-automatico) (imagen: 4SF-Mob_card-cajero-automatico)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Datáfonos
+
+Revisa siempre que la tarjeta y documento de identidad sean tuyas.
+Conoce más
+(imagen: 5SF-Desk_card-datafono-tarjeta) (imagen: 5SF-Mob_card-datafono-tarjeta)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Oficinas y credicentros
+
+Entrega tu dinero exclusivamente en la ventanilla.
+Conoce más
+(imagen: 6SF-Desk_card-biletes-money) (imagen: 6SF-Mob_card-biletes-money)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Corresponsa-les bancarios
+
+No entregues el dinero fuera de los puntos de pago.
+Conoce más
+(imagen: 7SF-Desk_card-persona-sentada) (imagen: 7SF-Mob_card-persona-sentada)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Paseo millonario
+
+Evita cargar altas sumas de dinero al tomar transporte público.
+Conoce más
+(imagen: Card paseo millo_Desk) (imagen: Card paseo millo_Mob)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Skimming
+
+No descuides tus tarjetas débito y crédito.
+Conoce más
+(imagen: 7SF-Desk_card-biletes-celular) (imagen: 7SF-Mob_card-biletes-celular)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### SIM Swapping
+
+Infórmate como los delincuentes usan nuevas tecnologías para robar tu información.
+Conoce más
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Pishing
+
+Los ciberdelincuentes pueden adueñarse de toda tu información.
+Conoce más
+(imagen: 9SF-Desk_card-anonimo-compu) (imagen: 9SF-Mob_card-anonimo-compu)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Vishing
+
+Los ciberdelincuentes están realizando llamadas para robar.
+Conoce más
+(imagen: 10SF-Desk_card-perfil-mano) (imagen: 10SF-Mob_card-perfil-mano)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Cambiazo
+
+Cuidado con el chip de tu Tarjeta de Crédito o Débito.
+Conoce más
+(imagen: 11SF-Desk_card-tarjeta-mano) (imagen: 11SF-Mob_card-tarjeta-mano)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Troyano Bancario
+
+Software malicioso que usan los ciberdelincuentes.
+Conoce más
+(imagen: 12SF-Desk_card-alerta-mano) (imagen: 12SF-Mob_card-alerta-mano)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Fleteo
+
+Cuidado con portar grandes cantidades de dinero.
+Conoce más
+(imagen: 13SF-Desk_card-biletes-mujer) (imagen: 13SF-Mob_card-biletes-mujer.)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Ingeniería Social
+
+Suplantar, engañar y hacer uso de tus datos personales con el fin d
+Conoce más
+(imagen: Desk_2025-05-20T153932.534) (imagen: 14SF-Mob_card-compu-hombre)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+
+##### Smishing
+
+Nueva técnica que están usando para robar tu información.
+Conoce más
+(imagen: 15SF-Desk_card-mujer-mensaje) (imagen: 15SF-Mob_card-mujer-mensaje)
+¿Necesitas ayuda?
+(imagen: 17SF-icon-asesoria)
+
+#### Recibe asesoría personalizada
+
+Déjanos tus datos y un asesor se pondrá en contacto contigo.
+Empieza ahora
+(imagen: 16SF-con-whatsapp)
+
+#### ¡Hablemos por WhatsApp!
+
+Recibe asesoría inmediata con uno de nuestros expertos.
+Chatea con nosotros
+Seguridad en canales digitales
+
+## Portal transaccional
+
+### Para ingresar a la página WEB del Banco escribe directamente en el navegador la dirección: www.bancodeoccidente.com.co, evita seguir enlaces de correos que provengan de destinatarios desconocidos. Nunca compartas tu contraseña con terceros. Realiza siempre personalmente tus transacciones. Cambia de forma periódica la contraseña de acceso al portal o en caso de sospechar que haya sido comprometida. Evitar usar como clavo o contraseña nombres, fechas, número de documento de identidad y/o cualquier dato personal que pueda ser de fácil acceso para personas no autorizadas. Evitar responder correos en los que te soliciten la entrega de información. Evita suministrar información de claves, códigos de autorización de transacciones recibidos mediante mensaje de texto, números de cuentas, números de tarjetas, entre otros, a personas desconocidas, esta información es utilizada por terceros para obtener acceso a tu portal transaccional. Cada que realices transacciones a través de Internet, hazlo desde equipos de uso personal (casa u oficina). Evita utilizar redes de WIFI gratuitas para acceder a tu portal transaccional, personas extrañas podrían tener acceso a tu información. Finaliza siempre tu sesión en el portal transaccional de forma segura por medio de la opción Salida Segura. Gestiona de manera adecuada (dependiendo de tus costumbres transaccionales) los montos y el número de transacciones que puedes realizar por medio del portal transaccional. Nunca abras o ejecutes programas o archivos que vengan como adjuntos a un correo de un origen desconocido. Evita descargar aplicaciones de páginas web que no son oficiales. Procura tener actualizado el sistema operativo de tu equipo de cómputo y en la medida de los posible ten instalada una solución de antivirus licencia y en lo posible que se actualice semanalmente. Verifica que no existan dispositivos electrónicos desconocidos conectados a tu equipo de cómputo. Ten buenas prácticas al momento de navegar en internet. Evita instalar extensiones desconocidas en tu navegador. Solicita tu token mobile a través del portal transaccional, el cual permitirá darles más seguridad a tus transacciones por internet. Registra en una oficina de la entidad tu dato seguro. PROPUESTA: Registra en una oficina de la entidad tu número de celular como dato seguro. En caso de requerir el bloqueo del portal transaccional como canal debes acercarte a una oficina. Si recibes mensajes de texto con códigos que no has solicitado, reporta inmediatamente al Banco a través de la línea de servicio al cliente 018000514652 - Bogotá (601) 3902058
+
+## Banca Móvil
+
+### Para ingresar a la página WEB del Banco escribe directamente en el navegador la dirección: www.bancodeoccidente.com.co, evita seguir enlaces de correos que provengan de destinatarios desconocidos. Nunca compartas tu contraseña con terceros. Realiza siempre personalmente tus transacciones. Cambia de forma periódica la contraseña de acceso al portal o en caso de sospechar que haya sido comprometida. Evitar usar como clavo o contraseña nombres, fechas, número de documento de identidad y/o cualquier dato personal que pueda ser de fácil acceso para personas no autorizadas. Evitar responder correos en los que te soliciten la entrega de información. Evita suministrar información de claves, códigos de autorización de transacciones recibidos mediante mensaje de texto, números de cuentas, números de tarjetas, entre otros, a personas desconocidas, esta información es utilizada por terceros para obtener acceso a tu portal transaccional. Cada que realices transacciones a través de Internet, hazlo desde equipos de uso personal (casa u oficina). Evita utilizar redes de WIFI gratuitas para acceder a tu portal transaccional, personas extrañas podrían tener acceso a tu información. Finaliza siempre tu sesión en el portal transaccional de forma segura por medio de la opción Salida Segura. Gestiona de manera adecuada (dependiendo de tus costumbres transaccionales) los montos y el número de transacciones que puedes realizar por medio del portal transaccional. Nunca abras o ejecutes programas o archivos que vengan como adjuntos a un correo de un origen desconocido. Evita descargar aplicaciones de páginas web que no son oficiales. Procura tener actualizado el sistema operativo de tu equipo de cómputo y en la medida de los posible ten instalada una solución de antivirus licencia y en lo posible que se actualice semanalmente. Verifica que no existan dispositivos electrónicos desconocidos conectados a tu equipo de cómputo. Ten buenas prácticas al momento de navegar en internet. Evita instalar extensiones desconocidas en tu navegador. Solicita tu token mobile a través del portal transaccional, el cual permitirá darles más seguridad a tus transacciones por internet. Registra en una oficina de la entidad tu dato seguro. PROPUESTA: Registra en una oficina de la entidad tu número de celular como dato seguro. En caso de requerir el bloqueo del portal transaccional como canal debes acercarte a una oficina. Si recibes mensajes de texto con códigos que no has solicitado, reporta inmediatamente al Banco a través de la línea de servicio al cliente 018000514652 - Bogotá (601) 3902058
+
+Seguridad en otros canales
+
+## Cajeros Automáticos
+
+### No prestes tu tarjeta ni reveles tu clave secreta a otras personas. No realices transacciones si observas cualquier situación sospechosa. Cambia la clave de tu Tarjeta Débito periódicamente, por una de fácil recordación para ti. Antes de introducir la tarjeta, verifica que no exista ningún elemento extraño dentro del lector que interfiera tu operación. No solicites ni recibas ayuda de extraños, solicítala únicamente a personal de la entidad, si notas que el cajero presenta fallas cancela la operación antes de retirarte. No te dejes presionar por personas que aguardan en la fila. Espera hasta que el cajero te indique que tu operación ha finalizado y presione CANCELAR antes de retirarte. Guarda o destruye los recibos que te entregue el cajero automático, este posee información importante. Ante cualquier inconveniente con tu tarjeta, bloquéala inmediatamente llamando a la Línea 01 800 05 14652, con servicio las 24 horas del día, los siete días a la semana. Al recibir tu tarjeta memoriza la clave y destruye el papel donde te fue informada. No lo guardes. No permitas que tu clave sea observada al momento de digitarla en un Cajero Automático. Cubre el teclado al momento de utilizarla. Si tu tarjeta es retenida por un cajero, abstente de recibir ayuda de personas extrañas que quieran solucionar tu problema, por ninguna circunstancia ingreses tu clave. No utilices tu tarjeta en un cajero que esté fuera de servicio. Si utilizas tu Tarjeta en Cajeros Automáticos identificados con “Tecnología Chip”, deberás mantener la tarjeta en la ranura hasta que finalices la transacción.
+
+## Datáfono
+
+### Son dispositivos ubicados en Establecimientos de Comercio con los cuales se pueden realizar operaciones con Tarjeta Débito o Crédito. Si tu tarjeta es pasada más de una vez por el datáfono, exige la destrucción del comprobante y la cancelación de la operación anterior. Revisa siempre que la tarjeta y documento de identidad devuelta sean los tuyos. Como medida de seguridad adicional, revisa con frecuencia si tu tarjeta se encuentra en tu poder. Cuando utilices tu tarjeta en cualquier establecimiento, no la pierdas de vista y verifica que sea utilizada una sola vez. Asegúrate de retirar la copia de tu comprobante de pago. En caso de robo o extravío de tu tarjeta, informa de inmediato al Banco, llamando a la Línea 01 800 05 14652. Siempre cubre el teclado al momento de digitar la clave.
+
+## Oficinas y credicentros
+
+### Entrega tu dinero exclusivamente en la ventanilla. Ningún funcionario está autorizado para recibir dinero por fuera de la fila. Informa a funcionarios del Banco sobre la utilización del celular dentro del Hall Bancario para evitar posibles delitos. No permitas presiones por parte de personas en la fila, espera que el cajero te entregue el comprobante y te informe que la transacción a finalizado. No entregues información personal a terceros no autorizados por el Banco, confirma con los funcionarios del Banco si el tercero está autorizado. No entregues tu dinero a personas dentro de la fila. En lo posible evita retirar grandes sumas de dinero en efectivo, procura utilizar cheques o transferencias electrónicas. En caso de ser necesario el retiro del efectivo solicita el servicio de acompañamiento de la Policía Nacional o compañías transportadoras de valores. Al recibir tu chequera de parte del Banco cuenta cada uno de los cheques en presencia del funcionario y firma en constancia de aceptación. Custodie su chequera en un lugar seguro y haga arqueos periódicos de sus cheques pendientes de uso. Previo a la entrega de tu Tarjeta Débito, la información suministrada por el cliente es confirmada, por ende dicha información debe ser veraz, para evitar suplantaciones.
+
+## Corresponsales bancarios
+
+### El corresponsal Bancario no está autorizado a prestar servicios financieros por cuenta propia. Entrega tu dinero exclusivamente al cajero u operario del establecimiento. Ningún funcionario está autorizado para recibir dinero por fuera de la fila. El corresponsal Bancario no está autorizado a realizar algún cobro por el servicio. No permitas presiones por parte de personas en la fila, espera que el cajero te entregue el comprobante y te informe que la transacción ha finalizado. No entregues información personal a terceros no autorizados. Al recibir tu comprobante de pago, verifica que los datos del mismo este correctos en presencia del cajero. Conserva tu comprobante de pago.
+
+Modalidades de fraude
+
+## Paseo millonario
+
+### Es una modalidad de hurto impredecible, donde el ladrón y sus cómplices eligen a sus víctimas al azar y las abordan cuando intentan conseguir un taxi o transporte particular en vía pública. Los delincuentes intimidan y privan de la libertad a sus víctimas por algunas horas, sometiéndolas con maltrato, amenazas e incluso las drogan mientras conducen hasta un cajero electrónico para vaciar sus cuentas bancarias. Este acto delictivo catalogado por el Código Penal como secuestro extorsivo. Cuando sea el día de pagos de salarios o primas, trata de no retirar grandes sumas de dinero si vas a tomar un taxi Cambia frecuentemente tus claves personales y memorízalas, no las escribas en ninguna parte En la calle vigila siempre tu entorno, especialmente cuando tomas tu transporte o llegas a tu destino Revisa periódicamente el estado de tu cuenta y reporta cualquier anomalía No permitas que personas extrañas ingresen contigo al cajero electrónico ni aceptes ayudas en tus transacciones Toma diferentes rutas para llegar a los lugares que más visitas
+
+## Skimming
+
+### El robo de tarjetas bancarias es un tipo de fraude que puede sucederte desde un cajero electrónico hasta pagando en algún tipo de comercio. Llamamos Skimming a la práctica fraudulenta donde el delincuente copia la información de la banda magnética de tu tarjeta a través de dispositivos de clonación muy pequeños, tableros de números falsos o cámaras para grabar tu clave. No pierdas tus tarjetas de vista al realizar una compra y al recibirla verifica tus datos Oculta tu clave mientras la digitas Al actualizar el tu tarjeta, pasas sobre la banda magnética del plástico viejo, un imán y tú mismo destrúyelo en pequeños trozos Antes de usar un cajero electrónico, verifica que no haya ningún aparato o dispositivo extraño en el lector de tarjetas, en el teclado numérico o en la parte superior de la pantalla No aceptes ayuda de extraños al realizar transacciones en cajeros automáticos Si detectas alguna anomalía en un cajero electrónico, informa de inmediato en nuestras líneas de atención o a la línea de emergencias de la policía nacional
+
+## SIM Swapping
+
+### El SIM swapping es una práctica fraudulenta en la que los criminales roban tu información personal como fecha de nacimiento, dirección a tu hogar y número para suplantarte frente a tu compañía telefónica y solicitar una copia de tu SIM. Usando la línea duplicada para autenticarse cuando están realizando trámites bancarios a tu nombre. Cuando sea el día de pagos de salarios o primas, trata de no retirar grandes sumas de dinero si vas a tomar un taxi Cambia frecuentemente tus claves personales y memorízalas, no las escribas en ninguna parte En la calle vigila siempre tu entorno, especialmente cuando tomas tu transporte o llegas a tu destino Revisa periódicamente el estado de tu cuenta y reporta cualquier anomalía No permitas que personas extrañas ingresen contigo al cajero electrónico ni aceptes ayudas en tus transacciones Toma diferentes rutas para llegar a los lugares que más visitas
+
+## Pishing
+
+### El phishing es un tipo de fraude, donde los ciberdelincuentes utilizan tácticas de suplantación haciéndose pasar por entidades financieras, empresas de pagos en línea o agencias gubernamentales. Por medio de un correo electrónico falso, los delincuentes solicitan a su víctima que actualice sus datos confidenciales en un sitio web fraudulento, asegurando que existe un problema con trámite referente a sus cuentas bancarias. Una vez la víctima ha entregado sus datos, los delincuentes pueden adueñarse fácilmente de todo su dinero y sus productos financieros. Cuando recibas correos de nuestro banco, verifica que la dirección del remitente es la correcta Cuidado, no hagas clic en enlaces desconocidos dentro de tu correo Mantén actualizado tu sistema de antivirus No proporciones tu información confidencial por medios no autorizados Al entrar a un sitio web, revisa que la dirección empiece con “https://” y que hay un candado al lado izquierdo de la barra de navegación Recuerda que en el Banco de Occidente jamás solicitaremos tus datos confidenciales a través de canales no autorizados
+
+## Vishing
+
+### Es un tipo de fraude donde por medio de llamadas telefónicas los ciberdelincuentes intentarán ganar tu confianza llamándote y haciéndose pasar por funcionarios del Banco. Para lograrlo, te darán información parcial de tus productos financieros o datos personales, que obtuvieron usando programas maliciosos e ingeniería social, tratando de cautivar tu atención ofreciéndote promociones y ofertas exclusivas, atención debes de tener cuidado porque puede ser una trampa Si recibes una llamada en la que te dicen que hay una falla de seguridad con tus productos, cuelga y comunícate de inmediato con nuestra línea de atención para verificar que así sea Por ningún motivo compartas tu información confidencial ni tus claves con nadie. Los delincuentes son hábiles para la ingeniería social, tú debes estar un paso adelante Nunca ingreses tu PIN o contraseña en el teclado de tu teléfono mientras estás en la llamada. Ellos usan programas especializados para descifrar tus claves No entregues ningún número de identificación personal, números de tarjeta, códigos de seguridad o contraseñas bancarias por medios no autorizados Si no te sientes cómodo con las preguntas que te hacen por teléfono, no respondas y suspende la llamada
+
+## Cambiazo
+
+### Debes de estar atento el método del cambiazo es usado para rápidamente para apropiarse del chip de tu Tarjeta de Crédito o Débito y puede suceder en un cajero electrónico, en un establecimiento comercial o incluso los ladrones aparentan ser funcionarios de la entidad del Banco para robarte. Jamás aceptes ayuda de extraños al realizar sus transacciones ya sea en cajeros, datafonos o medios electrónicos Cambia frecuentemente tus claves personales Si pierdes tu tarjeta, infórmanos de inmediato en nuestras líneas de atención al cliente Al realizar una compra usando tu tarjeta débito o crédito, no la pierdas de vista y verifica que la tarjeta que te devuelven sea la tuya Ningún trabajador del banco te solicitará entregar tu tarjeta o plástico para que sea destruido por ellos. Solo debes hacerlo tú Revisa periódicamente el estado de tu cuenta y repórtanos cualquier anomalía
+
+## Troyano Bancario
+
+### Los troyanos bancarios son usados por los ciberdelincuentes donde con una investigación previa de algunos de tus datos proceden a contactarte haciéndose pasar por funcionarios del Banco y solicita que instales un software malicioso en tus dispositivos para adueñarse de toda la información que almacenas en tus dispositivos como celulares y computadores, y así poder tener el control sobre tus productos bancarios. No compartas tu información personal en sitios web No abras enlaces ni descargues archivos provenientes de correos electrónicos o mensajes de texto sospechoso Si recibes llamadas sobre nuevos procedimientos para acceder a tus servicios bancarios, verifica esta información en nuestras líneas de atención autorizadas Cuando recibas correos de nuestro Banco, verifica que la dirección del remitente es la correcta: email@emailbancodeoccidente.com.co o @bancodeoccidente.com.co Recuerda que el Banco de Occidente no solicitaremos tus datos confidenciales a través de canales no autorizados Revisa periódicamente el estado de tu cuenta y repórtanos cualquier anomalía
+
+## Fleteo
+
+### El fleteo es un método usado por los ladrones, donde te investigan con anterioridad para conocer tus movimientos financieros y saber en qué momento atacarte. Seguidamente, te abordan afuera de la sucursal bancaria cuando ya has retirado tu dinero y así, robarte. Solicita información a tu banco sobre productos o servicios que te permitan mover grandes sumas de dinero sin tener que retirarlo de tus cuentas Vigila tu entorno con atención y no permitas que ningún desconocido se acerque a ti durante tus transacciones Si sientes que te siguen, busca lugares concurridos y pide el apoyo de las autoridades Solicita la asistencia de la Policía Nacional para retirar cantidades de dinero considerables Evita rutas solitarias y no tomes taxis frente a las sucursales bancarias Si sufres un asalto, recuerda que lo primero es tu integridad. No opongas resistencia y memoriza todas las características de los delincuentes para poder denunciarlos
+
+## Ingenieria Social
+
+### Los ciberdelincuentes, infectan tu computador con un Malware y al abrir enlaces a sitios maliciosos para suplantar, engañar y hacer uso de tus datos personales con el fin de cometer fraude. Evita compartir información personal en tus Redes Sociales como: Información del correo electrónico personal o institucional Datos de tu número telefónico Si Dirección de residencia o ubicación actual en la que te encuentras. Información confidencial y familiar. Documentos personales como hojas de vida Datos de tus productos.
+
+## <span style="white-space-collapse: preserve;">Smishing</span>
+
+### El Smishing es una modalidad de engaño similar al Phishing en el que se roban la información de los usuarios, en este caso, por medio de mensajes de texto SMS. No abras enlaces ni descargues archivos provenientes de mensajes de texto sospechosos. No proporciones tu información confidencial por medios no autorizados Al entrar a un sitio web, revisa que la dirección empiece con “https://” y que hay un candado al lado izquierdo de la barra de navegación. Recuerda que en el Banco de Occidente jamás solicitaremos tus datos confidenciales a través de canales no autorizados. No actualices ni descargues aplicaciones por medios de enlaces enviado por mensaje de texto Cuando recibas Mensajes de Texto de nuestro Banco, verifica que la dirección: Mensajes Transaccionales 85224 , Mensajes Comerciales 891060 , Mensajes de Conciliación y Negociación 898933
+
+Te puede interesar
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Libre Inversión
+
+##### Dinero para lo que quieras, sin explicaciones
+
+Obtén tu crédito y haz realidad tus planes con plazos flexibles.
+[Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
+(imagen: Seguridad y fraude Desk) (imagen: Seguridad y fraude Mob)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Cuenta de Ahorros
+
+##### Ahorra con rentabilidad y sin complicaciones
+
+Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
+[Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
+(imagen: Cuenta de ahorros Desk) (imagen: Cuenta de ahorros Mob)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Tarjeta de Crédito
+
+##### Tu tarjeta, tu mundo de posibilidades
+
+Compra lo que necesitas y accede a promociones exclusivas.
+[Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
+(imagen: Tarjeta de crédito Desk) (imagen: Tarjeta de crédito Mob)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Crédito de Vehículo
+
+##### Tu carro nuevo te espera, ¡maneja tu futuro!
+
+Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
+[Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/vehiculos)
+(imagen: Carro Desk) (imagen: Carro Mob)

@@ -1,0 +1,118 @@
+---
+id: 388
+url: "https://www.bancodeoccidente.com.co/web/empresas/cuentas"
+titulo: "Cuentas Empresariales | Banco de Occidente - Empresas"
+descripcion: "Descubre las cuentas empresariales del Banco de Occidente, diseñada para optimizar la gestión financiera de tu empresa con beneficios exclusivos."
+tipo_doc: producto_pagina
+area: cuentas
+segmento: empresas
+idioma: es
+estado_vigencia: vigente
+anio_documento: null
+periodo_fin: null
+vigente_desde: null
+vigente_hasta: null
+clasificacion_acceso: publico
+tipo_contenido: "pagina_web"
+fuente: "www.bancodeoccidente.com.co"
+etiquetas_origen:
+  - "EMPRESAS > cuentas"
+fecha_extraccion: 2026-10-01
+caracteres: 3247
+paginas: null
+hash_contenido: 40f977220a272bba
+lote: "crawl2-paginas"
+indexar: true
+flags: []
+---
+
+# Cuentas Empresariales | Banco de Occidente - Empresas
+
+1. Inicio
+2. Empresas
+3. Cuentas
+Cuentas Empresariales
+Abre la cuenta ideal para tu empresa
+Optimiza la gestión financiera con nuestras cuentas diseñadas para tu negocio.
+(imagen: Mujer y hombre tarjeta de credito) (imagen: Mujer y hombre tarjeta de credito)
+Cuentas Empresariales para administrar tus recursos
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Cuentas Empresariales
+
+### Cuenta Corriente Empresarial
+
+Gestiona tus operaciones diarias con flexibilidad y control total.
+[Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/corriente-empresarial)
+(imagen: Pila de monedas) (imagen: Pila de monedas)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Cuentas Empresariales
+
+### Cuenta de Ahorros Empresarial
+
+Ahorra con rentabilidad y disponibilidad inmediata para tu negocio.
+[Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/cuenta-ahorro-empresarial)
+(imagen: Alcancia) (imagen: Alcancia)
+Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+Cuentas Empresariales
+
+### Cuentas Maestras
+
+Centraliza y administra eficientemente los recursos.
+[Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/maestras)
+(imagen: Saco de dinero) (imagen: Saco de dinero)
+Beneficios
+(imagen: Telefono celular y bitcoin)
+
+### Administra tus cuentas en línea
+
+Accede a tu cuenta empresarial desde cualquier lugar, con total seguridad y facilidad.
+(imagen: Telefono)
+
+### Asesoría financiera
+
+Recibe asesoría personalizada para elegir la cuenta que mejor se adapta a tu negocio.
+(imagen: Tarjeta de credito)
+
+### Integración de Productos
+
+Combina tu cuenta con créditos, tarjetas empresariales y más para impulsar tu empresa.
+(imagen: Caja fuerte)
+
+### Rapidéz y Seguridad
+
+Realiza pagos y transferencias nacionales e internacionales con total confianza.
+Hazte Cliente
+Solicita tu cuenta empresarial
+Déjanos tus datos y un asesor te ayudará a elegir la mejor opción para tu negocio.
+[Quiero asesoría](https://www.bancodeoccidente.com.co/web/empresas/productos)
+(imagen: Pareja feliz) (imagen: Pareja feliz)
+
+## Título máximo de caracteres 60
+
+Por favor digitar máximo 240 caracteres en este párrafo.
+[(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=cuentas) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
+Tu metas: tips y consejos
+Foro
+
+### Análisis económico en profundidad
+
+Expertos en economía debaten sobre la inflación y el panorama financiero actual.
+Conoce más
+Foro
+
+### Conectando empresas, potenciando negocios
+
+Descubre cómo OcciRed impulsa la gestión empresarial y financiera.
+Conoce más
+Foro
+
+### Impulsamos el talento del futuro
+
+Un espacio para hablar sobre oportunidades y crecimiento profesional en Colombia.
+Conoce más
+Foro
+
+### Innovación que transforma
+
+Descubre cómo la digitalización fortalece la productividad y sostenibilidad de tu empresa.
+Conoce más

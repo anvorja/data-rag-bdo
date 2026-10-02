@@ -1,0 +1,900 @@
+---
+id: 490
+url: "https://www.bancodeoccidente.com.co/documents/d/guest/decreto-0533-de-29-de-abril-de-2024"
+titulo: "decreto 0533 de 29 de abril de 2024"
+tipo_doc: legal_normativa
+area: transversal_formatos_politicas
+segmento: personas
+idioma: es
+estado_vigencia: vigente
+anio_documento: 2024
+periodo_fin: null
+vigente_desde: null
+vigente_hasta: null
+clasificacion_acceso: publico
+tipo_contenido: "pdf"
+fuente: "www.bancodeoccidente.com.co"
+etiquetas_origen:
+  - "PERSONAS > documentos y formatos"
+fecha_extraccion: 2026-10-01
+caracteres: 49073
+paginas: 15
+hash_contenido: 5a8b288ccc6a39ca
+lote: "crawl2-documentos"
+indexar: true
+flags: []
+---
+
+# decreto 0533 de 29 de abril de 2024
+
+<!-- página 1 -->
+
+                                                                               ..'--------
+                                                                                     OE I.A REPÚBLICA
+                                                                                 SECRETARíAJURíOICA
+                                   REPÚBUCA DE COLOMBIA
+
+
+                                         Uberlod y Orden
+
+                               MINISTERIO DEL TRABAJO
+
+
+                DECRETO NÚMERO           053.3                  DE 2024
+
+
+                           (
+  Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte 2 del
+  Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se
+reglamenta el Incentivo para la creación y permanencia de nuevos empleos formales
+
+
+               EL PRESIDENTE DE LA REPÚBLICA DE COLOMBIA
+
+
+ en ejercicio de las facultades constitucionales y legales , en particular las conferidas
+   en el numeral 11 del artículo 189 de la Constitución Política,'y en desarrollo del
+                          artículo 79 de la Ley 2294 de 2023, y
+
+
+                                   CONSIDERANDO:
+
+
+Que la Ley 2294 del 19 de mayo de 2023, por medio de la cual se expide el Plan                /
+Nacional de Desarrollo 2022 - 2026 "Colombia Potencia Mundial de la Vida" establece
+las bases para que el país se convierta en un líder de la protección de la vida a partir
+de la construcción de un nuevo contrato social que propicie la superación de injusticias
+y exclusiones históricas, integrando la transformación de la política social para la
+adopción de instrumentos que garanticen la protección económica y social de la
+población colombiana en todas sus diversidades y que nos lleven a una sociedad
+inclusiva.
+
+Que el documento de las Bases del Plan Nacional de Desarrollo 2022 - 2026'
+"Colombia Potenc ia Mundial de la Vida" establece que en los diálogos regionales
+vinculantes se mostró la necesidad de contar con mayores y mejores oportunidades
+laborales para las personas con discapacidad (PcD), para lo cual se debe avanzar en
+un esquema de protección contra el desempleo que responda a sus necesidades,
+teniendo en cuenta las brechas que existen para este grupo poblacional, lo ' cual
+contempla la exploración de nuevas formas de financiamiento para generar acciones
+que permitan abordar de manera universal apoyos frente a la inserción laboral
+productiva de quienes no cuentan con un empleo formal y la implementación de
+políticas activas y pasivas de mercados de trabajo que apoyen la reinserción,
+colocación laboral y el emprendimiento.
+
+Que, a pesar de los avances normativos y de que existe una mayor visibilización de
+las personas con discapacidad, las barreras actitudinales, 'físicas y comunicativas que
+impone el entorno son fuente cotidiana de marginación y segregación, desconociendo
+que este grupo poblacional goza de especial protección constitucional y, por tanto, se
+les debe garantizar la igualdad y la no discriminación; y para ello se requiere de una
+institucionalidad robusta, que reconozca y ampare a esta población, así como de un
+
+
+<!-- página 2 -->
+
+DECRETO NÚMERO                0533            DE 2024                                 HOJA 2 de 15
+
+Continuación del Decreto : "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y permanencia de nuevos empleos formales" .
+
+
+marco normativo y una política pública orientados a la garantía de los derechos de
+estas personas .
+
+Que la educación y el empleo son las herramientas esenciales para desarrollar las
+habilidades de las personas con discapacidad, y se constituyan como mecanismos
+que contribuyen a reducir la pobreza.
+
+Que en materia laboral se busca implementar los lineamientos de la política pública
+de trabajo digno y decente y promover la creación de condiciones dignas y justas de
+acceso al trabajo , dando especial atención a las personas con discapacidad (PcD) .
+
+Que el artículo 79 de la Ley 2294 de 2023 "Por medio de la cual se expide el Plan
+Nacional de Desarrollo 2022 - 2026 "Colombia Potencia Mundial de la Vida" tiene
+como objetivo dar continuidad a las medidas encaminadas a la promoción, creación y
+protección del empleo formal, el cual se amplió a aquellos empleadores que vinculen
+a trabajadores con discapacidad, el cual podrá extenderse hasta agosto de 2026 .
+
+Que de acuerdo con el mismo artículo 79 de la Ley 2294 de 2023 el Gobierno Nacional
+debe evaluar la pertinencia de su continuidad, de acuerdo con los resultados de los
+estudios técnicos realizados por las entidades públicas sectoriales, pudiendo
+rediseñar los requisitos de acceso y permanencia, las poblaciones beneficiarias, los
+montos y mecanismos para otorgar el incentivo y los demás aspectos necesarios para
+su implementación .
+
+Que en atención a lo dispuesto en el parágrafo del artículo 79 de la Ley 2294 de 2023,
+la persona beneficiaria deberá permanecer en la empresa por un tiempo mínimo de
+seis (6) meses, por lo tanto el nuevo trabajador y respecto del cual se solicita el
+reconocimiento del incentivo del que trata el presente decreto, deberá haber estado
+vinculado laboralmente durante los seis (6) meses anteriores al momento de la
+postulación, verificación que se realizará conforme al procedimiento indicado en el
+manual operativo que para el efecto expida el Ministerio del Trabajo.
+
+Que el inciso segundo del artículo 79 de la Ley 2294 de 2023 señala que el Ministerio
+del Trabajo ejercerá la ordenación del gasto , sin perjuicio que, las demás entidades
+del orden nacional, en articulación con entidades territoriales , puedan destinar los
+recursos de acuerdo con sus disponibilidades presupuestales, en el Marco fiscal de
+mediano plazo y el Marco de Gasto de mediano plazo, para la debida ejecución de
+cada programa , para lo cual podrán efectuar las modificaciones presupuestales,
+institucionales u operativas a que haya lugar.
+
+Que el Gobierno Nacional debe reglamentar la materia, en especial, lo
+correspondiente a la Planilla Integrada de Autoliquidación de Aportes -PILA; la
+fiscalización a cargo de la Unidad Administrativa Especial de Gestión Pensional y
+Contribuciones Parafiscales de la Protección Social-UGPP; la solicitud de información
+necesaria para identificar a la población a la que se refiere el presente incentivo; la
+operación del incentivo, incluyendo el proceso de postulación, la determinación de la
+información a solicitar a los potenciales beneficiarios , la creación de formularios
+estandarizados para realizar el proceso de postulación ; así como, los documentos
+soporte necesarios, la administración , pago y giro de estos recursos, causales y
+proceso de restitución .
+
+
+<!-- página 3 -->
+
+DECRETO NÚMERO               o                  2024                              HOJA 3 de 15
+
+Continuación del Decreto: "Por el cual se        la Sección 10 del         1     Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de 2015,       Reglamentario      Sector Trabajo, y se              el
+Incentivo      la creación y permanencia de nuevos          formales".
+
+
+Que     Ley 2281 de            "Por medio de     cual se crea     Ministerio de Igualdad y
+Equidad y se dictan otras disposiciones" crea el Ministerio       Igualdad y Equidad con
+   objeto de diseñar, formular, adoptar, dirigir, coordinar, articu     ejecutar, fortalecer
+y evaluar. las políticas, planes, programas, estrategias, proyectos y medidas para
+contribuir en     eliminación       las desigualdades económicas, políticas y sociales;
+impulsar el goce del derecho a         igualdad; el cumplimiento de los principios de no
+discriminación y no regresividad;        defensa de       sujetos de especial protección
+constitucional, de población vulnerable y de grupos históricamente discriminados o
+marginados, incorporando y adoptando los enfoques de derechos,                      género,
+diferencial, étnico - racial e
+
+Adicionalmente, el artículo 5 de    Ley        de 2023 incluye dentro del ámbito de
+competencias del Ministerio de Igualdad y Equidad a       personas con discapacidad.
+Aunado a ello,     Decreto 1075       2023 en su artículo 35 incluye dentro        las
+funciones    Viceministerio    las Diversidades: Diseñar e implementar instrumentos
+de seguimiento al cumplimiento de la legislación interna y de los tratados, convenios,
+acuerdos y        resoluciones internacionales ratificados por Colombia, que se
+relacionen con     derechos de     personas con discapacidad, diversas y LGBTlQ+.
+
+Que el Ministerio del Trabajo es la entidad encargada        establecer el proceso y las
+condiciones a      que deberán sujetarse las entidades involucradas con ocasión de
+aplicación del incentivo y, en general, todos los actores que participen del mismo; esto
+incluye, entre otros, los periodos y plazos máximos para            cumplimiento de los
+requisitos y pago      aportes, así como el detalle operativo del mecanismo y
+                       para su implementación.
+
+Que, con la implementación        incentivo a la             y permanencia       nuevos
+empleos formales se busca               un impacto positivo en las personas que se
+encuentren en la búsqueda de un empleo formal, quienes, al                      con una
+estabilidad, superarían barreras          como, acceso al empleo asociadas a la
+experiencia laboral; condiciones para la movilidad laboral y fortalecerían la adquisición
+de habilidades y entrenamiento para optar a mejores vacantes.
+
+Que la validación          cumplimiento de los requisitos establecidos y su posterior
+fiscalización se encuentran a cargo de la Unidad de                       Pensional y
+Contribuciones Parafiscales -UGPP, de acuerdo con la reglamentación             para
+efecto expida     Ministerio del Trabajo mediante los manuales operativos que sean
+expedidos para los respectivos ciclos de postulaciones por parte       los interesados
+en el reconocimiento del incentivo económico a que se refiere artículo 24        la Ley
+2155 de       1 y el artículo   de la    2294 de 2023,     perjuicio de competencia
+               Superintendencia de Economía Solidaria en el inciso 2 del artículo
+                de 2021.
+
+Que en cumplimiento de lo dispuesto en el artículo 2.1.2.3.1 del Decreto 1081  2015
+Único      lamentario del Sector     la Presidencia de la República, el proyecto de
+decreto fue publicado en la página web del Ministerio del Trabajo desde día 29 de
+noviembre 2023 y           día 15 de diciembre     2023.
+
+Que, en mérito       lo expuesto,
+
+
+<!-- página 4 -->
+
+DECRETO NÚMERO                               DE 2024                                 HOJA 4       15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de 2015, Único                   del Sector Trabajo, y se               el
+Incentivo para la creación y permanencia de nuevos
+
+
+                                             DECRETA:
+
+
+Artículo 1. Sustitución de la Sección 10 del Capitulo 1 del Título 6 de la Parte 2
+del Libro 2 del Decreto 1072 de 2015. Sustitúyase la Sección 10 del Capitulo 1 del
+Título 6 de            2 del Libro 2 del Decreto 1072 de 2015, Decreto Único
+Reglamentario            Trabajo, la cual quedará
+
+
+                                           "SECCiÓN 10
+
+
+     INCENTIVO A LA CREACiÓN Y PERMANENCIA                               NUEVOS EMPLEOS
+                             FORMALES
+
+
+Artículo 2.2.6.1.10.1. Objeto. La presente veC;CIO        por objeto reglamentar el
+Incentivo a la Creación y Permanencia de Nuevos             Formales, dirigido a
+empleadores                  nuevos empleos             la contratación de nuevos
+trabajadores d        un término no inferior a   (06) meses.
+
+Este incentivo se 'financiará con cargo a los recursos del Presupuesto General     la
+Nación en la           presupuestal del Ministerio   Trabajo y estará supeditado a
+disponibilidad con         cuente el Gobierno           en Presupuesto
+la Nación.
+
+Artículo 2.2.6.1.10.2. Beneficiarios del Incentivo a la Creación y Permanencia de
+Nuevos Empleos Formales. Serán beneficiarios              Incentivo a la Creación y
+Permanencia       Nuevos Empleos Formales, las               naturales, las personas
+jurídicas, los                uniones temporales y los patrimonios autónomos que
+demuestren su calidad     empleador,mediante la Planilla Integrada de Liquidación de
+Aportes -PILA siempre que hayan cotizado el mes completo al Sistema de Seguridad
+Social Integral.
+
+El Incentivo a la realclClny Permanencia de Nuevos                         Formales se reconocerá
+a las y los                    mantengan vinculados                            a los trabajadores
+adicionales mínimo               (6) meses,                                               descrito
+en el manual nn.::.r!:ltn          el Ministerio del
+
+Parágrafo 1.                                            Incentivo a la Creación y
+Permanencia              Empleos Formales, los               deberán contar con un
+producto de depósito en una entidad vigilada por la Superintendencia Financiera de
+Colombia o por     Superintendencia de la Economía Solidaria. Para efectos de esta
+Sección, se                 por Entidad Financiera               vigiladas por la
+Superintendencia             de Colombia o por la Superintendencia de la Economía
+Solidaria, que tengan           el ofrecimiento   productos     depósito.
+
+
+<!-- página 5 -->
+
+DECRETO NÚMERO                       05 J        DE 2024                              HOJA 5 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 1O del Capítulo 1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector               y se               el
+Incentivo para la         y permanencia de nuevos empleos formales"
+
+
+Parágrafo 2. No podrán ser beneficiarios del Incentivo a la
+de Nuevos                    las entidades cuya participación   la Nación y/o sus
+entidades                 sea mayor al cincuenta por ciento (50%)
+
+Parágrafo 3. No podrán ser beneficiarios del Incentivo a la
+de Nuevos                         personas naturales
+Personas                                  Esta condición
+por                             cooperativas de ahorro y crédito
+postulación o                     de recursos.
+
+                            de la verificación de la identidad y calidad
+                              Cámaras de Comercio deberán permitir a
+financieras y a    cooperativas de ahorro y crédito, la interoperabilidad, la remisión
+de la información y acceso a los sistemas de información que contienen          datos.
+
+Parágrafo                                     como empleados solamente las personas
+pli:millas                                Empleador, A Empleados Adicionales, X
+Liquidación o                     IIL.Q""V' y S trabajador doméstico, tengan los
+cotizante: 1.                               Trabajador doméstico 22. Profesor de
+particular.
+
+Parágrafo 6.                     patrimonios autónomos deberán aportar su Número Único de
+Identificación                         -NIT y ser declarantes del impuesto              y
+complementarios.
+
+Parágrafo 7.                                   postulantes al reconocimiento
+                  Y                        nuevos empleos formales recibirán
+incentivos                          mantenido en sus empleos formales a
+                                    con lo            en el procedimiento establecido en
+                                    Ministerio del Trabajo.
+
+Parágrafo                Aquellos empleadores que hubieren vinculado nuevos
+trabajadores o           bajo la vigencia del Decreto 1736 del 20 de octubre       ,
+y hayan recibido al menos un pago del Incentivo, podrán continuar postulándose para
+recibir los incentivos  contempla el presente decreto.
+
+
+Artículo 2.2.6.1.10.3. Cuantía del Incentívo a la Creación y Permanencia
+Nuevos Empleos Formales. La cuantía que recibirán los beneficiarios                           Incentivo
+a la creación y         de nuevos empleos formales será
+
+1. Por la vinculación              jóvenes entre 18 y 28 años será un aporte del treinta por ciento
+(30%) de un (1)                    mínimo mensual legal vigente -SMMLV por            uno
+trabajadores                               hayan sido vinculados formalmente y por lo            se
+hubiere ........1·''7''''.1''1       respectivos subsistemas mínimo durante             (6) meses
+previos a                           la postulación, dentro de la temporalidad
+artículo                             presente Decreto.
+
+                                                     de 28 años que devenguen
+                                                  (20%) de un (1) salario mínimo
+
+
+<!-- página 6 -->
+
+                                             DE 2024                                      HOJA 6         15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del                1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de         Único Reglamentario del Sector                   y se               el
+Incentivo para la creación y              de nuevos empleos forma/es",
+
+
+         SMMLV por cada una de estas trabajadoras adiciona             que
+                           y por lo que se hubiere cotizado en los
+                   a la fecha de la postulación, dentro de la temporalidad
+            2.2.6.1.10.7 del presente Decreto,
+
+          vinculación    hombres mayores de 28 años que devenguen hasta 3 SMMLV
+                     quince por ciento (15%) de un (1) salario mínimo mensual
+                       cada uno de estos trabajadores adicionales que hayan
+             formalmente y por los que se hubiere cotizado en los respectivos
+              previo a la fecha de la postulación, dentro de la temporalidad
+      artículo 2    1.10        presente Decreto.
+
+4.      la vinculación             con discapacidad (PcD), el aporte estatal
+treinta y cinco por               un (1) salario mínimo mensual legal vigente SMM
+por           uno           trabajadores adicionales que hayan sido vinculados
+formalmente y por      que se hubiere cotizado en los respectivos subsistemas, previo
+a la          de la            dentro de la temporalidad establecida en el artículo
+2,2.6.1 10
+
+Parágrafo                                                                         de 28 años de edad,
+hombres                                                                con discapacidad previstas en el
+presente artículo                                                             ientes, negras, raizales,
+palenqueras, indígenas,                                                        la comunidad LGBTIQ+.
+
+                                                                   formales: Para efectos del presente
+                                                                     formales la vinculación de nuevos
+                                          l'.l!"'\,/'"\r'.l   y frente a     cuales se pueda verificar su
+                                                               a la Plani Integrada de Liquidación de
+                                                                postulación, (entiéndase como ciclo de
+                                                                se abren las inscripciones para que las
+                                                                       incentivo) para recibir el Incentivo
+                                                                      Formales.
+
+Parágrafo 3. Los recursos que sean                                   a los beneficiarios, como parte del
+Incentivo a la Creación y                                     Nuevos           Formales de que trata la
+presente Sección, deberán ser                                       como ingresos gravables por el
+beneficiario       los mismos                                      del impuesto sobre la renta y
+complementarios, sobre             se                              aplicar la retención en la fuente al
+momento del pago o abono en cuenta.
+
+Parágrafo 4. Estarán exentos                                               movimientos financieros los
+traslados de los dineros que se rea          en                                  I        a que hace
+referencia la presente Sección, en especial,                                 de recursos entre cuentas
+del Tesoro Nacional -Ministerio del                                                              y las
+cooperativas de ahorro y crédito, y entre
+
+Parágrafo 5. En el evento en que el cálculo del incentivo
+artículo arroje como resultado números no
+monetaria inferior (pesos colombianos)      cercana.
+
+
+<!-- página 7 -->
+
+DECRETO NÚMERO               e               DE 2024                                 HOJA 7 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de         Único                  del                 y se              el
+Incentivo para la creación y permanencia de nuevos             formales",
+
+
+Parágrafo 6.    empleador sólo podrá recibir dentro    la vigencia   este
+un máximo de veinticuatro (24) incentivos por cada trabajador vinculado, en los
+términos dispuestos en    manual operativo.      todo caso, solo se reconocerá un
+Incentivo         por     trabajador vinculado.
+
+Parágrafo 7.     reconocerá un porcentaje adicional del diez por ciento 10% sobre los
+porcentajes antes indicados           personas por las         se solicita  incentivo no
+hayan sido cotizantes en los últimos 4 meses o más, anteriores al cumplimiento de la
+vinculación laboral mínima de seis (6) meses exigida como requisito para acceder al
+incentivo.     porcentaje adicional        que trata       presente parágrafo no será
+reconocido           se trate de vinculación de asociados a cooperativas en los
+términos descritos en el parágrafo transitorio del artículo 2    1.10.     este decreto.
+
+Los empleadores que vinculen trabajadores que                      cotizando por ser beneficiarios
+    Mecanismo de                al                                  podrán ser beneficiarios del
+         ad      contemplado en el
+
+
+Artículo 2.2.6.1.10.4. Reglas para los beneficiarios del Incentivo a la Creación y
+Permanencia de Nuevos Empleos Formales.              beneficiarios del Incentivo a la
+         y Permanencia      Nuevos Empleos             se sujetarán a las
+
+
+1. Para             de contabilizar nuevos empleos de trabajadores adicionales
+   contratados, se tomará como               el número de empleados reportados en la
+   Planilla Integrada de Liquidación      Aportes         por los      cada empleador
+   hubiera            para el mes de mayo         2023, comparado con        número
+   trabajadores reportados en la PILA en         periodo      postulación. También se
+   verificará que el nuevo trabajador haya estado vinculado laboralmente por
+   menos         (6) meses anteriores al momento de la postulación, conforme al
+   procedimiento establecido en el manual                que           efecto expida el
+   Ministerio      Trabajo, periodo que, en todo           podrá ser reconocido sí se
+                     requisitos establecidos en el presente decreto,
+
+En ningún caso se          considerar como trabajador adicional a aquel que se haya
+vinculado con el fin de reemplazar a otro trabajador que se encontraba vinculado con
+anterioridad.
+
+2. Para          de contabilizar los trabajadores que se mantengan vinculados a sus
+empleos formales, el Incentivo a la creación y permanencia de nuevos empleos
+formales se reconocerá exclusivamente para aquellos trabajadores que hayan
+cotizado por lo menos en los seis (6) meses inmediatamente anteriores al mes de
+postulación,       último incluido, de            con   procedimiento y los tiempos
+descritos en el manual operativo que expida Ministerio del Trabajo para tal fin.
+
+3.     entenderán por empleados los trabajadores dependientes por los cuales
+empleador haya cotizado mes completo Sistema General          Seguridad Social en
+la Planilla Integrada de Liquidación     Aportes       con un ingreso          de
+cotización de al menos un (1)        mínimo legal mensual vigente -SMLMV, y
+
+
+<!-- página 8 -->
+
+DECRETO NÚMERO                                       2024                                    HOJA 8 de 15
+
+Continuación del Decreto: "Por el cual se         la Sección 10 del Capítulo 1    TItulo 6 de la Parte
+2 del Libro 2 del Decreto 1072 de         Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y              de nuevos empleos formales".
+
+
+     afiliados como empleados del postulante en el Registro Único
+RUAF y realicen aportes en todos subsistemas que le correspondan.
+
+4. Para los trabajadores del mes    junio de 2023 se verificará que no se
+aplicado la novedad de suspensión temporal de contrato de trabajo o de                                      no
+remunerada -SLN.
+
+     empleador no recibirá                                  hace referencia la presente
+aquellos trabajadores a           se                          aplicado la novedad
+temporal de contrato de trabajo o                           no remunerada -SLN en
+    (6) meses de vinculación.
+
+6.   ningún caso quien figure como aportante podrá ser además contabilizado como
+empleado para efectos del         incentivo.
+
+  Para el cálculo del aporte de   trata la presente Sección, cada             sólo
+podrá ser contabilizado una vez.      los casos en que exista multiplicidad
+empleadores de un mismo trabajador, se otorgará el aporte al primero que, producto
+   la respectiva postulación,      la UGPP.
+
+8.     empleados que hayan sido                             una sustitución patronal o
+posterior a mayo de          en los                          de los artículos      y
+Sustantivo del Trabajo, no podrán ser                             para el cálculo
+vez que no se está generando un nuevo
+
+            caso de nuevas             y con el fin de contabilizar los         objeto
+     Incentivo, se tendrán en                empleados dependientes de que trata la
+            Sección, por los cuales                   haya cotizado el mes completo al
+            General de Seguridad           en la Planilla Integrada de Liquidación
+Aportes -PILA para el respectivo ciclo            postulación, con un ingreso base de
+cotización de al menos un (1) salario mínimo legal mensual vigente -SMLMV, y que
+       afiliados en todos los subsistemas           correspondan.
+
+10. El empleador debe haber realizado                                              los pagos por concepto
+     ridad social por todos los                                                  en nómina, al momento
+postulación al incentivo de que trata la
+
+
+                                                           para la validación de
+Artículo 2.2.6.1.10.5. Envio de .... T,nr ..... ""."..........   ....¡¡:;:u...
+
+requisitos de acceso al Incentivo                    y Permanencia de Nuevos
+r.:n1DJ!eOIS Formales. Para efectos             cumplimiento de requisitos de los
+                                                    de Nuevos Empleos Formales,
+                 entidades deberán enviar información correspondiente a la Unidad
+Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales de la
+              Social-UGPP:
+
+1.     Ministerio de Salud y Protección Social r!Olt"lO!".:Jj enviar la base de datos      la
+Planilla Integrada de Liquidación    Aportes                     de datos del Registro Único
+   Afiliados -RUAF, y el listado de operaciones         horario extendido correspondiente
+
+
+<!-- página 9 -->
+
+DECRETO NÚMERO                               DE 2024                                 HOJA 9 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Secci6n 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creaci6n y permanencia de nuevos empleos formales".
+
+
+al último día de postulación de cada ciclo, así como el listado de las Personas con
+Discapacidad (PcD) en el que se indique tipo y número de documento.
+
+2. La Dirección de Impuestos y Aduanas Nacionales -DIAN- deberá enviar el listado
+de los patrimonios autónomos declarantes de renta y complementarios .
+
+3. La Registraduría Nacional del Estado Civil deberá suministrar la información sobre
+edad y sexo, relativa a los trabajadores dependientes vinculados al programa .
+
+Parágrafo. En todos los casos, el envío de la información deberá realizarse por la
+entidad que sea requerida por la Unidad Administrativa Especial de Gestión Pensional
+y Contribuciones Parafiscales de la Protección Social -UGPP para el efecto en cada
+uno de los ciclos del Incentivo a la Creación y Permanencia de Nuevos Empleos
+Formales, con los cortes y en las fechas definidas en el marco de la regulación del
+incentivo y conforme con el procedimiento establecido por la Unidad Administrativa
+Especial de Gestión Pensional y Contribuciones Parafiscales de la Protección Social-
+UGPP.
+
+Artículo 2.2.6.1.10.6. Procedimiento de postulación para la obtención del
+Incentivo a la Creación y Permanencia de Nuevos Empleos Formales. Los
+empleadores que cumplan con los requisitos de la presente Sección deberán
+presentar ante la entidad financiera o cooperativa de ahorro y crédito en la que tengan
+un producto de depósito, los siguientes documentos:
+
+1. Solicitud firmada por el representante legal o el que haga sus veces, o por la
+persona natural empleadora, en la cual, se manifiesta la intención de ser beneficiario
+del Incentivo a la Creación y Permanencia de Nuevos Empleos Formales . En el caso
+de que el empleador sea un patrimonio autónomo, la solicitud deberá estar firmada
+por el representante legal de la fiduciaria que actúa como vocera o administradora del
+patrimonio autónomo .
+
+2. Certificación firmada por (i) el representante legal, la persona natural empleadora o
+el representante legal de la fiduciaria que actúa como vocera o administradora del
+patrimonio autónomo; y (ii) el revisor fiscal, o contador público en los casos en los que
+la empresa no esté obligada a tener revisor fiscal, en la que conste:
+
+       2.1. Que los empleados sobre los cuales se otorgue el Incentivo efectivamente
+       recibieron el salario correspondiente a los meses anteriores a cada ciclo de
+       postulación, de acuerdo con lo dispuesto en el manual operativo que expida el
+       Ministerio del Trabajo.
+
+       2.2. En los casos a que haya lugar, indicar que se han adelantado procesos de
+       sustitución patronal o de empleador en los términos de los artículos 67 y 68 del
+       Código Sustantivo del Trabajo, cuando dicha sustitución haya ocurrido después
+       del mes de mayo de 2023 .
+
+       2.3. Que, al momento de la postulación, se hayan efectuado los pagos de
+       seguridad social para el mes de mayo de 2023, para todos los empleados que
+       el empleador tuvo a dicha fecha.
+
+
+<!-- página 10 -->
+
+DECRETO NÚMERO                 e             DE 2024                                 HOJA 10 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de         Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y              de nuevos empleos formales".
+
+
+3. Copia                                                     empleador, expedido dentro de los
+seis (6) meses 1"1"';;,>11<"''''
+
+El cumplimiento del                                en     presente artículo permitirá al
+beneficiario la obtención de un incentivo mensual por cada trabajador adicional dentro
+de la temporalidad               en                   1.1     del presente Decreto. Este
+incentivo podrá recibirse         por veinticuatro (24) veces por cada nuevo empleo
+creado y, de ser así,                         cumplir, en cada ciclo de postulación, con
+el procedimiento descrito en el             artículo en cada uno de los meses para los
+cuales se postula.
+
+Las entidades financieras y                                        Y     ito deberán recibir los
+documentos de que trata este artículo y                          de manera exclusiva el proceso
+de verificación sobre los mismos, validando que                      se encuentran completos y
+comprobando la identidad y calidad                                     la postulación para ser
+beneficiario del Incentivo a la Creación y                           Nuevos Empleos Formales.
+
+Al momento de la postulación, las                                                         de ahorro
+y crédito deberán verificar que el producto                                      al postulante, que
+se encuentra activo y sin ninguna restricción                               recursos cuando a ello
+hubiere lugar, para que el beneficiario
+
+En el evento que durante el inicio                            postulación y                   Incentivo
+se presente algún tipo de afectación en                     o producto                           impida
+hacer el giro al beneficiario de los                                             o       cooperativa
+ahorro y crédito deberá ofrecer un                                                   o
+recursos, sin que ello implique algún
+
+Las entidades financieras y cooperativas
+documentos de postulación al Incentivo a la
+Empleos Formales, deberán informar lo pertinente a la
+de Gestión Pensional y Contribuciones
+la recepción de los mismos.
+
+La Unidad Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales
+de la Protección Social -UGPP deberá llevar un                  consolidado       los
+beneficiarios, los trabajadores respectivos,     número                 se generan a
+través del presente Incentivo y el número de incentivos              por cada nuevo
+trabajador vinculado y mantenido en su empleo; y verificarán que el postulante sea
+beneficiario por una sola postulación en cada mes ante otras                         o
+cooperativas de ahorro y crédito; y, adicionalmente, verificarán                    la
+condición de los trabajadores jóvenes que excedan los 28         en               del
+parágrafo 5 del artículo 2.2.6.1.10.3. de la presente Sección.
+
+
+Parágrafo 1. El acto de postularse implica la aceptación por
+las condiciones bajo las cuales se otorga el Incentivo      que
+postulación no implica el derecho a recibir el Incentivo a la
+de Nuevos Empleos Formales.
+
+
+<!-- página 11 -->
+
+             NÚMERO         0533             DE 2024                                 HOJA 11 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de 2015, Único                   del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y permanencia de nuevos empleos
+
+
+                                                                         condiciones a las
+                                                                         otorgamiento del
+                            todos los actores                           Esto incluye, entre
+             fUU'''''' y plazos máximos para el cumplimiento          requisitos y pago de
+              como        detalle operativo del mecanismo y          aspectos necesarios
+      su implementación. Así mismo, la Superintendencia Financiera de Colombia y la
+Superintendencia de Economía Solidaria                      que     entidades financieras
+y                      ahorro y crédito cumplan con lo establecido en la presente Sección
+y los         administrativos que lo desarrollen.                       podrán utilizar las
+facultades               en marco legal correspondiente.
+
+
+Parágrafo      Aquellas personas que reciban incentivos o                          de los que
+trata la                             sin el cumplimiento de los requisitos           para tal
+fin y no lo informen a la autoridad competente; o los reciban              forma fraudulenta,
+                                            disciplinarias, fiscales y     a     que hubiere
+                 o.TeoI"'T,..,,,, de la responsabilidad penal, en todo
+
+los documentos                             para la postulación al           a
+                    Nuevos Empleos Formales, así como los recursos
+                                         son de naturaleza pública.
+
+                       incumplimiento de uno de los                            los
+                       por la Unidad Administrativa                    Pensional
+y                             de la Protección Social-UGPP o           entidades
+deberán             proceso de cobro coactivo respectivo en              aquellos
+beneficiarios                  estatales de forma improcedente.           aplicará
+el procedimiento               establecidos en el Estatuto Tributario para
+devoluciones              y la Superintendencia de Economía Solidaria aplicará
+normas vigentes que correspondan y regulen la materia.
+
+
+Parágrafo 4.                  Administrativa Especial de Gestión Pensional y
+Contribuciones                  la Protección Social -UGPP, en coordinación con el
+Ministerio del                determinar la información a solicitar a       potenciales
+beneficiarios a          un             estandarizado que reúna los documentos aquí
+establecidos o que sea adicional a los mismos, el cual, deberá ser diligenciado
+potenciales beneficiarios momento de su postulación. Dicho formulario
+a su disposición a                 entidades financieras y cooperativas
+crédito.
+
+Las entidades               y CO()Der<:llY""","'" ahorro y crédito deberán conservar y
+custodiar la información por un           de cuatro (4) años contados a partir de la fecha
+de la finalización del programa, para              de las labores de fiscalización que
+adelanten las entidades                  durante dicho término.
+
+
+Parágrafo 5. La Unidad Administrativa Especial de Gestión Pensional y
+Contribuciones Parafiscales    la         Social -UGPP establecerá la forma a
+través de la cual se dará intercambio información con las entidades financieras
+
+
+<!-- página 12 -->
+
+                   NÚMERO                053 J                                             HOJA 12 de 15
+
+Continuación del Decreto: upar el cual se                 la Sección 10 del Capítulo 1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de                                         del Sector       y se              el
+Incentivo                                                     ""nI"""", formales".
+
+
+y cooperativas de ahorro y crédito, sin                          sea necesario la                          los
+formularios físicos o digitales
+
+
+                  .10.7. Temporalidad del Incentivo a la Creación y Permanencia de
+NIJrp-v"O.S'          Formales.    Incentivo a la Creación y Permanencia de Nuevos
+               le .., ..... ,""''",,"'
+
+
+          Formales contemplado en presente decreto tendrá una temporalidad que
+inicia a partir de la publicación               reglamentación y       en el mes de
+agosto     2026.
+
+
+Artículo 2.2.6.1.10.8. Pago del Incentivo a la Creación y              de Nuevos
+Empleos Formales. El Incentivo a la creación y permanencia         nuevos empleos
+               reconocido dentro     la ternporalidad del apoyo y pagado según lo
+           en el manual operativo a aquellos beneficiarios        cumplan con los
+          y procedimientos de la           Sección.
+
+                         La dispersión           recursos del Incentivo a la                y Permanencia
+                         Empleos                            a través de las                   financieras y
+          r!:llTI"/!:lIC  de ahorro y
+
+
+Artículo 2.2.6.1.10.9. Desistimiento, restitución, devolución y compensación del
+Incentivo a la Creación y Permanencia de Nuevos                    Formales. En la
+operación del Incentivo a la            y Permanencia de                    Formales
+podrán aplicarse los siguientes procedimientos, con el fin               reintegro de
+recursos por parte de los          involucrados en el flujo de      la compensación
+    recursos producto de errores      tipo operativo o facilitar desistimiento de los
+            al incentivo:
+
+1. Desistimiento. Consiste en manifestación que realiza el postulante al Incentivo
+a Creación y Permanencia            Empleos Formales           entidad financiera,
+        retiro de su solicitud como     beneficiario.
+
+   Restitución. Corresponde                     total o parcial,
+Incentivo a la Creación y       rrn,::an.::>nf'    de Nuevos                                            como
+consecuencia de los siguientes hechos:
+
+            1. Habiendo recibido  aporte, se evidencie que, al momento de la
+          postulación en cada uno de los ciclos, no cumplía con los requisitos
+          establecidos en la     Sección.
+
+          2.2. Habiendo recibido                       se evidencie que no se cumplieron las reglas
+          establecidas en
+
+              Se compruebe que "'",."'''v                                                presentados para
+          acreditar los requisitos ".:>"C"'/''',,",                                     para la asignación
+          del aporte estatal                                                                   de Nuevos
+          Empleos Formales.                     efectos, bastará                            la entidad que
+          expide dichos documentos contradiciendo el contenido
+
+
+<!-- página 13 -->
+
+DECRETO NÚMERO                   0533        DE 2024                                 HOJA 13 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 1O del Capítulo 1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y permanencia de nuevos empleos formales".
+
+
+        2.4. Habiendo recibido el aporte desista voluntariamente del incentivo.
+
+3. Devolución. Consiste en el reintegro que realiza la entidad financiera al Ministerio
+del Trabajo de los recursos no desembolsados al beneficiario final.
+
+4. Compensación. Corresponde al ajuste de los valores que fueron certificados en
+exceso o en defecto en los meses anteriores. Dicho procedimiento será efectuado por
+la Unidad Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales
+de la Protección Social UGPP como parte de la emisión de conceptos de conformidad
+o no conformidad en cada ciclo.
+
+Parágrafo 1. El Ministerio del Trabajo establecerá, a través de resolución, el proceso
+de desistimiento, restitución, devolución y compensación del aporte estatal del
+Incentivo a la Creación y Permanencia de Nuevos Empleos Formales .
+
+
+Artículo 2.2.6.1.10.10. Fiscalización del Incentivo a la Creación y Permanencia
+de Nuevos Empleos Formales. La fiscalización del Incentivo a la Creación y
+Permanencia de Nuevos Empleos Formales se adelantará de la siguiente forma:
+
+
+Una vez finalizado el programa, y dentro de los cuatro años (4) siguientes, la Unidad
+Administrativa Especial de Gestión Pensional y Contribuciones Paraflscales de la
+Protección Social -UGPP- podrá iniciar el proceso de fiscalización del Incentivo a la
+Creación y Permanencia de Nuevos Empleos Formales. Esta fiscalización en todo
+caso será independiente de la fiscalización ordinaria a cargo de la mencionada entidad
+relacionada con el pago de los aportes a seguridad social y contribuciones
+parafiscales .
+
+Para efectos de verificar el cumplimiento de los requisitos establecidos, las entidades
+requeridas por la Unidad Administrativa Especial de Gestión Pensional y
+Contribuciones Parafiscales de la Protección Social -UGPP- deberán remitir la
+información necesaria para adelantar las validaciones en cualquier etapa del proceso,
+sin que se requiera la suscripción de convenios o acuerdos entre las entidades y de
+conformidad con el procedimiento establecido por la UGPP para el efecto.
+
+Parágrafo 1. En cualquier tiempo antes del inicio del proceso de fiscalización la
+Unidad Administrativa Especial de Gestión Pensional y Contribuciones Parafiscales
+de la Protección Social -UGPP podrá iniciar acciones persuasivas para lograr la
+restitución voluntaria de los recursos. La no atención del requerimiento persuasivo
+dará lugar a la suspensión del giro del incentivo en los siguientes ciclos de postulación.
+En aquellos eventos en los que los obligados a restituir aportes de ciclos anteriores
+no los restituyan, la UGPP podrá suspender la validación de requisitos de acceso al
+Incentivo y no emitir concepto de conformidad, hasta la fecha en que se restituyan los
+recursos. En todo caso, se emitirá concepto de no conformidad si a la finalización del
+Incentivo no se ha logrado dicha restitución.
+
+
+<!-- página 14 -->
+
+DECRETO NÚMERO                               DE 2024                                 HOJA 14 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parle
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y permanencia de nuevos empleos formales".
+
+
+Artículo 2.2.6.1.10.11. Virtualidad y medios electrónicos. Las entidades financieras
+y cooperativas de ahorro y crédito involucradas, la Unidad Administrativa Especial de
+Gestión Pensional y Contribuciones Parafiscales de la Protección Social -UGPP y, en
+general, todos los actores que participen en el Incentivo a la Creación y Permanencia
+de Nuevos Empleos Formales, deberán facilitar canales virtuales y, en la medida de
+lo posible, fomentarán el uso de los medios electrónicos para el cumplimiento de los
+requisitos y procesos de que trata esta Sección y los actos administrativos que lo
+reg lamenten.
+
+
+Artículo  2.2.6.1.10.12. Manual Operativo del Incentivo a la Creación y
+Permanencia de Nuevos Empleos Formales. El Ministerio del Trabajo a través de
+un Manual Operativo con carácter vinculante, establecerá el calendario y el detalle
+operativo del mecanismo de transferencia del Incentivo a la Creación y Permanencia
+de Nuevos Empleos Formales; y la certificación, restitución y devolución de los
+recursos o subsanación de errores operativos, cuando haya lugar a ello.
+
+
+Parágrafo. El Manual Operativo contemplará, además, el procedimiento que se
+deberá adelantar para atender ajustes relacionados con posibles fallas en la
+operatividad de los mecanismos de captura e intercambio de información y
+conformación de bases de datos para la verificación de las condiciones de los
+potenciales beneficiarios, así como los casos excepcionales y extraordinarios que
+impidan el desembolso efectivo de los recursos a los bene·ficiarios del Incentivo a la
+Creación y Permanencia de Nuevos Empleos Formales, para todos los meses de
+operación.
+
+Para tal efecto, se deberán allegar las justificaciones correspondientes que den lugar
+a los ajustes en el cronograma de pagos del aporte estatal del Incentivo a la Creación
+y Permanencia de Nuevos Empleos Formales.
+
+
+Artículo 2.2.6.1.10.13. Tratamiento de información. Durante el tiempo de aplicación
+del Incentivo a la Creación y Permanencia de Nuevos Empleos Formales, las
+entidades públicas y privadas están autorizadas a recibir y suministrar los datos
+personales en los términos previstos en la Ley 1581 de 2012 y la información
+financiera que sea necesaria para el cumplimiento de los fines establecidos en la
+presente Sección.
+
+Las entidades receptoras de esta información deberán utilizar los datos e información
+solo para los fines aquí establecidos y estarán obligadas a adoptar las medidas
+necesarias para garantizar su seguridad, circulación restringida, confidencialidad y la
+protección del habeas data."
+
+
+<!-- página 15 -->
+
+DECRETO NlIMERO                OS33           DE 2024                                HOJA 15 de 15
+
+Continuación del Decreto: "Por el cual se sustituye la Sección 10 del Capítulo 1 del Título 6 de la Parte
+2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector Trabajo, y se reglamenta el
+Incentivo para la creación y permanencia de nuevos empleos formales" .
+
+
+Artículo 2. Vigencia y subrogación. El presente Decreto rige a partir de su
+publicación en el Diario Oficial, y sustituye la Sección 10 del Capítulo 1 del Título 6 de
+la Parte 2 del Libro 2 del Decreto 1072 de 2015, Único Reglamentario del Sector
+Trabajo.
+
+
+EL MINISTRO DE HACIENDA Y CR
+
+
+                                                                  #
+                                                         RICARDO BONILLA GONZÁLEZ
+
+
+LA MINISTRA DEL TRABAJO,
+
+
+                                                         GLORIA INÉS RAMIREZ Ríos
+
+
+LA MINISTRA DE IGUALDAD Y EQUIDAD,
+
+
+                                                         FRANCIA ELENA MÁRQUEZ MINA
