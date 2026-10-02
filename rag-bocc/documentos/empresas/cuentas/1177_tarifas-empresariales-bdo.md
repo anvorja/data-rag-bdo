@@ -1,38 +1,39 @@
 ---
-id: 227
-url: "https://www.bancodeoccidente.com.co/documents/d/guest/tarifas-persona-bdo"
-titulo: "tarifas persona bdo"
+id: 1177
+url: "https://www.bancodeoccidente.com.co/documents/d/guest/tarifas-empresariales-bdo"
+titulo: "tarifas empresariales bdo"
 tipo_doc: tarifas_tasas
-area: pagos_recaudos_canales
-segmento: personas
+area: cuentas
+segmento: empresas
 idioma: es
-estado_vigencia: historico
-anio_documento: null
+estado_vigencia: vigente
+anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: 2026-09-30
+vigente_desde: 2026-10-01
+vigente_hasta: 2026-12-31
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarifas"
-fecha_extraccion: 2026-10-01
-caracteres: 84659
-paginas: 38
-hash_contenido: d1c6259c2c0361ed
-lote: "lote1"
+fecha_extraccion: 2026-10-02
+caracteres: 79829
+paginas: 1
+hash_contenido: f914c9994be9890b
+lote: "recaptura-2026-10-02"
 vigencia_validada: true
+version_de: 228
 indexar: true
-flags: [sin_fecha]
+flags: [version_nueva]
 ---
 
-# tarifas persona bdo
+# tarifas empresariales bdo
 
 <!-- página 1 -->
 
-                                                    Tarifario de Personas
+                                                   Tarifario de Empresas
 Índice
-                                                       INDICE TARIFARIO WEB PERSONAS
+                                                       INDICE TARIFARIO WEB EMPRESAS
 
 
 Orden       Concepto
@@ -75,12 +76,12 @@ Orden       Concepto
 
         19 DESEMBOLSOS DE CARTERA VÍA ACH
 
+        20 OPERACIONES SEBRA
+
+        21 Administración y custodia de Portafolios de Títulos de Terceros a través del Deceval, DCV Y CUD
+
 
 <!-- página 2 -->
-
-20 OPERACIONES SEBRA
-
-21 Administración y custodia de Portafolios de Títulos de Terceros a través del Deceval, DCV Y CUD
 
 22 Compensación y liquidación del Mercado de Derivados Estandarizados CRCC
 
@@ -113,62 +114,62 @@ Orden       Concepto
 
 <!-- página 3 -->
 
-                                                    Tarifario de Personas
-
+                                                    Tarifario de Empresas
 
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
-                       Producto o servicio                                            Comisión            Vigente desde
+
+                       Producto o servicio                                            Comisión                       Vigente desde
 
 Cheques
 
 
-Cheque de Gerencia *                                                                $ 37.000 + IVA          1-oct-26
+Cheque de Gerencia *                                                                $ 37.000 + IVA                     1-oct-26
 
 
-Valor de cada cheque *                                                          $ 8.000 + IVA + Timbre      1-oct-26
+Valor de cada cheque *                                                          $ 8.000 + IVA + Timbre                 1-oct-26
 
 
-Chequera Serie 30 *                                                            $ 240.000 + IVA + Timbre     1-oct-26
+Chequera Serie 30 *                                                            $ 240.000 + IVA + Timbre                1-oct-26
 
 
-Chequera Serie 100 *                                                           $ 800.000 + IVA + Timbre     1-oct-26
+Chequera Serie 100 *                                                           $ 800.000 + IVA + Timbre                1-oct-26
 
 
-Cheques en formas continuas *                                                   $ 6.200 + IVA + Timbre      1-oct-26
+Cheques en formas continuas *                                                   $ 6.200 + IVA + Timbre                 1-oct-26
 
 
-Cheques especiales (Comisión de uso) *                                               $ 5.850 + IVA          1-oct-26
+Cheques especiales (Comisión de uso) *                                               $ 5.850 + IVA                     1-oct-26
 
 
-Anulación o no utilización de Cheques de Gerencia *                                  $ 5.850 + IVA          1-oct-26
+Anulación o no utilización de Cheques de Gerencia *                                  $ 5.850 + IVA                     1-oct-26
 
 
-Embargos *                                                                             $ 0 + IVA            1-oct-26
+Embargos *                                                                             $ 0 + IVA                       1-oct-26
 
 
 Talonario Cuenta de Ahorros
 
 
-Talonario Cuenta de Ahorros (30 Volantes )                                             $ 0 + IVA            1-oct-26
+Talonario Cuenta de Ahorros (30 Volantes )                                             $ 0 + IVA                       1-oct-26
 
 
 Tarjeta Débito Cuenta Corriente y de Ahorros
 
 
-Cuota de Manejo Tarjeta Débito                                                         $ 17.100             1-oct-26
+Cuota de Manejo Tarjeta Débito                                                         $ 17.100                        1-oct-26
 
 
-Reexpedición de Tarjeta Débito por pérdida o robo                                   $ 21.700 + IVA          1-oct-26
+Reexpedición de Tarjeta Débito por pérdida o robo                                   $ 21.700 + IVA                     1-oct-26
 
 
-Tarjeta Asociada                                                                    $ 10.900 + IVA          1-oct-26
+Tarjeta Asociada                                                                    $ 10.900 + IVA                     1-oct-26
 
 
 Token
 
 
-Token Mobile                                                                              $0                1-oct-26
+Token Mobile                                                                               $0                          1-oct-26
 
 
 * El valor del IVA y Timbre están sujetos a cambios de acuerdo a la reglamentación vigente.
@@ -177,275 +178,159 @@ Token Mobile                                                                    
                                                          TARJETA DE CRÉDITO
 
 
+                       Producto o servicio                          Trimestre anticipado        Mensual anticipado   Vigente desde
+
+
 <!-- página 4 -->
 
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
-                        Producto o servicio                       Trimestre anticipado      Mensual anticipado   Vigente desde
 
 Mastercard
 Cuota de Manejo Mastercard Ml (Moneda Legal)
 
 
-Credencial Clásica *                                                                        $ 32.800 + Seguro²     1-oct-26
+Credencial Business card *                                         $ 114.000 + Seguro¹             1-oct-26
 
 
-Credencial Gold *                                                                           $ 38.700 + Seguro²     1-oct-26
+Credencial Business card PYME *                                    $ 101.000 + Seguro¹             1-oct-26
 
 
-Credencial Platinum *                                                                       $ 43.200 + Seguro²     1-oct-26
-
-
-Credencial Black *                                                                          $ 53.200 + Seguro²     1-oct-26
-
-
-Credencial Business card **                                        $ 114.000 + Seguro¹                             1-oct-26
-
-
-Credencial Business card PYME **                                   $ 101.000 + Seguro¹                             1-oct-26
-
-
-Tarjeta de Crédito Joven *                                                                  $ 19.900 + Seguro²     1-oct-26
-
-
-Credencial Viajera **                                            $ 56.400 + IVA + Seguro¹                          1-oct-26
-
-
-Credencial Corporate Black **                                      $ 169.500 + Seguro¹                             1-oct-26
-
-
-Credencial MasterCard Gold UNICEF *                                                         $ 40.400 + Seguro²     1-oct-26
+Credencial Corporate Black *                                       $ 169.500 + Seguro¹             1-oct-26
 
 
 Mastercard Me (Estas Tarifas Aplican para Consumos Superiores a 100 Usd)
 
 
-Credencial Clásica ME *                                                                           USD 9            1-oct-26
+Credencial Business card ME *                                              USD 34                  1-oct-26
 
 
-Credencial Gold ME *                                                                             USD 10            1-oct-26
+Credencial Business card PYME ME *                                         USD 34                  1-oct-26
 
 
-Credencial Platinum ME *                                                                         USD 11            1-oct-26
-
-
-Credencial Black ME *                                                                            USD 14            1-oct-26
-
-
-Credencial Business card ME **                                             USD 34                                  1-oct-26
-
-
-Credencial Business card PYME ME **                                        USD 34                                  1-oct-26
-
-
-Credencial Corporate Black ME **                                           USD 34                                  1-oct-26
-
-
-Credencial Viajera ME **                                                   USD 34                                  1-oct-26
-
-
-<!-- página 5 -->
-
-                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Credencial MasterCard Gold UNICEF ME *                                                    USD 10          1-oct-26
-
-
-Tarjeta de Crédito Joven ME *                                                              USD 5          1-oct-26
+Credencial Corporate Black ME *                                            USD 34                  1-oct-26
 
 
 Visa
 
 
-Credencial Clásica Visa *                                                            $ 32.800 + Seguro²   1-oct-26
+Visa Corporativa Visa *                                            $ 118.000 + Seguro¹             1-oct-26
 
 
-Credencial Gold Visa *                                                               $ 38.700 + Seguro²   1-oct-26
+Visa Empresarial *                                                 $ 114.000 + Seguro¹             1-oct-26
 
 
-Credencial Platinum Visa *                                                           $ 43.200 + Seguro²   1-oct-26
+Visa Distribución *                                                $ 58.000 + Seguro¹              1-oct-26
 
 
-Visa Corporativa Visa **                                       $ 118.000 + Seguro¹                        1-oct-26
+Viajera Empresarial *                                              $ 58.000 + Seguro¹              1-oct-26
 
-
-Visa Infinite *                                                                      $ 58.000 + Seguro²   1-oct-26
-
-
-Visa Empresarial **                                            $ 114.000 + Seguro¹                        1-oct-26
-
-
-Visa Distribución **                                           $ 58.000 + Seguro¹                         1-oct-26
-
-
-Viajera Empresarial **                                         $ 58.000 + Seguro¹                         1-oct-26
-
-
-Credencial Visa Digital OcciFlex *                                                   $ 32.900 + Seguro²   1-oct-26
-
-
-Credencial Visa Clasica LATAM PASS *                                                 $ 35.000 + Seguro²   1-oct-26
-
-
-Credencial Visa Gold LATAM PASS *                                                    $ 41.000 + Seguro²   1-oct-26
-
-
-Credencial Visa Platinum LATAM PASS *                                                $ 46.000 + Seguro²   1-oct-26
-
-
-Credencial Visa Signature LATAM PASS *                                               $ 57.000 + Seguro²   1-oct-26
-
-
-Credencial Visa Centro Comercial Santafé *                                           $ 34.700 + Seguro²   1-oct-26
-
-
-Credencial Visa Gold Vélez *                                                         $ 40.400 + Seguro²   1-oct-26
-
-
-Credencial Visa Gold Bodytech *                                                      $ 40.400 + Seguro²   1-oct-26
-
-
-Credencial Visa Gold MASCOTAS *                                                      $ 40.400 + Seguro²   1-oct-26
-
-
-Credencial Visa Free *                                                                      $0            1-oct-26
-
-
-<!-- página 6 -->
-
-                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 Otros
 
 
-1 = Seguro TDC (T.A) - monoproducto: **                                  $ 6.750                                1-oct-26
+1 = Seguro TDC (T.A) - monoproducto: *                                     $ 6.750                 1-oct-26
 
 
-1 = Seguro TDC (T.A) - dualidad: **                                      $ 6.774                                1-oct-26
+1 = Seguro TDC (T.A) - dualidad: *                                         $ 6.774                 1-oct-26
 
 
-2 = Seguro TDC (M.A) - monoproducto: *                                                              $ 2.250     1-oct-26
+2 = Seguro TDC (M.A) - monoproducto: **                                                  $ 2.250   1-oct-26
 
 
-2 = Seguro TDC (M.A) - dualidad: *                                                                  $ 2.258     1-oct-26
+2 = Seguro TDC (M.A) - dualidad: **                                                      $ 2.258   1-oct-26
 
 
-Reexpedición de Tarjeta Crédito por pérdida o robo *                  $ 34.000 + IVA                            1-oct-26
+Reexpedición de Tarjeta Crédito por pérdida o robo **                $ 34.000 + IVA                1-oct-26
 
 
-Reposición de Tarjeta de Crédito por deterioro *                           $0                                   1-oct-26
+Reposición de Tarjeta de Crédito por deterioro **                            $0                    1-oct-26
 
 
-* M.A. = Mes anticipado
+* T.A.= Trimestre anticipado
 
 
-** T.A.= Trimestre anticipado
+** M.A. = Mes anticipado
 
 
-                                                   PAQUETES DE PRODUCTOS Y SERVICIOS
+<!-- página 5 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-                          Producto o servicio                                          Comisión               Vigente desde
-
-Cuenta Activa
+                                               PAQUETES DE PRODUCTOS Y SERVICIOS
 
 
-Cuenta Activa                                                                      $ 36.600 + IVA               1-oct-26
-
-
-Cuenta Activa Básica                                                               $ 24.200 + IVA               1-oct-26
-
+                      Producto o servicio                                            Comisión           Vigente desde
 
 Portafolio
 
 
-Portafolio Digital Aval                                                         Cuota TC adquirida              1-oct-26
-
-
-Portafolio Aliado                                                                  $ 99.500 + IVA               1-oct-26
+Portafolio Aliado                                                                  $ 99.500 + IVA         1-oct-26
 
 
 Occicuenta Pyme (Sin Occired)* – (Aplica para paquetes
-                                                                                   $ 66.500 + IVA               1-oct-26
+                                                                                   $ 66.500 + IVA         1-oct-26
 vigentes)
-
-
-Occicuenta Básica* – (Aplica para paquetes vigentes)                                   $ 96.000                 1-oct-26
-
 
 Tarjeta Prepago y Activa
 
 
-Emisión, Recarga, Retiros y Cancelación                                            $ 6.900 + IVA                1-oct-26
+Emisión, Recarga, Retiros y Cancelación                                            $ 6.900 + IVA          1-oct-26
 
 
-<!-- página 7 -->
-
-                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+                                                      CANALES ELECTRÓNICOS
 
 
-Tarjeta Activa Express Bono Regalo                                                       $0                1-oct-26
-
-
-Paquete de Servicios Básicos
-
-
-Cuota de Manejo de Paquete de Servicios Básicos                                       $ 70.000             1-oct-26
-
-
-                                                       CANALES ELECTRÓNICOS
-
-
-                      Producto o servicio                                             Comisión           Vigente desde
+                      Producto o servicio                                            Comisión           Vigente desde
 
 Internet
 
 
-Internet, ALO, Banca Móvil                                                               $0                1-oct-26
+Internet, ALO, Banca Móvil                                                              $0                1-oct-26
 
 
 Audio Línea
 
 
-Audio línea Empresarial ALE                                                         $ 70.000 + IVA         1-oct-26
+Audio línea Empresarial ALE                                                        $ 70.000 + IVA         1-oct-26
 
 
 Occired
 
 
-Occired                                                                             $ 95.000 + IVA         1-oct-26
+Occired                                                                            $ 95.000 + IVA         1-oct-26
 
 
-Token Occired                                                                       $ 68.500 + IVA         1-oct-26
+Token Occired                                                                      $ 68.500 + IVA         1-oct-26
 
 
-                                 Servicios relacionados con la Cuenta Corriente y la Cuenta de Ahorros
+                                Servicios relacionados con la Cuenta Corriente y la Cuenta de Ahorros
 
 
-                      Producto o servicio                                             Comisión           Vigente desde
+                      Producto o servicio                                            Comisión           Vigente desde
 
 Remesas (Nacionales Negociadas y al Cobro)
 
 
-Negociación Plazas Bco Occ. cheques propios                                              $0                1-oct-26
+Negociación Plazas Bco Occ. cheques propios                                             $0                1-oct-26
 
 
-Mínima                                                                                   $0                1-oct-26
-
-
-Negociación Plazas Bco Occ. cheques otros Bancos                                     1,8 % + IVA           1-oct-26
-
-
-Mínima                                                                              $ 17.300 + IVA         1-oct-26
-
-
-Negociación Remesas Bancos Corresponsales                                            1,8 % + IVA           1-oct-26
-
-
-<!-- página 8 -->
+<!-- página 6 -->
 
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Mínima                                                                          $0              1-oct-26
+
+
+Negociación Plazas Bco Occ. cheques otros Bancos                            1,8 % + IVA         1-oct-26
+
+
+Mínima                                                                     $ 17.300 + IVA       1-oct-26
+
+
+Negociación Remesas Bancos Corresponsales                                   1,8 % + IVA         1-oct-26
 
 
 Mínima                                                                     $ 17.300 + IVA       1-oct-26
@@ -502,24 +387,24 @@ Portes / Telex Otros Bancos                                                $ 7.9
 Otros Servicios Relacionados con la Cuenta Corriente
 
 
-Estudio físico químico para cheques especiales                            $ 130.000 + IVA       1-oct-26
+<!-- página 7 -->
+
+                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Estudio físico químico para cheques especiales                                $ 130.000 + IVA         1-oct-26
 
 
 Dispersión de Efectivo
 
 
-Dispersión de Efectivo                                                     $ 18.300 + IVA       1-oct-26
-
-
-<!-- página 9 -->
-
-                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Dispersión de Efectivo                                                         $ 18.300 + IVA         1-oct-26
 
 
                                                            CONSIGNACIÓN
 
 
-                       Producto o servicio                                       Comisión           Vigente desde
+                         Producto o servicio                                     Comisión           Vigente desde
 
 Consignación Nacional
 
@@ -557,7 +442,7 @@ Occidente
                                                                RETIROS
 
 
-                       Producto o servicio                                       Comisión           Vigente desde
+                         Producto o servicio                                     Comisión           Vigente desde
 
 Retiros
 
@@ -571,21 +456,21 @@ Retiro nacional de ahorros con talonario Banco                                 $
 Retiro con Pin Pad en oficina                                                    $ 14.700             1-oct-26
 
 
-Retiro en cajeros electrónicos Red Aval                                           $ 3.000             1-oct-26
+<!-- página 8 -->
+
+                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Retiro en cajeros electrónicos Red Aval con OTP                                     $0                1-oct-26
+Retiro en cajeros electrónicos Red Aval                                               $ 3.000            1-oct-26
 
 
-Retiro en cajeros electrónicos otras redes                                        $ 7.900             1-oct-26
+Retiro en cajeros electrónicos Red Aval con OTP                                         $0               1-oct-26
 
 
-<!-- página 10 -->
-
-                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Retiro en cajeros electrónicos otras redes                                            $ 7.900            1-oct-26
 
 
-Retiro corresponsal Bancario                                                       $ 3.000 + IVA         1-oct-26
+Retiro corresponsal Bancario                                                       $ 3.200 + IVA         1-oct-26
 
 
 Retiros en el exterior en cajeros automáticos                                         $ 21.300           1-oct-26
@@ -635,90 +520,90 @@ electrónico / oficina / corresponsal bancario
 Retiro nacional de ahorros con talonario                                             $ 0 + IVA           1-oct-26
 
 
-Retiro en oficina con Pin Pad                                                         $ 2.700            1-oct-26
+<!-- página 9 -->
+
+                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Retiros en el exterior en cajeros automáticos                                         $ 23.300           1-oct-26
+Retiro en oficina con Pin Pad                                                   $ 2.700           1-oct-26
+
+
+Retiros en el exterior en cajeros automáticos                                  $ 23.300           1-oct-26
 
 
 Transacción No Exitosa por Transferencias
 
 
-<!-- página 11 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Transferencias por Cajeros electrónicos ATH - Aval                                $0              1-oct-26
 
 
-Transferencias por Cajeros electrónicos ATH - Aval                              $0              1-oct-26
+Transferencias por Pin Pad                                                      $ 3.100           1-oct-26
 
 
-Transferencias por Pin Pad                                                    $ 3.100           1-oct-26
-
-
-Transferencias ACH por cajero electrónico ATH-Aval                              $0              1-oct-26
+Transferencias ACH por cajero electrónico ATH-Aval                                $0              1-oct-26
 
 
 Transferencias ACH por Internet, Banca Móvil y Audio Línea
-Empresarial ALE, Plazas (El IVA se cobra o no dependiendo del              $ 8.500 + IVA        1-oct-26
+Empresarial ALE, Plazas (El IVA se cobra o no dependiendo del                $ 8.500 + IVA        1-oct-26
 canal)
 
 Transacción No Exitosa por Pagos
 
 
-Pagos de servicios públicos                                                     $0              1-oct-26
+Pagos de servicios públicos                                                       $0              1-oct-26
 
 
 Pagos de cartera o tarjeta de crédito Cajeros electrónicos ATH -
-                                                                                $0              1-oct-26
+                                                                                  $0              1-oct-26
 Aval
 
 
-Pagos de cartera o tarjeta de crédito por Corresponsal Bancario               $ 3.000           1-oct-26
+Pagos de cartera o tarjeta de crédito por Corresponsal Bancario                 $ 3.000           1-oct-26
 
 
-Pagos ACH por cajero electrónico ATH-Aval                                       $0              1-oct-26
+Pagos ACH por cajero electrónico ATH-Aval                                         $0              1-oct-26
 
 
-Pagos ACH por Internet y Audio Línea de Occidente ALO                      $ 8.100 + IVA        1-oct-26
+Pagos ACH por Internet y Audio Línea de Occidente ALO                        $ 8.100 + IVA        1-oct-26
 
 
 Pagos ACH Plazas Tipo 04 indiferente el canal ( El IVA se cobra o
-                                                                           $ 8.100 + IVA        1-oct-26
+                                                                             $ 8.100 + IVA        1-oct-26
 no dependiendo del canal)
 
 Transación No Exitosa por Otras Operaciones con Tarjeta Débito
 
 
-Compra o recargas en Cajeros electrónicos                                       $0              1-oct-26
+Compra o recargas en Cajeros electrónicos                                         $0              1-oct-26
 
 
 Avance de Efectivo No Exitoso con Tarjeta de Crédito
 
 
-Avance de efectivo no exitoso en Barra                                     $ 18.100 + IVA       1-oct-26
+Avance de efectivo no exitoso en Barra                                       $ 18.100 + IVA       1-oct-26
 
 
-Avance de efectivo no exitoso por Cajeros electrónicos                          $0              1-oct-26
+Avance de efectivo no exitoso por Cajeros electrónicos                            $0              1-oct-26
 
 
-Avance de efectivo no exitoso por PIN PAD                                    $ 18.100           1-oct-26
+Avance de efectivo no exitoso por PIN PAD                                      $ 18.100           1-oct-26
 
 
 Transacción No Exitosa por Consulta de Cupo Tarjeta de Crédito
 
 
-Consulta de cupo en ventanilla o barra, cajeros electrónicos                 $ 0 + IVA          1-oct-26
+Consulta de cupo en ventanilla o barra, cajeros electrónicos                   $ 0 + IVA          1-oct-26
 
 
-Consulta de cupo por PIN PAD                                                  $ 6.700           1-oct-26
+<!-- página 10 -->
+
+                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Consulta de cupo por PIN PAD                                                              $ 6.700      1-oct-26
 
 
 Transaccion No Exitosa por Pago Nacional de Cheques Aval
-
-
-<!-- página 12 -->
-
-                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
 Transaccion no exitosa por pago nacional de cheques Aval                                  $ 20.000     1-oct-26
@@ -774,12 +659,12 @@ Certificado de Saldo – Libranza                                               
 Consulta de Información en oficina en barra                                         $ 14.000 + IVA     1-oct-26
 
 
-Consulta de Saldo por ALO , Banca Móvil, Internet                                           $0         1-oct-26
-
-
-<!-- página 13 -->
+<!-- página 11 -->
 
                                 PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Consulta de Saldo por ALO , Banca Móvil, Internet                                       $0                              1-oct-26
 
 
 Certificado de Transacciones en Caja *                                             $ 15.900 + IVA                       1-oct-26
@@ -850,7 +735,7 @@ Entrega de Archivos a Traves de Ftp
 Afiliación al servicio (única vez)                                               $ 3.700.000 + IVA                      1-oct-26
 
 
-<!-- página 14 -->
+<!-- página 12 -->
 
                                 PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
@@ -918,7 +803,7 @@ Transferencias ACH por Internet, Banca Móvil y Audiolínea de
 Occidente ALO, Plaza
 
 
-<!-- página 15 -->
+<!-- página 13 -->
 
                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
@@ -981,17 +866,18 @@ Centro de Pagos Pse o Avalpay Center
 Recaudo con Tarjeta de Credito a Traves de Aval Pay Center *                           $ 1.400 + IVA     1-oct-26
 
 
-<!-- página 16 -->
+* Nota: Se debe incluir costo de adquiriencia
+
+
+<!-- página 14 -->
 
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-* Nota: Se debe incluir costo de adquiriencia
 
 
                                                       Pasarela de Pagos Aval Pay
 
 
-                       Producto o servicio                                             Comisión                    Vigente desde
+                        Producto o servicio                                            Comisión                    Vigente desde
 
 Modelo Gateway
 
@@ -1046,59 +932,59 @@ Botón Aval Pasarela AvalPay                                                    
 Corresponsales Grupo AVAL                                                       2,65% + $3.021 + IVA                 1-oct-26
 
 
-<!-- página 17 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Corresponsal Éxito, Carulla, SuperInter, Surtimax                                   2,65% + $5.196 + IVA                  1-oct-26
+Corresponsal Éxito, Carulla, SuperInter, Surtimax                               2,65% + $5.196 + IVA                 1-oct-26
 
 
 Venta Presente
 
 
-Código QR Comercios - Entre Cuentas Redeban                                              $ 0 + IVA                        1-oct-26
+Código QR Comercios - Entre Cuentas Redeban                                            $ 0 + IVA                     1-oct-26
 
 
-                                              PILA Planilla Integral de Liquidación de Aportes
+<!-- página 15 -->
+
+                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-                        Producto o servicio                                              Comisión                      Vigente desde
+                                            PILA Planilla Integral de Liquidación de Aportes
+
+
+                      Producto o servicio                                              Comisión                        Vigente desde
 
 Operador de Información Pila
 
 
-Procesados por aportante para administadoras propias *                                     $ 410                          1-oct-26
+Procesados por aportante para administadoras propias *                                   $ 410                            1-oct-26
 
 
 Procesados por otros operadores de Información (Planilla
-                                                                                           $ 450                          1-oct-26
+                                                                                         $ 450                            1-oct-26
 Electrónica) *
 
 
-Procesados por aportante para administadoras propios *                                    $ 2.850                         1-oct-26
+Procesados por aportante para administadoras propios *                                  $ 2.850                           1-oct-26
 
 
 Procesados por otros operadores de Información (Planilla
-                                                                                          $ 3.550                         1-oct-26
+                                                                                        $ 3.550                           1-oct-26
 Asistida) *
 
 Operador Financiero Pila
 
 Acreditados electrónicos para cuentas de administradoras
-                                                                                           $ 800                          1-oct-26
+                                                                                         $ 800                            1-oct-26
 propias Banco *
 
 Comprados electrónicos para cuentas de administradoras
-                                                                                          $ 2.550                         1-oct-26
+                                                                                        $ 2.550                           1-oct-26
 propias Banco *
 
 Acreditados asistidos para cuentas de administradoras propias
-                                                                                          $ 3.500                         1-oct-26
+                                                                                        $ 3.500                           1-oct-26
 Banco *
 
 Comprados asistidos para cuentas de administradoras propias
-                                                                                          $ 6.500                         1-oct-26
+                                                                                        $ 6.500                           1-oct-26
 Banco *
 
 * Nota: Las tarifas publicadas para este producto tienen exclusión de IVA para Administradoras con servicios vinculados con la
@@ -1107,29 +993,29 @@ la Ley 100: Salud, Pensión y Riesgos. Para los demás subsistemas estas tarifas
 Tarifas Aplican únicamente para Administradoras de Seguridad Social y Parafiscales.
 
 
-                                                                  Débitos
+                                                                Débitos
 
 
-                        Producto o servicio                                              Comisión                      Vigente desde
-
-
-<!-- página 18 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+                      Producto o servicio                                              Comisión                        Vigente desde
 
 Débitos Automáticos
 
 
-Débitos a cuentas Banco de Occidente                                            $0                1-oct-26
+Débitos a cuentas Banco de Occidente                                                      $0                              1-oct-26
 
 
 Débitos - Ach Colombia
 
 
-En plazas                                                                  $ 4.600 + IVA          1-oct-26
+En plazas                                                                            $ 4.600 + IVA                        1-oct-26
 
 
 Cenit
+
+
+<!-- página 16 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
 Débitos Automáticos                                                        $ 4.600 + IVA          1-oct-26
@@ -1180,143 +1066,138 @@ Pagos a Terceros
 En Efectivo en Oficina y Corresponsales                                    $ 6.200 + IVA          1-oct-26
 
 
-<!-- página 19 -->
-
-                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Con Cheque de Gerencia                                                     $ 30.500 + IVA         1-oct-26
 
 
-Con Cheque de Gerencia                                                    $ 30.500 + IVA       1-oct-26
-
-
-Con Abono a cuenta propia                                                   $ 0 + IVA          1-oct-26
+Con Abono a cuenta propia                                                    $ 0 + IVA            1-oct-26
 
 
 Transferencias y Pagos Ach Banca Empresarial
 
 
-Transferencias y Pagos a terceros ACH Plazas                              $ 8.600 + IVA        1-oct-26
+Transferencias y Pagos a terceros ACH Plazas                               $ 8.600 + IVA          1-oct-26
 
 
-Pagos Masivos Inmediatos                                                  $ 5.000 + IVA        30-jun-26
+Pagos Masivos Inmediatos                                                   $ 5.000 + IVA          30-jun-26
 
 
-Prenotificaciones                                                           $ 0 + IVA          1-oct-26
+Prenotificaciones                                                            $ 0 + IVA            1-oct-26
+
+
+<!-- página 17 -->
+
+                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
 Pagos a Terceros Masivos
 
 
-Pagos a Terceros Masivos Aval – Bancos                                    $ 4.250 + IVA        1-oct-26
+Pagos a Terceros Masivos Aval – Bancos                                         $ 4.250 + IVA      1-oct-26
 
 
-Pagos a Terceros Masivos Aval – Dale                                        $ 0 + IVA          1-oct-26
+Pagos a Terceros Masivos Aval – Dale                                               $ 0 + IVA      1-oct-26
 
 
 Pagos Transferencias Cenit
 
 
-Grupo 01, Si el Banco de Occidente tiene oficina en la PEAR               $ 9.800 + IVA        1-oct-26
+Grupo 01, Si el Banco de Occidente tiene oficina en la PEAR                    $ 9.800 + IVA      1-oct-26
 
 
-Grupo 01, Si el Banco de Occidente NO tiene oficina en la PEAR            $ 9.800 + IVA        1-oct-26
+Grupo 01, Si el Banco de Occidente NO tiene oficina en la PEAR                 $ 9.800 + IVA      1-oct-26
 
 
-Grupo 02, tarifa única para todas las Ciudades de este Grupo              $ 9.800 + IVA        1-oct-26
+Grupo 02, tarifa única para todas las Ciudades de este Grupo                   $ 9.800 + IVA      1-oct-26
 
 
 Tarifa para las Ciudades no contenidas en los Grupos 01 y 02 y
-                                                                           1,75 % + IVA        1-oct-26
+                                                                               1,75 % + IVA       1-oct-26
 no sea plaza única
 
 
-Mínima                                                                    $ 15.500 + IVA       1-oct-26
+Mínima                                                                         $ 15.500 + IVA     1-oct-26
 
 
-Máxima                                                                   $ 109.000 + IVA       1-oct-26
+Máxima                                                                        $ 109.000 + IVA     1-oct-26
 
 
 Tarifa para las Ciudades no contenidas en los Grupos 01 y 02 y
-                                                                           1,75 % + IVA        1-oct-26
+                                                                               1,75 % + IVA       1-oct-26
 que en la plaza sólo existe una Entidad Financiera
 
 
-Mínima                                                                    $ 15.500 + IVA       1-oct-26
+Mínima                                                                         $ 15.500 + IVA     1-oct-26
 
 
-Pagos programados y en línea por internet                                      $0              1-oct-26
+Pagos programados y en línea por internet                                             $0          1-oct-26
 
 
-Cenit Cuentas Depósito Electrónico ALO                                       $ 9.800           1-oct-26
+Cenit Cuentas Depósito Electrónico ALO                                              $ 9.800       1-oct-26
 
 
-Cenit Cuentas Depósito Electrónico Internet                               $ 9.800 + IVA        1-oct-26
+Cenit Cuentas Depósito Electrónico Internet                                    $ 9.800 + IVA      1-oct-26
 
 
-<!-- página 20 -->
-
-                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-ACH Cuentas Depósito Electrónico Internet                                         $ 8.200 + IVA                        1-oct-26
+ACH Cuentas Depósito Electrónico Internet                                      $ 8.200 + IVA      1-oct-26
 
 
 Pagos Ach Banca Personal
 
 Pagos ACH por Internet, Banca Móvil y Audio Línea de
-                                                                                  $ 8.800 + IVA                        1-oct-26
+                                                                               $ 8.800 + IVA      1-oct-26
 Occidente ALO, Plazas
 
 
-                                                   DESEMBOLSOS DE CARTERA VÍA ACH
+                                                  DESEMBOLSOS DE CARTERA VÍA ACH
 
 
-                      Producto o servicio                                           Comisión                        Vigente desde
+                       Producto o servicio                                         Comisión     Vigente desde
 
 Desembolsos de Cartera Vía Ach Bca Empresarial
 
 
-Desembolsos de Cartera Vía ACH - comisión Única                                   $ 9.100 + IVA                        1-oct-26
+<!-- página 18 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Créditos ACH en Plazas                                                            $ 9.500 + IVA                        1-oct-26
+Desembolsos de Cartera Vía ACH - comisión Única                                      $ 9.100 + IVA                       1-oct-26
+
+
+Créditos ACH en Plazas                                                               $ 9.500 + IVA                       1-oct-26
 
 
 Operaciones por Ciclo 5 de Ach
 
-                                                                 ((Tasa Repo BanRep-1,75 puntos básicos) + Tarifa
-Tarifa por operaciones ciclo 5 de ACH *                                                                                1-oct-26
-                                                                             Banco República )*10%
+                                                                   ((Tasa Repo BanRep-1,75 puntos básicos) + Tarifa
+Tarifa por operaciones ciclo 5 de ACH *                                                                                  1-oct-26
+                                                                               Banco República )*10%
 
 * Nota: El cobro de este servicio se ejecuta acorde a lo definido por ACH, Banco República y Banco de Occidente, en donde este
 último cobro corresponde al 30% de la suma de los dos primeros costos.
 
 
-Mínima                                                                            $ 15.000 + IVA                       1-oct-26
+Mínima                                                                               $ 15.000 + IVA                      1-oct-26
 
 
-                                                         OPERACIONES SEBRA
+                                                          OPERACIONES SEBRA
 
 
-                      Producto o servicio                                           Comisión                        Vigente desde
+                       Producto o servicio                                             Comisión                        Vigente desde
 
 Transferencia de Fondos
 
 
-Efectuar una transferencia si genera GMF                                        19 por Millón + IVA                    1-oct-26
+Efectuar una transferencia si genera GMF                                           19 por Millón + IVA                   1-oct-26
 
 
-Mínima                                                                            $ 62.200 + IVA                       1-oct-26
+Mínima                                                                               $ 62.200 + IVA                      1-oct-26
 
 
-Para efectuar una transferencia si no genera GMF                                19 por Millón + IVA                    1-oct-26
+Para efectuar una transferencia si no genera GMF                                   19 por Millón + IVA                   1-oct-26
 
 
-Mínima                                                                            $ 62.200 + IVA                       1-oct-26
-
-
-<!-- página 21 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Mínima                                                                               $ 62.200 + IVA                      1-oct-26
 
 
 Para recibir una transferencia de fondos                                           19 por Millón + IVA                   1-oct-26
@@ -1339,53 +1220,53 @@ Mínima                                                                         
 Portafolios
 
 
-Administración de portafolios - Derechos Patrimoniales                        (1.2 * Tarifa Deceval) + IVA               1-oct-26
+<!-- página 19 -->
+
+                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Administración de portafolios - Derechos Patrimoniales                         (1.2 * Tarifa Deceval) + IVA     1-oct-26
 
 
 Tarifas por Operaciones y Servicios en el Depósito Central de Valores Dcv
 
 
-Por la Administración y Custodia de Titulos                                                $0                            1-oct-26
+Por la Administración y Custodia de Titulos                                                 $0                  1-oct-26
 
 
-Por liquidación de operaciones                                                             $0                            1-oct-26
+Por liquidación de operaciones                                                              $0                  1-oct-26
 
 
-Compra / Venta compensada de Títulos                                               19 por Millón + IVA                   1-oct-26
+Compra / Venta compensada de Títulos                                               19 por Millón + IVA          1-oct-26
 
 
-Mínima                                                                               $ 62.200 + IVA                      1-oct-26
+Mínima                                                                                 $ 62.200 + IVA           1-oct-26
 
 
 Otros Conceptos Comisiónables (Compraventa de Divisas, Repos, Títulos. Retrocesión, Otros)
 
 
-Por transacciones en horario adicional                                               $ 28.000 + IVA                      1-oct-26
+Por transacciones en horario adicional                                                 $ 28.000 + IVA           1-oct-26
 
 
-Por transacciones no liquidadas                                                      $ 47.700 + IVA                      1-oct-26
+Por transacciones no liquidadas                                                        $ 47.700 + IVA           1-oct-26
 
 
-Por transacciones de depósito y extractos                                            $ 6.050 + IVA                       1-oct-26
+Por transacciones de depósito y extractos                                              $ 6.050 + IVA            1-oct-26
 
 
-Por solicitud de Información impresa                                                 $ 2.550 + IVA                       1-oct-26
+Por solicitud de Información impresa                                                   $ 2.550 + IVA            1-oct-26
 
 
 Tarifas por administración de las cuentas de depósito y por
-                                                                                           $0                            1-oct-26
+                                                                                            $0                  1-oct-26
 operaciones en el CUD
 
 
-<!-- página 22 -->
-
-                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+                              Compensación y liquidación del Mercado de Derivados Estandarizados CRCC
 
 
-                                Compensación y liquidación del Mercado de Derivados Estandarizados CRCC
-
-
-                         Producto o servicio                                             Comisión         Vigente desde
+                        Producto o servicio                                              Comisión             Vigente desde
 
 Contrato Futuro Tes
 Tarifas por Servicios a un Miembro No Liquidador (Mnl) Tarifa por Contrato Transado*
@@ -1394,7 +1275,7 @@ Tarifas por Servicios a un Miembro No Liquidador (Mnl) Tarifa por Contrato Trans
 TFIT16240724 - TFIT08261125 - TFIT15260826 - TFIT16280428 -
 TFIT16180930 - TFIT16300632 - TFIT16181034 - TFIT08031127 -
 TFIT10260331 - TFIT16090736 - TFIT21280542 - TFIT31261050 -
-TFIT11090233 - TFIT11090234 - TFIT11090235 - TFIT11090236 -                     (1.2*Tarifa CRCC) + IVA     1-oct-26
+TFIT11090233 - TFIT11090234 - TFIT11090235 - TFIT11090236 -                     (1.2*Tarifa CRCC) + IVA         1-oct-26
 TFIT11090237 - TFIT11090238 - TFIT11090239 - TFIT11090240 -
 TFIT11090241 - TFIT11090242 - TFIT11090243 - TFIT11090244 -
 TFIT11090245 *
@@ -1403,54 +1284,54 @@ TFIT11090245 *
 Contrato Futuro Trm
 
 
-Mini contrato Futuro de tasa de cambio dólar-peso TRS                           (1.2*Tarifa CRCC) + IVA     1-oct-26
+Mini contrato Futuro de tasa de cambio dólar-peso TRS                           (1.2*Tarifa CRCC) + IVA         1-oct-26
 
 
 Forward Ndf (Vr. Nominal Usd X Factor + Iva)
 
 
-Forward NDF (Vr. Nominal USD x Factor + IVA)                                    (1.2*Tarifa CRCC) + IVA     1-oct-26
+<!-- página 20 -->
+
+                                PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Mínima                                                                                 $ 10.000 + IVA       1-oct-26
+Forward NDF (Vr. Nominal USD x Factor + IVA)                                    (1.2*Tarifa CRCC) + IVA                 1-oct-26
+
+
+Mínima                                                                               $ 10.000 + IVA                     1-oct-26
 
 
 Futuro Accion y Colcap
 
 Futuro Acción Ecopetrol - Bancolombia - Colcap (precio de
 cierre x factor + IVA) - Preferencial Grupo SURA - Éxito - ISA -
-                                                                                (1.2*Tarifa CRCC) + IVA     1-oct-26
+                                                                                (1.2*Tarifa CRCC) + IVA                 1-oct-26
 Nutresa - Grupo AVAL - Cementos Argos - Preferencial Cementos
 Argos - Energía Eléctrica (ELN-ELS)
 
 Futuros Ibr-Vencimiento Ipc
 
 Futuro IBR Vencimiento I (30 días) III (90 días) IV (180 días) V (270
-                                                                                (1.2*Tarifa CRCC) + IVA     1-oct-26
+                                                                                (1.2*Tarifa CRCC) + IVA                 1-oct-26
 días) VI (360 días) VII (540 días)
 
 
-Futuro IPC                                                                      (1.2*Tarifa CRCC) + IVA     1-oct-26
+Futuro IPC                                                                      (1.2*Tarifa CRCC) + IVA                 1-oct-26
 
 
 Tarifa por Gestión de Operaciones
 
 
-Tarifa por Gestión de Operaciones                                               (1.2*Tarifa CRCC) + IVA     1-oct-26
+Tarifa por Gestión de Operaciones                                               (1.2*Tarifa CRCC) + IVA                 1-oct-26
 
 
-Empleo de Cuenta Residual                                                       (1.2*Tarifa CRCC) + IVA     1-oct-26
+Empleo de Cuenta Residual                                                       (1.2*Tarifa CRCC) + IVA                 1-oct-26
 
 
 Tarifa por la Decisión de Llevar al Vencimiento una Posición de Futuros
 
 
-Con Entrega Financiera                                                                   $ 0 + IVA          1-oct-26
-
-
-<!-- página 23 -->
-
-                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Con Entrega Financiera                                                                   $ 0 + IVA                      1-oct-26
 
 
 Con Entrega Efectiva                                                            (1.2*Tarifa CRCC) + IVA                 1-oct-26
@@ -1468,10 +1349,10 @@ Tarifa por liberación y sustitución de garantías *                           
 * Nota: Se ajusta según la referencia y plazo del título.
 
 
-                                                     ESTUDIO DE PROYECTOS CREDITICIOS
+                                                      ESTUDIO DE PROYECTOS CREDITICIOS
 
 
-                        Producto o servicio                                             Comisión                      Vigente desde
+                         Producto o servicio                                             Comisión                     Vigente desde
 
 Estudio de Proyectos Crediticios
 
@@ -1479,97 +1360,269 @@ Estudio de Proyectos Crediticios
 Estudio de proyectos crediticios 0 - 5 MM                                            $ 33.400 + IVA                     1-oct-26
 
 
-Estudio de proyectos crediticios 5MM en adelante                                     $ 46.500 + IVA                     1-oct-26
+<!-- página 21 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-                                                     COBRO DE TITULOS VALORES PROPIOS
+Estudio de proyectos crediticios 5MM en adelante                                     $ 46.500 + IVA     1-oct-26
 
 
-                        Producto o servicio                                             Comisión                      Vigente desde
+                                                 COBRO DE TITULOS VALORES PROPIOS
+
+
+                        Producto o servicio                                            Comisión       Vigente desde
 
 Cobro de Titulos Valores Propios
 
 
-De $1.000 M a $20.000 M                                                              $ 16.700 + IVA                     1-oct-26
+De $1.000 M a $20.000 M                                                              $ 16.700 + IVA     1-oct-26
 
 
-Mayor a $20.000 M                                                                    $ 25.600 + IVA                     1-oct-26
+Mayor a $20.000 M                                                                    $ 25.600 + IVA     1-oct-26
 
 
                              GARANTIAS BANCARIAS, AVALES O CARTAS DE COMPROMISO EN MONEDA LEGAL
 
 
-                        Producto o servicio                                             Comisión                      Vigente desde
+                        Producto o servicio                                            Comisión       Vigente desde
 
 Garantias Bancarias, Avales o Cartas de Compromiso en Moneda Legal
 
-
-<!-- página 24 -->
-
-                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
 Constitución de garantías, avales o cartas de compromiso
-                                                                                      0,75 % + IVA       1-oct-26
+                                                                                      0,75 % + IVA      1-oct-26
 (cobro Anticipado por cada 30 días o Fracción). *
 
 * Nota: 1/3 sobre la comisión especial de constitución garantía o aval aprobada para el cliente.
 
 
-Mínima                                                                               $ 148.400 + IVA     1-oct-26
+Mínima                                                                              $ 148.400 + IVA     1-oct-26
 
 
 Comisión por modificación de plazo (cobro Anticipado por
-                                                                                      0,75 % + IVA       1-oct-26
+                                                                                      0,75 % + IVA      1-oct-26
 cada 30 días o Fracción).
 
 
-Mínima                                                                               $ 148.400 + IVA     1-oct-26
+Mínima                                                                              $ 148.400 + IVA     1-oct-26
 
 
 Modificación diferente a vigencia o aumento de valor (cobro
-                                                                                     $ 148.400 + IVA     1-oct-26
+                                                                                    $ 148.400 + IVA     1-oct-26
 Anticipado por cada 30 días o Fracción).
 
 
-Costo papelería Complementaria                                                        $ 6.900 + IVA      1-oct-26
+Costo papelería Complementaria                                                       $ 6.900 + IVA      1-oct-26
 
 
-                                                        CRÉDITOS SOBRE EL INTERIOR
+                                                      CRÉDITOS SOBRE EL INTERIOR
 
 
-                        Producto o servicio                                            Comisión        Vigente desde
+                        Producto o servicio                                            Comisión       Vigente desde
 
 Créditos sobre el Interior
 
 
-Apertura y pago ( Primeros 90 días)                                                    1,5 % + IVA       1-oct-26
+<!-- página 22 -->
+
+                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Mínima                                                                               $ 17.800 + IVA      1-oct-26
+Apertura y pago ( Primeros 90 días)                                                1,5 % + IVA       1-oct-26
 
 
-Comisión Por extensión del plazo inicial (x 30 días)                                   1,5 % + IVA       1-oct-26
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
 
 
-Mínima                                                                               $ 17.800 + IVA      1-oct-26
+Comisión Por extensión del plazo inicial (x 30 días)                               1,5 % + IVA       1-oct-26
 
 
-Comisión por utilizaciones parciales                                                   1,5 % + IVA       1-oct-26
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
 
 
-Mínima                                                                               $ 17.800 + IVA      1-oct-26
+Comisión por utilizaciones parciales                                               1,5 % + IVA       1-oct-26
 
 
-Prórroga (X 30 días)                                                                   1,5 % + IVA       1-oct-26
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
 
 
-Mínima                                                                               $ 17.800 + IVA      1-oct-26
+Prórroga (X 30 días)                                                               1,5 % + IVA       1-oct-26
 
 
-Modificación distinta al valor o plazo complementario                                 $ 8.900 + IVA      1-oct-26
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
 
 
-Modificación por aumento del valor complementario                                      1,5 % + IVA       1-oct-26
+Modificación distinta al valor o plazo complementario                             $ 8.900 + IVA      1-oct-26
+
+
+Modificación por aumento del valor complementario                                  1,5 % + IVA       1-oct-26
+
+
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
+
+
+Comisión por créditos del interior con el sistema de aceptación                    1,5 % + IVA       1-oct-26
+
+
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
+
+
+Utilización vencida la vigencia (X 30 días o fracción)                            0,15 % + IVA       1-oct-26
+
+
+Mínima                                                                            $ 17.800 + IVA     1-oct-26
+
+
+Tarifa por portes                                                                 $ 7.100 + IVA      1-oct-26
+
+
+Costo de papelería                                                                $ 6.900 + IVA      1-oct-26
+
+
+                                                         ACEPTACIONES BANCARIAS
+
+
+                        Producto o servicio                                         Comisión       Vigente desde
+
+Aceptaciones Bancarias
+
+
+Aceptaciones bancarias                                                            0,75 % + IVA       1-oct-26
+
+
+<!-- página 23 -->
+
+                            PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Mínima                                                                   $ 19.000 + IVA         1-oct-26
+
+
+Costo papelería                                                          $ 6.900 + IVA          1-oct-26
+
+
+                                                         COBRANZAS ML
+
+
+                      Producto o servicio                                  Comisión           Vigente desde
+
+Cobranzas Ml
+
+
+Comisión sobre cobros en la misma plaza (Min)                              4 % + IVA            1-oct-26
+
+
+Mínima                                                                   $ 12.300 + IVA         1-oct-26
+
+
+Máxima                                                                  $ 436.000 + IVA         1-oct-26
+
+
+Comisión sobre cobros en otras plazas                                      5 % + IVA            1-oct-26
+
+
+Mínima                                                                   $ 12.300 + IVA         1-oct-26
+
+
+Máxima                                                                  $ 436.000 + IVA         1-oct-26
+
+
+Comisión por devolución antes de su vencimiento                          $ 12.300 + IVA         1-oct-26
+
+
+Liquidación en caso de reducciones o recargos                              $ 0 + IVA            1-oct-26
+
+
+Comisión por cobro de pagarés, facturas, cuentas de cobro,
+                                                                           5 % + IVA            1-oct-26
+cheques, contratos y similares
+
+
+Mínima                                                                   $ 4.600 + IVA          1-oct-26
+
+
+Máxima                                                                  $ 436.000 + IVA         1-oct-26
+
+
+Cobro de letras o pagarés descontados por el Banco                         5 % + IVA            1-oct-26
+
+
+Mínima                                                                   $ 4.600 + IVA          1-oct-26
+
+
+Máxima                                                                  $ 436.000 + IVA         1-oct-26
+
+
+Portes Complementario                                                    $ 7.100 + IVA          1-oct-26
+
+
+<!-- página 24 -->
+
+                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+                                                      Valores en Custodia
+
+
+                      Producto o servicio                                     Comisión         Vigente desde
+
+Valores en Custodia
+
+
+Comisión sobre custodia (anual)                                              0,25 % + IVA        1-oct-26
+
+
+Mínima                                                                       $ 9.500 + IVA       1-oct-26
+
+
+Máxima                                                                      $ 436.000 + IVA      1-oct-26
+
+
+Comisión sobre cobro de rendimientos                                         0,25 % + IVA        1-oct-26
+
+
+Mínima                                                                       $ 9.500 + IVA       1-oct-26
+
+
+Máxima                                                                      $ 436.000 + IVA      1-oct-26
+
+
+Custodia de certificados de reembolso tributario
+                                                                              0,4 % + IVA        1-oct-26
+complementario (anual)
+
+
+Mínima                                                                       $ 9.500 + IVA       1-oct-26
+
+
+Máxima                                                                      $ 436.000 + IVA      1-oct-26
+
+
+Comisión sobre entrega en plaza distinta (anual)                              0,4 % + IVA        1-oct-26
+
+
+Mínima                                                                      $ 15.900 + IVA       1-oct-26
+
+
+Portes complementario                                                        $ 7.100 + IVA       1-oct-26
+
+
+                                                     VALORES EN GARANTÍA
+
+
+                      Producto o servicio                                     Comisión         Vigente desde
+
+Valores en Garantía
+
+Comisión sobre custodia de valores en garantía con
+                                                                              0,5 % + IVA        1-oct-26
+rendimientos o dividendos
+
+
+Mínima                                                                       $ 9.500 + IVA       1-oct-26
+
+
+Máxima                                                                      $ 436.000 + IVA      1-oct-26
 
 
 <!-- página 25 -->
@@ -1577,264 +1630,93 @@ Modificación por aumento del valor complementario                              
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-Mínima                                                                            $ 17.800 + IVA      1-oct-26
+                                                 COMPRA, VENTA Y MANEJO DE VALORES
 
 
-Comisión por créditos del interior con el sistema de aceptación                     1,5 % + IVA       1-oct-26
-
-
-Mínima                                                                            $ 17.800 + IVA      1-oct-26
-
-
-Utilización vencida la vigencia (X 30 días o fracción)                             0,15 % + IVA       1-oct-26
-
-
-Mínima                                                                            $ 17.800 + IVA      1-oct-26
-
-
-Tarifa por portes                                                                  $ 7.100 + IVA      1-oct-26
-
-
-Costo de papelería                                                                 $ 6.900 + IVA      1-oct-26
-
-
-                                                         ACEPTACIONES BANCARIAS
-
-
-                       Producto o servicio                                          Comisión        Vigente desde
-
-Aceptaciones Bancarias
-
-
-Aceptaciones bancarias                                                             0,75 % + IVA       1-oct-26
-
-
-Mínima                                                                            $ 19.000 + IVA      1-oct-26
-
-
-Costo papelería                                                                    $ 6.900 + IVA      1-oct-26
-
-
-                                                             COBRANZAS ML
-
-
-                       Producto o servicio                                          Comisión        Vigente desde
-
-Cobranzas Ml
-
-
-Comisión sobre cobros en la misma plaza (Min)                                       4 % + IVA         1-oct-26
-
-
-Mínima                                                                            $ 12.300 + IVA      1-oct-26
-
-
-Máxima                                                                            $ 436.000 + IVA     1-oct-26
-
-
-<!-- página 26 -->
-
-                            PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Comisión sobre cobros en otras plazas                                          5 % + IVA         1-oct-26
-
-
-Mínima                                                                       $ 12.300 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Comisión por devolución antes de su vencimiento                              $ 12.300 + IVA      1-oct-26
-
-
-Liquidación en caso de reducciones o recargos                                   $ 0 + IVA        1-oct-26
-
-
-Comisión por cobro de pagarés, facturas, cuentas de cobro,
-                                                                               5 % + IVA         1-oct-26
-cheques, contratos y similares
-
-
-Mínima                                                                        $ 4.600 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Cobro de letras o pagarés descontados por el Banco                             5 % + IVA         1-oct-26
-
-
-Mínima                                                                        $ 4.600 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Portes Complementario                                                         $ 7.100 + IVA      1-oct-26
-
-
-                                                       Valores en Custodia
-
-
-                      Producto o servicio                                      Comisión        Vigente desde
-
-Valores en Custodia
-
-
-Comisión sobre custodia (anual)                                               0,25 % + IVA       1-oct-26
-
-
-Mínima                                                                        $ 9.500 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Comisión sobre cobro de rendimientos                                          0,25 % + IVA       1-oct-26
-
-
-Mínima                                                                        $ 9.500 + IVA      1-oct-26
-
-
-<!-- página 27 -->
-
-                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Custodia de certificados de reembolso tributario
-                                                                               0,4 % + IVA       1-oct-26
-complementario (anual)
-
-
-Mínima                                                                        $ 9.500 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-Comisión sobre entrega en plaza distinta (anual)                               0,4 % + IVA       1-oct-26
-
-
-Mínima                                                                       $ 15.900 + IVA      1-oct-26
-
-
-Portes complementario                                                         $ 7.100 + IVA      1-oct-26
-
-
-                                                       VALORES EN GARANTÍA
-
-
-                      Producto o servicio                                      Comisión        Vigente desde
-
-Valores en Garantía
-
-Comisión sobre custodia de valores en garantía con
-                                                                               0,5 % + IVA       1-oct-26
-rendimientos o dividendos
-
-
-Mínima                                                                        $ 9.500 + IVA      1-oct-26
-
-
-Máxima                                                                       $ 436.000 + IVA     1-oct-26
-
-
-                                               COMPRA, VENTA Y MANEJO DE VALORES
-
-
-                      Producto o servicio                                      Comisión        Vigente desde
+                       Producto o servicio                                       Comisión       Vigente desde
 
 Compra, Venta y Manejo de Valores
 
 
-Comisión sobre Compra o venta de acciones                                      0,5 % + IVA       1-oct-26
+Comisión sobre Compra o venta de acciones                                       0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                        $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
 Comisión por Compra o venta de otros títulos valores en bolsa de
-                                                                               0,5 % + IVA       1-oct-26
+                                                                                0,5 % + IVA       1-oct-26
 Valores
 
 
-<!-- página 28 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
 Comisión por suscripción y pago de acciones por cuenta del
-                                                                                  0,5 % + IVA       1-oct-26
+                                                                                0,5 % + IVA       1-oct-26
 cliente
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
 Comisión sobre Entrega de Títulos Valores
 
 
-En la misma plaza                                                                 0,5 % + IVA       1-oct-26
+En la misma plaza                                                               0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
-En otras plazas                                                                   0,5 % + IVA       1-oct-26
+En otras plazas                                                                 0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
-Comisión por recibo de títulos bursátiles sin recaudo de dinero                   0,5 % + IVA       1-oct-26
+Comisión por recibo de títulos bursátiles sin recaudo de dinero                 0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
-Comisión por recibo de loterías no sorteadas                                      0,5 % + IVA       1-oct-26
+Comisión por recibo de loterías no sorteadas                                    0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
-Comisión por conversión o cambio de valores                                       0,5 % + IVA       1-oct-26
+Comisión por conversión o cambio de valores                                     0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                         $ 9.500 + IVA      1-oct-26
 
 
 Comisión por encargo de una empresa en el pago de
-                                                                                  0,5 % + IVA       1-oct-26
+                                                                                0,5 % + IVA       1-oct-26
 Dividendos
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+<!-- página 26 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Mínima                                                                                 $ 9.500 + IVA                         1-oct-26
 
 
 Comisión por Recibo o Pago de Dineros en Sitios Diferentes al Banco
 
 
-Comisión sobre pago de primas de seguros                                          0,5 % + IVA       1-oct-26
+Comisión sobre pago de primas de seguros                                               0,5 % + IVA                           1-oct-26
 
 
-Mínima                                                                           $ 9.500 + IVA      1-oct-26
+Mínima                                                                                 $ 9.500 + IVA                         1-oct-26
 
 
-                                   VISITA AVANCE DE OBRA DE CONTROL INTERNO - Crédito constructor
+                                     VISITA AVANCE DE OBRA DE CONTROL INTERNO - Crédito constructor
 
-
-<!-- página 29 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
                        Producto o servicio                                              Comisión                          Vigente desde
 
@@ -1872,160 +1754,160 @@ Leasing de Importación - Valor Cif
 > $1.500.000 USD                                                                       0,11 % + IVA                          1-oct-26
 
 
-                                       ESTUDIO DE TITULOS Y PROCESOS JUDICIALES O ADNINISTRATIVOS
+<!-- página 27 -->
+
+                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
-                       Producto o servicio                                              Comisión                          Vigente desde
+                                      ESTUDIO DE TITULOS Y PROCESOS JUDICIALES O ADNINISTRATIVOS
+
+
+                         Producto o servicio                                        Comisión       Vigente desde
 
 Estudio de Titulos
 
 
-Honorarios por Estudios de Títulos y Elaboración de Contratos                               $0                               1-oct-26
+Honorarios por Estudios de Títulos y Elaboración de Contratos                          $0            1-oct-26
 
 
-Trámite de Procesos                                                                         $0                               1-oct-26
+Trámite de Procesos                                                                    $0            1-oct-26
 
 
 Levantamiento / Reexpedición Prenda Vehículos
 
 
-<!-- página 30 -->
-
-                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Comisión                                                                               $ 19.200 + IVA     1-oct-26
+Comisión                                                                          $ 19.200 + IVA     1-oct-26
 
 
 Estudio de Créditos de Libranza
 
 
-Comisión                                                                              $ 350.000 + IVA     1-oct-26
+Comisión                                                                         $ 350.000 + IVA     1-oct-26
 
 
                                                            MONEDA EXTRANJERA
 
 
-                         Producto o servicio                                             Comisión       Vigente desde
+                         Producto o servicio                                        Comisión       Vigente desde
 
 Cartas de Credito de Importacion
 
 
-Emisión (Vigencia primeros 90 días)                                                     0,5 % + IVA       1-oct-26
+Emisión (Vigencia primeros 90 días)                                                0,5 % + IVA       1-oct-26
 
 
-Mínima                                                                                 USD 150 + IVA      1-oct-26
+Mínima                                                                            USD 150 + IVA      1-oct-26
 
 
-Vigencia Adicional ( X 30 días o fracción)                                             0,375 % + IVA      1-oct-26
+Vigencia Adicional ( X 30 días o fracción)                                        0,375 % + IVA      1-oct-26
 
 
-Mínima                                                                                  USD 50 + IVA      1-oct-26
+Mínima                                                                            USD 50 + IVA       1-oct-26
 
 
-Ampliación del Plazo de vigencia ( X 30 días o fracción)                               0,375 % + IVA      1-oct-26
+Ampliación del Plazo de vigencia ( X 30 días o fracción)                          0,375 % + IVA      1-oct-26
 
 
-Mínima                                                                                  USD 50 + IVA      1-oct-26
+Mínima                                                                            USD 50 + IVA       1-oct-26
 
 
-Modificación por aumento de valor                                                        1 % + IVA        1-oct-26
+Modificación por aumento de valor                                                   1 % + IVA        1-oct-26
 
 
-Mínima                                                                                 USD 100 + IVA      1-oct-26
+Mínima                                                                            USD 100 + IVA      1-oct-26
 
 
 Otras modificaciones diferentes a valor o ampliación de la
-                                                                                        USD 50 + IVA      1-oct-26
+                                                                                  USD 50 + IVA       1-oct-26
 vigencia
 
 
-Utilización parcial o Total                                                             USD 30 + IVA      1-oct-26
+Utilización parcial o Total                                                       USD 30 + IVA       1-oct-26
 
 
-Aceptación o pago diferido *                                                           0,375 % + IVA      1-oct-26
+<!-- página 28 -->
+
+                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Aceptación o pago diferido *                                                            0,375 % + IVA   1-oct-26
 
 
 * Nota: Esta comisión se cobrara por T.A. sobre valor utilizado calculada por 30 días o fracción
 
 
-Mínima                                                                                  USD 50 + IVA      1-oct-26
+Mínima                                                                                  USD 50 + IVA    1-oct-26
 
 
-Manejo de discrepancias                                                                 USD 50 + IVA      1-oct-26
+Manejo de discrepancias                                                                 USD 50 + IVA    1-oct-26
 
 
-<!-- página 31 -->
-
-                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+Prorroga de financiación                                                                 0,5 % + IVA    1-oct-26
 
 
-Prorroga de financiación                                                                 0,5 % + IVA   1-oct-26
-
-
-Mínima                                                                                  USD 50 + IVA   1-oct-26
+Mínima                                                                                  USD 50 + IVA    1-oct-26
 
 
 Con Reembolso Banco de la República
 
 
-Reembolso Banco de la República a través del convenio ALADI                             USD 15 + IVA   1-oct-26
+Reembolso Banco de la República a través del convenio ALADI                             USD 15 + IVA    1-oct-26
 
 
 Cartas de Crédito de Exportación
 
 
-Aviso (primeros 90 días)                                                                USD 70 + IVA   1-oct-26
+Aviso (primeros 90 días)                                                                USD 70 + IVA    1-oct-26
 
 
-Confirmación (primeros 90 días)                                                          0,2 % + IVA   1-oct-26
+Confirmación (primeros 90 días)                                                          0,2 % + IVA    1-oct-26
 
 
-Mínima                                                                                  USD 60 + IVA   1-oct-26
+Mínima                                                                                  USD 60 + IVA    1-oct-26
 
 
-Confirmación plazo adicional o prorroga (30 días o fracción)                            0,07 % + IVA   1-oct-26
+Confirmación plazo adicional o prorroga (30 días o fracción)                            0,07 % + IVA    1-oct-26
 
 
-Mínima                                                                                  USD 50 + IVA   1-oct-26
+Mínima                                                                                  USD 50 + IVA    1-oct-26
 
 
-Confirmación aumento de valor                                                            0,2 % + IVA   1-oct-26
+Confirmación aumento de valor                                                            0,2 % + IVA    1-oct-26
 
 
-Mínima                                                                                  USD 55 + IVA   1-oct-26
+Mínima                                                                                  USD 55 + IVA    1-oct-26
 
 
-Otras modificaciones                                                                    USD 50 + IVA   1-oct-26
+Otras modificaciones                                                                    USD 50 + IVA    1-oct-26
 
 
-Pago o negociación de documentos                                                         0,2 % + IVA   1-oct-26
+Pago o negociación de documentos                                                         0,2 % + IVA    1-oct-26
 
 
-Mínima                                                                                  USD 50 + IVA   1-oct-26
+Mínima                                                                                  USD 50 + IVA    1-oct-26
 
 
-Aceptación o pago diferido *                                                            0,25 % + IVA   1-oct-26
+Aceptación o pago diferido *                                                            0,25 % + IVA    1-oct-26
 
 
 * Nota: Esta comisión se cobrara por T.A. sobre valor utilizado calculada por 30 días o fracción.
 
 
-Mínima                                                                                  USD 50 + IVA   1-oct-26
+Mínima                                                                                  USD 50 + IVA    1-oct-26
 
 
-Negociación de documentos por Otro Banco                                                 0,2 % + IVA   1-oct-26
-
-
-Mínima                                                                                  USD 30 + IVA   1-oct-26
-
-
-Verificación de abono o recepción de fondos                                             USD 25 + IVA   1-oct-26
-
-
-<!-- página 32 -->
+<!-- página 29 -->
 
                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Negociación de documentos por Otro Banco                                   0,2 % + IVA         1-oct-26
+
+
+Mínima                                                                    USD 30 + IVA         1-oct-26
+
+
+Verificación de abono o recepción de fondos                               USD 25 + IVA         1-oct-26
 
 
 Sobre créditos confirmados vencidos no utilizados                         USD 50 + IVA         1-oct-26
@@ -2091,15 +1973,16 @@ Devolución de documentos por no aceptación                                USD 
 Cobranzas Documentarias de Exportación
 
 
-Cobranza de documentos girados sobre el exterior                           0,25 % + IVA        1-oct-26
-
-
-Mínima                                                                    USD 100 + IVA        1-oct-26
-
-
-<!-- página 33 -->
+<!-- página 30 -->
 
                              PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Cobranza de documentos girados sobre el exterior                                      0,25 % + IVA   1-oct-26
+
+
+Mínima                                                                               USD 100 + IVA   1-oct-26
+
 
 Abono recibido a través de otro intermediario del mercado
                                                                                      0,125 % + IVA   1-oct-26
@@ -2170,12 +2053,12 @@ Mínima                                                                         
 Comisión de prorroga de giros directos financiados                                    0,5 % + IVA    1-oct-26
 
 
-Mínima                                                                               USD 50 + IVA    1-oct-26
-
-
-<!-- página 34 -->
+<!-- página 31 -->
 
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
+
+
+Mínima                                                                              USD 50 + IVA                     1-oct-26
 
 
 Con divisas en efectivo ( sólo dólares americanos)                                   3,5 % + IVA                     1-oct-26
@@ -2249,7 +2132,7 @@ Prepago total o parcial capital de trabajo varios                               
 Prorroga financiacion capital de trabajo                                            USD 100 + IVA                    1-oct-26
 
 
-<!-- página 35 -->
+<!-- página 32 -->
 
                               PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
@@ -2322,12 +2205,12 @@ Servicio de verificacion de claves y retrasmision a otros Bancos                
 Operaciones con recepción de Efectivo (compra de divisas)                             3,5 % + IVA    1-oct-26
 
 
-<!-- página 36 -->
+Mínima                                                                               USD 30 + IVA    1-oct-26
+
+
+<!-- página 33 -->
 
                                 PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
-
-Mínima                                                                         USD 30 + IVA                   1-oct-26
 
 
 Prorroga para cualquier financiacion diferente a carta de
@@ -2399,15 +2282,16 @@ república
 Pagos al BID y/o entidades de fomento                                          USD 20 + IVA                   1-oct-26
 
 
-<!-- página 37 -->
-
-                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
 Comisiónes Generadas por Compra Venta de Divisas en Ventanilla
 
 Compra de efectivo ME al cliente y el Banco cancela a través
-                                                                           3,5 % + IVA         1-oct-26
+                                                                                3,5 % + IVA                   1-oct-26
 de Cheque de Gerencia.
+
+
+<!-- página 34 -->
+
+                             PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
 
 
 Mínima                                                                    USD 30 + IVA         1-oct-26
@@ -2472,14 +2356,13 @@ Comisión Mensaje Swift                                                    USD 2
 DHL                                                                       USD 70 + IVA         1-oct-26
 
 
-<!-- página 38 -->
-
-                          PRODUCTOS RELACIONADOS CON CUENTA CORRIENTE Y CUENTA DE AHORROS
-
 Factoring Internacional
 
 
-Comisión Factor                                                           0,8 %             1-oct-26
+Comisión Factor                                                               0,8 %            1-oct-26
 
 
-Mínima                                                                 USD 20 + IVA         1-oct-26
+Mínima                                                                    USD 20 + IVA         1-oct-26
+
+
+<!-- página 35 -->

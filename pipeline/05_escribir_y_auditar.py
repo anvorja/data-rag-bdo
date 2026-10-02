@@ -55,6 +55,7 @@ for r in rows:
     if r['duplicado_de']: fm.append(f"duplicado_de: {r['duplicado_de']}")
     if r['casi_duplicado_de']: fm += [f"casi_duplicado_de: {r['casi_duplicado_de']}", f"similitud: {r['similitud']}"]
     if r.get('vigencia_validada'): fm.append('vigencia_validada: true')
+    if r.get('version_de'): fm.append(f"version_de: {r['version_de']}")
     fm.append(f"indexar: {str(r['indexar']).lower()}")
     if r['motivo_no_indexar']: fm.append('motivo_no_indexar: [' + ', '.join(r['motivo_no_indexar']) + ']')
     fm.append('flags: [' + ', '.join(r['flags']) + ']')
@@ -70,7 +71,7 @@ with open(OUT + 'corpus.jsonl', 'w') as jl:
 idx = []
 for r in rows:
     idx.append({k: r.get(k) for k in ('id', 'url', 'titulo', 'tipo_contenido', 'fuente', 'archivo', 'nota', 'tipo_doc', 'area', 'segmento', 'idioma', 'estado_vigencia', 'anio_documento',
-                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar', 'vigencia_validada')}
+                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar', 'vigencia_validada', 'version_de')}
                | {'caracteres': len(r['texto']), 'etiquetas_origen': r['etiquetas_origen']})
 json.dump(idx, open(OUT + 'indice.json', 'w'), ensure_ascii=False, indent=1)
 

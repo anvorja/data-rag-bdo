@@ -6,7 +6,7 @@ tipo_doc: tarifas_tasas
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: vigente_hasta_reemplazo
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: 2026-09-01

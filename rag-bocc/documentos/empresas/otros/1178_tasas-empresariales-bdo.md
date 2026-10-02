@@ -1,42 +1,43 @@
 ---
-id: 230
+id: 1178
 url: "https://www.bancodeoccidente.com.co/documents/d/guest/tasas-empresariales-bdo"
 titulo: "tasas empresariales bdo"
 tipo_doc: tarifas_tasas
 area: otros
-segmento: personas
+segmento: empresas
 idioma: es
-estado_vigencia: historico
+estado_vigencia: vigente_hasta_reemplazo
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: 2026-09-01
-vigente_hasta: 2026-09-30
+vigente_desde: 2026-10-01
+vigente_hasta: 2026-10-31
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarifas"
-fecha_extraccion: 2026-10-01
-caracteres: 10868
-paginas: 3
-hash_contenido: 1324d0409acc9577
-lote: "lote1"
+fecha_extraccion: 2026-10-02
+caracteres: 10865
+paginas: 1
+hash_contenido: e90a09fc8c58f402
+lote: "recaptura-2026-10-02"
 vigencia_validada: true
+version_de: 230
 indexar: true
-flags: [tablas_numericas]
+flags: [tablas_numericas, version_nueva]
 ---
 
 # tasas empresariales bdo
 
 <!-- página 1 -->
 
-* Tasas Vigentes del 01 al 30 de Septimebre del 2026
+* Tasas Vigentes del 01 al 31 de Octubre del 2026
 
                             Tasa                                                               NMV
-                        Tasa Compras                                                          2,15%
-                         Tasa Avances                                                         2,15%
-                        Tasa Impuestos                                                        1,68%
-                          Tasa Mora                                                           2,15%
+                        Tasa Compras                                                          2,11%
+                         Tasa Avances                                                         2,11%
+                        Tasa Impuestos                                                        1,63%
+                          Tasa Mora                                                           2,11%
 
 
                                                                                                             TASA NOMINAL

@@ -1,14 +1,14 @@
 # Auditoría automática del corpus (Fase 1) — 2026-10-01
 
-Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 · casi-duplicados (Jaccard ≥ 0,8): 36 · sin texto: 15
+Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 · casi-duplicados (Jaccard ≥ 0,8): 36 · sin texto: 15
 
 ## Distribución
 
 | segmento | docs |
 |---|---|
-| personas | 670 |
+| personas | 671 |
 | inversionistas | 254 |
-| empresas | 251 |
+| empresas | 253 |
 
 | tipo_doc | docs |
 |---|---|
@@ -28,7 +28,7 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | tributario | 27 |
 | legal_normativa | 24 |
 | educacion_financiera | 21 |
-| tarifas_tasas | 16 |
+| tarifas_tasas | 19 |
 | institucional | 15 |
 | emision_valores | 15 |
 | calificacion | 13 |
@@ -40,13 +40,13 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 |---|---|
 | estados_financieros_inversionistas | 175 |
 | seguros | 96 |
-| pagos_recaudos_canales | 94 |
+| pagos_recaudos_canales | 95 |
 | sostenibilidad | 92 |
 | tarjetas_credito | 88 |
-| cuentas | 85 |
+| cuentas | 86 |
 | estudios_economicos | 79 |
 | gobierno_corporativo | 72 |
-| otros | 52 |
+| otros | 53 |
 | creditos_vivienda | 39 |
 | transversal_formatos_politicas | 39 |
 | tributario | 33 |
@@ -65,7 +65,7 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 
 | idioma | docs |
 |---|---|
-| es | 1082 |
+| es | 1085 |
 | en | 73 |
 | indeterminado | 16 |
 | mixto | 4 |
@@ -73,8 +73,8 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | estado_vigencia | docs |
 |---|---|
 | vigente | 824 |
-| historico | 244 |
-| por_verificar | 63 |
+| historico | 248 |
+| por_verificar | 62 |
 | vencido | 25 |
 | periodo_reciente | 15 |
 | vigente_hasta_reemplazo | 2 |
@@ -86,11 +86,11 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 |---|---|---|
 | plantilla_cms_limpiada | 274 |  |
 | candidato_vlm | 154 | PDF con ≥3 imágenes grandes y poco texto por página → candidatos a descripción con VLM / OCR reforzado (sección 3 de la guía v2) |
-| duplicado_exacto | 119 | mismo texto que otro documento; se conserva solo el primero |
+| duplicado_exacto | 118 | mismo texto que otro documento; se conserva solo el primero |
 | ingles | 73 | documento en inglés; excluir del índice por defecto del asesor en español (o enlazar con su equivalente) |
-| tablas_numericas | 48 | muchas líneas con columnas numéricas (estados financieros): validar tablas con un parser de layout |
-| sin_fecha | 45 | tarifa/T&C/guía/informe sin año detectable → no se puede gobernar su vigencia |
+| tablas_numericas | 49 | muchas líneas con columnas numéricas (estados financieros): validar tablas con un parser de layout |
 | poco_texto_por_pagina | 44 | < 300 caracteres por página → probable escaneado o capturas; revisar OCR |
+| sin_fecha | 44 | tarifa/T&C/guía/informe sin año detectable → no se puede gobernar su vigencia |
 | casi_duplicado | 36 | versión casi idéntica de otro documento (Jaccard ≥ 0,8); decidir cuál se indexa |
 | ocr | 34 | texto obtenido por OCR (puede tener errores en cifras y nombres) |
 | titulo_dudoso | 23 | el título HTML no coincide con la ruta (p. ej. título copiado de otra página) |
@@ -98,10 +98,11 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | sin_texto | 15 | sin contenido extraíble (redes, cotizadores JS…) |
 | muy_largo | 5 | > 1,5 M de caracteres; requiere chunking jerárquico por capítulo |
 | mojibake | 5 | caracteres rotos (codificación) → revisar |
+| version_nueva | 4 |  |
 | vigencia_vencida | 3 | el propio documento declara una vigencia ya terminada |
 | muy_corto | 2 | < 200 caracteres |
 
-**Indexables por defecto: 957 de 1175** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=119, ingles=73, sin_contenido_util=17, casi_duplicado=12, contenido_sensible=1.
+**Indexables por defecto: 961 de 1178** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=118, ingles=73, sin_contenido_util=17, casi_duplicado=12, contenido_sensible=1.
 
 ## Hallazgos con impacto en el diseño
 
@@ -130,7 +131,7 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 - **Vigencia vencida:** id 946 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA “ABRE TU CUENTA NÓMINA Y» declara vigencia hasta 2025-12-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
 - **Vigencia vencida:** id 956 «TÉRMINOS Y CONDICIONES DE LA CAMPAÑA» declara vigencia hasta 2025-07-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
 - **Vigencia vencida:** id 1115 «tyc campana q3» declara vigencia hasta 2025-10-31 (hoy 2026-10-01). Las **tasas se publican por mes**: un PDF de tasas queda obsoleto a fin de mes → las tasas deben venir de una fuente estructurada, no del índice documental.
-- **Sin fecha detectable:** 45 documentos de tarifas/T&C/guías/informes (lista en `auditoria.csv`, filtrar alerta `sin_fecha`).
+- **Sin fecha detectable:** 44 documentos de tarifas/T&C/guías/informes (lista en `auditoria.csv`, filtrar alerta `sin_fecha`).
 
 ## Archivos
 

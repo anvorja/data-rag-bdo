@@ -22,6 +22,18 @@ Resultado: 135 vigentes, 24 vencidos, 3 históricos (884, 892, 1066) y 2 sujetos
 `rag-bocc/vigencia/decisiones.jsonl` se aplica con `pipeline/05_escribir_y_auditar.py` (manda la última decisión por id) y los documentos validados llevan `vigencia_validada: true`.
 El doc 806 (carta de Comware con la cédula de una persona) quedó **fuera del índice** (`motivo_no_indexar: contenido_sensible`). Indexables: 957.
 
+## Recaptura del 2026-10-02 (versionamiento aplicado)
+Se recapturaron las 4 URL vivas con `pipeline/17_recaptura.py` (en el navegador, con `fetch()`; los PDF quedan en `_raw/recaptura/`). Todas habían cambiado:
+| URL | Versión anterior (histórica) | Versión nueva | Vigencia nueva |
+|---|---|---|---|
+| tarifas-persona-bdo | 227 | 1176 | 1-oct-2026 → 31-dic-2026 |
+| tarifas-empresariales-bdo | 228 | 1177 | 1-oct-2026 → 31-dic-2026 |
+| tasas-personas-bdo | 097 | 229 | 1-oct-2026 → 31-oct-2026 |
+| tasas-empresariales-bdo | 230 | 1178 | 1-oct-2026 → 31-oct-2026 |
+Ejemplos de cambio: tasa de compras empresarial 2,15 % (septiembre) → 2,11 % (octubre); «Retiro corresponsal bancario» $3.000 → $3.200 + IVA (tarifa vigente desde el 1-oct-26).
+Las versiones nuevas llevan `version_de: <id anterior>`; las antiguas siguen en el corpus como `historico` (para preguntas sobre meses pasados). Las tasas de octubre quedan `vigente_hasta_reemplazo` hasta que se cargue noviembre.
+Ya no hay riesgo de que el asistente responda con las tasas de septiembre como si fueran las actuales.
+
 ## Autoridad de las fuentes
 - Si dos fuentes se contradicen, **manda el PDF oficial** sobre la página web. Cada inconsistencia genera una **alerta al ingeniero del RAG**.
 - Responsable por tipo de contenido (campañas, tasas, contratos, seguros, sostenibilidad): las directivas confirman que se requiere un contacto por área. **Pendiente:** nombres/contactos.
