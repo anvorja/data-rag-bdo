@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > moneda extranjera"
 fecha_extraccion: 2026-10-01
-caracteres: 3919
+caracteres: 3259
 paginas: null
-hash_contenido: 23e466315ad1751f
+hash_contenido: b9625339657d1f4c
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Servicios Financieros para Importadores | Banco de Occidente - Empresas
@@ -40,7 +41,6 @@ Productos en Moneda Extranjera
 - Importadores
 - Exportadores
 - Otros Servicios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Cartas de Crédito de Importación
@@ -48,7 +48,6 @@ Moneda Extranjera
 Facilita tus importaciones con respaldo financiero.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/carta-credito-importacion)
 (imagen: imagen contenedores) (imagen: imagen contenedores mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Giros Directos
@@ -56,7 +55,6 @@ Moneda Extranjera
 Envía dinero al exterior de forma rápida y segura.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/giros-directos)
 (imagen: imagen hombre ejecutivo) (imagen: imagen eejcutivo mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Giro Financiado
@@ -64,7 +62,6 @@ Moneda Extranjera
 Importa sin afectar tu flujo de caja. Financia tus giros.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/giros-financiados)
 (imagen: imagen mujer ejecutiva) (imagen: imagen mujer ejecutiva mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Cobranza de Importación
@@ -99,9 +96,6 @@ Deja tus datos y recibe asesoría personalizada para acceder a nuestros producto
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: imagen mujer asesora) (imagen: imagen mujer asesora mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=comercio) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

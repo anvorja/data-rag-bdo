@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > moneda extranjera"
 fecha_extraccion: 2026-10-01
-caracteres: 6498
+caracteres: 4986
 paginas: null
-hash_contenido: 3ae38259ca4ccff1
+hash_contenido: 729953be8da5584b
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 10 líneas de plantilla del CMS."
 ---
 
 # Cartas de Crédito de Exportación
@@ -41,7 +42,6 @@ Productos en Moneda Extranjera
 - Importadores
 - Exportadores
 - Otros Servicios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Cartas de Crédito de Exportación
@@ -49,7 +49,6 @@ Moneda Extranjera
 Protege tus ventas internacionales y asegura el pago de tus exportaciones con confianza.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/carta-credito-exportacion)
 (imagen: barco de carga) (imagen: barco de carga)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Reintegros de Exportación
@@ -57,7 +56,6 @@ Moneda Extranjera
 Recupera el valor de tus exportaciones de manera rápida y eficiente.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/reintegro-exportacion)
 (imagen: Ingeniero) (imagen: Ingeniero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Prefinanciación de Exportación
@@ -65,7 +63,6 @@ Moneda Extranjera
 Impulsa tu negocio con capital anticipado para tus exportaciones y mejora tu flujo de caja.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/prefinanciacion-exportacion)
 (imagen: Señorita con paquetes) (imagen: Señorita con paquetes)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Descuento de Cartera
@@ -73,7 +70,6 @@ Moneda Extranjera
 Convierte tus cuentas por cobrar en liquidez inmediata. Anticipa el pago de tus facturas internacionales.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/descuento-cartera)
 (imagen: Señorita con tarjeta de credito en mano) (imagen: Señorita con tarjeta de credito en mano)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Cobranza de Exportación
@@ -81,7 +77,6 @@ Moneda Extranjera
 Asegura el pago de tus exportaciones con un proceso de cobranza estructurado y confiable.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/cobranza-exportacion)
 (imagen: Hombre con billetes) (imagen: Hombre con billetes)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Certificado de Reembolso Tributario (CERT)
@@ -115,7 +110,6 @@ Deja tus datos y recibe asesoría personalizada para acceder a nuestros producto
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor)
 (imagen: Chica con audifonos) (imagen: Chica con audifonos)
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -123,7 +117,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -131,7 +124,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -139,7 +131,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -148,9 +139,6 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=comercio) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

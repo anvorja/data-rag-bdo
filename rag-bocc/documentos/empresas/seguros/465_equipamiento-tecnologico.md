@@ -19,14 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 1838
+caracteres: 1604
 paginas: null
-hash_contenido: 2aa02d4a9af6c9e3
+hash_contenido: f7c4b5428d9cd98a
 lote: "crawl2-paginas"
-casi_duplicado_de: 464
-similitud: 0.83
 indexar: true
-flags: [casi_duplicado, titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Equipamiento Tecnológico
@@ -45,7 +44,6 @@ Seguros Empresariales
 - Tecnología
 - PYME
 - Vida Leasing no habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Equipamiento Tecnológico
@@ -80,7 +78,4 @@ Déjanos tus datos y recibe asesoría para elegir el seguro ideal para tu empres
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Asesor) (imagen: Asesor)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=seguros) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

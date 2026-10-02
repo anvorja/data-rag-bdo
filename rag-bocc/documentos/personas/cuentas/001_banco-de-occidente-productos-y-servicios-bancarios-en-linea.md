@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > quienes somos"
 fecha_extraccion: 2026-10-01
-caracteres: 24282
+caracteres: 18460
 paginas: null
-hash_contenido: a6c76de2d5756122
+hash_contenido: 53440a430a058dcb
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 41 líneas de plantilla del CMS."
 ---
 
 # Banco de Occidente - Productos y servicios bancarios en línea
@@ -68,14 +69,12 @@ Cuentas
 Tarjetas
 Inversión
 Seguros
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Ahorra
 
 ## Sistema de ahorro KUBO
 
 Abre tu Cuenta de ahorros y haz crecer tu dinero
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=Home&utm_medium=CardClicDestacados)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Hecho a tu medida
 
 ## Crédito de Libre Inversión
@@ -83,14 +82,12 @@ Hecho a tu medida
 Un crédito con una tasa y una cuota fija para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=Home&utm_campaign=CardClic&utm_term=Destacados&utm_content=9_02_26)
 (imagen: Maleta de viaje) (imagen: Maleta de viaje)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tasa Especial
 
 ## Abre tu CDT
 
 Aplica desde $500.000
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/inversion/cdt)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Hecho a tu medida
 
 ## Crédito de Vehículos Occiauto
@@ -98,7 +95,6 @@ Hecho a tu medida
 Financiamos hasta el 100% del valor para tu vehículo.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=Home&utm_campaign=CardClicDestacados)
 (imagen: Carro nuevo o usado) (imagen: Carro nuevo o usado)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículos
 
 ## Crédito de Vehículos Occiauto
@@ -106,7 +102,6 @@ Crédito de Vehículos
 Financiamos hasta el 100% del valor para tu vehículo.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=Home&utm_campaign=CardClic)
 (imagen: Auto nuevo) (imagen: Auto nuevo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Préstamo Personal
 
 ## Crédito de Libre Inversión
@@ -114,7 +109,6 @@ Préstamo Personal
 Un crédito con una tasa y una cuota fija para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=Home&utm_campaign=CardClic)
 (imagen: Maleta lista para viajar) (imagen: Maleta lista para viajar)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ## Hipotecario y leasing habitacional
@@ -123,7 +117,6 @@ Disfruta de plazos flexibles y tasas especiales para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=Home&utm_campaign=CardClic)
 (imagen: Casa con leasing habitacional) (imagen: Casa con leasing habitacional)
 [Ver todos los créditos](https://www.bancodeoccidente.com.co/creditos/)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas para ahorrar
 
 ## Cuenta de Ahorros
@@ -131,7 +124,6 @@ Cuentas para ahorrar
 Sin costo y disfruta de transacciones rápidas y seguras.
 [Abrir mi cuenta](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=home&utm_campaign=CardClic)
 (imagen: imagen ahorra) (imagen: Dinero creciendo en alcancia de ahorro)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas para ahorrar
 
 ## Cuenta de Pensión
@@ -139,7 +131,6 @@ Cuentas para ahorrar
 Disfruta de retiros gratuitos en toda la red de cajeros AVAL.
 [Abrir mi cuenta](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros-pensionados)
 (imagen: Alcan) (imagen: Alcancía ahorrando dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas para ahorrar
 
 ## Cuenta de Nómina
@@ -148,7 +139,6 @@ Tarifa preferencial o exoneración de cuota de manejo.
 [Abrir mi cuenta](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=home&utm_campaign=CardClic)
 (imagen: imagen ahorro blue) (imagen: Alcancía de cuenta de nómina)
 [Ver todas las cuentas](https://www.bancodeoccidente.com.co/cuentas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### LATAM Pass Visa
@@ -156,7 +146,6 @@ Tarjeta de Crédito
 Acumula millas con cada compra que realices.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito/tarjetas-credito-latam-pass)
 (imagen: imagen tarjeta latam) (imagen: Tarjetas de Crédito Latam Pass)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Sin cuota de manejo
@@ -164,7 +153,6 @@ Tarjeta de Crédito
 Tendrás un 3% cashback y sin cuotas de manejo ocultas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta de Crédito Free) (imagen: Tarjeta de Crédito Visa Free)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Portafolio Premium
@@ -173,7 +161,6 @@ Preventas de Experiencias Aval y beneficios exclusivos.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito/premium)
 (imagen: imagen tarjetas premium) (imagen: Tarjetas de Crédito Visa y Mastercard premium)
 [Ver todas las tarjetas](https://www.bancodeoccidente.com.co/tarjetas-credito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos de Inversión
 
 ## Abre tu CDT
@@ -181,7 +168,6 @@ Productos de Inversión
 Obtén excelentes rendimientos adaptados a ti.
 [Abrir mi CDT](https://api.whatsapp.com/send?phone=573186714836&text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20web%20y%20quiero%20abrir%20mi%20CDT)
 (imagen: imagen incrementa beneficios) (imagen: Porcentaje de tasa de CDT)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos de Inversión
 
 ## Fondos de inversión Colectiva (FIC)
@@ -189,7 +175,6 @@ Productos de Inversión
 Proceso digital e inversión desde $30.000
 [Invertir aquí](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: imagen ahorro abundante) (imagen: Ahorro programado con fondos de inversión)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos de Inversión
 
 ## Filiales en el exterior
@@ -198,7 +183,6 @@ Te acompañamos a cumplir tus propósito en dólares.
 [Empieza ahora](https://www.bancodeoccidente.com.co/inversion/offshore)
 (imagen: imagen propositos en dolares) (imagen: Dinero creciendo invirtiendo en dólares)
 [Ver todas las opciones](https://www.bancodeoccidente.com.co/inversion)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros
 
 ## Seguro para Personas
@@ -206,7 +190,6 @@ Seguros
 Asegura tu bienestar y el de tu familia
 [Solicitar seguro](https://www.bancodeoccidente.com.co/seguros/vida-desempleo)
 (imagen: imagen seguro familia) (imagen: Familia con Seguro de Vida)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros
 
 ## Seguro para Mascotas
@@ -214,7 +197,6 @@ Seguros
 Ellos te cuidan, tú los proteges.
 [Solicitar seguro](https://www.bancodeoccidente.com.co/seguros/mascotas)
 (imagen: imagen seguro mascotas) (imagen: Perro y gato protegidos con seguro para mascotas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros
 
 ## Seguro para Viajes
@@ -323,7 +305,6 @@ Encuentra lo que necesitas a un clic
 (imagen: Icono asesor) Quiero recibir asesoría personalizada
 (imagen: Icono laptop) Quiero aprender a usar mis canales digitales
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Préstamo Personal
@@ -331,7 +312,6 @@ Libre Inversión
 Obtén dinero para cualquier necesidad.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=Home&utm_campaign=Brujula)
 (imagen: Hombre obteniendo su crédito de libre inversión) (imagen: Hombre obteniendo su crédito de libre inversión)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### LATAM Pass Visa Signature
@@ -342,7 +322,6 @@ Tarjeta de Crédito
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Préstamo Personal
@@ -350,7 +329,6 @@ Libre Inversión
 Obtén dinero para cualquier necesidad.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=Home&utm_campaign=Brujula)
 (imagen: Cliente con su préstamo personal) (imagen: Cliente con su préstamo personal)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Encargo Fiduciario
@@ -361,7 +339,6 @@ Gestiona tus inversiones de forma segura.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Préstamo Personal
@@ -369,7 +346,6 @@ Libre Inversión
 Obtén dinero para cualquier necesidad.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=Home&utm_campaign=Brujula)
 (imagen: Cliente con su crédito de libre inversión) (imagen: Cliente con su crédito de libre inversión)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ### Cuenta de Ahorros
@@ -380,7 +356,6 @@ Ahorra y haz crecer tu dinero de forma segura y accesible.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ### Compra tu vivienda nueva o usada
@@ -388,7 +363,6 @@ Crédito Hipotecario
 Financia tu hogar con cuotas fijas y plazos flexibles.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=Home&utm_campaign=Brujula)
 (imagen: Pareja feliz con su nueva casa) (imagen: Pareja feliz con su nieva casa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Habitacional
 
 ### Compra tu vivienda nueva o usada
@@ -399,7 +373,6 @@ Paga en cuotas fijas y hazte dueño de tu hogar.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ### Nuevo o usado
@@ -407,7 +380,6 @@ Crédito Vehículo
 Estrena tu vehículo con tasas competitivas.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=Home&utm_campaign=Brujula)
 (imagen: Carro) (imagen: Carro)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ### Híbridos o eléctricos
@@ -418,7 +390,6 @@ Ahorra y cuida el planeta con beneficios especiales.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vida
 
 ### Vive la Vida Individual
@@ -426,7 +397,6 @@ Seguros de Vida
 Asegura tu bienestar con cobertura en caso de fallecimiento.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/vida)
 (imagen: Mujer con audifonos) (imagen: Mujer con audifonos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguro de mascotas
 
 ### Mascotas
@@ -437,7 +407,6 @@ Cobertura veterinaria, emergencias y más.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Encargo Fiduciario
@@ -445,7 +414,6 @@ Inversión
 Gestiona tus inversiones de forma segura.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: Imagen ahorro rentable) (imagen: Imagen ahorro rentable)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### CDT
@@ -456,7 +424,6 @@ Invierte en un CDT y obtén rentabilidad garantizada.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### CDT
@@ -467,7 +434,6 @@ Invierte en un CDT y obtén rentabilidad garantizada.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Invierte en el Exterior
@@ -478,7 +444,6 @@ Aprovecha oportunidades en mercados internacionales.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Canales Digitales
 
 ### Aval Pay
@@ -486,7 +451,6 @@ Canales Digitales
 Incrementa tus ventas y recauda con nuestra pasarela de pagos
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/canales-digitales/aval-pay)
 (imagen: Mujer viendo su teléfono) (imagen: Mujer viendo su teléfono)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Canales Digitales
 
 ### Portal Transaccional
@@ -497,14 +461,12 @@ Administra tus productos en un solo lugar, con total seguridad.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ### Whatsapp
 
 Recibe asesoria o solicíta productos por nuestra línea de WhatsApp.
 [Conoce más](https://www.bancodeoccidente.com.co/ayuda/whatsapp)
 (imagen: Icono de WhatsApp) (imagen: Icono de WhatsApp)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ### Elegir canal de contacto de preferencia
 
@@ -514,14 +476,12 @@ Elige tus canales de atención y recibe asistencia.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ### Token Mobile
 
 Activa tu Token Mobile y protege tus operaciones digitales.
 [Conoce más](https://www.bancodeoccidente.com.co/documents/d/guest/token-mobile)
 (imagen: Telefono celular) (imagen: Teléfono celular)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Canales digitales
 
 ### Cómo usar tus canales digitales

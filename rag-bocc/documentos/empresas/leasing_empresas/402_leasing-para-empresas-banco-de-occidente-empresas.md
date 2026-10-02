@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > leasing"
 fecha_extraccion: 2026-10-01
-caracteres: 4720
+caracteres: 3634
 paginas: null
-hash_contenido: 26f588dd0d973506
+hash_contenido: f874b2b4d2920c41
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."
 ---
 
 # Leasing para Empresas | Banco de Occidente - Empresas
@@ -39,7 +40,6 @@ Leasing para Empresas
 Activos Productivos
 Transporte
 Expansión Empresarial
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Maquinaria y Equipos
@@ -47,7 +47,6 @@ Leasing Empresarial
 Renueva tu maquinaria sin afectar tu liquidez.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/maquinaria-equipos)
 (imagen: Tractor) (imagen: tractor)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Tecnología
@@ -55,7 +54,6 @@ Leasing Empresarial
 Moderniza tus equipos tecnológicos con financiamiento inteligente.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/tecnologia)
 (imagen: Dron) (imagen: Dron)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Importación
@@ -63,7 +61,6 @@ Leasing Empresarial
 Accede a activos importados con financiación flexible.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/importacion)
 (imagen: Container) (imagen: Container)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Vehículos
@@ -71,7 +68,6 @@ Leasing Empresarial
 Adquiere vehículos y flotas sin descapitalizarte.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/vehiculos)
 (imagen: Trailer) (imagen: Trailer)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Operativo
@@ -79,14 +75,12 @@ Leasing Empresarial
 Usa los activos sin comprarlos y optimiza costos.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/operativo)
 (imagen: Caja de herramientas) (imagen: Caja de herramientas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Inmobiliario
 
 Expande tu empresa con inmuebles financiados a largo plazo.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/inmobiliario)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ### Aliados
@@ -120,9 +114,6 @@ Aprovecha nuestra alianza con Kenworth de la Montaña y accede a soluciones de l
 [Más aliados aquí](https://www.bancodeoccidente.com.co/web/empresas/leasing/aliados)
 (imagen: Camiones) (imagen: Camiones)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

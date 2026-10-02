@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > mesa dinero"
 fecha_extraccion: 2026-10-01
-caracteres: 4912
+caracteres: 4344
 paginas: null
-hash_contenido: d8b3f7112ee6f1f3
+hash_contenido: be880303a0021470
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Instrucciones Permanentes Banco de Occidente
@@ -149,7 +150,6 @@ Te puede interesar
 Descubre qué hacer para mejorar tu puntaje y acceder a mejores oportunidades.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Compra de Cartera
 
 ##### Libérate de tus deudas y paga menos
@@ -157,7 +157,6 @@ Compra de Cartera
 Unifica tus obligaciones y ahorra en intereses.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Tu salario, con más beneficios
@@ -165,7 +164,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -173,7 +171,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ##### Haz de tu hogar el lugar de tus sueños

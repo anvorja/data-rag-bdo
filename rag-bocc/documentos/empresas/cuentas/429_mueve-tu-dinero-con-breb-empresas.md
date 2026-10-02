@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > mueve tu dinero con bre b"
 fecha_extraccion: 2026-10-01
-caracteres: 9059
+caracteres: 8207
 paginas: null
-hash_contenido: 01ca0abfbb9bcc61
+hash_contenido: 4309dab183254630
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Mueve tu dinero con Bre‑B - Empresas
@@ -128,36 +129,30 @@ Más seguro y práctico.
 
 QR, Tag Aval, NIT, correo… tú eliges cómo te encuentran y ellos cómo pagar.
 Nuestros productos con Bre-B
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Recaudos de QR
 
 Recauda pagos con código QR interoperable de forma ágil y segura.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Botón Bre-B by Aval
 
 Botón de pago digital con QR dinámico y confirmación inmediata.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Pagos masivos inmediatos
 
 Pagos y dispersiones en línea para procesos masivos en tiempo real.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos-masivos-inmediatos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Retiros en ATM con QR
 
 Retiros sin tarjeta vía QR en cajeros Aval para empresas y pagos.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Débitos Directos
 
 Cobros recurrentes automáticos con autorización digital rápida.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Request to Pay

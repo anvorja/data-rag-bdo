@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 11690
+caracteres: 9474
 paginas: null
-hash_contenido: 8ebb2379dd45c786
+hash_contenido: 3e72692616f87b86
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Apple Pay Tarjeta Débito
@@ -242,33 +243,7 @@ Sí, Apple Pay funciona en países y regiones que admiten pagos sin contacto.
 Si eres el titular de la tarjeta, es decir, que aparezca tu nombre en la tarjeta, podrás hacer uso de la billetera de Apple.
 Preguntas frecuentes
 
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)
 
@@ -326,7 +301,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -334,7 +308,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles y tasas competitivas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -342,7 +315,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites. ¡Empieza hoy!
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -350,7 +322,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

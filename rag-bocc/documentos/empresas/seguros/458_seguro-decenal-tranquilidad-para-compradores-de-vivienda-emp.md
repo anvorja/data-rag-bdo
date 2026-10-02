@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 4643
+caracteres: 4075
 paginas: null
-hash_contenido: 8febd82daac4ece7
+hash_contenido: 7d52ae80584690b4
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Seguro Decenal: Tranquilidad para Compradores de Vivienda - Empresas
@@ -123,7 +124,6 @@ Empieza ahora
 Contáctanos por WhatsApp y un asesor especializado resolverá tus dudas.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -131,7 +131,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -139,7 +138,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -147,7 +145,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia

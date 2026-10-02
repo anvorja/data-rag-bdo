@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > sostenibilidad"
 fecha_extraccion: 2026-10-01
-caracteres: 12939
+caracteres: 12371
 paginas: null
-hash_contenido: 32e850a7df46b5df
+hash_contenido: 0e1979d9c1518bfb
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Sostenibilidad Banco de Occidente
@@ -169,7 +170,6 @@ Conoce más
 Mantente informado con noticias y datos clave sobre el futuro del planeta. Sigue la conversación en X y haz la diferencia.
 Conoce más
 Productos sostenibles
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos Sostenibles
 
 ##### Vehículos Híbridos y Eléctricos
@@ -177,7 +177,6 @@ Productos Sostenibles
 Financia tu vehículo ecológico con tasas preferenciales.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/vehiculos-electricos-hibridos)
 (imagen: vehiculo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos Sostenibles
 
 ##### Vivienda Sostenible
@@ -185,7 +184,6 @@ Productos Sostenibles
 Obtén financiamiento especial para viviendas.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/hipotecario)
 (imagen: familia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos Sostenibles
 
 ##### Crédito Constructor Verde
@@ -193,7 +191,6 @@ Productos Sostenibles
 Construye con eficiencia y responsabilidad ambiental.
 [Adquiérelo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos/constructor)
 (imagen: constructor riendo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Productos Sostenibles
 
 ##### Tarjeta de Crédito UNICEF

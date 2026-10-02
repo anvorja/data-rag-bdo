@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > l%c3%adneas verdes"
 fecha_extraccion: 2026-10-01
-caracteres: 7989
+caracteres: 5773
 paginas: null
-hash_contenido: c9746286b4364407
+hash_contenido: a4621f552a4a978b
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Líneas Verdes - Empresas
@@ -98,33 +99,7 @@ Financiamos tus proyectos que cuenten con certificación en estándares reconoci
 
 Sujeto a políticas de aprobación, condiciones establecidas por el banco para acceder a los beneficios y la presentación del certificado de radicación o precertificación del provecto sostenible.
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)
@@ -209,7 +184,6 @@ Empieza ahora
 Chatea con un asesor y gestiona tu crédito cómodamente desde WhatsApp.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -217,7 +191,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer con tasas competitivas y plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -225,7 +198,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing y optimiza tu flujo de caja.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -233,7 +205,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables diseñadas para empresas.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia

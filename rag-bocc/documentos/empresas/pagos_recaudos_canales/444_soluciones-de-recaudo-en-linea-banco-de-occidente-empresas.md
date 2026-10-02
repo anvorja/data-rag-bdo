@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > recaudos"
 fecha_extraccion: 2026-10-01
-caracteres: 5249
+caracteres: 4305
 paginas: null
-hash_contenido: 6db4c99691cc9dc8
+hash_contenido: 53069a7bc5f618d3
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Soluciones de Recaudo en Línea | Banco de Occidente - Empresas
@@ -39,7 +40,6 @@ Recaudos Empresariales para aumentar tus ventas
 Electrónico
 Físico
 Automático
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Red Aval
@@ -47,7 +47,6 @@ Recaudos Empresariales
 Recibe pagos desde cualquier banco vinculado a la Red Aval.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/reacudos/electronicos-red-aval)
 (imagen: imagen mujer busca) (imagen: imagen mujer busca mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### PSE
@@ -55,7 +54,6 @@ Recaudos Empresariales
 Facilita pagos en línea con conexión directa a tus cuentas.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/reacudos/electronico-pse)
 (imagen: imagen pagos en linea) (imagen: imagen pagos en linea mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Recaudo con Tarjetas
@@ -63,7 +61,6 @@ Recaudos Empresariales
 Acepta pagos con tarjetas débito y crédito de forma segura.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/recaudos/tarjetas)
 (imagen: imagen hombre encuentra) (imagen: imagen hombre encuentra)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Red Aval
@@ -71,7 +68,6 @@ Recaudos Empresariales
 Permite a tus clientes pagar en sucursales y aliados.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/recaudos/fisico)
 (imagen: imagen red aval) (imagen: imagen red aval mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Consignación Nacional
@@ -79,7 +75,6 @@ Recaudos Empresariales
 Recibe pagos en efectivo o cheque en cualquier oficina del país.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/recaudos/consignacion-nacional)
 (imagen: imagen hombre consigna) (imagen: imagen hombre consigna mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Red Aval
@@ -134,9 +129,6 @@ Recolección del dinero cuando lo necesites.
 Conteo del efectivo utilizando cámara de audio y de video.
 Para consultar las tarifas haz [clic aquí.](https://portalpublico.bancodeoccidente.com.co/documents/d/empresas/tarifario-de-transporte)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=pagos) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

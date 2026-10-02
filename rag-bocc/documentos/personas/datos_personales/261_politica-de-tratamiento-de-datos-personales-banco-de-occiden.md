@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > legal políticas"
 fecha_extraccion: 2026-10-01
-caracteres: 6586
+caracteres: 6018
 paginas: null
-hash_contenido: 895cc1120f835431
+hash_contenido: eaf9a18eda53308f
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Política de Tratamiento de Datos Personales | Banco de Occidente
@@ -116,7 +117,6 @@ Preguntas frecuentes
 ### Si, el Banco deberá enviar una comunicación previa alertando el posible reporte negativo y pasados 20 días calendario a esta notificación el Banco podrá enviar el reporte negativo a las centrales de riesgo.
 
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -124,7 +124,6 @@ Libre inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicitala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: imagen mujer ahorra) (imagen: imagen mujer ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -132,7 +131,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: imagen asegura y ahorra) (imagen: imagen asegura y ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Créditos
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -140,7 +138,6 @@ Tarjeta de Créditos
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen hombre con tarjeta) (imagen: imagen hombre con tarjeta mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > paga tus impuestos"
 fecha_extraccion: 2026-10-01
-caracteres: 3039
+caracteres: 2755
 paginas: null
-hash_contenido: 1d214aa068a95cbf
+hash_contenido: 34b26d4c0b5ebb68
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS."
 ---
 
 # Paga tus Impuestos - Empresas
@@ -68,7 +69,6 @@ Impuestos Nacionales y Aduanas
 Son los impuestos administrados a nivel nacional y que aplican en todo el territorio colombiano.
 • Impuestos pagados por personas naturales y empresas al Estado.
 • Impuestos relacionados con operaciones de comercio exterior y aduanas.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Impuestos nacionales y aduanas
 
@@ -78,7 +78,6 @@ Impuestos Territoriales
 Son los impuestos administrados a nivel departamental y municipal.
 • Dependen de la ciudad o departamento donde vivas o desarrolles tu actividad económica.
 • Son administrados por alcaldías y gobernaciones, como el predial, vehicular, ICA y reteICA.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Impuestos Territoriales
 

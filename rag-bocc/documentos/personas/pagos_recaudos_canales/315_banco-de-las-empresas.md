@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > otros"
 fecha_extraccion: 2026-10-01
-caracteres: 2695
+caracteres: 2679
 paginas: null
-hash_contenido: fe3fdea60a5d01c5
+hash_contenido: b0f8e592a90c920c
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Banco de las Empresas
@@ -57,7 +58,6 @@ Subtítulo
 ## Escríbenos por WhatsApp​
 
 Escribe aquí el contenido del componente. Este texto puede ser editado directamente desde Liferay.
-Texto del botón
 Subtítulo
 
 ## Te acompañamos

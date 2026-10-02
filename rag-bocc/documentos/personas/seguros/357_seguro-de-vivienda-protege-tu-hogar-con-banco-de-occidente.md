@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 3797
+caracteres: 3137
 paginas: null
-hash_contenido: 92daf55a6b8eb90c
+hash_contenido: a8b61101b3274c3d
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Seguro de Vivienda | Protege tu Hogar con Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vivienda
 
 ##### Seguro de Incendio
@@ -52,7 +52,6 @@ Seguros de Vivienda
 Asegura tu vivienda ante incendios.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/incendio)
 (imagen: imagen seguro incendio) (imagen: imagen seguro incendio mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vivienda
 
 ##### Seguro de Contenidos
@@ -60,7 +59,6 @@ Seguros de Vivienda
 Asegura muebles, electrodomésticos y más.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/contenidos)
 (imagen: imagen seguro contenidos) (imagen: imagen seguro contenidos mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vivienda
 
 ##### Cuota Protegida
@@ -68,7 +66,6 @@ Seguros de Vivienda
 Cubre tu crédito en caso de enfermedad o desempleo.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/cuota-protegida)
 (imagen: imagen seguro credito) (imagen: imagen seguro credito mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vivienda
 
 ##### Vive la Vida
@@ -103,9 +100,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Quiero que me contacten](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer asesoría) (imagen: imagen mujer asesoría mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

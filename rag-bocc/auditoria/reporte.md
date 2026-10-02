@@ -1,6 +1,6 @@
 # Auditoría automática del corpus (Fase 1) — 2026-10-01
 
-Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 · casi-duplicados (Jaccard ≥ 0,8): 37 · sin texto: 15
+Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 · casi-duplicados (Jaccard ≥ 0,8): 36 · sin texto: 15
 
 ## Distribución
 
@@ -42,8 +42,8 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | seguros | 96 |
 | pagos_recaudos_canales | 94 |
 | sostenibilidad | 92 |
-| tarjetas_credito | 87 |
-| cuentas | 82 |
+| tarjetas_credito | 88 |
+| cuentas | 85 |
 | estudios_economicos | 79 |
 | gobierno_corporativo | 72 |
 | otros | 52 |
@@ -53,9 +53,9 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 | comercio_exterior_tesoreria | 31 |
 | inversion | 26 |
 | externo | 25 |
-| leasing_empresas | 24 |
-| institucional | 23 |
 | creditos_consumo | 23 |
+| institucional | 22 |
+| leasing_empresas | 21 |
 | educacion_financiera | 21 |
 | cumplimiento_riesgos | 19 |
 | creditos_vehiculo | 17 |
@@ -82,19 +82,20 @@ Documentos: **1175** · con texto propio: **1041** · duplicados exactos: 119 ·
 
 | alerta | docs | qué significa / acción |
 |---|---|---|
+| plantilla_cms_limpiada | 274 |  |
 | candidato_vlm | 154 | PDF con ≥3 imágenes grandes y poco texto por página → candidatos a descripción con VLM / OCR reforzado (sección 3 de la guía v2) |
 | duplicado_exacto | 119 | mismo texto que otro documento; se conserva solo el primero |
 | ingles | 73 | documento en inglés; excluir del índice por defecto del asesor en español (o enlazar con su equivalente) |
 | tablas_numericas | 48 | muchas líneas con columnas numéricas (estados financieros): validar tablas con un parser de layout |
 | sin_fecha | 45 | tarifa/T&C/guía/informe sin año detectable → no se puede gobernar su vigencia |
 | poco_texto_por_pagina | 44 | < 300 caracteres por página → probable escaneado o capturas; revisar OCR |
-| casi_duplicado | 37 | versión casi idéntica de otro documento (Jaccard ≥ 0,8); decidir cuál se indexa |
+| casi_duplicado | 36 | versión casi idéntica de otro documento (Jaccard ≥ 0,8); decidir cuál se indexa |
 | ocr | 34 | texto obtenido por OCR (puede tener errores en cifras y nombres) |
 | titulo_dudoso | 23 | el título HTML no coincide con la ruta (p. ej. título copiado de otra página) |
 | tablas_markdown | 19 | página con tablas serializadas a Markdown |
 | sin_texto | 15 | sin contenido extraíble (redes, cotizadores JS…) |
-| mojibake | 6 | caracteres rotos (codificación) → revisar |
 | muy_largo | 5 | > 1,5 M de caracteres; requiere chunking jerárquico por capítulo |
+| mojibake | 5 | caracteres rotos (codificación) → revisar |
 | vigencia_vencida | 3 | el propio documento declara una vigencia ya terminada |
 | muy_corto | 2 | < 200 caracteres |
 

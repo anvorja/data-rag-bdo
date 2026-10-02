@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 4389
+caracteres: 3821
 paginas: null
-hash_contenido: ed213b3d653a794d
+hash_contenido: c10d299cb8283bb7
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Cuenta Activa Básica
@@ -109,7 +110,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -117,7 +117,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles y tasas competitivas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -125,7 +124,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites. ¡Empieza hoy!
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -133,7 +131,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > quienes somos"
 fecha_extraccion: 2026-10-01
-caracteres: 218115
+caracteres: 215753
 paginas: null
-hash_contenido: 39f3f006fbb78b28
+hash_contenido: a5202bf6d6432a16
 lote: "lote1"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 17 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Información para Accionistas | Banco de Occidente
@@ -82,7 +83,6 @@ Conoce más
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -126,33 +126,7 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)
@@ -1160,7 +1134,6 @@ Atención al Inversionista
 - Bogotá: Carrera 7 No. 71-21, Edificio bvc. Torre B Piso 12.
 - Medellín: Carrera 43A No. 1-50, San Fernando Plaza, Torre bvc, Local 301.
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -1168,7 +1141,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Dinero para lo que quieras) (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -1176,7 +1148,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Ahorro con rentabilidad) (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -1184,7 +1155,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquieréla aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades) (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

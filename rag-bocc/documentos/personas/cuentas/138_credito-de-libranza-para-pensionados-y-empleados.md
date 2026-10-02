@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > personas"
 fecha_extraccion: 2026-10-01
-caracteres: 7599
+caracteres: 6939
 paginas: null
-hash_contenido: 925e8255995d3a39
+hash_contenido: 53df4778e4b6ce86
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Crédito de Libranza para Pensionados y Empleados
@@ -194,7 +195,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Compra de Cartera
 
 ##### Libérate de tus deudas y paga menos
@@ -202,7 +202,6 @@ Compra de Cartera
 Unifica tus obligaciones y ahorra en intereses.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/compra-cartera)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Tu salario, con más beneficios
@@ -210,7 +209,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuenta-nomina)
 (imagen: Hombre feliz con dinero) (imagen: Hombre feliz con dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -218,7 +216,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Mujer feliz tarjeta de credito) (imagen: Mujer feliz tarjeta de credito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ##### Haz de tu hogar el lugar de tus sueños
@@ -227,7 +224,4 @@ Renueva tus espacios con un crédito hecho para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

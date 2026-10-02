@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vehiculos"
 fecha_extraccion: 2026-10-01
-caracteres: 8152
+caracteres: 7492
 paginas: null
-hash_contenido: 35bea2cae07ca7af
+hash_contenido: 4308efde56a246a5
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Crédito para Vehículos Productivos de Carga y Pasajeros
@@ -153,7 +154,6 @@ Te puede interesar
 Seguros, impuestos y mantenimiento… Conoce los costos ocultos.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -161,7 +161,6 @@ Tarjeta de crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen mujer feliz tarjeta) (imagen: imagen mujer feliz tarjeta mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Trae tu nómina y obtén mejores tasas
@@ -169,7 +168,6 @@ Cuenta de Nómina
 Disfruta tasas preferenciales y otros beneficios.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: imagen datafono) (imagen: imagen datafono mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros
 
 ##### Protege tu auto con un seguro todo riesgo
@@ -177,7 +175,6 @@ Seguros
 Conduce con tranquilidad y cubre imprevistos con nuestro seguro.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/seguros/carros)
 (imagen: imagen seguro carro) (imagen: imagen seguro carro mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Préstamo Personal
 
 ##### Más que un auto, financia tus sueños
@@ -186,7 +183,4 @@ Accede a un crédito de libre inversión y cubre lo que necesites.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: imagen hombre financia) (imagen: imagen hombre financia mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=creditos) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

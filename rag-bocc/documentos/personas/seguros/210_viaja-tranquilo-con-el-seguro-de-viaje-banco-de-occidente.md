@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros > viajes"
 fecha_extraccion: 2026-10-01
-caracteres: 2681
+caracteres: 2447
 paginas: null
-hash_contenido: 1b4152c9da011722
+hash_contenido: 5b29876e024b94ab
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Viaja Tranquilo con el Seguro de Viaje Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Viajes
 
 ##### Assist Card
@@ -79,9 +79,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejar datos](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

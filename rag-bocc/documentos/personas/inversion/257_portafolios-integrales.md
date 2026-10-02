@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 7712
+caracteres: 4924
 paginas: null
-hash_contenido: d1ee78af1b5afdb5
+hash_contenido: 9bdbab6c8191a214
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 17 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."
 ---
 
 # Portafolios Integrales
@@ -35,21 +36,18 @@ Nuestro amplio portafolio de productos se adapta a tus necesidades.
 ### Conoce nuestros portafolios
 
 Tenemos diferentes opciones para que elijas el portafolio de productos y servicios que más se adapte a tus necesidades.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Portafolio
 
 ##### Cuenta Activa
 
 Respalda tus necesidades de crédito y ahorro.
 [Conoce más](https://www.bancodeoccidente.com.co/cuenta-activa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Portafolio
 
 ##### Cuenta Activa Básica
 
 Opción sencilla para manejar tus necesidades transaccionales.
 [Conoce más](https://www.bancodeoccidente.com.co/cuenta-activa-basica)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Portafolio
 
 ##### Rotativo Monoproducto
@@ -65,7 +63,6 @@ de beneficios exclusivos, recompensas y promociones especiales que solo nuestros
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -109,33 +106,7 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)
@@ -194,7 +165,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -202,7 +172,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles y tasas competitivas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -210,7 +179,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites. ¡Empieza hoy!
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -218,7 +186,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

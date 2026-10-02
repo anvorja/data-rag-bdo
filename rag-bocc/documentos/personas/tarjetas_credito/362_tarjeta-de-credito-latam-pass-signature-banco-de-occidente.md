@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 7951
+caracteres: 6621
 paginas: null
-hash_contenido: 773558211627bb09
+hash_contenido: bd43294e1f93e10e
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Tarjeta de Crédito LATAM Pass Signature Banco de Occidente
@@ -143,26 +144,6 @@ Términos y Condiciones - Activa tu TC Unicef
 Descargar
 Preguntas frecuentes
 
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
 #### Términos y condiciones
 
 Conoce los términos y condiciones de nuestros productos y campañas.
@@ -203,7 +184,6 @@ Te puede interesar
 Descubre todo sobre las tasas de interés en Colombia: ¿Qué son y cómo te afectan?
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Dinero para lo que quieras, sin explicaciones
@@ -211,7 +191,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Dinero para lo que quieras, sin explicaciones) (imagen: Dinero para lo que quieras, sin explicaciones)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ### Ahorra con rentabilidad y sin complicaciones
@@ -219,7 +198,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Ahorra con rentabilidad y sin complicaciones) (imagen: Ahorra con rentabilidad y sin complicaciones)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ### Haz de tu hogar el lugar de tus sueños
@@ -227,7 +205,6 @@ Crédito de Vivienda
 Renueva tus espacios con un crédito hecho para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Haz de tu hogar el lugar de tus sueños) (imagen: Haz de tu hogar el lugar de tus sueños)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -236,7 +213,4 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Tu carro nuevo te espera, ¡maneja tu futuro!) (imagen: Tu carro nuevo te espera, ¡maneja tu futuro!)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

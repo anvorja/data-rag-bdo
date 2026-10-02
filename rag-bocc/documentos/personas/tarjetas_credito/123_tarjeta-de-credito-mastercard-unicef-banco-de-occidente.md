@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 3565
+caracteres: 3331
 paginas: null
-hash_contenido: 0e186cddafa4cce3
+hash_contenido: 120138a3da7eb626
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Tarjeta de Crédito MasterCard Unicef | Banco de Occidente
@@ -58,7 +59,6 @@ Tarjetas de Crédito con sentido social
 - Premium
 - Con propósito
 - Mi primer tarjeta
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Mastercard Unicef
@@ -101,9 +101,6 @@ Click to Pay VISA
 [Conoce más](https://www.bancodeoccidente.com.co/click-to-pay)
 (imagen: Visa Click to pay) (imagen: Visa Click to pay)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Solicitar en línea) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=tarjeta_credito) [(imagen: Chat) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Documentos
 Términos y Condiciones Campaña Segmentada Dualidad LATAM Pass

@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > moneda extranjera"
 fecha_extraccion: 2026-10-01
-caracteres: 4277
+caracteres: 3333
 paginas: null
-hash_contenido: e689356be88334d2
+hash_contenido: a49d9743d7af215f
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Capital de Trabajo
@@ -41,7 +42,6 @@ Productos en Moneda Extranjera
 - Importadores
 - Exportadores
 - Otros Servicios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Capital de Trabajo
@@ -49,7 +49,6 @@ Moneda Extranjera
 Financia las operaciones diarias de tu empresa en moneda extranjera y mantén la estabilidad de tu negocio.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/capital-trabajo)
 (imagen: Mujer con su tablet) (imagen: Mujer con su tablet)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Avales, Garantías y Stand By
@@ -57,7 +56,6 @@ Moneda Extranjera
 Respalda tus compromisos financieros con garantías.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/avales-garantias-stanby-otros)
 (imagen: Mujer feliz) (imagen: Mujer feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Líneas Especiales de Redescuento
@@ -65,7 +63,6 @@ Moneda Extranjera
 Accede a financiación con condiciones preferenciales.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/lineas-especiales-redescuento)
 (imagen: Mujer feliz tarjeta de credito) (imagen: Mujer feliz tarjeta de credito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Remesas de Cheques
@@ -73,7 +70,6 @@ Moneda Extranjera
 Gestiona el cobro de cheques internacionales de manera ágiil.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/remesas-cheques)
 (imagen: Hombre feliz en su telefono) (imagen: Hombre feliz en su telefono)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Letras Avaladas
@@ -81,7 +77,6 @@ Moneda Extranjera
 Fortalece tu negocio con letras avaladas.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera/letras-avaladas)
 (imagen: Hombre con laptop y mancuerna) (imagen: Hombre con laptop y mancuerna)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ### Productos para No Residentes
@@ -116,7 +111,4 @@ Deja tus datos y recibe asesoría personalizada para acceder a nuestros producto
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=comercio)
 (imagen: Asesora) (imagen: Asesor)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=comercio) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

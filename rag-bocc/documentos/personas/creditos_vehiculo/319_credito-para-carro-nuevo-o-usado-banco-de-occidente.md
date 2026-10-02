@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos"
 fecha_extraccion: 2026-10-01
-caracteres: 15035
+caracteres: 14375
 paginas: null
-hash_contenido: 52b4dd0416cf109e
+hash_contenido: bc27375734a47f78
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Crédito para Carro Nuevo o Usado Banco de Occidente
@@ -237,7 +238,6 @@ Puedes financiar diferentes tipos de vehículos:
 - Eléctricos
 El Banco de Occidente ofrece opciones de financiación para múltiples marcas y modelos.
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Compra de Cartera
 
 ### Paga menos por tu crédito de vehículo
@@ -245,7 +245,6 @@ Compra de Cartera
 Unifica tus deudas y mejora tu flujo de caja.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/compra-cartera-vehiculos)
 (imagen: Hombre con dinero) (imagen: Hombre con dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ### Trae tu nómina y obtén mejores tasas
@@ -253,7 +252,6 @@ Cuenta de Nómina
 Disfruta tasas preferenciales y otros beneficios.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Mujer con ahorros) (imagen: Mujer con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros
 
 ### Protege tu auto con un seguro todo riesgo
@@ -261,7 +259,6 @@ Seguros
 Conduce con tranquilidad y cubre imprevistos con nuestro seguro.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/seguros/vehiculos)
 (imagen: Auto protegido) (imagen: Auto protegido)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Préstamo Personal
 
 ### Más que un auto, financia tus sueños
@@ -274,7 +271,4 @@ Sub text placeholder
 Allow
 Cancel
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=InternaVehi&utm_campaign=Solicitar) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

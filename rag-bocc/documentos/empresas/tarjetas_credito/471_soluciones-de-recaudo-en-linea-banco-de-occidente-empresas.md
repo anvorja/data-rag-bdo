@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > tarjeta credito empresariales"
 fecha_extraccion: 2026-10-01
-caracteres: 2402
+caracteres: 2026
 paginas: null
-hash_contenido: e5ced7e70f181acd
+hash_contenido: 9ce004225eff0c91
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 2 líneas de plantilla del CMS."
 ---
 
 # Soluciones de Recaudo en Línea | Banco de Occidente - Empresas
@@ -41,7 +42,6 @@ Tarjeta de Crédito para Empresas
 - Empresarial
 - Business
 - Viajes
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Mastercard Business
@@ -49,7 +49,6 @@ Tarjeta de Crédito
 Pensada para el crecimiento de tu negocio.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/tarjeta-credito-empresariales/mastercard-business-card)
 (imagen: Chica TC) (imagen: Chica TC)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Mastercard Business Pyme
@@ -84,7 +83,4 @@ Deja tus datos y recibe asesoría personalizada para acceder a una tarjeta a la 
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion)
 (imagen: Asesor) (imagen: Asesor)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 18738
+caracteres: 15956
 paginas: null
-hash_contenido: 24467676d1aeb204
+hash_contenido: e98fcc71fd36d1b6
 lote: "crawl2-paginas"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 22 líneas de plantilla del CMS."
 ---
 
 # Asistencias Tarjetas de Crédito | Banco de Occidente
@@ -61,11 +62,6 @@ Recibe asistencias gratuitas
 - Asistencia Vehicular
 - Asistencia al Hogar
 Beneficiarios del servicio
-- ### Maximo 60 caracteres  El titular de la tarjeta
-- ### Maximo 60 caracteres  El cónyuge
-- ### Maximo 60 caracteres  Los ascendientes y descendientes en primer grado de las personas naturales aseguradas, estos son los hijos menores de 25 años, siempre que convivan con estas y a sus expensas, aunque viajen por separado y en cualquier medio de locomoción
-- ### Maximo 60 caracteres  Cuando vayas a realizar un viaje fuera del país solicita tu certificado de Asistencias en el buzón: certificación.viaje@axa-assistance.com.co o en el WhatsApp +57 3164348887
-- ### Maximo 60 caracteres  Para los clientes que cuenten con las Tarjetas Platinum, Signature e Infinite de la franquicia Visa, ingresa aquí para solicitar tu certificado para viajes internacionales: [https://www.visa.com.co/pay-with-visa/find-a-card/beneficios/servicios-medicos-de-emergencia-internacional.html](https://www.visa.com.co/pay-with-visa/find-a-card/beneficios/servicios-medicos-de-emergencia-internacional.html)
 Las coberturas referidas
 Se extenderán a todos los países del mundo, exceptuando el territorio de la República de Colombia, siempre y cuando la permanencia del asegurado y/o beneficiario(s) fuera de su domicilio habitual no sea superior a 100 días.
 Asistencias por tarjetas
@@ -287,7 +283,6 @@ Descargar
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -331,33 +326,7 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)

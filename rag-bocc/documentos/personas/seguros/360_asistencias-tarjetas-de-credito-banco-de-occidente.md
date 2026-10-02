@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 29667
+caracteres: 25917
 paginas: null
-hash_contenido: 343c6c3a0db61ea4
+hash_contenido: dc177da71e716baf
 lote: "crawl2-paginas"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 30 líneas de plantilla del CMS."
 ---
 
 # Asistencias Tarjetas de Crédito | Banco de Occidente
@@ -61,17 +62,9 @@ Asistencia en viajes nacionales
 Asistencia vehicular
 Asistencia al hogar
 Beneficiarios del servicio
-- ### Maximo 60 caracteres  El titular de la tarjeta
-- ### Maximo 60 caracteres  El cónyuge
-- ### Maximo 60 caracteres  Los ascendientes y descendientes en primer grado de las personas naturales aseguradas, estos son los hijos menores de 25 años, siempre que convivan con estas y a sus expensas, aunque viajen por separado y en cualquier medio de locomoción
-- ### Maximo 60 caracteres  Cuando vayas a realizar un viaje fuera del país solicita tu certificado de Asistencias en el buzón: certificación.viaje@axa-assistance.com.co o en el WhatsApp +57 3164348887
-- ### Maximo 60 caracteres  Para los clientes que cuenten con las Tarjetas Platinum, Signature e Infinite de la franquicia Visa, ingresa aquí para solicitar tu certificado para viajes internacionales: [https://www.visa.com.co/pay-with-visa/find-a-card/beneficios/servicios-medicos-de-emergencia-internacional.html](https://www.visa.com.co/pay-with-visa/find-a-card/beneficios/servicios-medicos-de-emergencia-internacional.html)
 Las coberturas referidas
 Se extenderán a todos los países del mundo, exceptuando el territorio de la República de Colombia, siempre y cuando la permanencia del asegurado y/o beneficiario(s) fuera de su domicilio habitual no sea superior a 100 días.
 Beneficiarios del servicio
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  El cónyuge
-- ### Maximo 60 caracteres  Los ascendientes y descendientes en primer grado de las personas naturales aseguradas, estos son los hijos menores de 25 años, siempre que convivan con estas y a sus expensas, aunque viajen por separado y en cualquier medio de locomoción
 El derecho a las prestaciones
 Comenzará a partir del kilómetro 100 desde la dirección de domicilio del asegurado.
 Las coberturas referidas
@@ -82,9 +75,6 @@ El titular de la tarjeta, el cónyuge, los ascendientes y descendientes en prime
 Ámbito territorial
 El derecho a las prestaciones de este anexo comenzará a partir del kilómetro 100 desde la dirección de domicilio del asegurado. Las asistencias referidas se extenderán al territorio de la República de Colombia, siempre y cuando la permanencia del asegurado y/o beneficiario(s) fuera de su domicilio habitual no sea superior a 100 días.
 Beneficiarios del servicio
-- ### Maximo 60 caracteres  El titular de la tarjeta
-- ### Maximo 60 caracteres  El cónyuge
-- ### Maximo 60 caracteres  Los ascendientes y descendientes en primer grado de las personas naturales aseguradas, estos son los hijos menores de 25 años, siempre que convivan con estas y a sus expensas, aunque viajen por separado y en cualquier medio de locomoción.
 Las coberturas referidas
 Al vehículo asegurado se extenderán a todo el territorio de la República de Colombia, a partir del kilómetro 0 del lugar de domicilio del titular.
 Asistencias para vehículo
@@ -93,8 +83,6 @@ El cónyuge, los ascendientes y descendientes en primer grado de las personas na
 Ámbito territorial
 Las asistencias referidas al vehículo asegurado se extenderán a todo el territorio de la República de Colombia, a partir del kilómetro 0 del lugar de domicilio del titular.
 Benficiarios del servicio
-- ### Maximo 60 caracteres  Persona titular principal.
-- ### Maximo 60 caracteres  Las personas que vivan en domicilio habitual del titular.
 La territorialidad de validez de la asistencia
 Corresponde al inmueble del Beneficiario que se encuentre ubicado en Colombia.
 Asistencia de hogar
@@ -547,7 +535,6 @@ Descargar
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -591,33 +578,7 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)

@@ -228,6 +228,36 @@ Todo con **juez binario por modo de fallo**, calibrado contra etiquetas humanas 
 - Cuando cambia un documento, se **regeneran/invalidan** los pares cuya `cita_literal` ya no aparece.
 - En producción: muestreo de trazas, 👍/👎 con motivo, reformulaciones y escalamientos como señales; agrupar temas nuevos semanalmente para ampliar el oro (Bourne: evaluar también después del despliegue).
 
+### 2.6 Resultado de la Fase 2: golden set v0 (2026-10-01)
+
+Entregables en `rag-bocc/golden/` (ver su `README.md`): `golden-v0.jsonl`, `test.sha256` (partición de prueba **congelada**, verificada en CI), `docs-test.json`, `baseline-bm25.json`, `revision-experta.md` y las fuentes de generación.
+
+| Resultado | Dato |
+|---|---|
+| Pares | **290** de nivel **plata** (cita literal verificada por código; **sin validación experta**; 0 de nivel oro) |
+| Tipos | factual 136 · numérica/tabla 62 · temporal 27 · sin respuesta 15 · regulatoria 13 · adversarial 8 · premisa falsa 6 · ambigua 6 · comparativa 5 · fuera de alcance 4 · datos personales 4 · multi-salto 4 |
+| Segmentos | personas 210 · empresas 55 · inversionistas 15 · transversal 10 |
+| Partición | dev 197 · test 93, **por documento** (43 de los 137 documentos fuente son de prueba) |
+| Cobertura | 137 de 958 documentos indexables (14 %) |
+| Filtros | 3 intentos de «sin respuesta» rechazados porque el término «ausente» sí aparecía en el corpus; 0 citas inexistentes |
+
+**Línea base BM25** (prueba de cordura, no el RAG final): recall del documento fuente en el top-10 = **93 %** con la pregunta original y **81 %** con reformulaciones coloquiales; recall de la **cita** en el top-10 = 85 % y 66 %. Es débil en multi-salto (25 %) y comparativas (40 %). Esa brecha es el objetivo de la fase 3 (híbrido + reranker + contextual retrieval).
+
+**Hallazgos de calidad del corpus que salieron al construir el set** (y qué se hizo):
+- **Texto de plantilla del CMS** («Título máximo de caracteres 60», «Agregue una imagen tamaño aproximado…», «Texto de pruebas para el acordeón»…) en **274 páginas**; se eliminó con `pipeline/06a_limpiar_plantillas.py` y quedó la alerta `plantilla_cms_limpiada`. Conviene pedir al equipo web que las publique sin ese texto.
+- **Mojibake** en una página de `portalpublico` (UTF-8 leído como latin-1); corregido.
+- **Contradicciones del propio sitio**, convertidas en pruebas de resolución de conflictos: cajeros (2.800 / 3.500 / 3.800 según la página), libre inversión (1,35 % en el encabezado vs 1,30 % en las características de la misma página), CDT ($1.000.000 vs $500.000 en una página mezclada), plazos de abono anticipado distintos entre Cuenta Activa (15 días) y préstamo personal (25 días).
+- **Campañas vencidas** (0 % en Éxito hasta 30-jun-2026; Ollas y sartenes hasta 15-jun-2026) y **tasas del mes** (publicación de septiembre de 2026 ya vencida el 1-oct) siguen en el corpus: son pruebas de vigencia, y confirman que tasas y campañas deben gobernarse por fecha.
+- **Contenido interno publicado por error:** una guía de preguntas y respuestas con nombres de empleados (compra de cartera), un T&C con comentarios de revisión («Comentado [LS1]») y una página «Licitación» con FAQ de OcciRed. Se anotaron en `notas`; conviene reportarlo al banco.
+
+**Limitaciones que hay que decir con claridad:**
+- **Sesgo léxico:** las preguntas se escribieron mirando el bloque fuente, así que se parecen al texto; el recall con consultas reales será menor. Mezclar con consultas de call center/PQRS apenas existan.
+- **Un solo redactor (Claude) sin LLM independiente:** el set no tiene un segundo modelo que lo filtre ni lo juzgue; la validación humana es indispensable antes de usarlo para decidir el paso a producción.
+- **Abstención sub-representada** frente a la meta (10-15 % sin respuesta, 5-10 % adversariales): ampliar en v1 con casos de datos personales, inyección indirecta y fuera de alcance.
+- **Cobertura baja** en estudios económicos, informes de gestión, contratos y formatos e información relevante a inversionistas (< 5 % de cada tipo).
+
+**Siguiente paso de la Fase 2 (requiere personas):** los expertos de producto y cumplimiento revisan `revision-experta.md` (144 pares: los de tipos difíciles + ~25 % de factuales) con ✓/✗ y crítica; los aprobados forman el **oro** de un `golden-v1`. Mientras tanto el plata sirve para desarrollo (fase 3).
+
 ---
 
 ## 3. Documentos con gráficos e imágenes: estado actual y decisión
@@ -311,7 +341,7 @@ _Salida:_ documento de alcance de 1-2 páginas + dueños asignados.
 - Auditoría automática y muestreo del 10 % (sección 1.4).
 _Salida:_ inventario con estado/vigencia por documento; lista de huecos restantes; corpus ≥ 95 % de las URLs relevantes con texto verificado.
 
-**Fase 2 — Golden set v0 (semanas 2-4, en paralelo)**
+**Fase 2 — Golden set v0 (semanas 2-4, en paralelo) — _generado el 2026-10-01 (290 pares plata, test congelado); pendiente la validación experta (oro)_**
 - Generar **bronce** (sección 2.3) y filtrar a **plata**; armar la partición `dev/test` por documento.
 - Expertos validan **oro v1 (~200 → 300-600)** con binario + crítica. Incluir ≥ 40 preguntas visuales y las temporales.
 - Montar Langfuse/Phoenix + RAGAS/DeepEval en CI con **canarios**.

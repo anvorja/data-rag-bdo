@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 5818
+caracteres: 5158
 paginas: null
-hash_contenido: 8cce4c0e2817fb53
+hash_contenido: 608d9c1e52f2d064
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Tarjeta de Crédito Visa Infinite Banco de Occidente
@@ -149,7 +150,6 @@ Te puede interesar
 Descubre todo sobre las tasas de interés en Colombia: ¿Qué son y cómo te afectan?
 Conoce más
 Productos relacionados
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Dinero para lo que quieras, sin explicaciones
@@ -157,7 +157,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Dinero para lo que quieras) (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ### Ahorra con rentabilidad y sin complicaciones
@@ -165,7 +164,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Alcancía sobre maletín) (imagen: Alcancía sobre maletín)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ### Haz de tu hogar el lugar de tus sueños
@@ -173,7 +171,6 @@ Crédito de Vivienda
 Renueva tus espacios con un crédito hecho para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Haz tu hogar) (imagen: Haz tu hogar)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -182,7 +179,4 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Tu carro nuevo) (imagen: Tu carro nuevo)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 (imagen: Solicitar en línea) Dejar mis datos [(imagen: Chat) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

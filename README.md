@@ -14,7 +14,7 @@ Insumos para un asesor virtual bancario (RAG) con la documentación **pública**
 ## Estado
 
 - Fase 0-1 (corpus, rastreo, auditoría automática): hecha (2026-10-01). Pendiente la revisión humana de la muestra.
-- Fase 2 (golden set): en curso en `feature/fase2-golden-set`.
+- Fase 2 (golden set v0): 290 pares plata con partición de prueba congelada (`rag-bocc/golden/`). Pendiente la validación por expertos para obtener el oro.
 
 ## Uso
 

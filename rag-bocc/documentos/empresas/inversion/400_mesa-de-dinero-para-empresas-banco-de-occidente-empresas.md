@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > inversiones empresariales"
 fecha_extraccion: 2026-10-01
-caracteres: 6122
+caracteres: 4468
 paginas: null
-hash_contenido: 643f8416755c4a20
+hash_contenido: 618df79b528a7fed
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 11 líneas de plantilla del CMS."
 ---
 
 # Mesa de Dinero para Empresas| Banco de Occidente - Empresas
@@ -41,49 +42,42 @@ Mesa de dinero
 Deuda pública
 Deuda privada
 Futuros
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### TES, UVR, TCO
 
 Accede a títulos de deuda pública con rentabilidad segura.
 (imagen: TES ,UVR,TCO Desk) (imagen: TES,UVR,TCO Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### TIDIS
 
 Invierte en títulos de deuda pública con pago garantizado.
 (imagen: TIDIS Desk) (imagen: TIDIS Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### Deuda Pública en Otras Monedas
 
 Diversifica tu capital con títulos en monedas extranjeras.
 (imagen: Deuda pública Desk) (imagen: Deuda pública Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### Deuda Privada Local
 
 Aprovecha oportunidades en el mercado colombiano.
 (imagen: Deuda privada Desk) (imagen: Deuda privada Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### Deuda Privada Internacional
 
 Invierte en empresas extranjeras.
 (imagen: Deuda internacional Desk) (imagen: Deuda internacional Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### TRM
 
 Asegura estabilidad en transacciones internacionales.
 (imagen: TRM Desk)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones
 
 ##### Títulos de Tesorería
@@ -125,7 +119,6 @@ Solicita asesoría
 Descubre opciones diseñadas para ti y da el siguiente paso hacia tu futuro financiero.
 Solicita asesoría
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -133,7 +126,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -141,7 +133,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -149,7 +140,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -158,9 +148,6 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=inversiones) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar.
 Te puede interesar

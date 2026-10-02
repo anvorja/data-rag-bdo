@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > inversiones empresariales"
 fecha_extraccion: 2026-10-01
-caracteres: 3169
+caracteres: 2651
 paginas: null
-hash_contenido: 0570844ebc75870e
+hash_contenido: 653a06037bf5cc7d
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Soluciones de Inversión para Empresas | Banco de Occidente - Empresas
@@ -36,7 +37,6 @@ Invierte y haz crecer tu dinero y patrimonio
 Descubre alternativas rentables para hacer crecer tu capital de manera segura y efectiva.
 (imagen: Pareja feliz usando una laptop) (imagen: Pareja feliz usando una laptop)
 Inversiones Empresariales
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### CDT
@@ -44,7 +44,6 @@ Inversión
 Asegura tu inversión con tasas competitivas y rentabilidad segura.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales/cdt)
 (imagen: Hombre con laptop) (imagen: Hombre con laptop)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Alternativas de Inversión
@@ -52,7 +51,6 @@ Inversión
 Accede a soluciones personalizadas para optimizar tu capital.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales/alternativas)
 (imagen: Persona en su celular) (imagen: Persona en su celular)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Mesa de Dinero
@@ -87,9 +85,6 @@ Déjanos tus datos y un asesor te ayudará a elegir la mejor opción para tu din
 [Quiero asesoría](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=inversiones) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

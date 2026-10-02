@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 5477
+caracteres: 3965
 paginas: null
-hash_contenido: ea5bb845a3d0062b
+hash_contenido: 67d09f6087d2b328
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 10 líneas de plantilla del CMS."
 ---
 
 # Segmento Gobierno | Banco de Occidente - Empresas
@@ -44,37 +45,31 @@ Estamos comprometidos con el crecimiento de nuestro país, por eso contamos con 
 Contamos con una Vicepresidencia única
 Segmento Gobierno y con un equipo humano altamente calificado, especializado en el sector público a nivel nacional, somos líderes en la captación de depósitos en cuenta corriente oficial, especialistas en la administración de cuentas (autorizada, registrada y reportada) y pioneros en la administración de cuentas maestras.
 Conoce nuestros productos y servicios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Soluciones de recaudo
 
 Soluciones de recaudo para tu entidad.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/recaudos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Soluciones de pago
 
 Soluciones de pago para tu entidad.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Soluciones de financiación
 
 Soluciones de financiación para tu entidad.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/creditos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Administración de recursos
 
 Administración de recursos.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Servicios administrativos especiales
 
 Servicios administrativos especiales para entidades gubernamentales.
 [Conoce más](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Nómina Digital
 
@@ -110,7 +105,6 @@ Deja tus datos aquí
 Contáctanos por WhatsApp y recibe Atención rápida y personalizada para entidades gubernamentales.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -118,7 +112,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -126,7 +119,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -134,7 +126,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -143,7 +134,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > recaudos"
 fecha_extraccion: 2026-10-01
-caracteres: 5024
+caracteres: 4364
 paginas: null
-hash_contenido: f3c8b14fa9b9c676
+hash_contenido: b179279d6c7d8cdb
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Recaudo Tarjetas - Empresas
@@ -105,7 +106,6 @@ Deja tus datos aquí
 Contáctanos por WhatsApp y un asesor especializado resolverá tus dudas.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -113,7 +113,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -121,7 +120,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -129,7 +127,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -138,9 +135,6 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=pagos) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar.
 Te puede interesar

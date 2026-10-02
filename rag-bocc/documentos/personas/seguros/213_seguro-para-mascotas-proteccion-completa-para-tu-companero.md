@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros > mascotas"
 fecha_extraccion: 2026-10-01
-caracteres: 2668
+caracteres: 2434
 paginas: null
-hash_contenido: 971aab5a3d85a6c2
+hash_contenido: ddfa5513c0a75e9b
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Seguro para Mascotas - Protección Completa para tu Compañero
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguro para Mascotas
 
 ##### Mascotas
@@ -79,9 +79,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejar datos](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

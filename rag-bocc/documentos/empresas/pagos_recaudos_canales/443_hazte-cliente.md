@@ -9,7 +9,7 @@ area: pagos_recaudos_canales
 segmento: empresas
 idioma: es
 estado_vigencia: vigente
-anio_documento: null
+anio_documento: 2025
 periodo_fin: null
 vigente_desde: null
 vigente_hasta: null
@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > productos"
 fecha_extraccion: 2026-10-01
-caracteres: 9764
+caracteres: 6031
 paginas: null
-hash_contenido: 2a295a2302a738c8
+hash_contenido: 7c5d33c200f597a4
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 19 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."
 ---
 
 # Hazte Cliente
@@ -53,37 +54,30 @@ Enviar
 
 ## **Conoce nuestras soluciones financieras**
 
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
-
 ##### Financiación
 
 Incrementa la competitividad de tu empresa.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/creditos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Ahorro e inversión
 
 Invierte, optimiza y maneja los recursos de tu empresa.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Soluciones de pago
 
 Realiza pagos a terceros, proveedores, nómina, seguridad social.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Soluciones de recaudo
 
 Tenemos productos para que ofrezcas a tus clientes opciones de pago con amplia cobertura física y digital.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/reacudos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Comercio Exterior
 
 Operaciones de compra y venta de dólares.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/moneda-extranjera)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Canales Digitales
 
@@ -107,7 +101,6 @@ de beneficios exclusivos, recompensas y promociones especiales que solo nuestros
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -151,78 +144,45 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
 
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Portafolio Aliado
 
 ##### Un portafolio pensado para tu empresa
 
 Obtén beneficios adicionales para tu empresa y exoneraciones transaccionales.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/portafolio-aliado)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Credito Rotativo
 
 ##### Crédito Rotativo
 
 Financia las necesidades de tu empresa de forma ágil y flexible.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/creditos/rotativo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito Empresarial
 
 ##### Impulsa tus compras empresariales
 
 Facilita las compras y gestiona los gastos con mayor control.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/tarjetas-credito-empresariales)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tu Comunidad Empresarial
 
 ##### Conecta, aprende y haz crecer tu empresa
 
 Conecta con otros empresarios y potencia tu negocio.
 [Únete ahora](https://tucomunidadempresarialbdo.com/?utm_source=web&utm_medium=CardHazteCliente&utm_id=TuComunidadEmpresarial)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Impuestos
 
 ##### Paga tus Impuestos
 
 Consulta fechas, medios y puntos de pago de tus impuestos.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/paga-tus-impuestos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudo código QR
 
 ##### Simplifica el recaudo de tu empresa
 
 Recibe pagos con QR de forma rápida y segura.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/pagos/qr)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Pagos Masivos Inmediatos
 
 ##### Agiliza tus pagos empresariales
@@ -230,9 +190,6 @@ Pagos Masivos Inmediatos
 Realiza pagos a varias cuentas de forma inmediata.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/pagos-masivos-inmediatos)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar.
 Te puede interesar

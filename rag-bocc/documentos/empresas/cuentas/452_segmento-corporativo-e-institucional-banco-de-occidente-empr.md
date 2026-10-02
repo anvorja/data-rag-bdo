@@ -4,7 +4,7 @@ url: "https://www.bancodeoccidente.com.co/web/empresas/segmentos/corporativo-ins
 titulo: "Segmento Corporativo e Institucional | Banco de Occidente - Empresas"
 descripcion: "Conoce soluciones financieras del Banco de Occidente para empresas corporativas e institucionales, diseñadas para optimizar la gestión y crecimiento del negocio."
 tipo_doc: producto_pagina
-area: leasing_empresas
+area: cuentas
 segmento: empresas
 idioma: es
 estado_vigencia: vigente
@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 3041
+caracteres: 2381
 paginas: null
-hash_contenido: 224883d229e7cae2
+hash_contenido: 7499f04e35135c3e
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Segmento Corporativo e Institucional | Banco de Occidente - Empresas
@@ -52,7 +53,6 @@ Deja tus datos aquí
 Contáctanos por WhatsApp y recibe Atención rápida y personalizada para entidades gubernamentales.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -60,7 +60,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -68,7 +67,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -76,7 +74,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -85,7 +82,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

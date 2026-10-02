@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS"
 fecha_extraccion: 2026-10-01
-caracteres: 14093
+caracteres: 10401
 paginas: null
-hash_contenido: 7fdc0a62216db835
+hash_contenido: e98c46d721219e4d
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 26 líneas de plantilla del CMS."
 ---
 
 # Productos Financieros para Tu Empresa | Banco de Occidente - Empresas
@@ -58,28 +59,24 @@ Destacados
 Créditos
 Cuentas
 Recaudos
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Hecho a tu medida
 
 ##### Leasing
 
 Te ayudamos al desarrollo de tu empresa.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/leasing)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Hecho a tu medida
 
 ##### Pasarela AvalPay
 
 Incrementa tus ventas y recauda con nuestra pasarela de pagos
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/canales-digitales/aval-pay)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Hecho a tu medida
 
 ##### App OcciRed
 
 Autoriza y consulta a tan solo un clic.
 [Descubre aquí](https://www.bancodeoccidente.com.co/web/empresas/canales-digitales/occired)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Financiación
 
 ##### Crédito Rotativo
@@ -87,14 +84,12 @@ Financiación
 Un producto pensado diseñado para ti
 [Solicíta aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos/rotativo)
 (imagen: Money Desk)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Financiación
 
 ##### Crédito Constructor
 
 Tu proyecto de construcción ya tiene cimientos.
 [Adquiérelo](https://www.bancodeoccidente.com.co/web/empresas/creditos/constructor)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Financiación
 
 ##### Fomento
@@ -102,42 +97,36 @@ Financiación
 Accede a créditos de Bancoldex, Finagro y Findeter
 [Solicíta aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos/fomento)
 [Ver todos los créditos](https://www.bancodeoccidente.com.co/web/empresas/creditos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus recursos
 
 ##### Cuenta de Ahorros
 
 Gestiona tus recursos de forma inteligente.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas/cuenta-ahorro-empresarial)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus recursos
 
 ##### Cuenta Corriente
 
 Administra de manera integral los recursos de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas/corriente-empresarial)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus recursos
 
 ##### Cuentas Maestras
 
 Optimizando la administración de recursos.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas/maestras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus ventas
 
 ##### PSE
 
 Facilidad en pagos se traduce en agilidad y eficiencia.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/reacudos/electronico-pse)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus ventas
 
 ##### Recaudo de Tarjetas
 
 Recauda tus ventas con tarjetas de las principales franquicias
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/reacudos/tarjetas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tus ventas
 
 ##### Débito Automático
@@ -223,7 +212,6 @@ Encuentra lo que necesitas a un clic
 (imagen: Dinero) Quiero rentabilidad a largo plazo
 (imagen: Avión) Quiero opciones de inversiones en el exterior
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Inmobiliario
@@ -231,7 +219,6 @@ Leasing Empresarial
 Expande tu empresa con inmuebles financiados a largo plazo
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/inmobiliario)
 (imagen: Empresa) (imagen: Empresa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Crédito de Fomento
@@ -242,7 +229,6 @@ Accede a líneas de crédito con respaldo de entidades de fomento.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Cuenta de Ahorros Empresarial
@@ -250,7 +236,6 @@ Cuentas Empresariales
 Ahorra con rentabilidad y disponibilidad inmediata para tu negocio.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/cuenta-ahorro-empresarial)
 (imagen: Marranito azul) (imagen: Marranito azul)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Cuenta Corriente Empresarial
@@ -261,7 +246,6 @@ Gestiona tus operaciones diarias con flexibilidad y control total.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Tecnología
@@ -269,7 +253,6 @@ Leasing Empresarial
 Moderniza tus equipos tecnológicos con financiamiento inteligente.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/tecnologia)
 (imagen: Dron) (imagen: Dron)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Maquinaria y Equipos
@@ -280,7 +263,6 @@ Renueva tu maquinaria sin afectar tu liquidez.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Vehículos
@@ -288,7 +270,6 @@ Leasing Empresarial
 Adquiere vehículos y flotas sin descapitalizarte.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing/vehiculos)
 (imagen: Camión) (imagen: Camión)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Aliados
@@ -299,7 +280,6 @@ Accede a financiación de equipos y activos a través de convenios.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ##### Pyme Protegida
@@ -307,7 +287,6 @@ Seguros Empresariales
 Cubre riesgos esenciales y da tranquilidad a tu negocio.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/asegura-tu-pyme)
 (imagen: Mujer con paquetes) (imagen: Mujer con paquetes)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ##### Activos Empresariales
@@ -318,7 +297,6 @@ Asegura bienes e inversiones con respaldo financiero sólido.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Encargo Fiduciario
@@ -326,7 +304,6 @@ Inversión
 Gestiona tus inversiones de forma segura.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: rendimientos de dinero) (imagen: rendimientos de dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### CDT
@@ -337,7 +314,6 @@ Asegura tu inversión con tasas competitivas y rentabilidad segura.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### CDT
@@ -348,7 +324,6 @@ Asegura tu inversión con tasas competitivas y rentabilidad segura.
 Reiniciar Búsqueda
 [Contactar a un asesor](https://api.whatsapp.com/send?phone=573186714836)
 Productos recomendados para ti
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Alternativas de Inversión

@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > ayuda"
 fecha_extraccion: 2026-10-01
-caracteres: 11676
+caracteres: 9022
 paginas: null
-hash_contenido: e034b409f73f1f49
+hash_contenido: 4843d8b9e00f36ce
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 10 líneas de plantilla del CMS. Se quitaron 28 líneas de plantilla del CMS."
 ---
 
 # Corresponsales - Empresas
@@ -39,36 +40,6 @@ Nuestros Corresponsales Bancarios más cerca de ti
 Ponemos a disposición de tu empresa a nuestra red de corresponsalía bancaria, con la cual llegamos a todos los rincones del país para que puedas recaudar de forma ágil y segura. Tus clientes o usuarios pueden acercarse a uno de los más de 56.000 comercios en los que pueden realizar pagos, retiros de efectivo, consignaciones y reclamar giros empresariales, todo esto, sin necesidad de desplazarse a una sucursal bancaria.
 Entrega inmediata
 Entrega inmediata
-Maximo 20 Caracteres
-Maximo 26 Caracteres
-
-### Maximo 50 Caracteres
-
-Texto del botón
-Máximo 26 caracteres
-Máximo 26 caracteres
-Por favor verifique la version mobile para comprobar que el texto encaje bien en la card para evitar inconvenientes en la visualización.
-Texto del botón
-Maximo 20 Caracteres
-Maximo 26 Caracteres
-
-### Maximo 50 Caracteres
-
-Texto del botón
-Máximo 26 caracteres
-Máximo 26 caracteres
-Por favor verifique la version mobile para comprobar que el texto encaje bien en la card para evitar inconvenientes en la visualización.
-Texto del botón
-Maximo 20 Caracteres
-Maximo 26 Caracteres
-
-### Maximo 50 Caracteres
-
-Texto del botón
-Máximo 26 caracteres
-Máximo 26 caracteres
-Por favor verifique la version mobile para comprobar que el texto encaje bien en la card para evitar inconvenientes en la visualización.
-Texto del botón
 
 ### SuperGIROS
 
@@ -172,12 +143,6 @@ Corresponsales
 Pagos y recaudos de servicios públicos y privados, retiros de efectivo con o sin tarjeta de cuentas del Grupo Aval y más.
 [Corresponsal más cercano](https://www.bancodeoccidente.com.co/BuscadordePuntosOccidente/?entidad=occidente)
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 ¿Cómo utilizar los Corresponsales?
 
 ## Para realizar pago de tus facturas
@@ -191,14 +156,6 @@ Que incluye este producto
 ## Para retiros sin tarjeta débito
 
 ### Ingresar el portal bancario o APP para generar la clave OTP. Dirigirse al corresponsal más cercano. Suministrar al cajero la siguiente información: Tipo de transacción. Valor a retirar. Banco Aval. Tipo de cuenta. Número de identificación con el que se solicitó el OTP. Celular de la persona que va a hacer el retiro. Clave OTP.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)
@@ -257,7 +214,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -265,7 +221,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer con tasas competitivas y plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -273,7 +228,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing y optimiza tu flujo de caja.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -281,7 +235,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables diseñadas para empresas.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 16946
+caracteres: 14684
 paginas: null
-hash_contenido: 870790f371b4d85c
+hash_contenido: f89ff69f53808ce0
 lote: "crawl2-paginas"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 20 líneas de plantilla del CMS."
 ---
 
 # Asistencias Tarjetas de Crédito | Banco de Occidente
@@ -61,9 +62,6 @@ Recibe asistencias gratuitas
 - Asistencia Vehicular
 - Asistencia al Hogar
 Beneficiarios del servicio
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  El cónyuge
-- ### Maximo 60 caracteres  Los ascendientes y descendientes en primer grado de las personas naturales aseguradas, estos son los hijos menores de 25 años, siempre que convivan con estas y a sus expensas, aunque viajen por separado y en cualquier medio de locomoción
 El derecho a las prestaciones
 Comenzará a partir del kilómetro 100 desde la dirección de domicilio del asegurado.
 Las coberturas referidas
@@ -255,7 +253,6 @@ Descargar
 
 #### Características y requisitos
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección (optional).
 [Guía de uso](https://.../) [Ver tarifas 2025](https://.../)
 (imagen: Icono o imagen del banner colors)
 
@@ -299,33 +296,7 @@ Descargar (imagen: Icono del botón)
 Causales de negación o modificación de créditos preabrobados
 Descargar
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Preguntas frecuentes
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
 
 Adquiere tu Cuenta aquí
 (imagen: Icono o imagen del banner colors)

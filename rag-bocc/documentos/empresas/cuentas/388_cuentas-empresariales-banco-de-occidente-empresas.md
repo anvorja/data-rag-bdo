@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 3247
+caracteres: 2729
 paginas: null
-hash_contenido: 40f977220a272bba
+hash_contenido: 320ab7c1b3330531
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Cuentas Empresariales | Banco de Occidente - Empresas
@@ -36,7 +37,6 @@ Abre la cuenta ideal para tu empresa
 Optimiza la gestión financiera con nuestras cuentas diseñadas para tu negocio.
 (imagen: Mujer y hombre tarjeta de credito) (imagen: Mujer y hombre tarjeta de credito)
 Cuentas Empresariales para administrar tus recursos
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ### Cuenta Corriente Empresarial
@@ -44,7 +44,6 @@ Cuentas Empresariales
 Gestiona tus operaciones diarias con flexibilidad y control total.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/corriente-empresarial)
 (imagen: Pila de monedas) (imagen: Pila de monedas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ### Cuenta de Ahorros Empresarial
@@ -52,7 +51,6 @@ Cuentas Empresariales
 Ahorra con rentabilidad y disponibilidad inmediata para tu negocio.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/cuentas/cuenta-ahorro-empresarial)
 (imagen: Alcancia) (imagen: Alcancia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ### Cuentas Maestras
@@ -87,9 +85,6 @@ Déjanos tus datos y un asesor te ayudará a elegir la mejor opción para tu neg
 [Quiero asesoría](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=cuentas) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

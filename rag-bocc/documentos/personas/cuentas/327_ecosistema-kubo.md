@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > otros"
 fecha_extraccion: 2026-10-01
-caracteres: 3514
+caracteres: 3498
 paginas: null
-hash_contenido: dfd1b599aa56a572
+hash_contenido: 3c9cf1bd6a871773
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # Ecosistema Kubo
@@ -36,7 +37,6 @@ y haz parte del primer sistema de ahorro e inversión en Colombia que te hace ve
 
 ### Abre tu Cuenta de Ahorros​
 
-Texto del botón
 Tu navegador no soporta la etiqueta de video.
 Tu navegador no soporta la etiqueta de video.
 ¿Qué es el Sistema KUBO? ​

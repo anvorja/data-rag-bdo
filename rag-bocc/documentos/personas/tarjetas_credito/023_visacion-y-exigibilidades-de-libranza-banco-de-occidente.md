@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > canales digitales"
 fecha_extraccion: 2026-10-01
-caracteres: 3662
+caracteres: 3094
 paginas: null
-hash_contenido: 8746e44b8ef7ca8f
+hash_contenido: 842a51a8786bad35
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Visación y Exigibilidades de Libranza Banco de Occidente
@@ -92,7 +93,6 @@ La dirección de la página web, en la barra de direcciones, debe iniciar por HT
 
 Bogotá (601) 390 20 58. Nacional 01 800 0514 652. Luego digita tu NIT y la opción 5 para obtener soporte.
 Productos relacionados
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 #### Dinero para lo que quieras, sin explicaciones
@@ -100,7 +100,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Mujer con ahorros) (imagen: Mujer con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 #### Ahorra con rentabilidad y sin complicaciones
@@ -108,7 +107,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Alcancia azul) (imagen: Alcancia azul)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 #### Tu tarjeta, tu mundo de posibilidades
@@ -116,7 +114,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre con tarjeta) (imagen: Hombre con tarjeta)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 #### Tu carro nuevo te espera, ¡maneja tu futuro!

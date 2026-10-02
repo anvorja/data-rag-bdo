@@ -40,7 +40,7 @@ if os.path.isdir(g):
     docs = {}
     for r in json.load(open(idx_path)): docs[r['id']] = os.path.join(CORPUS, r['archivo'])
     for fn in sorted(os.listdir(g)):
-        if not fn.endswith('.jsonl'): continue
+        if not (fn.startswith('golden-') and fn.endswith('.jsonl')): continue
         for n, line in enumerate(open(os.path.join(g, fn), encoding='utf8'), 1):
             try: q = json.loads(line)
             except Exception: errores.append(f'{fn}:{n}: JSON inválido'); continue
@@ -52,6 +52,15 @@ if os.path.isdir(g):
                 if not p: errores.append(f"{fn}:{n}: doc_id {f.get('doc_id')} no existe"); continue
                 cita = re.sub(r'\s+', ' ', f.get('cita_literal', '')).strip()
                 if cita and cita not in re.sub(r'\s+', ' ', open(p, encoding='utf8').read()): errores.append(f"{fn}:{n}: la cita_literal no aparece en {f.get('doc_id')}")
+
+    # test congelado: el hash del split=test no puede cambiar sin una versión nueva del golden set
+    hp = os.path.join(g, 'test.sha256')
+    gp = os.path.join(g, 'golden-v0.jsonl')
+    if os.path.exists(hp) and os.path.exists(gp):
+        import hashlib
+        test = sorted([json.loads(l) for l in open(gp, encoding='utf8') if l.strip() and json.loads(l).get('split') == 'test'], key=lambda r: r['id'])
+        h = hashlib.sha256('\n'.join(json.dumps(r, ensure_ascii=False, sort_keys=True) for r in test).encode()).hexdigest()
+        if h != open(hp).read().split()[0]: errores.append('golden-v0: el split=test cambió (hash distinto de test.sha256); crear golden-v1 en lugar de editar v0')
 
 # ---------- 3. secretos y 4. tamaño ----------
 PATS = {'aws': r'AKIA[0-9A-Z]{16}', 'google_api': r'AIza[0-9A-Za-z\-_]{35}', 'openai_like': r'sk-[A-Za-z0-9]{20,}', 'github': r'gh[pousr]_[A-Za-z0-9]{30,}',

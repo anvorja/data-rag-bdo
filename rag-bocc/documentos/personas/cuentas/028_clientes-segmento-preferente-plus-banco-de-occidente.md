@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 3453
+caracteres: 2793
 paginas: null
-hash_contenido: 19d40d38007c3e01
+hash_contenido: 092ebf0e51b2dd83
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Clientes Segmento Preferente Plus Banco de Occidente
@@ -78,7 +79,6 @@ Ingresos mensuales $7.000.000 - $16.500.000
 
 Ingresos ventas anuales $200.000.000 - $599.000.000
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -86,7 +86,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Mujer de compras) (imagen: Mujer de compras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -94,7 +93,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Mujer con ahorros) (imagen: Mujer con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -102,7 +100,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre con dinero) (imagen: Hombre con dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -111,7 +108,4 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Auto) (imagen: Auto)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 11188
+caracteres: 9973
 paginas: null
-hash_contenido: 4c37da3a50f8bf81
+hash_contenido: e0c0f1588c9c2ab4
 lote: "lote1"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."
 ---
 
 # Promociones con Tarjetas de Crédito Banco de Occidente
@@ -322,7 +323,6 @@ Solicítala en línea
 y haz crecer tu dinero.
 Solicítala en línea
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Dinero para lo que quieras, sin explicaciones
@@ -330,7 +330,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Libre inversión) (imagen: Libre inversión)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ### Ahorra con rentabilidad y sin complicaciones
@@ -338,7 +337,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Cuenta de ahorros) (imagen: Cuenta de ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Tu tarjeta, tu mundo de posibilidades
@@ -346,7 +344,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta de crédito) (imagen: Tarjeta de crédito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -355,32 +352,24 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/vehiculos)
 (imagen: Crédito de vehículo)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=tarjeta_credito) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
-Featured title
 Label
 
 ### Title
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Button link
 Label
 
 ### Title
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Button link
 Label
 
 ### Title
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Button link
 Label
 
 ### Title
 
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 Button link

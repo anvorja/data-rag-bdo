@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vivienda"
 fecha_extraccion: 2026-10-01
-caracteres: 7212
+caracteres: 6552
 paginas: null
-hash_contenido: 8d5c9a3f722b3763
+hash_contenido: 5db456fabe9d07d2
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Compra de Cartera de Crédito Hipotecario Banco de Occidente
@@ -142,7 +143,6 @@ El momento ideal para hacer la compra de cartera es cuando:
 ¿Tiene algún costo trasladar la cartera de mi vivienda?
 El proceso de compra de cartera genera gastos mínimos operativos relacionados con el estudio de títulos, el avalúo comercial del inmueble (si aplica) y la gestión de la cesión de la garantía (hipoteca o contrato de leasing). Sin embargo, en la mayoría de los casos, **el ahorro generado en intereses durante los primeros meses compensa y supera con creces estos costos iniciales**.
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes con facilidad
@@ -150,7 +150,6 @@ Libre Inversión
 Financia cualquier meta con plazos y tasas a tu medida.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: mujer de compras) (imagen: mujer de compras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Tu salario, con más beneficios
@@ -158,7 +157,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: hombre con ahorros) (imagen: hombre con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -166,7 +164,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: hombre feliz) (imagen: hombre feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -175,7 +172,4 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: carro) (imagen: carro)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros > vehiculos"
 fecha_extraccion: 2026-10-01
-caracteres: 4619
+caracteres: 3675
 paginas: null
-hash_contenido: 2fbedc858b21458f
+hash_contenido: 4478148331340383
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Seguro para vehículos Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Seguro Todo Riesgo
@@ -52,7 +52,6 @@ Seguros de Vehículo
 Cobertura completa ante robos, daños y accidentes.
 [Solicítalo ahora](https://www.segurosadl.com/todo-riesgo-ban-occidente?step=1)
 (imagen: imagen protege vehiculo) (imagen: imagen protege vehiculo mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Cuota Protegida Vehículos
@@ -60,7 +59,6 @@ Seguros de Vehículo
 Asegura el pago de tu cuota en caso de imprevistos.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/vehiculos-cuota-protegida)
 (imagen: imagen cuota vehiculo) (imagen: imagen cuota vehiculo mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Seguro Autoprotegido
@@ -68,7 +66,6 @@ Seguros de Vehículo
 Cubre daños y robos con asistencia 24/7.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/carros)
 (imagen: imagen autoprotegido) (imagen: imagen autoprotegido mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Seguro Autoprotegido Motos
@@ -76,7 +73,6 @@ Seguros de Vehículo
 Cubre accidentes, robos y asistencia vial.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/motos)
 (imagen: imagen seguro moto) (imagen: imagen seguro moto mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Cuota Protegida Transportador
@@ -84,7 +80,6 @@ Seguros de Vehículo
 Asegura el pago de tu crédito en caso de imprevistos.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/vehiculos-cuota-protegida-transportador)
 (imagen: imagen seguro transporte)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Vehículo
 
 ##### Seguro Autoprotegido Productivos
@@ -119,9 +114,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejar datos](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

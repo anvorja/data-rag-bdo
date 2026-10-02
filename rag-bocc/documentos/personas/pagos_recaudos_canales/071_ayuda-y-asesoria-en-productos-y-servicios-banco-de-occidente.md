@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > ayuda"
 fecha_extraccion: 2026-10-01
-caracteres: 5743
+caracteres: 4181
 paginas: null
-hash_contenido: 002ed71d1bf255b0
+hash_contenido: 5d60076dd885277f
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 11 líneas de plantilla del CMS."
 ---
 
 # Ayuda y Asesoría en Productos y Servicios Banco de Occidente
@@ -38,48 +39,41 @@ Te ayudamos y asesoramos en lo que necesites
 Canales de atención
 Guías
 Seguridad
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Líneas de servicio al cliente
 
 Conoce nuestras líneas de servicio y recibe asesoría.
 [Conoce más](https://www.bancodeoccidente.com.co/ayuda/linea-servicio-cliente)
 (imagen: imagen audifonos) (imagen: imagen audifonos mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### WhatsApp
 
 Recibe asesoría, solicita productos o radica tus PQRS.
 [Conoce más](https://www.bancodeoccidente.com.co/ayuda/whatsapp)
 (imagen: imagen whatsapp) (imagen: imagen whatsapp mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Líneas de Conciliación y Negociación
 
 Encontramos la mejor solución para tus productos financieros.
 [Conoce más](https://www.bancodeoccidente.com.co/ayuda/linea-conciliacion-negociacion)
 (imagen: imagen concilia) (imagen: imagen concilia mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Corresponsales Bancarios
 
 Llegamos a todos los rincones del país.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/corresponsales)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Cómo usar tus canales digitales
 
 Aprende a gestionar tu dinero con total facilidad.
 [Conoce más](https://www.bancodeoccidente.com.co/canales-digitales)
 (imagen: imagen canales digitales) (imagen: imagen canales digitales mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Token Mobile
 
 Activa tu Token Mobile y protege tus operaciones digitales.
 [Conoce más](https://www.bancodeoccidente.com.co/documents/d/guest/token-mobile)
 (imagen: imagen token) (imagen: imagen token mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Seguridad y Fraude
 
@@ -125,7 +119,6 @@ Conoce más
 Solicita fácilmente la reversión de un pago no reconocido o con error a través de nuestros canales digitales.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -133,7 +126,6 @@ Cuenta de Ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen ahorra) (imagen: imagen ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -141,7 +133,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen viajero) (imagen: imagen viajero mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -149,7 +140,6 @@ Tarjeta de Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen tarjetas) (imagen: imagen tarjetas mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

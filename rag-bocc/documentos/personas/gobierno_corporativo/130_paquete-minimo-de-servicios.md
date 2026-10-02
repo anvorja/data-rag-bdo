@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 3218
+caracteres: 2650
 paginas: null
-hash_contenido: 753aa8783d054640
+hash_contenido: 35b5af89f6d13252
 lote: "lote1"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Paquete Mínimo de Servicios
@@ -75,28 +76,24 @@ Consulta de saldo en cajeros de la Red Aval
 
 ### Te puede interesar
 
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
 
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
 
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ##### Haz de tu hogar el lugar de tus sueños
 
 Renueva tus espacios con un crédito hecho para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

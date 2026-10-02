@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > factoring"
 fecha_extraccion: 2026-10-01
-caracteres: 3631
+caracteres: 2971
 paginas: null
-hash_contenido: 00774650b045c49d
+hash_contenido: a95c8201f0139089
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Factoring - Pago Anticipado Facturas l Banco de Occidente - Empresas
@@ -36,7 +37,6 @@ Impulsa tu flujo de caja con Factoring
 Accede a soluciones que optimizan la liquidez de tu empresa. Descubre nuestras alternativas.
 (imagen: Empresaria haciendo calculos) (imagen: Empresaria haciendo calculos)
 Factoring - Pago anticipado de facturas
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Factoring
 
 ### Confirming
@@ -44,7 +44,6 @@ Factoring
 Asegura el pago a tus proveedores y accede a mejores condiciones.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/factoring/confirming)
 (imagen: Empresario) (imagen: Empresario)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Factoring
 
 ### Unidirecto
@@ -52,7 +51,6 @@ Factoring
 Convierte tus cuentas por cobrar en capital de trabajo.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/factoring/unidirecto)
 (imagen: Empresario en el portatil) (imagen: Empresario en el portatil)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Factoring
 
 ### Alianza con Solunion
@@ -60,7 +58,6 @@ Factoring
 Convierte tus facturas electrónicas en liquidez inmediata.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/factoring/alianza-solunion)
 (imagen: Mujer en su telefono) (imagen: Mujer en su telefono)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Factoring
 
 ### Calendario Tributario
@@ -95,9 +92,6 @@ Déjanos tus datos y un asesor te contactará para brindarte la mejor solución.
 [Quiero asesoría](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Empresaria feliz) (imagen: Empresaria feliz)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

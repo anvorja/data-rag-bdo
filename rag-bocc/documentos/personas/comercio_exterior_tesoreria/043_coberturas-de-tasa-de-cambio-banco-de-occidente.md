@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > mesa dinero"
 fecha_extraccion: 2026-10-01
-caracteres: 11523
+caracteres: 9677
 paginas: null
-hash_contenido: d3c66f95165a7c46
+hash_contenido: 2f5a829664517b1d
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 13 líneas de plantilla del CMS."
 ---
 
 # Coberturas de Tasa de Cambio Banco de Occidente
@@ -37,63 +38,54 @@ Gestiona el riesgo cambiario con coberturas flexibles y asegura estabilidad fina
 (imagen: viendo informe)
 Coberturas de Tasa de Cambio
 Es una figura estructurada con opciones con prima neutral, la cual permite obtener una cobertura con la expectativa de lograr negociar las divisas a un mejor precio que el forward tradicional. Aplica para importadores y exportadores. En la práctica, es un producto con características similares a las del COLLAR o TUNEL, en donde el cliente fija un rango de cobertura, pero adicional fija un límite a dicha cobertura con el objetivo de lograr mejorar el rango del COLLAR/TUNEL tradicional. Es decir que se limita la posible utilidad o liquidación a favor con el beneficio de disminuir el TECHO del TUNEL en el caso IMPORTADOR y de aumentar el PISO del COLLAR en el caso EXPORTADOR.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Forward
 
 Siempre un paso adelante del mercado y una alternativa diferente.
 Conoce más
 (imagen: dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Opciones Plain Vanilla
 
 Opciones Plain Vanilla (CALL / PUT).
 Conoce más
 (imagen: up)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Occiforward
 
 Cobertura flexible de tasa de cambio
 Conoce más
 (imagen: creciendo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Call Apalancada
 
 Financiamos desde hoy tu costo máximo de cobertura.
 Conoce más
 (imagen: conversion)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Put Apalancada
 
 Cobertura Flexible de Tasa de Cambio - Exportador
 Conoce más
 (imagen: monedas en la bolsa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### RangeForward
 
 Mejora la tasa de tu cobertura.
 Conoce más
 (imagen: bolsa dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Túnel
 
 Rango de cobertura para importadores
 Conoce más
 (imagen: exchange)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Collares
 
 Aquí puedes comprar el seguro para sus ingresos por exportaciones.
 Conoce más
 (imagen: escudo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Gaviotas
 
@@ -151,7 +143,6 @@ Chatea con nosotros
 ### Es una figura estructurada con opciones con prima neutral, la cual permite obtener una cobertura con la expectativa de lograr negociar las divisas a un mejor precio que el forward tradicional. Aplica para importadores y exportadores. En la práctica, es un producto con características similares a las del COLLAR o TUNEL, en donde el cliente fija un rango de cobertura, pero adicional fija un límite a dicha cobertura con el objetivo de lograr mejorar el rango del COLLAR/TUNEL tradicional. Es decir que se limita la posible utilidad o liquidación a favor con el beneficio de disminuir el TECHO del TUNEL en el caso IMPORTADOR y de aumentar el PISO del COLLAR en el caso EXPORTADOR. **Características** Importador Cliente compra OPCION CALL + Cliente vende OPCION PUT + Cliente vende OPCION CALL Exportador Cliente compra OPCION PUT + Cliente vende OPCION CALL + Cliente vende OPCION PUT
 
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -159,7 +150,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -167,7 +157,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -175,7 +164,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

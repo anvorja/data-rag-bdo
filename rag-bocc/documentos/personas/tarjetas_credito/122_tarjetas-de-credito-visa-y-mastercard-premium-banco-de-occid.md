@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 5930
+caracteres: 5270
 paginas: null
-hash_contenido: 04b7557d530e7f3d
+hash_contenido: d0ba6cd3a4045c7c
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Tarjetas de Crédito Visa y Mastercard Premium | Banco de Occidente
@@ -57,7 +58,6 @@ Tarjetas de Crédito Visa y Mastercard con cupos que impulsan tus metas
 - Premium
 - Con propósito
 - Mi primer tarjeta
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Mastercard Platinum
@@ -65,7 +65,6 @@ Tarjeta de Crédito
 Promociones y beneficios exclusivos con Mastercard.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/mastercard-visa-platinum)
 (imagen: Mastercard Platinum) (imagen: Mastercard Platinum)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Visa Platinum
@@ -73,7 +72,6 @@ Tarjeta de Crédito
 Accede beneficios y aliados exclusivos de la franquicia.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/mastercard-visa-platinum)
 (imagen: Visa Platinum) (imagen: Visa Platinum)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Mastercard Black
@@ -81,7 +79,6 @@ Tarjeta de Crédito
 Te damos 5% de cashback en entretenimiento.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/mastercard-black)
 (imagen: Mastercard Black) (imagen: Mastercard Black)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Visa Infinite
@@ -154,9 +151,6 @@ La diferencia principal está en:
 ¿Dónde puedo ver el calendario de pagos?
 Puedes revisar el calendario aquí: [Calendario de Pagos](https://portalpublico.bancodeoccidente.com.co/documents/d/guest/calendario-pagos-2026)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Solicitar en línea) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=tarjeta_credito) [(imagen: Chat) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Documentos
 Términos y Condiciones Campaña Segmentada Dualidad LATAM Pass

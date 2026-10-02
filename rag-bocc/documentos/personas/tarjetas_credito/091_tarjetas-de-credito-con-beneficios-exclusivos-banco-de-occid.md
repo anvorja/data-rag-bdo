@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 9314
+caracteres: 8746
 paginas: null
-hash_contenido: ee51c34bd47d7cdf
+hash_contenido: f3d0512e58b34d91
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Tarjetas de Crédito con Beneficios Exclusivos | Banco de Occidente
@@ -59,7 +60,6 @@ Conoce todas nuestras Tarjetas de Crédito Visa y Mastercard
 - Premium
 - Con propósito
 - Mi primer tarjeta
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial LATAM Pass Visa Gold
@@ -67,7 +67,6 @@ Tarjeta de Crédito
 Acumula millas y disfruta beneficios.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/latam-pass-gold-visa)
 (imagen: Visa Latam Pass Gold) (imagen: Visa Latam Pass Gold)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Free
@@ -75,7 +74,6 @@ Tarjeta de Crédito
 Sin cuota de manejo y cashback del 3%*.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/credencial-free)
 (imagen: Visa Free) (imagen: Visa Free)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Mastercard Black
@@ -83,7 +81,6 @@ Tarjeta de Crédito
 5% de cashback en entretenimiento.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/mastercard-black)
 (imagen: Mastercard Black) (imagen: Mastercard Black)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Mastercard Platinum

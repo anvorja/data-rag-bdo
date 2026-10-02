@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros > desempleo"
 fecha_extraccion: 2026-10-01
-caracteres: 3527
+caracteres: 3009
 paginas: null
-hash_contenido: 658ccfe091f8f59a
+hash_contenido: 1eed20c864ff65d2
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Vive la Vida Seguro de Vida Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida y Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Vida y Desempleo
 
 ##### Vive la Vida Individual
@@ -52,7 +52,6 @@ Vida y Desempleo
 Asegura tu bienestar con cobertura en caso de fallecimiento.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/vida)
 (imagen: imagen mujer escucha) (imagen: imagen mujer escucha mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Vida y Desempleo
 
 ##### Cuota Protegida Empleados
@@ -60,7 +59,6 @@ Vida y Desempleo
 Cubre el pago de tu crédito en caso de desempleo.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/asistencia-igs)
 (imagen: imagen mujer aprueba) (imagen: imagen mujer aprueba)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Vida y Desempleo
 
 ##### Cuota Protegida Independientes
@@ -95,9 +93,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejas datos](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

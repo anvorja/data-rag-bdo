@@ -277,6 +277,7 @@ for r in rows:
     fl = f['flags']
     if r['id'] in near: r['casi_duplicado_de'] = near[r['id']][0]; r['similitud'] = near[r['id']][1]; fl.append('casi_duplicado')
     else: r['casi_duplicado_de'] = None; r['similitud'] = None
+    if 'plantilla del CMS' in (r.get('nota') or ''): fl.append('plantilla_cms_limpiada')
     if r['idioma'] == 'en': fl.append('ingles')
     if titulo_dudoso(r):
         fl.append('titulo_dudoso')

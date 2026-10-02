@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > personas"
 fecha_extraccion: 2026-10-01
-caracteres: 4933
+caracteres: 4273
 paginas: null
-hash_contenido: 8a54cd36ed6f812d
+hash_contenido: 1f9d5d5b94a46041
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Compra de Cartera Banco de Occidente: Unifica tus Deudas​
@@ -146,7 +147,6 @@ Te puede interesar
 Descubre qué hacer para mejorar tu puntaje y acceder a mejores oportunidades.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre inversión
 
 ##### Haz realidad tus planes con facilidad
@@ -154,7 +154,6 @@ Libre inversión
 Financia cualquier meta con plazos y tasas a tu medida.
 [Solicitalo aquí](https://.../)
 (imagen: imagen financia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Tu salario, con más beneficios
@@ -162,7 +161,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales
 [Solicítala ahora](https://.../)
 (imagen: imagen recibe tu salario)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -170,7 +168,6 @@ Tarjeta de crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://.../)
 (imagen: imagen compra con tu tarjeta)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ##### Haz de tu hogar el lugar de tus sueños
@@ -179,7 +176,4 @@ Renueva tus espacios con un crédito hecho para ti.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/credito-personal)
 (imagen: imagen renueva espacios)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=creditos) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

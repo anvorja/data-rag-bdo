@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > legal políticas"
 fecha_extraccion: 2026-10-01
-caracteres: 4851
+caracteres: 4283
 paginas: null
-hash_contenido: a2b306336d82432c
+hash_contenido: 33c1dcb3e908f77a
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Ley Borrón y Cuenta Nueva | Banco de Occidente
@@ -74,7 +75,6 @@ Te puede interesar
 Conoce estrategias para hacer crecer tu dinero y alcanzar tus metas.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -82,7 +82,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/)
 (imagen: imagen mujer ahorra) (imagen: imagen mujer ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -90,7 +89,6 @@ Cuenta de Nómina
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicita tu cuenta](https://www.bancodeoccidente.com.co/creatucuentaahorros)
 (imagen: imagen protege y ahorra) (imagen: imagen protege y ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -98,7 +96,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen hombre con tarjeta) (imagen: imagen hombre con tarjeta mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

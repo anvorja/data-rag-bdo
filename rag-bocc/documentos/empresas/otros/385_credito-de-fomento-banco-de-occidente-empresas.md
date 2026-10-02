@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > creditos"
 fecha_extraccion: 2026-10-01
-caracteres: 5336
+caracteres: 3580
 paginas: null
-hash_contenido: d8ee327297344370
+hash_contenido: 2f1fcdd42ea122e1
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."
 ---
 
 # Crédito de Fomento | Banco de Occidente - Empresas
@@ -35,7 +36,6 @@ Crédito de Fomento
 Impulsa el crecimiento de tu empresa
 Te acompañamos con soluciones financieras que apoyan tus proyectos, te respaldan en cada paso y te abren nuevas oportunidades para crecer con confianza.
 Conoce nuestras líneas de Crédito de Fomento
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Fomento
 
 ##### Bancóldex
@@ -43,7 +43,6 @@ Crédito de Fomento
 Accede a recursos que impulsan tu capital de trabajo y generan crecimiento.
 [Más información](https://www.bancodeoccidente.com.co/web/empresas/creditos/bancoldex)
 (imagen: Empresario en la laptop) (imagen: Empresario en la laptop)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Fomento
 
 ##### Finagro
@@ -51,7 +50,6 @@ Crédito de Fomento
 Accede a soluciones financieras flexibles para el sector agroindustrial.
 [Más información](https://www.bancodeoccidente.com.co/web/empresas/creditos/finagro)
 (imagen: hombre en su telefono) (imagen: hombre en su telefono)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Fomento
 
 ##### Findeter
@@ -89,28 +87,7 @@ Déjanos tus datos y un asesor especializado se pondrá en contacto contigo para
 (imagen: Mujer prestando atencion a un asesor) (imagen: Mujer prestando atencion a un asesor)
 Preguntas frecuentes
 
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
-## Texto de pruebas para el accordeon
-
-### Aquí va la descripción del contenido. Este apartado no contiene limitación de caracteres.
-
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -118,7 +95,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -126,7 +102,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -134,7 +109,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -143,7 +117,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

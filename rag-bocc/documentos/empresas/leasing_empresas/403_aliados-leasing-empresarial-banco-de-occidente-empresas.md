@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > leasing"
 fecha_extraccion: 2026-10-01
-caracteres: 5833
+caracteres: 4894
 paginas: null
-hash_contenido: 6ae6174498c8a230
+hash_contenido: f66e587a256e8e29
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 12 líneas de plantilla del CMS."
 ---
 
 # Aliados Leasing Empresarial | Banco de Occidente - Empresas
@@ -78,16 +79,7 @@ Conoce más
 Conoce más
 Mantenga la operación de su flota con camiones de última generación y acceda a un menor canon de arrendamiento que optimiza su capital de trabajo, con el respaldo de marcas de tractocamiones de talla mundial.
 [Conoce T&C](https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/para-empresas/financiacion/leasing-aliado/#_)
-Maximo 20 Caracteres
-Maximo 26 Caracteres
 
-### Maximo 50 Caracteres
-
-Texto del botón
-Máximo 26 caracteres
-Máximo 26 caracteres
-Por favor verifique la version mobile para comprobar que el texto encaje bien en la card para evitar inconvenientes en la visualización.
-Texto del botón
 (imagen: Buses)
 Buses
 
@@ -141,7 +133,6 @@ Empieza ahora
 Habla con un asesor y obtén información sobre todos los beneficios.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -149,7 +140,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -157,7 +147,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -165,7 +154,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -174,7 +162,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 (imagen: Icono del botón) Solicítalo ahora [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

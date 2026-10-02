@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > tarjeta credito empresariales"
 fecha_extraccion: 2026-10-01
-caracteres: 3002
+caracteres: 2626
 paginas: null
-hash_contenido: 86c544cc5f8b72f4
+hash_contenido: 84b20a1cea72d995
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 2 líneas de plantilla del CMS."
 ---
 
 # Tarjeta de Crédito Corporativas | Banco de Occidente - Empresas
@@ -41,14 +42,12 @@ Tarjeta de Crédito para Empresas
 - Empresarial
 - Business
 - Viajes
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Visa Corporativa
 
 Facilita la administración de los gastos de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/tarjeta-credito-empresariales/visa-corporativa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Mastercard Black Corporate
@@ -83,9 +82,6 @@ Deja tus datos y recibe asesoría personalizada para acceder a una tarjeta a la 
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion)
 (imagen: Hombre fashion Desk) (imagen: Hombre fashion Mob)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

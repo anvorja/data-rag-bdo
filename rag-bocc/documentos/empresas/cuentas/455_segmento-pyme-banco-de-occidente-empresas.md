@@ -1,10 +1,10 @@
 ---
-id: 453
-url: "https://www.bancodeoccidente.com.co/web/empresas/segmentos/empresarial"
-titulo: "Segmento Empresarial | Banco de Occidente - Empresas"
-descripcion: "Conoce la oferta del Banco de Occidente para el segmento empresarial. Productos y servicios diseñados para empresas colombianas."
+id: 455
+url: "https://www.bancodeoccidente.com.co/web/empresas/segmentos/pyme"
+titulo: "Segmento Pyme | Banco de Occidente - Empresas"
+descripcion: "Apoyamos el crecimiento de tu pyme con productos y servicios financieros diseñados a tu medida. Conoce nuestra banca para Pequeñas y Medianas Empresas."
 tipo_doc: producto_pagina
-area: leasing_empresas
+area: cuentas
 segmento: empresas
 idioma: es
 estado_vigencia: vigente
@@ -18,60 +18,60 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 3102
+caracteres: 2331
 paginas: null
-hash_contenido: bd3c4abf1fe5c305
+hash_contenido: 0f7c68a6703948c3
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
-# Segmento Empresarial | Banco de Occidente - Empresas
+# Segmento Pyme | Banco de Occidente - Empresas
 
 1. Inicio
 2. Empresas
 3. Segmentos
-4. Empresarial
+4. PYME
 Segmentos
-Empresarial
-Soluciones financieras flexibles para potenciar tu negocio y mejorar su competitividad.
-(imagen: Hombre feliz, mensajes en su telefono y alcancia) (imagen: Hombre feliz, mensajes en su telefono y alcancia)
+PYMES
+Accede a herramientas digitales, financiamiento flexible y asesoría especializada para hacer crecer tu negocio.
+(imagen: persona feliz) (imagen: persona feliz)
 Segmento Empresarial
-(imagen: Tarjeta de credito y reloj de arena)
+(imagen: escudo seguro)
 
-#### Crédito flexible
+#### Alianzas estratégicas
 
-Cupo de crédito permanente para diversas líneas de financiación.
-(imagen: Planeta seguro)
+Descuentos exclusivos para fortalecer tu negocio.
+(imagen: celular y dos chats)
 
 #### Información estratégica
 
-Accede a informes financieros comparativos y sectoriales.
-(imagen: telefono celular)
+Comparación financiera con empresas similares y análisis sectorial.
+(imagen: tarjeta de credito y desprendibles)
 
 #### Comunidad empresarial
 
 Plataforma gratuita con diplomados certificables y networking.
-(imagen: Soluciones en telefono celular)
+(imagen: datafono y telefono)
 
 #### Soluciones digitales
 
 Herramientas tecnológicas para optimizar la gestión financiera.
 Hazte cliente
-(imagen: Icono o imagen del banner colors)
+(imagen: archivos)
 
 #### Déjanos tus datos
 
 Deja tus datos en nuestro formulario y obtén información detallada sobre nuestras soluciones financieras
 Deja tus datos aquí
-(imagen: Icono o imagen del banner colors)
+(imagen: telefono dorado)
 
-#### Habla con nuestros expertos
+#### Habla con nuestros expertos 📱
 
-Contáctanos por WhatsApp y recibe atención rápida y personalizada para empresas.
+Contáctanos por WhatsApp y recibe atención rápida y personalizada para PYMES.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -79,7 +79,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -87,7 +86,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -95,7 +93,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -104,7 +101,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

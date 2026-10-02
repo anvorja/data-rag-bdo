@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > pagos"
 fecha_extraccion: 2026-10-01
-caracteres: 5249
+caracteres: 4021
 paginas: null
-hash_contenido: 4e32794382957ec1
+hash_contenido: 550a9c8cfedbf27c
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 8 líneas de plantilla del CMS."
 ---
 
 # Soluciones de Recaudo en Línea | Banco de Occidente - Empresas
@@ -39,7 +40,6 @@ Pagos para tu gestión empresarial
 Electrónico
 Físico
 Automático
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Pagos Empresariales
 
 ### Terceros
@@ -47,7 +47,6 @@ Pagos Empresariales
 Transfiere dinero a cuentas de cualquier banco de forma segura.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/terceros)
 (imagen: imagen mujer transfiere) (imagen: imagen mujer transfiere mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Pagos Empresariales
 
 ### Impuestos Nacionales
@@ -55,7 +54,6 @@ Pagos Empresariales
 Paga tributos nacionales con facilidad y seguridad en línea.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/impuestos-nacionales)
 (imagen: imagen hombre paga) (imagen: imagen hombre paga mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Pagos Empresariales
 
 ### Impuestos Territoriales
@@ -63,7 +61,6 @@ Pagos Empresariales
 Realiza el pago de impuestos departamentales y municipales.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/impuestos-territoriales)
 (imagen: imagen hombre indaga) (imagen: imagen hombre indaga mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Pagos Empresariales
 
 ### Seguridad Social - PILA
@@ -71,7 +68,6 @@ Pagos Empresariales
 Gestiona los aportes de tu empresa a la seguridad social.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/pila)
 (imagen: imagen mujer con listado) (imagen: imagen mujer con listado mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Tarjeta Prepago
@@ -79,7 +75,6 @@ Recaudos Empresariales
 Administra pagos y gastos con tarjetas recargables.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/tarjeta-prepago)
 (imagen: imagen tarjeta prepago) (imagen: imagen tarjeta prepago mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Cheques en Formas Continuas
@@ -87,7 +82,6 @@ Recaudos Empresariales
 Solución para pagos con cheques personalizados y seguros.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/cheques-formas-continuas)
 (imagen: imagen hombre con cheque) (imagen: imagen hombre con cheque mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Fácil Pass
@@ -95,7 +89,6 @@ Recaudos Empresariales
 Agiliza pagos de peajes con cargo automático a tu cuenta.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/pagos/facilpass)
 (imagen: imagen hombre recarga) (imagen: imagen hombre recarga mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Recaudos Empresariales
 
 ### Código QR
@@ -130,9 +123,6 @@ Déjanos tus datos y recibe asesoría para elegir la mejor opción para tu empre
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: imagen consulta de pagos) (imagen: imagen consulta de pagos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=pagos) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

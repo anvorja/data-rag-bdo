@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vivienda"
 fecha_extraccion: 2026-10-01
-caracteres: 4308
+caracteres: 3740
 paginas: null
-hash_contenido: 60bd347b4a3e518f
+hash_contenido: de2992c6ed1e3d27
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Bienes para la venta
@@ -141,28 +142,24 @@ Ver más
 Recibe asesoría para tu próxima inversión
 Deja tus datos aquí:
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
 
 Obtén tu crédito y haz realidad tus planes con plazos flexibles y tasas competitivas.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creditos/credito-personal)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
 
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites. ¡Empieza hoy!
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ##### Haz de tu hogar el lugar de tus sueños
 
 Renueva tus espacios con un crédito hecho para ti.
 [Solicitalo aquí](https://www.bancodeoccidente.com.co/creditos/hipotecario)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

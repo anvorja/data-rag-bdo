@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > moneda extranjera"
 fecha_extraccion: 2026-10-01
-caracteres: 2268
+caracteres: 2176
 paginas: null
-hash_contenido: 78769cb8c62d57f4
+hash_contenido: e31f0acf038f3757
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS."
 ---
 
 # Servicios de Moneda Extranjera | Banco de Occidente - Empresas
@@ -66,9 +67,6 @@ Deja tus datos y recibe asesoría personalizada para acceder a nuestros producto
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: imagen mujer asesora) (imagen: imagen mujer asesora mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=comercio) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro

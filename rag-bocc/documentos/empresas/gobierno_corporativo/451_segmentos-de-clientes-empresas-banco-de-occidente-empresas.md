@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 4468
+caracteres: 3332
 paginas: null
-hash_contenido: f1450980eb673308
+hash_contenido: 975c9a0a2dd3b2e9
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 8 líneas de plantilla del CMS."
 ---
 
 # Segmentos de Clientes Empresas | Banco de Occidente - Empresas
@@ -36,7 +37,6 @@ Potenciamos el crecimiento de tu empresa
 Desde PYME hasta grandes corporaciones y entidades gubernamentales, contamos con soluciones financieras diseñadas para ti.
 (imagen: Empresario y empresaria) (imagen: Empresario y empresaria)
 Segmentos Empresariales del Banco de Occidente
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ### Gobierno
@@ -44,7 +44,6 @@ Segmentos
 Herramientas financieras diseñadas para entidades gubernamentales. Conoce nuestras soluciones de pago, recaudo y financiamiento.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/segmentos/gobierno)
 (imagen: Gobierno Desk) (imagen: Gobierno Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ### Corporativo e Institucional
@@ -52,7 +51,6 @@ Segmentos
 Accede a financiamiento, inversión que optimizan la administración de tu empresa
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/segmentos/corporativo-institucional)
 (imagen: Corporativo Desk) (imagen: Corporativo Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ### Empresarial
@@ -60,7 +58,6 @@ Segmentos
 Impulsa tu negocio con créditos, cuentas empresariales.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/segmentos/empresarial)
 (imagen: Empresarial Desk) (imagen: Empresarial Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ### PYME
@@ -95,7 +92,6 @@ Explora nuestra oferta de productos y elige la mejor opción para hacer crecer t
 [Solicítalos aquí](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor)
 (imagen: Encuentra la solución Desk) (imagen: Encuentra la solución Desk)
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -103,7 +99,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -111,7 +106,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -119,7 +113,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia

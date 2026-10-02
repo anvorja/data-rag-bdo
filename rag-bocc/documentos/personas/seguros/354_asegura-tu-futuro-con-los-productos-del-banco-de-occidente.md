@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 3900
+caracteres: 3240
 paginas: null
-hash_contenido: 9da1c45e0f870f8c
+hash_contenido: 12f580ed42c3d2be
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Asegura tu futuro con los productos del Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros para Productos
 
 ##### Cuota Protegida Préstamo Personal
@@ -52,7 +52,6 @@ Seguros para Productos
 Asegura tu crédito en caso de imprevistos.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/prestamo-personal)
 (imagen: imagen mujer con cajas) (imagen: imagen mujer con cajas mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros para Productos
 
 ##### Soluciones Sorprendentes
@@ -60,7 +59,6 @@ Seguros para Productos
 Un paquete de seguros y asistencias que se ajustan a ti.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/asistencia-total)
 (imagen: imagen hombre ejecutivo) (imagen: imagen hombre ejecutivo mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros para Productos
 
 ##### Vive la Vida Tarjeta de Crédito
@@ -68,7 +66,6 @@ Seguros para Productos
 Un seguro de vida que te respalda y cubre el saldo de tu deuda.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/tarjeta-credito)
 (imagen: imagen mujer con tarjeta) (imagen: imagen mujer con tarjeta mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros para Productos
 
 ##### Seguro Cuenta Protegida Plus
@@ -103,9 +100,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejar datos](https://api.whatsapp.com/send?phone=573186714836)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

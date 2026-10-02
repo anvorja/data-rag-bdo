@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > quienes somos > trabaja con nosotros"
 fecha_extraccion: 2026-10-01
-caracteres: 5633
+caracteres: 3503
 paginas: null
-hash_contenido: 2cc179e889ce69b8
+hash_contenido: fdf40f4b5e2b71f5
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 15 líneas de plantilla del CMS."
 ---
 
 # Nuestros Beneficios
@@ -38,77 +39,62 @@ Descubre los beneficios y oportunidades que te ayudarán a crecer, aprender y co
 Monetarios
 Bienestar
 Formación
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Segmento selecto
 
 Tasas preferenciales y beneficios financieros para tu familia.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mi grupo es Aval
 
 Tasas preferenciales, retiros sin costo y descuentos exclusivos.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Fondo de empleados
 
 Ahorro, créditos, auxilios y beneficios de bienestar.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Beneficios económicos adicionales
 
 Primas y apoyos económicos según tu tipo de contrato.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Descuentos
 
 Más de 300 descuentos y 5.000 convenios globales.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Horarios flexibles
 
 Ajusta tu horario y logra mejor equilibrio personal.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Tiempo para ti
 
 Disfruta cumpleaños, día de la familia y más.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Actividades y entretenimiento
 
 Eventos, deporte y celebraciones para disfrutar.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Póliza de asistencia médica
 
 Apoyo en copagos, medicamentos y salud complementaria.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Medicina prepagada
 
 Tarifas preferenciales en medicina prepagada.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Incapacidades pagas
 
 Pago del 100% de incapacidades durante recuperación.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Plan carrera
 
 Crece con movilidad y oportunidades de desarrollo.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mentorías BdeO
 
 Aprende con mentores y espacios de aprendizaje guiado.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Universidad corporativa
 
 Cursos y certificaciones para fortalecer habilidades.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Comunidad Planeta Azul
 

@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > portafolio aliado"
 fecha_extraccion: 2026-10-01
-caracteres: 5253
+caracteres: 4969
 paginas: null
-hash_contenido: 41bfd57819f6b11c
+hash_contenido: 898e627cbefb61dd
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS."
 ---
 
 # Portafolio Aliado - Empresas
@@ -61,7 +62,6 @@ Transaccionalidad Moderada
 Pensado para empresas con una operación transaccional básica o moderada.
 • Hasta 10 transacciones exoneradas mensuales. • Incluye todos los beneficios del Portafolio Aliado. • Configuración sencilla.
 Solicítalo aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Transaccionalidad moderada
 
 ##### Portafolio con oferta fija de beneficios
@@ -75,7 +75,6 @@ Mayor Transaccionalidad
 Diseñado para empresas con operación más activa y mayor movimiento transaccional.
 • La cantidad de transacciones se define según la reciprocidad mensual. • Incluye todos los beneficios del Portafolio Aliado. • Portafolio flexible, ajustado a la operación del negocio.
 Solicítalo aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Mayor transaccionalidad
 
 ##### Portafolio con oferta flexible de beneficios

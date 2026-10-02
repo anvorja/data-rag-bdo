@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > creditos"
 fecha_extraccion: 2026-10-01
-caracteres: 3066
+caracteres: 2406
 paginas: null
-hash_contenido: 2ff0c645c6139d27
+hash_contenido: 08e5b195f0cef7ea
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Créditos para Empresas | Banco de Occidente - Empresas
@@ -36,7 +37,6 @@ Impulsa tu empresa con el crédito ideal
 Descubre nuestras soluciones de financiamiento diseñadas para el crecimiento de tu negocio.
 (imagen: imagen tu credito ideal) (imagen: imagen tu credito ideal mobile)
 Créditos para Empresas
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ### Crédito Constructor
@@ -44,7 +44,6 @@ Créditos Empresariales
 Haz realidad tus proyectos con nuestro crédito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/creditos/constructor)
 (imagen: imagen constructor) (imagen: imagen constructor mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ### Crédito de Fomento
@@ -52,7 +51,6 @@ Créditos Empresariales
 Accede a líneas de crédito con respaldo de entidades de fomento.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/creditos/fomento)
 (imagen: imagen mujer con tarjeta) (imagen: imagen mujer con tarjeta mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ### Rotativo Pyme
@@ -60,7 +58,6 @@ Créditos Empresariales
 Obtén capital de trabajo con un cupo rotativo.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/web/empresas/creditos/rotativo)
 (imagen: imagen cocinero) (imagen: imagen cocinero mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ### Cartera Ordinaria
@@ -95,7 +92,4 @@ Déjanos tus datos y te contactamos
 [Quiero asesoría](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: imagen dejanos tus datos) (imagen: imagen dejanos tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

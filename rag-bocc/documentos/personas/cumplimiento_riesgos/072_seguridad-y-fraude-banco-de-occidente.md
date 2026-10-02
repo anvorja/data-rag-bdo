@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > ayuda"
 fecha_extraccion: 2026-10-01
-caracteres: 26771
+caracteres: 23931
 paginas: null
-hash_contenido: c2da2c1a1b53742c
+hash_contenido: 1b9b253748347f69
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 20 líneas de plantilla del CMS."
 ---
 
 # Seguridad y Fraude Banco de Occidente
@@ -39,111 +40,95 @@ Seguridad y fraude
 Canales digitales
 Otros canales
 Modalidades de fraude
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Portal transaccional
 
 Accede a www.bancodeoccidente.com.co.
 Conoce más
 (imagen: 2SF-card-transaccional) (imagen: 2_Mob_SF-card-transaccional)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Banca móvil
 
 App oficial. No compartas claves. Cambia contraseñas seguido.
 Conoce más
 (imagen: 2025-05-19T182626.760_Desk) (imagen: 2025-05-19T182626.760_Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Cajeros automáticos
 
 No prestes tu tarjeta ni reveles tu clave secreta a otras personas.
 Conoce más
 (imagen: 4SF-Desk_card-cajero-automatico) (imagen: 4SF-Mob_card-cajero-automatico)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Datáfonos
 
 Revisa siempre que la tarjeta y documento de identidad sean tuyas.
 Conoce más
 (imagen: 5SF-Desk_card-datafono-tarjeta) (imagen: 5SF-Mob_card-datafono-tarjeta)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Oficinas y credicentros
 
 Entrega tu dinero exclusivamente en la ventanilla.
 Conoce más
 (imagen: 6SF-Desk_card-biletes-money) (imagen: 6SF-Mob_card-biletes-money)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Corresponsa-les bancarios
 
 No entregues el dinero fuera de los puntos de pago.
 Conoce más
 (imagen: 7SF-Desk_card-persona-sentada) (imagen: 7SF-Mob_card-persona-sentada)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Paseo millonario
 
 Evita cargar altas sumas de dinero al tomar transporte público.
 Conoce más
 (imagen: Card paseo millo_Desk) (imagen: Card paseo millo_Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Skimming
 
 No descuides tus tarjetas débito y crédito.
 Conoce más
 (imagen: 7SF-Desk_card-biletes-celular) (imagen: 7SF-Mob_card-biletes-celular)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### SIM Swapping
 
 Infórmate como los delincuentes usan nuevas tecnologías para robar tu información.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Pishing
 
 Los ciberdelincuentes pueden adueñarse de toda tu información.
 Conoce más
 (imagen: 9SF-Desk_card-anonimo-compu) (imagen: 9SF-Mob_card-anonimo-compu)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Vishing
 
 Los ciberdelincuentes están realizando llamadas para robar.
 Conoce más
 (imagen: 10SF-Desk_card-perfil-mano) (imagen: 10SF-Mob_card-perfil-mano)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Cambiazo
 
 Cuidado con el chip de tu Tarjeta de Crédito o Débito.
 Conoce más
 (imagen: 11SF-Desk_card-tarjeta-mano) (imagen: 11SF-Mob_card-tarjeta-mano)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Troyano Bancario
 
 Software malicioso que usan los ciberdelincuentes.
 Conoce más
 (imagen: 12SF-Desk_card-alerta-mano) (imagen: 12SF-Mob_card-alerta-mano)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Fleteo
 
 Cuidado con portar grandes cantidades de dinero.
 Conoce más
 (imagen: 13SF-Desk_card-biletes-mujer) (imagen: 13SF-Mob_card-biletes-mujer.)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Ingeniería Social
 
 Suplantar, engañar y hacer uso de tus datos personales con el fin d
 Conoce más
 (imagen: Desk_2025-05-20T153932.534) (imagen: 14SF-Mob_card-compu-hombre)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Smishing
 
@@ -234,7 +219,6 @@ Modalidades de fraude
 ### El Smishing es una modalidad de engaño similar al Phishing en el que se roban la información de los usuarios, en este caso, por medio de mensajes de texto SMS. No abras enlaces ni descargues archivos provenientes de mensajes de texto sospechosos. No proporciones tu información confidencial por medios no autorizados Al entrar a un sitio web, revisa que la dirección empiece con “https://” y que hay un candado al lado izquierdo de la barra de navegación. Recuerda que en el Banco de Occidente jamás solicitaremos tus datos confidenciales a través de canales no autorizados. No actualices ni descargues aplicaciones por medios de enlaces enviado por mensaje de texto Cuando recibas Mensajes de Texto de nuestro Banco, verifica que la dirección: Mensajes Transaccionales 85224 , Mensajes Comerciales 891060 , Mensajes de Conciliación y Negociación 898933
 
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -242,7 +226,6 @@ Libre Inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: Seguridad y fraude Desk) (imagen: Seguridad y fraude Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -250,7 +233,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Cuenta de ahorros Desk) (imagen: Cuenta de ahorros Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -258,7 +240,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjeta de crédito Desk) (imagen: Tarjeta de crédito Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

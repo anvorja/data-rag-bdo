@@ -1,0 +1,605 @@
+{
+ "chunks": 31593,
+ "resumen": {
+  "ambigua|pregunta": {
+   "n": 2,
+   "doc@1": 1.0,
+   "doc@5": 1.0,
+   "doc@10": 1.0,
+   "cita@1": 0.5,
+   "cita@5": 1.0,
+   "cita@10": 1.0,
+   "mrr_cita": 0.75
+  },
+  "ambigua|variante": {
+   "n": 2,
+   "doc@1": 1.0,
+   "doc@5": 1.0,
+   "doc@10": 1.0,
+   "cita@1": 0.5,
+   "cita@5": 0.5,
+   "cita@10": 0.5,
+   "mrr_cita": 0.5
+  },
+  "comparativa|pregunta": {
+   "n": 5,
+   "doc@1": 0.2,
+   "doc@5": 0.6,
+   "doc@10": 0.8,
+   "cita@1": 0.0,
+   "cita@5": 0.4,
+   "cita@10": 0.4,
+   "mrr_cita": 0.08
+  },
+  "comparativa|variante": {
+   "n": 5,
+   "doc@1": 0.2,
+   "doc@5": 0.6,
+   "doc@10": 0.8,
+   "cita@1": 0.2,
+   "cita@5": 0.4,
+   "cita@10": 0.4,
+   "mrr_cita": 0.24
+  },
+  "dev|pregunta": {
+   "n": 167,
+   "doc@1": 0.707,
+   "doc@5": 0.892,
+   "doc@10": 0.934,
+   "cita@1": 0.605,
+   "cita@5": 0.778,
+   "cita@10": 0.838,
+   "mrr_cita": 0.675
+  },
+  "dev|variante": {
+   "n": 168,
+   "doc@1": 0.44,
+   "doc@5": 0.726,
+   "doc@10": 0.792,
+   "cita@1": 0.381,
+   "cita@5": 0.583,
+   "cita@10": 0.643,
+   "mrr_cita": 0.46
+  },
+  "empresas|pregunta": {
+   "n": 54,
+   "doc@1": 0.741,
+   "doc@5": 0.944,
+   "doc@10": 0.963,
+   "cita@1": 0.593,
+   "cita@5": 0.833,
+   "cita@10": 0.889,
+   "mrr_cita": 0.696
+  },
+  "empresas|variante": {
+   "n": 55,
+   "doc@1": 0.636,
+   "doc@5": 0.873,
+   "doc@10": 0.927,
+   "cita@1": 0.527,
+   "cita@5": 0.8,
+   "cita@10": 0.855,
+   "mrr_cita": 0.631
+  },
+  "factual|pregunta": {
+   "n": 136,
+   "doc@1": 0.691,
+   "doc@5": 0.868,
+   "doc@10": 0.926,
+   "cita@1": 0.574,
+   "cita@5": 0.765,
+   "cita@10": 0.853,
+   "mrr_cita": 0.661
+  },
+  "factual|variante": {
+   "n": 137,
+   "doc@1": 0.416,
+   "doc@5": 0.693,
+   "doc@10": 0.781,
+   "cita@1": 0.321,
+   "cita@5": 0.569,
+   "cita@10": 0.664,
+   "mrr_cita": 0.424
+  },
+  "inversionistas|pregunta": {
+   "n": 14,
+   "doc@1": 0.5,
+   "doc@5": 0.714,
+   "doc@10": 0.786,
+   "cita@1": 0.5,
+   "cita@5": 0.714,
+   "cita@10": 0.714,
+   "mrr_cita": 0.571
+  },
+  "inversionistas|variante": {
+   "n": 14,
+   "doc@1": 0.5,
+   "doc@5": 0.643,
+   "doc@10": 0.643,
+   "cita@1": 0.286,
+   "cita@5": 0.286,
+   "cita@10": 0.286,
+   "mrr_cita": 0.286
+  },
+  "multi_salto|pregunta": {
+   "n": 4,
+   "doc@1": 0.25,
+   "doc@5": 0.25,
+   "doc@10": 0.5,
+   "cita@1": 0.0,
+   "cita@5": 0.25,
+   "cita@10": 0.25,
+   "mrr_cita": 0.062
+  },
+  "multi_salto|variante": {
+   "n": 4,
+   "doc@1": 0.25,
+   "doc@5": 0.25,
+   "doc@10": 0.25,
+   "cita@1": 0.0,
+   "cita@5": 0.25,
+   "cita@10": 0.25,
+   "mrr_cita": 0.062
+  },
+  "numerica_tabla|pregunta": {
+   "n": 62,
+   "doc@1": 0.758,
+   "doc@5": 0.968,
+   "doc@10": 0.968,
+   "cita@1": 0.677,
+   "cita@5": 0.919,
+   "cita@10": 0.919,
+   "mrr_cita": 0.776
+  },
+  "numerica_tabla|variante": {
+   "n": 62,
+   "doc@1": 0.565,
+   "doc@5": 0.919,
+   "doc@10": 0.952,
+   "cita@1": 0.484,
+   "cita@5": 0.677,
+   "cita@10": 0.742,
+   "mrr_cita": 0.562
+  },
+  "personas|pregunta": {
+   "n": 187,
+   "doc@1": 0.695,
+   "doc@5": 0.877,
+   "doc@10": 0.936,
+   "cita@1": 0.567,
+   "cita@5": 0.775,
+   "cita@10": 0.845,
+   "mrr_cita": 0.657
+  },
+  "personas|variante": {
+   "n": 187,
+   "doc@1": 0.401,
+   "doc@5": 0.722,
+   "doc@10": 0.791,
+   "cita@1": 0.31,
+   "cita@5": 0.545,
+   "cita@10": 0.626,
+   "mrr_cita": 0.41
+  },
+  "premisa_falsa|pregunta": {
+   "n": 6,
+   "doc@1": 0.667,
+   "doc@5": 0.833,
+   "doc@10": 1.0,
+   "cita@1": 0.667,
+   "cita@5": 0.667,
+   "cita@10": 0.667,
+   "mrr_cita": 0.667
+  },
+  "premisa_falsa|variante": {
+   "n": 6,
+   "doc@1": 0.333,
+   "doc@5": 0.667,
+   "doc@10": 0.833,
+   "cita@1": 0.333,
+   "cita@5": 0.667,
+   "cita@10": 0.667,
+   "mrr_cita": 0.472
+  },
+  "regulatoria|pregunta": {
+   "n": 13,
+   "doc@1": 0.615,
+   "doc@5": 0.846,
+   "doc@10": 1.0,
+   "cita@1": 0.538,
+   "cita@5": 0.846,
+   "cita@10": 1.0,
+   "mrr_cita": 0.669
+  },
+  "regulatoria|variante": {
+   "n": 13,
+   "doc@1": 0.231,
+   "doc@5": 0.538,
+   "doc@10": 0.538,
+   "cita@1": 0.231,
+   "cita@5": 0.538,
+   "cita@10": 0.538,
+   "mrr_cita": 0.385
+  },
+  "temporal|pregunta": {
+   "n": 27,
+   "doc@1": 0.741,
+   "doc@5": 0.926,
+   "doc@10": 0.926,
+   "cita@1": 0.481,
+   "cita@5": 0.704,
+   "cita@10": 0.778,
+   "mrr_cita": 0.576
+  },
+  "temporal|variante": {
+   "n": 27,
+   "doc@1": 0.593,
+   "doc@5": 0.852,
+   "doc@10": 0.852,
+   "cita@1": 0.37,
+   "cita@5": 0.556,
+   "cita@10": 0.593,
+   "mrr_cita": 0.445
+  },
+  "test|pregunta": {
+   "n": 88,
+   "doc@1": 0.67,
+   "doc@5": 0.864,
+   "doc@10": 0.932,
+   "cita@1": 0.5,
+   "cita@5": 0.795,
+   "cita@10": 0.864,
+   "mrr_cita": 0.634
+  },
+  "test|variante": {
+   "n": 88,
+   "doc@1": 0.489,
+   "doc@5": 0.795,
+   "doc@10": 0.852,
+   "cita@1": 0.307,
+   "cita@5": 0.591,
+   "cita@10": 0.682,
+   "mrr_cita": 0.431
+  },
+  "todos|pregunta": {
+   "n": 255,
+   "doc@1": 0.694,
+   "doc@5": 0.882,
+   "doc@10": 0.933,
+   "cita@1": 0.569,
+   "cita@5": 0.784,
+   "cita@10": 0.847,
+   "mrr_cita": 0.661
+  },
+  "todos|variante": {
+   "n": 256,
+   "doc@1": 0.457,
+   "doc@5": 0.75,
+   "doc@10": 0.812,
+   "cita@1": 0.355,
+   "cita@5": 0.586,
+   "cita@10": 0.656,
+   "mrr_cita": 0.45
+  }
+ },
+ "sin_cita_en_top10": [
+  {
+   "id": "G-9bcc431f",
+   "tipo": "comparativa",
+   "pregunta": "¿En cuál corresponsal puedo cobrar un giro empresarial de mayor valor, SuperGIROS o Efecty?",
+   "docs": [
+    "082"
+   ]
+  },
+  {
+   "id": "G-1a12f369",
+   "tipo": "factual",
+   "pregunta": "¿A qué línea de atención de Alfa se llama para el seguro Todo Riesgo Construcción?",
+   "docs": [
+    "466"
+   ]
+  },
+  {
+   "id": "G-262b24c2",
+   "tipo": "factual",
+   "pregunta": "¿Qué ofrece el Banco de Occidente al segmento empresarial de Gobierno?",
+   "docs": [
+    "451"
+   ]
+  },
+  {
+   "id": "G-a787e7a9",
+   "tipo": "factual",
+   "pregunta": "¿Qué plazos tiene el crédito Bancóldex según el destino de los recursos?",
+   "docs": [
+    "380"
+   ]
+  },
+  {
+   "id": "G-27515866",
+   "tipo": "factual",
+   "pregunta": "¿Qué plazos tiene el crédito de cartera ordinaria para empresas?",
+   "docs": [
+    "381"
+   ]
+  },
+  {
+   "id": "G-18d110fb",
+   "tipo": "numerica_tabla",
+   "pregunta": "¿Hasta qué valor protege por proyecto el seguro Todo Riesgo Construcción?",
+   "docs": [
+    "466"
+   ]
+  },
+  {
+   "id": "G-8ba7af77",
+   "tipo": "factual",
+   "pregunta": "¿Qué instrumento derivado usa el Banco de Occidente para cubrir el valor razonable de sus préstamos a tasa fija?",
+   "docs": [
+    "630"
+   ]
+  },
+  {
+   "id": "G-8ca05387",
+   "tipo": "multi_salto",
+   "pregunta": "¿Qué activos cubría con derivados la Matriz en el tercer trimestre de 2023 y qué cubre al 30 de junio de 2026?",
+   "docs": [
+    "546",
+    "582"
+   ]
+  },
+  {
+   "id": "G-54f5ca1d",
+   "tipo": "temporal",
+   "pregunta": "¿Cuándo se convocó la Asamblea General Ordinaria de Accionistas del Banco de Occidente de 2022?",
+   "docs": [
+    "685"
+   ]
+  },
+  {
+   "id": "G-a2a961db",
+   "tipo": "temporal",
+   "pregunta": "¿Cuándo y dónde fue la Asamblea General de Accionistas de 2025?",
+   "docs": [
+    "982"
+   ]
+  },
+  {
+   "id": "G-4562eaf2",
+   "tipo": "comparativa",
+   "pregunta": "¿Cambia el rango de edad del solicitante entre el leasing habitacional y el crédito hipotecario?",
+   "docs": [
+    "158",
+    "163"
+   ]
+  },
+  {
+   "id": "G-0c069f18",
+   "tipo": "comparativa",
+   "pregunta": "¿El crédito de moto financia más o menos que el de vehículo liviano Occiauto?",
+   "docs": [
+    "149",
+    "151"
+   ]
+  },
+  {
+   "id": "G-e66dfa59",
+   "tipo": "factual",
+   "pregunta": "Después de cambiar el estado de un usuario secundario en OcciRed, ¿qué pasa con la transacción?",
+   "docs": [
+    "1165"
+   ]
+  },
+  {
+   "id": "G-575fe47d",
+   "tipo": "factual",
+   "pregunta": "En el portal empresarial OcciRed, ¿qué debe hacer el administrador cada vez que la empresa abre un producto nuevo con el banco?",
+   "docs": [
+    "1161"
+   ]
+  },
+  {
+   "id": "G-ddaa60a3",
+   "tipo": "factual",
+   "pregunta": "Según la presentación general del banco, ¿cuántas millas acumulan hasta por compras las tarjetas LATAM Pass?",
+   "docs": [
+    "487"
+   ]
+  },
+  {
+   "id": "G-51642eb7",
+   "tipo": "factual",
+   "pregunta": "¿Con cuánto dinero se puede abrir una cuenta de ahorros del Banco de Occidente?",
+   "docs": [
+    "276"
+   ]
+  },
+  {
+   "id": "G-16d06506",
+   "tipo": "factual",
+   "pregunta": "¿Cuál es el número de WhatsApp empresarial del banco?",
+   "docs": [
+    "1172"
+   ]
+  },
+  {
+   "id": "G-8aa25cb8",
+   "tipo": "factual",
+   "pregunta": "¿Cuál es el teléfono de la Mesa de Dinero en Bogotá?",
+   "docs": [
+    "042"
+   ]
+  },
+  {
+   "id": "G-24286909",
+   "tipo": "factual",
+   "pregunta": "¿Cuál es la línea de servicio al cliente del Banco de Occidente en Bogotá?",
+   "docs": [
+    "075"
+   ]
+  },
+  {
+   "id": "G-cf698369",
+   "tipo": "factual",
+   "pregunta": "¿Cuál es la vigencia del cupo de préstamo de Cuenta Activa?",
+   "docs": [
+    "755"
+   ]
+  },
+  {
+   "id": "G-88a4c580",
+   "tipo": "factual",
+   "pregunta": "¿Cuáles son los valores del Banco de Occidente?",
+   "docs": [
+    "332"
+   ]
+  },
+  {
+   "id": "G-6c6eb29f",
+   "tipo": "factual",
+   "pregunta": "¿Cuánto dura la aprobación de un préstamo personal antes de que deba solicitar el desembolso?",
+   "docs": [
+    "141"
+   ]
+  },
+  {
+   "id": "G-550549c3",
+   "tipo": "factual",
+   "pregunta": "¿Cómo autentico una compra con Apple Pay desde mi iPhone con la tarjeta débito del banco?",
+   "docs": [
+    "252"
+   ]
+  },
+  {
+   "id": "G-ce487f00",
+   "tipo": "factual",
+   "pregunta": "¿Durante cuánto tiempo no se cobra cuota de manejo en la cuenta de ahorros?",
+   "docs": [
+    "235"
+   ]
+  },
+  {
+   "id": "G-4adb4fa1",
+   "tipo": "factual",
+   "pregunta": "¿Occiauto exige codeudor para un vehículo liviano?",
+   "docs": [
+    "149"
+   ]
+  },
+  {
+   "id": "G-ef223b27",
+   "tipo": "factual",
+   "pregunta": "¿Puedo usar instrucciones permanentes para girar a la cuenta de otra persona?",
+   "docs": [
+    "047"
+   ]
+  },
+  {
+   "id": "G-0a1eb46f",
+   "tipo": "factual",
+   "pregunta": "¿Qué se entiende por «patrocinio» en la política anticorrupción del banco?",
+   "docs": [
+    "1092"
+   ]
+  },
+  {
+   "id": "G-7ccc8a1a",
+   "tipo": "multi_salto",
+   "pregunta": "¿Cuántos cajeros automáticos tiene la red a la que accede un cliente de cuenta de ahorros?",
+   "docs": [
+    "235",
+    "276"
+   ]
+  },
+  {
+   "id": "G-728e591b",
+   "tipo": "multi_salto",
+   "pregunta": "¿En cuántos cajeros automáticos puedo retirar con mi tarjeta débito del Banco de Occidente?",
+   "docs": [
+    "235",
+    "276",
+    "324"
+   ]
+  },
+  {
+   "id": "G-eb117faa",
+   "tipo": "numerica_tabla",
+   "pregunta": "¿Cuál es el rango de la opción de compra en el leasing habitacional para vivienda familiar y no familiar?",
+   "docs": [
+    "163"
+   ]
+  },
+  {
+   "id": "G-8b79b85f",
+   "tipo": "numerica_tabla",
+   "pregunta": "¿Cuál es el rango de montos del crédito de libre inversión en línea?",
+   "docs": [
+    "137"
+   ]
+  },
+  {
+   "id": "G-aea838db",
+   "tipo": "numerica_tabla",
+   "pregunta": "¿Cuánto puedo retirar al día en el exterior con la tarjeta débito?",
+   "docs": [
+    "324"
+   ]
+  },
+  {
+   "id": "G-6891828a",
+   "tipo": "numerica_tabla",
+   "pregunta": "¿Hasta qué porcentaje financia el leasing habitacional y con qué condiciones?",
+   "docs": [
+    "163"
+   ]
+  },
+  {
+   "id": "G-e5f0d4f7",
+   "tipo": "premisa_falsa",
+   "pregunta": "¿Por qué Occiauto solo financia hasta el 50% del valor del vehículo?",
+   "docs": [
+    "149"
+   ]
+  },
+  {
+   "id": "G-8a5f91bd",
+   "tipo": "premisa_falsa",
+   "pregunta": "¿Por qué el Banco de Occidente cobra cuota de manejo en la cuenta de ahorros desde el primer mes?",
+   "docs": [
+    "235"
+   ]
+  },
+  {
+   "id": "G-7aedcb3a",
+   "tipo": "temporal",
+   "pregunta": "¿Aún puedo aprovechar el descuento de hasta 66% en ollas y sartenes con mi tarjeta?",
+   "docs": [
+    "735"
+   ]
+  },
+  {
+   "id": "G-c64adcbc",
+   "tipo": "temporal",
+   "pregunta": "¿Cuál fue la vigencia de la campaña de Ollas & Sartenes Farberware con el Banco de Occidente?",
+   "docs": [
+    "735"
+   ]
+  },
+  {
+   "id": "G-d15db5b8",
+   "tipo": "temporal",
+   "pregunta": "¿Está vigente hoy la campaña de 0% de interés en Éxito con la tarjeta Credencial?",
+   "docs": [
+    "734"
+   ]
+  },
+  {
+   "id": "G-9bac5fb5",
+   "tipo": "temporal",
+   "pregunta": "¿Hasta cuándo fue vigente la campaña «0% en Tasa de Interés en Éxito y Banco de Occidente»?",
+   "docs": [
+    "734"
+   ]
+  }
+ ]
+}

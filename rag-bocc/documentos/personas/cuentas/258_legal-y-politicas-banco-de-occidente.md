@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > legal políticas"
 fecha_extraccion: 2026-10-01
-caracteres: 3110
+caracteres: 2542
 paginas: null
-hash_contenido: aed71d31b9dcabc5
+hash_contenido: 43fdee7b69cd0373
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Legal y Políticas | Banco de Occidente
@@ -73,7 +74,6 @@ Para radicar una notificación puedes enviarla al correo: djuridica@bancodeoccid
 [Hazlo aquí](mailto:djuridica@bancodeoccidente.com.co)
 (imagen: imagen Conoce sobre nosotros) (imagen: imagen Conoce sobre nosotros mobile)
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -81,7 +81,6 @@ Cuenta de Ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen mujer ahorra) (imagen: imagen mujer ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -89,7 +88,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen mujer compras) (imagen: imagen mujer compras mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -97,7 +95,6 @@ Tarjeta de Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 Adquierela aquí
 (imagen: imagen hombre compra online) (imagen: imagen hombre compra online mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

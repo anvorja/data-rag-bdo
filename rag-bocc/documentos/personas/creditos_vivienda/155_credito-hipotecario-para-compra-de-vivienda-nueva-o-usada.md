@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vivienda"
 fecha_extraccion: 2026-10-01
-caracteres: 8512
+caracteres: 7852
 paginas: null
-hash_contenido: e8ff09f39f9cf3e1
+hash_contenido: 0109ee87ed1f1ee7
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Crédito Hipotecario para Compra de Vivienda Nueva o Usada
@@ -153,7 +154,6 @@ Solicítalo aquí
 Recibe asesoría personalizada para encontrar el crédito que mejor se adapte a tus necesidades. Nuestros expertos están aquí para ayudarte.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ### Haz realidad tus planes con facilidad
@@ -161,7 +161,6 @@ Libre Inversión
 Financia cualquier meta con plazos y tasas a tu medida.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: mujer feliz) (imagen: mujer feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ### Tu salario, con más beneficios
@@ -169,7 +168,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Alcancia) (imagen: Alcancia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Tu tarjeta, tu mundo de posibilidades
@@ -177,7 +175,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ### Tu carro nuevo te espera, ¡maneja tu futuro!
@@ -186,7 +183,4 @@ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/occiauto/autogestionado?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Carro) (imagen: Carro)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=creditos) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

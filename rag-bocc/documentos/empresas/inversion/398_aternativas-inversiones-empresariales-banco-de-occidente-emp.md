@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > inversiones empresariales"
 fecha_extraccion: 2026-10-01
-caracteres: 11548
+caracteres: 9610
 paginas: null
-hash_contenido: 8e3fe34f29e8ca8f
+hash_contenido: 31cc8bf0cd2d6198
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."
 ---
 
 # Aternativas Inversiones Empresariales | Banco de Occidente - Empresas
@@ -38,63 +39,54 @@ Descubre estrategias financieras diseñadas para optimizar liquidez y mitigar ri
 Solicítalo aquí
 (imagen: Empresario en su telefono) (imagen: Empresario en su telefono)
 Aternativas de Inversiones Empresariales
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Sintético de Inversión
 
 Alternativa de CDT en dólares
 Conoce más
 (imagen: Sintético Desk) (imagen: Sintético Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Sintético de Colocación
 
 Tu empresa se puede financiar en dólares a tasas más baratas.
 Conoce más
 (imagen: Colocación Desk) (imagen: Colocación Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Simultáneas
 
 Aquí puedes encontrar la solución para tus necesidades.
 Conoce más
 (imagen: Simúltaneas Desk) (imagen: Simúltaneas Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Repos
 
 Solución a oportunidades transitorias de liquidez.
 Conoce más
 (imagen: Repos Desk) (imagen: Repos Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### TTV´S
 
 Transferencia Temporal de Valores - TTV.
 Conoce más
 (imagen: TTV¨S Desk) (imagen: TTV¨S Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Spread Alcista-Bajista
 
 Nuestras estrategias de Portafolio te permiten comprar o vender.
 Conoce más
 (imagen: Spread Alcista Desk) (imagen: Spread Alcista Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### ASSETSWAP
 
 Propuesta de inversión para excesos de liquidez.
 Conoce más
 (imagen: ASSETSWAP Desk) (imagen: Spread Alcista Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Opciones Cono
 
 Aquí encuentras Estrategias de Portafolio.
 Conoce más
 (imagen: Opciones cono Desk) (imagen: Opciones cono Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Opciones Cuna
 
@@ -160,7 +152,6 @@ Deja tus datos aquí
 Contáctanos por WhatsApp y un asesor especializado resolverá tus dudas.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -168,7 +159,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -176,7 +166,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -184,7 +173,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -193,9 +181,6 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 (imagen: Icono del botón) Solicítalo ahora [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar a la hora de adquirir un crédito.
 Te puede interesar

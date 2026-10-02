@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 5418
+caracteres: 4758
 paginas: null
-hash_contenido: d2a47ea68214220e
+hash_contenido: 8e4717e934bce906
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Cuenta AFC Banco de Occidente para Ahorrar para tu Vivienda
@@ -154,7 +155,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Productos relacionados
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta de nomina
@@ -162,7 +162,6 @@ Cuentas
 Recibe tu salario rápidamente y disfruta de múltiples ventajas.
 [Conoce más](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Pareja sonriendo) (imagen: Pareja sonriendo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta para pensionados
@@ -170,7 +169,6 @@ Cuentas
 Maximiza tu pensión con rendimientos y servicios exclusivos.
 [Conoce más](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros-pensionados)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Crece tu dinero con nuestro CDT
@@ -178,7 +176,6 @@ Inversión
 Asegura tu futuro financiero con un CDT y gana más con tu dinero.
 [Conoce más](https://www.bancodeoccidente.com.co/inversion/cdt)
 (imagen: Pareja riendo) (imagen: Pareja riendo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Invierte en tu futuro
@@ -187,7 +184,4 @@ Optimiza tu patrimonio con nuestras opciones fiduciarias flexibles y rentables.
 [Conoce más](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: Hombre feliz viendo su teléfono) (imagen: Hombre feliz viendo su teléfono)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

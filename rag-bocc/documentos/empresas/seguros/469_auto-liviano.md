@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 2636
+caracteres: 2118
 paginas: null
-hash_contenido: f6bfbdeafc10f3d7
+hash_contenido: e4acaee26f7a386c
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Auto Liviano
@@ -43,7 +44,6 @@ Seguros Empresariales
 - Tecnología
 - PYME
 - Vida Leasing no Habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Auto Liviano
@@ -51,7 +51,6 @@ Seguros Empresariales
 Protege los vehículos de tu empresa con cobertura completa.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/vehiculo-liviano)
 (imagen: Carro azul Desk) (imagen: Carro azul Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Maquinaria y Equipos
@@ -59,7 +58,6 @@ Seguros Empresariales
 Asegura la maquinaria esencial para la operación de tu negocio.
 [Conoce más](https://portalpublico.bancodeoccidente.com.co/web/empresas/seguros/maquinaria-equipo)
 (imagen: Carro rojo Desk) (imagen: Carro rojo Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Autos Pesados
@@ -94,7 +92,4 @@ Déjanos tus datos y recibe asesoría para elegir el seguro ideal para tu empres
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Asesor)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=seguros) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

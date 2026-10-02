@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vivienda"
 fecha_extraccion: 2026-10-01
-caracteres: 16320
+caracteres: 15894
 paginas: null
-hash_contenido: 1b88ba47019cb4c3
+hash_contenido: 3c763595b2ddd6b5
 lote: "crawl2-paginas"
 indexar: true
-flags: [tablas_markdown, titulo_dudoso]
+flags: [tablas_markdown, plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Proyectos de vivienda
@@ -260,7 +261,6 @@ Obtén el crédito que necesitas con condiciones flexibles y tasas competitivas.
 (imagen: Pareja solicitando su crédito de vivienda en línea) (imagen: Pareja solicitando su crédito de vivienda en línea)
 Créditos para tus sueños y proyectos
 Elige el crédito que más se adapte a tus objetivos.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Compra tu vivienda nueva o usada
@@ -268,7 +268,6 @@ Crédito Hipotecario
 Financia tu hogar con cuotas fijas y plazos flexibles.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardViv)
 (imagen: Gestión digital de crédito hipotecario Banco de Occidente) (imagen: Gestión digital de crédito hipotecario Banco de Occidente)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Remodela, amplía o subdivide
@@ -276,7 +275,6 @@ Crédito Hipotecario
 Renueva o amplía tu hogar con financiación a tu medida.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/creditos/remodelacion-ampliacion)
 (imagen: Gestión digital de crédito hipotecario Banco de Occidente) (imagen: Gestión digital de crédito hipotecario Banco de Occidente)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Compra de Cartera Crédito de vivienda

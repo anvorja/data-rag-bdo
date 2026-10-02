@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 3514
+caracteres: 2854
 paginas: null
-hash_contenido: 12eac22e27d35dd4
+hash_contenido: 458e9a489952cc66
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Seguro Cuota Protegida Libranza | Banco de Occidente
@@ -43,28 +44,24 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Libranza
 
 ##### Cuota Protegida
 
 Cubre las cuotas de tu crédito por pérdida involuntaria de empleo.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/libranza/cuota-protegida)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Libranza
 
 ##### Fuerzas Armadas
 
 Protección para Policía y FF. MM. en servicio de orden público.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/libranza/protecci%C3%B3n-fuerzas-armadas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Libranza
 
 ##### Pensionados Protegidos
 
 Respaldo económico por accidentes, incapacidad y auxilio funerario.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/libranza/pensionados-protegidos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros de Libranza
 
 ##### Vive la vida
@@ -98,9 +95,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Quiero que me contacten](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer asesoría) (imagen: imagen mujer asesoría mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

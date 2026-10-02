@@ -17,12 +17,13 @@ fuente: "portalpublico.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 14028
+caracteres: 12490
 paginas: null
-hash_contenido: 8eda45a38f5f5e83
+hash_contenido: b1ce22bc2cf5bd7d
 lote: "lote1"
 indexar: true
-flags: [mojibake]
+flags: [plantilla_cms_limpiada]
+nota: "Se corrigió la codificación (mojibake). Se quitaron 11 líneas de plantilla del CMS."
 ---
 
 # Promociones con Tarjetas de CrÃ©dito Banco de Occidente
@@ -33,23 +34,23 @@ Saltar al contenido principal
  A-
  Accesibilidad
  A+
- Incrementar el tamaÃ±o del texto para una mejor lectura.
+ Incrementar el tamaño del texto para una mejor lectura.
  A-
- Disminuir el tamaÃ±o del texto mostrado en pantalla.
+ Disminuir el tamaño del texto mostrado en pantalla.
  Activar modo de alto contraste.
  Activar modo de bajo contraste.
  Personas
  Empresas
- QuiÃ©nes Somos
- QuiÃ©nes Somos
+ Quiénes Somos
+ Quiénes Somos
  Transparencia
  Transparencia
  Sostenibilidad
  Sostenibilidad
  Ayuda
- Ayuda y asesorÃ­a
- EncuÃ©ntranos
- EncuÃ©ntranos
+ Ayuda y asesoría
+ Encuéntranos
+ Encuéntranos
  Buscar
  Buscar
  Canales digitales
@@ -59,74 +60,74 @@ Saltar al contenido principal
  Ingresar
  Ingresar
  Cuentas
- Tarjeta de CrÃ©dito
- CrÃ©ditos
+ Tarjeta de Crédito
+ Créditos
  Seguros
- InversiÃ³n
+ Inversión
  Simula y Solicita
  Nuestras cuentas
  Nuestras Cuentas
  Cuenta de Ahorros
- Cuenta de NÃ³mina
+ Cuenta de Nómina
  Cuenta Corriente
  Cuenta AFC
- Cuenta de pensiÃ³n
+ Cuenta de pensión
  Servicios
- Tarjeta DÃ©bito
+ Tarjeta Débito
  Bre-B
  Kubo
  Corresponsales
- Cajeros AutomÃ¡ticos
+ Cajeros Automáticos
  Apple Pay
  Google Wallet
  Nuestras tarjetas
  Nuestras Tarjetas Premium
  Nuestras Tarjetas Viajes
- Nuestras Tarjetas Con propÃ³sito
+ Nuestras Tarjetas Con propósito
  Nuestras Tarjetas Mi primer Tarjeta
- Nuestras Tarjetas MÃ¡s solicitadas
+ Nuestras Tarjetas Más solicitadas
  Beneficios
- TuplÃºs
+ Tuplús
  Promociones y aliados
  Apple Pay
  Google Wallet
- Paquete mÃ­nimo de servicios
- Cajeros AutomÃ¡ticos
- Asistencias Tarjetas de CrÃ©dito
- CrÃ©ditos para cualquier necesidad
- CrÃ©dito de Libre InversiÃ³n
- CrÃ©dito de Libranza
+ Paquete mínimo de servicios
+ Cajeros Automáticos
+ Asistencias Tarjetas de Crédito
+ Créditos para cualquier necesidad
+ Crédito de Libre Inversión
+ Crédito de Libranza
  Cartera Ordinaria
- CrÃ©dito pensiones voluntarias
- CrÃ©dito rotativo
- CrÃ©ditos para personas
+ Crédito pensiones voluntarias
+ Crédito rotativo
+ Créditos para personas
  Portafolios Integrales
- Prestamo Personal DinÃ¡mico
- CrÃ©ditos de Vivienda
- CrÃ©dito hipotecario
- CrÃ©ditos Leasing Habitacional
- ConstrucciÃ³n Vivienda Propia
- FinanciaciÃ³n de Mejoras
+ Prestamo Personal Dinámico
+ Créditos de Vivienda
+ Crédito hipotecario
+ Créditos Leasing Habitacional
+ Construcción Vivienda Propia
+ Financiación de Mejoras
  Compra de Cartera hipotecario
- RemodelaciÃ³n, AmpliaciÃ³n o Subdivision
- CrÃ©ditos Vivienda
+ Remodelación, Ampliación o Subdivision
+ Créditos Vivienda
  Occiauto
- CrÃ©ditos VehÃ­culos
- CrÃ©dito de vehÃ­culos nuevo o usado
- CrÃ©dito de vehÃ­culos hÃ­bridos o elÃ©ctricos
- Compra de cartera vehÃ­culo
- VehÃ­culo productivo
- CrÃ©dito para moto alto cilindraje
+ Créditos Vehículos
+ Crédito de vehículos nuevo o usado
+ Crédito de vehículos híbridos o eléctricos
+ Compra de cartera vehículo
+ Vehículo productivo
+ Crédito para moto alto cilindraje
  Seguros de Vivienda
  Seguro de Incendio
  Seguro de Contenidos
  Cuota Protegida
  Seguro de Vida Vivienda
- Seguros de vehÃ­culo
+ Seguros de vehículo
  Seguro Autoprotegido
  Auto protegido motos
  Auto protegido productivos
- Cuota Protegida VehÃ­culos
+ Cuota Protegida Vehículos
  Cuota Protegida Transportador
  Seguros de viaje
  Assist card
@@ -134,10 +135,10 @@ Saltar al contenido principal
  Seguro de Mascotas
  Seguros de salud
  Seguro Estamos Contigo
- EmermÃ©dica
+ Emermédica
  Seguros de Libranza
  Cuota Protegida
- ProtecciÃ³n Fuerzas Armadas
+ Protección Fuerzas Armadas
  Pensionados Protegidos
  Vive la Vida
  Seguros de vida y desempleo
@@ -147,27 +148,27 @@ Saltar al contenido principal
  Seguro de Accidentes integral
  Seguros de productos
  Seguro Cuenta Protegida Plus
- Vive la Vida Tarjeta de CrÃ©dito
+ Vive la Vida Tarjeta de Crédito
  Portafolio de Soluciones Sorprendentes
  Cuota Protegida Prestamo Personal y Cuenta Activa
  Asistencias Assisprex
- Asistencias Tarjetas de CrÃ©dito
- Productos de InversiÃ³n
+ Asistencias Tarjetas de Crédito
+ Productos de Inversión
  CDT
- Fondo de InversiÃ³n Colectiva
+ Fondo de Inversión Colectiva
  Invierte en el exterior
  Otras inversiones
  Bienes para la venta
- Adquiere tus productos en lÃ­nea
+ Adquiere tus productos en línea
  Abre tu cuenta de ahorros
- Solicita tu crÃ©dito de vehÃ­culo
- Solicita tu crÃ©dito de libre inversiÃ³n
- Solicita tu crÃ©dito de vivienda
- Simulador de crÃ©ditos
+ Solicita tu crédito de vehículo
+ Solicita tu crédito de libre inversión
+ Solicita tu crédito de vivienda
+ Simulador de créditos
  Inicio
- FinanciaciÃ³n
+ Financiación
  Cuentas
- InversiÃ³n
+ Inversión
  Recaudos
  Pagos
  Seguros
@@ -175,17 +176,17 @@ Saltar al contenido principal
  Leasing
  Todos los Leasing
  Leasing maquinaria y equipos
- Leasing de vehÃ­culos
- Leasing de tecnologÃ­a
- Leasing de importaciÃ³n
+ Leasing de vehículos
+ Leasing de tecnología
+ Leasing de importación
  Leasing inmobiliario
  Leasing operativo
  Aliados Leasing
- CrÃ©ditos
- Todos los CrÃ©ditos
- CrÃ©dito Constructor
- CrÃ©dito Maquinaria y equipo
- CrÃ©dito Rotativo
+ Créditos
+ Todos los Créditos
+ Crédito Constructor
+ Crédito Maquinaria y equipo
+ Crédito Rotativo
  Cartera ordinaria
  Moneda Extranjera
  Productos Moneda Extranjera
@@ -211,18 +212,18 @@ Saltar al contenido principal
  Inversiones
  Inversiones empresariales
  CDT
- Alternativas de InversiÃ³n
+ Alternativas de Inversión
  Inversiones Mesa de Dinero
  Otras inversiones
  Bienes para la venta
  Nuestros Recaudos
  Tipos de Recaudos
- Recaudo ElectrÃ³nico Red Aval
+ Recaudo Electrónico Red Aval
  Recaudo PSE
  Recaudo Tarjetas
- Recaudo FÃ­sico
- ConsignaciÃ³n Nacional
- DÃ©bito AutomÃ¡tico
+ Recaudo Físico
+ Consignación Nacional
+ Débito Automático
  Corresponsales Bancarios
  Nuestros Pagos
  Tipos de Pagos
@@ -237,273 +238,262 @@ Saltar al contenido principal
  Calendario Tributario
  Tipos de Seguros
  Seguros Empresa
- Seguros de vehÃ­culo y maquinaria
+ Seguros de vehículo y maquinaria
  Seguros Inmuebles y construccion
  Seguros Tecnologia
  Seguros Pyme
  Solicitar Productos
- Barra de bÃºsqueda
+ Barra de búsqueda
  Resultados sugeridos
- Ver mÃ¡s
+ Ver más
  Inicio
- Nuestras Tarjetas MÃ¡s solicitadas
+ Nuestras Tarjetas Más solicitadas
  Promociones y aliados
  Aliados
  Promociones y aliados
- Aprovecha descuentos y beneficios especiales con tus tarjetas de crÃ©dito y dÃ©bito.
- Encuentra las mejores alianzas y promociones con Tarjeta CrÃ©dito o DÃ©bito
+ Aprovecha descuentos y beneficios especiales con tus tarjetas de crédito y débito.
+ Encuentra las mejores alianzas y promociones con Tarjeta Crédito o Débito
  Compras y Retail
  Viajes y Turismo
- TecnologÃ­a
+ Tecnología
  Salud y Bienestar
  Servicios y Suscripciones
  Supermercados
- Ãxito
- 0% en tasa de interÃ©s
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en tiendas fÃ­sicas y en la pÃ¡gina y pagÃ¡ndolas con tu Tarjeta de CrÃ©dito Credencial del Banco de Occidente, podrÃ¡s disfrutar del 0% de interÃ©s pagando a 3, 6, 9, 12.
+ Éxito
+ 0% en tasa de interés
+ Compra aquí
+ Conoce más
+ Conoce más
+ Realizando tus compras en tiendas físicas y en la página y pagándolas con tu Tarjeta de Crédito Credencial del Banco de Occidente, podrás disfrutar del 0% de interés pagando a 3, 6, 9, 12.
  Conoce T&C
  Compras
  Alfa
  20% de descuento
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en tiendas fÃ­sicas y en lÃ­nea a travÃ©s de la lÃ­nea naranja 3188007804, obtÃ©n el 20% de descuento usando tus tarjetas de crÃ©dito de Banco de Occidente
+ Conoce más
+ Conoce más
+ Realizando tus compras en tiendas físicas y en línea a través de la línea naranja 3188007804, obtén el 20% de descuento usando tus tarjetas de crédito de Banco de Occidente
  Conoce T&C
  Compras
  Dafiti
- 0% tasa de interÃ©s
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en tiendas fÃ­sicas y en la pÃ¡gina https://www.dafiti.com.co/vendidos-por-dafiti, con compra mÃ­nima de $ y pagÃ¡ndolas con tu Tarjeta de CrÃ©dito Credencial del Banco de Occidente, podrÃ¡s disfrutar del 0% de interÃ©s pagando a 3, 6 y 9
+ 0% tasa de interés
+ Compra aquí
+ Conoce más
+ Conoce más
+ Realizando tus compras en tiendas físicas y en la página https://www.dafiti.com.co/vendidos-por-dafiti, con compra mínima de $ y pagándolas con tu Tarjeta de Crédito Credencial del Banco de Occidente, podrás disfrutar del 0% de interés pagando a 3, 6 y 9
  Conoce T&C
- En lÃ­nea
+ En línea
  Mercado Libre
- 0% en tasa de interÃ©s
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- ObtÃ©n 0% en Tasa de InterÃ©s por tus compras en Mercado Libre con diferido de 3, 6, 9, y 12 cuotas."
+ 0% en tasa de interés
+ Compra aquí
+ Conoce más
+ Conoce más
+ Obtén 0% en Tasa de Interés por tus compras en Mercado Libre con diferido de 3, 6, 9, y 12 cuotas."
  Conoce T&C
  Comida
- McDonaldâs
+ McDonald’s
  20% de descuento
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Por compras iguales o superiores a $25.000 en la app o web de McDonaldâs, y pagando con tu tarjeta Mastercard, recibirÃ¡s un 20% de descuento durante la vigencia de la campaÃ±a.
+ Compra aquí
+ Conoce más
+ Conoce más
+ Por compras iguales o superiores a $25.000 en la app o web de McDonald’s, y pagando con tu tarjeta Mastercard, recibirás un 20% de descuento durante la vigencia de la campaña.
  Conoce T&C
  Moda
  Arturo Calle
- 20% de descuento los dÃ­as martes
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en la pÃ¡gina y en tiendas fÃ­sicas los dÃ­as martes, obtÃ©n el 20% de descuento usando tus tarjetas de crÃ©dito de Banco de Occidente.
+ 20% de descuento los días martes
+ Compra aquí
+ Conoce más
+ Conoce más
+ Realizando tus compras en la página y en tiendas físicas los días martes, obtén el 20% de descuento usando tus tarjetas de crédito de Banco de Occidente.
  Conoce T&C
  Supermercado
- Ãxito, Carulla, Surtimax, Super Inter
+ Éxito, Carulla, Surtimax, Super Inter
  25% de descuento
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Recibe mÃ­nimo 20% off en la categoria de carnes todos los miercoles del mes pagando con tu tarjeta Mastercard en tiendas fisicas de Ãxito, surtimax, Superinter y Carulla
+ Compra aquí
+ Conoce más
+ Conoce más
+ Recibe mínimo 20% off en la categoria de carnes todos los miercoles del mes pagando con tu tarjeta Mastercard en tiendas fisicas de Éxito, surtimax, Superinter y Carulla
  Conoce T&C
  Supermercado
- Ãxito, Carulla, Surtimax, Surtimayorista
+ Éxito, Carulla, Surtimax, Surtimayorista
  30% de descuento
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Recibe mÃ­nimo 30% off en la categoria de frutas y verduras todos los martes del mes pagando con tu tarjeta Mastercard en tiendas fisicas de Ãxito, Surtimax, Superinter y Carulla.
+ Compra aquí
+ Conoce más
+ Conoce más
+ Recibe mínimo 30% off en la categoria de frutas y verduras todos los martes del mes pagando con tu tarjeta Mastercard en tiendas fisicas de Éxito, Surtimax, Superinter y Carulla.
  Conoce T&C
  Comida
  Tostao
  25% de descuento
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
+ Compra aquí
+ Conoce más
+ Conoce más
  Disfruta 25% off en Tostao por compras por valor igual o superior a $20.000 pagando con tu tarjeta Mastercard
  Conoce T&C
  Supermercado
- Ãxito
- EnvÃ­o gratis en alimentos
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- ObtÃ©n envÃ­o gratis en la categorÃ­a de alimentos por compras superiores a $18.000 pagando con tu tarjeta Mastercard en la web y en la app de Ãxito.
+ Éxito
+ Envío gratis en alimentos
+ Compra aquí
+ Conoce más
+ Conoce más
+ Obtén envío gratis en la categoría de alimentos por compras superiores a $18.000 pagando con tu tarjeta Mastercard en la web y en la app de Éxito.
  Conoce T&C
  Supermercado
- Ãxito
+ Éxito
  Viernes de mercado: desde 20% OFF
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- ObtÃ©n desde 20% de descuento en la categorÃ­a mercado todos los viernes, vÃ¡lido desde las 6:00 am, pagando con tu Mastercard.
+ Compra aquí
+ Conoce más
+ Conoce más
+ Obtén desde 20% de descuento en la categoría mercado todos los viernes, válido desde las 6:00 am, pagando con tu Mastercard.
  Conoce T&C
  Supermercado
- Ãxito
- 0% en Tasa de interÃ©s
+ Éxito
+ 0% en Tasa de interés
  Compra en
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en Ãxito y pagandolas con tu Tarjeta de CrÃ©dito Credencial del Banco de Occidente, podras disfrutar de 0% de interÃ©s.
+ Conoce más
+ Conoce más
+ Realizando tus compras en Éxito y pagandolas con tu Tarjeta de Crédito Credencial del Banco de Occidente, podras disfrutar de 0% de interés.
  Conoce T&C
  Cocina
  Ollas y Sartenes
  Hasta 66% de descuento*
  Compra en
- Conoce mÃ¡s
- Conoce mÃ¡s
- Usa tus Tarjetas de CrÃ©dito y DÃ©bito Credencial en tus compras y accede a un descuento especial de hasta 66% en ollas y sartenes Farberware.
+ Conoce más
+ Conoce más
+ Usa tus Tarjetas de Crédito y Débito Credencial en tus compras y accede a un descuento especial de hasta 66% en ollas y sartenes Farberware.
  Conoce T&C
  Hogar
  Ollas y Sartenes
  25% de descuento
- Compra aquÃ­
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en la pÃ¡gina, obtÃ©n el 25% de descuento usando tus tarjetas de crÃ©dito de Banco de Occidente
+ Compra aquí
+ Conoce más
+ Conoce más
+ Realizando tus compras en la página, obtén el 25% de descuento usando tus tarjetas de crédito de Banco de Occidente
  Conoce T&C
  Turismo
  Despegar
- 0% en Tasa de interÃ©s
+ 0% en Tasa de interés
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en app mÃ³vil, Call Center o pÃ¡gina web
- www.despegar.com.co, y pagÃ¡ndolas con tu Tarjeta de CrÃ©dito Credencial del Banco de Occidente, podrÃ¡s disfrutar del 0% de interÃ©s pagando a 3 cuotas.
+ Conoce más
+ Conoce más
+ Realizando tus compras en app móvil, Call Center o página web
+ www.despegar.com.co, y pagándolas con tu Tarjeta de Crédito Credencial del Banco de Occidente, podrás disfrutar del 0% de interés pagando a 3 cuotas.
  Conoce T&C
  Turismo
  Banco de Occidente
- 0% en Tasa de interÃ©s
+ 0% en Tasa de interés
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en tiendas fÃ­sicas y en la pÃ¡gina y pagÃ¡ndolas con tu Tarjeta de CrÃ©dito Credencial del Banco de Occidente, podrÃ¡s disfrutar del 0% de interÃ©s pagando a 6, 9 y 12.
+ Conoce más
+ Conoce más
+ Realizando tus compras en tiendas físicas y en la página y pagándolas con tu Tarjeta de Crédito Credencial del Banco de Occidente, podrás disfrutar del 0% de interés pagando a 6, 9 y 12.
  Conoce T&C
  Turismo
  Banco de Occidente
  Hasta 10% de descuento
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en la pÃ¡gina, obtÃ©n el 10% de descuento usando tus tarjetas de crÃ©dito de Banco de Occidente
+ Conoce más
+ Conoce más
+ Realizando tus compras en la página, obtén el 10% de descuento usando tus tarjetas de crédito de Banco de Occidente
  Conoce T&C
  Equipos
  Mac Center
- 0% en tasa de interÃ©s
+ 0% en tasa de interés
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en tiendas fÃ­sicas y en la pÃ¡gina https://mac-center.com/ y pagÃ¡ndolas con tu tarjeta de crÃ©dito Credencial del Banco de Occidente, podrÃ¡s disfrutar del 0% de interÃ©s pagando a 3, 6, 9, 12 y 18
+ Conoce más
+ Conoce más
+ Realizando tus compras en tiendas físicas y en la página https://mac-center.com/ y pagándolas con tu tarjeta de crédito Credencial del Banco de Occidente, podrás disfrutar del 0% de interés pagando a 3, 6, 9, 12 y 18
  Conoce T&C
  Equipos
  Samsung
  10% de descuento en productos durante fines de semana
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Las compras de entre uno y cuatro productos de las categorÃ­as ElectrodomÃ©sticos, Monitores, Smartphones, Tabletas, Accesorios, Audio y Video podrÃ¡n obtener un 10% de descuento durante sÃ¡bados, domingos y dÃ­as festivos, excepto en referencias seleccionadas.
+ Conoce más
+ Conoce más
+ Las compras de entre uno y cuatro productos de las categorías Electrodomésticos, Monitores, Smartphones, Tabletas, Accesorios, Audio y Video podrán obtener un 10% de descuento durante sábados, domingos y días festivos, excepto en referencias seleccionadas.
  Conoce T&C
  Salud
  Colmedica
  Hasta 17% de descuento en el valor del chequeo*
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en Colmedica pagando con la Tarjeta de CrÃ©dito Credencial podras disfrutar hasta un 17% de descuento todos los martes hasta el mes de diciembre
+ Conoce más
+ Conoce más
+ Realizando tus compras en Colmedica pagando con la Tarjeta de Crédito Credencial podras disfrutar hasta un 17% de descuento todos los martes hasta el mes de diciembre
  Conoce T&C
  Transporte
  Cabify
  Viaja con 25% OFF
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
+ Conoce más
+ Conoce más
  Disfruta 25% off en tus 4 primeros viajes del mes pagando con tu tarjeta Mastercard en la app de Cabify
  Conoce T&C
- EducaciÃ³n
+ Educación
  Tributi
  15% de descuento
  Compra ahora
- Conoce mÃ¡s
- Conoce mÃ¡s
- Realizando tus compras en www.tributi.com, obtÃ©n asesorÃ­a en planeaciÃ³n tributaria gratis.
- Realizar la declaraciÃ³n de renta en Tributi. Tanto para clientes
+ Conoce más
+ Conoce más
+ Realizando tus compras en www.tributi.com, obtén asesoría en planeación tributaria gratis.
+ Realizar la declaración de renta en Tributi. Tanto para clientes
  antiguos y nuevos y $50.000 COP de descuento en los planes actualmente activos en
- La plataforma para clientes nuevos. Para la redenciÃ³n del cÃ³digo
- Ãnico de afiliaciÃ³n (OCCIPROMO). Usando tus tarjetas de crÃ©dito de Banco de Occidente
+ La plataforma para clientes nuevos. Para la redención del código
+ Único de afiliación (OCCIPROMO). Usando tus tarjetas de crédito de Banco de Occidente
  Conoce T&C
  Puntos
- Â¿QuÃ© es TuplÃºs y cÃ³mo se usa?
- Vive TuplÃºs es un programa de lealtad en el cual puedes acumular puntos por tus compras
- Conoce mÃ¡s
- Solicita tu Tarjeta de CrÃ©dito hoy y disfruta beneficios exclusivos.
- Solicita tu Tarjeta de CrÃ©dito
+ ¿Qué es Tuplús y cómo se usa?
+ Vive Tuplús es un programa de lealtad en el cual puedes acumular puntos por tus compras
+ Conoce más
+ Solicita tu Tarjeta de Crédito hoy y disfruta beneficios exclusivos.
+ Solicita tu Tarjeta de Crédito
  y disfruta de todos los beneficios exclusivos.
- SolicÃ­tala en lÃ­nea
+ Solicítala en línea
  Solicita tu Cuenta de Ahorros
  y haz crecer tu dinero.
- SolicÃ­tala en lÃ­nea
+ Solicítala en línea
  Te puede interesar
- Agregue una imagen tamaÃ±o aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
- Libre InversiÃ³n
+ Libre Inversión
  Dinero para lo que quieras, sin explicaciones
- ObtÃ©n tu crÃ©dito y haz realidad tus planes con plazos flexibles.
- SolicÃ­tala aquÃ­
- Agregue una imagen tamaÃ±o aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
+ Obtén tu crédito y haz realidad tus planes con plazos flexibles.
+ Solicítala aquí
  Cuenta de Ahorros
  Ahorra con rentabilidad y sin complicaciones
- Protege tu dinero, hazlo crecer y Ãºsalo cuando lo necesites.
- SolicÃ­tala ahora
- Agregue una imagen tamaÃ±o aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
- Tarjeta de CrÃ©dito
+ Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
+ Solicítala ahora
+ Tarjeta de Crédito
  Tu tarjeta, tu mundo de posibilidades
  Compra lo que necesitas y accede a promociones exclusivas.
- AdquiÃ©rela aquÃ­
- Agregue una imagen tamaÃ±o aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
- CrÃ©dito de VehÃ­culo
- Tu carro nuevo te espera, Â¡maneja tu futuro!
- Financia tu prÃ³ximo vehÃ­culo con cuotas cÃ³modas y excelentes tasas.
- SolicÃ­talo aquÃ­
- TÃ­tulo mÃ¡ximo de caracteres 60
- Por favor digitar mÃ¡ximo 240 caracteres en este pÃ¡rrafo.
- SolicÃ­talo en lÃ­nea
- EscrÃ­benos
- Featured title
+ Adquiérela aquí
+ Crédito de Vehículo
+ Tu carro nuevo te espera, ¡maneja tu futuro!
+ Financia tu próximo vehículo con cuotas cómodas y excelentes tasas.
+ Solicítalo aquí
+ Solicítalo en línea
+ Escríbenos
  Label
  Title
- AquÃ­ va la descripciÃ³n del mensaje. Proporcione detalles relevantes y Ãºtiles para guiar al usuario sobre el contenido de esta secciÃ³n.
  Button link
  Label
  Title
- AquÃ­ va la descripciÃ³n del mensaje. Proporcione detalles relevantes y Ãºtiles para guiar al usuario sobre el contenido de esta secciÃ³n.
  Button link
  Label
  Title
- AquÃ­ va la descripciÃ³n del mensaje. Proporcione detalles relevantes y Ãºtiles para guiar al usuario sobre el contenido de esta secciÃ³n.
  Button link
  Label
  Title
- AquÃ­ va la descripciÃ³n del mensaje. Proporcione detalles relevantes y Ãºtiles para guiar al usuario sobre el contenido de esta secciÃ³n.
  Button link
- Â¿Necesitas asesorÃ­a?
+ ¿Necesitas asesoría?
  Resolvemos tus dudas y te ayudamos a elegir producto.
- Solicita tu asesorÃ­a
- Â¿Tienes preguntas?
+ Solicita tu asesoría
+ ¿Tienes preguntas?
  Tenemos una respuesta para cada una de ellas.
  Preguntas frecuentes
- LlÃ¡manos
- Para asistencia inmediata, comunÃ­cate con nosotros.
- LÃ­neas de atenciÃ³n
- Legal y polÃ­ticas
+ Llámanos
+ Para asistencia inmediata, comunícate con nosotros.
+ Líneas de atención
+ Legal y políticas
  Tarifas del 2026
- LicitaciÃ³n Banca Seguros
+ Licitación Banca Seguros
  Haz tus pagos
- LÃ­nea Ã©tica
+ Línea ética
  Mapa del Sitio
- Â© Banco de Occidente Todos los Derechos Reservados
+ © Banco de Occidente Todos los Derechos Reservados
 Oculto

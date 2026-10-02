@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > certificado de reembolso tributario"
 fecha_extraccion: 2026-10-01
-caracteres: 10747
+caracteres: 9201
 paginas: null
-hash_contenido: dd318667d6b3ace9
+hash_contenido: 8ab152b6aa6f2cd6
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Certificado de Reembolso Tributario (CERT) - Empresas
@@ -203,12 +204,6 @@ Preguntas frecuentes
 Advertencia de transparencia
 La asignación del Certificado de Reembolso Tributario (CERT) está sujeta al cumplimiento de los requisitos legales, técnicos y documentales definidos por la normativa vigente, así como a los procesos de evaluación y aprobación por parte de las autoridades competentes. El Banco acompaña y orienta a sus clientes durante el proceso, pero la aprobación final del CERT depende exclusivamente de las entidades gubernamentales responsables.
 Que incluye este producto
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
-- ### Maximo 60 caracteres  Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 ¿Quieres saber si tu empresa puede acceder al CERT?
 (imagen: Icono o imagen del banner colors)
 
@@ -259,7 +254,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -267,7 +261,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer con tasas competitivas y plazos flexibles.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Dinero para lo que quieras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -275,7 +268,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing y optimiza tu flujo de caja.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Ahorro con rentabilidad)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -283,7 +275,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables diseñadas para empresas.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Tarjeta posibilidades)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia

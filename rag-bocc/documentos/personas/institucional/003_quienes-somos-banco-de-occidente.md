@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > quienes somos"
 fecha_extraccion: 2026-10-01
-caracteres: 5639
+caracteres: 5071
 paginas: null
-hash_contenido: 7732dbd2fdd0cfa2
+hash_contenido: 11c02e6290310403
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Quiénes Somos | Banco de Occidente
@@ -159,7 +160,6 @@ Descubre cómo juntos podemos generar un impacto positivo en el planeta. Explora
 [Conoce más](https://comunidadplanetaazul.com/)
 (imagen: imagen comunica planeta) (imagen: imagen comunica planeta mobile)
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -167,7 +167,6 @@ Cuenta de Ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen ahorra) (imagen: imagen ahorra mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -175,7 +174,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen planifica tu viaje) (imagen: imagen planifica tu viaje mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -183,7 +181,6 @@ Tarjeta de Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen tarjetas) (imagen: imagen tarjetas mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > pagos"
 fecha_extraccion: 2026-10-01
-caracteres: 53935
+caracteres: 53159
 paginas: null
-hash_contenido: f1120442e4ad407d
+hash_contenido: 1c1dd1d005b2f337
 lote: "crawl2-paginas"
 indexar: true
-flags: [tablas_markdown]
+flags: [tablas_markdown, plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."
 ---
 
 # Pago Impuestos Nacionales | Banco de Occidente - Empresas
@@ -983,7 +984,6 @@ Noviembre
 | RST - Anticipo bimestral | Septiembre - Octubre | 1 al 3 | 12 al 14 de noviembre |
 | RST - Anticipo bimestral | Septiembre - Octubre | 4 al 7 | 18 al 21 de noviembre |
 | RST - Anticipo bimestral | Septiembre - Octubre | 8 al 9 y 10 | 24 al 26 de noviembre |
-| IVA prestadores de servicios desde el exterior | Septiembre - Octubre | maximo 240 caracteres | 18 de noviembre |
 | Bebidas ultraprocesadas azucaradas y a los productos comestibles ultraprocesados industrialmente y/o con alto contenido de azúcares añadidos, sodio o grasas saturadas | Septiembre - Octubre | Todos | 18 de noviembre |
 | RUB - Registro Único de Beneficiarios Finales | Actualización | Todos | 1 de noviembre |
 
@@ -997,7 +997,6 @@ Diciembre
 | Precios de transferencia - Presentar |  | Todos | 15 de diciembre |
 
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Créditos Empresariales
 
 ##### Impulsa tu empresa con financiamiento
@@ -1005,7 +1004,6 @@ Créditos Empresariales
 Obtén el crédito que tu negocio necesita para crecer.
 [Solicítalo aquí](https://www.bancodeoccidente.com.co/web/empresas/creditos)
 (imagen: Persona en el computador) (imagen: Persona en el computador)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Empresarial
 
 ##### Adquiere activos sin descapitalizarte
@@ -1013,7 +1011,6 @@ Leasing Empresarial
 Financia maquinaria, vehículos o inmuebles con Leasing.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/web/empresas/leasing)
 (imagen: Arquitecto feliz) (imagen: Arquitecto feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversiones Empresariales
 
 ##### Haz crecer el capital de tu empresa
@@ -1021,7 +1018,6 @@ Inversiones Empresariales
 Explora opciones de inversión seguras y rentables.
 [Invierte aquí](https://www.bancodeoccidente.com.co/web/empresas/inversiones-empresariales)
 (imagen: Hombre de negocios) (imagen: Hombre de negocios)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas Empresariales
 
 ##### Administra tu dinero con eficiencia
@@ -1030,7 +1026,4 @@ Apertura una cuenta diseñada para las necesidades de tu empresa.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/web/empresas/cuentas)
 (imagen: Ahorros) (imagen: Ahorros)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=financiacion) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

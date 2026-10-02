@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 4277
+caracteres: 3425
 paginas: null
-hash_contenido: 350f2a42df5d3229
+hash_contenido: 4bb7b9c2bcbf4878
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Descubre las cuentas del Banco de Occidente y elige la tuya
@@ -36,7 +37,6 @@ Abre tu Cuenta de Ahorros haz que tus ahorros crezcan con nuestro Kubo Rentable.
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=HomeCtas&utm_campaign=Banner)
 (imagen: KUBO, el primer sistema de ahorro e inversión en Colombia.​) (imagen: KUBO, el primer sistema de ahorro e inversión en Colombia.​)
 Cuentas del Banco de Occidente
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta de Ahorros
@@ -44,7 +44,6 @@ Cuentas
 Ahorra y haz crecer tu dinero de forma segura y accesible.
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=HomeCtas&utm_campaign=CardAho)
 (imagen: Dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta de Nómina
@@ -52,7 +51,6 @@ Cuentas
 Recibe tu salario rápidamente y disfruta de múltiples ventajas.
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=HomeCtas&utm_campaign=CardNom)
 (imagen: Billetes)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta de Pensión
@@ -60,7 +58,6 @@ Cuentas
 Recibe tu pensión con beneficios
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros-pensionados)
 (imagen: Monedas y rendimientos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuentas AFC
@@ -68,7 +65,6 @@ Cuentas
 Benefíciate de ahorros especiales para tu futuro hogar.
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/cuentas/cuenta-afc)
 (imagen: Casa)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta Corriente
@@ -76,7 +72,6 @@ Cuentas
 Gestiona tus finanzas de forma ágil con acceso a tu dinero.
 [¡Abre tu cuenta!](https://www.bancodeoccidente.com.co/cuentas/cuenta-corriente)
 (imagen: Bolsa de dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuentas para Políticos

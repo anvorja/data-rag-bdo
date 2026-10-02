@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vehiculos"
 fecha_extraccion: 2026-10-01
-caracteres: 14099
+caracteres: 13389
 paginas: null
-hash_contenido: c83487637288262a
+hash_contenido: 8ed5998d059e1552
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 5 líneas de plantilla del CMS."
 ---
 
 # Occiauto: Crédito para Compra de Vehículo Nuevo o Usado
@@ -40,7 +41,6 @@ Créditos para tus sueños y proyectos
 - Vehículo
 - Vivienda
 - Leasing Habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ##### Nuevo o usado
@@ -48,7 +48,6 @@ Crédito Vehículo
 Estrena tu vehículo con tasas competitivas.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardVehi)
 (imagen: Nuevo o usado) (imagen: Nuevo o usado)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ##### Híbridos o eléctricos
@@ -56,7 +55,6 @@ Crédito Vehículo
 Ahorra y cuida el planeta con beneficios especiales.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/occiauto/autogestionado/vehiculo?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardVehi)
 (imagen: Híbridos o eléctricos) (imagen: Híbridos o eléctricos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ##### Compra de Cartera
@@ -64,7 +62,6 @@ Crédito Vehículo
 Reduce tu cuota mensual y mejora tu flujo financiero.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/compra-cartera-vehiculos)
 (imagen: Compra de Cartera) (imagen: Compra de Cartera)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ##### Productivos
@@ -72,7 +69,6 @@ Crédito Vehículo
 Vehículos comerciales y de trabajo con condiciones especiales.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/vehiculos-productivos)
 (imagen: Productivos) (imagen: Productivos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Vehículo
 
 ##### Moto alto cilindraje

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos"
 fecha_extraccion: 2026-10-01
-caracteres: 4159
+caracteres: 3307
 paginas: null
-hash_contenido: 0d3a8a57363058fd
+hash_contenido: f7fcea4798a7c315
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Préstamo Personal Banco de Occidente: Fácil y Rápido
@@ -39,7 +40,6 @@ Créditos para tus sueños y proyectos
 - Vehículo
 - Vivienda
 - Leasing Habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Préstamo Personal
 
 ##### Libre Inversión
@@ -47,7 +47,6 @@ Préstamo Personal
 Obtén dinero para cualquier necesidad.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardPP)
 (imagen: Préstamo Personal) (imagen: Préstamo Personal)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libranza
 
 ##### Libranza
@@ -55,7 +54,6 @@ Libranza
 Accede a pagos cómodos y descuentos especiales.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/libranza)
 (imagen: Libranza) (imagen: Libranza)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Compra de Cartera
@@ -63,7 +61,6 @@ Libre Inversión
 Reduce tu tasa de interés y mejora tu flujo financiero.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/compra-cartera)
 (imagen: Compra de Cartera) (imagen: Compra de Cartera)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Crédito Rotativo
@@ -71,7 +68,6 @@ Libre Inversión
 Ten dinero disponible siempre que lo necesites.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/rotativo)
 (imagen: Crédito Rotativo) (imagen: Crédito Rotativo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Cartera Ordinaria
@@ -79,7 +75,6 @@ Libre Inversión
 Cree en tus proyectos, nosotros te los financiamos.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/creditos/cartera-ordinaria)
 (imagen: Cartera Ordinaria) (imagen: Cartera Ordinaria)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Crédito Pensiones Voluntarias

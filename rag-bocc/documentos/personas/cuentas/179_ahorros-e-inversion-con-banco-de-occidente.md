@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > inversión"
 fecha_extraccion: 2026-10-01
-caracteres: 3118
+caracteres: 2692
 paginas: null
-hash_contenido: 642a05c5183edf94
+hash_contenido: a3d49bbd378e8d55
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Ahorros e Inversión con Banco de Occidente
@@ -35,7 +36,6 @@ Haz crecer tu dinero con seguridad
 Invierte en CDT y cuentas de ahorro con tasas exclusivas y rentabilidad garantizada. Tu dinero, en las mejores manos.
 (imagen: imagen Productos de inversion) (imagen: imagen Productos de inversion mobile)
 Ahorra e Invierte con Banco de Occidente
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### CDT
@@ -43,7 +43,6 @@ Inversión
 Invierte en un CDT y obtén rentabilidad garantizada.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/inversion/cdt)
 (imagen: icono estadisticas blue)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Encargo Fiduciario
@@ -51,7 +50,6 @@ Inversión
 Gestiona tus inversiones de forma segura.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: icono monedas gold)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Invierte en el Exterior

@@ -4,7 +4,7 @@ url: "https://www.bancodeoccidente.com.co/segmentos"
 titulo: "Segmentos de Clientes Banco de Occidente"
 descripcion: "Descubre cómo el Banco de Occidente adapta sus servicios a cada segmento de cliente. Atención especializada y soluciones reales."
 tipo_doc: producto_pagina
-area: institucional
+area: cuentas
 segmento: personas
 idioma: es
 estado_vigencia: vigente
@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 4764
+caracteres: 3344
 paginas: null
-hash_contenido: 9b003866c5ad8727
+hash_contenido: 31a1bc141f64aca9
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 10 líneas de plantilla del CMS."
 ---
 
 # Segmentos de Clientes Banco de Occidente
@@ -35,35 +36,30 @@ Beneficios exclusivos según tu segmento
 Accede a productos y servicios diseñados para ti: atención preferencial, tasas especiales y asesoría personalizada.
 (imagen: Personas riendo) (imagen: Personas riendo)
 Segmentos de clientes
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Élite Plus
 
 Accede a productos de alto nivel con atención prioritaria.
 [Conoce más](https://www.bancodeoccidente.com.co/segmentos/elite-plus)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Élite
 
 Vive una experiencia superior con condiciones especiales.
 [Conoce más](https://www.bancodeoccidente.com.co/segmentos/elite)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Preferente Plus
 
 Disfruta de soluciones financieras con tasas preferenciales.
 [Conoce más](https://www.bancodeoccidente.com.co/segmentos/preferente-plus)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Preferente
 
 Accede a productos financieros con condiciones especiales.
 [Conoce más](https://www.bancodeoccidente.com.co/segmentos/preferente)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Independientes
@@ -71,7 +67,6 @@ Segmentos
 Soluciones financieras pensadas para acompañarte.
 [Conoce más](https://www.bancodeoccidente.com.co/segmentos/independientes)
 (imagen: Segmento Independientes Banco de Occidente) (imagen: Segmento Independientes Banco de Occidente)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Segmentos
 
 ##### Segmento Aval
@@ -113,7 +108,6 @@ Enviar solicitud
 Chatea con un asesor y gestiona tu solicitud de manera ágil y segura por WhatsApp.
 Chatear ahora
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -121,7 +115,6 @@ Cuenta ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Alcancia) (imagen: Alcancia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -129,7 +122,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Maletin) (imagen: Maletin)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta Crédito
 
 ##### Tu aliada para comprar sin límitess
@@ -137,7 +129,6 @@ Tarjeta Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjetas) (imagen: Tarjetas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

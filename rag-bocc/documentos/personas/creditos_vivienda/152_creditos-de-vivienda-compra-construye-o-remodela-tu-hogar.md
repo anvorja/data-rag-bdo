@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > vivienda"
 fecha_extraccion: 2026-10-01
-caracteres: 3599
+caracteres: 3081
 paginas: null
-hash_contenido: 72f901251347b271
+hash_contenido: b9036a5c44879021
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Créditos de Vivienda: Compra, Construye o Remodela tu Hogar
@@ -40,7 +41,6 @@ Créditos para tus sueños y proyectos
 - Vehículo
 - Vivienda
 - Leasing Habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Compra tu vivienda nueva o usada
@@ -48,7 +48,6 @@ Crédito Hipotecario
 Financia tu hogar con cuotas fijas y plazos flexibles.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardViv)
 (imagen: Desk) (imagen: vivienda-nueva)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Remodela, amplía o subdivide tu vivienda
@@ -56,7 +55,6 @@ Crédito Hipotecario
 Renueva o amplía tu hogar con financiación a tu medida.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/creditos/remodelacion-ampliacion)
 (imagen: maestro) (imagen: remodela-amplia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito Hipotecario
 
 ##### Compra de Cartera
@@ -97,9 +95,6 @@ Obtén descuentos exclusivos en la tasa de interés de tu crédito al trasladar 
 
 [Descargar aquí](https://portalpublico.bancodeoccidente.com.co/documents/d/guest/proyectos-subrogados-activos)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=creditos) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

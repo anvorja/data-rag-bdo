@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > tarjetas de crédito"
 fecha_extraccion: 2026-10-01
-caracteres: 6733
+caracteres: 6072
 paginas: null
-hash_contenido: f51997f679200c43
+hash_contenido: cc0d8872c2961f74
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Tarjetas de Crédito Clásicas | Banco de Occidente
@@ -58,7 +59,6 @@ Tarjeta de Crédito ideal para empezar tu vida crediticia
 - Premium
 - Con propósito
 - Mi primer Tarjeta
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Free
@@ -66,7 +66,6 @@ Tarjeta de Crédito
 Sin cuota de manejo y cashback del 3% en hoteles y más.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/credencial-free)
 (imagen: Visa Free) (imagen: Visa Free)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial Visa y Mastercard Clásicas
@@ -74,7 +73,6 @@ Tarjeta de Crédito
 Gana puntos Tuplús en cada compra y disfruta de asistencias.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/mastercard-visa-clasica)
 (imagen: Visa y Mastercard Clásicas) (imagen: Visa y Mastercard Clásicas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Credencial OcciFlex100% Digital
@@ -82,7 +80,6 @@ Tarjeta de Crédito
 50% de descuento permanente en tasa.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/tarjetas-credito/occiflex)
 (imagen: Visa Digital Occiflex) (imagen: Visa y Mastercard Clásicas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Mastercard Jóven
@@ -153,9 +150,6 @@ Puedes acceder a opciones diseñadas para personas sin historial o con perfil in
 ¿Dónde puedo ver el calendario de pagos?
 Puedes revisar el calendario aquí: [Calendario de Pagos](https://portalpublico.bancodeoccidente.com.co/documents/d/guest/calendario-pagos-2026)
 
-### Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Solicita en línea) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=tarjeta_credito) [(imagen: Chat) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Documentos
 Términos y Condiciones Campaña Segmentada Dualidad LATAM Pass

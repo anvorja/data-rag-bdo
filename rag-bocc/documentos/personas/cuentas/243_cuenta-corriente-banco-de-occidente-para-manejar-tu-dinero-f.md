@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > cuentas"
 fecha_extraccion: 2026-10-01
-caracteres: 5828
+caracteres: 5033
 paginas: null
-hash_contenido: c29d9fcc1af3dbea
+hash_contenido: 0643d57f08817999
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 3 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Cuenta Corriente Banco de Occidente para Manejar tu dinero fácil
@@ -113,7 +114,6 @@ Descargar
 Términos y Condiciones - Activa tu TC Unicef
 Descargar
 Solicítala hoy y disfruta beneficios exclusivos.
-Aquí va la descripción del mensaje. Proporcione detalles relevantes y útiles para guiar al usuario sobre el contenido de esta sección.
 (imagen: Icono WhatsApp)
 
 #### Adquiérelo con un asesor
@@ -164,7 +164,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Productos relacionados
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta de nomina
@@ -172,7 +171,6 @@ Cuentas
 Recibe tu salario rápidamente y disfruta de múltiples ventajas.
 [Conoce más](https://www.bancodeoccidente.com.co/cuentas/cuenta-nomina)
 (imagen: Pareja sonriendo) (imagen: Pareja sonriendo)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuentas
 
 ##### Cuenta para pensionados
@@ -180,7 +178,6 @@ Cuentas
 Maximiza tu pensión con rendimientos y servicios exclusivos.
 [Conoce más](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros-pensionados)
 (imagen: Pareja feliz) (imagen: Pareja feliz)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Crece tu dinero con nuestro CDT
@@ -188,7 +185,6 @@ Inversión
 Asegura tu futuro financiero con un CDT y gana más con tu dinero invertido.
 [Conoce más](https://www.bancodeoccidente.com.co/inversion/cdt)
 (imagen: Pareja realizando gesto de aprobación) (imagen: Pareja realizando gesto de aprobación)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Invierte en tu futuro
@@ -197,7 +193,4 @@ Optimiza tu patrimonio con nuestras opciones fiduciarias flexibles y rentables.
 [Conoce más](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: Hombre viendo su celular) (imagen: Hombre viendo su celular)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > ayuda"
 fecha_extraccion: 2026-10-01
-caracteres: 3476
+caracteres: 2908
 paginas: null
-hash_contenido: 65ac262ee52aaa8e
+hash_contenido: 1ef0a62f8d1e6341
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Líneas de Servicio al Cliente Banco de Occidente
@@ -88,7 +89,6 @@ Empieza ahora
 Recibe asesoría inmediata con uno de nuestros expertos.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -96,7 +96,6 @@ Cuenta de Ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Mujer con ahorros) (imagen: Mujer con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -104,7 +103,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Mujer de compras) (imagen: Mujer de compras)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -112,7 +110,6 @@ Tarjeta de Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre con billetes) (imagen: Hombre con billetes)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

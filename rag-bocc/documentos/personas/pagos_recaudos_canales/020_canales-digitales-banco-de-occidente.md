@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > canales digitales"
 fecha_extraccion: 2026-10-01
-caracteres: 3929
+caracteres: 3077
 paginas: null
-hash_contenido: ea3d0d7efef24920
+hash_contenido: 64bb12fdd34aec7d
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Canales Digitales Banco de Occidente
@@ -35,7 +36,6 @@ Todos tus productos, a un clic de distancia
 Gestiona tu dinero fácil y seguro desde nuestra app y web. ¡Sin filas, sin complicaciones, todo en tus manos!
 (imagen: Celular y portatil app banco occidente) (imagen: Celular y portatil app banco occidente)
 Conoce nuestros Canales Digitales y sus beneficios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Canales Digitales
 
 ##### Portal Transaccional
@@ -43,7 +43,6 @@ Canales Digitales
 Administra tus productos en un solo lugar, con total seguridad.
 [Conoce más](https://www.bancodeoccidente.com.co/canales-digitales/portal-transaccional)
 (imagen: portatil) (imagen: portatil)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Canales Digitales
 
 ##### Banca Móvil
@@ -83,7 +82,6 @@ Descargar
 Términos y condiciones Campaña “Abre, Paga y Gana”
 Descargar
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -91,7 +89,6 @@ Cuenta ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Alcancia) (imagen: Alcancia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -99,7 +96,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Maletin) (imagen: Maletin)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -107,7 +103,6 @@ Tarjeta Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjetas) (imagen: Tarjetas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

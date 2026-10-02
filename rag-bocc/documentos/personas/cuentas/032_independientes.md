@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > segmentos"
 fecha_extraccion: 2026-10-01
-caracteres: 15363
+caracteres: 12585
 paginas: null
-hash_contenido: 4d2ccd2f22f7670c
+hash_contenido: 1f4b657465989218
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 24 líneas de plantilla del CMS."
 ---
 
 # Independientes
@@ -115,7 +116,6 @@ Más información
 - Descuentos con tu tarjeta débito con nuestros aliados del mes * Legal: link de la página web.
 - Acceso fácil y ágil a través de los más de 3.800 Cajeros Automáticos de la Red Aval y más de 1.200 Oficinas de las entidades del Grupo Aval para realizar transacciones.
 - Acceso a la preventa de los conciertos con Experiencias Aval.
-Texto del botón
 
 ### CDT desmaterializado
 
@@ -127,7 +127,6 @@ Más información
 - Puedes solicitar la apertura digital a través de correo electrónico si el cliente * tiene * cuenta de ahorros o corriente Banco de Occidente.
 - Podrás pactar el abono de los intereses de manera mensual, bimestral o trimestral.
 - Cuenta con el seguro de depósitos Fogafin.
-Texto del botón
 
 ### Occirenta
 
@@ -139,7 +138,6 @@ Más información
 - Asume un bajo riesgo.
 - Transfiere fácilmente sin intermediarios y con los más altos estándares de seguridad.
 - Sin pacto de permanencia.
-Texto del botón
 
 ### Filiales Offshore
 
@@ -149,7 +147,6 @@ Más información
 - Tenemos opciones de inversión y ahorro en dólares desde USD $5.000.
 - Cuenta con la asesoría de un experto en moneda extranjera y diversifica tu portafolio de productos de ahorro e inversión.
 - Proyecta tus gastos en el exterior y ten cobertura cambiaria eliminando la relación riesgo/país.
-Texto del botón
 
 ### QR Entre cuentas
 
@@ -161,7 +158,6 @@ Más información
 - Acepta pagos desde cualquier entidad financiera sin restricciones.
 - Administra recaudos y devoluciones desde un portal especializado.
 - Protege cada transacción con medidas avanzadas de seguridad bancaria.
-Texto del botón
 (imagen: Préstamo libre inversión Banco de Occidente fácil y rápido)
 Crédito de
 
@@ -237,115 +233,96 @@ Viajes
 Premium
 Primera Tarjeta
 Con propósito
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### LATAM Pass Visa Gold
 
 Acumula millas y disfruta beneficios.
 Solicítala aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Credencial Free
 
 Sin cuota de manejo y cashback del 3%*.
 Solicítala aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mastercard Black
 
 5% de cashback en entretenimiento.
 Solicítala aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mastercard Platinum
 
 Promociones y beneficios exclusivos.
 Solicítala aquí
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Clásica LATAM Pass
 
 800 millas de bienvenida y hasta 10% de descuento anual en tiquetes.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Gold LATAM Pass
 
 1.200 millas de bienvenida y hasta 15% de descuento en tiquetes.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Platinum LATAM Pass
 
 2.000 millas de bienvenida, maleta adicional de 23 kg gratis.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Signature LATAM Pass
 
 3.500 millas de bienvenida, maleta adicional de 23 kg gratis.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mastercard Platinum
 
 Promociones y beneficios exclusivos con Mastercard.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Platinum
 
 Accede beneficios y aliados exclusivos de la franquicia.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mastercard Black
 
 Te damos 5% de cashback en entretenimiento.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Infinite
 
 Bono de bienvenida de 10.000 puntos del Programa Tuplús.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Credencial Free
 
 Sin cuota de manejo y cashback del 3% en hoteles y más.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa y Mastercard Clásicas
 
 Gana puntos Tuplús en cada compra y disfruta de asistencias.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa y Mastercard Gold
 
 Te damos 5% de cashback en entretenimiento.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Credencial OcciFlex 100% Digital
 
 Bono de bienvenida de 10.000 puntos del Programa Tuplús.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Credencial Santafé
 
 5% de cashback y 10% de descuento en intereses en compras.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Mastercard Unicef
 
 Con tus compras ayudas con la situación de la Guajira.
 [Solicítala aquí](https://.../)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 
 ##### Visa Mascotas
 

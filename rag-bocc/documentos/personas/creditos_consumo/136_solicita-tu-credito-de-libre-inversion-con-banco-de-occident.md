@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos"
 fecha_extraccion: 2026-10-01
-caracteres: 10562
+caracteres: 9902
 paginas: null
-hash_contenido: fc9a116049e5876e
+hash_contenido: db3a8779f86419d4
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Solicita tu Crédito de Libre Inversión con Banco de Occidente
@@ -195,7 +196,6 @@ Tips
 Aprende a manejar mejor tu dinero con consejos prácticos para ahorrar y gastar inteligentemente.
 Conoce más
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Compra de Cartera
 
 ### Libérate de tus deudas y paga menos
@@ -203,7 +203,6 @@ Compra de Cartera
 Unifica tus obligaciones y ahorra en intereses.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/compra-cartera)
 (imagen: Hombre leyendo documento) (imagen: Hombre leyendo documento)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Nómina
 
 ### Tu salario, con más beneficios
@@ -211,7 +210,6 @@ Cuenta de Nómina
 Recíbelo en nuestra cuenta de nómina y accede a tasas especiales.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuenta-nomina)
 (imagen: Hombre con dinero) (imagen: Hombre con dinero)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Tu tarjeta, tu mundo de posibilidades
@@ -219,7 +217,6 @@ Tarjeta de Crédito
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre con tarjeta de credito) (imagen: Hombre con tarjeta de credito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vivienda
 
 ### Haz de tu hogar el lugar de tus sueños
@@ -228,7 +225,4 @@ Renueva tus espacios con un crédito hecho para ti.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Familia feliz) (imagen: Familia feliz)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo con un asesor](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)

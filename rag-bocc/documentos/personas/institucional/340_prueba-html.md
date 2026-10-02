@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > otros"
 fecha_extraccion: 2026-10-01
-caracteres: 2241
+caracteres: 2099
 paginas: null
-hash_contenido: 0de1da045fd17d60
+hash_contenido: 4c711b36471c8e93
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 1 líneas de plantilla del CMS."
 ---
 
 # prueba html
@@ -76,7 +77,6 @@ Banco de Occidente
 
 Conoce los productos y beneficios diseñados para acompañarte en cada etapa, desde tus ahorros hasta tus proyectos más grandes.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 lable
 
 ##### Crédito de vehículos híbridos y eléctricos

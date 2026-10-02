@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > seguros > asistencia médica"
 fecha_extraccion: 2026-10-01
-caracteres: 3415
+caracteres: 2897
 paginas: null
-hash_contenido: f9f88e66cb36bd54
+hash_contenido: 131de01300b176ad
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."
 ---
 
 # Servicios de Asistencia en Salud Banco de Occidente
@@ -44,7 +45,6 @@ Seguros Banco de Occidente: Tu seguridad es nuestra prioridad
 - Vida Desempleo
 - Productos
 - Libranza
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Asistencias en Salud
 
 ##### Emermédica
@@ -52,7 +52,6 @@ Asistencias en Salud
 Consulta, orientación y urgencias médicas.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/emermedica)
 (imagen: imagen emermedica) (imagen: imagen emermedica mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Asistencias en Salud
 
 ##### Asistencias IGS
@@ -60,7 +59,6 @@ Asistencias en Salud
 Accede a asistencias médicas y domiciliarias.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/seguros/asistencia-igs)
 (imagen: imagen videollamada) (imagen: imagen videollamada mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Asistencias en Salud
 
 ##### Estamos Contigo
@@ -95,9 +93,6 @@ Déjanos tus datos y recibe asesoría personalizada para elegir el seguro ideal 
 [Dejar datos](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros)
 (imagen: imagen mujer deja tus datos) (imagen: imagen mujer deja tus datos mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=seguros) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

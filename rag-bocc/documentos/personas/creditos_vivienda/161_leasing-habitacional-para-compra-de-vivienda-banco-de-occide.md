@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > créditos > leasing habitacional"
 fecha_extraccion: 2026-10-01
-caracteres: 7709
+caracteres: 7049
 paginas: null
-hash_contenido: aac0118d3dfc0650
+hash_contenido: 50ea0d2f36c2e035
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Leasing Habitacional para Compra de Vivienda Banco de Occidente
@@ -40,7 +41,6 @@ Créditos para tus sueños y proyectos
 - Vehículo
 - Vivienda
 - Leasing Habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Habitacional
 
 ##### Compra tu vivienda nueva o usada
@@ -48,7 +48,6 @@ Leasing Habitacional
 Paga en cuotas fijas y hazte dueño de tu hogar.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/vivienda-autogestionado/?utm_source=web&utm_medium=HomeCreditos&utm_campaign=CardVivLeasing&utm_content=06_01_26)
 (imagen: Compra tu vivienda nueva o usada) (imagen: Compra tu vivienda nueva o usada)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Habitacional
 
 ##### Construcción de Vivienda propia
@@ -56,7 +55,6 @@ Leasing Habitacional
 Financia la construcción de tu casa ideal con nuestro leasing.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/creditos/construccion-vivienda-propia)
 (imagen: Construcción de Vivienda propia) (imagen: Construcción de Vivienda propia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Habitacional
 
 ##### Cesión de crédito
@@ -64,7 +62,6 @@ Leasing Habitacional
 Optimiza tus pagos y obtén beneficios adicionales.
 [Conoce más aquí](https://www.bancodeoccidente.com.co/creditos/cesion-leasing-habitacional)
 (imagen: Cesión de crédito) (imagen: Cesión de crédito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Leasing Habitacional
 
 ##### Financiación de mejoras
@@ -125,9 +122,6 @@ Si decides vender el inmueble antes de finalizar el plazo, el proceso es muy sen
 ¿Se puede financiar una vivienda usada a través de Leasing Habitacional?
 Sí, el Leasing Habitacional aplica tanto para proyectos de vivienda nueva como para inmuebles usados (No VIS). En el caso de viviendas usadas, el inmueble debe someterse a un avalúo comercial y un estudio técnico aprobados por el banco para verificar que la estructura esté en óptimas condiciones y asegurar tu inversión.
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=personas&tipo_producto=creditos) [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tus metas: tips y consejos
 Te puede interesar

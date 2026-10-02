@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > legal políticas"
 fecha_extraccion: 2026-10-01
-caracteres: 18960
+caracteres: 18392
 paginas: null
-hash_contenido: 841962856ecf0a28
+hash_contenido: f65109d0d2d9dfb7
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Términos y Condiciones | Banco de Occidente
@@ -125,7 +126,6 @@ Conoce más
 ### Consulta nuestras políticas de: [Redes Sociales](https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/footer/politicas/politicas-de-redes-sociales) [Cookies](https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/footer/politicas/politicas-de-cookies) [Tratamiento de Datos Personales](https://www.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/footer/politicas/politica-de-tratamiento-de-datos-personales)
 
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre inversión
 
 ##### Dinero para lo que quieras, sin explicaciones
@@ -133,7 +133,6 @@ Libre inversión
 Obtén tu crédito y haz realidad tus planes con plazos flexibles.
 [Solicitala aquí](https://www.bancodeoccidente.com.co/creditos/prestamo-personal)
 (imagen: mujer con ahorros) (imagen: mujer con ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra con rentabilidad y sin complicaciones
@@ -141,7 +140,6 @@ Cuenta de Ahorros
 Protege tu dinero, hazlo crecer y úsalo cuando lo necesites.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/cuentas/cuenta-ahorros)
 (imagen: Alcancia) (imagen: Alcancia)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Créditos
 
 ##### Tu tarjeta, tu mundo de posibilidades
@@ -149,7 +147,6 @@ Tarjeta de Créditos
 Compra lo que necesitas y accede a promociones exclusivas.
 [Adquiérela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Hombre con tarjeta de credito) (imagen: Hombre con tarjeta de credito)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Crédito de Vehículo
 
 ##### Tu carro nuevo te espera, ¡maneja tu futuro!

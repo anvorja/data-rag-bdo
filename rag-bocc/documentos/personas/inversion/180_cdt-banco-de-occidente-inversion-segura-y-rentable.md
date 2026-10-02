@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > inversión"
 fecha_extraccion: 2026-10-01
-caracteres: 5697
+caracteres: 5037
 paginas: null
-hash_contenido: ed3d6d866d47198f
+hash_contenido: 48aca4ed8b4fd6df
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # CDT Banco de Occidente: Inversión Segura y Rentable
@@ -124,7 +125,6 @@ Deja tus datos aquí:
 Recibe asesoría personalizada para encontrar el CDT que mejor se adapte a tus necesidades.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ### Ahorra y haz crecer tu dinero
@@ -132,7 +132,6 @@ Cuenta de Ahorros
 Administra tu dinero y recibe intereses.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen ahorra silver) (imagen: imagen ahorra silver mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Fiduciaria
 
 ### Más control con un encargo fiduciario
@@ -140,7 +139,6 @@ Fiduciaria
 Gestiona tu inversión con flexibilidad y seguridad.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: imagen torre dorada) (imagen: imagen torre dorada mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ### Invierte sin fronteras
@@ -148,7 +146,6 @@ Inversión
 Accede a oportunidades globales y diversifica tu portafolio.
 [Invierte aquí](https://www.bancodeoccidente.com.co/inversion/offshore)
 (imagen: imagen invierte celular) (imagen: imagen invierte celular mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ### Tu tarjeta, tu mejor aliado
@@ -157,9 +154,6 @@ Compra con tranquilidad y disfruta de beneficios exclusivos.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: imagen tarjetas) (imagen: imagen tarjetas mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejar mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar.
 Te puede interesar

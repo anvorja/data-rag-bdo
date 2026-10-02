@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > inversión"
 fecha_extraccion: 2026-10-01
-caracteres: 9370
+caracteres: 7432
 paginas: null
-hash_contenido: d342eaf55e8732b8
+hash_contenido: 94524db05eaf596f
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."
 ---
 
 # Cuenta Offshore en Dólares | Banco de Occidente
@@ -131,63 +132,54 @@ Estamos contigo para ayudarte a proteger, diversificar y hacer crecer tu patrimo
 Moneda local
 Moneda extranjera
 Estrategias avanzadas
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Local
 
 ##### Renta Fija Recurrente
 
 Invierte en un fondo global de renta fija.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Local
 
 ##### Renta Fija Dinámica
 
 FIC en emisores A+ a AA+, con mayor rentabilidad esperada.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Local
 
 ##### Meta Decidida
 
 Fondo global de renta fija para perfil moderado.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ##### Cuenta de Ahorros en dólares
 
 Depósito en USD en Panamá para diversificar e invertir.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ##### Time Deposit
 
 Time Deposit en Panamá o Barbados con acceso a tarjeta internacional.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Moneda Extranjera
 
 ##### Cuenta Corriente en Occidental Bank Barbados
 
 Inversión en USD o EUR con rendimientos exentos en Barbados.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Estrategias Avanzadas
 
 ##### Depósito en Doble Moneda (DCD)
 
 Instrumento de inversión con rentabilidad superior al mercado.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Estrategias Avanzadas
 
 ##### Fondos de inversión en USD (Panamá)
 
 Portafolios globales desde USD 50.000 con gestión experta.
 Conoce más
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Estrategias Avanzadas
 
 ##### Sintético de inversión
@@ -247,7 +239,6 @@ Deja tus datos aquí:
 Recibe asesoría personalizada de nuestros expertos a traves de nuestro Whats App oficial están aquí para ayudarte.
 Chatea con nosotros
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta de Ahorros
 
 ##### Ahorra y haz crecer tu dinero
@@ -255,7 +246,6 @@ Cuenta de Ahorros
 Administra tu dinero y recibe intereses.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: imagen ahorra silver) (imagen: imagen ahorra silver mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Fiduciaria
 
 ##### Más control con un encargo fiduciario
@@ -263,7 +253,6 @@ Fiduciaria
 Gestiona tu inversión con flexibilidad y seguridad.
 [Solicítala ahora](https://www.bancodeoccidente.com.co/inversion/fondos-inversion)
 (imagen: imagen torre gold) (imagen: imagen torre gold)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Inversión
 
 ##### Invierte sin fronteras
@@ -271,7 +260,6 @@ Inversión
 Accede a oportunidades globales y diversifica tu portafolio.
 [Invierte aquí](https://www.bancodeoccidente.com.co/inversion/offshore)
 (imagen: imagen comunica gold) (imagen: imagen comunica gold mobile)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta de Crédito
 
 ##### Tu tarjeta, tu mejor aliado
@@ -280,9 +268,6 @@ Compra con tranquilidad y disfruta de beneficios exclusivos.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Imagen tarjetas) (imagen: imagen tarjetas mobile)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 Dejas mis datos [Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tips y consejos que te pueden interesar.
 Te puede interesar

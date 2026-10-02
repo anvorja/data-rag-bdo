@@ -17,12 +17,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > pagos masivos inmediatos"
 fecha_extraccion: 2026-10-01
-caracteres: 6002
+caracteres: 5434
 paginas: null
-hash_contenido: e2e7b9950bd8df30
+hash_contenido: f57dba7ea86bf857
 lote: "crawl2-paginas"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 4 líneas de plantilla del CMS."
 ---
 
 # Pagos Masivos Inmediatos - Empresas
@@ -74,26 +75,22 @@ Inicialmente disponible en Occired, y próximamente en otros canales del banco.
 Disponibilidad
 Inicialmente, estará disponible de **lunes a viernes hasta las 8:00 p. m.** Dentro de este horario, tú eliges el momento para realizar tus pagos a través del portal Occired.
 Canales disponibles
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Disponible
 
 ##### OcciRed
 
 Facilita pagos masivos inmediatos empresariales desde nuestro portal.
 [Conoce más](https://www.bancodeoccidente.com.co/en/web/empresas/canales-digitales/occired)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Host to Host
 
 Conéctate de forma automática con el Banco.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### SWIFT
 
 Realiza transferencias globales con rapidez y confiabilidad.
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Muy pronto
 
 ##### Oficinas

@@ -18,12 +18,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "PERSONAS > mesa dinero"
 fecha_extraccion: 2026-10-01
-caracteres: 3487
+caracteres: 2635
 paginas: null
-hash_contenido: cd15083068af14d3
+hash_contenido: 4eadf087bf25f808
 lote: "lote1"
 indexar: true
-flags: []
+flags: [plantilla_cms_limpiada]
+nota: "Se quitaron 6 líneas de plantilla del CMS."
 ---
 
 # Mesa de Dinero Banco de Occidente
@@ -36,7 +37,6 @@ Servicios diseñados para facilitar la toma de decisiones estratégicas y mejora
 (imagen: Hombre feliz viendo estadisticas) (imagen: Hombre feliz viendo estadisticas)
 Alternativas de Mesa de Dinero
 Te ofrecemos los siguientes servicios
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Mesa de Dinero
 
 ##### Envía y recibe recursos
@@ -44,7 +44,6 @@ Mesa de Dinero
 Realiza tus operaciones de compra y venta de divisas.
 [Conoce más](https://www.bancodeoccidente.com.co/mesa-dinero/operaciones-cambiarias)
 (imagen: Rendimientos) (imagen: Rendimientos)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Mesa de Dinero
 
 ##### Coberturas Financieras
@@ -83,7 +82,6 @@ Hazlo aquí
 Recibe asesoría personalizada
 Deja tus datos aquí:
 Te puede interesar
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Cuenta ahorros
 
 ##### Ahorra con beneficios exclusivos
@@ -91,7 +89,6 @@ Cuenta ahorros
 Guarda tu dinero de forma segura y accede a él cuando lo necesites.
 [Solicítala aquí](https://www.bancodeoccidente.com.co/creatucuentaahorros/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Ahorros) (imagen: Ahorros)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Libre Inversión
 
 ##### Haz realidad tus planes
@@ -99,7 +96,6 @@ Libre Inversión
 Obtén el dinero que necesitas para cualquier propósito.
 [Solicítalo ahora](https://www.bancodeoccidente.com.co/libre-inversion-autogestion-flujo-corto/?utm_source=web&utm_medium=TercerNivel&utm_campaign=Interesar)
 (imagen: Maletin) (imagen: Maletin)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Tarjeta Crédito
 
 ##### Tu aliada para comprar sin límites
@@ -107,7 +103,6 @@ Tarjeta Crédito
 Disfruta de compras seguras, beneficios exclusivos.
 [Adquierela aquí](https://www.bancodeoccidente.com.co/tarjetas-credito)
 (imagen: Tarjetas) (imagen: Tarjetas)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 CDT
 
 ##### Haz crecer tu dinero con seguridad

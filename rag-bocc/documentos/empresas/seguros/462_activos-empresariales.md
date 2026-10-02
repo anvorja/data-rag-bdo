@@ -19,12 +19,13 @@ fuente: "www.bancodeoccidente.com.co"
 etiquetas_origen:
   - "EMPRESAS > seguros"
 fecha_extraccion: 2026-10-01
-caracteres: 4031
+caracteres: 3229
 paginas: null
-hash_contenido: 0af348fbec20e9c0
+hash_contenido: dff75f5afefe00f9
 lote: "crawl2-paginas"
 indexar: true
-flags: [titulo_dudoso]
+flags: [plantilla_cms_limpiada, titulo_dudoso]
+nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."
 ---
 
 # Activos Empresariales
@@ -43,7 +44,6 @@ Seguros Empresariales
 - Tecnología
 - PYME
 - Vida Leasing no habitacional
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Activos Empresariales
@@ -51,7 +51,6 @@ Seguros Empresariales
 Asegura bienes e inversiones con respaldo financiero sólido.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/garantias-reales)
 (imagen: Señora Desk) (imagen: Señora Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Inmuebles Comerciales
@@ -59,7 +58,6 @@ Seguros Empresariales
 Protege tus inmuebles ante daños, robos e imprevistos.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/inmuebles-comerciales)
 (imagen: Edificio Desk) (imagen: Edificio Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Póliza Todo Riesgo Constructor
 
 ### Protección para Constructoras
@@ -67,7 +65,6 @@ Póliza Todo Riesgo Constructor
 Cubre daños materiales en obras de construcción en curso.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/todo-riesgo-dano-material)
 (imagen: Carrito Desk) (imagen: Carrito Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Póliza Todo Riesgo Construcción
 
 ### Riesgo Construcción
@@ -75,7 +72,6 @@ Póliza Todo Riesgo Construcción
 Asegura cada etapa del proceso constructivo de tu empresa.
 [Conoce más](https://www.bancodeoccidente.com.co/web/empresas/seguros/todo-riesgo-construccion)
 (imagen: Industrial Desk) (imagen: Industrial Mob)
-Agregue una imagen tamaño aproximado o doble de 160px de ancho X 185px del alto para Desktop y para Mobiles de 460px de ancho X 168px de alto
 Seguros Empresariales
 
 ### Activo Protegido Decenal
@@ -110,9 +106,6 @@ Déjanos tus datos y recibe asesoría para elegir el seguro ideal para tu empres
 [Quiero ser contactado](https://www.bancodeoccidente.com.co/web/empresas/productos)
 (imagen: Protege Desk) (imagen: Protege Mob)
 
-## Título máximo de caracteres 60
-
-Por favor digitar máximo 240 caracteres en este párrafo.
 [(imagen: Icono del botón) Solicítalo en línea](https://www.bancodeoccidente.com.co/ayuda/agendar-cita-asesor?segmento=empresas&tipo_producto=seguros) [(imagen: Icono del botón) Escríbenos](https://api.whatsapp.com/send?phone=573186714836)
 Tu metas: tips y consejos
 Foro
