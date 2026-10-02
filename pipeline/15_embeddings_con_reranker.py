@@ -12,7 +12,8 @@ from evaluar import Evaluador, cargar_golden
 from vigencia import doc_ok
 
 ap = argparse.ArgumentParser(); ap.add_argument('--modelos', nargs='+', required=True); ap.add_argument('--split', default='dev'); ap.add_argument('--topk', type=int, default=20)
-args = ap.parse_args()
+ap.add_argument('--sufijo', default='')
+args = ap.parse_args(); sufijo = args.sufijo
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
 rows = [json.loads(l) for l in open(B + 'rag-bocc/corpus.jsonl')]
 est = {r['id']: r['estado_vigencia'] for r in rows}
@@ -31,8 +32,15 @@ def puntuar(q, cand):
     return sorted(((i, par[(q, i)]) for i in cand), key=lambda x: -x[1])
 res = {}
 for m in args.modelos:
-    z = np.load(B + f'_raw/emb/q__{m}.npz', allow_pickle=True); Q = dict(zip(z['textos'].tolist(), z['emb']))
-    fn = B + f'_raw/emb/{m}__estructural__ctx1.npy'
+    if m == 'e5':    # línea base local: las consultas se codifican al vuelo con «query: »
+        from sentence_transformers import SentenceTransformer
+        mod = SentenceTransformer('intfloat/multilingual-e5-small', device='cpu')
+        cons = sorted({t for q in gold if q['fuentes'] for t in [q['pregunta']] + q.get('variantes', [])})
+        Q = dict(zip(cons, mod.encode(['query: ' + q for q in cons], normalize_embeddings=True, batch_size=64)))
+        fn = B + '_raw/emb/multilingual-e5-small__estructural__ctx1.npy'
+    else:
+        z = np.load(B + f'_raw/emb/q__{m}.npz', allow_pickle=True); Q = dict(zip(z['textos'].tolist(), z['emb']))
+        fn = B + f'_raw/emb/{m}__estructural__ctx1.npy'
     assert json.load(open(fn.replace('.npy', '.ids.json'))) == ids
     E = np.load(fn); cd = {}; cr = {}
     def den(q):
@@ -47,4 +55,4 @@ for m in args.modelos:
     t = time.time(); r = ev.evaluar(f); res[m] = r
     a, v = r['todos|pregunta'], r['todos|variante']
     print(f"{m:20s} +bge top{args.topk}  doc@10 {a['doc@10']:.3f} cita@1 {a['cita@1']:.3f} cita@5 {a['cita@5']:.3f} cita@10 {a['cita@10']:.3f} mrr {a['mrr']:.3f} | var cita@1 {v['cita@1']:.3f} cita@10 {v['cita@10']:.3f} mrr {v['mrr']:.3f} ({time.time()-t:.0f}s)", flush=True)
-    json.dump(res, open(B + f'rag-bocc/evaluacion/fase3a/embeddings-reranker-{args.split}.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump(res, open(B + f'rag-bocc/evaluacion/fase3a/embeddings-reranker-{args.split}{sufijo}.json', 'w'), ensure_ascii=False, indent=1)
