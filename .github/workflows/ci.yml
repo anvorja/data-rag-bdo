@@ -33,6 +33,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Reconstruir corpus.jsonl desde los .md (prueba de que un clon limpio funciona)
+        run: python pipeline/20_reconstruir_corpus.py
       - name: Validar corpus, golden set, tamaños y patrones de secretos
         run: python pipeline/validate.py
       - name: Escaneo de secretos con gitleaks (historial completo)
