@@ -18,10 +18,31 @@ Así una respuesta no puede citar una página que no existe ni inventar una vige
    - pregunta ambigua → `aclarar` (una pregunta corta);
    - el resto → `responder`, si el paso 5 lo permite.
 4. **Recuperación** (lo medido en la fase 3a): BM25 + denso (RRF) → política **blanda** de vigencia (`vigencia.doc_ok_blanda`) → reranker top-20 (en desarrollo y pruebas: Voyage rerank-3) → entre 3 y 5 fragmentos.
-5. **Suficiencia:** el umbral de recuperación **no basta** para abstenerse (AUROC 0,83). Un verificador (LLM con instrucción de «¿estos fragmentos contienen la respuesta?») decide `responder` o `abstenerse`. Se mide con las preguntas `sin_respuesta` y `fuera_alcance` del golden.
+5. **Suficiencia:** el umbral de recuperación de la fase 3a **no basta** para abstenerse (AUROC 0,83). Dos verificadores en `pipeline/fase3b/suficiencia.py`: el **puntaje del reranker Voyage rerank-3** (sin LLM, ya medido: ver «Verificador de suficiencia») y un **LLM juez** (DeepSeek u OpenAI, armado y sin medir hasta que haya clave). Ambos se pueden combinar.
 6. **Generación:** el LLM recibe los fragmentos numerados `[1]…[n]` con su texto y responde en JSON (esquema abajo).
 7. **Verificación determinista** (`contrato.verificar`). Si falla algún control, se reintenta una vez con el error como instrucción; si vuelve a fallar, se cambia a `abstenerse` y se registra el caso.
 8. **Armado final:** el código añade las citas (URL, título, página) y los avisos de vigencia; el cliente ve el texto, las fuentes y los avisos.
+
+## Verificador de suficiencia (medido con Voyage, 2026-10-03)
+Voyage no ofrece un LLM de chat (solo embeddings y rerankers), así que «el verificador con Voyage» usa el **puntaje de relevancia de rerank-3** del mejor fragmento: `por_rerank(puntajes, umbral)`.
+Se calculó sobre el híbrido + política blanda de vigencia, top-20 (`python pipeline/24_suficiencia.py`; 360 consultas, ~3,0 M de tokens, 31 s). Muestra de `dev`: **27 preguntas sin respuesta** (incluye fuera de alcance, datos personales y adversariales) y **333 respondibles** (con variantes coloquiales). Salida: `rag-bocc/evaluacion/fase3b/suficiencia-dev.json`.
+| Señal | AUROC | Umbral | Abstención correcta | Rechazo falso |
+|---|---|---|---|---|
+| Línea base 3a (coseno e5) | 0,83 | – | – | – |
+| rerank-3, mejor fragmento | **0,976** | 0,7617 (rechazo falso ≤ 10 %) | 96,3 % (26 de 27) | 9,9 % |
+| rerank-3, media de los 3 mejores | 0,966 | 0,668 (rechazo falso ≤ 10 %) | 81,5 % | 9,9 % |
+Por tipo, con el umbral 0,7617: fuera de alcance 4/4, datos personales 4/4, adversariales 6/6, `sin_respuesta` 12/13.
+**Lectura honesta:**
+- Mejora mucho la línea base, pero un **rechazo falso del ~10 %** significa que 1 de cada 10 preguntas respondibles se contestaría «no tengo esa información»; es un costo real para el cliente. Con el umbral balanceado (0,7539) baja a 8,1 %.
+- La muestra de preguntas sin respuesta es **pequeña (27)**: el margen de error es grande, y el umbral se eligió **sobre los mismos datos** que se miden (cifras optimistas). No se ha usado el conjunto de prueba.
+- El umbral vale para **rerank-3 con este corpus y este chunking**; si cambia el reranker (o se pasa a `bge`), el corpus o el prefijo de contexto, hay que recalibrar con `24_suficiencia.py`.
+- El golden es «plata» (sin validación experta): conviene que expertos revisen las 27 preguntas sin respuesta.
+- El rerank-3 no distingue «el tema está pero falta el dato» de «hay respuesta» tan bien como lo haría un lector; por eso se arma también el LLM juez, para medir si la combinación baja el rechazo falso.
+
+### LLM juez (armado, sin medir)
+`suficiencia.por_llm(pregunta, fragmentos, proveedor)` pide un JSON `{"suficiente": bool, "motivo": str}` con temperatura 0; ante respuesta ilegible se abstiene. Se mide con `python pipeline/24_suficiencia.py --llm deepseek` (o `openai`), que además informa la combinación «cualquiera de los dos pide abstenerse» y «ambos».
+**Dónde poner la clave:** en el archivo `.env` de la raíz del proyecto (ignorado por git), línea `DEEPSEEK_API_KEY=<tu clave>`; para OpenAI, `OPENAI_API_KEY` (ya existe) y además `OPENAI_MODEL_JUEZ=<nombre del modelo de chat>`. Luego `set -a; . ./.env; set +a`. Nunca en el código ni en el chat.
+Los casos del golden son preguntas sintéticas sin datos personales; en producción el texto del cliente pasa por la capa de enmascaramiento antes de llegar a cualquier LLM.
 
 ## Esquema de salida del modelo
 ```json
@@ -88,7 +109,7 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 |---|---|
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento de nombres, cédulas y cuentas | por construir; medir falsos negativos |
-| Verificador de suficiencia | por construir y medir con `sin_respuesta` y `fuera_alcance` |
+| Verificador de suficiencia | con rerank-3 medido (AUROC 0,976, rechazo falso ≈ 10 %); el LLM juez está armado y falta medirlo cuando haya clave de DeepSeek |
 | WhatsApp de quejas | por confirmar con el banco |
 | Documentos internos | solo público hasta que haya autenticación; diseño de colección aparte pendiente de seguridad |
 | Preguntas multi-turno (seguimiento) | el contrato cubre un turno; falta definir reescritura de la pregunta con el historial |
