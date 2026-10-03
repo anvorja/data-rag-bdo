@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: gobierno_corporativo
 segmento: inversionistas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 2446
 paginas: 1
 hash_contenido: e49b4f3ec3f7f341
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

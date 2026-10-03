@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: creditos_consumo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-01-01
+vigente_hasta: 2026-12-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 17478
 paginas: 7
 hash_contenido: f813dd27fe370c08
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

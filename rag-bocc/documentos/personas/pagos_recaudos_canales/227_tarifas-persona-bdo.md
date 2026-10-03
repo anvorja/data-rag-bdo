@@ -6,11 +6,11 @@ tipo_doc: tarifas_tasas
 area: pagos_recaudos_canales
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
-vigente_hasta: null
+vigente_hasta: 2026-09-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 84659
 paginas: 38
 hash_contenido: d1c6259c2c0361ed
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

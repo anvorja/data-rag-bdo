@@ -6,7 +6,7 @@ tipo_doc: informacion_relevante
 area: estados_financieros_inversionistas
 segmento: inversionistas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 3983
 paginas: 2
 hash_contenido: 4617e5d49fc0f569
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

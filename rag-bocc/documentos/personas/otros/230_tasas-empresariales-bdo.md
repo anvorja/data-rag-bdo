@@ -6,11 +6,11 @@ tipo_doc: tarifas_tasas
 area: otros
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-09-01
+vigente_hasta: 2026-09-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 10868
 paginas: 3
 hash_contenido: 1324d0409acc9577
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [tablas_numericas]
 ---

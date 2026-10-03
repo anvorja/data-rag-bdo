@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: creditos_vehiculo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 26914
 paginas: 29
 hash_contenido: 0f06ffa1f9545ee0
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

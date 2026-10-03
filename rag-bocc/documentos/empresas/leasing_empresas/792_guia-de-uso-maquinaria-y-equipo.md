@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: leasing_empresas
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2025
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 29105
 paginas: 9
 hash_contenido: f8820d0e11319e75
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

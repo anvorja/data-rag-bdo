@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: tributario
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vencido
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-06-01
+vigente_hasta: 2026-06-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 15324
 paginas: 7
 hash_contenido: a96a67e6f9cf3ab1
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

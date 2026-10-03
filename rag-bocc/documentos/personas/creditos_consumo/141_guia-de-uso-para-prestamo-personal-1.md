@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: creditos_consumo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2024
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 38840
 paginas: 19
 hash_contenido: 88cc465e9a1a964a
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

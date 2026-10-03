@@ -6,10 +6,10 @@ tipo_doc: guia_de_uso
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2013
 periodo_fin: null
-vigente_desde: 2013-01-01
+vigente_desde: null
 vigente_hasta: null
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
@@ -21,6 +21,7 @@ caracteres: 14919
 paginas: 8
 hash_contenido: 8052cde4930c2fe0
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -21,7 +21,8 @@ dev = cargar_golden(B, 'dev')
 ch = chunk_corpus(rows, 'estructural')
 from sentence_transformers import SentenceTransformer
 m = SentenceTransformer('intfloat/multilingual-e5-small', device='cpu'); m._nombre = 'e5'
-E1 = np.load(B + '_raw/emb/multilingual-e5-small__estructural__ctx1.npy')
+import almacen
+E1 = almacen.cargar(B, 'e5-small', 'estructural', 1, ch)
 bm1 = BM25([c['ctx'] + '\n' + c['texto'] for c in ch]); d1 = Densa(E1, m)
 
 def senales(q):

@@ -55,13 +55,31 @@ OpenAI ~7 min por su tope de 1 M tokens/min (el script lo espera). Consumo real:
 ## Cómo reproducirlo
 ```bash
 set -a; . ./.env; set +a                       # VOYAGE_API_KEY / OPENAI_API_KEY (ver .env.example)
-python pipeline/13_embeddings_api.py --modelos voyage-4 voyage-context-4 --ctx 1 0 --splits dev
+python pipeline/fase3a/embed.py e5-small       # local (CPU o GPU), incremental
+python pipeline/13_embeddings_api.py --modelos voyage-4 voyage-context-4 --ctx 1 0 --splits dev   # por API, incremental
 python pipeline/14_comparar_embeddings.py      # denso e híbrido por modelo
-python pipeline/15_embeddings_con_reranker.py --modelos voyage-context-4 voyage-4-large   # + reranker bge (CPU: lento)
+python pipeline/15_embeddings_con_reranker.py --modelos voyage-context-4 voyage-4-large e5-small   # + reranker bge (CPU: lento)
 ```
-Los vectores se guardan en `_raw/emb/` (no versionado). Convención: `<modelo>__<chunking>__ctx<0|1>.npy` + `.ids.json`
-(orden de los `cid` de fragmentos, que el evaluador verifica) y `q__<modelo>.npz` (vectores de consultas). Carpeta plana a propósito:
-el prefijo ya identifica el modelo y los scripts buscan por nombre; si crece mucho se pasa a una subcarpeta por modelo y se ajusta `13`/`14`/`15`.
+
+## Dónde se guardan y cómo se actualizan (cada mes cambian documentos)
+Carpeta no versionada `_raw/emb/`, una subcarpeta por modelo (`pipeline/fase3a/almacen.py`):
+```
+_raw/emb/<modelo>/estructural__ctx1.npy          vectores (n_fragmentos × dim), normalizados
+                 estructural__ctx1.ids.json      cid de cada fila
+                 estructural__ctx1.hashes.json   hash del texto codificado en cada fila (contexto + fragmento)
+                 consultas.npz                   vectores de las consultas del golden
+                 manifiesto.json                 modelo, dimensión, cuándo y cuánto se recalculó
+_raw/emb/api/uso.json                            tokens consumidos por las APIs de pago
+```
+**Actualización incremental:** al cambiar el corpus (tasas del mes, campañas, nuevas versiones), `alinear()` compara el hash de cada fragmento y solo recodifica lo nuevo o modificado.
+`voyage-context-4` recalcula los documentos completos que cambiaron, porque cada fragmento depende de su documento. Caso real del 2 de octubre de 2026 (tras validar vigencias y recapturar tarifas/tasas):
+**433 de 22.050 fragmentos** con contexto (80 sin contexto), de 34 documentos; e5-small tardó 2 minutos en CPU y Voyage unos 6 segundos y ~0,26 M tokens por modelo.
+`pipeline/18_organizar_embeddings.py` migró el formato plano anterior a esta disposición.
+
+## Colab con GPU (T4)
+`pipeline/colab/embeddings_colab.ipynb` ejecuta el mismo `embed.py` en Colab leyendo una carpeta `rag-bdo/` de Google Drive con la misma estructura del repositorio
+(`rag-bocc/corpus.jsonl`, `pipeline/fase3a/{chunking,almacen,embed}.py` y, opcional, `_raw/emb/<modelo>/` para ser incremental); deja los resultados en `rag-bdo/_raw/emb/<modelo>/`, que se descargan y copian al repositorio local.
+Sirve sobre todo para modelos grandes (bge-m3, e5-large) y para el reranker, que en CPU tardan horas; para la actualización mensual de e5-small la CPU basta.
 
 ## Pendiente
 - ~~Híbrido + reranker `bge`~~ hecho: sin diferencias apreciables entre modelos. Falta medir e5+bge en las variantes coloquiales para cerrar la comparación.

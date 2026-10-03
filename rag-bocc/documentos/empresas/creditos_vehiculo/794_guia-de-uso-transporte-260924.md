@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: creditos_vehiculo
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2025
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 28084
 paginas: 10
 hash_contenido: 455b77c557d3972c
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vencido
 anio_documento: 2025
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2025-09-03
+vigente_hasta: 2025-10-31
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 9483
 paginas: 5
 hash_contenido: 801f8d5f25f5c01d
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

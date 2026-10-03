@@ -6,10 +6,10 @@ tipo_doc: tarifas_tasas
 area: tarjetas_credito
 segmento: personas
 idioma: es
-estado_vigencia: vencido
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
-vigente_desde: null
+vigente_desde: 2026-09-01
 vigente_hasta: 2026-09-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
@@ -21,6 +21,7 @@ caracteres: 58325
 paginas: 18
 hash_contenido: 9430d48b5f68e529
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [vigencia_vencida]
 ---

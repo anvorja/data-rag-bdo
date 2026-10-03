@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: creditos_vivienda
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2021
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 49108
 paginas: 17
 hash_contenido: 3c1c7b969b6fc6a6
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

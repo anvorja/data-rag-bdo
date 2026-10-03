@@ -6,11 +6,11 @@ tipo_doc: tarifas_tasas
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
-vigente_hasta: null
+vigente_hasta: 2026-09-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -23,6 +23,7 @@ hash_contenido: 7550d58363444c72
 lote: "lote1"
 casi_duplicado_de: 227
 similitud: 0.83
+vigencia_validada: true
 indexar: true
 flags: [casi_duplicado, sin_fecha]
 ---

@@ -6,7 +6,7 @@ tipo_doc: terminos_condiciones
 area: tarjeta_debito_digital
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -23,6 +23,7 @@ hash_contenido: 8de60b1e18e36973
 lote: "crawl2-documentos"
 casi_duplicado_de: 253
 similitud: 0.84
+vigencia_validada: true
 indexar: true
 flags: [casi_duplicado, sin_fecha]
 ---

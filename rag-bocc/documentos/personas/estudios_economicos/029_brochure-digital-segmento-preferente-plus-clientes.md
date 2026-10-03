@@ -6,7 +6,7 @@ tipo_doc: estudio_economico
 area: estudios_economicos
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 20180
 paginas: 14
 hash_contenido: 300296026fde001d
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

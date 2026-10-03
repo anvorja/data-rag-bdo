@@ -11,6 +11,7 @@ from chunking import chunk_corpus
 from retrieval import BM25, rrf
 from evaluar import Evaluador, cargar_golden
 from vigencia import doc_ok
+import almacen
 
 ap = argparse.ArgumentParser(); ap.add_argument('--split', default='dev', choices=['dev', 'test']); ap.add_argument('--modelos', nargs='*')
 args = ap.parse_args()
@@ -30,30 +31,25 @@ def bm(i, q):
 
 ya = {}
 def consultas_vec(m):
-    if m == 'e5':
+    if m == 'e5-small':
         from sentence_transformers import SentenceTransformer
         mod = SentenceTransformer('intfloat/multilingual-e5-small', device='cpu')
         return dict(zip(consultas, mod.encode(['query: ' + q for q in consultas], normalize_embeddings=True, batch_size=64)))
-    z = np.load(B + f'_raw/emb/q__{m}.npz', allow_pickle=True)
+    z = np.load(almacen.carpeta(B, m) + 'consultas.npz', allow_pickle=True)
     d = dict(zip(z['textos'].tolist(), z['emb']))
     faltan = [q for q in consultas if q not in d]
     assert not faltan, f'{m}: faltan {len(faltan)} consultas (corre 13_embeddings_api.py con --splits {args.split})'
     return d
 
 def modelos_disponibles():
-    ms = ['e5'] if os.path.exists(B + '_raw/emb/multilingual-e5-small__estructural__ctx1.npy') else []
-    for f in sorted(os.listdir(B + '_raw/emb')):
-        if f.endswith('__estructural__ctx1.npy') and not f.startswith('multilingual-e5'): ms.append(f.split('__')[0])
-    return ms
+    return [d for d in sorted(os.listdir(B + '_raw/emb')) if os.path.exists(B + f'_raw/emb/{d}/estructural__ctx1.npy')]
 
 res = {}
-for m in args.modelos or modelos_disponibles():
+for m in [almacen.nombre(x) for x in (args.modelos or modelos_disponibles())]:
     Q = consultas_vec(m)
     for ctx in (1, 0):
-        fn = B + f"_raw/emb/{'multilingual-e5-small' if m == 'e5' else m}__estructural__ctx{ctx}.npy"
-        if not os.path.exists(fn): continue
-        assert json.load(open(fn.replace('.npy', '.ids.json'))) == ids
-        E = np.load(fn); cd = {}
+        if not os.path.exists(almacen.base(B, m, 'estructural', ctx) + '.npy'): continue
+        E = almacen.cargar(B, m, 'estructural', ctx, ch); cd = {}
         def den(q):
             if q not in cd:
                 s = E @ Q[q]; top = np.argpartition(-s, 199)[:200]; top = top[np.argsort(-s[top])]; cd[q] = [(int(i), float(s[i])) for i in top]

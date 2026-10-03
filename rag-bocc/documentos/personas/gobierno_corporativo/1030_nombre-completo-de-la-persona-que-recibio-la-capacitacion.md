@@ -6,7 +6,7 @@ tipo_doc: asamblea_accionistas
 area: gobierno_corporativo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 2960
 paginas: 2
 hash_contenido: e320d88428e04581
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

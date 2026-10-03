@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: creditos_vivienda
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -23,6 +23,7 @@ hash_contenido: f6115bcf846d1e04
 lote: "lote1"
 casi_duplicado_de: 165
 similitud: 0.91
+vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]
 ---

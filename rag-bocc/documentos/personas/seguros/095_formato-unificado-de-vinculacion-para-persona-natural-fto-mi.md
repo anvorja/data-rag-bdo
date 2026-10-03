@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: seguros
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 364354
 paginas: null
 hash_contenido: 6ece980e6bb4712d
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

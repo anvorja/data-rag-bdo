@@ -10,6 +10,7 @@ from chunking import chunk_corpus
 from retrieval import BM25, rrf
 from evaluar import Evaluador, cargar_golden
 from vigencia import doc_ok
+import almacen
 
 ap = argparse.ArgumentParser(); ap.add_argument('--modelos', nargs='+', required=True); ap.add_argument('--split', default='dev'); ap.add_argument('--topk', type=int, default=20)
 ap.add_argument('--sufijo', default='')
@@ -32,17 +33,17 @@ def puntuar(q, cand):
     return sorted(((i, par[(q, i)]) for i in cand), key=lambda x: -x[1])
 res = {}
 for m in args.modelos:
-    if m == 'e5':    # línea base local: las consultas se codifican al vuelo con «query: »
+    m = almacen.nombre(m)
+    if m == 'e5-small':    # línea base local: las consultas se codifican al vuelo con «query: »
         from sentence_transformers import SentenceTransformer
         mod = SentenceTransformer('intfloat/multilingual-e5-small', device='cpu')
         cons = sorted({t for q in gold if q['fuentes'] for t in [q['pregunta']] + q.get('variantes', [])})
         Q = dict(zip(cons, mod.encode(['query: ' + q for q in cons], normalize_embeddings=True, batch_size=64)))
-        fn = B + '_raw/emb/multilingual-e5-small__estructural__ctx1.npy'
+        E = almacen.cargar(B, m, 'estructural', 1, ch)
     else:
-        z = np.load(B + f'_raw/emb/q__{m}.npz', allow_pickle=True); Q = dict(zip(z['textos'].tolist(), z['emb']))
-        fn = B + f'_raw/emb/{m}__estructural__ctx1.npy'
-    assert json.load(open(fn.replace('.npy', '.ids.json'))) == ids
-    E = np.load(fn); cd = {}; cr = {}
+        z = np.load(almacen.carpeta(B, m) + 'consultas.npz', allow_pickle=True); Q = dict(zip(z['textos'].tolist(), z['emb']))
+        E = almacen.cargar(B, m, 'estructural', 1, ch)
+    cd = {}; cr = {}
     def den(q):
         if q not in cd:
             s = E @ Q[q]; top = np.argpartition(-s, 199)[:200]; top = top[np.argsort(-s[top])]; cd[q] = [(int(i), float(s[i])) for i in top]

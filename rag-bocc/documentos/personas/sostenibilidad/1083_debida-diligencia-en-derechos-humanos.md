@@ -6,7 +6,7 @@ tipo_doc: informe_gestion_sostenibilidad
 area: sostenibilidad
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 23658
 paginas: 9
 hash_contenido: 2f7848e99e7e083f
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

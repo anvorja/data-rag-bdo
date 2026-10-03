@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: inversion
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 21309
 paginas: 7
 hash_contenido: b7989663a0ceff13
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

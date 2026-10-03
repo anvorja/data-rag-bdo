@@ -1,5 +1,5 @@
 """Fase 3a (paso 2): denso, híbrido (RRF), reranker, filtro de vigencia y abstención, sobre el set de DESARROLLO.
-Requiere los embeddings de pipeline/fase3a/embed.py (en _raw/emb). Uso: python 10_fase3a_denso_hibrido.py [--reranker mmarco|bge|ninguno]
+Requiere los embeddings de pipeline/fase3a/embed.py (en _raw/emb/e5-small). Uso: python 10_fase3a_denso_hibrido.py [--reranker mmarco|bge|ninguno]
 Salida: rag-bocc/evaluacion/fase3a/resultados-<split>-denso-hibrido[-<reranker>].json
 """
 import json, os, sys, time, argparse
@@ -18,11 +18,11 @@ est = {r['id']: r['estado_vigencia'] for r in rows}
 dev = cargar_golden(B, args.split)
 ch = chunk_corpus(rows, 'estructural')
 ev = Evaluador(ch, dev)
-assert [c['cid'] for c in ch] == json.load(open(B + '_raw/emb/multilingual-e5-small__estructural__ctx0.ids.json'))
 from sentence_transformers import SentenceTransformer
 modelo = SentenceTransformer('intfloat/multilingual-e5-small', device='cpu'); modelo._nombre = 'e5'
-E0 = np.load(B + '_raw/emb/multilingual-e5-small__estructural__ctx0.npy')
-E1 = np.load(B + '_raw/emb/multilingual-e5-small__estructural__ctx1.npy')
+import almacen
+E0 = almacen.cargar(B, 'e5-small', 'estructural', 0, ch)
+E1 = almacen.cargar(B, 'e5-small', 'estructural', 1, ch)
 bm0 = BM25([c['texto'] for c in ch]); bm1 = BM25([c['ctx'] + '\n' + c['texto'] for c in ch])
 d0, d1 = Densa(E0, modelo), Densa(E1, modelo)
 cache = {}

@@ -1,6 +1,6 @@
 # Muestra de revisión humana (≈10 % estratificada + 30 con alertas)
 
-141 documentos. Para cada uno, abrir el `.md` y el original (URL) y responder: **A** ¿el texto coincide con el original? · **B** ¿las tablas conservan filas/columnas y encabezados? · **C** ¿faltan secciones (acordeones, pestañas, anexos)? · **D** ¿hay cifras o pasos solo en imágenes? · **E** ¿etiquetas (`tipo_doc`, `area`, `segmento`) y vigencia correctas? · **F** ¿título correcto?
+143 documentos. Para cada uno, abrir el `.md` y el original (URL) y responder: **A** ¿el texto coincide con el original? · **B** ¿las tablas conservan filas/columnas y encabezados? · **C** ¿faltan secciones (acordeones, pestañas, anexos)? · **D** ¿hay cifras o pasos solo en imágenes? · **E** ¿etiquetas (`tipo_doc`, `area`, `segmento`) y vigencia correctas? · **F** ¿título correcto?
 
 | ✓ | id | segmento | tipo_doc | área | páginas | alertas | título | archivo |
 |---|---|---|---|---|---|---|---|---|
@@ -27,14 +27,15 @@
 | ☐ | 426 | empresas | producto_pagina | comercio_exterior_tesoreria |  | plantilla_cms_limpiada, titulo_dudoso | Conéctate con nosotros | `documentos/empresas/comercio_exterior_tesoreria/426_conectate-con-nosotros.md` |
 | ☐ | 443 | empresas | producto_pagina | pagos_recaudos_canales |  | plantilla_cms_limpiada, titulo_dudoso | Hazte Cliente | `documentos/empresas/pagos_recaudos_canales/443_hazte-cliente.md` |
 | ☐ | 450 | empresas | producto_pagina | pagos_recaudos_canales |  | plantilla_cms_limpiada | Recaudo Tarjetas - Empresas | `documentos/empresas/pagos_recaudos_canales/450_recaudo-tarjetas-empresas.md` |
-| ☐ | 453 | empresas | producto_pagina | cuentas |  | plantilla_cms_limpiada | Segmento Empresarial / Banco de Occidente - Empres | `documentos/empresas/cuentas/453_segmento-empresarial-banco-de-occidente-empresas.md` |
 | ☐ | 465 | empresas | producto_pagina | seguros |  | plantilla_cms_limpiada, titulo_dudoso | Equipamiento Tecnológico | `documentos/empresas/seguros/465_equipamiento-tecnologico.md` |
 | ☐ | 467 | empresas | producto_pagina | seguros |  | plantilla_cms_limpiada | Seguro Todo Riesgo Daño Material para Constructora | `documentos/empresas/seguros/467_seguro-todo-riesgo-dano-material-para-constructoras-empresas.md` |
+| ☐ | 475 | empresas | producto_pagina | tarjetas_credito |  | plantilla_cms_limpiada | Tarjeta de Crédito Mastercard Corporate / Banco de | `documentos/empresas/tarjetas_credito/475_tarjeta-de-credito-mastercard-corporate-banco-de-occidente-e.md` |
 | ☐ | 478 | empresas | producto_pagina | tarjetas_credito |  | plantilla_cms_limpiada | Soluciones de Recaudo en Línea / Banco de Occident | `documentos/empresas/tarjetas_credito/478_soluciones-de-recaudo-en-linea-banco-de-occidente-empresas.md` |
 | ☐ | 479 | empresas | producto_pagina | tarjetas_credito |  | plantilla_cms_limpiada | Tarjeta de Crédito Visa Corporativa / Banco de Occ | `documentos/empresas/tarjetas_credito/479_tarjeta-de-credito-visa-corporativa-banco-de-occidente-empre.md` |
 | ☐ | 813 | empresas | reglamento_politica | pagos_recaudos_canales | 2 |  | recaudo codigo de barras | `documentos/empresas/pagos_recaudos_canales/813_recaudo-codigo-de-barras.md` |
 | ☐ | 825 | empresas | seguro_brochure_clausulado | seguros | 25 |  | 29 mayoclausulado pyme segura red 2 | `documentos/empresas/seguros/825_29-mayoclausulado-pyme-segura-red-2.md` |
-| ☐ | 884 | empresas | tarifas_tasas | otros | 3 | tablas_numericas, casi_duplicado | tasas empresariales 2025 4 | `documentos/empresas/otros/884_tasas-empresariales-2025-4.md` |
+| ☐ | 1177 | empresas | tarifas_tasas | cuentas | 1 | version_nueva | tarifas empresariales bdo | `documentos/empresas/cuentas/1177_tarifas-empresariales-bdo.md` |
+| ☐ | 1178 | empresas | tarifas_tasas | otros | 1 | tablas_numericas, version_nueva | tasas empresariales bdo | `documentos/empresas/otros/1178_tasas-empresariales-bdo.md` |
 | ☐ | 806 | empresas | terminos_condiciones | otros | 1 | sin_fecha | tyc comware | `documentos/empresas/otros/806_tyc-comware.md` |
 | ☐ | 907 | empresas | tributario | tributario | 1 |  | calendario tributario noviembre 2026 | `documentos/empresas/tributario/907_calendario-tributario-noviembre-2026.md` |
 | ☐ | 1058 | inversionistas | asamblea_accionistas | gobierno_corporativo | 95 |  | ASAMBLEA ORDINARIA DE | `documentos/inversionistas/gobierno_corporativo/1058_asamblea-ordinaria-de.md` |
@@ -71,16 +72,16 @@
 | ☐ | 094 | personas | contrato_formato | cuentas | 7 |  | Contrato de productos y servicios persona natural | `documentos/personas/cuentas/094_contrato-de-productos-y-servicios-persona-natural.md` |
 | ☐ | 166 | personas | contrato_formato | creditos_vivienda |  |  | Contrato leasing habitacional vivienda familiar en | `documentos/personas/creditos_vivienda/166_contrato-leasing-habitacional-vivienda-familiar-en-uvr.md` |
 | ☐ | 950 | personas | contrato_formato | creditos_vehiculo |  |  | CONTRATO DE PRENDA SIN TENENCIA DEL ACREEDOR | `documentos/personas/creditos_vehiculo/950_contrato-de-prenda-sin-tenencia-del-acreedor.md` |
+| ☐ | 276 | personas | educacion_financiera | educacion_financiera |  |  | ¿Qué es una cuenta bancaria y cuáles son los difer | `documentos/personas/educacion_financiera/276_que-es-una-cuenta-bancaria-y-cuales-son-los-diferentes-tipos.md` |
 | ☐ | 277 | personas | educacion_financiera | educacion_financiera |  |  | ¿Quieres comprar vehículo usado? | `documentos/personas/educacion_financiera/277_quieres-comprar-vehiculo-usado.md` |
-| ☐ | 281 | personas | educacion_financiera | educacion_financiera |  |  | Conoce las ventajas de un Crédito de Libre Inversi | `documentos/personas/educacion_financiera/281_conoce-las-ventajas-de-un-credito-de-libre-inversion.md` |
 | ☐ | 006 | personas | empleo_cultura | institucional |  | titulo_dudoso | Dale play a todo tu potencial. | `documentos/personas/institucional/006_dale-play-a-todo-tu-potencial.md` |
 | ☐ | 368 | personas | empleo_cultura | institucional |  |  | Trabaja con nosotros | `documentos/personas/institucional/368_trabaja-con-nosotros.md` |
 | ☐ | 299 | personas | estado_financiero | estados_financieros_inversionistas | 168 |  | estados financieros separados 2025 | `documentos/personas/estados_financieros_inversionistas/299_estados-financieros-separados-2025.md` |
 | ☐ | 1049 | personas | estudio_economico | estudios_economicos | 101 |  | regimen cambiario 2019 pdf 1 | `documentos/personas/estudios_economicos/1049_regimen-cambiario-2019-pdf-1.md` |
 | ☐ | 1091 | personas | estudio_economico | estudios_economicos | 6 | candidato_vlm | plan de respuesta a incidentes | `documentos/personas/estudios_economicos/1091_plan-de-respuesta-a-incidentes.md` |
 | ☐ | 072 | personas | faq_ayuda | cumplimiento_riesgos |  | plantilla_cms_limpiada | Seguridad y Fraude Banco de Occidente | `documentos/personas/cumplimiento_riesgos/072_seguridad-y-fraude-banco-de-occidente.md` |
-| ☐ | 116 | personas | guia_de_uso | tarjetas_credito | 23 | sin_fecha | guias de uso unicef final | `documentos/personas/tarjetas_credito/116_guias-de-uso-unicef-final.md` |
-| ☐ | 163 | personas | guia_de_uso | creditos_vivienda | 18 |  | guia de producto leasing habitacional | `documentos/personas/creditos_vivienda/163_guia-de-producto-leasing-habitacional.md` |
+| ☐ | 1001 | personas | guia_de_uso | creditos_consumo | 16 | sin_fecha | guia de uso prestamo personal dinamico | `documentos/personas/creditos_consumo/1001_guia-de-uso-prestamo-personal-dinamico.md` |
+| ☐ | 139 | personas | guia_de_uso | creditos_consumo | 12 |  | guia de uso para credito de libranza | `documentos/personas/creditos_consumo/139_guia-de-uso-para-credito-de-libranza.md` |
 | ☐ | 181 | personas | guia_de_uso | inversion | 7 | sin_fecha | guia de uso cdt | `documentos/personas/inversion/181_guia-de-uso-cdt.md` |
 | ☐ | 744 | personas | guia_de_uso | creditos_consumo | 15 | casi_duplicado | guia de uso credito rotativo 1 | `documentos/personas/creditos_consumo/744_guia-de-uso-credito-rotativo-1.md` |
 | ☐ | 755 | personas | guia_de_uso | cuentas | 40 | sin_fecha | guia de uso cuenta activa | `documentos/personas/cuentas/755_guia-de-uso-cuenta-activa.md` |
@@ -99,17 +100,17 @@
 | ☐ | 1137 | personas | instructivo_canales | leasing_empresas | 8 | poco_texto_por_pagina, candidato_vlm | PAGO DE LEASINGS PROPIOS A TRAVÉS DE PSE | `documentos/personas/leasing_empresas/1137_pago-de-leasings-propios-a-traves-de-pse.md` |
 | ☐ | 1138 | personas | instructivo_canales | leasing_empresas | 8 | poco_texto_por_pagina, candidato_vlm | PAGO MÚLTIPLE DE LEASING | `documentos/personas/leasing_empresas/1138_pago-multiple-de-leasing.md` |
 | ☐ | 1143 | personas | instructivo_canales | pagos_recaudos_canales | 8 | candidato_vlm | Nuevo Portal Empresarial OcciRed | `documentos/personas/pagos_recaudos_canales/1143_nuevo-portal-empresarial-occired.md` |
-| ☐ | 1152 | personas | instructivo_canales | pagos_recaudos_canales | 12 | poco_texto_por_pagina, candidato_vlm | Administración de Beneficiarios | `documentos/personas/pagos_recaudos_canales/1152_administracion-de-beneficiarios.md` |
 | ☐ | 1158 | personas | instructivo_canales | pagos_recaudos_canales | 8 | poco_texto_por_pagina, candidato_vlm | CONFIGURACIÓN MONTOS USUARIOS SECUNDARIOS - PAGOS  | `documentos/personas/pagos_recaudos_canales/1158_configuracion-montos-usuarios-secundarios-pagos-pse.md` |
+| ☐ | 1159 | personas | instructivo_canales | pagos_recaudos_canales | 6 | poco_texto_por_pagina, candidato_vlm | CONFIGURACIÓN TOPES EMPRESA – PAGOS PSE | `documentos/personas/pagos_recaudos_canales/1159_configuracion-topes-empresa-pagos-pse.md` |
 | ☐ | 1160 | personas | instructivo_canales | pagos_recaudos_canales | 7 | poco_texto_por_pagina, candidato_vlm | MODIFICACIÓN TOPES EMPRESA | `documentos/personas/pagos_recaudos_canales/1160_modificacion-topes-empresa.md` |
-| ☐ | 1161 | personas | instructivo_canales | pagos_recaudos_canales | 9 | poco_texto_por_pagina, candidato_vlm | Nuevo Portal Empresarial OcciRed | `documentos/personas/pagos_recaudos_canales/1161_nuevo-portal-empresarial-occired.md` |
-| ☐ | 1166 | personas | instructivo_canales | otros | 4 | poco_texto_por_pagina, candidato_vlm | Instrucciones para cambio de clave de usuarios sec | `documentos/personas/otros/1166_instrucciones-para-cambio-de-clave-de-usuarios-secundarios.md` |
+| ☐ | 1164 | personas | instructivo_canales | pagos_recaudos_canales | 7 | poco_texto_por_pagina, candidato_vlm | CONFIGURACIÓN DE MONTOS POR SERVICIOS | `documentos/personas/pagos_recaudos_canales/1164_configuracion-de-montos-por-servicios.md` |
 | ☐ | 1174 | personas | instructivo_canales | otros | 5 | poco_texto_por_pagina, candidato_vlm | Perfilamiento servicios App Banco de Occidente Emp | `documentos/personas/otros/1174_perfilamiento-servicios-app-banco-de-occidente-empresas.md` |
 | ☐ | 259 | personas | legal_normativa | transversal_formatos_politicas |  | plantilla_cms_limpiada | Políticas Redes Sociales / Banco de Occidente | `documentos/personas/transversal_formatos_politicas/259_politicas-redes-sociales-banco-de-occidente.md` |
 | ☐ | 271 | personas | legal_normativa | transversal_formatos_politicas |  | plantilla_cms_limpiada | Términos y Condiciones / Banco de Occidente | `documentos/personas/transversal_formatos_politicas/271_terminos-y-condiciones-banco-de-occidente.md` |
 | ☐ | 035 | personas | otro | otros | 1 |  | doc empresas de grupo aval | `documentos/personas/otros/035_doc-empresas-de-grupo-aval.md` |
 | ☐ | 195 | personas | otro | seguros | 7 |  | 6914 condicionado sfc v3 | `documentos/personas/seguros/195_6914-condicionado-sfc-v3.md` |
 | ☐ | 222 | personas | otro | tarjetas_credito | 6 |  | termios y condiciones click to pay visa | `documentos/personas/tarjetas_credito/222_termios-y-condiciones-click-to-pay-visa.md` |
+| ☐ | 231 | personas | otro | externo | 11 | tablas_numericas | Comisiones cobradas por agregadores a comercios 07 | `documentos/personas/externo/231_comisiones-cobradas-por-agregadores-a-comercios-0726.md` |
 | ☐ | 933 | personas | otro | otros | 8 | poco_texto_por_pagina, candidato_vlm | fichas obras de arte ac | `documentos/personas/otros/933_fichas-obras-de-arte-ac.md` |
 | ☐ | 021 | personas | producto_pagina | pagos_recaudos_canales |  | plantilla_cms_limpiada | Portal Transaccional Banco de Occidente | `documentos/personas/pagos_recaudos_canales/021_portal-transaccional-banco-de-occidente.md` |
 | ☐ | 022 | personas | producto_pagina | pagos_recaudos_canales |  | plantilla_cms_limpiada | App Móvil Banco de Occidente | `documentos/personas/pagos_recaudos_canales/022_app-movil-banco-de-occidente.md` |
@@ -138,6 +139,7 @@
 | ☐ | 129 | personas | seguro_brochure_clausulado | seguros | 20 |  | condicionado asistencia hogar y empresas banco de  | `documentos/personas/seguros/129_condicionado-asistencia-hogar-y-empresas-banco-de-occidente.md` |
 | ☐ | 494 | personas | seguro_brochure_clausulado | pagos_recaudos_canales | 28 | poco_texto_por_pagina, candidato_vlm | brochure producto pyme | `documentos/personas/pagos_recaudos_canales/494_brochure-producto-pyme.md` |
 | ☐ | 1066 | personas | tarifas_tasas | tarjetas_credito | 17 | sin_fecha | tarifas persona 5 | `documentos/personas/tarjetas_credito/1066_tarifas-persona-5.md` |
+| ☐ | 230 | personas | tarifas_tasas | otros | 3 | tablas_numericas | tasas empresariales bdo | `documentos/personas/otros/230_tasas-empresariales-bdo.md` |
 | ☐ | 731 | personas | terminos_condiciones | tarjetas_credito | 6 | candidato_vlm | tyc tasa 0 dafiti | `documentos/personas/tarjetas_credito/731_tyc-tasa-0-dafiti.md` |
 | ☐ | 751 | personas | terminos_condiciones | tarjeta_debito_digital | 6 | casi_duplicado | tyc apple pay 2026 1 | `documentos/personas/tarjeta_debito_digital/751_tyc-apple-pay-2026-1.md` |
 | ☐ | 757 | personas | terminos_condiciones | creditos_consumo | 4 | sin_fecha | tyc impulso desembolsos libre inversion | `documentos/personas/creditos_consumo/757_tyc-impulso-desembolsos-libre-inversion.md` |

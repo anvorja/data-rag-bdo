@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: pagos_recaudos_canales
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 6437
 paginas: null
 hash_contenido: 910b103e8bad3866
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

@@ -6,7 +6,7 @@ tipo_doc: estudio_economico
 area: estudios_economicos
 segmento: personas
 idioma: mixto
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 2581
 paginas: 97
 hash_contenido: 614e08da5fdb816b
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

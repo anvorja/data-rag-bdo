@@ -6,7 +6,7 @@ tipo_doc: terminos_condiciones
 area: creditos_consumo
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 9238
 paginas: 4
 hash_contenido: 9d781459c3f79687
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [sin_fecha]
 ---

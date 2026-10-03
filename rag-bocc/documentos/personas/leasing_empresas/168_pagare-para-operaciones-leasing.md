@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: leasing_empresas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 12403
 paginas: null
 hash_contenido: 1794488054b26ffd
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

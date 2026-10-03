@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: transversal_formatos_politicas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 19789
 paginas: 24
 hash_contenido: a7725471af6c6d17
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]
 ---

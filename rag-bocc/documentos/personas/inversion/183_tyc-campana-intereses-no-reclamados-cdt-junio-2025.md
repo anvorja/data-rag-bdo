@@ -6,11 +6,11 @@ tipo_doc: terminos_condiciones
 area: inversion
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vencido
 anio_documento: 2025
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2025-06-16
+vigente_hasta: 2025-06-17
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 9060
 paginas: 4
 hash_contenido: bec1aa2228740be9
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

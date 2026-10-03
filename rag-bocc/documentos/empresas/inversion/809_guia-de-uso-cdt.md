@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: inversion
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2023
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 16668
 paginas: 7
 hash_contenido: 159c7bf5605e6211
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

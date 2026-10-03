@@ -6,11 +6,11 @@ tipo_doc: tarifas_tasas
 area: otros
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: historico
 anio_documento: 2025
 periodo_fin: null
-vigente_desde: null
-vigente_hasta: null
+vigente_desde: 2026-04-01
+vigente_hasta: 2026-04-30
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -23,6 +23,7 @@ hash_contenido: bf1cfa394cea4371
 lote: "crawl2-documentos"
 casi_duplicado_de: 230
 similitud: 0.91
+vigencia_validada: true
 indexar: true
 flags: [tablas_numericas, casi_duplicado]
 ---

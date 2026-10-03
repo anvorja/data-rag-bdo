@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: datos_personales
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2019
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 12487
 paginas: 3
 hash_contenido: 2597b0745839590a
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

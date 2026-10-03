@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: transversal_formatos_politicas
 segmento: empresas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 3554
 paginas: null
 hash_contenido: 2f76ebf90f461866
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

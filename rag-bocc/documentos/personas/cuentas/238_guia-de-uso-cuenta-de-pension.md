@@ -6,7 +6,7 @@ tipo_doc: guia_de_uso
 area: cuentas
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2021
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 19739
 paginas: 12
 hash_contenido: 7c607b972ed5c650
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

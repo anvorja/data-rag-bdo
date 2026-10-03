@@ -6,7 +6,7 @@ tipo_doc: emision_valores
 area: estados_financieros_inversionistas
 segmento: inversionistas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: null
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 40068
 paginas: 14
 hash_contenido: f529c9aeac4d5a8f
 lote: "crawl2-documentos"
+vigencia_validada: true
 indexar: true
 flags: []
 ---

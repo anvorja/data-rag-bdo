@@ -6,7 +6,7 @@ tipo_doc: contrato_formato
 area: creditos_vivienda
 segmento: personas
 idioma: es
-estado_vigencia: por_verificar
+estado_vigencia: vigente
 anio_documento: 2020
 periodo_fin: null
 vigente_desde: null
@@ -21,6 +21,7 @@ caracteres: 24978
 paginas: 8
 hash_contenido: ef01241d3d50297f
 lote: "lote1"
+vigencia_validada: true
 indexar: true
 flags: []
 ---
