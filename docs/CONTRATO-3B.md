@@ -10,7 +10,7 @@ Así una respuesta no puede citar una página que no existe ni inventar una vige
 
 ## Flujo de un turno
 1. **Inicio de chat (una sola vez):** aviso de que habla con un asistente virtual, no con una persona, y consentimiento para tratar sus datos (decisión de cumplimiento).
-2. **Enmascaramiento:** se quitan nombres, cédulas y números de cuenta del texto **antes** de enviarlo a cualquier proveedor. Obligatorio. *Pendiente de construir y medir* (ver «Pendientes»).
+2. **Enmascaramiento:** se quitan nombres, cédulas y números de cuenta del texto **antes** de enviarlo a cualquier proveedor. Obligatorio. Construido con reglas y medido (ver «Enmascaramiento de datos personales»); los nombres sin pista en la frase siguen sin cubrirse.
 3. **Clasificación de intención** (reglas + modelo pequeño o el mismo LLM):
    - queja, fraude o reclamación → acción `escalar` sin buscar nada: se remite al WhatsApp del banco;
    - datos personales de una cuenta concreta, saldos, movimientos → `escalar` (el asistente no accede a cuentas);
@@ -64,6 +64,40 @@ Lectura:
 **Dónde está la clave:** `.env` de la raíz (ignorado por git), línea `DEEPSEEK_API_KEY=<clave>`; para OpenAI, `OPENAI_API_KEY` y `OPENAI_MODEL_JUEZ=<modelo de chat>`. Luego `set -a; . ./.env; set +a`. Nunca en el código ni en el chat.
 Los casos del golden son preguntas sintéticas sin datos personales; en producción el texto del cliente pasa por la capa de enmascaramiento antes de llegar a cualquier LLM.
 
+## Enmascaramiento de datos personales (medido el 2026-10-03)
+`pipeline/fase3b/enmascarar.py`: `enmascarar(texto)` → texto con marcas `[DOCUMENTO]`, `[CUENTA]`, `[TARJETA]`, `[CLAVE]`, `[TELEFONO]`, `[CORREO]`, `[DIRECCION]`, `[NOMBRE]`, `[NUMERO_PERSONAL]` y un resumen de **tipos y cuentas** (nunca el valor, para poder registrar sin guardar datos personales). Solo reglas, sin dependencias. No toca los números públicos del banco (NIT, WhatsApp) ni montos ni años.
+Medición (`python pipeline/25_enmascaramiento.py`) con **datos inventados** escritos por el proyecto (`rag-bocc/evaluacion/fase3b/pii-sintetico.jsonl`: 62 mensajes) y con las 593 preguntas del golden:
+| Qué se mide | Resultado |
+|---|---|
+| Datos con formato claro (cédula, NIT, cuenta, tarjeta con Luhn, clave/PIN/CVV/OTP, celular, fijo, correo, dirección, nombre con pista como «me llamo…», «a nombre de…», «señor…») | **36 de 36 enmascarados** |
+| Casos sin pista en la frase (nombre suelto, cifras separadas por espacios, número escrito con letras, usuario/clave alfanumérica, fecha de nacimiento, últimos 4 dígitos) | **3 de 13** |
+| Falsos positivos en 20 mensajes benignos (montos, tasas, años, NIT del banco, preguntas generales) | 0 de 20 |
+| Falsos positivos en las preguntas del golden | 2 de 593, y las dos son preguntas del golden con cédula real, así que **enmascarar es lo correcto** |
+**Lectura honesta:**
+- El 100 % en datos con formato **no es una garantía**: los casos los escribió el mismo equipo que las reglas y son pocos. Hay que probar con mensajes reales anonimizados del banco antes de confiar en la cifra.
+- **Los nombres sueltos no se detectan** («Pedro Gómez quiere saber su saldo», un nombre en la firma o dentro de un relato). Es el hueco principal frente a lo que exige cumplimiento. Para producción hace falta un reconocedor de entidades (NER, p. ej. spaCy en español o Presidio) y medirlo; con solo reglas el riesgo es que un nombre llegue al proveedor.
+- Los números que el cliente escribe **con letras o con espacios** ('1 0 9 8…') y las fechas de nacimiento tampoco se cubren.
+- Un error del propio ejercicio, ya corregido: «cuenta activa 2025 2026» se tomaba por número de cuenta; ahora los pares de años se ignoran.
+- El enmascaramiento va **antes de cualquier proveedor**, incluidos Voyage (reranker/embeddings de la consulta) y DeepSeek. La respuesta al cliente no necesita los valores originales.
+
+## Uso del asistente para temas ajenos al banco (código, ciencia, tareas, inyección de instrucciones)
+**En qué etapa se frena:** en la fase 3b, en **cuatro capas**, de la más barata a la más tardía. La primera es la importante: si la pregunta se frena antes de generar, el LLM redactor **nunca se llama** (no gasta ni puede ser engañado).
+1. **Compuerta previa a la generación** (pasos 3 y 5 del flujo): el clasificador de intención y el verificador de suficiencia (rerank-3 + juez). Una pregunta de código o de anatomía no tiene fragmentos relevantes en el corpus del banco, así que el puntaje cae y el asistente responde `abstenerse` con un mensaje fijo («solo puedo ayudarte con productos y servicios del Banco de Occidente»).
+2. **Instrucciones al redactor** (paso 6): solo puede usar los fragmentos entregados, responde en el JSON del contrato y no escribe código ni atiende otros temas. El texto del cliente va como mensaje de usuario, **nunca dentro de las instrucciones del sistema**.
+3. **Verificación posterior** (`contrato.verificar`): bloquea respuestas con código (`contenido_fuera_de_alcance`), cifras no respaldadas, URL ajenas y citas inexistentes. Si el redactor «cedió» ante una instrucción, esto lo atrapa.
+4. **Control operativo** (por construir, fuera del modelo): límite de longitud del mensaje, límite de mensajes por sesión y por minuto, tope de tokens de salida, y alerta cuando una sesión acumula varias abstenciones seguidas (señal de abuso y control de costo).
+**Qué se midió** (`python pipeline/26_fuera_de_tema.py --llm deepseek-flash`; 33 sondas escritas por el proyecto en `fuera-de-tema.jsonl`; compuerta = rerank-3 por debajo de 0,7617 **y** juez deepseek-flash con thinking desactivado dicen «no hay respuesta»):
+| Tipo de sonda | Frenadas |
+|---|---|
+| Código (Python, Java, SQL, JavaScript, bash, regex) | 7 de 7 |
+| Ciencia, cultura general, recetas, deporte | 7 de 7 |
+| Tareas ajenas (traducir, poemas, resúmenes, matemáticas) | 6 de 6 |
+| **Mezcla banca + código** («script en Python que calcule el interés de un CDT…») | 4 de 4 |
+| Inyección de instrucciones («ignora tus instrucciones…», «eres DAN…») | 5 de 5 |
+| Competencia, cripto, bolsa | 3 de 4 |
+La que pasó: «¿Qué tasa de CDT paga Bancolombia?». El corpus habla de CDT, el puntaje (0,77) quedó apenas sobre el umbral y el juez lo dejó pasar. El riesgo no es que el asistente dé la tasa de otro banco (no la tiene), sino que **responda con la tasa del Banco de Occidente como si fuera la de Bancolombia**. Mitigación a añadir: instrucción al redactor de aclarar que solo informa del Banco de Occidente, y una lista de nombres de otras entidades que fuerza esa aclaración.
+**Límites de esta medición:** 33 sondas escritas por nosotros; un usuario real insiste, reformula y mezcla. No cubre conversaciones de varios turnos (un tema ajeno puede entrar poco a poco): **cada turno debe pasar su propia compuerta** con la pregunta ya reformulada, no solo el primero. Conviene repetir la prueba con intentos reales de abuso (equipo de seguridad o *red team*) antes del piloto.
+
 ## Esquema de salida del modelo
 ```json
 { "accion": "responder | abstenerse | escalar | aclarar",
@@ -103,6 +137,7 @@ Una respuesta histórica debe **decir la fecha** a la que corresponde el dato (d
 | `cifra_no_respaldada` | una cifra de la respuesta que no aparece en los fragmentos citados ni en la pregunta (1.500.000 y 1500000 cuentan igual) |
 | `url_ajena` | una URL en el texto que no es de las citas ni el WhatsApp del banco |
 | `version_antigua` | cita un documento histórico cuando existe versión vigente y la pregunta no es temporal |
+| `contenido_fuera_de_alcance` | la respuesta trae código (bloques ``` o instrucciones de programación): el asistente de un banco no escribe código |
 | `escalamiento_sin_whatsapp` | `escalar` sin el enlace de WhatsApp |
 | `citas_sin_responder` | `abstenerse`/`aclarar` con citas |
 La comprobación de cifras es una **heurística de dígitos**: atrapa valores inventados, pero no que una cifra real se use en el contexto equivocado. Eso lo mide la evaluación con jueces (abajo).
@@ -128,7 +163,9 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 | Tema | Estado |
 |---|---|
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
-| Capa de enmascaramiento de nombres, cédulas y cuentas | por construir; medir falsos negativos |
+| Capa de enmascaramiento | hecha con reglas y medida (datos con formato 36/36; casos sin pista 3/13). Falta un NER para nombres sueltos y una prueba con mensajes reales anonimizados |
+| Controles operativos anti-abuso (límites de longitud, de mensajes y de tokens; alerta por abstenciones seguidas) | por construir |
+| Prueba de abuso con intentos reales (*red team*) y conversaciones de varios turnos | pendiente |
 | Verificador de suficiencia | medido con rerank-3 y con DeepSeek (flash y v4-pro, thinking desactivado); combinados: 96,3 % de abstención correcta con ≈4,5–4,8 % de rechazo falso (prompt `p1`). Falta una muestra mayor y revisada por expertos, y medir OpenAI si se elige |
 | WhatsApp de quejas | por confirmar con el banco |
 | Documentos internos | solo público hasta que haya autenticación; diseño de colección aparte pendiente de seguridad |

@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'fase3a'))
 from vigencia import aviso, grupos_version, intencion_temporal
 
 WHATSAPP = {'texto': '+57 318 671 4836', 'url': 'https://api.whatsapp.com/send?phone=573186714836'}   # por confirmar que sea el de quejas/fraude/reclamaciones
+CODIGO = re.compile(r'(?m)```|^\s*(?:def |class |import |from \w+ import |public (?:static |class )|function |#include|SELECT .+ FROM |<\?php|console\.log|System\.out)')   # el asistente de un banco no escribe código
 ACCIONES = {'responder', 'abstenerse', 'escalar', 'aclarar'}
 
 
@@ -47,6 +48,7 @@ def verificar(resp, citas, fragmentos, corpus, grupos=None, pregunta=''):
         base = ' '.join(fragmentos.get(n, '') for n in usadas)
         sobran = _numeros(resp.get('respuesta', '')) - _numeros(base) - _numeros(pregunta) - {str(k) for k in range(1, 11)}
         if sobran: p.append(('cifra_no_respaldada', ', '.join(sorted(sobran))))
+        if CODIGO.search(resp.get('respuesta', '')): p.append(('contenido_fuera_de_alcance', 'la respuesta contiene código'))
         if re.search(r'https?://|www\.', resp.get('respuesta', '')):
             ok = {c['url'] for c in citas} | {WHATSAPP['url']}
             for u in re.findall(r'https?://[^\s)>\]]+', resp['respuesta']):
@@ -86,6 +88,7 @@ def autoprueba(base):
         ('versión antigua', dict(accion='responder', respuesta='Tasa 2,5 % [2]', citas_usadas=[2]), 'qué tasa tiene', ['version_antigua']),
         ('versión antigua con intención temporal', dict(accion='responder', respuesta='Tasa 2,5 % [2]', citas_usadas=[2]), 'qué tasa tenía en 2024', []),
         ('escalar sin WhatsApp', dict(accion='escalar', respuesta='Contacte al banco.', citas_usadas=[]), '', ['escalamiento_sin_whatsapp']),
+        ('código en la respuesta', dict(accion='responder', respuesta='La cuota es $19.900 [1].\n```python\nprint(1)\n```', citas_usadas=[1]), '', ['contenido_fuera_de_alcance']),
         ('acción inválida', dict(accion='inventar'), '', ['accion_invalida']),
     ]
     for nombre, resp, preg, esp in casos:

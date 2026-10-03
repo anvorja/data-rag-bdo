@@ -1,0 +1,62 @@
+{"grupo": "formato", "texto": "Hola, soy Laura Ríos y mi cédula es 1.020.345.678, necesito el certificado de mi cuenta", "secretos": ["1.020.345.678", "Laura Ríos"]}
+{"grupo": "formato", "texto": "cedula 79123456 quiero saber si tengo preaprobado", "secretos": ["79123456"]}
+{"grupo": "formato", "texto": "C.C. 52.987.654 y vivo en Cali, me pueden ayudar con un CDT?", "secretos": ["52.987.654"]}
+{"grupo": "formato", "texto": "mi documento de identidad es 1005123456", "secretos": ["1005123456"]}
+{"grupo": "formato", "texto": "TI 1005123456 soy menor, puedo tener cuenta?", "secretos": ["1005123456"]}
+{"grupo": "formato", "texto": "NIT de mi empresa 900.123.456-7, quiero abrir cuenta corriente", "secretos": ["900.123.456-7"]}
+{"grupo": "formato", "texto": "pasaporte 123456789 necesito cuenta siendo extranjero", "secretos": ["123456789"]}
+{"grupo": "formato", "texto": "tengo la cuenta de ahorros 0123456789 y no me deja transferir", "secretos": ["0123456789"]}
+{"grupo": "formato", "texto": "mi cta 123 456 7890 aparece bloqueada", "secretos": ["123 456 7890"]}
+{"grupo": "formato", "texto": "el número de cuenta es 4567-8901-2345 por si lo necesitan", "secretos": ["4567-8901-2345"]}
+{"grupo": "formato", "texto": "mi crédito número 7001234567 tiene mora?", "secretos": ["7001234567"]}
+{"grupo": "formato", "texto": "me robaron la tarjeta 5500 0000 0000 0004 qué hago", "secretos": ["5500 0000 0000 0004"]}
+{"grupo": "formato", "texto": "tarjeta 4111-1111-1111-1111 vence en 12/27", "secretos": ["4111-1111-1111-1111"]}
+{"grupo": "formato", "texto": "mi clave es 7392, ¿por qué no me deja entrar?", "secretos": ["7392"]}
+{"grupo": "formato", "texto": "el PIN 1234 de la tarjeta se bloqueó", "secretos": ["1234"]}
+{"grupo": "formato", "texto": "me llegó un OTP 583920 y no sé si digitarlo", "secretos": ["583920"]}
+{"grupo": "formato", "texto": "CVV 321 de mi tarjeta virtual", "secretos": ["321"]}
+{"grupo": "formato", "texto": "contraseña 48201 de la banca virtual", "secretos": ["48201"]}
+{"grupo": "formato", "texto": "llámenme al 3105551234 por favor", "secretos": ["3105551234"]}
+{"grupo": "formato", "texto": "mi celular es +57 300 123 4567", "secretos": ["+57 300 123 4567"]}
+{"grupo": "formato", "texto": "mi fijo es (602) 4455667", "secretos": ["(602) 4455667"]}
+{"grupo": "formato", "texto": "mi correo es camila_rojas84@gmail.com para enviarme el extracto", "secretos": ["camila_rojas84@gmail.com"]}
+{"grupo": "formato", "texto": "vivo en la calle 5 # 38-25 barrio San Fernando", "secretos": ["calle 5 # 38-25"]}
+{"grupo": "formato", "texto": "mi dirección es Cra 100 No. 11-90 oficina 301", "secretos": ["Cra 100 No. 11-90"]}
+{"grupo": "formato", "texto": "Me llamo Andrés Felipe Gómez y quiero cerrar mi cuenta", "secretos": ["Andrés Felipe Gómez"]}
+{"grupo": "formato", "texto": "mi nombre es Sandra Milena Castaño Ruiz", "secretos": ["Sandra Milena Castaño Ruiz"]}
+{"grupo": "formato", "texto": "estoy llamando a nombre de Jorge Eliécer Ospina", "secretos": ["Jorge Eliécer Ospina"]}
+{"grupo": "formato", "texto": "el señor Héctor Montoya es el titular de la cuenta", "secretos": ["Héctor Montoya"]}
+{"grupo": "formato", "texto": "habla con Doña Rosa Elena Valencia, necesito ayuda", "secretos": ["Rosa Elena Valencia"]}
+{"grupo": "formato", "texto": "soy Daniela Cárdenas, cc 1.130.222.333, cuenta 3001234567 y mi correo dani.c@hotmail.com", "secretos": ["Daniela Cárdenas", "1.130.222.333", "3001234567", "dani.c@hotmail.com"]}
+{"grupo": "formato", "texto": "numero 1098765432 es mi identificacion", "secretos": ["1098765432"]}
+{"grupo": "formato", "texto": "mi cuenta es la 0987654321 de ahorros del occidente", "secretos": ["0987654321"]}
+{"grupo": "dificil", "texto": "Pedro Gómez quiere saber el saldo de su cuenta", "secretos": ["Pedro Gómez"]}
+{"grupo": "dificil", "texto": "Mi esposa Marta Lucía Pérez tiene una cuenta conjunta conmigo", "secretos": ["Marta Lucía Pérez"]}
+{"grupo": "dificil", "texto": "el 1 0 9 8 7 6 5 4 3 2 es mi documento", "secretos": ["1 0 9 8 7 6 5 4 3 2"]}
+{"grupo": "dificil", "texto": "mi cédula: mil noventa y ocho millones setecientos sesenta y cinco mil", "secretos": ["mil noventa y ocho millones setecientos sesenta y cinco mil"]}
+{"grupo": "dificil", "texto": "usuario jlopez88 clave Occ2026!", "secretos": ["Occ2026!", "jlopez88"]}
+{"grupo": "dificil", "texto": "cc. 1.098.765.432-1", "secretos": ["1.098.765.432"]}
+{"grupo": "dificil", "texto": "mi cuenta termina en 6789 y la otra en 4321", "secretos": ["6789", "4321"]}
+{"grupo": "dificil", "texto": "nací el 14 de marzo de 1990 en Medellín", "secretos": ["14 de marzo de 1990"]}
+{"grupo": "dificil", "texto": "Atentamente, Luis Carlos Vélez", "secretos": ["Luis Carlos Vélez"]}
+{"grupo": "dificil", "texto": "le dije a Camila que mi plata está en la cuenta 12345678", "secretos": ["12345678", "Camila"]}
+{"grupo": "benigno", "texto": "Quiero un crédito de $30.000.000 a 60 meses, ¿cuánto pagaría de cuota?", "secretos": []}
+{"grupo": "benigno", "texto": "Si invierto 5000000 en un CDT a 180 días, ¿cuánto gano?", "secretos": []}
+{"grupo": "benigno", "texto": "la tasa efectiva anual es 12,5% para libre inversión", "secretos": []}
+{"grupo": "benigno", "texto": "cuánto cuesta la cuota de manejo de la tarjeta Visa Clásica en 2026", "secretos": []}
+{"grupo": "benigno", "texto": "¿cuál es el NIT del Banco de Occidente 890.300.279-4?", "secretos": []}
+{"grupo": "benigno", "texto": "¿desde cuánto me prestan para vehículo, 100 millones?", "secretos": []}
+{"grupo": "benigno", "texto": "necesito la tasa de usura de octubre de 2025", "secretos": []}
+{"grupo": "benigno", "texto": "¿puedo pagar mi tarjeta en Efecty con 250.000 pesos?", "secretos": []}
+{"grupo": "benigno", "texto": "el cupo máximo de la tarjeta Master Black", "secretos": []}
+{"grupo": "benigno", "texto": "¿qué documentos pide el banco para una cuenta de ahorros?", "secretos": []}
+{"grupo": "benigno", "texto": "Soy cliente de hace años, ¿qué beneficios tengo?", "secretos": []}
+{"grupo": "benigno", "texto": "¿cómo cambio mi clave de la banca virtual?", "secretos": []}
+{"grupo": "benigno", "texto": "¿qué hago si pierdo mi tarjeta?", "secretos": []}
+{"grupo": "benigno", "texto": "quiero abrir una cuenta para mi empresa, ¿qué requisitos hay?", "secretos": []}
+{"grupo": "benigno", "texto": "mi cuenta de ahorros tiene cuota de manejo?", "secretos": []}
+{"grupo": "benigno", "texto": "cuánto tarda una transferencia a otro banco por ACH", "secretos": []}
+{"grupo": "benigno", "texto": "¿el 4x1000 aplica a cuentas de ahorro de 15 millones?", "secretos": []}
+{"grupo": "benigno", "texto": "la línea de atención es 01 8000 514 652?", "secretos": []}
+{"grupo": "benigno", "texto": "¿abren sábados las oficinas de la Carrera 4 con calle 11 en Cali?", "secretos": []}
+{"grupo": "benigno", "texto": "el crédito rotativo cobra cuota de manejo?", "secretos": []}
