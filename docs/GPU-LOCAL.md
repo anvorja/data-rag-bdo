@@ -1,6 +1,6 @@
 # GPU local (NVIDIA GTX 1650 Ti) para el reranker: configuración paso a paso
 
-Estado: **en curso** (Fases A y B hechas; faltan C y D) (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
+Estado: **en curso** (Fases A y B hechas; C en curso; D pospuesta) (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
 GPU NVIDIA GeForce GTX 1650 Ti Mobile (TU117M, 4 GB) + Intel UHD integrada. Docker 29.8.2 ya instalado y el usuario pertenece al grupo `docker`.
 
 Objetivo: poder ejecutar el reranker abierto `BAAI/bge-reranker-v2-m3` (≈1,1 GB en fp16) en la GPU local, primero directo en Python y luego como servicio en un contenedor Docker.
@@ -57,10 +57,16 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 10. ☐ Configurar Docker: `sudo nvidia-ctk runtime configure --runtime=docker && sudo systemctl restart docker`.
 11. ☐ Probar: `docker run --rm --gpus all ubuntu nvidia-smi` → debe mostrar la misma tarjeta dentro del contenedor.
 
-## Fase D — Reranker como servicio (contenedor)
+## Fase D — Reranker como servicio (contenedor) — POSPUESTA (ver «Decisión para desarrollo y pruebas»)
 12. ☐ Elegir el servidor: el servidor de inferencia de Hugging Face (Text Embeddings Inference, TEI) que, según su documentación, admite modelos de reranking como `bge-reranker`, **a confirmar**; o un servicio propio con FastAPI.
 13. ☐ Levantarlo con la GPU, descargar el modelo, medir latencia y calidad con el mismo golden set (endpoint tipo `POST /rerank` con la consulta y los 20 fragmentos).
 14. ☐ Documentar el comando exacto, los puertos, el volumen del modelo y los resultados aquí.
+
+## Decisión para desarrollo y pruebas (2026-10-03)
+- **Reranker en desarrollo y pruebas: Voyage rerank-3** (≈0,07 s por consulta; una evaluación de 335 consultas ≈2,8 M de tokens y tarda segundos). Fue el mejor medido, sobre todo en preguntas coloquiales, y el banco ya aceptó un reranker externo con enmascaramiento de datos personales. Es la misma opción prevista para producción, así que lo que se mide en desarrollo es lo que se desplegará.
+- **`bge-reranker-v2-m3` local queda como referencia** sin terceros, para comparar o si algún día se exige un reranker propio. En este equipo: **GPU en fp32** (`--dispositivo cuda --lote 8`, sin `--fp16`), ≈3,4 s por consulta y ≈20 min por evaluación; la CPU (~16 s por consulta, ≈90 min) solo si la GPU no está disponible.
+- **Fase C (Docker con GPU): se hace**, para dejar documentado cómo usar la GPU en contenedores (cualquier servidor con GPU parte de ahí).
+- **Fase D (reranker como servicio): pospuesta.** Con 3,4 s por consulta esta tarjeta no permite medir una latencia de producción y el resultado esperado ya se conoce, así que no cambia ninguna decisión. Se retoma solo si el banco dispone de una GPU de servidor y quiere evitar el reranker externo.
 
 ## Notas de diseño
 - Esta GPU (4 GB) sirve para **pruebas y desarrollo**. Para producción conviene un servidor con GPU dedicada o el servicio de reranking de un proveedor (el banco ya aceptó un reranker externo con enmascaramiento de datos personales; Voyage rerank-3 fue el mejor medido).
