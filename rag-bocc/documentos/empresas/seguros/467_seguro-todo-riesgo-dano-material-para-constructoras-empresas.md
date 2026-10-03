@@ -22,6 +22,7 @@ caracteres: 5152
 paginas: null
 hash_contenido: 4de575a202abfbd6
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Todo Riesgo Daño Material para Constructoras - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

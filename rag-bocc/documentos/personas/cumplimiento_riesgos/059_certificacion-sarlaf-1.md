@@ -21,6 +21,7 @@ caracteres: 9852
 paginas: 4
 hash_contenido: 3fd1a98ed4070dc2
 lote: "lote1"
+titulo_publico: "Certificación sarlaf"
 vigencia_validada: true
 indexar: true
 flags: []

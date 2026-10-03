@@ -21,6 +21,7 @@ caracteres: 189824
 paginas: 90
 hash_contenido: 9c806fcdc48c6491
 lote: "crawl2-documentos"
+titulo_publico: "Presentación asamblea ordinaria de accionistas 2023"
 indexar: true
 flags: []
 ---

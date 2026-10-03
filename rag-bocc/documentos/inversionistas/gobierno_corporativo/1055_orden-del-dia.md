@@ -21,6 +21,7 @@ caracteres: 2030
 paginas: 1
 hash_contenido: 2f415cd702b85877
 lote: "crawl2-documentos"
+titulo_publico: "Orden del día"
 indexar: true
 flags: []
 ---

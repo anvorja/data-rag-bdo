@@ -21,6 +21,7 @@ caracteres: 3976
 paginas: null
 hash_contenido: 1fada17e65ae8b06
 lote: "lote1"
+titulo_publico: "Seguro de Depósitos Fogafin"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

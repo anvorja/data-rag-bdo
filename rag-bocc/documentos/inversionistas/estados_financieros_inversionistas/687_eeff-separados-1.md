@@ -21,6 +21,7 @@ caracteres: 822880
 paginas: 203
 hash_contenido: f1f48f7b9dec15fa
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados"
 indexar: true
 flags: []
 ---

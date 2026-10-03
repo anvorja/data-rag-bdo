@@ -21,6 +21,7 @@ caracteres: 12224
 paginas: 7
 hash_contenido: 700d5c93e404fb61
 lote: "crawl2-documentos"
+titulo_publico: "Seguridad"
 indexar: true
 flags: [candidato_vlm]
 ---

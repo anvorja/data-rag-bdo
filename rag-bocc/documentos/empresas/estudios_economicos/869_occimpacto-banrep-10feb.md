@@ -21,6 +21,7 @@ caracteres: 18430
 paginas: 1
 hash_contenido: 2136657f75a1e675
 lote: "crawl2-documentos"
+titulo_publico: "Occimpacto banrep 10feb"
 indexar: true
 flags: []
 ---

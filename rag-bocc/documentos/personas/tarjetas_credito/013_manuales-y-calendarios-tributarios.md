@@ -23,6 +23,7 @@ caracteres: 610
 paginas: null
 hash_contenido: 2b4d860d95701d32
 lote: "lote1"
+titulo_publico: "Manuales y Calendarios Tributarios"
 indexar: true
 flags: [titulo_dudoso]
 ---

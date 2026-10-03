@@ -21,6 +21,7 @@ caracteres: 20880
 paginas: 9
 hash_contenido: cd7ab81cc2626f70
 lote: "lote1"
+titulo_publico: "Guest"
 indexar: true
 flags: []
 ---

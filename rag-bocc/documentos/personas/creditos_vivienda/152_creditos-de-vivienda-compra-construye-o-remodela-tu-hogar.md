@@ -22,6 +22,7 @@ caracteres: 3081
 paginas: null
 hash_contenido: b9036a5c44879021
 lote: "lote1"
+titulo_publico: "Créditos de Vivienda: Compra, Construye o Remodela tu Hogar"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 617881
 paginas: 85
 hash_contenido: 3ecc814185c593c5
 lote: "crawl2-documentos"
+titulo_publico: "Capítulo 2 informe gestión"
 indexar: true
 flags: [tablas_markdown]
 ---

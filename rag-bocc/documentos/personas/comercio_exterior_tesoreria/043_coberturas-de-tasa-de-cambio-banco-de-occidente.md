@@ -22,6 +22,7 @@ caracteres: 9677
 paginas: null
 hash_contenido: 2f5a829664517b1d
 lote: "lote1"
+titulo_publico: "Coberturas de Tasa de Cambio Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 13 líneas de plantilla del CMS."

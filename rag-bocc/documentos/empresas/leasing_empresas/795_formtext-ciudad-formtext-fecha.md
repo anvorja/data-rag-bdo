@@ -21,6 +21,7 @@ caracteres: 930
 paginas: null
 hash_contenido: 109b83dbef690d14
 lote: "crawl2-documentos"
+titulo_publico: "Formtext ciudad, formtext fecha"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 2539
 paginas: 1
 hash_contenido: 878e4a1c0277b473
 lote: "crawl2-documentos"
+titulo_publico: "Reforma estatutos 1"
 indexar: true
 flags: []
 ---

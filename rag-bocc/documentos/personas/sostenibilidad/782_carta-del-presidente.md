@@ -21,6 +21,7 @@ caracteres: 8447
 paginas: 1
 hash_contenido: ffd2d7534787c32c
 lote: "crawl2-documentos"
+titulo_publico: "Carta del presidente"
 indexar: true
 flags: []
 ---

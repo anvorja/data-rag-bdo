@@ -22,6 +22,7 @@ caracteres: 3171
 paginas: null
 hash_contenido: ee94d9de1ba0eb09
 lote: "lote1"
+titulo_publico: "App Móvil Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

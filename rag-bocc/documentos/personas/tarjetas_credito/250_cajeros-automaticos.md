@@ -21,6 +21,7 @@ caracteres: 5057
 paginas: null
 hash_contenido: 02b7852339eba42a
 lote: "lote1"
+titulo_publico: "Cajeros Automáticos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

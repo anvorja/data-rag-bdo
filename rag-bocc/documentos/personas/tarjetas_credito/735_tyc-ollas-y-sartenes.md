@@ -21,6 +21,7 @@ caracteres: 9938
 paginas: 5
 hash_contenido: f7d4b69956eabd45
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Ollas & sartenes hasta 66% dcto en alianza con Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

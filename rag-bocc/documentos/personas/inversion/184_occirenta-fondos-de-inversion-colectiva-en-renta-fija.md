@@ -22,6 +22,7 @@ caracteres: 6095
 paginas: null
 hash_contenido: 3241c6a67ed9bf2d
 lote: "lote1"
+titulo_publico: "Occirenta: Fondos de Inversión Colectiva en Renta Fija"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

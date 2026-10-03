@@ -22,6 +22,7 @@ caracteres: 3698
 paginas: null
 hash_contenido: 6d4302835e11e2a1
 lote: "crawl2-paginas"
+titulo_publico: "Tarjetas de Crédito Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."

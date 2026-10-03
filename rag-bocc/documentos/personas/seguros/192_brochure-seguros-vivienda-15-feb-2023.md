@@ -21,6 +21,7 @@ caracteres: 16729
 paginas: 24
 hash_contenido: 4f8e15f981027d64
 lote: "lote1"
+titulo_publico: "Brochure seguros vivienda 15 feb 2023"
 indexar: true
 flags: [ocr]
 ---

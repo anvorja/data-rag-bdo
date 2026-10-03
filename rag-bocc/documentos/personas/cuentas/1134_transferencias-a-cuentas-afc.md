@@ -21,6 +21,7 @@ caracteres: 4151
 paginas: 10
 hash_contenido: 9022d96096bf0be4
 lote: "crawl2-documentos"
+titulo_publico: "Transferencias a cuentas afc"
 indexar: true
 flags: [candidato_vlm]
 ---

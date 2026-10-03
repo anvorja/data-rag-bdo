@@ -21,6 +21,7 @@ caracteres: 14223
 paginas: 6
 hash_contenido: 2b6765656c13bab5
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Impulsa tu Kubo Rentable 2026»"
 vigencia_validada: true
 indexar: true
 flags: []

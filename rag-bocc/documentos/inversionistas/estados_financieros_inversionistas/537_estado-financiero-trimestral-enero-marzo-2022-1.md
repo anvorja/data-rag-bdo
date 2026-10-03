@@ -21,6 +21,7 @@ caracteres: 206722
 paginas: 48
 hash_contenido: cb61a92111b19c23
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero trimestral enero marzo 2022"
 indexar: true
 flags: []
 ---

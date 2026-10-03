@@ -22,6 +22,7 @@ caracteres: 3105
 paginas: null
 hash_contenido: b2c506aa386efa8f
 lote: "crawl2-paginas"
+titulo_publico: "Host to Host"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

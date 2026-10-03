@@ -21,6 +21,7 @@ caracteres: 23102
 paginas: 16
 hash_contenido: 6f2abe7e02a92260
 lote: "lote1"
+titulo_publico: "Brochure elite 2025"
 indexar: true
 flags: [candidato_vlm]
 ---

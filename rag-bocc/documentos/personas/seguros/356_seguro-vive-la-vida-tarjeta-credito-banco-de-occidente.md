@@ -22,6 +22,7 @@ caracteres: 4239
 paginas: null
 hash_contenido: 2641486cf6ba7642
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Vive la vida Tarjeta Crédito Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

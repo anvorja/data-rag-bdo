@@ -21,6 +21,7 @@ caracteres: 1152
 paginas: null
 hash_contenido: ab1425885cdb357e
 lote: "crawl2-documentos"
+titulo_publico: "Texto alternativo en elementos no textuales"
 indexar: true
 flags: [ocr]
 ---

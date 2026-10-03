@@ -21,6 +21,7 @@ caracteres: 1026
 paginas: 5
 hash_contenido: 91e39f7f7496edb2
 lote: "crawl2-documentos"
+titulo_publico: "Descarga certificados saldos leasing"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -23,6 +23,7 @@ hash_contenido: 2e87b4ff9ad3a436
 lote: "crawl2-documentos"
 casi_duplicado_de: 666
 similitud: 0.86
+titulo_publico: "Informe de gestión y sostenibilidad 2022"
 indexar: true
 flags: [casi_duplicado]
 ---

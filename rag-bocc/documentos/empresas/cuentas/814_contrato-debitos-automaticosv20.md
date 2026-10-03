@@ -21,6 +21,7 @@ caracteres: 17666
 paginas: 5
 hash_contenido: 4803c029f1b9cb5f
 lote: "crawl2-documentos"
+titulo_publico: "Contrato débitos automaticosv20"
 vigencia_validada: true
 indexar: true
 flags: []

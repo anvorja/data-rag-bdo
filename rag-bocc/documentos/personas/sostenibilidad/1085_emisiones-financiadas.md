@@ -21,6 +21,7 @@ caracteres: 5826
 paginas: 2
 hash_contenido: 71f8fc33bf5bf02f
 lote: "crawl2-documentos"
+titulo_publico: "Emisiones financiadas"
 indexar: true
 flags: []
 ---

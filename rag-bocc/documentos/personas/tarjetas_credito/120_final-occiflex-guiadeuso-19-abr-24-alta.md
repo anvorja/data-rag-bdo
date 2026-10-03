@@ -21,6 +21,7 @@ caracteres: 25725
 paginas: 20
 hash_contenido: e3b970d1ddbbd69b
 lote: "lote1"
+titulo_publico: "Occiflex guiadeuso 19 abr 24 alta"
 indexar: true
 flags: [candidato_vlm]
 ---

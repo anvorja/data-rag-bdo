@@ -21,6 +21,7 @@ caracteres: 13937
 paginas: null
 hash_contenido: 5b4040d2518b888f
 lote: "lote1"
+titulo_publico: "Formato solicitud de productos persona natural"
 vigencia_validada: true
 indexar: true
 flags: []

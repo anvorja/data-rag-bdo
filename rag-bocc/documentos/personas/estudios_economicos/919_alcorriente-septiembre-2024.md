@@ -21,6 +21,7 @@ caracteres: 18870
 paginas: 2
 hash_contenido: bf5db7c9f2bab18b
 lote: "crawl2-documentos"
+titulo_publico: "Alcorriente septiembre 2024"
 indexar: true
 flags: []
 ---

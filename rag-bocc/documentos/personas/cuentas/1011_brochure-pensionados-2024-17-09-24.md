@@ -21,6 +21,7 @@ caracteres: 7406
 paginas: 9
 hash_contenido: d90f4f04176f2502
 lote: "crawl2-documentos"
+titulo_publico: "Brochure pensionados 2024 17 09 24"
 indexar: true
 flags: [candidato_vlm]
 ---

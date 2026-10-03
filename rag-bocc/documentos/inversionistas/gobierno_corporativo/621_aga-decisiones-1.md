@@ -21,6 +21,7 @@ caracteres: 3384
 paginas: 3
 hash_contenido: e36aa1d7b66ebf0b
 lote: "crawl2-documentos"
+titulo_publico: "Aga decisiones"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 304953
 paginas: 56
 hash_contenido: 5003f2c8a48c981e
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a septiembre de 2024"
 indexar: true
 flags: [tablas_numericas]
 ---

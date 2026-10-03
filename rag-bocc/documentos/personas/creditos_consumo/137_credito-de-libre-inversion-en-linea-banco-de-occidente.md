@@ -21,6 +21,7 @@ caracteres: 27816
 paginas: null
 hash_contenido: 3f01df09d30a02ea
 lote: "lote1"
+titulo_publico: "Crédito de Libre Inversión en línea"
 indexar: true
 flags: []
 ---

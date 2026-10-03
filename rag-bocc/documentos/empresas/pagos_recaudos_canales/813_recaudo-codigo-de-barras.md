@@ -21,6 +21,7 @@ caracteres: 7209
 paginas: 2
 hash_contenido: 589f731f26988263
 lote: "crawl2-documentos"
+titulo_publico: "Recaudo código de barras"
 indexar: true
 flags: []
 ---

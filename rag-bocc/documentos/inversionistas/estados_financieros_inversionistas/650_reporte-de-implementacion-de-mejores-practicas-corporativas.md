@@ -23,6 +23,7 @@ hash_contenido: fb02bddab4b27d91
 lote: "crawl2-documentos"
 casi_duplicado_de: 570
 similitud: 0.86
+titulo_publico: "Reporte de implementación de mejores prácticas corporativas 2023"
 indexar: true
 flags: [casi_duplicado]
 ---

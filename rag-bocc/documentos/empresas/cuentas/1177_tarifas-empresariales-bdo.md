@@ -21,6 +21,7 @@ caracteres: 79829
 paginas: 1
 hash_contenido: f914c9994be9890b
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tarifas empresariales Banco de Occidente"
 vigencia_validada: true
 version_de: 228
 indexar: true

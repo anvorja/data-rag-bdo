@@ -21,6 +21,7 @@ caracteres: 3608
 paginas: 7
 hash_contenido: a7e8d3daa495017f
 lote: "crawl2-documentos"
+titulo_publico: "Proceso de"
 indexar: true
 flags: [candidato_vlm]
 ---

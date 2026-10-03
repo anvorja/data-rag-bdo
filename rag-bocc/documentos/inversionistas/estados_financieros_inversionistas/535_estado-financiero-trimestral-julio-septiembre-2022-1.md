@@ -21,6 +21,7 @@ caracteres: 225948
 paginas: 49
 hash_contenido: c237efdfaa8faa8a
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero trimestral julio septiembre 2022"
 indexar: true
 flags: [tablas_numericas]
 ---

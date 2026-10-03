@@ -22,6 +22,7 @@ caracteres: 4560
 paginas: null
 hash_contenido: eb30f5aa9c738625
 lote: "lote1"
+titulo_publico: "Seguro Cuota Protegida Transportador Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 7694
 paginas: null
 hash_contenido: 20bfd449c161f8ad
 lote: "lote1"
+titulo_publico: "Compra de Cartera de Crédito de Vehículo Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

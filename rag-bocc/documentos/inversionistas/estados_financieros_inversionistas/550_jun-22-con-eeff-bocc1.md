@@ -21,6 +21,7 @@ caracteres: 267095
 paginas: 53
 hash_contenido: 6bdb8942c34c1154
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a junio de 2022"
 indexar: true
 flags: [tablas_numericas]
 ---

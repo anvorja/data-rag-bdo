@@ -22,6 +22,7 @@ caracteres: 10199
 paginas: null
 hash_contenido: 5e8f810328dd946c
 lote: "lote1"
+titulo_publico: "Nuestro Banco"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

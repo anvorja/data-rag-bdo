@@ -22,6 +22,7 @@ caracteres: 14375
 paginas: null
 hash_contenido: bc27375734a47f78
 lote: "crawl2-paginas"
+titulo_publico: "Crédito para Carro Nuevo o Usado Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

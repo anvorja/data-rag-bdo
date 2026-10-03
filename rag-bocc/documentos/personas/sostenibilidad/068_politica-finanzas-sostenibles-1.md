@@ -21,6 +21,7 @@ caracteres: 41019
 paginas: 16
 hash_contenido: 0c3921723eea590a
 lote: "lote1"
+titulo_publico: "Política finanzas sostenibles"
 indexar: true
 flags: []
 ---

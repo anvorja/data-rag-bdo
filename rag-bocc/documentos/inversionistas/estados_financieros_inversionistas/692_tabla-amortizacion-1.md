@@ -21,6 +21,7 @@ caracteres: 7503
 paginas: 3
 hash_contenido: 307b38da495a14a9
 lote: "crawl2-documentos"
+titulo_publico: "Tabla amortización"
 indexar: true
 flags: []
 ---

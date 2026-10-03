@@ -21,6 +21,7 @@ caracteres: 1508
 paginas: 5
 hash_contenido: 7c25467b984464e0
 lote: "crawl2-documentos"
+titulo_publico: "Brochure portafolio aliado"
 indexar: true
 flags: [ocr, candidato_vlm]
 ---

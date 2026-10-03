@@ -21,6 +21,7 @@ caracteres: 134428
 paginas: 54
 hash_contenido: 9fa7679c29f50662
 lote: "crawl2-documentos"
+titulo_publico: "Manual"
 indexar: true
 flags: [mojibake, tablas_numericas]
 ---

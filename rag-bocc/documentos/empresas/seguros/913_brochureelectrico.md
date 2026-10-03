@@ -21,6 +21,7 @@ caracteres: 4636
 paginas: 6
 hash_contenido: 77420229eaf11cfc
 lote: "crawl2-documentos"
+titulo_publico: "Brochureelectrico"
 indexar: true
 flags: [candidato_vlm]
 ---

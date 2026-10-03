@@ -21,6 +21,7 @@ caracteres: 46784
 paginas: 13
 hash_contenido: 0b5205c279c82c99
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional eje cafetero"
 indexar: true
 flags: []
 ---

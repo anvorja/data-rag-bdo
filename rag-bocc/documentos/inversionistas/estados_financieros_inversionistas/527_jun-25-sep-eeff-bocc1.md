@@ -21,6 +21,7 @@ caracteres: 258829
 paginas: 54
 hash_contenido: e74013b52aa2df2a
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a junio de 2025"
 indexar: true
 flags: [tablas_numericas]
 ---

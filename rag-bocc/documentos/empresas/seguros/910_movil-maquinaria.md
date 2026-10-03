@@ -21,6 +21,7 @@ caracteres: 3679
 paginas: 7
 hash_contenido: f7f474b7f893ffdd
 lote: "crawl2-documentos"
+titulo_publico: "Móvil maquinaria"
 indexar: true
 flags: [candidato_vlm]
 ---

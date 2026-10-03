@@ -21,6 +21,7 @@ caracteres: 231814
 paginas: 49
 hash_contenido: 156bc9482f60864c
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a junio de 2024"
 indexar: true
 flags: [tablas_numericas]
 ---

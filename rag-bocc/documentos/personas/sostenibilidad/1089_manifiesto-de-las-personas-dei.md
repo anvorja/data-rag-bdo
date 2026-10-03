@@ -21,6 +21,7 @@ caracteres: 3280
 paginas: 2
 hash_contenido: e66bc9fe0724005b
 lote: "crawl2-documentos"
+titulo_publico: "Manifiesto de las personas dei"
 indexar: true
 flags: [candidato_vlm]
 ---

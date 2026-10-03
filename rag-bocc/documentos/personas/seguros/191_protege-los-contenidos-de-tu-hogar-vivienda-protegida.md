@@ -22,6 +22,7 @@ caracteres: 4631
 paginas: null
 hash_contenido: bee28dfbe92d716f
 lote: "lote1"
+titulo_publico: "Protege los Contenidos de tu Hogar |Vivienda Protegida"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

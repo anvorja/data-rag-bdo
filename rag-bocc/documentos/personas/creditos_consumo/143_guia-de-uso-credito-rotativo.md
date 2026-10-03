@@ -21,6 +21,7 @@ caracteres: 28469
 paginas: 15
 hash_contenido: ad1b02b05bb35c75
 lote: "lote1"
+titulo_publico: "Guia de uso crédito rotativo"
 vigencia_validada: true
 indexar: true
 flags: []

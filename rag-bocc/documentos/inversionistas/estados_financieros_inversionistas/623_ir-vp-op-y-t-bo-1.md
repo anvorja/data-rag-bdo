@@ -21,6 +21,7 @@ caracteres: 802
 paginas: 1
 hash_contenido: aa73608a03cc97eb
 lote: "crawl2-documentos"
+titulo_publico: "Ir vp op y t bo"
 indexar: true
 flags: []
 ---

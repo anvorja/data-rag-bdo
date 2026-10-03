@@ -22,6 +22,7 @@ caracteres: 5750
 paginas: null
 hash_contenido: 270fcf5e9168a740
 lote: "crawl2-paginas"
+titulo_publico: "Crédito Rotativo PYME"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 14715
 paginas: 12
 hash_contenido: 68a1f71bce6e64c0
 lote: "lote1"
+titulo_publico: "Bochure segmento preferente"
 indexar: true
 flags: []
 ---

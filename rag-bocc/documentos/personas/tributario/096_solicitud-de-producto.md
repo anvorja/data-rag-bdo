@@ -21,6 +21,7 @@ caracteres: 42607
 paginas: null
 hash_contenido: bd3a60ab75e18b5f
 lote: "lote1"
+titulo_publico: "Solicitud de producto"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 30478
 paginas: 20
 hash_contenido: 17c8a4685c19ecba
 lote: "crawl2-documentos"
+titulo_publico: "Guia de uso tarjeta de crédito credencial mascotas"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

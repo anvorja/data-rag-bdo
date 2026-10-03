@@ -22,6 +22,7 @@ caracteres: 7236
 paginas: null
 hash_contenido: d8caf89c8ba1f74b
 lote: "lote1"
+titulo_publico: "Información al proveedor"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

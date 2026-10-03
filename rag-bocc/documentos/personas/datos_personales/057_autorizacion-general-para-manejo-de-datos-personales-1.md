@@ -21,6 +21,7 @@ caracteres: 14057
 paginas: 3
 hash_contenido: de51890281f41b59
 lote: "lote1"
+titulo_publico: "Autorización general para manejo de datos personales"
 indexar: true
 flags: []
 ---

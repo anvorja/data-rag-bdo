@@ -22,6 +22,7 @@ caracteres: 7049
 paginas: null
 hash_contenido: 50ea0d2f36c2e035
 lote: "lote1"
+titulo_publico: "Leasing Habitacional para Compra de Vivienda Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

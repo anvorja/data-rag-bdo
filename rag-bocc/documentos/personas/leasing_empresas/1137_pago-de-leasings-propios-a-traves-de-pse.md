@@ -21,6 +21,7 @@ caracteres: 2005
 paginas: 8
 hash_contenido: fc0061f93f5155f6
 lote: "crawl2-documentos"
+titulo_publico: "Pago de leasings propios a través de PSE"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

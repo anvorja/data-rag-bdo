@@ -21,6 +21,7 @@ caracteres: 1444
 paginas: 6
 hash_contenido: f6419e38865f32e8
 lote: "lote1"
+titulo_publico: "Instructivo activaciones de cheques"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

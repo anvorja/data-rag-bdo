@@ -21,6 +21,7 @@ caracteres: 114853
 paginas: null
 hash_contenido: bff973461c7b8320
 lote: "crawl2-documentos"
+titulo_publico: "Hoja: fto-cap-145"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 394
 paginas: 1
 hash_contenido: 09a6560bafc0979f
 lote: "crawl2-documentos"
+titulo_publico: "Cambio de calificación"
 vigencia_validada: true
 indexar: true
 flags: [ocr]

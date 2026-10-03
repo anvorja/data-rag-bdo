@@ -21,6 +21,7 @@ caracteres: 1272
 paginas: 1
 hash_contenido: 8c6e29ece19b36d1
 lote: "crawl2-documentos"
+titulo_publico: "Periodo ex dividendo mar 2022 abr 2023"
 indexar: true
 flags: []
 ---

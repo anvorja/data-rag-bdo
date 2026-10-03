@@ -21,6 +21,7 @@ caracteres: 8512
 paginas: 5
 hash_contenido: a733f242ced2395a
 lote: "crawl2-documentos"
+titulo_publico: "Términos Y condiciones DE LA campaña “Banca Diplomática"
 vigencia_validada: true
 indexar: true
 flags: []

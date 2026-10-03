@@ -21,6 +21,7 @@ caracteres: 99910
 paginas: 12
 hash_contenido: 7c80d98ba7e13d4c
 lote: "crawl2-documentos"
+titulo_publico: "Multiasistencia Preferente Plus"
 indexar: true
 flags: []
 ---

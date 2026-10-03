@@ -22,6 +22,7 @@ caracteres: 4995
 paginas: null
 hash_contenido: 8e81ae0218ae1fad
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Mastercard Corporate | Banco de Occidente​ - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

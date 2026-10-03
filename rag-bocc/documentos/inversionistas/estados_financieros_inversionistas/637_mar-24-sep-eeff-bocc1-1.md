@@ -21,6 +21,7 @@ caracteres: 216476
 paginas: 48
 hash_contenido: beb3ce2363c32ed5
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a marzo de 2024"
 indexar: true
 flags: []
 ---

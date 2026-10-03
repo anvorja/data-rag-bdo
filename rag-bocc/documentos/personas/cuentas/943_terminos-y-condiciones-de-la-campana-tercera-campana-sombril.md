@@ -21,6 +21,7 @@ caracteres: 9483
 paginas: 5
 hash_contenido: 801f8d5f25f5c01d
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones de la campaña “tercera campaña sombrilla – duplica"
 vigencia_validada: true
 indexar: true
 flags: []

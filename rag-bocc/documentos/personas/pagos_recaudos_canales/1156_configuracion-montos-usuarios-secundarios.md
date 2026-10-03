@@ -21,6 +21,7 @@ caracteres: 1827
 paginas: 9
 hash_contenido: b38b357be9062396
 lote: "crawl2-documentos"
+titulo_publico: "Configuración montos usuarios secundarios"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

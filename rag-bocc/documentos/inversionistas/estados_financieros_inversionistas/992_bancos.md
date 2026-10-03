@@ -21,6 +21,7 @@ caracteres: 43549
 paginas: 9
 hash_contenido: 7aced34d9950a5a1
 lote: "crawl2-documentos"
+titulo_publico: "Bancos"
 indexar: true
 flags: []
 ---

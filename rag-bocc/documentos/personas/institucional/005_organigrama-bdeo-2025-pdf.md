@@ -21,6 +21,7 @@ caracteres: 6212
 paginas: 1
 hash_contenido: 6dde46a535e2ec27
 lote: "lote1"
+titulo_publico: "Organigrama bdeo 2025 pdf"
 indexar: true
 flags: []
 ---

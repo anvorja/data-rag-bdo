@@ -22,6 +22,7 @@ caracteres: 4528
 paginas: null
 hash_contenido: 85c57eddd68aaf54
 lote: "lote1"
+titulo_publico: "Seguro de Incendio y Terremoto | Vivienda Protegida"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

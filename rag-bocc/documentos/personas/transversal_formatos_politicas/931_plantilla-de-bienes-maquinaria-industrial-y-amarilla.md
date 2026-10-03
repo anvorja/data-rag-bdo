@@ -21,6 +21,7 @@ caracteres: 19789
 paginas: 24
 hash_contenido: a7725471af6c6d17
 lote: "crawl2-documentos"
+titulo_publico: "Plantilla de bienes maquinaria industrial y amarilla"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

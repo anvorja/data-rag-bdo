@@ -21,6 +21,7 @@ caracteres: 6867
 paginas: 5
 hash_contenido: 7d64b565ebf0ea65
 lote: "crawl2-documentos"
+titulo_publico: "Bochure vive la vida libranza"
 indexar: true
 flags: []
 ---

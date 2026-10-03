@@ -23,6 +23,7 @@ caracteres: 6031
 paginas: null
 hash_contenido: 7c5d33c200f597a4
 lote: "crawl2-paginas"
+titulo_publico: "Hazte Cliente"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 19 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."

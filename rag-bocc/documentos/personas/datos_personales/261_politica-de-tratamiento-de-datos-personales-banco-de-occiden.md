@@ -22,6 +22,7 @@ caracteres: 6018
 paginas: null
 hash_contenido: eaf9a18eda53308f
 lote: "lote1"
+titulo_publico: "Política de Tratamiento de Datos Personales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

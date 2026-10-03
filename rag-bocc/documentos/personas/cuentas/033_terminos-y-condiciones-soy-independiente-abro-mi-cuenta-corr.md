@@ -21,6 +21,7 @@ caracteres: 19946
 paginas: 9
 hash_contenido: 72d7ce779a578cdc
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Soy independiente abro mi cuenta corriente y no estoy solo»"
 vigencia_validada: true
 indexar: true
 flags: []

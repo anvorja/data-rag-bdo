@@ -21,6 +21,7 @@ caracteres: 5619
 paginas: 3
 hash_contenido: 6f9eac1225b41d08
 lote: "crawl2-documentos"
+titulo_publico: "Derechos de los consumidores financieros"
 indexar: true
 flags: [candidato_vlm]
 ---

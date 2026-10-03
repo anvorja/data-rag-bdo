@@ -21,6 +21,7 @@ caracteres: 3380
 paginas: 6
 hash_contenido: 65317a4233c9a1e4
 lote: "crawl2-documentos"
+titulo_publico: "Cómo realizar el pago de servicios"
 indexar: true
 flags: [candidato_vlm]
 ---

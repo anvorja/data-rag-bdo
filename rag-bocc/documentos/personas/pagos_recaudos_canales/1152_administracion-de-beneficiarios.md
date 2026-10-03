@@ -21,6 +21,7 @@ caracteres: 3082
 paginas: 12
 hash_contenido: 8f87637fd3c01705
 lote: "crawl2-documentos"
+titulo_publico: "Administración de Beneficiarios"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

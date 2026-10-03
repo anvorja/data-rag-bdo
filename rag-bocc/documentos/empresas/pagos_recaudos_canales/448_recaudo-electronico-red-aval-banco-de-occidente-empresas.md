@@ -22,6 +22,7 @@ caracteres: 4256
 paginas: null
 hash_contenido: b1e96e3de9be7f5a
 lote: "crawl2-paginas"
+titulo_publico: "Recaudo Electrónico Red AVAL"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

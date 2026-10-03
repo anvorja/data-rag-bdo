@@ -21,6 +21,7 @@ caracteres: 34448
 paginas: 25
 hash_contenido: ca0b80261292948b
 lote: "crawl2-documentos"
+titulo_publico: "Guiasdeuso goldmasvis 3 nov 23"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

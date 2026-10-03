@@ -21,6 +21,7 @@ caracteres: 36660
 paginas: 12
 hash_contenido: 580c91bc97e19e36
 lote: "crawl2-documentos"
+titulo_publico: "Informe sectorial agro ganadería"
 indexar: true
 flags: []
 ---

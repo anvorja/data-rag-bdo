@@ -21,6 +21,7 @@ caracteres: 3381
 paginas: null
 hash_contenido: 19aa5f9f14495ffd
 lote: "lote1"
+titulo_publico: "Kubo"
 indexar: true
 flags: [tablas_markdown]
 ---

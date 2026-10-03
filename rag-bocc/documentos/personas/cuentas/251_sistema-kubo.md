@@ -21,6 +21,7 @@ caracteres: 2952
 paginas: null
 hash_contenido: 340fef2fc7ecd98d
 lote: "lote1"
+titulo_publico: "Sistema Kubo"
 indexar: true
 flags: []
 ---

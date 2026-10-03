@@ -21,6 +21,7 @@ caracteres: 50058
 paginas: 18
 hash_contenido: 4868b6e22e2039f7
 lote: "lote1"
+titulo_publico: "Tasas personas 2025"
 indexar: true
 flags: [vigencia_vencida]
 ---

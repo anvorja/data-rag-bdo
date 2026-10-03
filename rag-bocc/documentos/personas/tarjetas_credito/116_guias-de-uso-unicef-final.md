@@ -21,6 +21,7 @@ caracteres: 33985
 paginas: 23
 hash_contenido: a710e1d3c83715d6
 lote: "lote1"
+titulo_publico: "Guías de uso unicef"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

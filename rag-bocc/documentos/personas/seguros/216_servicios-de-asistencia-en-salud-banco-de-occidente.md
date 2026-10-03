@@ -22,6 +22,7 @@ caracteres: 2897
 paginas: null
 hash_contenido: 131de01300b176ad
 lote: "lote1"
+titulo_publico: "Servicios de Asistencia en Salud Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

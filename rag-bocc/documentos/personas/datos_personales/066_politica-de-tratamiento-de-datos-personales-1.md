@@ -21,6 +21,7 @@ caracteres: 39003
 paginas: 10
 hash_contenido: a8af0f3c48fffc0f
 lote: "lote1"
+titulo_publico: "Política de tratamiento de datos personales"
 indexar: true
 flags: []
 ---

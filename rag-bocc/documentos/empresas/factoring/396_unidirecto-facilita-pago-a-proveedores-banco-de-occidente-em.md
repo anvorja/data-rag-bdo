@@ -22,6 +22,7 @@ caracteres: 3480
 paginas: null
 hash_contenido: f876dd374913a315
 lote: "crawl2-paginas"
+titulo_publico: "Unidirecto - Facilita Pago a Proveedores"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

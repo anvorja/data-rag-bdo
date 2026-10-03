@@ -21,6 +21,7 @@ caracteres: 132589
 paginas: 7
 hash_contenido: 733146fd4d1ed774
 lote: "lote1"
+titulo_publico: "Contrato de productos y servicios persona natural"
 vigencia_validada: true
 indexar: true
 flags: []

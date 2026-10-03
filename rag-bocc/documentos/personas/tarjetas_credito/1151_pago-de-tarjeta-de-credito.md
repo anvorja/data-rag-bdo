@@ -21,6 +21,7 @@ caracteres: 2411
 paginas: 5
 hash_contenido: 6fd31dddc16e6fa2
 lote: "crawl2-documentos"
+titulo_publico: "Pago de tarjeta de crédito"
 indexar: true
 flags: [candidato_vlm]
 ---

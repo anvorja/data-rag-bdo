@@ -22,6 +22,7 @@ caracteres: 1850
 paginas: null
 hash_contenido: f096de5a7c2000f5
 lote: "lote1"
+titulo_publico: "Créditos Banco de Occidente: Financia Tus Proyectos Hoy"
 indexar: true
 flags: []
 ---

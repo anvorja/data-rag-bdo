@@ -21,6 +21,7 @@ caracteres: 1409
 paginas: 1
 hash_contenido: 6ac9a083c2ae8293
 lote: "crawl2-documentos"
+titulo_publico: "Transacción de Usuario"
 indexar: true
 flags: [candidato_vlm]
 ---

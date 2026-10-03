@@ -22,6 +22,7 @@ caracteres: 5691
 paginas: null
 hash_contenido: c9ba84d301d9ea32
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito Mastercard UNICEF Banco de Occidente​"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

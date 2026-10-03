@@ -21,6 +21,7 @@ caracteres: 2888
 paginas: 7
 hash_contenido: 94c6bd7cf5fa6da5
 lote: "crawl2-documentos"
+titulo_publico: "Inscripción de alertas"
 indexar: true
 flags: [candidato_vlm]
 ---

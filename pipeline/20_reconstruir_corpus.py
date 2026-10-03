@@ -52,7 +52,7 @@ for d in idx:
     r = dict(meta); r.update({k: v for k, v in d.items() if k not in ('caracteres',)})    # indice.json manda en los campos que contiene
     r['texto'] = texto; r.setdefault('etiquetas', r.get('etiquetas_origen', [])); r.setdefault('descripcion', meta.get('descripcion') or '')
     r.pop('caracteres', None)                                                   # se calcula a partir del texto
-    for k in ('version_de', 'vigencia_validada', 'lote'):                      # campos opcionales: solo si tienen valor
+    for k in ('version_de', 'vigencia_validada', 'lote', 'titulo_publico'):                      # campos opcionales: solo si tienen valor
         if r.get(k) is None: r.pop(k, None)
     r['flags'] = d['flags']; r['motivo_no_indexar'] = d.get('motivo_no_indexar') or []
     rows.append(r)

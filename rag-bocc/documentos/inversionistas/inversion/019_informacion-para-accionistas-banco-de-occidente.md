@@ -22,6 +22,7 @@ caracteres: 215753
 paginas: null
 hash_contenido: a5202bf6d6432a16
 lote: "lote1"
+titulo_publico: "Información para Accionistas"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 17 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

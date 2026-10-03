@@ -23,6 +23,7 @@ hash_contenido: 7550d58363444c72
 lote: "lote1"
 casi_duplicado_de: 227
 similitud: 0.83
+titulo_publico: "Tarifas empresariales Banco de Occidente"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado, sin_fecha]

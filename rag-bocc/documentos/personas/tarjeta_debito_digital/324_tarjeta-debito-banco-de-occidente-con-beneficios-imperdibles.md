@@ -22,6 +22,7 @@ caracteres: 3519
 paginas: null
 hash_contenido: f03e1802f40f0b84
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta Débito Banco de Occidente con Beneficios Imperdibles"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

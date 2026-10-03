@@ -21,6 +21,7 @@ caracteres: 3948
 paginas: null
 hash_contenido: ea4fc80cf5dc558c
 lote: "lote1"
+titulo_publico: "Cuenta de Ahorros - Banco Occidente"
 indexar: true
 flags: [titulo_dudoso]
 ---

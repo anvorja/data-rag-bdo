@@ -21,6 +21,7 @@ caracteres: 16065
 paginas: 1
 hash_contenido: fa0c7ed6992ca13c
 lote: "crawl2-documentos"
+titulo_publico: "La era de el tigre"
 indexar: true
 flags: []
 ---

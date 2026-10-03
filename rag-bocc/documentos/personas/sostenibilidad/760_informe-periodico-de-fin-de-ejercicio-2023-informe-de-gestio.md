@@ -21,6 +21,7 @@ caracteres: 1255644
 paginas: 189
 hash_contenido: 6cf83fddabb3b332
 lote: "crawl2-documentos"
+titulo_publico: "Informe periódico de fin de ejercicio 2023 informe de gestión y sostenibilidad"
 indexar: true
 flags: []
 ---

@@ -22,6 +22,7 @@ caracteres: 15894
 paginas: null
 hash_contenido: 3c763595b2ddd6b5
 lote: "crawl2-paginas"
+titulo_publico: "Proyectos de vivienda"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 3 líneas de plantilla del CMS."

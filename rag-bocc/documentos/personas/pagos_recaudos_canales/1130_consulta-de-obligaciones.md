@@ -21,6 +21,7 @@ caracteres: 1316
 paginas: 6
 hash_contenido: 97ab869a66c200c1
 lote: "crawl2-documentos"
+titulo_publico: "Consulta de obligaciones"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

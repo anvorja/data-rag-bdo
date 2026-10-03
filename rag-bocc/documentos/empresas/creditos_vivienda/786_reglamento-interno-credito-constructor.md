@@ -21,6 +21,7 @@ caracteres: 65089
 paginas: 20
 hash_contenido: a5ead1a497bc5b02
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento interno crédito constructor"
 indexar: true
 flags: []
 ---

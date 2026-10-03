@@ -21,6 +21,7 @@ caracteres: 45537
 paginas: 14
 hash_contenido: 1a7163eb3493886f
 lote: "crawl2-documentos"
+titulo_publico: "Manufactura"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 608
 paginas: 1
 hash_contenido: a36639af3b90d950
 lote: "crawl2-documentos"
+titulo_publico: "Novedades de los directores y miembros de la alta gerencia"
 vigencia_validada: true
 indexar: true
 flags: []

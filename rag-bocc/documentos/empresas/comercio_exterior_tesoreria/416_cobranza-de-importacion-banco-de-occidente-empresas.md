@@ -22,6 +22,7 @@ caracteres: 3699
 paginas: null
 hash_contenido: f6a6b8f99dd8c470
 lote: "crawl2-paginas"
+titulo_publico: "Cobranza de Importación"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

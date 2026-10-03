@@ -22,6 +22,7 @@ caracteres: 4467
 paginas: null
 hash_contenido: ab1c73fbf9dce473
 lote: "lote1"
+titulo_publico: "Crédito Rotativo Banco de Occidente: Soluciones a tu Medida"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 3433
 paginas: 6
 hash_contenido: bd97b8501b986ec9
 lote: "crawl2-documentos"
+titulo_publico: "Cómo realizar tranferencias internas y"
 indexar: true
 flags: [candidato_vlm]
 ---

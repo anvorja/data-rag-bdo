@@ -21,6 +21,7 @@ caracteres: 84659
 paginas: 38
 hash_contenido: d1c6259c2c0361ed
 lote: "lote1"
+titulo_publico: "Tarifas persona Banco de Occidente"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

@@ -21,6 +21,7 @@ caracteres: 6866
 paginas: null
 hash_contenido: a6fe3b1dda029496
 lote: "crawl2-paginas"
+titulo_publico: "Bre-B | Gou Plus - Empresas"
 indexar: true
 flags: []
 ---

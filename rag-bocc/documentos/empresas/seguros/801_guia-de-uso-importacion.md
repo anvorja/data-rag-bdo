@@ -21,6 +21,7 @@ caracteres: 24178
 paginas: 9
 hash_contenido: 302b08bb13b1e3e0
 lote: "crawl2-documentos"
+titulo_publico: "Guía de uso de importación"
 vigencia_validada: true
 indexar: true
 flags: []

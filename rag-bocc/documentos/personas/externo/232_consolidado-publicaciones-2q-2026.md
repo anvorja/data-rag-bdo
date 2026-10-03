@@ -21,6 +21,7 @@ caracteres: 120784
 paginas: null
 hash_contenido: b017c6d384beff79
 lote: "lote1"
+titulo_publico: "Consolidado Publicaciones 2Q 2026"
 indexar: true
 flags: []
 ---

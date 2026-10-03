@@ -22,6 +22,7 @@ caracteres: 5170
 paginas: null
 hash_contenido: 50cffbd1eb71ac01
 lote: "crawl2-paginas"
+titulo_publico: "Leasing Inmobiliario"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

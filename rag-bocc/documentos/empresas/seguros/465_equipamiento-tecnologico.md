@@ -23,6 +23,7 @@ caracteres: 1604
 paginas: null
 hash_contenido: f7c4b5428d9cd98a
 lote: "crawl2-paginas"
+titulo_publico: "Equipamiento Tecnológico"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."

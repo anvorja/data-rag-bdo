@@ -21,6 +21,7 @@ caracteres: 54212
 paginas: 14
 hash_contenido: 6a4ca1979179c411
 lote: "crawl2-documentos"
+titulo_publico: "Comercio"
 indexar: true
 flags: []
 ---

@@ -22,6 +22,7 @@ caracteres: 4558
 paginas: null
 hash_contenido: c4216ffa0746b9b0
 lote: "crawl2-paginas"
+titulo_publico: "Cuentas Maestras"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

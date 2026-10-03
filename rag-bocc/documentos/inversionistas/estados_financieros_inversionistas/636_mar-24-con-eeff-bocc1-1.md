@@ -21,6 +21,7 @@ caracteres: 266775
 paginas: 56
 hash_contenido: 24f9de702ae35350
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a marzo de 2024"
 indexar: true
 flags: [tablas_numericas]
 ---

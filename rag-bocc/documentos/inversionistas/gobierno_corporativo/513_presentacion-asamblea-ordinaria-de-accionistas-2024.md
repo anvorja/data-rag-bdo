@@ -21,6 +21,7 @@ caracteres: 212873
 paginas: 104
 hash_contenido: b5407b2201f92aa0
 lote: "crawl2-documentos"
+titulo_publico: "Presentación asamblea ordinaria de accionistas 2024"
 indexar: true
 flags: []
 ---

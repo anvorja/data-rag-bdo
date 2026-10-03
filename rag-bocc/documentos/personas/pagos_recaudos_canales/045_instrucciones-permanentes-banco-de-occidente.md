@@ -22,6 +22,7 @@ caracteres: 4344
 paginas: null
 hash_contenido: be880303a0021470
 lote: "lote1"
+titulo_publico: "Instrucciones Permanentes Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

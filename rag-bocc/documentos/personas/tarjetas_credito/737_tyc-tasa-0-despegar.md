@@ -23,6 +23,7 @@ hash_contenido: 7f5647c24c4f683d
 lote: "crawl2-documentos"
 casi_duplicado_de: 731
 similitud: 0.81
+titulo_publico: "Términos y condiciones: campaña «Despegar tasa 0% y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, casi_duplicado]

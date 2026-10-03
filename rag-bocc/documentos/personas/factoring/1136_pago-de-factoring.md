@@ -21,6 +21,7 @@ caracteres: 3296
 paginas: 8
 hash_contenido: 2fed44afd5a1a5de
 lote: "crawl2-documentos"
+titulo_publico: "Pago de factoring"
 indexar: true
 flags: [candidato_vlm]
 ---

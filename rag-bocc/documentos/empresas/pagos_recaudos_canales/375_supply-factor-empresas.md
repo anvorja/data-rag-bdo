@@ -21,6 +21,7 @@ caracteres: 2553
 paginas: null
 hash_contenido: 6bb2d3f597fa8f2b
 lote: "crawl2-paginas"
+titulo_publico: "Supply Factor - Empresas"
 indexar: true
 flags: []
 ---

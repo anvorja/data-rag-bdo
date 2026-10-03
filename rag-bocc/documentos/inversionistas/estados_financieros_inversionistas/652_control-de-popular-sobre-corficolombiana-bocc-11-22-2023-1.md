@@ -21,6 +21,7 @@ caracteres: 960
 paginas: 1
 hash_contenido: e2cc3aa3562eef24
 lote: "crawl2-documentos"
+titulo_publico: "Control de popular sobre corficolombiana Banco de Occidente 11 22 2023"
 indexar: true
 flags: []
 ---

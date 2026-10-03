@@ -21,6 +21,7 @@ caracteres: 292178
 paginas: 58
 hash_contenido: 8f55868e43a77f49
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a marzo de 2025"
 indexar: true
 flags: [tablas_numericas]
 ---

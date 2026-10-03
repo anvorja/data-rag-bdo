@@ -21,6 +21,7 @@ caracteres: 16935
 paginas: 6
 hash_contenido: 4f3b6fc7daa8ed5e
 lote: "lote1"
+titulo_publico: "Uso de Las Tarjetas Banco de Occidente en billetera Apple Pay"
 vigencia_validada: true
 indexar: true
 flags: []

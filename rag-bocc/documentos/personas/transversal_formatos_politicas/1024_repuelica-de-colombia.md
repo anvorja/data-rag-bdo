@@ -21,6 +21,7 @@ caracteres: 82642
 paginas: 28
 hash_contenido: 0daed152e73e5c59
 lote: "crawl2-documentos"
+titulo_publico: "Repuélica de colombia + +"
 indexar: true
 flags: [ocr]
 ---

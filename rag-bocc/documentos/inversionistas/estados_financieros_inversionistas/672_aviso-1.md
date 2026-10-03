@@ -21,6 +21,7 @@ caracteres: 1122
 paginas: 1
 hash_contenido: 80426c5df5e961ba
 lote: "crawl2-documentos"
+titulo_publico: "Aviso"
 indexar: true
 flags: [ocr]
 ---

@@ -21,6 +21,7 @@ caracteres: 7044
 paginas: null
 hash_contenido: 4f67a862e65949fc
 lote: "lote1"
+titulo_publico: "Conoce las ventajas de un Crédito de Libre Inversión"
 indexar: true
 flags: []
 ---

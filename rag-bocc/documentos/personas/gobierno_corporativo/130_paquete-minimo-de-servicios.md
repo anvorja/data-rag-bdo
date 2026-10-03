@@ -23,6 +23,7 @@ caracteres: 2650
 paginas: null
 hash_contenido: 35b5af89f6d13252
 lote: "lote1"
+titulo_publico: "Paquete Mínimo de Servicios"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 2651
 paginas: null
 hash_contenido: 653a06037bf5cc7d
 lote: "crawl2-paginas"
+titulo_publico: "Soluciones de Inversión para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

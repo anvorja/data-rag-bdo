@@ -22,6 +22,7 @@ caracteres: 4737
 paginas: null
 hash_contenido: d2ad932394ca7ae9
 lote: "crawl2-paginas"
+titulo_publico: "Créditos Findeter"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

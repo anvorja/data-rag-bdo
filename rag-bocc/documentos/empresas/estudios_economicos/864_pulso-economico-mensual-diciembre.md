@@ -21,6 +21,7 @@ caracteres: 29928
 paginas: 3
 hash_contenido: 932bc2f4a05c8b19
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual diciembre"
 indexar: true
 flags: []
 ---

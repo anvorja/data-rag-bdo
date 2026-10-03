@@ -21,6 +21,7 @@ caracteres: 208416
 paginas: 11
 hash_contenido: b039df5f2e75d335
 lote: "lote1"
+titulo_publico: "Comisiones cobradas por agregadores a comercios 0726"
 indexar: true
 flags: [tablas_numericas]
 ---

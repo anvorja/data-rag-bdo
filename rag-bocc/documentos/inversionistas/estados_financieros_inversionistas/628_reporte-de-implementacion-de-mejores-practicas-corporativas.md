@@ -23,6 +23,7 @@ hash_contenido: 7aab34205a4da5a0
 lote: "crawl2-documentos"
 casi_duplicado_de: 570
 similitud: 0.84
+titulo_publico: "Reporte de implementación de mejores prácticas corporativas 2024"
 indexar: true
 flags: [casi_duplicado]
 ---

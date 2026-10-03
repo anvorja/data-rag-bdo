@@ -21,6 +21,7 @@ caracteres: 1033
 paginas: 1
 hash_contenido: 01f374f6aec2376a
 lote: "crawl2-documentos"
+titulo_publico: "Aviso el tiempo"
 indexar: true
 flags: [ocr]
 ---

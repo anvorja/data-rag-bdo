@@ -21,6 +21,7 @@ caracteres: 22572
 paginas: 73
 hash_contenido: 1b9e9087d7deb9ee
 lote: "crawl2-documentos"
+titulo_publico: "Presentación foro tributario 2025"
 indexar: true
 flags: [candidato_vlm]
 ---

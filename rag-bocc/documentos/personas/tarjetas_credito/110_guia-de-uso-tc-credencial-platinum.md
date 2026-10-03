@@ -21,6 +21,7 @@ caracteres: 33162
 paginas: 21
 hash_contenido: cf1d0e6bf57fb1ef
 lote: "lote1"
+titulo_publico: "Guia de uso tarjeta de crédito credencial platinum"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

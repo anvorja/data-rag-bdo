@@ -21,6 +21,7 @@ caracteres: 4555
 paginas: 8
 hash_contenido: 320c60b1e7b43f7d
 lote: "crawl2-documentos"
+titulo_publico: "Transferencias sebra"
 indexar: true
 flags: [candidato_vlm]
 ---

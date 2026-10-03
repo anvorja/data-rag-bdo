@@ -21,6 +21,7 @@ caracteres: 4987
 paginas: null
 hash_contenido: decd4db2df06bbea
 lote: "crawl2-paginas"
+titulo_publico: "Prestamo Personal Dinámico"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

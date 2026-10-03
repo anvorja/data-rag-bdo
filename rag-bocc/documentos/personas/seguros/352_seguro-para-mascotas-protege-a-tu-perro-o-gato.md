@@ -22,6 +22,7 @@ caracteres: 5372
 paginas: null
 hash_contenido: bb899eb24005911f
 lote: "crawl2-paginas"
+titulo_publico: "Seguro para Mascotas - Protege a tu Perro o Gato"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

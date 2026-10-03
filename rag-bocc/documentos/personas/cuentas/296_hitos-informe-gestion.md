@@ -21,6 +21,7 @@ caracteres: 6225
 paginas: null
 hash_contenido: 72cfb3b4bf9dc7ea
 lote: "lote1"
+titulo_publico: "Hitos - Informe Gestión"
 indexar: true
 flags: []
 ---

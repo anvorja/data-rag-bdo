@@ -21,6 +21,7 @@ caracteres: 57903
 paginas: 1
 hash_contenido: 1c5ae65d64224a85
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tasas personas Banco de Occidente"
 vigencia_validada: true
 version_de: 097
 indexar: true

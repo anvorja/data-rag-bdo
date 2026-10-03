@@ -22,6 +22,7 @@ caracteres: 3058
 paginas: null
 hash_contenido: 54c9bd30159c127f
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Cuota Protegida Libranza Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

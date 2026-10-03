@@ -21,6 +21,7 @@ caracteres: 13909
 paginas: 41
 hash_contenido: 168dd3dbeba3eadc
 lote: "crawl2-documentos"
+titulo_publico: "Presentación foro actualización tributaria seg empresarial"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 5406
 paginas: null
 hash_contenido: 956a3a9f5d3da6aa
 lote: "lote1"
+titulo_publico: "Latam Pass, la Tarjeta de Crédito especialmente diseñada para viajeros, de Banco de Occidente"
 indexar: true
 flags: []
 ---

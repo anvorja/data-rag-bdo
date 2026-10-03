@@ -21,6 +21,7 @@ caracteres: 356681
 paginas: 67
 hash_contenido: c3cabd1b5d0f47d2
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a junio de 2026"
 indexar: true
 flags: [tablas_numericas]
 ---

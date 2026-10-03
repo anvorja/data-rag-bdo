@@ -21,6 +21,7 @@ caracteres: 11039
 paginas: 1
 hash_contenido: 7829a381a1d68b48
 lote: "crawl2-documentos"
+titulo_publico: "Occimpacto inflación julio"
 indexar: true
 flags: []
 ---

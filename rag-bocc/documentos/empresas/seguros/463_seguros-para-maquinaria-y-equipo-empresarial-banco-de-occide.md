@@ -22,6 +22,7 @@ caracteres: 3493
 paginas: null
 hash_contenido: 29f5843fb0a386c2
 lote: "crawl2-paginas"
+titulo_publico: "Seguros para Maquinaria y Equipo Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

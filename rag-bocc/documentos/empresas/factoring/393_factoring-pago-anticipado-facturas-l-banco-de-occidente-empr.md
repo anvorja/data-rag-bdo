@@ -22,6 +22,7 @@ caracteres: 2971
 paginas: null
 hash_contenido: a95c8201f0139089
 lote: "crawl2-paginas"
+titulo_publico: "Factoring - Pago Anticipado Facturas l Banco de Occidente - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

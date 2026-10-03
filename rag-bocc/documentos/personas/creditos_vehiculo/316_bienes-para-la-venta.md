@@ -21,6 +21,7 @@ caracteres: 3740
 paginas: null
 hash_contenido: de2992c6ed1e3d27
 lote: "crawl2-paginas"
+titulo_publico: "Bienes para la venta"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 24978
 paginas: 8
 hash_contenido: ef01241d3d50297f
 lote: "lote1"
+titulo_publico: "Fto col 987 pagaré crédito hipotecario en pesos"
 vigencia_validada: true
 indexar: true
 flags: []

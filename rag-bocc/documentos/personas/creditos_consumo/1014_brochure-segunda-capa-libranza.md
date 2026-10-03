@@ -23,6 +23,7 @@ hash_contenido: 4f39bdb6073c4a73
 lote: "crawl2-documentos"
 casi_duplicado_de: 1013
 similitud: 0.89
+titulo_publico: "Brochure segunda capa libranza"
 indexar: true
 flags: [casi_duplicado]
 ---

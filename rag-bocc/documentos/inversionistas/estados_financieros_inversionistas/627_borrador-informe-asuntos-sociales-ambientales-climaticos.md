@@ -21,6 +21,7 @@ caracteres: 202666
 paginas: 59
 hash_contenido: 091d386d54b4fb03
 lote: "crawl2-documentos"
+titulo_publico: "Borrador informe asuntos sociales ambientales climáticos"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 14183
 paginas: 6
 hash_contenido: 09c48589ecbfdf98
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Mi Primer Aporte»"
 vigencia_validada: true
 indexar: true
 flags: []

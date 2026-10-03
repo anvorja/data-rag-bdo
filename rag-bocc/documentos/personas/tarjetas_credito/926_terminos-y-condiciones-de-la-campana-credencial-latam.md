@@ -21,6 +21,7 @@ caracteres: 14202
 paginas: 6
 hash_contenido: 4949dd5210801b28
 lote: "crawl2-documentos"
+titulo_publico: "Términos y Condiciones de la campaña Credencial latam"
 vigencia_validada: true
 indexar: true
 flags: []

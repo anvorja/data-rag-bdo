@@ -21,6 +21,7 @@ caracteres: 3509
 paginas: 19
 hash_contenido: 2b13d45b1afb4da4
 lote: "lote1"
+titulo_publico: "Cuenta Corriente de uso exclusivo para colombianos en el exterior"
 vigencia_validada: true
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]

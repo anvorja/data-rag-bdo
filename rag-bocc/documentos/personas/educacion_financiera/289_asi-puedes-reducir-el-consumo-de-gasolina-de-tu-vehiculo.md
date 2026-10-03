@@ -22,6 +22,7 @@ caracteres: 7915
 paginas: null
 hash_contenido: b6eb477803f5aeed
 lote: "lote1"
+titulo_publico: "Así puedes reducir el consumo de gasolina de tu vehículo"
 indexar: true
 flags: []
 ---

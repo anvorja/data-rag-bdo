@@ -21,6 +21,7 @@ caracteres: 10755
 paginas: 6
 hash_contenido: 16888d03cea13b3b
 lote: "crawl2-documentos"
+titulo_publico: "Términos y Condiciones campaña cuenta de ahorros jóvenes – 16 de"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

@@ -21,6 +21,7 @@ caracteres: 16422
 paginas: 1
 hash_contenido: e21391b28e13d5af
 lote: "crawl2-documentos"
+titulo_publico: "Radar económico semanal 9 de febrero"
 indexar: true
 flags: []
 ---

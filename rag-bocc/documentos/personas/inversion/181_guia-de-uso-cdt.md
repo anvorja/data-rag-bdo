@@ -21,6 +21,7 @@ caracteres: 21309
 paginas: 7
 hash_contenido: b7989663a0ceff13
 lote: "lote1"
+titulo_publico: "Guia de uso CDT"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

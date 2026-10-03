@@ -22,6 +22,7 @@ caracteres: 2331
 paginas: null
 hash_contenido: 0f7c68a6703948c3
 lote: "crawl2-paginas"
+titulo_publico: "Segmento Pyme"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

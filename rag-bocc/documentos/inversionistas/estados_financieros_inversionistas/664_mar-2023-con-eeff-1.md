@@ -21,6 +21,7 @@ caracteres: 251889
 paginas: 51
 hash_contenido: a2bdd5f483c8c889
 lote: "crawl2-documentos"
+titulo_publico: "Mar 2023 con estados financieros"
 indexar: true
 flags: [tablas_numericas]
 ---

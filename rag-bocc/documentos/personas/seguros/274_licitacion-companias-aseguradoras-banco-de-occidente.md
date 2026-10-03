@@ -22,6 +22,7 @@ caracteres: 31199
 paginas: null
 hash_contenido: 37b6562ecc693375
 lote: "lote1"
+titulo_publico: "Licitación Compañías Aseguradoras"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 4686
 paginas: null
 hash_contenido: 2ed3d8adc4cb897f
 lote: "crawl2-paginas"
+titulo_publico: "Crédito con Pensiones Voluntarias Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

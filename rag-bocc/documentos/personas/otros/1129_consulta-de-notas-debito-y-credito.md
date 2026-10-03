@@ -21,6 +21,7 @@ caracteres: 2196
 paginas: 7
 hash_contenido: 5d39bf356dc1b243
 lote: "crawl2-documentos"
+titulo_publico: "Consulta de notas débito y crédito"
 indexar: true
 flags: [candidato_vlm]
 ---

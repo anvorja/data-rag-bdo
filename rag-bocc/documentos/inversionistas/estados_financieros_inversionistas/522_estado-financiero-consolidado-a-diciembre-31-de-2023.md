@@ -21,6 +21,7 @@ caracteres: 757163
 paginas: 159
 hash_contenido: b780afc4944bd792
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero consolidado a diciembre 31 de 2023"
 indexar: true
 flags: []
 ---

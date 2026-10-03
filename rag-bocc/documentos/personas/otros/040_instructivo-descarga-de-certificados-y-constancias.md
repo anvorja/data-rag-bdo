@@ -21,6 +21,7 @@ caracteres: 1665
 paginas: 8
 hash_contenido: 7f11aedd96e2896e
 lote: "lote1"
+titulo_publico: "Instructivo descarga de certificados y constancias"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

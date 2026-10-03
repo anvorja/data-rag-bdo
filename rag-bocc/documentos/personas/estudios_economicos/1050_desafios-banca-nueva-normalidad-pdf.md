@@ -21,6 +21,7 @@ caracteres: 4925
 paginas: 8
 hash_contenido: f02d68c8918cd376
 lote: "crawl2-documentos"
+titulo_publico: "Desafíos banca nueva normalidad pdf"
 indexar: true
 flags: [ocr, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 34651
 paginas: null
 hash_contenido: fe874ac68b96ff6d
 lote: "crawl2-documentos"
+titulo_publico: "Convenio de adición al contrato de depósito en cuenta formtext"
 vigencia_validada: true
 indexar: true
 flags: []

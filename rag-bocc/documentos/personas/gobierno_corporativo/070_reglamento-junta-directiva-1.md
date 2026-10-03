@@ -21,6 +21,7 @@ caracteres: 37873
 paginas: 16
 hash_contenido: c25fadbe80d5ebf3
 lote: "lote1"
+titulo_publico: "Reglamento junta directiva"
 indexar: true
 flags: []
 ---

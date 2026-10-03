@@ -21,6 +21,7 @@ caracteres: 560
 paginas: 1
 hash_contenido: 779f745e28424cc5
 lote: "crawl2-documentos"
+titulo_publico: "Info relevante crédito subordinado"
 indexar: true
 flags: []
 ---

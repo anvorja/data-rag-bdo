@@ -21,6 +21,7 @@ caracteres: 5021
 paginas: 9
 hash_contenido: d65ceb43bb7cc259
 lote: "crawl2-documentos"
+titulo_publico: "Tr garantiasreales"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 3503
 paginas: null
 hash_contenido: a21fbaa5b815d89b
 lote: "lote1"
+titulo_publico: "Gestión Sostenible"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

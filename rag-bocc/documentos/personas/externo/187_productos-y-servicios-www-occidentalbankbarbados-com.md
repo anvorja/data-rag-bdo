@@ -21,6 +21,7 @@ caracteres: 1121
 paginas: null
 hash_contenido: 991c73e2e1213589
 lote: "lote1"
+titulo_publico: "Productos y Servicios - www.occidentalbankbarbados.com"
 indexar: true
 flags: []
 ---

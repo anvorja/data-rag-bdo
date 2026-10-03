@@ -21,6 +21,7 @@ caracteres: 307452
 paginas: 59
 hash_contenido: ae64164da325a7d6
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero trimestral julio septiembre 2023"
 indexar: true
 flags: [tablas_numericas]
 ---

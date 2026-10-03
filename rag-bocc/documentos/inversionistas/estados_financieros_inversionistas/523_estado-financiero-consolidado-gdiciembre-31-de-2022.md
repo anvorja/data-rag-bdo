@@ -21,6 +21,7 @@ caracteres: 735677
 paginas: 156
 hash_contenido: e800f42504364a0c
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero consolidado gdiciembre 31 de 2022"
 indexar: true
 flags: []
 ---

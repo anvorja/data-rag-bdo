@@ -21,6 +21,7 @@ caracteres: 4257
 paginas: 157
 hash_contenido: 7b6f7d27b2de0f0b
 lote: "crawl2-documentos"
+titulo_publico: "Ley crecimiento económico110320 1 pdf"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

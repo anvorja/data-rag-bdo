@@ -22,6 +22,7 @@ caracteres: 5092
 paginas: null
 hash_contenido: 0fb156e5f8da002d
 lote: "lote1"
+titulo_publico: "Seguro Estamos Contigo con Cobertura por Cáncer"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 3362
 paginas: 3
 hash_contenido: 4f9a7e7f7bcbd9ce
 lote: "crawl2-documentos"
+titulo_publico: "2024 i aga decisiones adoptadas por la asamblea"
 indexar: true
 flags: [candidato_vlm]
 ---

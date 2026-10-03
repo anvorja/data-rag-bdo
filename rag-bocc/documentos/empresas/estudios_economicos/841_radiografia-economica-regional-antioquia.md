@@ -21,6 +21,7 @@ caracteres: 55298
 paginas: 15
 hash_contenido: c078a969deb7296b
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional antioquia"
 indexar: true
 flags: []
 ---

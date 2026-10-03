@@ -22,6 +22,7 @@ caracteres: 1519
 paginas: null
 hash_contenido: be254cfef5e94b3f
 lote: "crawl2-paginas"
+titulo_publico: "Asistencias para Salud, Hogar y Vehículo"
 indexar: true
 flags: []
 ---

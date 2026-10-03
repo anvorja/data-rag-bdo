@@ -22,6 +22,7 @@ caracteres: 5421
 paginas: null
 hash_contenido: 408e057583277ccc
 lote: "crawl2-paginas"
+titulo_publico: "Seguro para Vehículos Pesados"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

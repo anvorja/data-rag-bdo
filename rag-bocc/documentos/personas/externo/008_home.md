@@ -21,6 +21,7 @@ caracteres: 2222
 paginas: null
 hash_contenido: dfca90fdfa756314
 lote: "lote1"
+titulo_publico: "home"
 indexar: true
 flags: []
 ---

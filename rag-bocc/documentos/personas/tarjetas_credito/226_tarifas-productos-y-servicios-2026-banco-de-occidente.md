@@ -22,6 +22,7 @@ caracteres: 2599
 paginas: null
 hash_contenido: 50a3b532b4d777d9
 lote: "lote1"
+titulo_publico: "Tarifas Productos y Servicios 2026"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

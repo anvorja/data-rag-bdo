@@ -21,6 +21,7 @@ caracteres: 28976
 paginas: 2
 hash_contenido: 01defc0151047f15
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual mayo"
 indexar: true
 flags: []
 ---

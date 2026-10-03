@@ -21,6 +21,7 @@ caracteres: 53166
 paginas: 15
 hash_contenido: 7a76699b3387b832
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional bogotá"
 indexar: true
 flags: []
 ---

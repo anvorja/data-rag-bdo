@@ -22,6 +22,7 @@ caracteres: 9610
 paginas: null
 hash_contenido: 31cc8bf0cd2d6198
 lote: "crawl2-paginas"
+titulo_publico: "Aternativas Inversiones Empresariales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."

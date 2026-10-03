@@ -21,6 +21,7 @@ caracteres: 1150
 paginas: null
 hash_contenido: 37667e8c6b009fee
 lote: "crawl2-documentos"
+titulo_publico: "Visualizacion texto sitio web"
 indexar: true
 flags: [ocr]
 ---

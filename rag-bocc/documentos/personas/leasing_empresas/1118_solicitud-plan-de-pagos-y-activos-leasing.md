@@ -21,6 +21,7 @@ caracteres: 1124
 paginas: 6
 hash_contenido: da1f292db02534da
 lote: "crawl2-documentos"
+titulo_publico: "Solicitud plan de pagos y activos leasing"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---
