@@ -21,6 +21,7 @@ caracteres: 5370
 paginas: 1
 hash_contenido: b5ad14585fffdf1f
 lote: "lote1"
+titulo_publico: "Doc empresas de grupo aval"
 indexar: true
 flags: []
 ---

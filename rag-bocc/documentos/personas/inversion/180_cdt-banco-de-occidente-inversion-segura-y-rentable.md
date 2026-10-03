@@ -22,6 +22,7 @@ caracteres: 5037
 paginas: null
 hash_contenido: 48aca4ed8b4fd6df
 lote: "lote1"
+titulo_publico: "CDT Banco de Occidente: Inversión Segura y Rentable"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

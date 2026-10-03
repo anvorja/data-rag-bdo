@@ -21,6 +21,7 @@ caracteres: 11984
 paginas: 4
 hash_contenido: fa7360e0f40b93df
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento"
 indexar: true
 flags: []
 ---

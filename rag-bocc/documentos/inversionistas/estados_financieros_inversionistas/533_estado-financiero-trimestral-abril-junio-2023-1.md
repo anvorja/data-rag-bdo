@@ -21,6 +21,7 @@ caracteres: 239596
 paginas: 50
 hash_contenido: 77e4b6bc13313e86
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero trimestral abril junio 2023"
 indexar: true
 flags: [tablas_numericas]
 ---

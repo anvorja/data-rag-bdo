@@ -21,6 +21,7 @@ caracteres: 7891
 paginas: 3
 hash_contenido: 8d8a45b1f4decc51
 lote: "crawl2-documentos"
+titulo_publico: "Directrices generales en materia de gestión y administración del riesgo"
 indexar: true
 flags: []
 ---

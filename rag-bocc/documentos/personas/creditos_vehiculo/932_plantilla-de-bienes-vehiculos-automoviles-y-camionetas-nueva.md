@@ -21,6 +21,7 @@ caracteres: 26914
 paginas: 29
 hash_contenido: 0f06ffa1f9545ee0
 lote: "crawl2-documentos"
+titulo_publico: "Plantilla de bienes vehículos automóviles y camionetas nuevas"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

@@ -21,6 +21,7 @@ caracteres: 12408
 paginas: 10
 hash_contenido: 6fc73ff89b5f28a5
 lote: "lote1"
+titulo_publico: "Proceso reversión pago"
 indexar: true
 flags: []
 ---

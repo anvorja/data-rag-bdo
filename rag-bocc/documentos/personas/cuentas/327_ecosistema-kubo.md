@@ -21,6 +21,7 @@ caracteres: 3498
 paginas: null
 hash_contenido: 3c9cf1bd6a871773
 lote: "crawl2-paginas"
+titulo_publico: "Ecosistema Kubo"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS."

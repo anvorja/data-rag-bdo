@@ -21,6 +21,7 @@ caracteres: 20103
 paginas: 59
 hash_contenido: 56aec61d6ca23305
 lote: "crawl2-documentos"
+titulo_publico: "Presentación foro tributario 2024"
 indexar: true
 flags: [candidato_vlm]
 ---

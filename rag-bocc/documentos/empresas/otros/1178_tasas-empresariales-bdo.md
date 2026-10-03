@@ -21,6 +21,7 @@ caracteres: 10865
 paginas: 1
 hash_contenido: e90a09fc8c58f402
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tasas empresariales Banco de Occidente"
 vigencia_validada: true
 version_de: 230
 indexar: true

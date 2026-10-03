@@ -22,6 +22,7 @@ caracteres: 3836
 paginas: null
 hash_contenido: 3b1f4fd90da5093e
 lote: "crawl2-paginas"
+titulo_publico: "Seguro de Vehículo Empresarial - Auto Liviano"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

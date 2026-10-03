@@ -21,6 +21,7 @@ caracteres: 10992
 paginas: 2
 hash_contenido: 6dfe8ddad6476997
 lote: "crawl2-documentos"
+titulo_publico: "Afiliación occired"
 vigencia_validada: true
 indexar: true
 flags: []

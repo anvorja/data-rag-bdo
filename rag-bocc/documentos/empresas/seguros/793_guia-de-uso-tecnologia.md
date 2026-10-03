@@ -21,6 +21,7 @@ caracteres: 26663
 paginas: 9
 hash_contenido: b71fac11541c983b
 lote: "crawl2-documentos"
+titulo_publico: "Guía de producto de tecnología"
 vigencia_validada: true
 indexar: true
 flags: []

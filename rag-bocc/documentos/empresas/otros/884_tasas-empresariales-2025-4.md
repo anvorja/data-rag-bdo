@@ -23,6 +23,7 @@ hash_contenido: bf1cfa394cea4371
 lote: "crawl2-documentos"
 casi_duplicado_de: 230
 similitud: 0.91
+titulo_publico: "Tasas empresariales 2025"
 vigencia_validada: true
 indexar: true
 flags: [tablas_numericas, casi_duplicado]

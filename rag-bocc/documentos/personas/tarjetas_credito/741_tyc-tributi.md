@@ -21,6 +21,7 @@ caracteres: 11046
 paginas: 5
 hash_contenido: 519fe0134bb89285
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Convenio Tributi y Banco de Occidente S.A»"
 vigencia_validada: true
 indexar: true
 flags: []

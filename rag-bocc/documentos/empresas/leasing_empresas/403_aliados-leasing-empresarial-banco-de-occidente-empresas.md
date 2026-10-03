@@ -22,6 +22,7 @@ caracteres: 4894
 paginas: null
 hash_contenido: f66e587a256e8e29
 lote: "crawl2-paginas"
+titulo_publico: "Aliados Leasing Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 12 líneas de plantilla del CMS."

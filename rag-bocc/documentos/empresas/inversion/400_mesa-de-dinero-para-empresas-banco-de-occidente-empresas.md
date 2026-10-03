@@ -22,6 +22,7 @@ caracteres: 4468
 paginas: null
 hash_contenido: 618df79b528a7fed
 lote: "crawl2-paginas"
+titulo_publico: "Mesa de Dinero para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 11 líneas de plantilla del CMS."

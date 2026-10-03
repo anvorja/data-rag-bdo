@@ -21,6 +21,7 @@ caracteres: 58334
 paginas: 15
 hash_contenido: 2f1bfa890c49df87
 lote: "crawl2-documentos"
+titulo_publico: "Termómetro económico sectorial financiero"
 indexar: true
 flags: []
 ---

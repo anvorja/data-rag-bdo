@@ -21,6 +21,7 @@ caracteres: 39584
 paginas: null
 hash_contenido: 42efd4a7db9c2f60
 lote: "lote1"
+titulo_publico: "Transparencia"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

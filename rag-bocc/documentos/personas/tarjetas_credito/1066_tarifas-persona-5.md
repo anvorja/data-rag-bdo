@@ -21,6 +21,7 @@ caracteres: 86570
 paginas: 17
 hash_contenido: 4de281633a75a671
 lote: "crawl2-documentos"
+titulo_publico: "Tarifas persona"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

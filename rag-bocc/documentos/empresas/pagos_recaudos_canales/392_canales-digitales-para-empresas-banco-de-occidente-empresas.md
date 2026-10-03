@@ -22,6 +22,7 @@ caracteres: 3698
 paginas: null
 hash_contenido: a2014066bb9bddfa
 lote: "crawl2-paginas"
+titulo_publico: "Canales Digitales para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 10 líneas de plantilla del CMS."

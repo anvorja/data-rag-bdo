@@ -22,6 +22,7 @@ caracteres: 9973
 paginas: null
 hash_contenido: e0c0f1588c9c2ab4
 lote: "lote1"
+titulo_publico: "Promociones con Tarjetas de Crédito Banco de Occidente"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."

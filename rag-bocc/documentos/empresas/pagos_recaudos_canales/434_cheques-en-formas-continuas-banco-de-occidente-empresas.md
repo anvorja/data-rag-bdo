@@ -22,6 +22,7 @@ caracteres: 4533
 paginas: null
 hash_contenido: 01c1a3035d07cda3
 lote: "crawl2-paginas"
+titulo_publico: "Cheques en Formas Continuas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

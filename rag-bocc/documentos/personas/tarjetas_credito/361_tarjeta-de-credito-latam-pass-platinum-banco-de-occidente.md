@@ -22,6 +22,7 @@ caracteres: 6665
 paginas: null
 hash_contenido: 6cd4239a700771f5
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito LATAM Pass Platinum Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

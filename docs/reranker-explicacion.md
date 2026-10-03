@@ -109,14 +109,26 @@ Con tan pocas preguntas el margen es de ±4-5 puntos, así que confirma la tende
 Comparamos varios modelos de embeddings (ver `EMBEDDINGS.md`). **Sin reranker**, los de Voyage ganaban claramente a e5 (por ejemplo, `voyage-context-4` ponía el acierto primero en 0,689 contra 0,611).
 **Con reranker bge**, los tres quedaron casi iguales:
 
-| Embeddings | cita@1 | cita@10 | MRR |
-|---|---|---|---|
-| e5-small (local, gratis) | 0,808 | 0,958 | 0,870 |
-| voyage-4-large | 0,802 | 0,964 | 0,870 |
-| voyage-context-4 | 0,808 | 0,970 | 0,876 |
+| Embeddings | cita@1 | cita@10 | MRR | variantes coloquiales: cita@10 | variantes: MRR |
+|---|---|---|---|---|---|
+| e5-small (local, gratis) | 0,808 | 0,958 | 0,870 | 0,857 | 0,642 |
+| voyage-4-large | 0,802 | 0,964 | 0,870 | 0,911 | 0,664 |
+| voyage-context-4 | 0,808 | 0,970 | 0,876 | 0,905 | 0,649 |
 
 Explicación sencilla: los embeddings de más calidad mejoran el *orden* de la lista de candidatos. Pero el reranker vuelve a ordenar esa lista desde cero con un criterio mejor, así que el orden inicial importa menos.
 Lo que sí sigue importando es que el fragmento correcto **esté dentro de los 20 candidatos**; ahí los modelos buenos ayudan poco porque BM25 + e5 ya lo logran en ~94-97 % de los casos.
+
+### 6.3b Reranker abierto (`bge`) frente a reranker de pago (Voyage), mismo corpus y mismos candidatos
+Corpus actual (tras validar vigencias), `dev`, política de vigencia dura, mismos 20 candidatos (híbrido con e5-small):
+| Reranker | cita@1 | cita@10 | MRR | variantes cita@1 | variantes cita@10 | variantes MRR |
+|---|---|---|---|---|---|---|
+| bge-reranker-v2-m3 (abierto, CPU) | 0,784 | 0,916 | 0,841 | 0,500 | 0,821 | 0,629 |
+| Voyage rerank-3-lite | 0,808 | 0,916 | 0,855 | 0,655 | 0,827 | 0,721 |
+| Voyage rerank-3 | 0,820 | 0,916 | 0,858 | 0,690 | 0,833 | 0,742 |
+Con preguntas directas, los tres quedan parecidos (diferencias de 2-4 puntos en cita@1, dentro del margen). Con **preguntas coloquiales**, Voyage supera a `bge` en unos **16-19 puntos en cita@1** (0,66-0,69 contra 0,50),
+una diferencia mayor que el margen de error (±7 puntos con 168 variantes). Velocidad: Voyage ~0,07 s por consulta en paralelo (25 s para 335 consultas) frente a ~16 s por consulta de `bge` en CPU.
+Consumo: ~2,8 M tokens por modelo en toda la evaluación (precio: ver el panel de Voyage). El banco aceptó un servicio externo para el reranker (con enmascaramiento de datos personales), así que Voyage es la opción preferida; `bge` en una GPU de servidor queda como alternativa sin terceros.
+Archivos: `rag-bocc/evaluacion/fase3a/reranker-voyage-dev.json` y `embeddings-reranker-dev-e5-corpus-actual.json`.
 
 ### 6.4 ¿Con o sin contexto de metadatos?
 A cada fragmento le anteponemos, solo para indexar, una línea con título, tipo de documento, área, segmento y estado de vigencia
@@ -143,7 +155,7 @@ Esto sale de las pruebas; la latencia real en producción depende del servidor q
 ## 9. Cómo encaja en la decisión de producción (resumen)
 
 - Para la recuperación en producción con **PostgreSQL + pgvector**: guardar los vectores (1.024 dimensiones en Voyage, 384 en e5), mantener BM25 (por ejemplo con búsqueda de texto de PostgreSQL), fusionar con RRF, filtrar por vigencia y aplicar el reranker a los 20 mejores.
-- **No hay evidencia en `dev` de que los embeddings de pago superen a e5 cuando se usa el reranker.** Queda pendiente medir las preguntas coloquiales de e5 + bge (en curso) para cerrar la comparación.
+- **No hay evidencia en `dev` de que los embeddings de pago superen a e5 cuando se usa el reranker** (con preguntas coloquiales, Voyage mejora ~5 puntos en cita@10, en el límite del margen de error, y nada en MRR).
 - El reranker bge necesita GPU o un servicio; sin eso, mmarco con ~2-3 s por consulta, aceptando algo menos de precisión en el primer lugar (0,71 contra 0,81).
 
 ## 10. Glosario rápido

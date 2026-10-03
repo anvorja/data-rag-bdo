@@ -22,6 +22,7 @@ caracteres: 4431
 paginas: null
 hash_contenido: 86148364911a9cf5
 lote: "crawl2-paginas"
+titulo_publico: "PILA - Pagos de Seguridad Social"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

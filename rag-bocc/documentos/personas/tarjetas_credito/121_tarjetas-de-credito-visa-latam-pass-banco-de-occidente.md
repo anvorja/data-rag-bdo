@@ -22,6 +22,7 @@ caracteres: 6329
 paginas: null
 hash_contenido: 961c6535c67d40e4
 lote: "lote1"
+titulo_publico: "Tarjetas de Crédito Visa LATAM Pass"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

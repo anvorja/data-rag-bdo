@@ -22,6 +22,7 @@ caracteres: 3077
 paginas: null
 hash_contenido: 64bb12fdd34aec7d
 lote: "lote1"
+titulo_publico: "Canales Digitales Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 42335
 paginas: null
 hash_contenido: 4a1ff09eb52f65bb
 lote: "lote1"
+titulo_publico: "Solicitud vinculación persona natural"
 vigencia_validada: true
 indexar: true
 flags: []

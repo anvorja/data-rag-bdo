@@ -22,6 +22,7 @@ caracteres: 3331
 paginas: null
 hash_contenido: 120138a3da7eb626
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito MasterCard Unicef"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."

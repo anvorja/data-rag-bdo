@@ -21,6 +21,7 @@ caracteres: 31086
 paginas: null
 hash_contenido: b3478a76645b9939
 lote: "crawl2-documentos"
+titulo_publico: "Contrato de prenda sin tenencia del acreedor"
 vigencia_validada: true
 indexar: true
 flags: []

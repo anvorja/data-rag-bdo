@@ -22,6 +22,7 @@ caracteres: 3425
 paginas: null
 hash_contenido: 4bb7b9c2bcbf4878
 lote: "lote1"
+titulo_publico: "Descubre las cuentas del Banco de Occidente y elige la tuya"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS."

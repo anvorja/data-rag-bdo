@@ -21,6 +21,7 @@ caracteres: 10868
 paginas: 3
 hash_contenido: 1324d0409acc9577
 lote: "lote1"
+titulo_publico: "Tasas empresariales Banco de Occidente"
 vigencia_validada: true
 indexar: true
 flags: [tablas_numericas]

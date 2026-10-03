@@ -21,6 +21,7 @@ caracteres: 413
 paginas: 1
 hash_contenido: 73f7b3c7285553d2
 lote: "crawl2-documentos"
+titulo_publico: "Recurso de apelacion interpuesto contra la resolución 1164 del 5 de septiembre de 2022 de la sfc"
 indexar: true
 flags: [ocr]
 ---

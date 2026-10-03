@@ -21,6 +21,7 @@ caracteres: 121795
 paginas: 29
 hash_contenido: a2db0b2c171de8e8
 lote: "crawl2-documentos"
+titulo_publico: "Radar económico 2026 señales clave para anticipar el rumbo de la economía"
 indexar: true
 flags: []
 ---

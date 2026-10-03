@@ -22,6 +22,7 @@ caracteres: 3259
 paginas: null
 hash_contenido: b9625339657d1f4c
 lote: "crawl2-paginas"
+titulo_publico: "Servicios Financieros para Importadores"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

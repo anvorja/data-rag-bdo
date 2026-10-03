@@ -21,6 +21,7 @@ caracteres: 17060
 paginas: 2
 hash_contenido: 92712e261a0c5b07
 lote: "crawl2-documentos"
+titulo_publico: "Por Valor de:"
 vigencia_validada: true
 indexar: true
 flags: []

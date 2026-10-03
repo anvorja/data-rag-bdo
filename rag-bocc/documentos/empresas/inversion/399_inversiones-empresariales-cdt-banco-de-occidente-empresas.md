@@ -22,6 +22,7 @@ caracteres: 4610
 paginas: null
 hash_contenido: ba370cbae5f2d88d
 lote: "crawl2-paginas"
+titulo_publico: "Inversiones Empresariales - CDT"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

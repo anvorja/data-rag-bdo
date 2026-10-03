@@ -21,6 +21,7 @@ caracteres: 195915
 paginas: 95
 hash_contenido: c8c372c1f28ff384
 lote: "crawl2-documentos"
+titulo_publico: "Asamblea ordinaria de"
 indexar: true
 flags: []
 ---

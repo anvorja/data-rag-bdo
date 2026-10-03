@@ -21,6 +21,7 @@ caracteres: 32824
 paginas: 20
 hash_contenido: b8ebe94e66ef7c7b
 lote: "lote1"
+titulo_publico: "Guia de uso black 2026"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

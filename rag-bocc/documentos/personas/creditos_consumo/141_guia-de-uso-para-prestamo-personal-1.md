@@ -21,6 +21,7 @@ caracteres: 38840
 paginas: 19
 hash_contenido: 88cc465e9a1a964a
 lote: "lote1"
+titulo_publico: "Guia de uso para prestamo personal"
 vigencia_validada: true
 indexar: true
 flags: []

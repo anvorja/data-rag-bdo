@@ -22,6 +22,7 @@ caracteres: 8289
 paginas: null
 hash_contenido: 55156ed0e6012f89
 lote: "lote1"
+titulo_publico: "¿Qué es una cuenta bancaria y cuáles son los diferentes tipos que existen?"
 indexar: true
 flags: []
 ---

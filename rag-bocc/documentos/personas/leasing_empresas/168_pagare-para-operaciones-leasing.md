@@ -21,6 +21,7 @@ caracteres: 12403
 paginas: null
 hash_contenido: 1794488054b26ffd
 lote: "lote1"
+titulo_publico: "Pagare para operaciones Leasing"
 vigencia_validada: true
 indexar: true
 flags: []

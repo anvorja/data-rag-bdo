@@ -22,6 +22,7 @@ caracteres: 5899
 paginas: null
 hash_contenido: c98fcaae9f545735
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito LATAM Pass Clásica Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

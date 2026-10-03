@@ -22,6 +22,7 @@ caracteres: 4256
 paginas: null
 hash_contenido: 768bedf5da9e8949
 lote: "lote1"
+titulo_publico: "Recomendaciones de seguridad al usar medios digitales en tus finanzas personales"
 indexar: true
 flags: []
 ---

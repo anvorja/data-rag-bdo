@@ -22,6 +22,7 @@ caracteres: 5421
 paginas: null
 hash_contenido: b3570732d2467273
 lote: "crawl2-paginas"
+titulo_publico: "Cartera Ordinaria"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

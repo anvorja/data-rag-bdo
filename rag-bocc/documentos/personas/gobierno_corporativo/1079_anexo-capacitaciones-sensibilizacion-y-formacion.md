@@ -21,6 +21,7 @@ caracteres: 6386
 paginas: 3
 hash_contenido: 3f49b6e107f97c8b
 lote: "crawl2-documentos"
+titulo_publico: "Anexo capacitaciones sensibilización y formación"
 indexar: true
 flags: []
 ---

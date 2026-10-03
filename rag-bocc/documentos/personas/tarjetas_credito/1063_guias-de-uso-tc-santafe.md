@@ -21,6 +21,7 @@ caracteres: 24796
 paginas: 27
 hash_contenido: 54b7fb0e43fa256c
 lote: "crawl2-documentos"
+titulo_publico: "Guías de uso tarjeta de crédito santafé"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, sin_fecha]

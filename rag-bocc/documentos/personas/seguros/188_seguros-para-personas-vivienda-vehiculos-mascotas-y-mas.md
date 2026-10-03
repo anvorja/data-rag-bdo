@@ -22,6 +22,7 @@ caracteres: 1826
 paginas: null
 hash_contenido: 15304585451ab26c
 lote: "lote1"
+titulo_publico: "Seguros para Personas: Vivienda, Vehículos, Mascotas y más"
 indexar: true
 flags: []
 ---

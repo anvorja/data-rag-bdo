@@ -21,6 +21,7 @@ caracteres: 2750
 paginas: 5
 hash_contenido: 45acc97fe2ef589f
 lote: "crawl2-documentos"
+titulo_publico: "¿Qué es Rapport Trusteer?"
 indexar: true
 flags: [candidato_vlm]
 ---

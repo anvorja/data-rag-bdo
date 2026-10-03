@@ -21,6 +21,7 @@ caracteres: 27606
 paginas: 8
 hash_contenido: b4df64da36ad71dc
 lote: "lote1"
+titulo_publico: "Fto col 988 pagaré crédito hipotecario en uvr"
 vigencia_validada: true
 indexar: true
 flags: []

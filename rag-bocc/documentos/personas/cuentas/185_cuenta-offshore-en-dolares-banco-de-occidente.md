@@ -22,6 +22,7 @@ caracteres: 7432
 paginas: null
 hash_contenido: 94524db05eaf596f
 lote: "lote1"
+titulo_publico: "Cuenta Offshore en Dólares"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 13 líneas de plantilla del CMS."

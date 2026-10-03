@@ -21,6 +21,7 @@ caracteres: 2515
 paginas: 1
 hash_contenido: 9f30777e1171e6df
 lote: "crawl2-documentos"
+titulo_publico: "Banco de Occidente"
 indexar: true
 flags: []
 ---

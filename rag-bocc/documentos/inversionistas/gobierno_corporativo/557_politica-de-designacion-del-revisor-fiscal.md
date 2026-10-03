@@ -21,6 +21,7 @@ caracteres: 2115
 paginas: 1
 hash_contenido: 3d6fc8bb7a0c8802
 lote: "crawl2-documentos"
+titulo_publico: "Política de Designación del Revisor Fiscal"
 indexar: true
 flags: []
 ---

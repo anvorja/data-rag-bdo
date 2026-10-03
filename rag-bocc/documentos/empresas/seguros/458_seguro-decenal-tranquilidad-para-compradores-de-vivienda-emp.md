@@ -22,6 +22,7 @@ caracteres: 4075
 paginas: null
 hash_contenido: 7d52ae80584690b4
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Decenal: Tranquilidad para Compradores de Vivienda - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

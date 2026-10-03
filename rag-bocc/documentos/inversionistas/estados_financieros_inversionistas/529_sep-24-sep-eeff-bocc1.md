@@ -21,6 +21,7 @@ caracteres: 242941
 paginas: 49
 hash_contenido: 917ee7a649a77ba4
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a septiembre de 2024"
 indexar: true
 flags: [tablas_numericas]
 ---

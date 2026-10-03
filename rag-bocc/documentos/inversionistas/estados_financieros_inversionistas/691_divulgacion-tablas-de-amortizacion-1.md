@@ -21,6 +21,7 @@ caracteres: 10395
 paginas: 4
 hash_contenido: 9c6be6d4e894eb3d
 lote: "crawl2-documentos"
+titulo_publico: "Divulgación tablas de amortización"
 indexar: true
 flags: []
 ---

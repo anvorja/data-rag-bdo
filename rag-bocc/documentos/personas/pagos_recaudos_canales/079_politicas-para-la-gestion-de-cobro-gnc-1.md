@@ -21,6 +21,7 @@ caracteres: 3580
 paginas: 2
 hash_contenido: c382119d4d6c34b4
 lote: "lote1"
+titulo_publico: "Políticas para la gestión de cobro gnc"
 indexar: true
 flags: []
 ---

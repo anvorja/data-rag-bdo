@@ -21,6 +21,7 @@ caracteres: 86797
 paginas: null
 hash_contenido: 4dbdf0b305eebf53
 lote: "lote1"
+titulo_publico: "Contrato leasing habitacional vivienda familiar en uvr"
 vigencia_validada: true
 indexar: true
 flags: []

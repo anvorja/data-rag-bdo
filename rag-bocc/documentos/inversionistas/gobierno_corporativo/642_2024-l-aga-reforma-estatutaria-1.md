@@ -21,6 +21,7 @@ caracteres: 5313
 paginas: 2
 hash_contenido: f8c153a740d3ea86
 lote: "crawl2-documentos"
+titulo_publico: "2024 l aga reforma estatutaria"
 indexar: true
 flags: [ocr]
 ---

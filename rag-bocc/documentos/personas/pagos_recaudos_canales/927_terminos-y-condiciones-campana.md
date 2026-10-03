@@ -21,6 +21,7 @@ caracteres: 10939
 paginas: 5
 hash_contenido: 211a9eb313aaf52d
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones – campaña"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

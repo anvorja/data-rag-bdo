@@ -21,6 +21,7 @@ caracteres: 51869
 paginas: 20
 hash_contenido: d5fdfaced703fb7b
 lote: "crawl2-documentos"
+titulo_publico: "Informe periódico trimestral 2025"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 3600
 paginas: null
 hash_contenido: e853b9fe40a04c2c
 lote: "crawl2-documentos"
+titulo_publico: "Hoja: CDT"
 vigencia_validada: true
 indexar: true
 flags: []

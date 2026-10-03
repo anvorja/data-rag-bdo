@@ -21,6 +21,7 @@ caracteres: 2679
 paginas: null
 hash_contenido: b0f8e592a90c920c
 lote: "crawl2-paginas"
+titulo_publico: "Banco de las Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 4521
 paginas: 1
 hash_contenido: 12415273317dec44
 lote: "crawl2-documentos"
+titulo_publico: "Dv cont¡cto gomez valencia"
 vigencia_validada: true
 indexar: true
 flags: []

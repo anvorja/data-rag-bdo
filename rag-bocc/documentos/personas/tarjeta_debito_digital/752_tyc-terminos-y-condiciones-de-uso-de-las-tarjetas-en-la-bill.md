@@ -23,6 +23,7 @@ hash_contenido: 8de60b1e18e36973
 lote: "crawl2-documentos"
 casi_duplicado_de: 253
 similitud: 0.84
+titulo_publico: "Términos y condiciones términos y condiciones de uso de las tarjetas en la billetera virtual de google"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado, sin_fecha]

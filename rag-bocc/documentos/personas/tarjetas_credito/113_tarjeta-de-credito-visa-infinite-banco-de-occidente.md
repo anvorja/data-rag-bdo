@@ -22,6 +22,7 @@ caracteres: 5158
 paginas: null
 hash_contenido: 608d9c1e52f2d064
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito Visa Infinite Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

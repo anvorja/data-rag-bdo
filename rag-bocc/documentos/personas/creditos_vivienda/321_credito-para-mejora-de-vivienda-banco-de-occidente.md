@@ -22,6 +22,7 @@ caracteres: 6324
 paginas: null
 hash_contenido: e328d4b9241c2a34
 lote: "crawl2-paginas"
+titulo_publico: "Crédito para Mejora de Vivienda​ Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 4363
 paginas: null
 hash_contenido: d7d5a901e045fdc9
 lote: "lote1"
+titulo_publico: "Seguro todo riesgo para tu carro Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

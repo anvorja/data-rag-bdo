@@ -21,6 +21,7 @@ caracteres: 5292
 paginas: 3
 hash_contenido: ae350e76e0cb0cae
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones de la campaña “abre tu cuenta nómina y"
 vigencia_validada: true
 indexar: true
 flags: []

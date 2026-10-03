@@ -21,6 +21,7 @@ caracteres: 15748
 paginas: 5
 hash_contenido: 361597eae3269086
 lote: "crawl2-documentos"
+titulo_publico: "6901 protección fuerzas armadas sector militares"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 4249
 paginas: null
 hash_contenido: 55ae27b624598d2f
 lote: "crawl2-paginas"
+titulo_publico: "Consignación Nacional - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

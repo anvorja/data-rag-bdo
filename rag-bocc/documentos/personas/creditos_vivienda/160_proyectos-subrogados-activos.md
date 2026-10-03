@@ -21,6 +21,7 @@ caracteres: 9794
 paginas: 2
 hash_contenido: e2f4f53824895a0d
 lote: "lote1"
+titulo_publico: "Proyectos subrogados activos"
 indexar: true
 flags: [tablas_numericas]
 ---

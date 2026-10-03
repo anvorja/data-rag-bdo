@@ -21,6 +21,7 @@ caracteres: 781088
 paginas: 162
 hash_contenido: 5346d73d626a0514
 lote: "lote1"
+titulo_publico: "Estados financieros consolidados 2025"
 indexar: true
 flags: []
 ---

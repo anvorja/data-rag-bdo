@@ -21,6 +21,7 @@ caracteres: 328554
 paginas: 62
 hash_contenido: 682a40516d24e69d
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a septiembre de 2025"
 indexar: true
 flags: [tablas_numericas]
 ---

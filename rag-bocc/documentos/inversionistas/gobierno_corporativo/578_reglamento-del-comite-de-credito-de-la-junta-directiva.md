@@ -21,6 +21,7 @@ caracteres: 5574
 paginas: 2
 hash_contenido: 53a3be26d38a24d4
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento del comité de crédito de la junta directiva:"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 2774
 paginas: 1
 hash_contenido: c18e88ff43db8db1
 lote: "crawl2-documentos"
+titulo_publico: "Calle 6 Norte No. 1 – 42, Torre Centenario, Piso"
 indexar: true
 flags: []
 ---

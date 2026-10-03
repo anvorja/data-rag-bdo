@@ -21,6 +21,7 @@ caracteres: 143016
 paginas: 58
 hash_contenido: ea0ef4fb8b4be75f
 lote: "crawl2-documentos"
+titulo_publico: "Actrib 20 26 con caratula banco"
 indexar: true
 flags: [mojibake]
 ---

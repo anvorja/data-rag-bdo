@@ -21,6 +21,7 @@ caracteres: 2635
 paginas: 7
 hash_contenido: 087d837b6ac9b350
 lote: "crawl2-documentos"
+titulo_publico: "Insripción cuentas - fondos de inversión"
 indexar: true
 flags: [candidato_vlm]
 ---

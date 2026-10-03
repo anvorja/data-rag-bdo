@@ -21,6 +21,7 @@ caracteres: 7889
 paginas: 9
 hash_contenido: 9cbadb7a5ca10f1a
 lote: "crawl2-documentos"
+titulo_publico: "Programa abac"
 indexar: true
 flags: [candidato_vlm]
 ---

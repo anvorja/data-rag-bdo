@@ -22,6 +22,7 @@ caracteres: 5411
 paginas: null
 hash_contenido: 975d2024b5cca11d
 lote: "crawl2-paginas"
+titulo_publico: "Seguro de Inmuebles Comerciales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

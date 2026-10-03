@@ -21,6 +21,7 @@ caracteres: 11084
 paginas: 6
 hash_contenido: b9c4287282b2cf4d
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Dafiti 0% y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

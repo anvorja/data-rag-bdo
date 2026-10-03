@@ -22,6 +22,7 @@ caracteres: 11967
 paginas: null
 hash_contenido: fb2cd2759efb6165
 lote: "lote1"
+titulo_publico: "Defensor del Consumidor Financiero"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

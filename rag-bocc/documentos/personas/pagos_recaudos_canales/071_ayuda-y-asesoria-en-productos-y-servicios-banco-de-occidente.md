@@ -22,6 +22,7 @@ caracteres: 4181
 paginas: null
 hash_contenido: 5d60076dd885277f
 lote: "lote1"
+titulo_publico: "Ayuda y Asesoría en Productos y Servicios Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 11 líneas de plantilla del CMS."

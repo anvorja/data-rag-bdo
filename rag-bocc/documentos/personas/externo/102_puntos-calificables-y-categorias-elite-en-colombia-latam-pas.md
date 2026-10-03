@@ -21,6 +21,7 @@ caracteres: 2722
 paginas: null
 hash_contenido: 56b334d257153232
 lote: "lote1"
+titulo_publico: "Puntos Calificables y categorías Elite en Colombia | LATAM Pass"
 indexar: true
 flags: []
 ---

@@ -23,6 +23,7 @@ hash_contenido: 2490360e614f6e9d
 lote: "crawl2-documentos"
 casi_duplicado_de: 253
 similitud: 0.92
+titulo_publico: "Uso de las tarjetas Banco de Occidente en billetera Google Pay"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

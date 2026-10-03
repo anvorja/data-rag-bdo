@@ -21,6 +21,7 @@ caracteres: 5635
 paginas: 3
 hash_contenido: edc4cf5370b32bfc
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento interno del comité integral de riesgos"
 indexar: true
 flags: []
 ---

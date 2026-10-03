@@ -39,13 +39,13 @@ Archivos: `rag-bocc/evaluacion/fase3a/comparacion-embeddings-dev.json`.
 ## Con reranker `bge` (top-20, híbrido + vigencia + contexto, `dev`)
 | Modelo de embeddings | cita@1 | cita@10 | MRR | variantes cita@10 | variantes MRR |
 |---|---|---|---|---|---|
-| e5-small (referencia) | 0,808 | 0,958 | 0,870 | no medido | no medido |
+| e5-small (local, gratis) | 0,808 | 0,958 | 0,870 | 0,857 | 0,642 |
 | voyage-4-large | 0,802 | 0,964 | 0,870 | 0,911 | 0,664 |
 | voyage-context-4 | 0,808 | 0,970 | 0,876 | 0,905 | 0,649 |
 
 **Con reranker las diferencias desaparecen** (≤1,2 puntos en cita@10 y 0,6 en MRR, muy por debajo del margen de error de ±3-4 puntos).
 El reranker corrige lo que el modelo de embeddings ordena peor: la ventaja de `voyage-context-4` (+8 puntos de cita@1 sin reranker) se diluye.
-Los modelos de pago se justificarían solo si no se usa reranker, o por las preguntas coloquiales (no medidas para e5 con reranker).
+En las **preguntas coloquiales** Voyage sí saca algo de ventaja en cita@10 (0,905-0,911 contra 0,857 de e5, unos 5 puntos, en el límite del margen de error de ±4) pero no en MRR (0,642 contra 0,649-0,664) ni en cita@1 (0,494-0,512 contra 0,500). Conclusión provisional: **no hay ventaja demostrada de los embeddings de pago cuando se usa reranker**; hace falta contrastar con consultas reales.
 Archivo: `rag-bocc/evaluacion/fase3a/embeddings-reranker-dev.json`.
 
 ## Costo y límites observados
@@ -82,7 +82,7 @@ _raw/emb/api/uso.json                            tokens consumidos por las APIs 
 Sirve sobre todo para modelos grandes (bge-m3, e5-large) y para el reranker, que en CPU tardan horas; para la actualización mensual de e5-small la CPU basta.
 
 ## Pendiente
-- ~~Híbrido + reranker `bge`~~ hecho: sin diferencias apreciables entre modelos. Falta medir e5+bge en las variantes coloquiales para cerrar la comparación.
+- ~~Híbrido + reranker `bge`~~ hecho: sin diferencias apreciables entre modelos. e5+bge en variantes coloquiales ya medido (ver tabla).
 - Probar 512 dimensiones (Matryoshka) para reducir almacenamiento.
 - Una sola corrida en `test` con el modelo elegido.
 - Candidato local abierto (`bge-m3`) solo si se exige no depender de API externa; en CPU tarda varias horas.

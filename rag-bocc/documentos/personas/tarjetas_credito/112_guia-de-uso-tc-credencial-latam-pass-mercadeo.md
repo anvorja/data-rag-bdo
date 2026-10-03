@@ -21,6 +21,7 @@ caracteres: 34865
 paginas: 20
 hash_contenido: a4ea336b59fe4bc1
 lote: "lote1"
+titulo_publico: "Guia de uso tarjeta de crédito credencial latam pass mercadeo"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

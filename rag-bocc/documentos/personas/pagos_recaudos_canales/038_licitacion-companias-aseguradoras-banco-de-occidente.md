@@ -22,6 +22,7 @@ caracteres: 16059
 paginas: null
 hash_contenido: 666926f15090b56b
 lote: "lote1"
+titulo_publico: "Licitación Compañías Aseguradoras"
 indexar: true
 flags: [titulo_dudoso]
 ---

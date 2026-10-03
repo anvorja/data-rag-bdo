@@ -21,6 +21,7 @@ caracteres: 68900
 paginas: 29
 hash_contenido: d3018aaf4dc6b196
 lote: "crawl2-documentos"
+titulo_publico: "Puede consultar las tarifa s de los productos y servicios"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

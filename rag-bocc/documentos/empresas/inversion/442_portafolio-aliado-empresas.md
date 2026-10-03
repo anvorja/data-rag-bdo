@@ -21,6 +21,7 @@ caracteres: 4969
 paginas: null
 hash_contenido: 898e627cbefb61dd
 lote: "crawl2-paginas"
+titulo_publico: "Portafolio Aliado - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS."

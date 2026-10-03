@@ -21,6 +21,7 @@ caracteres: 18027
 paginas: 9
 hash_contenido: 5ae0d48a6290fdca
 lote: "crawl2-documentos"
+titulo_publico: "Boletin empresarial ene mar 2018"
 indexar: true
 flags: []
 ---

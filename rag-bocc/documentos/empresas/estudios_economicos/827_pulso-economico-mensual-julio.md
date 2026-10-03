@@ -21,6 +21,7 @@ caracteres: 28537
 paginas: 2
 hash_contenido: 0765ba7fc87ef269
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual julio"
 indexar: true
 flags: []
 ---

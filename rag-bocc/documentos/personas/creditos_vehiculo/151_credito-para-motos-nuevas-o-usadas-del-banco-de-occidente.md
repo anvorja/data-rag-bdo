@@ -22,6 +22,7 @@ caracteres: 7552
 paginas: null
 hash_contenido: b54d280e65e06267
 lote: "lote1"
+titulo_publico: "Crédito para Motos Nuevas o Usadas del Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

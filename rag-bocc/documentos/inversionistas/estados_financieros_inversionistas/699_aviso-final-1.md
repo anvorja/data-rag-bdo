@@ -21,6 +21,7 @@ caracteres: 61685
 paginas: 1
 hash_contenido: 796afaf856cfada2
 lote: "crawl2-documentos"
+titulo_publico: "Aviso"
 vigencia_validada: true
 indexar: true
 flags: [tablas_numericas]

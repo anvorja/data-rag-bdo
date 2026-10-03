@@ -22,6 +22,7 @@ caracteres: 5127
 paginas: null
 hash_contenido: 676e96763f9b5afc
 lote: "crawl2-paginas"
+titulo_publico: "Cuota Protegida Préstamo Personal y Cuenta Activa"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

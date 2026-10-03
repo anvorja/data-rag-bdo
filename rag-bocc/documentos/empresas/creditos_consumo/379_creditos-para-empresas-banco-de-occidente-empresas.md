@@ -22,6 +22,7 @@ caracteres: 2406
 paginas: null
 hash_contenido: 08e5b195f0cef7ea
 lote: "crawl2-paginas"
+titulo_publico: "Créditos para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

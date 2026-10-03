@@ -21,6 +21,7 @@ caracteres: 10537
 paginas: 5
 hash_contenido: 51f1dff5bfbb1a84
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Ollas & Sartenes y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: []

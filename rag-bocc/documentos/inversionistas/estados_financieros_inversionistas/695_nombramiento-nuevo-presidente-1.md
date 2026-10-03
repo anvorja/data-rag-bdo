@@ -21,6 +21,7 @@ caracteres: 1428
 paginas: 1
 hash_contenido: 15f4a4835cf48a65
 lote: "crawl2-documentos"
+titulo_publico: "Nombramiento nuevo presidente"
 vigencia_validada: true
 indexar: true
 flags: []

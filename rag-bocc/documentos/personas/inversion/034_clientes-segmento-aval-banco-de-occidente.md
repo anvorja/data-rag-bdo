@@ -22,6 +22,7 @@ caracteres: 7023
 paginas: null
 hash_contenido: b70ca0eb67d3cfeb
 lote: "lote1"
+titulo_publico: "Clientes Segmento Aval Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."

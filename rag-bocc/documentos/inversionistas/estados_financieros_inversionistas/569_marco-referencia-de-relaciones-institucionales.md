@@ -21,6 +21,7 @@ caracteres: 40381
 paginas: 12
 hash_contenido: 30747d7813ca9803
 lote: "crawl2-documentos"
+titulo_publico: "Marco Referencia de Relaciones Institucionales"
 indexar: true
 flags: []
 ---

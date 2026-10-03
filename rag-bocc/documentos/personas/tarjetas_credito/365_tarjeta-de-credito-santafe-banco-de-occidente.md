@@ -22,6 +22,7 @@ caracteres: 4882
 paginas: null
 hash_contenido: 9ea31adb76b2193f
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Santafé Banco de Occidente​"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

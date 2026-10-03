@@ -21,6 +21,7 @@ caracteres: 18590
 paginas: 1
 hash_contenido: 62292ead0cca7ec8
 lote: "crawl2-documentos"
+titulo_publico: "Los 6 eco canonazos vol 2026"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 14919
 paginas: 8
 hash_contenido: 8052cde4930c2fe0
 lote: "lote1"
+titulo_publico: "Guia de uso cuenta afc 022020"
 vigencia_validada: true
 indexar: true
 flags: []

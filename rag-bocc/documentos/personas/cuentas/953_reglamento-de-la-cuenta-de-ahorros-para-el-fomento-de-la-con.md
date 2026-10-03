@@ -21,6 +21,7 @@ caracteres: 28614
 paginas: 7
 hash_contenido: 7c3b0a4a7ae2d921
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento de la cuenta de ahorros para el fomento de la construcción"
 indexar: true
 flags: []
 ---

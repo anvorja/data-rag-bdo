@@ -22,6 +22,7 @@ caracteres: 3353
 paginas: null
 hash_contenido: a78bb9d70b5bf774
 lote: "crawl2-paginas"
+titulo_publico: "Leasing de Tecnología"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

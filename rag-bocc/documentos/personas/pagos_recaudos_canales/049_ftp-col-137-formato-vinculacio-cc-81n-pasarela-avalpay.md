@@ -21,6 +21,7 @@ caracteres: 28682
 paginas: 10
 hash_contenido: b3e9ace06e3f73b3
 lote: "lote1"
+titulo_publico: "Ftp col 137 Formato Vinculación pasarela AvalPay"
 vigencia_validada: true
 indexar: true
 flags: []

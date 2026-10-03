@@ -21,6 +21,7 @@ caracteres: 252977
 paginas: 55
 hash_contenido: 4ede3a6ae9abccc0
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados noviembre"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 2235
 paginas: 13
 hash_contenido: 98750c98485361ce
 lote: "crawl2-documentos"
+titulo_publico: "Domiciliar tarjeta de crédito"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

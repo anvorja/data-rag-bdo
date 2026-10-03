@@ -21,6 +21,7 @@ caracteres: 1585
 paginas: 5
 hash_contenido: ca09c3476ed39461
 lote: "crawl2-documentos"
+titulo_publico: "Inscripción de cuenta para transferencia"
 indexar: true
 flags: [candidato_vlm]
 ---

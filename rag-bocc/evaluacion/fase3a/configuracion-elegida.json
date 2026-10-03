@@ -29,8 +29,12 @@
   "candidatos": 200
  },
  "vigencia": {
-  "filtro": "excluye vencido|historico salvo intencion temporal",
-  "pendiente": "incluir vigente/hoy/actual y recuperar vencidos solo para advertir"
+  "politica": "blanda (2026-10-02)",
+  "regla": "oculta solo `historico` (versión reemplazada) salvo intención temporal; `vencido` se recupera siempre y se marca con vigencia.aviso(); la advertencia se arma con metadatos, no la escribe el LLM",
+  "anterior": "dura: excluía vencido|historico salvo intención temporal (fase 3a)",
+  "evidencia": "evaluacion/fase3a/vigencia-blanda-dev.json",
+  "efecto_dev": "híbrido cita@10 0,910→0,940; con rerank-3 0,934→0,958; preguntas con fuente vencida/histórica 0,650→0,900; con fuente vigente sin cambio (0,973→0,966, una pregunta)",
+  "costo": "7,6 % de las consultas sin intención temporal traen un documento vencido entre los 5 primeros (3,3 % en el primero): se advierten con aviso()"
  },
  "reranker": {
   "preferido": "BAAI/bge-reranker-v2-m3 (top-20, GPU o servicio)",
@@ -44,5 +48,6 @@
   "set": "golden-v0 (plata, sin validacion experta)",
   "decision": "dev",
   "test": "una corrida informativa"
- }
+ },
+ "reranker_pendiente": "comparar bge y Voyage rerank-3/-lite con el mismo corpus (bge sobre el corpus actual en curso)"
 }

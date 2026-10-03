@@ -22,6 +22,7 @@ caracteres: 4287
 paginas: null
 hash_contenido: 067cd99a937bac1e
 lote: "lote1"
+titulo_publico: "Crédito Cartera Ordinaria Banco de Occidente para tu Negocio"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

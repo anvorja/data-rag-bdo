@@ -21,6 +21,7 @@ caracteres: 5714
 paginas: 3
 hash_contenido: 7d75635e39d4f511
 lote: "crawl2-documentos"
+titulo_publico: "Anexo 1 a la oferta mercantil de venta de servicios de la plataforma para"
 vigencia_validada: true
 indexar: true
 flags: []

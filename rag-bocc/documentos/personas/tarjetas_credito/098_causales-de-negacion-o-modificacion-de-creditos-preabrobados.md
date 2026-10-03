@@ -21,6 +21,7 @@ caracteres: 2623
 paginas: 1
 hash_contenido: e436434bdb3efdc4
 lote: "lote1"
+titulo_publico: "Causales de negación o modificación de créditos preabrobados 1"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 1375
 paginas: 5
 hash_contenido: 96f9efc76a5f1038
 lote: "crawl2-documentos"
+titulo_publico: "Perfilamiento servicios App Banco de Occidente Empresas"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -22,6 +22,7 @@ caracteres: 5790
 paginas: null
 hash_contenido: bf96314eeab9596c
 lote: "crawl2-paginas"
+titulo_publico: "Recaudo Electrónico por PSE"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

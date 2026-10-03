@@ -22,6 +22,7 @@ caracteres: 4273
 paginas: null
 hash_contenido: 1f9d5d5b94a46041
 lote: "lote1"
+titulo_publico: "Compra de Cartera Banco de Occidente: Unifica tus Deudas​"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

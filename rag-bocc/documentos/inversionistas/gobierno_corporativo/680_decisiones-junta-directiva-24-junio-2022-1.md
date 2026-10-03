@@ -21,6 +21,7 @@ caracteres: 497
 paginas: 1
 hash_contenido: a4ca8c96b6ff0830
 lote: "crawl2-documentos"
+titulo_publico: "Decisiones junta directiva 24 junio 2022"
 indexar: true
 flags: []
 ---

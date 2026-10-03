@@ -21,6 +21,7 @@ caracteres: 403743
 paginas: 70
 hash_contenido: 3fca476929da1679
 lote: "crawl2-documentos"
+titulo_publico: "Diciembre 04 Diciembre 05 Diciembre 06 Diciembre 07 Diciembre 08"
 indexar: true
 flags: [tablas_numericas]
 ---

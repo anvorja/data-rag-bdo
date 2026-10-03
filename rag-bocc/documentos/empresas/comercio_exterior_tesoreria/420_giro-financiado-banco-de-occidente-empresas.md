@@ -22,6 +22,7 @@ caracteres: 4750
 paginas: null
 hash_contenido: 3a68c8c3ac85f3f0
 lote: "crawl2-paginas"
+titulo_publico: "Giro Financiado"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

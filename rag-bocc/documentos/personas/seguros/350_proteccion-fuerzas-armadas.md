@@ -21,6 +21,7 @@ caracteres: 9670
 paginas: null
 hash_contenido: 41ac070375428475
 lote: "crawl2-paginas"
+titulo_publico: "Protección Fuerzas Armadas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

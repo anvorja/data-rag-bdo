@@ -23,6 +23,7 @@ hash_contenido: 6a359d6f499efe4e
 lote: "crawl2-documentos"
 casi_duplicado_de: 598
 similitud: 0.88
+titulo_publico: "Citación asamblea país jueves"
 indexar: true
 flags: [ocr, casi_duplicado]
 ---

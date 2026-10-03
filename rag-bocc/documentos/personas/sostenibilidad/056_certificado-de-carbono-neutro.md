@@ -21,6 +21,7 @@ caracteres: 2406
 paginas: 2
 hash_contenido: 9004dd47941ae11d
 lote: "lote1"
+titulo_publico: "Certificado de carbono neutro"
 vigencia_validada: true
 indexar: true
 flags: []

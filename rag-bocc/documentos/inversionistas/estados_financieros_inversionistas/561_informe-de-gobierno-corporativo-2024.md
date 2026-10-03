@@ -21,6 +21,7 @@ caracteres: 72274
 paginas: 36
 hash_contenido: 98feee71ad37b9e6
 lote: "crawl2-documentos"
+titulo_publico: "Informe de gobierno corporativo 2024"
 indexar: true
 flags: []
 ---

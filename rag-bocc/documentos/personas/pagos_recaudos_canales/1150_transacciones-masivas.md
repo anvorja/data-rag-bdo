@@ -21,6 +21,7 @@ caracteres: 1805
 paginas: 8
 hash_contenido: c38638d3322e175a
 lote: "crawl2-documentos"
+titulo_publico: "Transacciones masivas"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

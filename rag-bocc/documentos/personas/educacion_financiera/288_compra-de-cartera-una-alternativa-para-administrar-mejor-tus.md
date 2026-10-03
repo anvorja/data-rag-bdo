@@ -21,6 +21,7 @@ caracteres: 7042
 paginas: null
 hash_contenido: d625d820f871e165
 lote: "lote1"
+titulo_publico: "Compra de cartera, una alternativa para administrar mejor tus deudas"
 indexar: true
 flags: []
 ---

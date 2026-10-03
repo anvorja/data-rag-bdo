@@ -21,6 +21,7 @@ caracteres: 1180
 paginas: 6
 hash_contenido: d938fdbfa53ab8f8
 lote: "crawl2-documentos"
+titulo_publico: "Descarga de extractos"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

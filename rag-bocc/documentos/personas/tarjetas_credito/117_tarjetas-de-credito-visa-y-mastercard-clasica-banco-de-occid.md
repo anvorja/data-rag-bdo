@@ -22,6 +22,7 @@ caracteres: 4978
 paginas: null
 hash_contenido: ea563858257792e3
 lote: "lote1"
+titulo_publico: "Tarjetas de Crédito Visa y Mastercard Clásica Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

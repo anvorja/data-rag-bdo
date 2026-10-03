@@ -22,6 +22,7 @@ caracteres: 4124
 paginas: null
 hash_contenido: 7dd193509226e01a
 lote: "crawl2-paginas"
+titulo_publico: "OcciRed Portal Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

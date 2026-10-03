@@ -22,6 +22,7 @@ caracteres: 2908
 paginas: null
 hash_contenido: 1ef0a62f8d1e6341
 lote: "lote1"
+titulo_publico: "Líneas de Servicio al Cliente Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

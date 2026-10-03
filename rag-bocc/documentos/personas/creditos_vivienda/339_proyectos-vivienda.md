@@ -21,6 +21,7 @@ caracteres: 2964
 paginas: null
 hash_contenido: 10a8bbe24a132775
 lote: "crawl2-paginas"
+titulo_publico: "Proyectos Vivienda"
 indexar: true
 flags: []
 ---

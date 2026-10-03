@@ -21,6 +21,7 @@ caracteres: 5913
 paginas: 5
 hash_contenido: ee279eba39f4ec81
 lote: "lote1"
+titulo_publico: "Brochure incendio y terremoto alfa 2024 2026"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 3920
 paginas: 9
 hash_contenido: 99b91ae6d96bdc9a
 lote: "crawl2-documentos"
+titulo_publico: "Brochure seguro autos pesados"
 indexar: true
 flags: [candidato_vlm]
 ---

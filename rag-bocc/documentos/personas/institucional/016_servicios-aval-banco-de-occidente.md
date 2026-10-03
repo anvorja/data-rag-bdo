@@ -22,6 +22,7 @@ caracteres: 9465
 paginas: null
 hash_contenido: 24fd55d48afb4c4e
 lote: "lote1"
+titulo_publico: "Servicios Aval"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

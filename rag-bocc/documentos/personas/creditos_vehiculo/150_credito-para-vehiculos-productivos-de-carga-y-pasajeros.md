@@ -22,6 +22,7 @@ caracteres: 7492
 paginas: null
 hash_contenido: 4308efde56a246a5
 lote: "lote1"
+titulo_publico: "Crédito para Vehículos Productivos de Carga y Pasajeros"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

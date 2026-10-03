@@ -22,6 +22,7 @@ caracteres: 3009
 paginas: null
 hash_contenido: 1eed20c864ff65d2
 lote: "lote1"
+titulo_publico: "Vive la Vida Seguro de Vida Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

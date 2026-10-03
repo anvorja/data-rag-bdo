@@ -22,6 +22,7 @@ caracteres: 2176
 paginas: null
 hash_contenido: e31f0acf038f3757
 lote: "crawl2-paginas"
+titulo_publico: "Servicios de Moneda Extranjera"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS."

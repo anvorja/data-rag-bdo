@@ -22,6 +22,7 @@ caracteres: 2692
 paginas: null
 hash_contenido: a3d49bbd378e8d55
 lote: "lote1"
+titulo_publico: "Ahorros e Inversión con Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 3 líneas de plantilla del CMS."

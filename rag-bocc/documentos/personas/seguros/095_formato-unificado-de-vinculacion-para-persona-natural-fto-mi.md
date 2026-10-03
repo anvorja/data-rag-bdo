@@ -21,6 +21,7 @@ caracteres: 364354
 paginas: null
 hash_contenido: 6ece980e6bb4712d
 lote: "lote1"
+titulo_publico: "Formato unificado de vinculación para Persona Natural fto mis 37"
 vigencia_validada: true
 indexar: true
 flags: []

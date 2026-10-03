@@ -21,6 +21,7 @@ caracteres: 735501
 paginas: 163
 hash_contenido: 02929c36e0a35f14
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero separado a diciembre 31 de 2023"
 indexar: true
 flags: []
 ---

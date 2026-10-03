@@ -21,6 +21,7 @@ caracteres: 1728
 paginas: 1
 hash_contenido: 2aada1f1e1e76cac
 lote: "lote1"
+titulo_publico: "Token mobile"
 indexar: true
 flags: [ocr, candidato_vlm]
 ---

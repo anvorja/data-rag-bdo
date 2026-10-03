@@ -21,6 +21,7 @@ caracteres: 85075
 paginas: 1
 hash_contenido: e6c5be1c63ab2288
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tarifas persona Banco de Occidente"
 vigencia_validada: true
 version_de: 227
 indexar: true

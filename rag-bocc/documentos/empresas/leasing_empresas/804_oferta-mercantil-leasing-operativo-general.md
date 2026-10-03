@@ -21,6 +21,7 @@ caracteres: 112330
 paginas: 21
 hash_contenido: 919ef6d1c488e216
 lote: "crawl2-documentos"
+titulo_publico: "Oferta mercantil leasing operativo general"
 vigencia_validada: true
 indexar: true
 flags: []

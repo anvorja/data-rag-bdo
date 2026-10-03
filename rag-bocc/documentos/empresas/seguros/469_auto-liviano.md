@@ -23,6 +23,7 @@ caracteres: 2118
 paginas: null
 hash_contenido: e4acaee26f7a386c
 lote: "crawl2-paginas"
+titulo_publico: "Auto Liviano"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

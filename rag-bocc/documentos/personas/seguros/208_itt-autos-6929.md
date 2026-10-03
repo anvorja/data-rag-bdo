@@ -21,6 +21,7 @@ caracteres: 14834
 paginas: 5
 hash_contenido: 0b98c763da46487a
 lote: "lote1"
+titulo_publico: "Itt autos 6929"
 indexar: true
 flags: []
 ---

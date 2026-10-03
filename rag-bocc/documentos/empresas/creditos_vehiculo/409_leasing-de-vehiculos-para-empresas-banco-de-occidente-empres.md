@@ -22,6 +22,7 @@ caracteres: 5698
 paginas: null
 hash_contenido: 58c0a5b5a29c0449
 lote: "crawl2-paginas"
+titulo_publico: "Leasing de Vehículos para Empresas"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

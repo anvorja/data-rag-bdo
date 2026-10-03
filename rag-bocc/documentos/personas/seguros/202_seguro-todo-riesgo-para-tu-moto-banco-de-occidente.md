@@ -22,6 +22,7 @@ caracteres: 3759
 paginas: null
 hash_contenido: fc8218586c3f3e39
 lote: "lote1"
+titulo_publico: "Seguro todo riesgo para tu moto Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

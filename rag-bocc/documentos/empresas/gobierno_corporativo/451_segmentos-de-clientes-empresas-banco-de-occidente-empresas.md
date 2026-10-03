@@ -22,6 +22,7 @@ caracteres: 3332
 paginas: null
 hash_contenido: 975c9a0a2dd3b2e9
 lote: "crawl2-paginas"
+titulo_publico: "Segmentos de Clientes Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 8 líneas de plantilla del CMS."

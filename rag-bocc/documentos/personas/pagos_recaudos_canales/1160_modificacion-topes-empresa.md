@@ -21,6 +21,7 @@ caracteres: 1689
 paginas: 7
 hash_contenido: 925cdf1762af6073
 lote: "crawl2-documentos"
+titulo_publico: "Modificación topes empresa"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

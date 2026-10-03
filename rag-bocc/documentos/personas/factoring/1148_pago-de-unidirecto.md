@@ -21,6 +21,7 @@ caracteres: 1916
 paginas: 4
 hash_contenido: 866476a5ce87f4bb
 lote: "crawl2-documentos"
+titulo_publico: "Pago de unidirecto"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 2271
 paginas: 1
 hash_contenido: 9944a073748a55d2
 lote: "lote1"
+titulo_publico: "Política de salud y seguridad en el trabajo"
 indexar: true
 flags: []
 ---

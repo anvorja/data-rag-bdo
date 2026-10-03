@@ -21,6 +21,7 @@ caracteres: 9560
 paginas: 4
 hash_contenido: 897d7dfac864dcca
 lote: "crawl2-documentos"
+titulo_publico: "Principios, deberes y derechos de los accionistas"
 indexar: true
 flags: []
 ---

@@ -22,6 +22,7 @@ caracteres: 3094
 paginas: null
 hash_contenido: 842a51a8786bad35
 lote: "lote1"
+titulo_publico: "Visación y Exigibilidades de Libranza Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

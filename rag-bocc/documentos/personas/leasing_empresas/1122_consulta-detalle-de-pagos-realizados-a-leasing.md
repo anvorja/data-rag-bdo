@@ -21,6 +21,7 @@ caracteres: 941
 paginas: 5
 hash_contenido: 9db4d90f71feaa83
 lote: "crawl2-documentos"
+titulo_publico: "Consulta detalle de pagos realizados a Leasing"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

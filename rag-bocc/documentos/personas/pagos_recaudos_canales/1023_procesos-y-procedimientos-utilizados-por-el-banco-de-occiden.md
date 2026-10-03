@@ -21,6 +21,7 @@ caracteres: 4145
 paginas: 2
 hash_contenido: 24a3fc0a995f0c2f
 lote: "crawl2-documentos"
+titulo_publico: "Procesos y procedimientos utilizados por el banco de occidente"
 indexar: true
 flags: []
 ---

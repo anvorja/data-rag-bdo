@@ -23,6 +23,7 @@ hash_contenido: 6309f7e350f046d1
 lote: "crawl2-documentos"
 casi_duplicado_de: 059
 similitud: 0.91
+titulo_publico: "Certificación sobre el sistema de administración de riesgo de lavado de"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

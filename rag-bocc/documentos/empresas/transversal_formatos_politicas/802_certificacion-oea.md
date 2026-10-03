@@ -21,6 +21,7 @@ caracteres: 571
 paginas: 1
 hash_contenido: c725946797d4ee24
 lote: "crawl2-documentos"
+titulo_publico: "Certificación oea"
 vigencia_validada: true
 indexar: true
 flags: [ocr]

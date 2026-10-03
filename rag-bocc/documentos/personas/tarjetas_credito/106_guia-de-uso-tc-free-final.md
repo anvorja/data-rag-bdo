@@ -21,6 +21,7 @@ caracteres: 30797
 paginas: 21
 hash_contenido: d310b280e0225fb6
 lote: "lote1"
+titulo_publico: "Guia de uso tarjeta de crédito free"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

@@ -21,6 +21,7 @@ caracteres: 235402
 paginas: 50
 hash_contenido: 327454dfa4f015a9
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a marzo de 2025"
 indexar: true
 flags: []
 ---

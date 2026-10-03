@@ -22,6 +22,7 @@ caracteres: 5299
 paginas: null
 hash_contenido: f7218a734d7a388a
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito Credencial Platinum Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

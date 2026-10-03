@@ -21,6 +21,7 @@ caracteres: 95263
 paginas: 46
 hash_contenido: c6eb1352763bfdae
 lote: "lote1"
+titulo_publico: "Código de ética y conducta banco de occidente"
 indexar: true
 flags: []
 ---

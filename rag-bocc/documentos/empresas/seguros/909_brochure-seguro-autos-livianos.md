@@ -21,6 +21,7 @@ caracteres: 4102
 paginas: 9
 hash_contenido: 892df02e7e72d902
 lote: "crawl2-documentos"
+titulo_publico: "Brochure seguro autos livianos"
 indexar: true
 flags: [candidato_vlm]
 ---

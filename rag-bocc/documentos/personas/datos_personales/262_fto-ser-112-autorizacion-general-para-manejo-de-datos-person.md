@@ -21,6 +21,7 @@ caracteres: 12487
 paginas: 3
 hash_contenido: 2597b0745839590a
 lote: "lote1"
+titulo_publico: "Fto ser 112 Autorizacion General para Manejo de Datos Personales"
 vigencia_validada: true
 indexar: true
 flags: []

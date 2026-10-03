@@ -22,6 +22,7 @@ caracteres: 4205
 paginas: null
 hash_contenido: 30c78f5ff49e3291
 lote: "lote1"
+titulo_publico: "Crédito para Construcción de Vivienda​ Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

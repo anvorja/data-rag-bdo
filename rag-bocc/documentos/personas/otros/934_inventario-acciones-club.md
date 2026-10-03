@@ -21,6 +21,7 @@ caracteres: 1915
 paginas: 1
 hash_contenido: 791bd703ca63288c
 lote: "crawl2-documentos"
+titulo_publico: "Inventario acciones club"
 indexar: true
 flags: []
 ---

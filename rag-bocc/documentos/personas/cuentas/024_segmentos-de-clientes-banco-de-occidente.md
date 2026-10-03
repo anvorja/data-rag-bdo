@@ -22,6 +22,7 @@ caracteres: 3344
 paginas: null
 hash_contenido: 31a1bc141f64aca9
 lote: "lote1"
+titulo_publico: "Segmentos de Clientes Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 10 líneas de plantilla del CMS."

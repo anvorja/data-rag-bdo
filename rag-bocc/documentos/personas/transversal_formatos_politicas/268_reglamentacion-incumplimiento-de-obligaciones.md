@@ -21,6 +21,7 @@ caracteres: 7444
 paginas: 3
 hash_contenido: f5448708df6bc2e2
 lote: "lote1"
+titulo_publico: "Reglamentación incumplimiento de obligaciones"
 indexar: true
 flags: []
 ---

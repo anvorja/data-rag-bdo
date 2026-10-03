@@ -21,6 +21,7 @@ caracteres: 780
 paginas: 3
 hash_contenido: d156780d39a8eb2d
 lote: "crawl2-documentos"
+titulo_publico: "Solicitud y descarga archivo multicash"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

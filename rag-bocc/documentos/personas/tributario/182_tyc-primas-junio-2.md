@@ -21,6 +21,7 @@ caracteres: 15324
 paginas: 7
 hash_contenido: a96a67e6f9cf3ab1
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Tu prima en manos BdeO – 1de junio al 30 de junio del 2026»"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 26542
 paginas: 8
 hash_contenido: 39bdafe9d558e92e
 lote: "crawl2-documentos"
+titulo_publico: "Sector público"
 indexar: true
 flags: []
 ---

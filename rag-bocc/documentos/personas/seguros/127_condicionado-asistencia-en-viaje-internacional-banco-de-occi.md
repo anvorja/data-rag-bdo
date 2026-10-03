@@ -21,6 +21,7 @@ caracteres: 116143
 paginas: 36
 hash_contenido: 1f0a5b99b8e12fe7
 lote: "lote1"
+titulo_publico: "Condicionado asistencia en viaje internacional banco de occidente"
 indexar: true
 flags: []
 ---

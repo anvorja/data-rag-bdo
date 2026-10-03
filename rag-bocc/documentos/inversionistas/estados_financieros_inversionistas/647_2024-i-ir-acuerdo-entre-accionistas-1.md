@@ -21,6 +21,7 @@ caracteres: 451
 paginas: 1
 hash_contenido: 03f93cf38235263e
 lote: "crawl2-documentos"
+titulo_publico: "2024 i ir acuerdo entre accionistas"
 indexar: true
 flags: []
 ---

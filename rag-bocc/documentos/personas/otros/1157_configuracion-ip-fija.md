@@ -21,6 +21,7 @@ caracteres: 1762
 paginas: 7
 hash_contenido: b3298aa222240459
 lote: "crawl2-documentos"
+titulo_publico: "Configuración ip fija"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 1173
 paginas: null
 hash_contenido: 9117b0fce2dc971b
 lote: "lote1"
+titulo_publico: "LATAM Pass - Nuevo proceso Promocodes"
 indexar: true
 flags: []
 ---

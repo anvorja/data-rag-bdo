@@ -21,6 +21,7 @@ caracteres: 53623
 paginas: 15
 hash_contenido: 9c74bccf0cd8dc3a
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional valle del cauca"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 17478
 paginas: 7
 hash_contenido: f813dd27fe370c08
 lote: "crawl2-documentos"
+titulo_publico: "Términos Y condiciones campaña “Compra de Cartera” – banco DE"
 vigencia_validada: true
 indexar: true
 flags: []

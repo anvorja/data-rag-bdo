@@ -21,6 +21,7 @@ caracteres: 12986
 paginas: 1
 hash_contenido: 5c7859ab557d777d
 lote: "crawl2-documentos"
+titulo_publico: "Occimpacto fed julio mercado esceptico"
 indexar: true
 flags: []
 ---

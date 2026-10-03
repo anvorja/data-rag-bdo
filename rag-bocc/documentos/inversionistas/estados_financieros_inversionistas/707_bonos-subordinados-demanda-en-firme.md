@@ -23,6 +23,7 @@ hash_contenido: cf546ffaa0148f1e
 lote: "crawl2-documentos"
 casi_duplicado_de: 706
 similitud: 0.88
+titulo_publico: "Bonos subordinados. demanda en firme"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

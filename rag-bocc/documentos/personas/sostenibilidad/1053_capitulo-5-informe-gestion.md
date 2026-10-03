@@ -21,6 +21,7 @@ caracteres: 262404
 paginas: 34
 hash_contenido: 6e053d1ca833ce58
 lote: "crawl2-documentos"
+titulo_publico: "Capítulo 5 informe gestión"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

@@ -21,6 +21,7 @@ caracteres: 1661
 paginas: null
 hash_contenido: a15970dbbfea9cce
 lote: "crawl2-documentos"
+titulo_publico: "Hoja: Formato"
 vigencia_validada: true
 indexar: true
 flags: []

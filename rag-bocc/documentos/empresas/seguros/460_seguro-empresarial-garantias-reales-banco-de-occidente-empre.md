@@ -22,6 +22,7 @@ caracteres: 5375
 paginas: null
 hash_contenido: 53b74959c802bac9
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Empresarial - Garantías Reales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

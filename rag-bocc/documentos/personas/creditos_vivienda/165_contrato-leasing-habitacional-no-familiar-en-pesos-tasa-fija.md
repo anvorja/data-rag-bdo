@@ -21,6 +21,7 @@ caracteres: 85802
 paginas: null
 hash_contenido: fddffb55832fad61
 lote: "lote1"
+titulo_publico: "Contrato leasing habitacional no familiar en pesos tasa fija"
 vigencia_validada: true
 indexar: true
 flags: []

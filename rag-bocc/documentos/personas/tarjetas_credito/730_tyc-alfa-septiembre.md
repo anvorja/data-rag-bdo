@@ -21,6 +21,7 @@ caracteres: 10846
 paginas: 6
 hash_contenido: d31f03f0cf132a8e
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «20% de Dcto»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, sin_fecha]

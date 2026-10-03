@@ -21,6 +21,7 @@ caracteres: 616631
 paginas: 181
 hash_contenido: aab05a807a1524c1
 lote: "lote1"
+titulo_publico: "Legislación anterior centrales de riesgo"
 indexar: true
 flags: []
 ---

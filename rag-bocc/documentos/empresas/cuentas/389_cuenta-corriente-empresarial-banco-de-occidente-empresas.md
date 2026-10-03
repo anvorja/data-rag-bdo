@@ -22,6 +22,7 @@ caracteres: 4953
 paginas: null
 hash_contenido: ae706e45c1258eb2
 lote: "crawl2-paginas"
+titulo_publico: "Cuenta Corriente Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

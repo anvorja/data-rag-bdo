@@ -22,6 +22,7 @@ caracteres: 6343
 paginas: null
 hash_contenido: 38e6d89660fc389e
 lote: "lote1"
+titulo_publico: "Abre tu Cuenta de Nómina Online en el Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

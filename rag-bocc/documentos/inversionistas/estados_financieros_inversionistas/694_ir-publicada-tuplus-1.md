@@ -21,6 +21,7 @@ caracteres: 3983
 paginas: 2
 hash_contenido: 4617e5d49fc0f569
 lote: "crawl2-documentos"
+titulo_publico: "Ir publicada tuplús"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 36583
 paginas: 12
 hash_contenido: 07c26c5e21baf329
 lote: "crawl2-documentos"
+titulo_publico: "Bonos ordinarios. subasta holandesa"
 vigencia_validada: true
 indexar: true
 flags: []

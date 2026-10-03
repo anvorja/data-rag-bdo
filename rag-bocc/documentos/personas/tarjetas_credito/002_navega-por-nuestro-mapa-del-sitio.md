@@ -23,6 +23,7 @@ caracteres: 4975
 paginas: null
 hash_contenido: 4df1cf71d00ecc0d
 lote: "lote1"
+titulo_publico: "Navega por nuestro mapa del sitio"
 indexar: true
 flags: [titulo_dudoso]
 ---

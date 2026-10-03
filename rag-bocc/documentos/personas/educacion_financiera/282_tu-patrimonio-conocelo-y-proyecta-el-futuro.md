@@ -21,6 +21,7 @@ caracteres: 5129
 paginas: null
 hash_contenido: 97f190e966c1ed4a
 lote: "lote1"
+titulo_publico: "Tu Patrimonio: Conócelo y proyecta el futuro"
 indexar: true
 flags: []
 ---

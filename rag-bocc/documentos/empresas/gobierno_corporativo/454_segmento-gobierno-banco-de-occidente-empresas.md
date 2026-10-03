@@ -22,6 +22,7 @@ caracteres: 3965
 paginas: null
 hash_contenido: 67d09f6087d2b328
 lote: "crawl2-paginas"
+titulo_publico: "Segmento Gobierno"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 10 líneas de plantilla del CMS."

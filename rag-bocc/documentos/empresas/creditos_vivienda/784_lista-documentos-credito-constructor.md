@@ -21,6 +21,7 @@ caracteres: 8934
 paginas: 4
 hash_contenido: e52d889757b54941
 lote: "crawl2-documentos"
+titulo_publico: "Lista documentos crédito constructor"
 indexar: true
 flags: []
 ---

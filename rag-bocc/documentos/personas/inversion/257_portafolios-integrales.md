@@ -21,6 +21,7 @@ caracteres: 4924
 paginas: null
 hash_contenido: 9bdbab6c8191a214
 lote: "lote1"
+titulo_publico: "Portafolios Integrales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 17 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."

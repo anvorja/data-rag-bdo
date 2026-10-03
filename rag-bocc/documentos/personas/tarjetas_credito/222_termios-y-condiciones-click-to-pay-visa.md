@@ -21,6 +21,7 @@ caracteres: 12680
 paginas: 6
 hash_contenido: b9bc486cc39ae074
 lote: "lote1"
+titulo_publico: "Termios y condiciones click to pay visa"
 indexar: true
 flags: []
 ---

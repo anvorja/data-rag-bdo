@@ -21,6 +21,7 @@ caracteres: 59200
 paginas: 25
 hash_contenido: 580db60a337aae0a
 lote: "crawl2-documentos"
+titulo_publico: "Informe gobierno"
 indexar: true
 flags: []
 ---

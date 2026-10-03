@@ -22,6 +22,7 @@ caracteres: 3349
 paginas: null
 hash_contenido: fa79fc916831c734
 lote: "crawl2-paginas"
+titulo_publico: "Letras Avaladas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."
