@@ -10,6 +10,10 @@ from vigencia import aviso, grupos_version, intencion_temporal
 
 WHATSAPP = {'texto': '+57 318 671 4836', 'url': 'https://api.whatsapp.com/send?phone=573186714836'}   # por confirmar que sea el de quejas/fraude/reclamaciones
 CODIGO = re.compile(r'(?m)```|^\s*(?:def |class |import |from \w+ import |public (?:static |class )|function |#include|SELECT .+ FROM |<\?php|console\.log|System\.out)')   # el asistente de un banco no escribe código
+# Otras entidades: no se bloquean (el corpus las menciona: cajeros, ACH, convenios), pero una respuesta sobre ellas debe estar respaldada por un fragmento citado que las nombre o aclarar el alcance.
+ENTIDADES = re.compile(r'(?i)\b(bancolombia|davivienda|daviplata|nequi|bbva|banco de bogot[aá]|scotiabank|colpatria|ita[uú]|banco popular|av villas|banco caja social|bancoomeva|lulo bank|nubank|nu bank|rappipay|gnb sudameris|banco falabella|banco agrario|bancamia|movii)\b')
+ACLARA = re.compile(r'(?i)(solo|[uú]nicamente|exclusivamente)[^.]{0,60}(banco de occidente|nuestr)|no (tengo|cuento con|dispongo de) informaci[oó]n[^.]{0,50}(de|sobre|del)')
+AVISO_ENTIDAD = 'Solo puedo informarte sobre productos y servicios del Banco de Occidente; no tengo información de {e}.'
 ACCIONES = {'responder', 'abstenerse', 'escalar', 'aclarar'}
 
 
@@ -48,6 +52,8 @@ def verificar(resp, citas, fragmentos, corpus, grupos=None, pregunta=''):
         base = ' '.join(fragmentos.get(n, '') for n in usadas)
         sobran = _numeros(resp.get('respuesta', '')) - _numeros(base) - _numeros(pregunta) - {str(k) for k in range(1, 11)}
         if sobran: p.append(('cifra_no_respaldada', ', '.join(sorted(sobran))))
+        for e in sorted({m.group(1).lower() for m in ENTIDADES.finditer(pregunta)}):
+            if e not in base.lower() and not ACLARA.search(resp.get('respuesta', '')): p.append(('entidad_sin_respaldo', e))
         if CODIGO.search(resp.get('respuesta', '')): p.append(('contenido_fuera_de_alcance', 'la respuesta contiene código'))
         if re.search(r'https?://|www\.', resp.get('respuesta', '')):
             ok = {c['url'] for c in citas} | {WHATSAPP['url']}
@@ -79,6 +85,7 @@ def autoprueba(base):
     def ch(d, k=1): return dict(doc=d['id'], cid=f"{d['id']}#{k}", pagina=2, encabezado='Tarifas')
     citas = construir_citas([ch(ven), ch(hist)], corpus)
     frag = {1: 'La cuota de manejo es $19.900 mensuales', 2: 'Tasa 2,5 % mensual'}
+    frag_ent = {1: 'La cuota de manejo es $19.900 mensuales; en cajeros de Bancolombia se cobra igual', 2: 'Tasa 2,5 % mensual'}
     casos = [
         ('aprobada', dict(accion='responder', respuesta='La cuota es $19.900 [1].', citas_usadas=[1]), 'cuánto cuesta la cuota', []),
         ('sin citas', dict(accion='responder', respuesta='Cuesta mucho.', citas_usadas=[]), '', ['sin_citas']),
@@ -89,10 +96,13 @@ def autoprueba(base):
         ('versión antigua con intención temporal', dict(accion='responder', respuesta='Tasa 2,5 % [2]', citas_usadas=[2]), 'qué tasa tenía en 2024', []),
         ('escalar sin WhatsApp', dict(accion='escalar', respuesta='Contacte al banco.', citas_usadas=[]), '', ['escalamiento_sin_whatsapp']),
         ('código en la respuesta', dict(accion='responder', respuesta='La cuota es $19.900 [1].\n```python\nprint(1)\n```', citas_usadas=[1]), '', ['contenido_fuera_de_alcance']),
+        ('otra entidad sin respaldo', dict(accion='responder', respuesta='La cuota es $19.900 [1].', citas_usadas=[1]), 'qué tasa paga Bancolombia', ['entidad_sin_respaldo']),
+        ('otra entidad aclarada', dict(accion='responder', respuesta='Solo puedo informarte del Banco de Occidente; la cuota es $19.900 [1].', citas_usadas=[1]), 'qué cuota cobra Bancolombia', []),
+        ('otra entidad respaldada', dict(accion='responder', respuesta='Cobra $19.900 [1].', citas_usadas=[1]), 'cuánto cobra el cajero de Bancolombia', [], frag_ent),
         ('acción inválida', dict(accion='inventar'), '', ['accion_invalida']),
     ]
-    for nombre, resp, preg, esp in casos:
-        got = [c for c, _ in verificar(resp, citas, frag, corpus, g, preg)]
+    for nombre, resp, preg, esp, *otro in casos:
+        got = [c for c, _ in verificar(resp, citas, otro[0] if otro else frag, corpus, g, preg)]
         assert got == esp, f'{nombre}: esperado {esp}, obtenido {got}'
         print(f'  ok · {nombre}')
     print('autoprueba aprobada')
