@@ -34,6 +34,24 @@ Ejemplos de cambio: tasa de compras empresarial 2,15 % (septiembre) → 2,11 % (
 Las versiones nuevas llevan `version_de: <id anterior>`; las antiguas siguen en el corpus como `historico` (para preguntas sobre meses pasados). Las tasas de octubre quedan `vigente_hasta_reemplazo` hasta que se cargue noviembre.
 Ya no hay riesgo de que el asistente responda con las tasas de septiembre como si fueran las actuales.
 
+## Política de recuperación por vigencia: DURA → BLANDA (2026-10-02)
+Problema: con el filtro duro (oculta `vencido` e `historico` salvo que la consulta mencione una fecha), un cliente que pregunta por una campaña ya terminada no recibe nada,
+aunque la regla de los expertos dice que se responde con el dato histórico y su fecha. Además, al versionar tarifas y tasas, las preguntas cuyo documento fuente fue reemplazado dejaban de acertar aunque la versión nueva tuviera el mismo texto.
+Cambios:
+1. **Política blanda:** solo se oculta `historico` (existe una versión vigente) salvo intención temporal; `vencido` se recupera siempre y se marca.
+2. **Advertencia determinista:** `pipeline/fase3a/vigencia.py::aviso(doc)` arma el texto con los metadatos (p. ej. «Esta información ya no está vigente: … terminó el 30 de septiembre de 2026»). El LLM no escribe ni calcula fechas; la respuesta final debe incluir el aviso.
+3. **Equivalencia de versiones en la evaluación:** una pregunta acierta con cualquier versión del mismo documento (`vigencia.grupos_version`, vía `version_de`).
+Medición en `dev` (`evaluacion/fase3a/vigencia-blanda-dev.json`, con versiones equivalentes):
+| Sistema | cita@10 (todas) | cita@10, fuente vencida/histórica (20 preguntas) | cita@10, fuente vigente (147) |
+|---|---|---|---|
+| Híbrido, dura | 0,910 | 0,600 | 0,952 |
+| Híbrido, blanda | 0,940 | 0,850 | 0,952 |
+| Híbrido + Voyage rerank-3, dura | 0,934 | 0,650 | 0,973 |
+| Híbrido + Voyage rerank-3, blanda | 0,958 | 0,900 | 0,966 |
+Costo: en consultas sin intención temporal, un documento vencido aparece entre los 5 primeros en el 7,6 % de los casos (3,3 % en el primero); por eso la advertencia es obligatoria.
+Contrato para la fase 3b: cada fragmento que llega al generador lleva `estado_vigencia`, `vigente_hasta`, `url` y `aviso`; si `aviso` no es nulo, se muestra en la respuesta antes o después del dato.
+En pgvector: filtrar `estado_vigencia <> 'historico'` (o sin filtro si hay intención temporal) y devolver `estado_vigencia` y `vigente_hasta` junto con cada fragmento.
+
 ## Autoridad de las fuentes
 - Si dos fuentes se contradicen, **manda el PDF oficial** sobre la página web. Cada inconsistencia genera una **alerta al ingeniero del RAG**.
 - Responsable por tipo de contenido (campañas, tasas, contratos, seguros, sostenibilidad): las directivas confirman que se requiere un contacto por área. **Pendiente:** nombres/contactos.
