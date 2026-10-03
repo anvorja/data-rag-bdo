@@ -7,19 +7,25 @@
  },
  "dificil": {
   "secretos": 13,
-  "enmascarados": 3,
-  "recall": 0.231,
+  "enmascarados": 7,
+  "recall": 0.538,
   "no_detectados": [
-   "Pedro Gómez",
-   "Marta Lucía Pérez",
    "1 0 9 8 7 6 5 4 3 2",
    "mil noventa y ocho millones setecientos sesenta y cinco mil",
    "jlopez88",
    "6789",
    "4321",
-   "14 de marzo de 1990",
-   "Luis Carlos Vélez",
-   "Camila"
+   "14 de marzo de 1990"
+  ]
+ },
+ "nombres_nuevos": {
+  "secretos": 18,
+  "enmascarados": 15,
+  "recall": 0.833,
+  "no_detectados": [
+   "pedro gomez",
+   "juan carlos rojas",
+   "maria fernanda lopez"
   ]
  },
  "falsos_positivos": {

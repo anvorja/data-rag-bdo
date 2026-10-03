@@ -4,3 +4,5 @@ numpy>=1.26
 voyageai>=0.3          # embeddings por API (fase 3a-bis)
 openai>=1.0            # solo para la comparación de embeddings
 brotli>=1.2            # el cliente de openai falla al descomprimir con versiones anteriores
+spacy>=3.7          # NER de nombres en la capa de enmascaramiento (fase 3b)
+# además: python -m spacy download es_core_news_md

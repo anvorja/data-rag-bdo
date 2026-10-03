@@ -65,17 +65,20 @@ Lectura:
 Los casos del golden son preguntas sintéticas sin datos personales; en producción el texto del cliente pasa por la capa de enmascaramiento antes de llegar a cualquier LLM.
 
 ## Enmascaramiento de datos personales (medido el 2026-10-03)
-`pipeline/fase3b/enmascarar.py`: `enmascarar(texto)` → texto con marcas `[DOCUMENTO]`, `[CUENTA]`, `[TARJETA]`, `[CLAVE]`, `[TELEFONO]`, `[CORREO]`, `[DIRECCION]`, `[NOMBRE]`, `[NUMERO_PERSONAL]` y un resumen de **tipos y cuentas** (nunca el valor, para poder registrar sin guardar datos personales). Solo reglas, sin dependencias. No toca los números públicos del banco (NIT, WhatsApp) ni montos ni años.
+`pipeline/fase3b/enmascarar.py`: `enmascarar(texto)` (con `ner=False` solo reglas) → texto con marcas `[DOCUMENTO]`, `[CUENTA]`, `[TARJETA]`, `[CLAVE]`, `[TELEFONO]`, `[CORREO]`, `[DIRECCION]`, `[NOMBRE]`, `[NUMERO_PERSONAL]` y un resumen de **tipos y cuentas** (nunca el valor, para poder registrar sin guardar datos personales). Datos con formato: reglas, sin dependencias. **Nombres sueltos: reconocedor de entidades spaCy `es_core_news_md`** (`requirements-ml.txt`), con filtros contra falsos positivos: solo nombres propios con mayúscula inicial (también en tandas EN MAYÚSCULAS), nunca abreviaturas (`M.V.`, `E.A.`) ni nada que aparezca en títulos, encabezados o frases en mayúscula del corpus (productos, entidades, personas públicas). Sin spaCy instalado, funciona solo con reglas. No toca los números públicos del banco (NIT, WhatsApp) ni montos ni años.
 Medición (`python pipeline/25_enmascaramiento.py`) con **datos inventados** escritos por el proyecto (`rag-bocc/evaluacion/fase3b/pii-sintetico.jsonl`: 62 mensajes) y con las 593 preguntas del golden:
 | Qué se mide | Resultado |
 |---|---|
 | Datos con formato claro (cédula, NIT, cuenta, tarjeta con Luhn, clave/PIN/CVV/OTP, celular, fijo, correo, dirección, nombre con pista como «me llamo…», «a nombre de…», «señor…») | **36 de 36 enmascarados** |
-| Casos sin pista en la frase (nombre suelto, cifras separadas por espacios, número escrito con letras, usuario/clave alfanumérica, fecha de nacimiento, últimos 4 dígitos) | **3 de 13** |
+| **Nombres propios sueltos nuevos** (18 frases con nombres que NO se usaron para ajustar los filtros) | **15 de 18 con NER** (solo reglas: 1 de 18). Los 15 detectados incluyen todos los escritos con mayúscula inicial, uno solo en mayúsculas y nombres de pila solos («Luisa», «Samuel»); **los 3 que se escapan están escritos en minúscula** («pedro gomez») |
+| Casos sin pista en la frase (nombre suelto de la primera tanda, cifras separadas por espacios, número escrito con letras, usuario/clave alfanumérica, fecha de nacimiento, últimos 4 dígitos) | 7 de 13: se cubren los nombres; quedan sin cubrir las cifras con espacios, el número con letras, el usuario/clave, los últimos 4 dígitos y la fecha de nacimiento |
 | Falsos positivos en 20 mensajes benignos (montos, tasas, años, NIT del banco, preguntas generales) | 0 de 20 |
-| Falsos positivos en las preguntas del golden | 2 de 593, y las dos son preguntas del golden con cédula real, así que **enmascarar es lo correcto** |
+| Falsos positivos en las 593 preguntas del golden, **con NER** | 2, y las dos son preguntas del golden con cédula real, así que **enmascarar es lo correcto** |
 **Lectura honesta:**
 - El 100 % en datos con formato **no es una garantía**: los casos los escribió el mismo equipo que las reglas y son pocos. Hay que probar con mensajes reales anonimizados del banco antes de confiar en la cifra.
-- **Los nombres sueltos no se detectan** («Pedro Gómez quiere saber su saldo», un nombre en la firma o dentro de un relato). Es el hueco principal frente a lo que exige cumplimiento. Para producción hace falta un reconocedor de entidades (NER, p. ej. spaCy en español o Presidio) y medirlo; con solo reglas el riesgo es que un nombre llegue al proveedor.
+- **Nombres en minúscula** («pedro gomez», «juan carlos rojas») **no se detectan**: el NER de spaCy depende de la mayúscula inicial. Es el hueco que sigue abierto frente a lo que exige cumplimiento, y en un chat el cliente escribe muchas veces así. Opciones: un modelo de entidades más robusto a minúsculas, pasar el texto por un normalizador de mayúsculas, o que un LLM local revise el texto (más lento); cada una se mide con este mismo conjunto.
+- **El NER es un modelo mediano en CPU** (spaCy `md`): añade ~decenas de ms por mensaje (no se midió con rigor) y puede equivocarse con nombres poco frecuentes.
+- La medición de nombres con 18 frases es **pequeña**: 15 de 18 tiene un margen amplio. Se necesita una prueba con mensajes reales anonimizados del banco.
 - Los números que el cliente escribe **con letras o con espacios** ('1 0 9 8…') y las fechas de nacimiento tampoco se cubren.
 - Un error del propio ejercicio, ya corregido: «cuenta activa 2025 2026» se tomaba por número de cuenta; ahora los pares de años se ignoran.
 - El enmascaramiento va **antes de cualquier proveedor**, incluidos Voyage (reranker/embeddings de la consulta) y DeepSeek. La respuesta al cliente no necesita los valores originales.
@@ -163,7 +166,7 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 | Tema | Estado |
 |---|---|
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
-| Capa de enmascaramiento | hecha con reglas y medida (datos con formato 36/36; casos sin pista 3/13). Falta un NER para nombres sueltos y una prueba con mensajes reales anonimizados |
+| Capa de enmascaramiento | hecha (reglas + NER spaCy) y medida: datos con formato 36/36, nombres sueltos nuevos 15/18. Abierto: nombres en minúscula, cifras con espacios o con letras, y una prueba con mensajes reales anonimizados |
 | Controles operativos anti-abuso (límites de longitud, de mensajes y de tokens; alerta por abstenciones seguidas) | por construir |
 | Prueba de abuso con intentos reales (*red team*) y conversaciones de varios turnos | pendiente |
 | Verificador de suficiencia | medido con rerank-3 y con DeepSeek (flash y v4-pro, thinking desactivado); combinados: 96,3 % de abstención correcta con ≈4,5–4,8 % de rechazo falso (prompt `p1`). Falta una muestra mayor y revisada por expertos, y medir OpenAI si se elige |

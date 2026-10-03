@@ -1,15 +1,20 @@
 """Fase 3b · mide la capa de enmascaramiento (pipeline/fase3b/enmascarar.py) con datos INVENTADOS (rag-bocc/evaluacion/fase3b/pii-sintetico.jsonl):
-  - recall por grupo: fracción de secretos que NO sobreviven en el texto enmascarado (grupo «formato» = datos con formato claro; «dificil» = sin pista en la frase);
+  - recall por grupo: fracción de secretos que NO sobreviven en el texto enmascarado (grupo «formato» = datos con formato claro; «dificil» = sin pista en la frase; «nombres_nuevos» = nombres propios sueltos NO usados para ajustar los filtros del NER);
   - falsos positivos: textos benignos del conjunto sintético y TODAS las preguntas del golden (290 + variantes) que la capa modifica sin deber.
-Salida: rag-bocc/evaluacion/fase3b/enmascaramiento.json. Los casos sintéticos son escritos por el proyecto: no sustituyen una prueba con mensajes reales anonimizados."""
+Salida: rag-bocc/evaluacion/fase3b/enmascaramiento.json (con --sin-ner: solo reglas, enmascaramiento-reglas.json). Los casos sintéticos son escritos por el proyecto: no sustituyen una prueba con mensajes reales anonimizados."""
 import json, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'fase3b'))
-from enmascarar import enmascarar
+from enmascarar import enmascarar as _enm
+NER = '--sin-ner' not in sys.argv
+
+
+def enmascarar(t): return _enm(t, ner=None if NER else False)
+
 
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
 casos = [json.loads(line) for line in open(B + 'rag-bocc/evaluacion/fase3b/pii-sintetico.jsonl')]
 out = {}
-for g in ('formato', 'dificil'):
+for g in ('formato', 'dificil', 'nombres_nuevos'):
     tot = ok = 0; fallos = []
     for c in (x for x in casos if x['grupo'] == g):
         m, _ = enmascarar(c['texto'])
@@ -28,4 +33,4 @@ out['falsos_positivos'] = dict(sinteticos=dict(n=len(ben), modificados=len(mal),
 print('falsos positivos sintéticos:', len(mal), '/', len(ben), mal)
 print('falsos positivos golden:', len(mal_g), '/', len(textos))
 for t in mal_g[:15]: print('  ', t, '->', enmascarar(t)[0])
-json.dump(out, open(B + 'rag-bocc/evaluacion/fase3b/enmascaramiento.json', 'w'), ensure_ascii=False, indent=1)
+json.dump(out, open(B + 'rag-bocc/evaluacion/fase3b/' + ('enmascaramiento.json' if NER else 'enmascaramiento-reglas.json'), 'w'), ensure_ascii=False, indent=1)

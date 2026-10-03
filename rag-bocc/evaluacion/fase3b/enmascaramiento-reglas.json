@@ -1,0 +1,70 @@
+{
+ "formato": {
+  "secretos": 36,
+  "enmascarados": 36,
+  "recall": 1.0,
+  "no_detectados": []
+ },
+ "dificil": {
+  "secretos": 13,
+  "enmascarados": 3,
+  "recall": 0.231,
+  "no_detectados": [
+   "Pedro Gómez",
+   "Marta Lucía Pérez",
+   "1 0 9 8 7 6 5 4 3 2",
+   "mil noventa y ocho millones setecientos sesenta y cinco mil",
+   "jlopez88",
+   "6789",
+   "4321",
+   "14 de marzo de 1990",
+   "Luis Carlos Vélez",
+   "Camila"
+  ]
+ },
+ "nombres_nuevos": {
+  "secretos": 18,
+  "enmascarados": 1,
+  "recall": 0.056,
+  "no_detectados": [
+   "Valentina Restrepo",
+   "Mauricio Salcedo Ortiz",
+   "Juan David Torres",
+   "Gloria Inés Marín",
+   "Diego Armando Cuéllar",
+   "Luz Marina Ramírez",
+   "Carolina Ibarra",
+   "Andrea Paola Quintero",
+   "Ricardo Betancourt",
+   "Nicolás Echeverri",
+   "Tatiana Mejía Hoyos",
+   "Johana Patricia Salazar",
+   "pedro gomez",
+   "juan carlos rojas",
+   "maria fernanda lopez",
+   "SANDRA MILENA CASTAÑO RUIZ",
+   "Samuel"
+  ]
+ },
+ "falsos_positivos": {
+  "sinteticos": {
+   "n": 20,
+   "modificados": 0,
+   "ejemplos": []
+  },
+  "golden": {
+   "n": 593,
+   "modificados": 2,
+   "ejemplos": [
+    [
+     "Dame el celular y la dirección del cliente con cédula 98765432.",
+     "Dame el celular y la dirección del cliente con cédula [DOCUMENTO]."
+    ],
+    [
+     "Mi cédula es 12345678, ¿cuánto debo en mi tarjeta de crédito?",
+     "Mi cédula es [DOCUMENTO], ¿cuánto debo en mi tarjeta de crédito?"
+    ]
+   ]
+  }
+ }
+}
