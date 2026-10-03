@@ -1,6 +1,6 @@
 # GPU local (NVIDIA GTX 1650 Ti) para el reranker: configuración paso a paso
 
-Estado: **en curso** (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
+Estado: **en curso** (Fases A y B hechas; faltan C y D) (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
 GPU NVIDIA GeForce GTX 1650 Ti Mobile (TU117M, 4 GB) + Intel UHD integrada. Docker 29.8.2 ya instalado y el usuario pertenece al grupo `docker`.
 
 Objetivo: poder ejecutar el reranker abierto `BAAI/bge-reranker-v2-m3` (≈1,1 GB en fp16) en la GPU local, primero directo en Python y luego como servicio en un contenedor Docker.
@@ -25,10 +25,26 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 7. ☑ `nvidia-smi` → GTX 1650 Ti, driver 595.91.07, CUDA 13.2, 4096 MiB de VRAM.
 8. ☑ Verificado (`True NVIDIA GeForce GTX 1650 Ti`). Comando: `.venv/bin/python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` → `True NVIDIA GeForce GTX 1650 Ti`.
 
-## Fase B — Reranker en la GPU, directo en Python
-7. ☐ Ejecutar la evaluación con GPU: `python pipeline/15_embeddings_con_reranker.py --modelos e5-small --dispositivo cuda --fp16 --lote 16 --sufijo=-gpu-local`
-   (4 GB de VRAM alcanzan para el modelo en fp16; si se queda sin memoria, bajar `--lote` a 8 o 4).
-8. ☐ Anotar el tiempo por consulta y comparar con la CPU (~16 s) y con Voyage (~0,07 s). Los resultados de calidad deben ser casi idénticos a los de CPU.
+## Fase B — Reranker en la GPU, directo en Python (hecha el 2026-10-03)
+7. ☑ Evaluación completa (dev, 335 consultas × 20 candidatos, `bge-reranker-v2-m3`, e5-small + híbrido + vigencia dura, corpus actual). Dos corridas:
+   - fp16: `python pipeline/15_embeddings_con_reranker.py --modelos e5-small --dispositivo cuda --fp16 --lote 16 --sufijo=-gpu-local` → **4.777 s** (14,3 s por consulta).
+   - fp32: `python pipeline/15_embeddings_con_reranker.py --modelos e5-small --dispositivo cuda --lote 8 --sufijo=-gpu-local-fp32` → **1.155 s** (3,4 s por consulta).
+   Salidas: `rag-bocc/evaluacion/fase3a/embeddings-reranker-dev-gpu-local.json` y `…-gpu-local-fp32.json`.
+8. ☑ Calidad: **idéntica** a la corrida en CPU sobre el mismo corpus (`…-dev-e5-corpus-actual.json`): doc@10 0,928 · cita@1 0,784 · cita@10 0,916 · MRR 0,841; variantes cita@1 0,500 · cita@10 0,821 · MRR 0,629. La GPU no cambia los resultados, solo el tiempo (ni siquiera fp16 movió una métrica).
+
+### Latencia medida (20 pares de ~512 tokens, una consulta)
+| Configuración | Segundos por consulta |
+|---|---|
+| CPU (medida antes) | ~16 |
+| GPU GTX 1650 Ti, **fp32** (lote 4 / 8 / 16) | **3,9 / 4,0 / 4,3** (en la evaluación real, con fragmentos más cortos: 3,4) |
+| GPU GTX 1650 Ti, fp16 (cualquier lote) | 16,3 (≈ CPU) |
+| Voyage rerank-3 (API) | ~0,07 |
+
+### Conclusiones de la Fase B
+- **Usar fp32 en esta tarjeta.** fp16 es ~4 veces más lento: la GTX 1650 Ti (arquitectura Turing TU117) no tiene núcleos tensoriales, y en fp16 el modelo no se acelera. La causa exacta no se investigó; el dato medido es el de la tabla. El comando de `--fp16` de las notas anteriores (y de Colab T4, que sí tiene núcleos tensoriales) no aplica a esta GPU.
+- La GPU local da **~4–5× de mejora** frente a la CPU, pero 3,4–4 s por consulta sigue siendo **mucho** para un asesor en línea (Voyage: 0,07 s, unas 50 veces menos). Sirve para evaluar y desarrollar sin depender de terceros, no para atender clientes.
+- Temperatura de la GPU durante la carga: ~81 °C a 1.860 MHz, sin limitación de reloj reportada (`clocks_event_reasons.active` = 0). Con 4 GB cabe el modelo (≈2,8 GB en fp16 con lote 16; fp32 con lote 8 funcionó sin quedarse sin memoria).
+- Una evaluación completa de 335 consultas son ~20 min en fp32; el script no imprime progreso, por eso conviene lanzarlo con `nohup … > _raw/<log> &`.
 
 ## Fase C — Docker con acceso a la GPU
 9. ☐ Instalar `nvidia-container-toolkit` (repositorio oficial de NVIDIA para Ubuntu/Debian):
