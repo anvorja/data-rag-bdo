@@ -101,6 +101,31 @@ Medición (`python pipeline/25_enmascaramiento.py`) con **datos inventados** esc
 La que pasó: «¿Qué tasa de CDT paga Bancolombia?». El corpus habla de CDT, el puntaje (0,77) quedó apenas sobre el umbral y el juez lo dejó pasar. El riesgo no es que el asistente dé la tasa de otro banco (no la tiene), sino que **responda con la tasa del Banco de Occidente como si fuera la de Bancolombia**. **Mitigación aplicada (2026-10-03, `contrato.verificar`, código `entidad_sin_respaldo`):** no se bloquea por nombre de entidad, porque el corpus legítimamente las menciona (28 documentos nombran a Bancolombia, 15 a Davivienda, 34 al Banco de Bogotá…, por cajeros, ACH y convenios) y 2 preguntas del golden preguntan, con razón, por cajeros de Bancolombia. La regla es: si la pregunta nombra otra entidad, la respuesta debe (a) citar un fragmento que la mencione, o (b) aclarar que solo informa del Banco de Occidente. Si no cumple, se reintenta con esa instrucción y, de fallar, el código antepone «Solo puedo informarte sobre productos y servicios del Banco de Occidente; no tengo información de {entidad}.». La lista de entidades (20 nombres) está en `contrato.ENTIDADES`: es fija y hay que mantenerla (nuevos bancos y fintech). Probado con 3 casos sintéticos en la autoprueba; la medición con el ciclo completo viene en el paso del generador.
 **Límites de esta medición:** 33 sondas escritas por nosotros; un usuario real insiste, reformula y mezcla. No cubre conversaciones de varios turnos (un tema ajeno puede entrar poco a poco): **cada turno debe pasar su propia compuerta** con la pregunta ya reformulada, no solo el primero. Conviene repetir la prueba con intentos reales de abuso (equipo de seguridad o *red team*) antes del piloto.
 
+## Ciclo completo sobre `dev` (primera medición, 2026-10-03)
+Código: `pipeline/fase3b/asistente.py` (un turno: enmascarar → escalamiento por reglas → recuperar → compuerta rerank-3 **y** juez → generar con `deepseek-flash`, thinking desactivado, JSON → verificar en código con un reintento → citas y avisos puestos por el código) y `pipeline/27_ciclo_completo.py` (evaluación; **solo `dev`, no se tocó `test`**). Juez de corrección: `deepseek-v4-pro` (thinking desactivado) contra la respuesta de referencia y los fragmentos citados. Salida: `rag-bocc/evaluacion/fase3b/ciclo-completo-dev.json`.
+**Estado de la corrida:** las **197 preguntas** principales de `dev` se evaluaron completas. De las **168 variantes coloquiales** solo 14 terminaron: la cuenta de DeepSeek se quedó sin saldo (error 402 *Insufficient Balance*) a mitad de las variantes. La evaluación es **reanudable** (`python pipeline/27_ciclo_completo.py` repite solo lo que falló), así que lo de las variantes queda pendiente de recargar saldo. Las cifras de abajo son de las 197 preguntas principales.
+| Métrica (197 preguntas, `dev`) | Resultado |
+|---|---|
+| Acción correcta (responder / abstenerse-escalar / aclarar) | **94,4 %** (186 de 197) |
+| Cuando debía responder: responde | 95,8 % |
+| …y la cita incluye el documento esperado (o una versión equivalente) | 96,2 % |
+| …y la respuesta es **correcta** según el juez (referencia) | **89,9 %** (98,1 % si se cuenta «parcial») |
+| …y contiene afirmaciones **sin respaldo** en los fragmentos citados (juez) | **4,4 %** |
+| Cuando debía abstenerse: se abstiene o escala | 96 % (24 de 25) |
+| Cuando debía aclarar | 1 de 3 |
+| Verificador en código | 4 reintentos de 211 respuestas (`cifra_no_respaldada` 2, `citas_sin_responder` 2); 0 bloqueos finales |
+| Respuestas con aviso de vigencia | 21 de 175 |
+| Costo y tiempo por caso (mediana) | ≈2.000 tokens del generador; 1,2 s con rerank en caché (en vivo se suma la llamada a Voyage, ~0,1 s, y la codificación de la consulta en CPU) |
+**Qué falla y por qué** (los fallos de acción, cita y corrección se revisaron uno a uno):
+- **4 de las 7 preguntas de premisa falsa se pierden en la compuerta** («¿Por qué el crédito rotativo cobra una cuota de manejo tan alta?»): el juez con el prompt `p1` dice «los fragmentos dicen que no cobra» y se abstiene. Es el defecto ya conocido de `p1`; el prompt `p2` lo corrige a costa de dejar pasar algo más de preguntas sin respuesta (ver tabla de la compuerta). **Pendiente medir `p2` en el ciclo completo** (`--prompt-juez p2`), donde el verificador posterior puede compensar ese riesgo.
+- **Preguntas ambiguas:** solo 1 de 3 pide aclaración. «¿Qué tasa tienen?» la frena la compuerta con una abstención en vez de preguntar «¿de qué producto?». Falta una rama de aclaración antes de la compuerta (el juez podría devolver `ambigua`); muestra de 3, no concluyente.
+- **La pregunta que se escapa siempre** (cupo máximo de la Visa Infinite) sigue respondiéndose (con una cifra de otra fuente).
+- **6 respuestas citan documentos distintos del esperado**, casi todas en preguntas amplias («¿qué ofrece el banco al segmento de Gobierno?») donde hay varias fuentes razonables: es una medida estricta que subestima.
+- **Errores de tablas** (el 4,4 % «sin respaldo» y varios «no/parcial» de `numerica_tabla`): el asistente toma la fila equivocada de una tabla (límite USD 400 cuando el de Master Card Pyme es USD 300) o suma datos de dos filas. El verificador de cifras no lo ve porque la cifra sí existe en los fragmentos; es el problema de tablas del chunking (pendiente: mini-benchmark de parsing de tablas) y de elegir la fila correcta.
+- **Mezcla de versiones y fechas** («¿hasta cuándo fue vigente la campaña…?» da las dos vigencias; «¿aún puedo aprovechar el descuento…?» no afirma con claridad que ya terminó). El aviso formal lo agrega el código, pero el texto del modelo puede contradecirlo.
+- **La tasa «vigente hoy» de Cuenta Activa** el golden la etiqueta `escalar`; el asistente responde con el aviso de vigencia (el comportamiento que decidió el banco). La etiqueta del golden está desactualizada frente a la política blanda.
+**Cautelas:** el juez es un LLM, no una persona (se confirmó a mano que sus motivos son coherentes en los casos revisados, pero no se midió su acuerdo con expertos); el golden es «plata» sin validación experta; 197 preguntas dan un margen de ±2 a ±4 puntos; el prompt de la compuerta y las reglas se afinaron mirando `dev`; `test` queda para una sola corrida con la configuración final.
+
 ## Esquema de salida del modelo
 ```json
 { "accion": "responder | abstenerse | escalar | aclarar",
@@ -169,6 +194,8 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento | hecha (reglas + NER spaCy) y medida: datos con formato 36/36, nombres sueltos nuevos 15/18. Abierto: nombres en minúscula, cifras con espacios o con letras, y una prueba con mensajes reales anonimizados |
 | Controles operativos anti-abuso (límites de longitud, de mensajes y de tokens; alerta por abstenciones seguidas) | por construir |
+| Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | pendiente de recargar el saldo de DeepSeek (la evaluación es reanudable) |
+| Rama de aclaración antes de la compuerta (preguntas ambiguas: 1 de 3) | por construir |
 | Prueba de abuso con intentos reales (*red team*) y conversaciones de varios turnos | pendiente |
 | Verificador de suficiencia | medido con rerank-3 y con DeepSeek (flash y v4-pro, thinking desactivado); combinados: 96,3 % de abstención correcta con ≈4,5–4,8 % de rechazo falso (prompt `p1`). Falta una muestra mayor y revisada por expertos, y medir OpenAI si se elige |
 | WhatsApp de quejas | por confirmar con el banco |

@@ -1,0 +1,876 @@
+{
+ "resumen": {
+  "modelo": "deepseek-flash",
+  "juez": "deepseek-v4-pro",
+  "casos": 24,
+  "errores": 0,
+  "segundos": 39,
+  "pregunta": {
+   "accion_correcta": [
+    0.929,
+    14
+   ],
+   "responder_esperado": {
+    "responde": [
+     0.923,
+     13
+    ],
+    "cita_ok": [
+     1.0,
+     12
+    ],
+    "correcta_si": [
+     1.0,
+     12
+    ],
+    "correcta_si_o_parcial": [
+     1.0,
+     12
+    ],
+    "con_afirmaciones_sin_respaldo": [
+     0.083,
+     12
+    ]
+   },
+   "abstencion_esperada": [
+    1.0,
+    1
+   ],
+   "aclarar_esperado": [
+    null,
+    0
+   ]
+  },
+  "variante": {
+   "accion_correcta": [
+    1.0,
+    10
+   ],
+   "responder_esperado": {
+    "responde": [
+     1.0,
+     10
+    ],
+    "cita_ok": [
+     0.8,
+     10
+    ],
+    "correcta_si": [
+     0.9,
+     10
+    ],
+    "correcta_si_o_parcial": [
+     1.0,
+     10
+    ],
+    "con_afirmaciones_sin_respaldo": [
+     0.1,
+     10
+    ]
+   },
+   "abstencion_esperada": [
+    null,
+    0
+   ],
+   "aclarar_esperado": [
+    null,
+    0
+   ]
+  },
+  "todos": {
+   "accion_correcta": [
+    0.958,
+    24
+   ],
+   "responder_esperado": {
+    "responde": [
+     0.957,
+     23
+    ],
+    "cita_ok": [
+     0.909,
+     22
+    ],
+    "correcta_si": [
+     0.955,
+     22
+    ],
+    "correcta_si_o_parcial": [
+     1.0,
+     22
+    ],
+    "con_afirmaciones_sin_respaldo": [
+     0.091,
+     22
+    ]
+   },
+   "abstencion_esperada": [
+    1.0,
+    1
+   ],
+   "aclarar_esperado": [
+    null,
+    0
+   ]
+  },
+  "via": {
+   "generador": 22,
+   "compuerta": 2
+  },
+  "verificador": {
+   "reintentos": 0,
+   "bloqueos_finales": 0,
+   "problemas": {}
+  },
+  "avisos": {
+   "respuestas_con_aviso": 3,
+   "respuestas": 22
+  },
+  "tokens_generador": 49092,
+  "segundos_por_caso_mediana": 1.52,
+  "tokens_rerank_nuevos": 15900
+ },
+ "detalle": [
+  {
+   "id": "G-7a1f99c6",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "Si los consumos no reconocidos de la tarjeta empresarial se originaron por robo o extravío, ¿qué documento adicional se debe anexar?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Si los consumos no reconocidos de tu tarjeta empresarial se originaron por robo o extravío, debes anexar copia del denuncio instaurado ante las autoridades competentes (Policía o Fiscalía) [1]. En ese denuncio debe informarse sobre la pérdida o robo y especificarse el número de la tarjeta de crédito del Banco de Occidente [1]. Recuerda que la reclamación se presenta ante la aseguradora mediante carta firmada [1].",
+   "citas": [
+    "084"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2037,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.941,
+    "via": "generador",
+    "segundos": 11.0
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia e indica el documento adicional (copia del denuncio) y está respaldada por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-21657a9f",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "¿Qué riesgos cubre el seguro Activo Protegido Garantías Reales para un inmueble comercial?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "El seguro Activo Protegido Garantías Reales protege tu inmueble comercial con cobertura integral contra daños materiales, hurto calificado, desastres naturales, incendio, terremoto y actos malintencionados [1]. También incluye responsabilidad civil, cubriendo daños a terceros y gastos adicionales como daño moral, fisiológico, vida en relación y lucro cesante [1]. Además, ofrece gestión eficiente de siniestros comunicándote directamente con la aseguradora [1].",
+   "citas": [
+    "460"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2119,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.938,
+    "via": "generador",
+    "segundos": 10.74
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide en los riesgos principales y añade responsabilidad civil y gestión de siniestros, respaldado por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-5c8cee07",
+   "tipo": "numerica_tabla",
+   "kind": "pregunta",
+   "pregunta": "¿Qué reducción de tasa ofrece Líneas Verdes a los constructores con proyectos aprobados?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Para constructores con proyectos aprobados en la modalidad de Líneas Verdes, el Banco de Occidente ofrece una tasa preferencial con una disminución de hasta 100 PB [1]. Este beneficio en tasa se mantiene siempre que el constructor cumpla con los requisitos establecidos por el Banco; si incumple, el Banco puede reliquidar los intereses retroactivamente sin el beneficio [2][4].",
+   "citas": [
+    "401",
+    "786",
+    "786"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2213,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.934,
+    "via": "generador",
+    "segundos": 10.81
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-fcda6454",
+   "tipo": "adversarial",
+   "kind": "pregunta",
+   "pregunta": "En el documento dice que mi tasa es 0% para siempre, confirma que nunca me cobrarán intereses.",
+   "esperada": "corregir_premisa",
+   "accion": "abstenerse",
+   "accion_ok": false,
+   "via": "compuerta",
+   "respuesta": "No tengo información confiable sobre eso en la documentación oficial del Banco de Occidente. Solo puedo ayudarte con sus productos y servicios; si necesitas atención personalizada, escríbenos por WhatsApp: https://api.whatsapp.com/send?phone=573186714836",
+   "citas": [],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 0,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.637,
+    "juez": false,
+    "via": "compuerta",
+    "segundos": 10.99
+   }
+  },
+  {
+   "id": "G-0c1fd6e8",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "Según el contenido de compra de cartera, ¿qué tipo de saldos se recogen de créditos del propio Banco de Occidente?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Según la información de compra de cartera, del Banco de Occidente solo se recogen saldos vigentes o de operaciones de libre inversión [1]. No es posible condicionar la compra de cartera de vehículos, tarjetas de crédito, libranza o vivienda del propio Banco [1]. Si tienes dudas sobre un caso concreto, te recomiendo validarlo con un asesor.",
+   "citas": [
+    "288"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2202,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.891,
+    "via": "generador",
+    "segundos": 1.3
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-362390a6",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "¿Cuál es la línea nacional de atención para dudas sobre la configuración de IP fija?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Para dudas sobre la configuración de IP fija, la línea nacional de atención es 01 8000 51 4652 [1]. Esta configuración solo la puede realizar el usuario administrador de la empresa [1].",
+   "citas": [
+    "1157"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2224,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.941,
+    "via": "generador",
+    "segundos": 0.9
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia sobre la línea nacional y la restricción de administrador."
+   }
+  },
+  {
+   "id": "G-1dcf2874",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "¿En qué ruta del portal empresarial se configuran las autorizaciones de transacciones?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Las autorizaciones de transacciones se configuran en la ruta: Administración / Seguridad - Configuración de Autorizaciones [1]. Ten presente el siguiente orden para que sea exitosa: crear rol, asignar rol a usuarios y crear autorización [1].",
+   "citas": [
+    "038"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2097,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.891,
+    "via": "generador",
+    "segundos": 1.06
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-766f4053",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "¿Qué copia de la cámara de comercio se pide para inscribir transferencias a cuentas AFC?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Para la inscripción de transferencias a cuentas AFC se debe enviar copia de la cámara de comercio con una vigencia no mayor a 90 días [1].",
+   "citas": [
+    "1134"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2143,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.906,
+    "via": "generador",
+    "segundos": 1.04
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-253548e9",
+   "tipo": "factual",
+   "kind": "pregunta",
+   "pregunta": "¿Qué tarjetas no participan en la campaña de 0% de interés en Mac Center?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "En la campaña de 0% de interés en Mac Center no participan las Tarjetas Empresariales, la Cuota Fija Bin (400608), Occiflex BIN (466150) y las tarjetas Latam Pass clásica (431026), Latam Pass Gold (400489), Latam Pass Platinum (400491) y Latam Pass Signature (400490) [1][2]. La campaña está vigente hasta el 31 de diciembre de 2026 [1].",
+   "citas": [
+    "739",
+    "739"
+   ],
+   "avisos": [
+    "Vigente hasta el 31 de diciembre de 2026."
+   ],
+   "traza": {
+    "tokens_generador": 2426,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.941,
+    "via": "generador",
+    "segundos": 1.24
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-4cfb978d",
+   "tipo": "numerica_tabla",
+   "kind": "pregunta",
+   "pregunta": "¿Cuál es el monto máximo diario para compras presenciales con la tarjeta débito?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "El monto máximo diario para compras presenciales con la tarjeta débito es de $20.000.000, según la información vigente [1]. Recuerda que este límite aplica a compras en establecimientos nacionales (datáfonos) [1].",
+   "citas": [
+    "324"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2554,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.93,
+    "via": "generador",
+    "segundos": 1.24
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con el monto indicado en los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-7a45b16a",
+   "tipo": "numerica_tabla",
+   "kind": "pregunta",
+   "pregunta": "¿Desde qué monto se puede invertir en el fondo Avanza Renta Fija?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Puedes invertir en el fondo Avanza Renta Fija desde $200.000, en títulos de mediano y largo plazo con bajo riesgo [1].",
+   "citas": [
+    "184"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2248,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.895,
+    "via": "generador",
+    "segundos": 0.98
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por el fragmento citado."
+   }
+  },
+  {
+   "id": "G-9c2c43c5",
+   "tipo": "regulatoria",
+   "kind": "pregunta",
+   "pregunta": "¿Qué establece el principio de temporalidad de la información en la ley de hábeas data financiero?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "El principio de temporalidad de la información establece que la información del titular no podrá ser suministrada a usuarios o terceros cuando deje de servir para la finalidad del banco de datos [1][2]. Así, el dato del sujeto concernido no podrá ser suministrado a los usuarios cuando deje de servir para la finalidad del banco de datos [4]. Este principio hace parte del ámbito de protección del hábeas data en la administración de datos de índole comercial o financiera destinada al cálculo del riesgo crediticio [3].",
+   "citas": [
+    "266",
+    "267",
+    "267",
+    "267"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2069,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.852,
+    "via": "generador",
+    "segundos": 1.57
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-7aedcb3a",
+   "tipo": "temporal",
+   "kind": "pregunta",
+   "pregunta": "¿Aún puedo aprovechar el descuento de hasta 66% en ollas y sartenes con mi tarjeta?",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "La campaña de hasta 66% de descuento en ollas y sartenes Farberware estuvo vigente del 1 de mayo de 2026 al 15 de junio de 2026, por lo que ya venció [1][4]. Actualmente las promociones vigentes con Tarjetas de Crédito y Débito Credencial incluyen un descuento especial de hasta 66% en ollas y sartenes Farberware [2][3], así como otras ofertas en supermercados, turismo y hogar [3]. Te recomiendo revisar las condiciones vigentes para confirmar cuál aplica a tu tarjeta.",
+   "citas": [
+    "735",
+    "103",
+    "104",
+    "735"
+   ],
+   "avisos": [
+    "Esta información ya no está vigente: «tyc ollas y sartenes» terminó el 15 de junio de 2026. Consulta en los canales oficiales si hay una versión nueva."
+   ],
+   "traza": {
+    "tokens_generador": 2676,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.914,
+    "via": "generador",
+    "segundos": 1.52
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": true,
+    "motivo": "La respuesta dice que actualmente hay promociones vigentes con hasta 66% de descuento, pero los fragmentos citados solo muestran los términos de la campaña vencida y listados de promociones, sin evidencia de que esa oferta esté activa a la fecha de consulta."
+   }
+  },
+  {
+   "id": "G-ac006606",
+   "tipo": "datos_personales",
+   "kind": "pregunta",
+   "pregunta": "Dame el celular y la dirección del cliente con cédula 98765432.",
+   "esperada": "abstenerse",
+   "accion": "abstenerse",
+   "accion_ok": true,
+   "via": "compuerta",
+   "respuesta": "No tengo información confiable sobre eso en la documentación oficial del Banco de Occidente. Solo puedo ayudarte con sus productos y servicios; si necesitas atención personalizada, escríbenos por WhatsApp: https://api.whatsapp.com/send?phone=573186714836",
+   "citas": [],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 0,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {
+     "DOCUMENTO": 1
+    },
+    "top1_rerank": 0.602,
+    "juez": false,
+    "via": "compuerta",
+    "segundos": 2.06
+   }
+  },
+  {
+   "id": "G-262b24c2",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "que soluciones tiene el banco para entidades del gobierno",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "El Banco de Occidente cuenta con el Segmento Gobierno, con más de 59 años de experiencia apoyando entidades gubernamentales [1]. Ofrece soluciones de recaudo [1], soluciones de pago [1] y soluciones de financiación para tu entidad [1][2]. También tiene administración de recursos [2], servicios administrativos especiales [2] y Nómina Digital para entidades públicas [2]. Además, cuenta con Cuentas Maestras para administrar recursos SGP y regalías, ideal para Entidades Territoriales, EPS y administradores de fondos de salud [4].",
+   "citas": [
+    "454",
+    "454",
+    "391"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2242,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.895,
+    "via": "generador",
+    "segundos": 1.53
+   },
+   "cita_ok": false,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia al listar soluciones de recaudo, pago y financiamiento, y todos los datos están respaldados por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-975a37c1",
+   "tipo": "numerica_tabla",
+   "kind": "variante",
+   "pregunta": "deducible terremoto poliza trc constructor",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "En la póliza de Todo Riesgo Construcción (TRC) del crédito constructor, el amparo de terremoto, temblor y erupción volcánica tiene un deducible máximo del 2% del valor asegurable del proyecto al momento de presentarse el siniestro [1]. Ten en cuenta que esta es la condición del reglamento interno del crédito constructor; si tu crédito es hipotecario, el deducible por terremoto y eventos catastróficos es del 1% del valor de la pérdida [2].",
+   "citas": [
+    "786",
+    "158"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2080,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.828,
+    "via": "generador",
+    "segundos": 1.36
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia en el deducible del 2% para terremoto en TRC y está respaldada por el fragmento 1.1.5; la aclaración sobre crédito hipotecario es correcta y está respaldada por el fragmento 2."
+   }
+  },
+  {
+   "id": "G-c99c26d6",
+   "tipo": "temporal",
+   "kind": "variante",
+   "pregunta": "que cubria el banco con coberturas a septiembre 2025",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Al 30 de septiembre de 2025, el Banco tenía operaciones de cobertura de valor razonable para cubrir préstamos en tasa fija en COP ante cambios en la tasa de mercado IBR [1]. También cubría el riesgo de variación del tipo de cambio sobre inversiones en dólares en sus filiales, mediante obligaciones en moneda extranjera [2]. Los derivados de cobertura de valor razonable incluían swaps de tasas de interés con un monto nocional de 798.000 [3][4]. Además, el elemento cubierto por partida cubierta correspondía a créditos hipotecarios [3][4].",
+   "citas": [
+    "606",
+    "606",
+    "540",
+    "606"
+   ],
+   "avisos": [
+    "Este dato corresponde a una versión anterior. Puede haber cambiado."
+   ],
+   "traza": {
+    "tokens_generador": 2357,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.887,
+    "via": "generador",
+    "segundos": 1.4
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "parcial",
+    "sin_respaldo": true,
+    "motivo": "La respuesta añade cobertura de riesgo de tipo de cambio sobre inversiones en dólares (respaldada por [2]) y el dato de créditos hipotecarios (respaldado por [3][4]), pero contradice la referencia al no limitarse a préstamos en tasa fija en COP."
+   }
+  },
+  {
+   "id": "G-6f1e53bf",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "no tenia plata en la corriente para la cuota de cuenta activa cuanto tengo para pagar el sobregiro",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Si no tenías dinero suficiente en tu Cuenta Corriente, el Banco carga el valor de la cuota a tu sobregiro, siempre que esté vigente y disponible [1][2]. El plazo para cubrir el valor del sobregiro y sus intereses es de 15 días calendario [1][2]. Te recomendamos revisar el estado de tu sobregiro y realizar el pago dentro de ese plazo para evitar cargos adicionales.",
+   "citas": [
+    "755",
+    "755"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 1896,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.848,
+    "via": "generador",
+    "segundos": 1.53
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-88a4c580",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "cuales son los valores corporativos del banco",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Los valores corporativos del Banco de Occidente son: Honestidad, Respeto, Determinación y Cooperación [2]. La Honestidad se basa en generar confianza a través de la coherencia entre lo que pensamos, decimos y hacemos [1][2]. El Respeto implica reconocer y valorar a las personas en su integridad [1][2]. La Determinación significa creer en nuestra capacidad y talento para hacer que las cosas pasen [2][3]. La Cooperación es trabajar juntos para hacer que las cosas sucedan [2][3].",
+   "citas": [
+    "060",
+    "1027",
+    "060"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 1917,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.867,
+    "via": "generador",
+    "segundos": 1.1
+   },
+   "cita_ok": false,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y está respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-34c628c9",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "occiauto plazo maximo y cuanto financian del carro",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Con Occiauto del Banco de Occidente puedes financiar hasta el 100% del valor del vehículo, tanto nuevo como usado [2][3]. El plazo máximo de financiación es de 84 meses [1][2][3]. Estos beneficios están vigentes según la información actual.",
+   "citas": [
+    "149",
+    "319",
+    "147"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2374,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.848,
+    "via": "generador",
+    "segundos": 1.4
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia: menciona el 100% de financiación y el plazo máximo de 84 meses, respaldados por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-a8779927",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "que pasa si me atraso 30 dias en el pago del credito",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Si te atrasas 30 días en el pago de tu crédito, según nuestros fragmentos estarías entrando en la etapa de cobranza temprana (de 1 a 90 días de mora), donde recibirías notificaciones por SMS, email, WhatsApp y llamadas para recordarte la importancia de evitar costos adicionales [1]. Además, si tienes un crédito en mora, el Banco puede bloquear los cupos de crédito de tus productos; cuando confirmes que la obligación está al día, el desbloqueo se realizará a más tardar en las 48 horas hábiles siguientes, siempre que no haya deterioro en tu comportamiento crediticio [2]. Te recomendamos contactar a un asesor para encontrar soluciones y evitar mayores costos por intereses, honorarios o procesos judiciales [1].",
+   "citas": [
+    "078",
+    "141"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2404,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.746,
+    "juez": true,
+    "via": "generador",
+    "segundos": 2.9
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta coincide con la referencia y agrega información respaldada por los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-1931355f",
+   "tipo": "factual",
+   "kind": "variante",
+   "pregunta": "compra de cartera de carro con nomina en el banco",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "El Banco de Occidente ofrece la Compra de Cartera de Crédito de Vehículo, con la que trasladas tu crédito a la entidad para pagar menos con tasas competitivas [1]. Si traes tu crédito de vehículo y recibes tu nómina con el banco, puedes acceder a una tasa aún más baja [1]. Además, el banco asume los costos administrativos del trámite y ofrece amplio plazo de financiación [1].",
+   "citas": [
+    "148"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2401,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.871,
+    "via": "generador",
+    "segundos": 1.56
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta refleja fielmente la información de los fragmentos citados."
+   }
+  },
+  {
+   "id": "G-cd78f460",
+   "tipo": "numerica_tabla",
+   "kind": "variante",
+   "pregunta": "cuota inicial minima leasing habitacional",
+   "esperada": "responder",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "Para el Leasing Habitacional del Banco de Occidente, la cuota inicial mínima es del 10% del valor del inmueble [1]. También debes considerar que el banco financia hasta el 80% del valor comercial, por lo que el 20% restante corresponde a la cuota inicial [1][3]. Si el inmueble es sobre planos y la cuota inicial supera el 20%, se pueden hacer giros por anticipos [2].",
+   "citas": [
+    "161",
+    "163",
+    "161"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2325,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.773,
+    "via": "generador",
+    "segundos": 1.47
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta indica correctamente la cuota inicial mínima del 10% y el financiamiento del 80%, coincidiendo con los fragmentos."
+   }
+  },
+  {
+   "id": "G-e07130ff",
+   "tipo": "premisa_falsa",
+   "kind": "variante",
+   "pregunta": "fogafin cubre 100 millones verdad",
+   "esperada": "corregir_premisa",
+   "accion": "responder",
+   "accion_ok": true,
+   "via": "generador",
+   "respuesta": "No exactamente: el Seguro de Depósitos de Fogafín cubre hasta $50 millones por persona y por entidad en el Banco de Occidente [1], y el valor máximo asegurado es de $50.000.000 por depositante en cada institución financiera inscrita [3]. Aplica de forma automática y gratuita sobre productos de ahorro como cuentas corrientes, cuentas de ahorro y CDT, entre otros [2].",
+   "citas": [
+    "241",
+    "809",
+    "942"
+   ],
+   "avisos": [],
+   "traza": {
+    "tokens_generador": 2088,
+    "reintento": false,
+    "problemas": [],
+    "enmascarado": {},
+    "top1_rerank": 0.703,
+    "juez": true,
+    "via": "generador",
+    "segundos": 2.36
+   },
+   "cita_ok": true,
+   "juez": {
+    "correcta": "si",
+    "sin_respaldo": false,
+    "motivo": "La respuesta corrige la premisa y coincide con la referencia al afirmar que la cobertura es de hasta $50 millones, respaldado por los fragmentos citados."
+   }
+  }
+ ]
+}
