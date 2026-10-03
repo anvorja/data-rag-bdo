@@ -18,7 +18,7 @@ Así una respuesta no puede citar una página que no existe ni inventar una vige
    - pregunta ambigua → `aclarar` (una pregunta corta);
    - el resto → `responder`, si el paso 5 lo permite.
 4. **Recuperación** (lo medido en la fase 3a): BM25 + denso (RRF) → política **blanda** de vigencia (`vigencia.doc_ok_blanda`) → reranker top-20 (en desarrollo y pruebas: Voyage rerank-3) → entre 3 y 5 fragmentos.
-5. **Suficiencia:** el umbral de recuperación de la fase 3a **no basta** para abstenerse (AUROC 0,83). Dos verificadores en `pipeline/fase3b/suficiencia.py`: el **puntaje del reranker Voyage rerank-3** (sin LLM, ya medido: ver «Verificador de suficiencia») y un **LLM juez** (DeepSeek u OpenAI, armado y sin medir hasta que haya clave). Ambos se pueden combinar.
+5. **Suficiencia:** el umbral de recuperación de la fase 3a **no basta** para abstenerse (AUROC 0,83). Dos verificadores en `pipeline/fase3b/suficiencia.py`: el **puntaje del reranker Voyage rerank-3** (sin LLM, ya medido: ver «Verificador de suficiencia») y un **LLM juez** (DeepSeek, medido; OpenAI, armado). Combinados (abstenerse solo si ambos lo piden) dan el mejor resultado medido.
 6. **Generación:** el LLM recibe los fragmentos numerados `[1]…[n]` con su texto y responde en JSON (esquema abajo).
 7. **Verificación determinista** (`contrato.verificar`). Si falla algún control, se reintenta una vez con el error como instrucción; si vuelve a fallar, se cambia a `abstenerse` y se registra el caso.
 8. **Armado final:** el código añade las citas (URL, título, página) y los avisos de vigencia; el cliente ve el texto, las fuentes y los avisos.
@@ -37,11 +37,31 @@ Por tipo, con el umbral 0,7617: fuera de alcance 4/4, datos personales 4/4, adve
 - La muestra de preguntas sin respuesta es **pequeña (27)**: el margen de error es grande, y el umbral se eligió **sobre los mismos datos** que se miden (cifras optimistas). No se ha usado el conjunto de prueba.
 - El umbral vale para **rerank-3 con este corpus y este chunking**; si cambia el reranker (o se pasa a `bge`), el corpus o el prefijo de contexto, hay que recalibrar con `24_suficiencia.py`.
 - El golden es «plata» (sin validación experta): conviene que expertos revisen las 27 preguntas sin respuesta.
-- El rerank-3 no distingue «el tema está pero falta el dato» de «hay respuesta» tan bien como lo haría un lector; por eso se arma también el LLM juez, para medir si la combinación baja el rechazo falso.
+- El rerank-3 no distingue «el tema está pero falta el dato» de «hay respuesta» tan bien como lo haría un lector; por eso se midió también el LLM juez: la combinación baja el rechazo falso a la mitad (ver abajo).
 
-### LLM juez (armado, sin medir)
-`suficiencia.por_llm(pregunta, fragmentos, proveedor)` pide un JSON `{"suficiente": bool, "motivo": str}` con temperatura 0; ante respuesta ilegible se abstiene. Se mide con `python pipeline/24_suficiencia.py --llm deepseek` (o `openai`), que además informa la combinación «cualquiera de los dos pide abstenerse» y «ambos».
-**Dónde poner la clave:** en el archivo `.env` de la raíz del proyecto (ignorado por git), línea `DEEPSEEK_API_KEY=<tu clave>`; para OpenAI, `OPENAI_API_KEY` (ya existe) y además `OPENAI_MODEL_JUEZ=<nombre del modelo de chat>`. Luego `set -a; . ./.env; set +a`. Nunca en el código ni en el chat.
+### LLM juez con DeepSeek (medido el 2026-10-03, modo thinking desactivado)
+`suficiencia.por_llm(pregunta, fragmentos, proveedor)` recibe los 4 mejores fragmentos tras el reranker y pide un JSON `{"suficiente": bool, "motivo": str}`; ante una respuesta ilegible se abstiene (en las 4 corridas hubo 0 ilegibles).
+- **Modelos probados:** `deepseek-flash` y `deepseek-v4-pro` (nombres de la documentación oficial; el nombre anterior `deepseek-v4-flash` aún se acepta, pero ese modelo fue retirado).
+- **Modo «thinking» desactivado en ambos.** En la API de DeepSeek viene **activado por defecto** (esfuerzo `high`) y con él se ignora `temperature`. El código lo apaga siempre con `extra_body={"thinking": {"type": "disabled"}}` y falla si la respuesta trae `reasoning_content` (documentación: api-docs.deepseek.com/guides/thinking_mode). Humo previo: ~1–1,5 s por llamada.
+- **Dos versiones del prompt:** `p1` (inicial) y `p2` (añade que los fragmentos que permiten *corregir una premisa falsa* cuentan como suficientes). Con `p1`, 8 de las 16 respondibles rechazadas eran de premisa falsa (el juez decía «los fragmentos indican que no cobra cuota» y se abstenía, cuando justo eso permite corregir al cliente). `p2` se ajustó mirando `dev`, así que sus cifras son algo optimistas.
+- Reproducir: `python pipeline/24_suficiencia.py --llm deepseek --modelo deepseek-flash --prompt p2` (los resultados se acumulan en `suficiencia-dev.json`; las respuestas del juez se guardan en `_raw/suficiencia/`).
+
+Misma muestra de `dev` (27 sin respuesta, 333 respondibles); **abstención correcta** / **rechazo falso**; tokens y tiempo de una corrida de 360 consultas:
+| Verificador | Prompt p1 | Prompt p2 | Tokens · tiempo |
+|---|---|---|---|
+| rerank-3 solo (umbral 0,7617) | 96,3 % / 9,9 % | – | (ya calculado con el reranker) |
+| deepseek-flash solo | 96,3 % / 10,8 % | 88,9 % / 4,2 % | ≈0,69 M · 90 s |
+| deepseek-v4-pro solo | 96,3 % / 9,0 % | 92,6 % / 6,6 % | ≈0,69 M · 151–163 s |
+| rerank-3 **y** flash piden abstenerse | **96,3 % / 4,8 %** | 88,9 % / 1,8 % | |
+| rerank-3 **y** v4-pro piden abstenerse | 96,3 % / 4,5 % | 92,6 % / 3,6 % | |
+| rerank-3 **o** flash piden abstenerse | 96,3 % / 15,9 % | 96,3 % / 12,3 % | |
+Lectura:
+- **Combinar baja el rechazo falso a la mitad sin perder abstención** (con `p1`: de ~10 % a ~4,5–4,8 % manteniendo 26 de 27). Ninguno de los dos verificadores solo lo logra: uno corrige los errores del otro.
+- **`p2` intercambia un error por otro:** rechaza menos respondibles, pero deja pasar 2–3 de las 27 sin respuesta más. Cuál conviene depende de qué cueste más: contestar sin respaldo (lo atrapan después las verificaciones de cita y cifras) o decir «no sé» sin necesidad.
+- **`deepseek-v4-pro` no es mejor que `deepseek-flash`** en lo que mide este conjunto: las diferencias (≤ 2–3 preguntas) están dentro del ruido (1 pregunta respondible ≈ 0,3 puntos; 1 sin respuesta ≈ 3,7 puntos) y tarda ~1,7 veces más. Con los mismos tokens, `flash` es la opción razonable para esta tarea; el precio por token no se verificó.
+- **La pregunta que se escapa siempre** es «¿Cuál es el cupo máximo de la tarjeta Visa Infinite?»: el tema está en la documentación pero el dato no, y ninguno de los tres lo detecta. Es el tipo de caso difícil que solo un lector (o la verificación de cifras tras generar) atrapa.
+- Recomendación provisoria: **rerank-3 + `deepseek-flash` (thinking desactivado) y abstenerse solo si ambos lo piden**, con `p1` o `p2` según el costo que el banco asigne a cada error. Falta confirmarla en una muestra mayor y revisada por expertos.
+**Dónde está la clave:** `.env` de la raíz (ignorado por git), línea `DEEPSEEK_API_KEY=<clave>`; para OpenAI, `OPENAI_API_KEY` y `OPENAI_MODEL_JUEZ=<modelo de chat>`. Luego `set -a; . ./.env; set +a`. Nunca en el código ni en el chat.
 Los casos del golden son preguntas sintéticas sin datos personales; en producción el texto del cliente pasa por la capa de enmascaramiento antes de llegar a cualquier LLM.
 
 ## Esquema de salida del modelo
@@ -109,7 +129,7 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 |---|---|
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento de nombres, cédulas y cuentas | por construir; medir falsos negativos |
-| Verificador de suficiencia | con rerank-3 medido (AUROC 0,976, rechazo falso ≈ 10 %); el LLM juez está armado y falta medirlo cuando haya clave de DeepSeek |
+| Verificador de suficiencia | medido con rerank-3 y con DeepSeek (flash y v4-pro, thinking desactivado); combinados: 96,3 % de abstención correcta con ≈4,5–4,8 % de rechazo falso (prompt `p1`). Falta una muestra mayor y revisada por expertos, y medir OpenAI si se elige |
 | WhatsApp de quejas | por confirmar con el banco |
 | Documentos internos | solo público hasta que haya autenticación; diseño de colección aparte pendiente de seguridad |
 | Preguntas multi-turno (seguimiento) | el contrato cubre un turno; falta definir reescritura de la pregunta con el historial |

@@ -15,7 +15,7 @@ from evaluar import cargar_golden
 from vigencia import doc_ok_blanda
 import almacen, embed_api, suficiencia
 
-ap = argparse.ArgumentParser(); ap.add_argument('--llm', choices=['deepseek', 'openai']); ap.add_argument('--topk', type=int, default=20); ap.add_argument('--k-llm', type=int, default=4)
+ap = argparse.ArgumentParser(); ap.add_argument('--llm', choices=['deepseek', 'openai']); ap.add_argument('--prompt', default=suficiencia.PROMPT_DEFECTO, choices=sorted(suficiencia.PROMPTS)); ap.add_argument('--modelo', help='modelo del juez, p. ej. deepseek-flash o deepseek-v4-pro (por defecto el de la variable de entorno)'); ap.add_argument('--topk', type=int, default=20); ap.add_argument('--k-llm', type=int, default=4)
 args = ap.parse_args()
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
 rows = [json.loads(line) for line in open(B + 'rag-bocc/corpus.jsonl')]
@@ -97,25 +97,30 @@ if u:
     print('por tipo:', out['rerank3']['detalle_por_tipo_top1_conservador'])
 
 if args.llm:
-    f_llm = B + f'_raw/suficiencia/llm-{args.llm}-dev.json'
-    cl_llm = suficiencia.cliente(args.llm)
+    cl_llm = suficiencia.cliente(args.llm, args.modelo); nom_llm = f'{args.llm}:{cl_llm[1]}@{args.prompt}'
+    f_llm = B + f"_raw/suficiencia/llm-{nom_llm.replace(':', '-')}-dev.json"
     cl_cache = json.load(open(f_llm)) if os.path.exists(f_llm) else {}
 
     def juzgar(q):
         if q in cl_cache: return q, cl_cache[q]
         textos = [ch[i]['ctx'] + '\n' + ch[i]['texto'] for i, _ in cache[q][:args.k_llm]]
-        ok, motivo = suficiencia.por_llm(q, textos, args.llm, _cl=cl_llm)
+        ok, motivo = suficiencia.por_llm(q, textos, args.llm, _cl=cl_llm, prompt=args.prompt)
         return q, [ok, motivo]
+    t0 = time.time(); nuevos = [q for q in consultas if q not in cl_cache]
     with ThreadPoolExecutor(4) as ex:
         for q, v in ex.map(juzgar, consultas): cl_cache[q] = v
     json.dump(cl_cache, open(f_llm, 'w'), ensure_ascii=False)
     ab = [not cl_cache[d[0]][0] for d in pos]; rf = [not cl_cache[d[0]][0] for d in neg]
-    out['llm_' + args.llm] = dict(k_fragmentos=args.k_llm, abstencion_correcta=round(sum(ab) / len(ab), 3), rechazo_falso=round(sum(rf) / len(rf), 3))
+    ilegibles = sum(v[1] == 'respuesta ilegible' for v in cl_cache.values())
+    out['llm_' + nom_llm] = dict(k_fragmentos=args.k_llm, thinking='desactivado', abstencion_correcta=round(sum(ab) / len(ab), 3), rechazo_falso=round(sum(rf) / len(rf), 3),
+                                 respuestas_ilegibles=ilegibles, consultas_nuevas=len(nuevos), tokens=suficiencia.USO['tokens'], segundos=round(time.time() - t0))
     # combinación: abstenerse si CUALQUIERA de los dos lo pide / solo si ambos
     t = u['umbral'] if u else 0.0
     for nombre, f in (('cualquiera', any), ('ambos', all)):
         ab2 = [f([sig['top1'](d[0]) < t, not cl_cache[d[0]][0]]) for d in pos]; rf2 = [f([sig['top1'](d[0]) < t, not cl_cache[d[0]][0]]) for d in neg]
-        out[f'combinado_{nombre}'] = dict(abstencion_correcta=round(sum(ab2) / len(ab2), 3), rechazo_falso=round(sum(rf2) / len(rf2), 3))
+        out[f'combinado_{nombre}_{nom_llm}'] = dict(abstencion_correcta=round(sum(ab2) / len(ab2), 3), rechazo_falso=round(sum(rf2) / len(rf2), 3))
     print({k: v for k, v in out.items() if k.startswith(('llm_', 'combinado'))})
 os.makedirs(B + 'rag-bocc/evaluacion/fase3b', exist_ok=True)
-json.dump(out, open(B + 'rag-bocc/evaluacion/fase3b/suficiencia-dev.json', 'w'), ensure_ascii=False, indent=1)
+f_out = B + 'rag-bocc/evaluacion/fase3b/suficiencia-dev.json'
+if os.path.exists(f_out): out = {**json.load(open(f_out)), **out}          # conserva lo de otros modelos ya medidos
+json.dump(out, open(f_out, 'w'), ensure_ascii=False, indent=1)
