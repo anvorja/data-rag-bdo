@@ -21,9 +21,9 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 3. ☑ **Crear la carpeta y terminar la configuración:** `sudo mkdir -p /var/lib/dkms && sudo dpkg --configure -a` (2026-10-02: compiló e instaló el módulo para los kernels 7.0.0-34 y 7.0.0-38). (`linux-headers-generic` deja las cabeceras de **todos** los kernels instalados, incluido el 7.0.0-38 que ya está en `/boot`.)
 4. ☑ **Secure Boot:** no pidió contraseña nueva. Los módulos compilados salen firmados por la clave «VirtualBox», que **ya está inscrita** en el MOK de este equipo (de la instalación de VirtualBox; `mokutil --list-enrolled`, `modinfo -F signer …/nvidia.ko.zst` → `VirtualBox`). Por eso se espera que carguen sin pasar por la pantalla azul; si el arranque la muestra, seguir el paso 6.
 5. ☑ `dkms status` → `nvidia/595.91.07, 7.0.0-34-generic, x86_64: installed` y lo mismo para `7.0.0-38-generic`.
-6. ☐ Reiniciar. En la pantalla azul «Perform MOK management» elegir *Enroll MOK → Continue → Yes*, escribir la contraseña y reiniciar.
-7. ☐ Verificar: `nvidia-smi` debe mostrar la tarjeta y la versión del driver; `lsmod | grep nvidia` debe listar módulos.
-8. ☐ Verificar PyTorch: `.venv/bin/python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` → `True NVIDIA GeForce GTX 1650 Ti`.
+6. ☑ Reiniciar (2026-10-03, arrancó en el kernel 7.0.0-38). No apareció la pantalla azul del MOK: la clave ya inscrita bastó. (Si apareciera: *Enroll MOK → Continue → Yes*, contraseña y reiniciar.)
+7. ☑ `nvidia-smi` → GTX 1650 Ti, driver 595.91.07, CUDA 13.2, 4096 MiB de VRAM.
+8. ☑ Verificado (`True NVIDIA GeForce GTX 1650 Ti`). Comando: `.venv/bin/python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` → `True NVIDIA GeForce GTX 1650 Ti`.
 
 ## Fase B — Reranker en la GPU, directo en Python
 7. ☐ Ejecutar la evaluación con GPU: `python pipeline/15_embeddings_con_reranker.py --modelos e5-small --dispositivo cuda --fp16 --lote 16 --sufijo=-gpu-local`
