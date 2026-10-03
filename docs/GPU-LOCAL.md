@@ -1,6 +1,6 @@
 # GPU local (NVIDIA GTX 1650 Ti) para el reranker: configuración paso a paso
 
-Estado: **en curso** (Fases A y B hechas; C en curso; D pospuesta) (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
+Estado: **completo salvo la fase D, pospuesta** (Fases A y B hechas; C hecha; D pospuesta) (se actualiza a medida que cada paso se ejecuta y se verifica). Equipo: Linux Mint 22.3 (base Ubuntu 24.04), kernel 7.0.0-34-generic, Secure Boot **activado**,
 GPU NVIDIA GeForce GTX 1650 Ti Mobile (TU117M, 4 GB) + Intel UHD integrada. Docker 29.8.2 ya instalado y el usuario pertenece al grupo `docker`.
 
 Objetivo: poder ejecutar el reranker abierto `BAAI/bge-reranker-v2-m3` (≈1,1 GB en fp16) en la GPU local, primero directo en Python y luego como servicio en un contenedor Docker.
@@ -47,15 +47,16 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 - Una evaluación completa de 335 consultas son ~20 min en fp32; el script no imprime progreso, por eso conviene lanzarlo con `nohup … > _raw/<log> &`.
 
 ## Fase C — Docker con acceso a la GPU
-9. ☐ Instalar `nvidia-container-toolkit` (repositorio oficial de NVIDIA para Ubuntu/Debian):
+9. ☑ Repositorio de NVIDIA agregado (2026-10-03), con los comandos de su guía de instalación:
    ```
    curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
    curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
-   sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
    ```
-   (comandos tomados de la guía de instalación de NVIDIA; confirmar contra su documentación vigente antes de ejecutarlos)
-10. ☐ Configurar Docker: `sudo nvidia-ctk runtime configure --runtime=docker && sudo systemctl restart docker`.
-11. ☐ Probar: `docker run --rm --gpus all ubuntu nvidia-smi` → debe mostrar la misma tarjeta dentro del contenedor.
+   Luego `sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit`.
+10. ☑ Configurar Docker: `sudo nvidia-ctk runtime configure --runtime=docker && sudo systemctl restart docker`. No existía `/etc/docker/daemon.json`; el comando lo creó con el runtime `nvidia` (`docker info` → Runtimes: `io.containerd.runc.v2 nvidia runc`; el runtime por defecto sigue siendo `runc`, por eso hay que pedir la GPU con `--gpus all`).
+11. ☑ Prueba: `docker run --rm --gpus all ubuntu nvidia-smi` → muestra la GTX 1650 Ti, driver 595.91.07, CUDA 13.2, igual que en el equipo.
+
+Uso en contenedores: añadir `--gpus all` (o `--gpus device=0`) a `docker run`; en Docker Compose, `deploy.resources.reservations.devices` con `driver: nvidia`. La imagen necesita las librerías CUDA que use el programa (el driver lo aporta el equipo).
 
 ## Fase D — Reranker como servicio (contenedor) — POSPUESTA (ver «Decisión para desarrollo y pruebas»)
 12. ☐ Elegir el servidor: el servidor de inferencia de Hugging Face (Text Embeddings Inference, TEI) que, según su documentación, admite modelos de reranking como `bge-reranker`, **a confirmar**; o un servicio propio con FastAPI.
