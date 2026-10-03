@@ -18,9 +18,9 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 **Driver:** `nvidia-driver-595-open`, el que `ubuntu-drivers` marca como *recommended* en este equipo. (Un primer intento con `nvidia-driver-580-open` falló, ver «Incidente 2026-10-02» abajo; el kernel es el 7.0, muy reciente, y conviene la rama que el sistema recomienda.)
 1. ☑ `ubuntu-drivers devices | grep -E "driver|recommended"` → recomendado: `nvidia-driver-595-open`.
 2. ☑ Limpieza del driver 580 (no hizo falta: el 595 se instaló encima) y descarga del 595 (`sudo apt install -y linux-headers-generic nvidia-driver-595-open`): librerías instaladas; `nvidia-dkms-595-open` y `nvidia-driver-595-open` quedaron **sin configurar** por la carpeta que falta.
-3. ☐ **Crear la carpeta y terminar la configuración:** `sudo mkdir -p /var/lib/dkms && sudo dpkg --configure -a`. (`linux-headers-generic` deja las cabeceras de **todos** los kernels instalados, incluido el 7.0.0-38 que ya está en `/boot`.)
-4. ☐ **Secure Boot:** durante la instalación pide **crear una contraseña** (para inscribir la clave del módulo, «MOK»). Anotarla.
-5. ☐ Comprobar que el módulo se compiló: `dkms status` debe mostrar `nvidia/595.x: installed` para el kernel en uso y para el 7.0.0-38.
+3. ☑ **Crear la carpeta y terminar la configuración:** `sudo mkdir -p /var/lib/dkms && sudo dpkg --configure -a` (2026-10-02: compiló e instaló el módulo para los kernels 7.0.0-34 y 7.0.0-38). (`linux-headers-generic` deja las cabeceras de **todos** los kernels instalados, incluido el 7.0.0-38 que ya está en `/boot`.)
+4. ☑ **Secure Boot:** no pidió contraseña nueva. Los módulos compilados salen firmados por la clave «VirtualBox», que **ya está inscrita** en el MOK de este equipo (de la instalación de VirtualBox; `mokutil --list-enrolled`, `modinfo -F signer …/nvidia.ko.zst` → `VirtualBox`). Por eso se espera que carguen sin pasar por la pantalla azul; si el arranque la muestra, seguir el paso 6.
+5. ☑ `dkms status` → `nvidia/595.91.07, 7.0.0-34-generic, x86_64: installed` y lo mismo para `7.0.0-38-generic`.
 6. ☐ Reiniciar. En la pantalla azul «Perform MOK management» elegir *Enroll MOK → Continue → Yes*, escribir la contraseña y reiniciar.
 7. ☐ Verificar: `nvidia-smi` debe mostrar la tarjeta y la versión del driver; `lsmod | grep nvidia` debe listar módulos.
 8. ☐ Verificar PyTorch: `.venv/bin/python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` → `True NVIDIA GeForce GTX 1650 Ti`.
