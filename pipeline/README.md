@@ -14,6 +14,7 @@ Orden de ejecución (desde la raíz del repositorio; `RAG_BASE` es opcional):
 | 7 | `17_recaptura.py` | Recaptura de documentos «vivos» (tarifas y tasas) **con versionamiento**: la versión anterior queda `historico`, la nueva enlaza con `version_de`. Luego ejecutar el paso 5 |
 | 8 | `18_organizar_embeddings.py` | Migra los embeddings al formato por subcarpetas con hashes (una sola vez) |
 | 9 | `19_relaciones.py` | Tabla página → documentos (`rag-bocc/relaciones.jsonl`) desde los enlaces del texto y el grafo del rastreo |
+| 10 | `fase3b/contrato.py` | Contrato de la fase 3b: citas con URL del corpus, avisos de vigencia y verificaciones deterministas de la respuesta (`--autoprueba`). Ver `docs/CONTRATO-3B.md` |
 | – | `validate.py` | Validaciones de CI |
 
 Requisitos del sistema: `poppler-utils` (`pdftotext`, `pdfinfo`, `pdfimages`, `pdftoppm`), `tesseract-ocr` + datos `spa`, Python 3.12, `lxml`.

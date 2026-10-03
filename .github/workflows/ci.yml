@@ -37,6 +37,8 @@ jobs:
         run: python pipeline/20_reconstruir_corpus.py
       - name: Validar corpus, golden set, tamaños y patrones de secretos
         run: python pipeline/validate.py
+      - name: Contrato de la fase 3b (citas, avisos y verificaciones deterministas)
+        run: python pipeline/fase3b/contrato.py --autoprueba
       - name: Escaneo de secretos con gitleaks (historial completo)
         uses: gitleaks/gitleaks-action@v2
         env:
