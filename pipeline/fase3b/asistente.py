@@ -6,6 +6,7 @@ Las claves salen del entorno (.env): VOYAGE_API_KEY, DEEPSEEK_API_KEY. El LLM NU
 import json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(__file__))
 import contrato, suficiencia
+from limites import MENSAJES as MSG_LIMITES
 from enmascarar import enmascarar
 from recuperar import Recuperador
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'fase3a'))
@@ -51,11 +52,16 @@ class Asistente:
         except Exception: d = {'accion': 'invalida'}
         return d, r.usage.total_tokens
 
-    def responder(self, pregunta):
+    def responder(self, pregunta, sesion=None, limites=None):
+        """sesion/limites (fase3b/limites.py) son opcionales: si se dan, se aplican antes de enmascarar y de llamar a cualquier proveedor."""
         t0 = time.time(); traza = dict(tokens_generador=0, reintento=False, problemas=[])
+        if limites and sesion is not None:
+            ok, motivo = limites.revisar(sesion, pregunta)
+            if not ok: traza.update(via='limites', motivo=motivo, segundos=0.0); return dict(accion='abstenerse', respuesta=MSG_LIMITES[motivo], citas=[], avisos=[], traza=traza)
         q, hall = enmascarar(pregunta); traza['enmascarado'] = hall
         def fin(accion, texto, **kw):
             traza['segundos'] = round(time.time() - t0, 2)
+            if limites and sesion is not None: traza['alerta_sesion'] = limites.registrar(sesion, accion)
             return dict(accion=accion, respuesta=texto, citas=kw.get('citas', []), avisos=kw.get('avisos', []), traza=traza)
         if ESCALAR.search(q): traza['via'] = 'escalamiento_reglas'; return fin('escalar', MSG_ESCALAR)
         res = self.rec.buscar(q)

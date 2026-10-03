@@ -88,7 +88,7 @@ Medición (`python pipeline/25_enmascaramiento.py`) con **datos inventados** esc
 1. **Compuerta previa a la generación** (pasos 3 y 5 del flujo): el clasificador de intención y el verificador de suficiencia (rerank-3 + juez). Una pregunta de código o de anatomía no tiene fragmentos relevantes en el corpus del banco, así que el puntaje cae y el asistente responde `abstenerse` con un mensaje fijo («solo puedo ayudarte con productos y servicios del Banco de Occidente»).
 2. **Instrucciones al redactor** (paso 6): solo puede usar los fragmentos entregados, responde en el JSON del contrato y no escribe código ni atiende otros temas. El texto del cliente va como mensaje de usuario, **nunca dentro de las instrucciones del sistema**.
 3. **Verificación posterior** (`contrato.verificar`): bloquea respuestas con código (`contenido_fuera_de_alcance`), cifras no respaldadas, URL ajenas y citas inexistentes. Si el redactor «cedió» ante una instrucción, esto lo atrapa.
-4. **Control operativo** (por construir, fuera del modelo): límite de longitud del mensaje, límite de mensajes por sesión y por minuto, tope de tokens de salida, y alerta cuando una sesión acumula varias abstenciones seguidas (señal de abuso y control de costo).
+4. **Control operativo** (`pipeline/fase3b/limites.py`, hecho y probado con `--autoprueba`; se aplica **antes** de enmascarar y de llamar a cualquier proveedor): longitud máxima del mensaje (**600 caracteres**: ~4× el p99 de las preguntas del golden, que son sintéticas y cortas; **valor a calibrar con tráfico real**), **10 mensajes por minuto**, **60 por sesión**, y alerta cuando una sesión acumula **4 abstenciones seguidas** (señal de abuso o de tema ajeno insistente; una respuesta normal reinicia la cuenta). El tope de tokens de salida del generador es de 700. Los contadores no guardan el texto del cliente. Hoy viven en memoria del proceso: **en producción deben ir a un almacén compartido** (Redis o la propia PostgreSQL). Los cuatro valores son una propuesta sin respaldo de datos reales; se ajustan con el tráfico del piloto.
 **Qué se midió** (`python pipeline/26_fuera_de_tema.py --llm deepseek-flash`; 33 sondas escritas por el proyecto en `fuera-de-tema.jsonl`; compuerta = rerank-3 por debajo de 0,7617 **y** juez deepseek-flash con thinking desactivado dicen «no hay respuesta»):
 | Tipo de sonda | Frenadas |
 |---|---|
@@ -193,7 +193,7 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 |---|---|
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento | hecha (reglas + NER spaCy) y medida: datos con formato 36/36, nombres sueltos nuevos 15/18. Abierto: nombres en minúscula, cifras con espacios o con letras, y una prueba con mensajes reales anonimizados |
-| Controles operativos anti-abuso (límites de longitud, de mensajes y de tokens; alerta por abstenciones seguidas) | por construir |
+| Controles operativos anti-abuso | hechos y probados (`limites.py`); valores por calibrar con tráfico real y estado a mover a un almacén compartido |
 | Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | pendiente de recargar el saldo de DeepSeek (la evaluación es reanudable) |
 | Rama de aclaración antes de la compuerta (preguntas ambiguas: 1 de 3) | por construir |
 | Prueba de abuso con intentos reales (*red team*) y conversaciones de varios turnos | pendiente |
