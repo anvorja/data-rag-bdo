@@ -17,8 +17,8 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 **Ejecutar en una terminal normal del sistema (Ctrl+Alt+T), no desde el prompt de Claude Code:** compilar un módulo de kernel con DKMS y gestionar el arranque seguro no deben hacerse dentro de una sesión restringida.
 **Driver:** `nvidia-driver-595-open`, el que `ubuntu-drivers` marca como *recommended* en este equipo. (Un primer intento con `nvidia-driver-580-open` falló, ver «Incidente 2026-10-02» abajo; el kernel es el 7.0, muy reciente, y conviene la rama que el sistema recomienda.)
 1. ☑ `ubuntu-drivers devices | grep -E "driver|recommended"` → recomendado: `nvidia-driver-595-open`.
-2. ☐ Limpiar el intento fallido (paquetes a medio configurar): `sudo apt purge -y nvidia-driver-580-open nvidia-dkms-580-open && sudo apt autoremove -y`.
-3. ☐ Instalar: `sudo apt install -y linux-headers-generic nvidia-driver-595-open`. (`linux-headers-generic` deja las cabeceras de **todos** los kernels instalados, incluido el 7.0.0-38 que ya está en `/boot`.)
+2. ☑ Limpieza del driver 580 (no hizo falta: el 595 se instaló encima) y descarga del 595 (`sudo apt install -y linux-headers-generic nvidia-driver-595-open`): librerías instaladas; `nvidia-dkms-595-open` y `nvidia-driver-595-open` quedaron **sin configurar** por la carpeta que falta.
+3. ☐ **Crear la carpeta y terminar la configuración:** `sudo mkdir -p /var/lib/dkms && sudo dpkg --configure -a`. (`linux-headers-generic` deja las cabeceras de **todos** los kernels instalados, incluido el 7.0.0-38 que ya está en `/boot`.)
 4. ☐ **Secure Boot:** durante la instalación pide **crear una contraseña** (para inscribir la clave del módulo, «MOK»). Anotarla.
 5. ☐ Comprobar que el módulo se compiló: `dkms status` debe mostrar `nvidia/595.x: installed` para el kernel en uso y para el 7.0.0-38.
 6. ☐ Reiniciar. En la pantalla azul «Perform MOK management» elegir *Enroll MOK → Continue → Yes*, escribir la contraseña y reiniciar.
@@ -53,7 +53,7 @@ Leyenda: ☐ pendiente · ☑ hecho y verificado.
 
 ## Incidente 2026-10-02 (primer intento con el driver 580)
 `sudo apt install nvidia-driver-580-open`, ejecutado desde el prompt de Claude Code, terminó con `Error! No write access to DKMS tree at /var/lib/dkms` y los paquetes `nvidia-dkms-580-open` y `nvidia-driver-580-open` quedaron **sin configurar** (el resto de librerías sí se instaló). Observaciones:
-- No hay `/var/lib/dkms` visible; DKMS necesita crearlo/escribirlo como root. Se sospecha de la sesión restringida (no confirmado). Por eso el reintento se hace en una terminal normal.
+- **Causa confirmada (2026-10-02):** la carpeta `/var/lib/dkms` **no existe** en el equipo. El script `/usr/sbin/dkms` (3.0.11) ejecuta `check_rw_dkms_tree` (`[[ -w /var/lib/dkms ]]`) y, si falla, termina con «No write access to DKMS tree». No era una limitación de la sesión de Claude Code: el error se repitió igual en una terminal normal con el driver 595. Por qué faltaba la carpeta: no se sabe. Solución: `sudo mkdir -p /var/lib/dkms && sudo dpkg --configure -a`.
 - Esa misma instalación generó el *initramfs* del kernel 7.0.0-38 (ya instalado, pero el equipo sigue arrancado en el 7.0.0-34).
 - El aviso `NO_PUBKEY FC9CA96ACA026560` de `apt.releases.hashicorp.com` es de otro repositorio (HashiCorp) y no afecta a esta instalación.
 - Se cambió a la rama 595 porque es la recomendada por el sistema y la 580 es más antigua que el kernel.
