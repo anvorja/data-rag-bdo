@@ -34,6 +34,18 @@ Ejemplos de cambio: tasa de compras empresarial 2,15 % (septiembre) → 2,11 % (
 Las versiones nuevas llevan `version_de: <id anterior>`; las antiguas siguen en el corpus como `historico` (para preguntas sobre meses pasados). Las tasas de octubre quedan `vigente_hasta_reemplazo` hasta que se cargue noviembre.
 Ya no hay riesgo de que el asistente responda con las tasas de septiembre como si fueran las actuales.
 
+## Recaptura del 2026-11-20 (tasas de noviembre)
+Descarga directa (`curl` con agente de navegador; CloudFront ya no la bloqueó) a `_raw/recaptura-2026-11/` y `python pipeline/17_recaptura.py --fecha 2026-11-20 --dir _raw/recaptura-2026-11`. Las 4 URL cambiaron:
+| URL | Anterior (→ histórica) | Nueva | Vigencia nueva |
+|---|---|---|---|
+| tarifas-persona-bdo | 1176 (fin 19-nov) | 1179 | 20-nov-2026 → 31-dic-2026 |
+| tarifas-empresariales-bdo | 1177 (fin 19-nov) | 1180 | 20-nov-2026 → 31-dic-2026 |
+| tasas-personas-bdo | 229 (fin 31-oct) | 1181 | 1-nov-2026 → 30-nov-2026 |
+| tasas-empresariales-bdo | 1178 (fin 31-oct) | 1182 | 1-nov-2026 → 30-nov-2026 |
+Cambios vistos: tasa de compras empresarial 2,11 % → 2,09 %; «Comisión Shopify Pasarela» 1 % → 0,8 % + IVA (el PDF conserva la fecha «1-oct-26» en esa fila; como las tarifas no traen periodo propio, la versión nueva rige desde la captura).
+Corrección del script hecha en esta recaptura: tomaba la **primera** fila de la URL como versión anterior (p. ej. la 227, ya histórica) en vez de la cabeza de la cadena `version_de` (1176); ahora elige la versión que ninguna otra reemplaza. Embeddings e5-small actualizados de forma incremental (161 fragmentos).
+Hallazgo: «¿Cuál es la tasa de compras de la tarjeta de crédito empresarial?» no recupera el PDF de tasas empresariales (ni el de octubre ni el de noviembre; aparece un documento vencido de 2025). Es el problema de tablas del chunking, previo a esta recaptura.
+
 ## Política de recuperación por vigencia: DURA → BLANDA (2026-10-02)
 Problema: con el filtro duro (oculta `vencido` e `historico` salvo que la consulta mencione una fecha), un cliente que pregunta por una campaña ya terminada no recibe nada,
 aunque la regla de los expertos dice que se responde con el dato histórico y su fecha. Además, al versionar tarifas y tasas, las preguntas cuyo documento fuente fue reemplazado dejaban de acertar aunque la versión nueva tuviera el mismo texto.
