@@ -22,6 +22,7 @@ caracteres: 2067
 paginas: null
 hash_contenido: 8365ebd44cf6075a
 lote: "crawl2-paginas"
+titulo_publico: "Crédito de Vivienda para Colombianos en el Exterior"
 indexar: true
 flags: []
 ---

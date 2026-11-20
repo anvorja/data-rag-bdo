@@ -6,7 +6,7 @@ tipo_doc: tarifas_tasas
 area: otros
 segmento: personas
 idioma: es
-estado_vigencia: vigente_hasta_reemplazo
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: 2026-10-01
@@ -21,6 +21,7 @@ caracteres: 57903
 paginas: 1
 hash_contenido: 1c5ae65d64224a85
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tasas personas Banco de Occidente"
 vigencia_validada: true
 version_de: 097
 indexar: true

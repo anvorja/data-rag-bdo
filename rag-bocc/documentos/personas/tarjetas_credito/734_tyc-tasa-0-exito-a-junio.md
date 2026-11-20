@@ -21,6 +21,7 @@ caracteres: 9023
 paginas: 5
 hash_contenido: 95fb09e99e0ee6d7
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «0% en Tasa de Interés en Éxito y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

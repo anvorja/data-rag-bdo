@@ -21,6 +21,7 @@ caracteres: 1946
 paginas: 1
 hash_contenido: 76ba5d4bc6462d81
 lote: "crawl2-documentos"
+titulo_publico: "Carta bonos Banco de Occidente pv 25"
 indexar: true
 flags: []
 ---

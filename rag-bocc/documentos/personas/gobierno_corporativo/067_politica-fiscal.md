@@ -21,6 +21,7 @@ caracteres: 6587
 paginas: 3
 hash_contenido: 08f726e31c50ea9e
 lote: "lote1"
+titulo_publico: "Política fiscal"
 indexar: true
 flags: []
 ---

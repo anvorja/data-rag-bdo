@@ -22,6 +22,7 @@ caracteres: 4378
 paginas: null
 hash_contenido: 4f5c2fd8c4898253
 lote: "crawl2-paginas"
+titulo_publico: "Seguro para equipos electrónicos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 36205
 paginas: 4
 hash_contenido: 3a9ac3c99495203b
 lote: "crawl2-documentos"
+titulo_publico: "Directorio aliados estratégicos"
 indexar: true
 flags: []
 ---

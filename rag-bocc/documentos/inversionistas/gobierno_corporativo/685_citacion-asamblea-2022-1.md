@@ -21,6 +21,7 @@ caracteres: 2426
 paginas: 1
 hash_contenido: d8e221a8d82f4996
 lote: "crawl2-documentos"
+titulo_publico: "Citación asamblea 2022"
 indexar: true
 flags: []
 ---

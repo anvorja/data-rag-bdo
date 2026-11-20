@@ -21,6 +21,7 @@ caracteres: 41133
 paginas: 15
 hash_contenido: e9b2cc25dade3985
 lote: "lote1"
+titulo_publico: "Banco de occidente tu mascota tranquila"
 indexar: true
 flags: []
 ---

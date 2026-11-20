@@ -21,6 +21,7 @@ caracteres: 10675
 paginas: 11
 hash_contenido: 26de4a24922fefea
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones referidos campaña q3"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

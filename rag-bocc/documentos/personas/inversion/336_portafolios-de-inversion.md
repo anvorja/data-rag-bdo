@@ -21,6 +21,7 @@ caracteres: 2678
 paginas: null
 hash_contenido: 150978359d95ab10
 lote: "crawl2-paginas"
+titulo_publico: "Portafolios de Inversión"
 indexar: true
 flags: []
 ---

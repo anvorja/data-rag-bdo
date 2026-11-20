@@ -23,6 +23,7 @@ caracteres: 3333
 paginas: null
 hash_contenido: a49d9743d7af215f
 lote: "crawl2-paginas"
+titulo_publico: "Capital de Trabajo"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 6 líneas de plantilla del CMS."

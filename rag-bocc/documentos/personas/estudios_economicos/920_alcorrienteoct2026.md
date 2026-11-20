@@ -21,6 +21,7 @@ caracteres: 19253
 paginas: 12
 hash_contenido: 2904bc6529549fb0
 lote: "crawl2-documentos"
+titulo_publico: "Alcorrienteoct2026"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 1608
 paginas: 1
 hash_contenido: de90c79f98919472
 lote: "crawl2-documentos"
+titulo_publico: "Certificación del representante legal de tenedores de bonos"
 indexar: true
 flags: []
 ---

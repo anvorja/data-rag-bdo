@@ -21,6 +21,7 @@ caracteres: 4453
 paginas: 6
 hash_contenido: 7d486e6f42b9f8f9
 lote: "crawl2-documentos"
+titulo_publico: "Brochuretrc alterno"
 indexar: true
 flags: [candidato_vlm]
 ---

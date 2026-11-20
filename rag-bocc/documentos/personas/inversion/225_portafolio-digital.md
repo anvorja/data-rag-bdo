@@ -21,6 +21,7 @@ caracteres: 2718
 paginas: null
 hash_contenido: e3ff202a6ebe6042
 lote: "lote1"
+titulo_publico: "Portafolio Digital"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 9060
 paginas: 4
 hash_contenido: bec1aa2228740be9
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Intereses CDT»"
 vigencia_validada: true
 indexar: true
 flags: []

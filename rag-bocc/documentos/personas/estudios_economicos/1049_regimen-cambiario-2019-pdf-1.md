@@ -21,6 +21,7 @@ caracteres: 67354
 paginas: 101
 hash_contenido: 76578aafbf664c0e
 lote: "crawl2-documentos"
+titulo_publico: "Regimen cambiario 2019 pdf"
 indexar: true
 flags: []
 ---

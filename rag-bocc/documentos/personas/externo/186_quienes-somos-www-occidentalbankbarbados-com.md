@@ -21,6 +21,7 @@ caracteres: 3980
 paginas: null
 hash_contenido: af1fab9fa4a22d83
 lote: "lote1"
+titulo_publico: "Quiénes Somos - www.occidentalbankbarbados.com"
 indexar: true
 flags: []
 ---

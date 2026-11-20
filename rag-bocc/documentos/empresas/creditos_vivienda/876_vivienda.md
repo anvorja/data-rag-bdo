@@ -21,6 +21,7 @@ caracteres: 102287
 paginas: 18
 hash_contenido: 20f12a9fb6b9b8fc
 lote: "crawl2-documentos"
+titulo_publico: "Vivienda"
 indexar: true
 flags: []
 ---

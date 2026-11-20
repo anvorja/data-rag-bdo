@@ -21,6 +21,7 @@ caracteres: 384
 paginas: 1
 hash_contenido: 642684f90b4e20c6
 lote: "crawl2-documentos"
+titulo_publico: "Información relevante 300622"
 indexar: true
 flags: [ocr]
 ---

@@ -21,6 +21,7 @@ caracteres: 114983
 paginas: 58
 hash_contenido: 6df43dea86d2592d
 lote: "crawl2-documentos"
+titulo_publico: "República de colombia —"
 indexar: true
 flags: [ocr, candidato_vlm]
 ---

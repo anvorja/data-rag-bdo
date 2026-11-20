@@ -21,6 +21,7 @@ caracteres: 2846
 paginas: 7
 hash_contenido: 7c65bda4e90096b3
 lote: "crawl2-documentos"
+titulo_publico: "3326 informativo e instructivo rapport trustter occired"
 indexar: true
 flags: [candidato_vlm]
 ---

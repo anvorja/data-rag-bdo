@@ -21,6 +21,7 @@ caracteres: 148491
 paginas: 7
 hash_contenido: 07b27ef2c6261b22
 lote: "crawl2-documentos"
+titulo_publico: "Contrato de productos y servicios"
 vigencia_validada: true
 indexar: true
 flags: []

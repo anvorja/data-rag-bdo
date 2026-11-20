@@ -21,6 +21,7 @@ caracteres: 9021
 paginas: null
 hash_contenido: 49e857b5bec92710
 lote: "lote1"
+titulo_publico: "Google Pay Tarjeta Débito"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

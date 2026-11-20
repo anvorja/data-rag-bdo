@@ -21,6 +21,7 @@ caracteres: 39213
 paginas: 16
 hash_contenido: 78eb2b76f209ef29
 lote: "crawl2-documentos"
+titulo_publico: "Banco de occidente and subsidiaries 29 11 2023"
 indexar: true
 flags: []
 ---

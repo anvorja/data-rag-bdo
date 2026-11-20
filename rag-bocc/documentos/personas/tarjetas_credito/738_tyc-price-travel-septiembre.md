@@ -21,6 +21,7 @@ caracteres: 13839
 paginas: 6
 hash_contenido: d41f80796420a973
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «10% de Descuento en PRICE RES S.A.S»"
 vigencia_validada: true
 indexar: true
 flags: []

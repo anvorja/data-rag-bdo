@@ -21,6 +21,7 @@ caracteres: 9238
 paginas: 4
 hash_contenido: 9d781459c3f79687
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Impulso desembolsos Libre Inversión»"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

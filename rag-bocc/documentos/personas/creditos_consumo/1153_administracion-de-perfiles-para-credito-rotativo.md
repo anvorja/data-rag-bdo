@@ -21,6 +21,7 @@ caracteres: 1780
 paginas: 7
 hash_contenido: 1b01a5d674ecbf73
 lote: "crawl2-documentos"
+titulo_publico: "Administración de perfiles para crédito rotativo"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

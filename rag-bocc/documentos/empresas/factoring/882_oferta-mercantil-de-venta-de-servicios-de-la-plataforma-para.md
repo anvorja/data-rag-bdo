@@ -21,6 +21,7 @@ caracteres: 74669
 paginas: 20
 hash_contenido: 42b6b1ba1874e66e
 lote: "crawl2-documentos"
+titulo_publico: "Oferta mercantil de venta de servicios de la plataforma para factoring y"
 vigencia_validada: true
 indexar: true
 flags: []

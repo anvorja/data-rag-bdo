@@ -21,6 +21,7 @@ caracteres: 19739
 paginas: 12
 hash_contenido: 7c607b972ed5c650
 lote: "lote1"
+titulo_publico: "Guia de uso cuenta de pensión"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -23,6 +23,7 @@ caracteres: 3229
 paginas: null
 hash_contenido: dff75f5afefe00f9
 lote: "crawl2-paginas"
+titulo_publico: "Activos Empresariales"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 5 líneas de plantilla del CMS."

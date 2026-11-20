@@ -21,6 +21,7 @@ caracteres: 481301
 paginas: 138
 hash_contenido: 5bf4e3701eebf8a8
 lote: "crawl2-documentos"
+titulo_publico: "Prospecto de información"
 vigencia_validada: true
 indexar: true
 flags: []

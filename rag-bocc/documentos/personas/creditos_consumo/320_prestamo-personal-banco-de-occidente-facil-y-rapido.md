@@ -22,6 +22,7 @@ caracteres: 3307
 paginas: null
 hash_contenido: f7fcea4798a7c315
 lote: "crawl2-paginas"
+titulo_publico: "Préstamo Personal Banco de Occidente: Fácil y Rápido"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 7468
 paginas: null
 hash_contenido: fbf3c3fb8723317d
 lote: "lote1"
+titulo_publico: "Haz tus pagos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 17 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 932
 paginas: 5
 hash_contenido: c84d977a3bc03bef
 lote: "crawl2-documentos"
+titulo_publico: "Inscripción de cuentas para transferencias"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 4590
 paginas: 2
 hash_contenido: 46244035899ed738
 lote: "crawl2-documentos"
+titulo_publico: "Política de nombramiento y remuneración de la junta directiva"
 indexar: true
 flags: []
 ---

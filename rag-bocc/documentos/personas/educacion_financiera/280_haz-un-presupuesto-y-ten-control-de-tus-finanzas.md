@@ -21,6 +21,7 @@ caracteres: 4193
 paginas: null
 hash_contenido: e792c06af2d1aa9f
 lote: "lote1"
+titulo_publico: "Haz un presupuesto y ten control de tus finanzas"
 indexar: true
 flags: []
 ---

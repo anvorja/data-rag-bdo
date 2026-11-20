@@ -21,6 +21,7 @@ caracteres: 9726
 paginas: null
 hash_contenido: 59d7914e82ef4d07
 lote: "lote1"
+titulo_publico: "Bre-B"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

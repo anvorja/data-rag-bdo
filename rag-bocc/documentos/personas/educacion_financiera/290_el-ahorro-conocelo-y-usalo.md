@@ -22,6 +22,7 @@ caracteres: 4749
 paginas: null
 hash_contenido: 4a30efd3b8320022
 lote: "lote1"
+titulo_publico: "El ahorro: Conócelo y úsalo"
 indexar: true
 flags: []
 ---

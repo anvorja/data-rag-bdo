@@ -21,6 +21,7 @@ caracteres: 735079
 paginas: 159
 hash_contenido: 2f02139ff9481b94
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a diciembre de 2022"
 indexar: true
 flags: []
 ---

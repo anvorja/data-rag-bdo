@@ -22,6 +22,7 @@ caracteres: 13389
 paginas: null
 hash_contenido: 8ed5998d059e1552
 lote: "lote1"
+titulo_publico: "Occiauto: Crédito para Compra de Vehículo Nuevo o Usado"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 5 líneas de plantilla del CMS."

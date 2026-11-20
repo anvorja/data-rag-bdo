@@ -21,6 +21,7 @@ caracteres: 4537
 paginas: null
 hash_contenido: 289b2f9188965816
 lote: "lote1"
+titulo_publico: "Seguro de Accidentes integral"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

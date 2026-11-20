@@ -22,6 +22,7 @@ caracteres: 10401
 paginas: null
 hash_contenido: e98c46d721219e4d
 lote: "crawl2-paginas"
+titulo_publico: "Productos Financieros para Tu Empresa"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 26 líneas de plantilla del CMS."

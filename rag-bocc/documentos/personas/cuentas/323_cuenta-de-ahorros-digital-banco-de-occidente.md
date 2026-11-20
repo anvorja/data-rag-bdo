@@ -22,6 +22,7 @@ caracteres: 11210
 paginas: null
 hash_contenido: 49790efd871f12d1
 lote: "crawl2-paginas"
+titulo_publico: "Cuenta de Ahorros Digital"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

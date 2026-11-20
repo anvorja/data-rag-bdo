@@ -21,6 +21,7 @@ caracteres: 2658404
 paginas: 361
 hash_contenido: 84bbface829194ba
 lote: "lote1"
+titulo_publico: "Informe gestión Banco de Occidente 2025"
 indexar: true
 flags: [muy_largo, tablas_markdown]
 ---

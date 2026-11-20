@@ -22,6 +22,7 @@ caracteres: 1901
 paginas: null
 hash_contenido: 069c9e29f3074cc8
 lote: "lote1"
+titulo_publico: "Reversión de Pagos Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

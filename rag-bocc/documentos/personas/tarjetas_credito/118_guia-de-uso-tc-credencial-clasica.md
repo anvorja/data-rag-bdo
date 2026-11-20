@@ -21,6 +21,7 @@ caracteres: 30803
 paginas: 21
 hash_contenido: 9632b1377faff970
 lote: "lote1"
+titulo_publico: "Guia de uso tarjeta de crédito credencial clásica"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

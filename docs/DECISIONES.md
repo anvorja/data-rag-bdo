@@ -34,6 +34,36 @@ Ejemplos de cambio: tasa de compras empresarial 2,15 % (septiembre) → 2,11 % (
 Las versiones nuevas llevan `version_de: <id anterior>`; las antiguas siguen en el corpus como `historico` (para preguntas sobre meses pasados). Las tasas de octubre quedan `vigente_hasta_reemplazo` hasta que se cargue noviembre.
 Ya no hay riesgo de que el asistente responda con las tasas de septiembre como si fueran las actuales.
 
+## Recaptura del 2026-11-20 (tasas de noviembre)
+Descarga directa (`curl` con agente de navegador; CloudFront ya no la bloqueó) a `_raw/recaptura-2026-11/` y `python pipeline/17_recaptura.py --fecha 2026-11-20 --dir _raw/recaptura-2026-11`. Las 4 URL cambiaron:
+| URL | Anterior (→ histórica) | Nueva | Vigencia nueva |
+|---|---|---|---|
+| tarifas-persona-bdo | 1176 (fin 19-nov) | 1179 | 20-nov-2026 → 31-dic-2026 |
+| tarifas-empresariales-bdo | 1177 (fin 19-nov) | 1180 | 20-nov-2026 → 31-dic-2026 |
+| tasas-personas-bdo | 229 (fin 31-oct) | 1181 | 1-nov-2026 → 30-nov-2026 |
+| tasas-empresariales-bdo | 1178 (fin 31-oct) | 1182 | 1-nov-2026 → 30-nov-2026 |
+Cambios vistos: tasa de compras empresarial 2,11 % → 2,09 %; «Comisión Shopify Pasarela» 1 % → 0,8 % + IVA (el PDF conserva la fecha «1-oct-26» en esa fila; como las tarifas no traen periodo propio, la versión nueva rige desde la captura).
+Corrección del script hecha en esta recaptura: tomaba la **primera** fila de la URL como versión anterior (p. ej. la 227, ya histórica) en vez de la cabeza de la cadena `version_de` (1176); ahora elige la versión que ninguna otra reemplaza. Embeddings e5-small actualizados de forma incremental (161 fragmentos).
+Hallazgo: «¿Cuál es la tasa de compras de la tarjeta de crédito empresarial?» no recupera el PDF de tasas empresariales (ni el de octubre ni el de noviembre; aparece un documento vencido de 2025). Es el problema de tablas del chunking, previo a esta recaptura.
+
+## Política de recuperación por vigencia: DURA → BLANDA (2026-10-02)
+Problema: con el filtro duro (oculta `vencido` e `historico` salvo que la consulta mencione una fecha), un cliente que pregunta por una campaña ya terminada no recibe nada,
+aunque la regla de los expertos dice que se responde con el dato histórico y su fecha. Además, al versionar tarifas y tasas, las preguntas cuyo documento fuente fue reemplazado dejaban de acertar aunque la versión nueva tuviera el mismo texto.
+Cambios:
+1. **Política blanda:** solo se oculta `historico` (existe una versión vigente) salvo intención temporal; `vencido` se recupera siempre y se marca.
+2. **Advertencia determinista:** `pipeline/fase3a/vigencia.py::aviso(doc)` arma el texto con los metadatos (p. ej. «Esta información ya no está vigente: … terminó el 30 de septiembre de 2026»). El LLM no escribe ni calcula fechas; la respuesta final debe incluir el aviso.
+3. **Equivalencia de versiones en la evaluación:** una pregunta acierta con cualquier versión del mismo documento (`vigencia.grupos_version`, vía `version_de`).
+Medición en `dev` (`evaluacion/fase3a/vigencia-blanda-dev.json`, con versiones equivalentes):
+| Sistema | cita@10 (todas) | cita@10, fuente vencida/histórica (20 preguntas) | cita@10, fuente vigente (147) |
+|---|---|---|---|
+| Híbrido, dura | 0,910 | 0,600 | 0,952 |
+| Híbrido, blanda | 0,940 | 0,850 | 0,952 |
+| Híbrido + Voyage rerank-3, dura | 0,934 | 0,650 | 0,973 |
+| Híbrido + Voyage rerank-3, blanda | 0,958 | 0,900 | 0,966 |
+Costo: en consultas sin intención temporal, un documento vencido aparece entre los 5 primeros en el 7,6 % de los casos (3,3 % en el primero); por eso la advertencia es obligatoria.
+Contrato para la fase 3b: cada fragmento que llega al generador lleva `estado_vigencia`, `vigente_hasta`, `url` y `aviso`; si `aviso` no es nulo, se muestra en la respuesta antes o después del dato.
+En pgvector: filtrar `estado_vigencia <> 'historico'` (o sin filtro si hay intención temporal) y devolver `estado_vigencia` y `vigente_hasta` junto con cada fragmento.
+
 ## Autoridad de las fuentes
 - Si dos fuentes se contradicen, **manda el PDF oficial** sobre la página web. Cada inconsistencia genera una **alerta al ingeniero del RAG**.
 - Responsable por tipo de contenido (campañas, tasas, contratos, seguros, sostenibilidad): las directivas confirman que se requiere un contacto por área. **Pendiente:** nombres/contactos.
@@ -42,6 +72,10 @@ Ya no hay riesgo de que el asistente responda con las tasas de septiembre como s
 - Quejas, fraude y reclamaciones **no se tratan en el asistente**: se remite al cliente al **WhatsApp** del banco, sin más trámite.
 - El número principal aparece en el corpus 193 veces: **+57 318 671 4836** (`https://api.whatsapp.com/send?phone=573186714836`). Hay otros dos números de WhatsApp de servicios concretos
   (asistencia de viaje de tarjetas: 316 434 8887; línea de crédito hipotecario: 312 510 4844) que **no** se usan para quejas. **Por confirmar** que el principal sea el de quejas/fraude/reclamaciones.
+
+## Consultas sobre los productos del propio cliente (2026-11-20)
+- Hoy el asistente **no tiene conexión a las bases de datos de clientes**. Si el cliente pide un dato de su producto (cuánto debe, su saldo, sus movimientos, su extracto, su cupo disponible), se le **remite a la aplicación, al portal transaccional y a las líneas de atención** (Bogotá 320 11 77, Cali 895 92 56, Barranquilla 386 97 72, Medellín 231 77 00, 01 800 05 14652 nacional; fuente: doc 083, Preguntas frecuentes). Estas consultas no van al WhatsApp, que queda para quejas, fraude y reclamaciones.
+- **A futuro se considera** integrar la consulta de cuenta, con autenticación del cliente; no se descarta. Ese desarrollo entraría en la misma regla (`pipeline/fase3b/reglas.py`).
 
 ## Datos personales y proveedores (respuestas de cumplimiento/directivas)
 - **Se permite** enviar lo que escribe el cliente a servidores fuera de Colombia (OpenAI, DeepSeek).

@@ -23,6 +23,7 @@ hash_contenido: 0e5fee3c94d2ffbc
 lote: "crawl2-documentos"
 casi_duplicado_de: 598
 similitud: 0.91
+titulo_publico: "Banco de Occidente"
 indexar: true
 flags: [ocr, casi_duplicado]
 ---

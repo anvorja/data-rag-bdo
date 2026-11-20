@@ -21,6 +21,7 @@ caracteres: 5932
 paginas: null
 hash_contenido: 0bb8b481c1c991ff
 lote: "lote1"
+titulo_publico: "Consulta de beneficios TC comerciales"
 indexar: true
 flags: []
 ---

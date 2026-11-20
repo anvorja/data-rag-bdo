@@ -22,6 +22,7 @@ caracteres: 3789
 paginas: null
 hash_contenido: 25082247406556c1
 lote: "crawl2-paginas"
+titulo_publico: "Reintegros de Exportación"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

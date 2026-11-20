@@ -21,6 +21,7 @@ caracteres: 16265
 paginas: 1
 hash_contenido: 7bdcf5d377fb8269
 lote: "crawl2-documentos"
+titulo_publico: "Septiembre rounds monetarios"
 indexar: true
 flags: []
 ---

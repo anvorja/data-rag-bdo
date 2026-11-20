@@ -21,6 +21,7 @@ caracteres: 65410
 paginas: 19
 hash_contenido: c8316ea4b1140928
 lote: "crawl2-documentos"
+titulo_publico: "Informe periódico trimestral 2026 ii 1"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 28960
 paginas: 2
 hash_contenido: f99b1ed4887244df
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual agosto"
 indexar: true
 flags: []
 ---

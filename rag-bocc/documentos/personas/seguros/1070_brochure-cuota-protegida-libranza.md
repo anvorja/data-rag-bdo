@@ -21,6 +21,7 @@ caracteres: 10121
 paginas: 9
 hash_contenido: 75edceb791897415
 lote: "crawl2-documentos"
+titulo_publico: "Brochure cuota protegida libranza"
 indexar: true
 flags: [candidato_vlm]
 ---

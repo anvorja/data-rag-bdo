@@ -21,6 +21,7 @@ caracteres: 9629
 paginas: 6
 hash_contenido: e2197f1722a5133c
 lote: "crawl2-documentos"
+titulo_publico: "Política seguridad de la información"
 indexar: true
 flags: [candidato_vlm]
 ---

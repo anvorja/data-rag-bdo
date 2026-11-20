@@ -21,6 +21,7 @@ caracteres: 54581
 paginas: 15
 hash_contenido: b2eb580f16322a26
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional atlantico"
 indexar: true
 flags: []
 ---

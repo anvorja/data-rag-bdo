@@ -22,6 +22,7 @@ caracteres: 4860
 paginas: null
 hash_contenido: 6ce067d78584b396
 lote: "lote1"
+titulo_publico: "Seguro de Desempleo Cuota Protegida Independientes"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

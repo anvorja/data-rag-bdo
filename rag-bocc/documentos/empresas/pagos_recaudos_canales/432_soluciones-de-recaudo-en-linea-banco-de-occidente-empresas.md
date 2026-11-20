@@ -22,6 +22,7 @@ caracteres: 4021
 paginas: null
 hash_contenido: 550a9c8cfedbf27c
 lote: "crawl2-paginas"
+titulo_publico: "Soluciones de Recaudo en Línea"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 8 líneas de plantilla del CMS."

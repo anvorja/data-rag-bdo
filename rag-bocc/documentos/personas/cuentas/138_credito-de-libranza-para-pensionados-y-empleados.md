@@ -22,6 +22,7 @@ caracteres: 6939
 paginas: null
 hash_contenido: 53df4778e4b6ce86
 lote: "lote1"
+titulo_publico: "Crédito de Libranza para Pensionados y Empleados"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

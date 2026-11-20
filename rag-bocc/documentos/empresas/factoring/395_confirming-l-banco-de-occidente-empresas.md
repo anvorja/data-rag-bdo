@@ -22,6 +22,7 @@ caracteres: 3450
 paginas: null
 hash_contenido: eda8eb5f566a15d1
 lote: "crawl2-paginas"
+titulo_publico: "Confirming l Banco de Occidente - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

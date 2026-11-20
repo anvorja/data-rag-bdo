@@ -22,6 +22,7 @@ caracteres: 8746
 paginas: null
 hash_contenido: f3d0512e58b34d91
 lote: "lote1"
+titulo_publico: "Tarjetas de Crédito con Beneficios Exclusivos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

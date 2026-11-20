@@ -21,6 +21,7 @@ caracteres: 5595
 paginas: null
 hash_contenido: a3e7b4522840d6be
 lote: "lote1"
+titulo_publico: "Ventajas de los vehículos híbridos, desde proteger el ambiente hasta un crédito especial"
 indexar: true
 flags: []
 ---

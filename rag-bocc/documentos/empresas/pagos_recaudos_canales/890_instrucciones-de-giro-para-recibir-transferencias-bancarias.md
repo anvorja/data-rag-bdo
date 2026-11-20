@@ -21,6 +21,7 @@ caracteres: 7123
 paginas: 6
 hash_contenido: 41479033be3528f5
 lote: "crawl2-documentos"
+titulo_publico: "Instrucciones de giro para recibir transferencias bancarias"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

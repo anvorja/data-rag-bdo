@@ -21,6 +21,7 @@ caracteres: 28084
 paginas: 10
 hash_contenido: 455b77c557d3972c
 lote: "crawl2-documentos"
+titulo_publico: "Guía de uso de transporte"
 vigencia_validada: true
 indexar: true
 flags: []

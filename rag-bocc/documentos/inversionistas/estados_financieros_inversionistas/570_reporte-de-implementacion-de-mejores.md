@@ -21,6 +21,7 @@ caracteres: 169711
 paginas: 91
 hash_contenido: 7e4a2a22156bf2ee
 lote: "crawl2-documentos"
+titulo_publico: "Reporte de implementación de mejores"
 indexar: true
 flags: []
 ---

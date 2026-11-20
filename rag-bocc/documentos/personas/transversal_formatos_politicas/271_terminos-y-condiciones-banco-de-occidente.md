@@ -22,6 +22,7 @@ caracteres: 18392
 paginas: null
 hash_contenido: f65109d0d2d9dfb7
 lote: "lote1"
+titulo_publico: "Términos y Condiciones"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

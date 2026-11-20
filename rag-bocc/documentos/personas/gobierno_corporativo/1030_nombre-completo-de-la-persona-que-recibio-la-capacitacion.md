@@ -21,6 +21,7 @@ caracteres: 2960
 paginas: 2
 hash_contenido: e320d88428e04581
 lote: "crawl2-documentos"
+titulo_publico: "Nombre completo de la persona que recibió la capacitación"
 vigencia_validada: true
 indexar: true
 flags: []

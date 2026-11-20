@@ -21,6 +21,7 @@ caracteres: 11012
 paginas: 4
 hash_contenido: 528e833bff653cbf
 lote: "crawl2-documentos"
+titulo_publico: "6902 pensiondos protegidos sector pensionados"
 indexar: true
 flags: []
 ---

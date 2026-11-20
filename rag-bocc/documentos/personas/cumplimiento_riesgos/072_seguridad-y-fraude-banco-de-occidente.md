@@ -22,6 +22,7 @@ caracteres: 23931
 paginas: null
 hash_contenido: 1b9b253748347f69
 lote: "lote1"
+titulo_publico: "Seguridad y Fraude Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 20 líneas de plantilla del CMS."

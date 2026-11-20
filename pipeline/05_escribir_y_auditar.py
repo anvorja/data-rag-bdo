@@ -33,6 +33,11 @@ for r in rows:
     r['estado_vigencia'] = x['estado']; r['vigente_desde'] = x.get('vigente_desde'); r['vigente_hasta'] = x.get('vigente_hasta'); r['vigencia_validada'] = True
     if x.get('accion') == 'no_indexar': r['indexar'] = False; r['motivo_no_indexar'] = list(r['motivo_no_indexar']) + ['contenido_sensible']
 
+# ---- títulos públicos legibles (pipeline/23_titulos_publicos.py; los manuales de rag-bocc/titulos/manuales.json mandan) ----
+tp = json.load(open(OUT + 'titulos/titulos_publicos.json')) if os.path.exists(OUT + 'titulos/titulos_publicos.json') else {}
+for r in rows:
+    if r['id'] in tp: r['titulo_publico'] = tp[r['id']]['titulo']
+
 # ---- reorganizar arbol: documentos/<segmento>/<area>/NNN_slug.md ----
 shutil.rmtree(OUT + 'documentos', ignore_errors=True)
 for r in rows:
@@ -54,6 +59,7 @@ for r in rows:
            f"hash_contenido: {r['hash_contenido'] or 'null'}", f"lote: {yq(r.get('lote', 'lote1'))}"]
     if r['duplicado_de']: fm.append(f"duplicado_de: {r['duplicado_de']}")
     if r['casi_duplicado_de']: fm += [f"casi_duplicado_de: {r['casi_duplicado_de']}", f"similitud: {r['similitud']}"]
+    if r.get('titulo_publico'): fm.append(f"titulo_publico: {yq(r['titulo_publico'])}")
     if r.get('vigencia_validada'): fm.append('vigencia_validada: true')
     if r.get('version_de'): fm.append(f"version_de: {r['version_de']}")
     fm.append(f"indexar: {str(r['indexar']).lower()}")
@@ -71,7 +77,7 @@ with open(OUT + 'corpus.jsonl', 'w') as jl:
 idx = []
 for r in rows:
     idx.append({k: r.get(k) for k in ('id', 'url', 'titulo', 'tipo_contenido', 'fuente', 'archivo', 'nota', 'tipo_doc', 'area', 'segmento', 'idioma', 'estado_vigencia', 'anio_documento',
-                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar', 'vigencia_validada', 'version_de')}
+                                         'periodo_fin', 'vigente_desde', 'vigente_hasta', 'paginas', 'chars_por_pagina', 'imgs_grandes', 'duplicado_de', 'casi_duplicado_de', 'similitud', 'flags', 'lote', 'indexar', 'motivo_no_indexar', 'vigencia_validada', 'version_de', 'titulo_publico')}
                | {'caracteres': len(r['texto']), 'etiquetas_origen': r['etiquetas_origen']})
 json.dump(idx, open(OUT + 'indice.json', 'w'), ensure_ascii=False, indent=1)
 

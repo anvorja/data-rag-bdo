@@ -21,6 +21,7 @@ caracteres: 3554
 paginas: null
 hash_contenido: 2f76ebf90f461866
 lote: "crawl2-documentos"
+titulo_publico: "Señores"
 vigencia_validada: true
 indexar: true
 flags: []

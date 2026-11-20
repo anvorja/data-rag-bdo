@@ -23,6 +23,7 @@ caracteres: 4986
 paginas: null
 hash_contenido: 729953be8da5584b
 lote: "crawl2-paginas"
+titulo_publico: "Cartas de Crédito de Exportación"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 10 líneas de plantilla del CMS."

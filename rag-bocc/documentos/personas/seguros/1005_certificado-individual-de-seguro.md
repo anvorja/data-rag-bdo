@@ -21,6 +21,7 @@ caracteres: 74435
 paginas: 8
 hash_contenido: 3193a2896f3f9183
 lote: "crawl2-documentos"
+titulo_publico: "Certificado individual de seguro"
 vigencia_validada: true
 indexar: true
 flags: []

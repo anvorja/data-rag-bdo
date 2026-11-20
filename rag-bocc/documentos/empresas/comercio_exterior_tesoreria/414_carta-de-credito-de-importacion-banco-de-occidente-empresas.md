@@ -22,6 +22,7 @@ caracteres: 5335
 paginas: null
 hash_contenido: 8a765d0f7be5d53c
 lote: "crawl2-paginas"
+titulo_publico: "Carta de Crédito de Importación"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

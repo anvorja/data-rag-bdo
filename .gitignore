@@ -28,3 +28,6 @@ __pycache__/
 /GitFlow_CICD.md
 /rulesets/
 .DS_Store
+
+# Material de terceros (no se versiona)
+generar embeddings de alta calidad y guardarlos tú mismo.pdf

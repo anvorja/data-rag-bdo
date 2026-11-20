@@ -21,6 +21,7 @@ caracteres: 12562
 paginas: 6
 hash_contenido: 97c809b3010a8c66
 lote: "lote1"
+titulo_publico: "Terminos y condiciones campaña de gamificacion"
 vigencia_validada: true
 indexar: true
 flags: []

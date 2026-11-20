@@ -21,6 +21,7 @@ caracteres: 8548
 paginas: 46
 hash_contenido: 9ebc8fbb5822cf8e
 lote: "crawl2-documentos"
+titulo_publico: "Foros tributarios 2026"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 18247
 paginas: 9
 hash_contenido: 84b84515cf47cf79
 lote: "lote1"
+titulo_publico: "Términos y condiciones campaña libre inversión"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 23432
 paginas: 13
 hash_contenido: e9bfea86eb0a3d60
 lote: "crawl2-documentos"
+titulo_publico: "Tes floricultor"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 31387
 paginas: 16
 hash_contenido: 59781d5a03971619
 lote: "crawl2-documentos"
+titulo_publico: "Guia de uso prestamo personal dinámico"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

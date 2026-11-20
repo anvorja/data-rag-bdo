@@ -21,6 +21,7 @@ caracteres: 23658
 paginas: 9
 hash_contenido: 2f7848e99e7e083f
 lote: "crawl2-documentos"
+titulo_publico: "Debida diligencia en derechos humanos"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

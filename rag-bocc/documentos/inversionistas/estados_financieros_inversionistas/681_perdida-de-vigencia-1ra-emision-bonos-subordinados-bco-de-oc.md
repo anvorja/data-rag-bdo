@@ -21,6 +21,7 @@ caracteres: 1688
 paginas: 1
 hash_contenido: 517a8c9f56fcb8ed
 lote: "crawl2-documentos"
+titulo_publico: "Pérdida de vigencia 1ra emisión bonos subordinados bco de occidente"
 indexar: true
 flags: []
 ---

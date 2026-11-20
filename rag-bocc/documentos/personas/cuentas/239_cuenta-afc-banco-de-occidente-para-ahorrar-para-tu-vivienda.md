@@ -22,6 +22,7 @@ caracteres: 4758
 paginas: null
 hash_contenido: 8e4717e934bce906
 lote: "lote1"
+titulo_publico: "Cuenta AFC Banco de Occidente para Ahorrar para tu Vivienda"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

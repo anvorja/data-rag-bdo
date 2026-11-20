@@ -22,6 +22,7 @@ caracteres: 4265
 paginas: null
 hash_contenido: 4e38b28ec626f585
 lote: "lote1"
+titulo_publico: "Reglamentaciónes"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

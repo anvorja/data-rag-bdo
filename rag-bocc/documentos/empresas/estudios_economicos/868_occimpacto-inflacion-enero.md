@@ -21,6 +21,7 @@ caracteres: 14667
 paginas: 1
 hash_contenido: 3df350ffcbb357f2
 lote: "crawl2-documentos"
+titulo_publico: "Occimpacto inflación enero"
 indexar: true
 flags: []
 ---

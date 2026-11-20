@@ -21,6 +21,7 @@ caracteres: 6437
 paginas: null
 hash_contenido: 910b103e8bad3866
 lote: "crawl2-documentos"
+titulo_publico: "Hoja: fto-cap-025"
 vigencia_validada: true
 indexar: true
 flags: []

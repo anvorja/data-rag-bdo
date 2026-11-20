@@ -22,6 +22,7 @@ caracteres: 4373
 paginas: null
 hash_contenido: 9db6cdf2d660a36b
 lote: "lote1"
+titulo_publico: "Seguro Cuota Protegida para Vehículos Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

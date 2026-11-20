@@ -21,6 +21,7 @@ caracteres: 10956
 paginas: 4
 hash_contenido: eac1c4c6302481e4
 lote: "crawl2-documentos"
+titulo_publico: "Reglamento interno de funcionamiento de la asamblea de"
 vigencia_validada: true
 indexar: true
 flags: []

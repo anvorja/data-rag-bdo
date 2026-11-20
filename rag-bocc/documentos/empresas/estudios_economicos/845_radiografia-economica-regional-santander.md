@@ -21,6 +21,7 @@ caracteres: 54531
 paginas: 15
 hash_contenido: 0493df494d26d6c4
 lote: "crawl2-documentos"
+titulo_publico: "Radiografía económica regional santander"
 indexar: true
 flags: []
 ---

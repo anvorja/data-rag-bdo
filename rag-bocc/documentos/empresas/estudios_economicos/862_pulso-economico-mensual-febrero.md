@@ -21,6 +21,7 @@ caracteres: 42251
 paginas: 3
 hash_contenido: 034eab7947d94e2c
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual febrero"
 indexar: true
 flags: []
 ---

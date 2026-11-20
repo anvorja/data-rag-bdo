@@ -22,6 +22,7 @@ caracteres: 5961
 paginas: null
 hash_contenido: ffec6f9b28e915f9
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito LATAM Pass Gold Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

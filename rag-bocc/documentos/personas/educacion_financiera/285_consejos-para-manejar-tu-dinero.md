@@ -21,6 +21,7 @@ caracteres: 7484
 paginas: null
 hash_contenido: 01f150edda2e2a70
 lote: "lote1"
+titulo_publico: "Consejos para manejar tu dinero"
 indexar: true
 flags: []
 ---

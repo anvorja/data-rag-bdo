@@ -22,6 +22,7 @@ caracteres: 3137
 paginas: null
 hash_contenido: a8b61101b3274c3d
 lote: "crawl2-paginas"
+titulo_publico: "Seguro de Vivienda | Protege tu Hogar con Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 4519
 paginas: null
 hash_contenido: a2dbfb1371e4f976
 lote: "crawl2-paginas"
+titulo_publico: "Recaudo Fisico - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

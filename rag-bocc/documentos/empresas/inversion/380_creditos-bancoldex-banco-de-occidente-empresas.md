@@ -22,6 +22,7 @@ caracteres: 4637
 paginas: null
 hash_contenido: fb1a6df3f4a5d898
 lote: "crawl2-paginas"
+titulo_publico: "Créditos Bancóldex"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

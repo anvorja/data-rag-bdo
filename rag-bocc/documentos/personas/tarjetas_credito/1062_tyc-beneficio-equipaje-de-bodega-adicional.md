@@ -21,6 +21,7 @@ caracteres: 13287
 paginas: 6
 hash_contenido: b9c28be445d4e1d6
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: beneficio «Equipaje de bodega adicional latam pass»"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

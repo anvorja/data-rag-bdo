@@ -14,6 +14,12 @@ Orden de ejecución (desde la raíz del repositorio; `RAG_BASE` es opcional):
 | 7 | `17_recaptura.py` | Recaptura de documentos «vivos» (tarifas y tasas) **con versionamiento**: la versión anterior queda `historico`, la nueva enlaza con `version_de`. Luego ejecutar el paso 5 |
 | 8 | `18_organizar_embeddings.py` | Migra los embeddings al formato por subcarpetas con hashes (una sola vez) |
 | 9 | `19_relaciones.py` | Tabla página → documentos (`rag-bocc/relaciones.jsonl`) desde los enlaces del texto y el grafo del rastreo |
+| 10 | `fase3b/contrato.py` | Contrato de la fase 3b: citas con URL del corpus, avisos de vigencia y verificaciones deterministas de la respuesta (`--autoprueba`). Ver `docs/CONTRATO-3B.md` |
+| 11 | `24_suficiencia.py` | Verificador de suficiencia (abstención): puntaje de rerank-3 y, con `--llm`, un LLM juez (DeepSeek/OpenAI). Ver `docs/CONTRATO-3B.md` |
+| 12 | `fase3b/enmascarar.py`, `25_enmascaramiento.py` | Capa de enmascaramiento de datos personales (cédulas, cuentas, tarjetas, claves, teléfonos, correos, direcciones, nombres con pista) y su medición con datos inventados |
+| 13 | `26_fuera_de_tema.py` | Mide si la compuerta de suficiencia frena el uso del asistente para temas ajenos al banco (código, ciencia, tareas, inyección) |
+| 14 | `fase3b/asistente.py`, `fase3b/recuperar.py`, `27_ciclo_completo.py` | Un turno completo del asistente (enmascarar → recuperar → compuerta → generar → verificar → citas y avisos) y su evaluación de punta a punta sobre `dev` (reanudable) |
+| 15 | `fase3b/limites.py` | Controles anti-abuso y de costo: longitud máxima, mensajes por minuto y por sesión, alerta por abstenciones seguidas (`--autoprueba`) |
 | – | `validate.py` | Validaciones de CI |
 
 Requisitos del sistema: `poppler-utils` (`pdftotext`, `pdfinfo`, `pdfimages`, `pdftoppm`), `tesseract-ocr` + datos `spa`, Python 3.12, `lxml`.

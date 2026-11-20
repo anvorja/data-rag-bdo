@@ -22,6 +22,7 @@ caracteres: 3497
 paginas: null
 hash_contenido: 6ee0cb4f7b768078
 lote: "crawl2-paginas"
+titulo_publico: "Leasing Operativo"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 11064
 paginas: 4
 hash_contenido: e02fab627afc77ae
 lote: "crawl2-documentos"
+titulo_publico: "Brochure Pyme banco de occidente 052025"
 indexar: true
 flags: []
 ---

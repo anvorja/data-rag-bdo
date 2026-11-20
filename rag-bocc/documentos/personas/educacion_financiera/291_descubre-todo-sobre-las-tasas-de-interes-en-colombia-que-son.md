@@ -22,6 +22,7 @@ caracteres: 6162
 paginas: null
 hash_contenido: 840f69bb84dc7ca9
 lote: "lote1"
+titulo_publico: "Descubre todo sobre las tasas de interés en Colombia: ¿Qué son y cómo te afectan?"
 indexar: true
 flags: []
 ---

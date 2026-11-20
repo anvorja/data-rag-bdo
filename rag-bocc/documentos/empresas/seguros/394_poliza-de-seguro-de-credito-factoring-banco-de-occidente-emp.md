@@ -22,6 +22,7 @@ caracteres: 3710
 paginas: null
 hash_contenido: 42857eb1ceff41dc
 lote: "crawl2-paginas"
+titulo_publico: "Póliza de Seguro de Crédito Factoring"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

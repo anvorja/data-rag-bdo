@@ -22,6 +22,7 @@ caracteres: 4677
 paginas: null
 hash_contenido: 5fbdb4bd84044ec6
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Cuota Protegida para tu Crédito de Vivienda"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

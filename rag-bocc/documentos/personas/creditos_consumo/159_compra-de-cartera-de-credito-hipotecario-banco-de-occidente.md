@@ -22,6 +22,7 @@ caracteres: 6552
 paginas: null
 hash_contenido: 5db456fabe9d07d2
 lote: "lote1"
+titulo_publico: "Compra de Cartera de Crédito Hipotecario Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

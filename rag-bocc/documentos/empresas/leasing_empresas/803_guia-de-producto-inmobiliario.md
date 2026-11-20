@@ -21,6 +21,7 @@ caracteres: 16971
 paginas: 5
 hash_contenido: 56d7f3116cebac04
 lote: "crawl2-documentos"
+titulo_publico: "Guía de producto inmobiliario"
 vigencia_validada: true
 indexar: true
 flags: []

@@ -21,6 +21,7 @@ caracteres: 27734
 paginas: 11
 hash_contenido: b00b292cf08327b1
 lote: "lote1"
+titulo_publico: "Programa anticorrupción"
 indexar: true
 flags: []
 ---

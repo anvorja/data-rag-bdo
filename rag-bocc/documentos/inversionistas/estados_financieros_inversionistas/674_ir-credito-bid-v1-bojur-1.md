@@ -21,6 +21,7 @@ caracteres: 601
 paginas: 1
 hash_contenido: b09eb88dfb164c45
 lote: "crawl2-documentos"
+titulo_publico: "Ir crédito bid bojur"
 indexar: true
 flags: []
 ---

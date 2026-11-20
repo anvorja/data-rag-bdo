@@ -21,6 +21,7 @@ caracteres: 15405
 paginas: 3
 hash_contenido: 75761406652d16cd
 lote: "lote1"
+titulo_publico: "Formato solicitud de monetización con instrucciones permanentes"
 vigencia_validada: true
 indexar: true
 flags: []

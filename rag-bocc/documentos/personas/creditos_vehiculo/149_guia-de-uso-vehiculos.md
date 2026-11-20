@@ -21,6 +21,7 @@ caracteres: 58560
 paginas: 21
 hash_contenido: 9edb67afa2f74e37
 lote: "lote1"
+titulo_publico: "Guía de Uso Vehículos Livianos (Carta de"
 vigencia_validada: true
 indexar: true
 flags: []

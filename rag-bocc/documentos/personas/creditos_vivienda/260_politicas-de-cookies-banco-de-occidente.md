@@ -22,6 +22,7 @@ caracteres: 4987
 paginas: null
 hash_contenido: be7f98c57a0bafd0
 lote: "lote1"
+titulo_publico: "Políticas de Cookies"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

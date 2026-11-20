@@ -22,6 +22,7 @@ caracteres: 2381
 paginas: null
 hash_contenido: 7499f04e35135c3e
 lote: "crawl2-paginas"
+titulo_publico: "Segmento Corporativo e Institucional"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

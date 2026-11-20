@@ -21,6 +21,7 @@ caracteres: 290152
 paginas: 55
 hash_contenido: 6244c7935e21ff66
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados para el segundo trimestre 2023"
 indexar: true
 flags: [tablas_numericas]
 ---

@@ -21,6 +21,7 @@ caracteres: 5827
 paginas: 54
 hash_contenido: 203617080ae65ef2
 lote: "crawl2-documentos"
+titulo_publico: "Banco de Occidente tulio restrepo corporativo pdf"
 indexar: true
 flags: [poco_texto_por_pagina, ocr, candidato_vlm]
 ---

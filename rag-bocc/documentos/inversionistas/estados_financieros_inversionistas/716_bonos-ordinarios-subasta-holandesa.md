@@ -23,6 +23,7 @@ hash_contenido: 40a5a015ee468158
 lote: "crawl2-documentos"
 casi_duplicado_de: 709
 similitud: 0.86
+titulo_publico: "Bonos ordinarios. subasta holandesa"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

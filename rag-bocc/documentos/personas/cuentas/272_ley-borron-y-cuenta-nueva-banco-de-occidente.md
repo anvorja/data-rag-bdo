@@ -22,6 +22,7 @@ caracteres: 4283
 paginas: null
 hash_contenido: 33c1dcb3e908f77a
 lote: "lote1"
+titulo_publico: "Ley Borrón y Cuenta Nueva"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

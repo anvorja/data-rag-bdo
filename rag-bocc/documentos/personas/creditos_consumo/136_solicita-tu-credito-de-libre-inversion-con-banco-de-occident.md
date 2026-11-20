@@ -22,6 +22,7 @@ caracteres: 9902
 paginas: null
 hash_contenido: db3a8779f86419d4
 lote: "lote1"
+titulo_publico: "Solicita tu Crédito de Libre Inversión con Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

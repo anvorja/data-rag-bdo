@@ -21,6 +21,7 @@ caracteres: 592874
 paginas: 71
 hash_contenido: 213c882702823aeb
 lote: "crawl2-documentos"
+titulo_publico: "Capítulo 6 informe gestión"
 indexar: true
 flags: []
 ---

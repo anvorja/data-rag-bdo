@@ -23,6 +23,7 @@ caracteres: 3619
 paginas: null
 hash_contenido: 439a3e802977d100
 lote: "crawl2-paginas"
+titulo_publico: "Conéctate con nosotros"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

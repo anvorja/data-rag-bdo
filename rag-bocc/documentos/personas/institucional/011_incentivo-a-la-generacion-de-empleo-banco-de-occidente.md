@@ -22,6 +22,7 @@ caracteres: 12688
 paginas: null
 hash_contenido: 081186b36901d49c
 lote: "lote1"
+titulo_publico: "Incentivo a la generación de empleo"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

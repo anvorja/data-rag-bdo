@@ -21,6 +21,7 @@ caracteres: 267077
 paginas: 55
 hash_contenido: a0a48162bb64e9ae
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a septiembre de 2025"
 indexar: true
 flags: [tablas_numericas]
 ---

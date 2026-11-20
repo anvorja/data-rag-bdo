@@ -21,6 +21,7 @@ caracteres: 16420
 paginas: 5
 hash_contenido: 342cb419ee9db665
 lote: "lote1"
+titulo_publico: "Anx apy 882 aviso de privacidad banco de occidente"
 indexar: true
 flags: []
 ---

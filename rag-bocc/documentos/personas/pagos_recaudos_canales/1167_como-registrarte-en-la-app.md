@@ -21,6 +21,7 @@ caracteres: 4133
 paginas: 7
 hash_contenido: 48832c63dd9b8023
 lote: "crawl2-documentos"
+titulo_publico: "Cómo registrarte en la App"
 indexar: true
 flags: [candidato_vlm]
 ---

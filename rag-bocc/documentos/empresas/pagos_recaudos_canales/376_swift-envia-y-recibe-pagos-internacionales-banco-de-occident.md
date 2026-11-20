@@ -22,6 +22,7 @@ caracteres: 3482
 paginas: null
 hash_contenido: 0d790bb743e290b7
 lote: "crawl2-paginas"
+titulo_publico: "SWIFT Envía y Recibe Pagos Internacionales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 42875
 paginas: 15
 hash_contenido: aad98c304c1bc1b6
 lote: "crawl2-documentos"
+titulo_publico: "Tes manufactura"
 indexar: true
 flags: []
 ---

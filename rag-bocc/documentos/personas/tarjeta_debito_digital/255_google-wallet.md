@@ -23,6 +23,7 @@ hash_contenido: 4277416ca5cf01d5
 lote: "lote1"
 casi_duplicado_de: 254
 similitud: 0.86
+titulo_publico: "Google Wallet"
 indexar: true
 flags: [casi_duplicado, plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

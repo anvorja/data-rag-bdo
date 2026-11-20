@@ -21,6 +21,7 @@ caracteres: 4364
 paginas: null
 hash_contenido: b179279d6c7d8cdb
 lote: "crawl2-paginas"
+titulo_publico: "Recaudo Tarjetas - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

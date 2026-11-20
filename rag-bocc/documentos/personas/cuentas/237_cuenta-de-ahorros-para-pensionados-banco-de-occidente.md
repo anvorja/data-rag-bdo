@@ -22,6 +22,7 @@ caracteres: 6352
 paginas: null
 hash_contenido: e085d36936fe7cc7
 lote: "lote1"
+titulo_publico: "Cuenta de Ahorros para Pensionados Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

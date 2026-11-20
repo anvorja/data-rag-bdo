@@ -21,6 +21,7 @@ caracteres: 758760
 paginas: 168
 hash_contenido: 5e46f7bf5808df6e
 lote: "lote1"
+titulo_publico: "Estados financieros separados 2025"
 indexar: true
 flags: []
 ---

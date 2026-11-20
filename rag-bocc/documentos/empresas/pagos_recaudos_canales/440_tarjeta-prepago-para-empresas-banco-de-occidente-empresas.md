@@ -22,6 +22,7 @@ caracteres: 4426
 paginas: null
 hash_contenido: 64705b819c8175f4
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta Prepago para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

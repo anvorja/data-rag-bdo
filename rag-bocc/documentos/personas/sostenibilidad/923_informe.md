@@ -21,6 +21,7 @@ caracteres: 1850249
 paginas: 268
 hash_contenido: 30ea604996acceb5
 lote: "crawl2-documentos"
+titulo_publico: "Informe"
 indexar: true
 flags: [muy_largo]
 ---

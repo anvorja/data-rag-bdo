@@ -21,6 +21,7 @@ caracteres: 45030
 paginas: 16
 hash_contenido: fd09234b9c4f2926
 lote: "crawl2-documentos"
+titulo_publico: "Bonos subordinados. subasta holandesa"
 vigencia_validada: true
 indexar: true
 flags: []

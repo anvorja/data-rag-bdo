@@ -21,6 +21,7 @@ caracteres: 2169
 paginas: 7
 hash_contenido: 238f1fba64067266
 lote: "crawl2-documentos"
+titulo_publico: "Administración de productos"
 indexar: true
 flags: [candidato_vlm]
 ---

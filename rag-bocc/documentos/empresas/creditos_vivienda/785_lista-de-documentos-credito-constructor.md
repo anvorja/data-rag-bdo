@@ -23,6 +23,7 @@ hash_contenido: 4bc1c89b6751c387
 lote: "crawl2-documentos"
 casi_duplicado_de: 784
 similitud: 0.88
+titulo_publico: "Lista de Documentos: Crédito Constructor"
 indexar: true
 flags: [casi_duplicado]
 ---

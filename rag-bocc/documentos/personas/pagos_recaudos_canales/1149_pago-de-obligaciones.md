@@ -21,6 +21,7 @@ caracteres: 3345
 paginas: 5
 hash_contenido: 42b25f8a295a34a7
 lote: "crawl2-documentos"
+titulo_publico: "Pago de obligaciones"
 indexar: true
 flags: [candidato_vlm]
 ---

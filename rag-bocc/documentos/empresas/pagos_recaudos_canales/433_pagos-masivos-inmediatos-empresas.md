@@ -21,6 +21,7 @@ caracteres: 5434
 paginas: null
 hash_contenido: f57dba7ea86bf857
 lote: "crawl2-paginas"
+titulo_publico: "Pagos Masivos Inmediatos - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

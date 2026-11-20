@@ -21,6 +21,7 @@ caracteres: 1754
 paginas: 7
 hash_contenido: 18fe74fc409400db
 lote: "crawl2-documentos"
+titulo_publico: "Configuración de montos por servicios"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

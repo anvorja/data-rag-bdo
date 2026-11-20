@@ -21,6 +21,7 @@ caracteres: 2340
 paginas: 1
 hash_contenido: 029b259526d20d79
 lote: "crawl2-documentos"
+titulo_publico: "Proyecto distribución de utilidades Banco de Occidente 2022"
 indexar: true
 flags: []
 ---

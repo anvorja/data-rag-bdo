@@ -21,6 +21,7 @@ caracteres: 21787
 paginas: 22
 hash_contenido: 45da16ba64dcc60c
 lote: "crawl2-documentos"
+titulo_publico: "Maquinaria amarilla abril Banco de Occidente listados comerciales"
 indexar: true
 flags: [candidato_vlm]
 ---

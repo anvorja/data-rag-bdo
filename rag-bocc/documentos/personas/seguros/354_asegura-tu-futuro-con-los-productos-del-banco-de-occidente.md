@@ -22,6 +22,7 @@ caracteres: 3240
 paginas: null
 hash_contenido: 12f580ed42c3d2be
 lote: "crawl2-paginas"
+titulo_publico: "Asegura tu futuro con los productos del Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

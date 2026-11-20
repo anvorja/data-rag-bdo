@@ -21,6 +21,7 @@ caracteres: 1422
 paginas: 1
 hash_contenido: 32a853933660a054
 lote: "crawl2-documentos"
+titulo_publico: "Certificación estados financieros"
 indexar: true
 flags: [candidato_vlm]
 ---

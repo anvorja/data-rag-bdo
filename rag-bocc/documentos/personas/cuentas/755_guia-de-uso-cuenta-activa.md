@@ -21,6 +21,7 @@ caracteres: 70602
 paginas: 40
 hash_contenido: 5b1184e30a7b8673
 lote: "crawl2-documentos"
+titulo_publico: "Guia de uso cuenta activa"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

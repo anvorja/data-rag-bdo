@@ -22,6 +22,7 @@ caracteres: 3675
 paginas: null
 hash_contenido: 4478148331340383
 lote: "lote1"
+titulo_publico: "Seguro para vehículos Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 6 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 7298
 paginas: null
 hash_contenido: 10b8ebc949036054
 lote: "lote1"
+titulo_publico: "Cuenta Activa"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 3031
 paginas: null
 hash_contenido: 7170544a32069f01
 lote: "lote1"
+titulo_publico: "Portal Transaccional Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

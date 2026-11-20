@@ -21,6 +21,7 @@ caracteres: 1741
 paginas: null
 hash_contenido: d31dc3328c0bbad6
 lote: "lote1"
+titulo_publico: "Acta de entrega constancia recibo bienes cliente vivienda"
 vigencia_validada: true
 indexar: true
 flags: []

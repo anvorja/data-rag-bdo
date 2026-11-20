@@ -21,6 +21,7 @@ caracteres: 13440
 paginas: 14
 hash_contenido: f6299b2842500c4f
 lote: "lote1"
+titulo_publico: "Brochure digital segmento aval"
 indexar: true
 flags: [candidato_vlm]
 ---

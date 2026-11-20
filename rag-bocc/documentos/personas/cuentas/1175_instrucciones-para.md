@@ -21,6 +21,7 @@ caracteres: 1317
 paginas: 3
 hash_contenido: 575bd6382a10afb0
 lote: "crawl2-documentos"
+titulo_publico: "Instrucciones para"
 indexar: true
 flags: [candidato_vlm]
 ---

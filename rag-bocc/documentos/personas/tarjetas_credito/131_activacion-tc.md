@@ -21,6 +21,7 @@ caracteres: 1302
 paginas: null
 hash_contenido: 47eb2732ee7f3f80
 lote: "lote1"
+titulo_publico: "Activacion TC"
 indexar: true
 flags: []
 ---

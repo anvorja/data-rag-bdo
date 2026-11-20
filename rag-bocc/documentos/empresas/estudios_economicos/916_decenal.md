@@ -21,6 +21,7 @@ caracteres: 12801
 paginas: 9
 hash_contenido: 6d61ec093b8d8d47
 lote: "crawl2-documentos"
+titulo_publico: "Decenal"
 indexar: true
 flags: [candidato_vlm]
 ---

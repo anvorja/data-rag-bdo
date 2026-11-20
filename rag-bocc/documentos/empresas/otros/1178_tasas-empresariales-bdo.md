@@ -6,7 +6,7 @@ tipo_doc: tarifas_tasas
 area: otros
 segmento: empresas
 idioma: es
-estado_vigencia: vigente_hasta_reemplazo
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: 2026-10-01
@@ -21,6 +21,7 @@ caracteres: 10865
 paginas: 1
 hash_contenido: e90a09fc8c58f402
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tasas empresariales Banco de Occidente"
 vigencia_validada: true
 version_de: 230
 indexar: true

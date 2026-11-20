@@ -22,6 +22,7 @@ caracteres: 6072
 paginas: null
 hash_contenido: cc0d8872c2961f74
 lote: "lote1"
+titulo_publico: "Tarjetas de Crédito Clásicas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

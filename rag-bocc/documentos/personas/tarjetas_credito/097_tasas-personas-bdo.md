@@ -21,6 +21,7 @@ caracteres: 58325
 paginas: 18
 hash_contenido: 9430d48b5f68e529
 lote: "lote1"
+titulo_publico: "Tasas personas Banco de Occidente"
 vigencia_validada: true
 indexar: true
 flags: [vigencia_vencida]

@@ -21,6 +21,7 @@ caracteres: 16668
 paginas: 7
 hash_contenido: 159c7bf5605e6211
 lote: "crawl2-documentos"
+titulo_publico: "Guia de uso CDT"
 vigencia_validada: true
 indexar: true
 flags: []

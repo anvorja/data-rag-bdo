@@ -21,6 +21,7 @@ caracteres: 51013
 paginas: 20
 hash_contenido: f6c0706a80d99b49
 lote: "crawl2-documentos"
+titulo_publico: "Informe periódico trimestral 2024 1"
 indexar: true
 flags: []
 ---

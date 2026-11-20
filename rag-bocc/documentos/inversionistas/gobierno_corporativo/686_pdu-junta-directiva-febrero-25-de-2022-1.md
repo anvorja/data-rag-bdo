@@ -21,6 +21,7 @@ caracteres: 2432
 paginas: 1
 hash_contenido: 28f4f4cf1f72b5fa
 lote: "crawl2-documentos"
+titulo_publico: "Pdu junta directiva febrero 25 de 2022"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 10456
 paginas: 6
 hash_contenido: 00467d9f64b8a3a7
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Mac Center tasa 0% y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

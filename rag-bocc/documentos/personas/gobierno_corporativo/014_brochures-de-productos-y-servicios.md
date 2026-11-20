@@ -23,6 +23,7 @@ caracteres: 3587
 paginas: null
 hash_contenido: 611b288797d84759
 lote: "lote1"
+titulo_publico: "Brochures de productos y servicios"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 17 líneas de plantilla del CMS."

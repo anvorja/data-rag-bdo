@@ -21,6 +21,7 @@ caracteres: 6617
 paginas: 9
 hash_contenido: 599797c364d3154a
 lote: "crawl2-documentos"
+titulo_publico: "Plantilla de bienes vehículos de carga"
 vigencia_validada: true
 indexar: true
 flags: []

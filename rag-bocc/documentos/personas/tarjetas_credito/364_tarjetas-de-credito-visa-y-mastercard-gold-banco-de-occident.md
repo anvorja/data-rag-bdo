@@ -22,6 +22,7 @@ caracteres: 4550
 paginas: null
 hash_contenido: 18df4a74361b5632
 lote: "crawl2-paginas"
+titulo_publico: "Tarjetas de Crédito Visa y Mastercard Gold Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

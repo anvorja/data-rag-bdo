@@ -22,6 +22,7 @@ caracteres: 5565
 paginas: null
 hash_contenido: 2e2c3ed6450098ce
 lote: "lote1"
+titulo_publico: "Las ventajas de tener un seguro Todo Riesgo para tu vehículo"
 indexar: true
 flags: []
 ---

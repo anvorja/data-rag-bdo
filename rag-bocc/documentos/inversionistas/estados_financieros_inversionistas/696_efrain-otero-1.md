@@ -21,6 +21,7 @@ caracteres: 1267
 paginas: 1
 hash_contenido: 80165e15c36dd1a2
 lote: "crawl2-documentos"
+titulo_publico: "Efrain otero"
 vigencia_validada: true
 indexar: true
 flags: []

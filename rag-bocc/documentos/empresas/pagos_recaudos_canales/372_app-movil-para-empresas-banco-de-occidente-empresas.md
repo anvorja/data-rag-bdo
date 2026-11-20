@@ -22,6 +22,7 @@ caracteres: 6787
 paginas: null
 hash_contenido: fba8b137a29e6f55
 lote: "crawl2-paginas"
+titulo_publico: "App Móvil para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

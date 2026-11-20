@@ -21,6 +21,7 @@ caracteres: 49336
 paginas: 25
 hash_contenido: c7e5920b0a7c17a7
 lote: "crawl2-documentos"
+titulo_publico: "Informe de gobierno corporativo 2025"
 indexar: true
 flags: []
 ---

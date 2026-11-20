@@ -22,6 +22,7 @@ caracteres: 2854
 paginas: null
 hash_contenido: 458e9a489952cc66
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Cuota Protegida Libranza"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

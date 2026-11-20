@@ -21,6 +21,7 @@ caracteres: 57451
 paginas: 15
 hash_contenido: 31d1371461c1a21b
 lote: "lote1"
+titulo_publico: "Condicionado asistencia auto banco de occidente"
 indexar: true
 flags: []
 ---

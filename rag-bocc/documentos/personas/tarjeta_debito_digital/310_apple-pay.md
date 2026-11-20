@@ -23,6 +23,7 @@ hash_contenido: 966027b0ae3842ce
 lote: "crawl2-paginas"
 casi_duplicado_de: 252
 similitud: 0.91
+titulo_publico: "Apple Pay"
 indexar: true
 flags: [casi_duplicado, plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -23,6 +23,7 @@ caracteres: 3131
 paginas: null
 hash_contenido: 0b0a89bcb03654ee
 lote: "lote1"
+titulo_publico: "Priority pass"
 indexar: true
 flags: [titulo_dudoso]
 ---

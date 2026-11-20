@@ -21,6 +21,7 @@ caracteres: 34684
 paginas: 6
 hash_contenido: 4449f34673109ce5
 lote: "crawl2-documentos"
+titulo_publico: "Informe de verificación bajo aseguramiento limitado 2023"
 indexar: true
 flags: []
 ---

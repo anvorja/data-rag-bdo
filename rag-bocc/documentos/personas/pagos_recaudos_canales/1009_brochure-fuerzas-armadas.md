@@ -21,6 +21,7 @@ caracteres: 8883
 paginas: 8
 hash_contenido: 28af6395c443aa87
 lote: "crawl2-documentos"
+titulo_publico: "Brochure fuerzas armadas"
 indexar: true
 flags: [candidato_vlm]
 ---

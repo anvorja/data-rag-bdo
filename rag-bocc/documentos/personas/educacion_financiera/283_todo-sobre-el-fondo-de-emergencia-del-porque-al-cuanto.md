@@ -21,6 +21,7 @@ caracteres: 6256
 paginas: null
 hash_contenido: 489b7adf892c90d1
 lote: "lote1"
+titulo_publico: "Todo sobre el fondo de emergencia: del porque al cuanto"
 indexar: true
 flags: []
 ---

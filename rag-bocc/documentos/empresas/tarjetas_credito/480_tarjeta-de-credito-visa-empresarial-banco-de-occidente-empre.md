@@ -22,6 +22,7 @@ caracteres: 3657
 paginas: null
 hash_contenido: b57b5a10fc4ba863
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Visa Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

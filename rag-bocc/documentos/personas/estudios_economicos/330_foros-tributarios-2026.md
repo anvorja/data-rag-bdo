@@ -23,6 +23,7 @@ caracteres: 5707
 paginas: null
 hash_contenido: 78f405b05fe07256
 lote: "crawl2-paginas"
+titulo_publico: "Foros tributarios 2026"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 17 líneas de plantilla del CMS."

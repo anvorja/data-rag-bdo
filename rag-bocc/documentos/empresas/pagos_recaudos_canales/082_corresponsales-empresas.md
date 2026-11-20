@@ -21,6 +21,7 @@ caracteres: 9022
 paginas: null
 hash_contenido: 4843d8b9e00f36ce
 lote: "lote1"
+titulo_publico: "Corresponsales - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 10 líneas de plantilla del CMS. Se quitaron 28 líneas de plantilla del CMS."

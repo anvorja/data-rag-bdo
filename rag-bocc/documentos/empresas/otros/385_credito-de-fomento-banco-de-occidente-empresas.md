@@ -22,6 +22,7 @@ caracteres: 3580
 paginas: null
 hash_contenido: 2f1fcdd42ea122e1
 lote: "crawl2-paginas"
+titulo_publico: "Crédito de Fomento"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."

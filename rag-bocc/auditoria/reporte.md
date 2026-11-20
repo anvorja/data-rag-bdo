@@ -1,14 +1,14 @@
 # Auditoría automática del corpus (Fase 1) — 2026-10-01
 
-Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 · casi-duplicados (Jaccard ≥ 0,8): 36 · sin texto: 15
+Documentos: **1182** · con texto propio: **1049** · duplicados exactos: 118 · casi-duplicados (Jaccard ≥ 0,8): 36 · sin texto: 15
 
 ## Distribución
 
 | segmento | docs |
 |---|---|
-| personas | 671 |
+| personas | 673 |
+| empresas | 255 |
 | inversionistas | 254 |
-| empresas | 253 |
 
 | tipo_doc | docs |
 |---|---|
@@ -27,8 +27,8 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 | seguro_brochure_clausulado | 34 |
 | tributario | 27 |
 | legal_normativa | 24 |
+| tarifas_tasas | 23 |
 | educacion_financiera | 21 |
-| tarifas_tasas | 19 |
 | institucional | 15 |
 | emision_valores | 15 |
 | calificacion | 13 |
@@ -39,14 +39,14 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 | área | docs |
 |---|---|
 | estados_financieros_inversionistas | 175 |
+| pagos_recaudos_canales | 96 |
 | seguros | 96 |
-| pagos_recaudos_canales | 95 |
 | sostenibilidad | 92 |
 | tarjetas_credito | 88 |
-| cuentas | 86 |
+| cuentas | 87 |
 | estudios_economicos | 79 |
 | gobierno_corporativo | 72 |
-| otros | 53 |
+| otros | 55 |
 | creditos_vivienda | 39 |
 | transversal_formatos_politicas | 39 |
 | tributario | 33 |
@@ -65,7 +65,7 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 
 | idioma | docs |
 |---|---|
-| es | 1085 |
+| es | 1089 |
 | en | 73 |
 | indeterminado | 16 |
 | mixto | 4 |
@@ -73,12 +73,12 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 | estado_vigencia | docs |
 |---|---|
 | vigente | 824 |
-| historico | 248 |
+| historico | 252 |
 | por_verificar | 62 |
 | vencido | 25 |
 | periodo_reciente | 15 |
-| vigente_hasta_reemplazo | 2 |
 | sujeta_a_existencias | 2 |
+| vigente_hasta_reemplazo | 2 |
 
 ## Alertas
 
@@ -88,7 +88,7 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 | candidato_vlm | 154 | PDF con ≥3 imágenes grandes y poco texto por página → candidatos a descripción con VLM / OCR reforzado (sección 3 de la guía v2) |
 | duplicado_exacto | 118 | mismo texto que otro documento; se conserva solo el primero |
 | ingles | 73 | documento en inglés; excluir del índice por defecto del asesor en español (o enlazar con su equivalente) |
-| tablas_numericas | 49 | muchas líneas con columnas numéricas (estados financieros): validar tablas con un parser de layout |
+| tablas_numericas | 50 | muchas líneas con columnas numéricas (estados financieros): validar tablas con un parser de layout |
 | poco_texto_por_pagina | 44 | < 300 caracteres por página → probable escaneado o capturas; revisar OCR |
 | sin_fecha | 44 | tarifa/T&C/guía/informe sin año detectable → no se puede gobernar su vigencia |
 | casi_duplicado | 36 | versión casi idéntica de otro documento (Jaccard ≥ 0,8); decidir cuál se indexa |
@@ -96,13 +96,13 @@ Documentos: **1178** · con texto propio: **1045** · duplicados exactos: 118 ·
 | titulo_dudoso | 23 | el título HTML no coincide con la ruta (p. ej. título copiado de otra página) |
 | tablas_markdown | 19 | página con tablas serializadas a Markdown |
 | sin_texto | 15 | sin contenido extraíble (redes, cotizadores JS…) |
+| version_nueva | 8 |  |
 | muy_largo | 5 | > 1,5 M de caracteres; requiere chunking jerárquico por capítulo |
 | mojibake | 5 | caracteres rotos (codificación) → revisar |
-| version_nueva | 4 |  |
 | vigencia_vencida | 3 | el propio documento declara una vigencia ya terminada |
 | muy_corto | 2 | < 200 caracteres |
 
-**Indexables por defecto: 961 de 1178** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=118, ingles=73, sin_contenido_util=17, casi_duplicado=12, contenido_sensible=1.
+**Indexables por defecto: 965 de 1182** (excluidos: duplicados, casi-duplicados ≥ 0,95, sin contenido útil, inglés). Motivos: duplicado_exacto=118, ingles=73, sin_contenido_util=17, casi_duplicado=12, contenido_sensible=1.
 
 ## Hallazgos con impacto en el diseño
 

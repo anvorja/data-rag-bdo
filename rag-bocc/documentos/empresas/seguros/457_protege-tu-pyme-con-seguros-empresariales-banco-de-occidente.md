@@ -22,6 +22,7 @@ caracteres: 4253
 paginas: null
 hash_contenido: 970df7bf2476927f
 lote: "crawl2-paginas"
+titulo_publico: "Protege tu Pyme con Seguros Empresariales | Banco de Occidente​ - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 1212682
 paginas: 178
 hash_contenido: eb28746ebc8828f2
 lote: "crawl2-documentos"
+titulo_publico: "Informe de gestión y sostenibilidad 2022 Banco de Occidente"
 indexar: true
 flags: []
 ---

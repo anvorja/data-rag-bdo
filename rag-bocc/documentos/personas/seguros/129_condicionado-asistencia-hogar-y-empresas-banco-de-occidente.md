@@ -21,6 +21,7 @@ caracteres: 84423
 paginas: 20
 hash_contenido: 66bb0883fe953f68
 lote: "lote1"
+titulo_publico: "Condicionado asistencia hogar y empresas banco de occidente"
 indexar: true
 flags: []
 ---

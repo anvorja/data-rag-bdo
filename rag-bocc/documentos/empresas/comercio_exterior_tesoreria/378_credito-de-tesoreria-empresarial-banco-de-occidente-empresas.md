@@ -22,6 +22,7 @@ caracteres: 5006
 paginas: null
 hash_contenido: eb714572eec47d59
 lote: "crawl2-paginas"
+titulo_publico: "Crédito de Tesorería Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

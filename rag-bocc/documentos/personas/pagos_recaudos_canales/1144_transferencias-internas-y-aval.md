@@ -21,6 +21,7 @@ caracteres: 1725
 paginas: 5
 hash_contenido: fbafb57e23c4ad33
 lote: "crawl2-documentos"
+titulo_publico: "Transferencias internas y aval"
 indexar: true
 flags: [candidato_vlm]
 ---

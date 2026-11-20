@@ -21,6 +21,7 @@ caracteres: 1608
 paginas: 1
 hash_contenido: ef2001f4db435264
 lote: "crawl2-documentos"
+titulo_publico: "Convocatoria a la asamblea ordinaria de accionistas"
 indexar: true
 flags: []
 ---

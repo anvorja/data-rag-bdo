@@ -22,6 +22,7 @@ caracteres: 3732
 paginas: null
 hash_contenido: 95e785b176e82347
 lote: "crawl2-paginas"
+titulo_publico: "Leasing de Importación"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

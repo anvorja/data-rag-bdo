@@ -22,6 +22,7 @@ caracteres: 2447
 paginas: null
 hash_contenido: 5b29876e024b94ab
 lote: "lote1"
+titulo_publico: "Viaja Tranquilo con el Seguro de Viaje Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."

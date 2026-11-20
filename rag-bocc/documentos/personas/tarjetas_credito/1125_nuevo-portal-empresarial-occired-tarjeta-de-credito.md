@@ -21,6 +21,7 @@ caracteres: 1707
 paginas: 7
 hash_contenido: 97a225541a71085d
 lote: "crawl2-documentos"
+titulo_publico: "Nuevo Portal Empresarial OcciRed Tarjeta de Crédito"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 849
 paginas: 1
 hash_contenido: d89e7de37eb8924e
 lote: "crawl2-documentos"
+titulo_publico: "Adquisición y enagenacion de acciones junta directiva"
 vigencia_validada: true
 indexar: true
 flags: []

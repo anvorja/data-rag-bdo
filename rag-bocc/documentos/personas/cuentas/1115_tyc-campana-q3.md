@@ -23,6 +23,7 @@ hash_contenido: 8b0d4338fcadb83e
 lote: "crawl2-documentos"
 casi_duplicado_de: 943
 similitud: 0.92
+titulo_publico: "Términos y condiciones: campaña «Tercera campaña sombrilla – duplica tus saldos»"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

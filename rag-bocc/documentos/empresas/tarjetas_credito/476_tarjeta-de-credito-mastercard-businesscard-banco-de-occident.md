@@ -22,6 +22,7 @@ caracteres: 4705
 paginas: null
 hash_contenido: 6d7c08b38796e151
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Mastercard BusinessCard"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

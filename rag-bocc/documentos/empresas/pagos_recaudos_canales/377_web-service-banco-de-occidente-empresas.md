@@ -22,6 +22,7 @@ caracteres: 3165
 paginas: null
 hash_contenido: aa1503af359aedf5
 lote: "crawl2-paginas"
+titulo_publico: "Web Service"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

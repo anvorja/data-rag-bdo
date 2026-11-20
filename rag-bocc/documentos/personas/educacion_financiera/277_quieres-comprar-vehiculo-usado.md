@@ -21,6 +21,7 @@ caracteres: 7153
 paginas: null
 hash_contenido: 2e5fa67208caa678
 lote: "lote1"
+titulo_publico: "¿Quieres comprar vehículo usado?"
 indexar: true
 flags: []
 ---

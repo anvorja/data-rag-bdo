@@ -21,6 +21,7 @@ caracteres: 2581
 paginas: 97
 hash_contenido: 614e08da5fdb816b
 lote: "crawl2-documentos"
+titulo_publico: "Banco de Occidente tulio restrepo empresas 2 pdf"
 vigencia_validada: true
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]

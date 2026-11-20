@@ -21,6 +21,7 @@ caracteres: 1885
 paginas: 6
 hash_contenido: 38649ad0178561a6
 lote: "crawl2-documentos"
+titulo_publico: "Servicio de descarga de archivos – side bar"
 indexar: true
 flags: [candidato_vlm]
 ---

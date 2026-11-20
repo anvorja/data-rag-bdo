@@ -23,6 +23,7 @@ hash_contenido: c606380cad73a318
 lote: "crawl2-documentos"
 casi_duplicado_de: 165
 similitud: 0.81
+titulo_publico: "Parte i condiciones generales"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

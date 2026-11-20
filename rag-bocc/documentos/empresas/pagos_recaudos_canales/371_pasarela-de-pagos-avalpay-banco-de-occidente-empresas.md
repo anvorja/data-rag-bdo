@@ -22,6 +22,7 @@ caracteres: 3387
 paginas: null
 hash_contenido: 79d6fee7a40e448a
 lote: "crawl2-paginas"
+titulo_publico: "Pasarela de Pagos AvalPay"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

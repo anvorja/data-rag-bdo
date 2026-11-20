@@ -21,6 +21,7 @@ caracteres: 2919
 paginas: 1
 hash_contenido: f0c8d092078310ca
 lote: "crawl2-documentos"
+titulo_publico: "Certificación cumplimiento de requisitos"
 vigencia_validada: true
 indexar: true
 flags: []

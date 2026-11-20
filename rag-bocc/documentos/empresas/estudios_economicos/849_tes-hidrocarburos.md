@@ -21,6 +21,7 @@ caracteres: 72884
 paginas: 17
 hash_contenido: 537b1da9b49a65a9
 lote: "crawl2-documentos"
+titulo_publico: "Tes hidrocarburos"
 indexar: true
 flags: []
 ---

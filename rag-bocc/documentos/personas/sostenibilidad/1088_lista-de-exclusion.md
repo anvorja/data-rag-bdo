@@ -21,6 +21,7 @@ caracteres: 3121
 paginas: 2
 hash_contenido: 389623be7ef9a943
 lote: "crawl2-documentos"
+titulo_publico: "Lista de exclusión"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

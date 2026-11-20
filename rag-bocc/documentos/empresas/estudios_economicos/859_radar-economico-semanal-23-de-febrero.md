@@ -21,6 +21,7 @@ caracteres: 16966
 paginas: 1
 hash_contenido: 8ed17936691a0b0c
 lote: "crawl2-documentos"
+titulo_publico: "Radar económico semanal 23 de febrero"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 620785
 paginas: 158
 hash_contenido: 72362ab5495d834d
 lote: "crawl2-documentos"
+titulo_publico: "Adendo no. 7 al prospecto de información de bonos ordinarios, bonos ordinarios verdes, bonos"
 indexar: true
 flags: []
 ---

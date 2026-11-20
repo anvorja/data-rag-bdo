@@ -21,6 +21,7 @@ caracteres: 49073
 paginas: 15
 hash_contenido: 5a8b288ccc6a39ca
 lote: "crawl2-documentos"
+titulo_publico: "Decreto 0533 de 29 de abril de 2024"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 45311
 paginas: 3
 hash_contenido: 2cbd2f6ed862a338
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual enero"
 indexar: true
 flags: []
 ---

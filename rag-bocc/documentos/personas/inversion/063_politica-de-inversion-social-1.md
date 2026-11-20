@@ -21,6 +21,7 @@ caracteres: 22701
 paginas: 11
 hash_contenido: 71a6d74db23afe65
 lote: "lote1"
+titulo_publico: "Política de inversión social"
 indexar: true
 flags: []
 ---

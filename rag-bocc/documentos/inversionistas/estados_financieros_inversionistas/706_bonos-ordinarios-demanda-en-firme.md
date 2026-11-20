@@ -21,6 +21,7 @@ caracteres: 40068
 paginas: 14
 hash_contenido: f529c9aeac4d5a8f
 lote: "crawl2-documentos"
+titulo_publico: "Bonos ordinarios. demanda en firme"
 vigencia_validada: true
 indexar: true
 flags: []

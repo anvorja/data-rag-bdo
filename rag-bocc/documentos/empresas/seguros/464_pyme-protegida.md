@@ -23,6 +23,7 @@ caracteres: 1589
 paginas: null
 hash_contenido: d47044283f58b2b1
 lote: "crawl2-paginas"
+titulo_publico: "Pyme Protegida"
 indexar: true
 flags: [plantilla_cms_limpiada, titulo_dudoso]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."

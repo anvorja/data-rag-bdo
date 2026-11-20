@@ -21,6 +21,7 @@ caracteres: 2162
 paginas: 6
 hash_contenido: 14c6e06d664bc9d5
 lote: "crawl2-documentos"
+titulo_publico: "Instructivo Flujo"
 indexar: true
 flags: [candidato_vlm]
 ---

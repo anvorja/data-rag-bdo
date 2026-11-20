@@ -21,6 +21,7 @@ caracteres: 20671
 paginas: 8
 hash_contenido: 54fa065f83214e6b
 lote: "crawl2-documentos"
+titulo_publico: "Decalogo seguridad y salud en el trabajo"
 indexar: true
 flags: []
 ---

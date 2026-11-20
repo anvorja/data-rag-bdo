@@ -21,6 +21,7 @@ caracteres: 7475
 paginas: 40
 hash_contenido: ad6a4c4ecc0d67fd
 lote: "crawl2-documentos"
+titulo_publico: "Juan guillermo morales sept 12 pdf"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

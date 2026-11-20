@@ -21,6 +21,7 @@ caracteres: 124968
 paginas: 50
 hash_contenido: 9755107650df4803
 lote: "crawl2-documentos"
+titulo_publico: "Manual de"
 indexar: true
 flags: [tablas_numericas]
 ---

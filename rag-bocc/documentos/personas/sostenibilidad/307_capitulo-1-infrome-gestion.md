@@ -21,6 +21,7 @@ caracteres: 126208
 paginas: 24
 hash_contenido: 8d3b4b3ef891242d
 lote: "lote1"
+titulo_publico: "Capítulo 1 infrome gestión"
 indexar: true
 flags: []
 ---

@@ -22,6 +22,7 @@ caracteres: 4463
 paginas: null
 hash_contenido: 5a3f8149a04074df
 lote: "crawl2-paginas"
+titulo_publico: "Descuento de Cartera"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

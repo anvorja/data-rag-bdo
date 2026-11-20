@@ -21,6 +21,7 @@ caracteres: 3608
 paginas: 3
 hash_contenido: 3cd1108a2ef86cfc
 lote: "crawl2-documentos"
+titulo_publico: "Modelo de poder para Asamblea de Accionistas"
 indexar: true
 flags: []
 ---

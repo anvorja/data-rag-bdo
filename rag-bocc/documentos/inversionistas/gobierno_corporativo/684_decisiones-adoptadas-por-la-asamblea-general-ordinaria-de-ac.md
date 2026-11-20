@@ -21,6 +21,7 @@ caracteres: 1167
 paginas: 1
 hash_contenido: d25713e19c0c9c35
 lote: "crawl2-documentos"
+titulo_publico: "Decisiones adoptadas por la asamblea general ordinaria de accionistas Banco de Occidente"
 indexar: true
 flags: []
 ---

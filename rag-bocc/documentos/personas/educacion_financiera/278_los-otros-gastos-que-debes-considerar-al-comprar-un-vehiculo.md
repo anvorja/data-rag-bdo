@@ -21,6 +21,7 @@ caracteres: 8352
 paginas: null
 hash_contenido: d9821242b21e2602
 lote: "lote1"
+titulo_publico: "Los otros gastos que debes considerar al comprar un vehículo"
 indexar: true
 flags: [tablas_markdown]
 ---

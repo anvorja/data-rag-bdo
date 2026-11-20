@@ -22,6 +22,7 @@ caracteres: 2442
 paginas: null
 hash_contenido: 4c6807c7cd4ebaa6
 lote: "crawl2-paginas"
+titulo_publico: "Segmento Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

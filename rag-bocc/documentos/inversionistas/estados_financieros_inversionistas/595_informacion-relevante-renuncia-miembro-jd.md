@@ -21,6 +21,7 @@ caracteres: 575
 paginas: 1
 hash_contenido: 763d688a8d320255
 lote: "crawl2-documentos"
+titulo_publico: "Información relevante renuncia miembro jd"
 indexar: true
 flags: [ocr]
 ---

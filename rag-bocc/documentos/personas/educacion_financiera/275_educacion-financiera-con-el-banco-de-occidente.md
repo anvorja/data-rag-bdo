@@ -22,6 +22,7 @@ caracteres: 5530
 paginas: null
 hash_contenido: 7395880d26c41fbc
 lote: "lote1"
+titulo_publico: "Educación Financiera con el Banco de Occidente"
 indexar: true
 flags: []
 ---

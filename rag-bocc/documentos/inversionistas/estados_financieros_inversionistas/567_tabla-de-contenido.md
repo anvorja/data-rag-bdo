@@ -21,6 +21,7 @@ caracteres: 78124
 paginas: 39
 hash_contenido: 370a0aa96e63a9f9
 lote: "crawl2-documentos"
+titulo_publico: "Tabla de Contenido"
 vigencia_validada: true
 indexar: true
 flags: []

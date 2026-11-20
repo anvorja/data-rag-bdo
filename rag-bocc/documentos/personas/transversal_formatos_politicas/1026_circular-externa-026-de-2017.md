@@ -21,6 +21,7 @@ caracteres: 47865
 paginas: 10
 hash_contenido: 840453bc16b0d394
 lote: "crawl2-documentos"
+titulo_publico: "Circular externa 026 de 2017"
 indexar: true
 flags: []
 ---

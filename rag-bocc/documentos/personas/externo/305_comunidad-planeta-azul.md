@@ -21,6 +21,7 @@ caracteres: 3262
 paginas: null
 hash_contenido: 247b3927427d3d7a
 lote: "lote1"
+titulo_publico: "Comunidad Planeta Azul"
 indexar: true
 flags: []
 ---

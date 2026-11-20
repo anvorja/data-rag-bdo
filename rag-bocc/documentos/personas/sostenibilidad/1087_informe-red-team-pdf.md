@@ -21,6 +21,7 @@ caracteres: 1492
 paginas: 2
 hash_contenido: 389969ea6f167464
 lote: "crawl2-documentos"
+titulo_publico: "Informe red team pdf"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

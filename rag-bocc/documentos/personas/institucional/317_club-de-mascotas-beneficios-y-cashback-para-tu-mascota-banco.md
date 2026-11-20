@@ -22,6 +22,7 @@ caracteres: 1435
 paginas: null
 hash_contenido: 44b7df94237dfc0d
 lote: "crawl2-paginas"
+titulo_publico: "Club de Mascotas: Beneficios y Cashback para tu Mascota"
 indexar: true
 flags: []
 ---

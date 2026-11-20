@@ -1,0 +1,3846 @@
+{
+"001": {
+"titulo": "Banco de Occidente - Productos y servicios bancarios en línea",
+"fuente": "pagina"
+},
+"002": {
+"titulo": "Navega por nuestro mapa del sitio",
+"fuente": "pagina"
+},
+"003": {
+"titulo": "Quiénes Somos",
+"fuente": "pagina"
+},
+"004": {
+"titulo": "Nuestro Banco",
+"fuente": "pagina"
+},
+"005": {
+"titulo": "Organigrama bdeo 2025 pdf",
+"fuente": "nombre_archivo"
+},
+"006": {
+"titulo": "Dale play a todo tu potencial.",
+"fuente": "pagina"
+},
+"008": {
+"titulo": "home",
+"fuente": "pagina"
+},
+"011": {
+"titulo": "Incentivo a la generación de empleo",
+"fuente": "pagina"
+},
+"012": {
+"titulo": "Defensor del Consumidor Financiero",
+"fuente": "pagina"
+},
+"013": {
+"titulo": "Manuales y Calendarios Tributarios",
+"fuente": "pagina"
+},
+"014": {
+"titulo": "Brochures de productos y servicios",
+"fuente": "pagina"
+},
+"015": {
+"titulo": "Filiales y Vinculadas",
+"fuente": "pagina"
+},
+"016": {
+"titulo": "Servicios Aval",
+"fuente": "pagina"
+},
+"017": {
+"titulo": "Reglamentaciónes",
+"fuente": "pagina"
+},
+"018": {
+"titulo": "Información al proveedor",
+"fuente": "pagina"
+},
+"019": {
+"titulo": "Información para Accionistas",
+"fuente": "pagina"
+},
+"020": {
+"titulo": "Canales Digitales Banco de Occidente",
+"fuente": "pagina"
+},
+"021": {
+"titulo": "Portal Transaccional Banco de Occidente",
+"fuente": "pagina"
+},
+"022": {
+"titulo": "App Móvil Banco de Occidente",
+"fuente": "pagina"
+},
+"023": {
+"titulo": "Visación y Exigibilidades de Libranza Banco de Occidente",
+"fuente": "pagina"
+},
+"024": {
+"titulo": "Segmentos de Clientes Banco de Occidente",
+"fuente": "pagina"
+},
+"025": {
+"titulo": "Clientes Segmento Elite Plus Banco de Occidente",
+"fuente": "pagina"
+},
+"026": {
+"titulo": "Clientes Segmento Preferente Plus Banco de Occidente",
+"fuente": "pagina"
+},
+"027": {
+"titulo": "Brochure elite 2025",
+"fuente": "nombre_archivo"
+},
+"028": {
+"titulo": "Clientes Segmento Preferente Plus Banco de Occidente",
+"fuente": "pagina"
+},
+"029": {
+"titulo": "Brochure digital segmento preferente plus clientes",
+"fuente": "nombre_archivo"
+},
+"030": {
+"titulo": "Clientes Segmento Preferente Banco de Occidente",
+"fuente": "pagina"
+},
+"031": {
+"titulo": "Bochure segmento preferente",
+"fuente": "nombre_archivo"
+},
+"032": {
+"titulo": "Independientes",
+"fuente": "pagina"
+},
+"033": {
+"titulo": "Términos y condiciones: campaña «Soy independiente abro mi cuenta corriente y no estoy solo»",
+"fuente": "primera_linea"
+},
+"034": {
+"titulo": "Clientes Segmento Aval Banco de Occidente",
+"fuente": "pagina"
+},
+"035": {
+"titulo": "Doc empresas de grupo aval",
+"fuente": "nombre_archivo"
+},
+"036": {
+"titulo": "Brochure digital segmento aval",
+"fuente": "nombre_archivo"
+},
+"037": {
+"titulo": "Términos y condiciones: campaña «Conecta aval»",
+"fuente": "primera_linea"
+},
+"038": {
+"titulo": "Licitación Compañías Aseguradoras",
+"fuente": "pagina"
+},
+"039": {
+"titulo": "Instructivo activaciones de cheques",
+"fuente": "nombre_archivo"
+},
+"040": {
+"titulo": "Instructivo descarga de certificados y constancias",
+"fuente": "nombre_archivo"
+},
+"041": {
+"titulo": "Mesa de Dinero Banco de Occidente",
+"fuente": "pagina"
+},
+"042": {
+"titulo": "Operaciones Cambiarias Banco de Occidente",
+"fuente": "pagina"
+},
+"043": {
+"titulo": "Coberturas de Tasa de Cambio Banco de Occidente",
+"fuente": "pagina"
+},
+"044": {
+"titulo": "Coberturas Tasas de Interés Banco de Occidente",
+"fuente": "pagina"
+},
+"045": {
+"titulo": "Instrucciones Permanentes Banco de Occidente",
+"fuente": "pagina"
+},
+"046": {
+"titulo": "Formato solicitud de monetización con instrucciones permanentes",
+"fuente": "nombre_archivo"
+},
+"047": {
+"titulo": "Formato solicitud de giros con instrucciones permanentes",
+"fuente": "nombre_archivo"
+},
+"048": {
+"titulo": "Haz tus pagos",
+"fuente": "pagina"
+},
+"049": {
+"titulo": "Ftp col 137 Formato Vinculación pasarela AvalPay",
+"fuente": "titulo_original"
+},
+"050": {
+"titulo": "Terminos y condiciones campaña de gamificacion",
+"fuente": "titulo_original"
+},
+"053": {
+"titulo": "Transparencia",
+"fuente": "pagina"
+},
+"054": {
+"titulo": "Informe gestión Banco de Occidente 2025",
+"fuente": "nombre_archivo"
+},
+"056": {
+"titulo": "Certificado de carbono neutro",
+"fuente": "nombre_archivo"
+},
+"057": {
+"titulo": "Autorización general para manejo de datos personales",
+"fuente": "nombre_archivo"
+},
+"058": {
+"titulo": "Aviso de privacidad",
+"fuente": "nombre_archivo"
+},
+"059": {
+"titulo": "Certificación sarlaf",
+"fuente": "nombre_archivo"
+},
+"060": {
+"titulo": "Código de ética y conducta banco de occidente",
+"fuente": "nombre_archivo"
+},
+"061": {
+"titulo": "Política ambiental cambio climático",
+"fuente": "nombre_archivo"
+},
+"062": {
+"titulo": "Política de derechos humanos",
+"fuente": "nombre_archivo"
+},
+"063": {
+"titulo": "Política de inversión social",
+"fuente": "nombre_archivo"
+},
+"064": {
+"titulo": "Política de salud y seguridad en el trabajo",
+"fuente": "nombre_archivo"
+},
+"065": {
+"titulo": "Política de sostenibilidad",
+"fuente": "nombre_archivo"
+},
+"066": {
+"titulo": "Política de tratamiento de datos personales",
+"fuente": "nombre_archivo"
+},
+"067": {
+"titulo": "Política fiscal",
+"fuente": "nombre_archivo"
+},
+"068": {
+"titulo": "Política finanzas sostenibles",
+"fuente": "nombre_archivo"
+},
+"069": {
+"titulo": "Programa anticorrupción",
+"fuente": "nombre_archivo"
+},
+"070": {
+"titulo": "Reglamento junta directiva",
+"fuente": "nombre_archivo"
+},
+"071": {
+"titulo": "Ayuda y Asesoría en Productos y Servicios Banco de Occidente",
+"fuente": "pagina"
+},
+"072": {
+"titulo": "Seguridad y Fraude Banco de Occidente",
+"fuente": "pagina"
+},
+"073": {
+"titulo": "Token Mobile",
+"fuente": "pagina"
+},
+"074": {
+"titulo": "Token mobile",
+"fuente": "nombre_archivo"
+},
+"075": {
+"titulo": "Líneas de Servicio al Cliente Banco de Occidente",
+"fuente": "pagina"
+},
+"076": {
+"titulo": "Solicita Productos del Banco por WhatsApp Fácil y Rápido",
+"fuente": "pagina"
+},
+"077": {
+"titulo": "Agentes autorizados whatsapp",
+"fuente": "nombre_archivo"
+},
+"078": {
+"titulo": "Línea Asesor en Negociación Banco de Occidente",
+"fuente": "pagina"
+},
+"079": {
+"titulo": "Políticas para la gestión de cobro gnc",
+"fuente": "nombre_archivo"
+},
+"080": {
+"titulo": "Términos y condiciones: campaña «Estamos de tu lado»",
+"fuente": "primera_linea"
+},
+"082": {
+"titulo": "Corresponsales - Empresas",
+"fuente": "pagina"
+},
+"083": {
+"titulo": "Preguntas Frecuentes Banco de Occidente",
+"fuente": "pagina"
+},
+"084": {
+"titulo": "Preguntas Frecuentas Empresas - Empresas",
+"fuente": "pagina"
+},
+"086": {
+"titulo": "Reversión de Pagos Banco de Occidente",
+"fuente": "pagina"
+},
+"087": {
+"titulo": "Proceso reversión pago",
+"fuente": "nombre_archivo"
+},
+"088": {
+"titulo": "Formulario reversión de pago",
+"fuente": "nombre_archivo"
+},
+"089": {
+"titulo": "Norma Función Pública (gestor normativo) i=69037",
+"fuente": "titulo_original"
+},
+"090": {
+"titulo": "Decreto 587 2016",
+"fuente": "nombre_archivo"
+},
+"091": {
+"titulo": "Tarjetas de Crédito con Beneficios Exclusivos",
+"fuente": "pagina"
+},
+"092": {
+"titulo": "Términos y condiciones Mujeres que hacen que las cosas pasen Ajustes",
+"fuente": "nombre_archivo"
+},
+"093": {
+"titulo": "Tarjeta de Crédito LATAM Pass Gold Banco de Occidente",
+"fuente": "pagina"
+},
+"094": {
+"titulo": "Contrato de productos y servicios persona natural",
+"fuente": "titulo_original"
+},
+"095": {
+"titulo": "Formato unificado de vinculación para Persona Natural fto mis 37",
+"fuente": "titulo_original"
+},
+"096": {
+"titulo": "Solicitud de producto",
+"fuente": "titulo_original"
+},
+"097": {
+"titulo": "Tasas personas Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"098": {
+"titulo": "Causales de negación o modificación de créditos preabrobados 1",
+"fuente": "titulo_original"
+},
+"099": {
+"titulo": "Términos y Condiciones Embajadores Unicef 2026",
+"fuente": "titulo_original"
+},
+"100": {
+"titulo": "Términos y Condiciones Activa tu tarjeta de crédito Unicef y conviértete en embajador 2026",
+"fuente": "titulo_original"
+},
+"101": {
+"titulo": "LATAM Pass - Nuevo proceso Promocodes",
+"fuente": "pagina"
+},
+"102": {
+"titulo": "Puntos Calificables y categorías Elite en Colombia | LATAM Pass",
+"fuente": "pagina"
+},
+"103": {
+"titulo": "Promociones con Tarjetas de Crédito Banco de Occidente",
+"fuente": "pagina"
+},
+"104": {
+"titulo": "Promociones con Tarjetas de CrÃ©dito Banco de Occidente",
+"fuente": "pagina"
+},
+"105": {
+"titulo": "Tarjeta de Crédito Credencial Free Sin Cuota de Manejo​",
+"fuente": "pagina"
+},
+"106": {
+"titulo": "Guia de uso tarjeta de crédito free",
+"fuente": "nombre_archivo"
+},
+"107": {
+"titulo": "Tarjeta de Crédito Mastercard Black Banco de Occidente",
+"fuente": "pagina"
+},
+"108": {
+"titulo": "Guia de uso black 2026",
+"fuente": "nombre_archivo"
+},
+"109": {
+"titulo": "Tarjeta de Crédito Credencial Platinum Banco de Occidente",
+"fuente": "pagina"
+},
+"110": {
+"titulo": "Guia de uso tarjeta de crédito credencial platinum",
+"fuente": "nombre_archivo"
+},
+"111": {
+"titulo": "Tarjeta de Crédito LATAM Pass Clásica Banco de Occidente",
+"fuente": "pagina"
+},
+"112": {
+"titulo": "Guia de uso tarjeta de crédito credencial latam pass mercadeo",
+"fuente": "nombre_archivo"
+},
+"113": {
+"titulo": "Tarjeta de Crédito Visa Infinite Banco de Occidente",
+"fuente": "pagina"
+},
+"114": {
+"titulo": "Credencial visa infinite",
+"fuente": "nombre_archivo"
+},
+"115": {
+"titulo": "Tarjeta de Crédito Mastercard UNICEF Banco de Occidente​",
+"fuente": "pagina"
+},
+"116": {
+"titulo": "Guías de uso unicef",
+"fuente": "nombre_archivo"
+},
+"117": {
+"titulo": "Tarjetas de Crédito Visa y Mastercard Clásica Banco de Occidente",
+"fuente": "pagina"
+},
+"118": {
+"titulo": "Guia de uso tarjeta de crédito credencial clásica",
+"fuente": "nombre_archivo"
+},
+"119": {
+"titulo": "Tarjeta de Crédito Digital OcciFlex Banco de Occidente​",
+"fuente": "pagina"
+},
+"120": {
+"titulo": "Occiflex guiadeuso 19 abr 24 alta",
+"fuente": "nombre_archivo"
+},
+"121": {
+"titulo": "Tarjetas de Crédito Visa LATAM Pass",
+"fuente": "pagina"
+},
+"122": {
+"titulo": "Tarjetas de Crédito Visa y Mastercard Premium",
+"fuente": "pagina"
+},
+"123": {
+"titulo": "Tarjeta de Crédito MasterCard Unicef",
+"fuente": "pagina"
+},
+"124": {
+"titulo": "Tarjetas de Crédito Clásicas",
+"fuente": "pagina"
+},
+"125": {
+"titulo": "Asistencias Tarjetas de Crédito",
+"fuente": "pagina"
+},
+"126": {
+"titulo": "Condicionado asistencia auto banco de occidente",
+"fuente": "nombre_archivo"
+},
+"127": {
+"titulo": "Condicionado asistencia en viaje internacional banco de occidente",
+"fuente": "nombre_archivo"
+},
+"128": {
+"titulo": "Condicionado asistencia en viaje nacional banco de occidente",
+"fuente": "nombre_archivo"
+},
+"129": {
+"titulo": "Condicionado asistencia hogar y empresas banco de occidente",
+"fuente": "nombre_archivo"
+},
+"130": {
+"titulo": "Paquete Mínimo de Servicios",
+"fuente": "pagina"
+},
+"131": {
+"titulo": "Activacion TC",
+"fuente": "pagina"
+},
+"132": {
+"titulo": "Priority pass",
+"fuente": "pagina"
+},
+"133": {
+"titulo": "Paso a Paso TC",
+"fuente": "pagina"
+},
+"134": {
+"titulo": "Consulta de beneficios TC comerciales",
+"fuente": "pagina"
+},
+"135": {
+"titulo": "Créditos Banco de Occidente: Financia Tus Proyectos Hoy",
+"fuente": "pagina"
+},
+"136": {
+"titulo": "Solicita tu Crédito de Libre Inversión con Banco de Occidente",
+"fuente": "pagina"
+},
+"137": {
+"titulo": "Crédito de Libre Inversión en línea",
+"fuente": "pagina"
+},
+"138": {
+"titulo": "Crédito de Libranza para Pensionados y Empleados",
+"fuente": "pagina"
+},
+"139": {
+"titulo": "Guia de uso para crédito de libranza",
+"fuente": "nombre_archivo"
+},
+"140": {
+"titulo": "Compra de Cartera Banco de Occidente: Unifica tus Deudas​",
+"fuente": "pagina"
+},
+"141": {
+"titulo": "Guia de uso para prestamo personal",
+"fuente": "nombre_archivo"
+},
+"142": {
+"titulo": "Crédito Rotativo Banco de Occidente: Soluciones a tu Medida",
+"fuente": "pagina"
+},
+"143": {
+"titulo": "Guia de uso crédito rotativo",
+"fuente": "nombre_archivo"
+},
+"144": {
+"titulo": "Crédito Cartera Ordinaria Banco de Occidente para tu Negocio",
+"fuente": "pagina"
+},
+"145": {
+"titulo": "Tasas personas 2025",
+"fuente": "nombre_archivo"
+},
+"146": {
+"titulo": "Occiauto: Crédito para Compra de Vehículo Nuevo o Usado",
+"fuente": "pagina"
+},
+"147": {
+"titulo": "Pide tu crédito de vehículo Occiauto",
+"fuente": "pagina"
+},
+"148": {
+"titulo": "Compra de Cartera de Crédito de Vehículo Banco de Occidente",
+"fuente": "pagina"
+},
+"149": {
+"titulo": "Guía de Uso Vehículos Livianos (Carta de",
+"fuente": "primera_linea"
+},
+"150": {
+"titulo": "Crédito para Vehículos Productivos de Carga y Pasajeros",
+"fuente": "pagina"
+},
+"151": {
+"titulo": "Crédito para Motos Nuevas o Usadas del Banco de Occidente",
+"fuente": "pagina"
+},
+"152": {
+"titulo": "Créditos de Vivienda: Compra, Construye o Remodela tu Hogar",
+"fuente": "pagina"
+},
+"153": {
+"titulo": "Crédito de Vivienda en Colombia",
+"fuente": "pagina"
+},
+"154": {
+"titulo": "Crédito Hipotecario para Remodelación de Vivienda",
+"fuente": "pagina"
+},
+"155": {
+"titulo": "Crédito Hipotecario para Compra de Vivienda Nueva o Usada",
+"fuente": "pagina"
+},
+"156": {
+"titulo": "Fto col 987 pagaré crédito hipotecario en pesos",
+"fuente": "nombre_archivo"
+},
+"157": {
+"titulo": "Fto col 988 pagaré crédito hipotecario en uvr",
+"fuente": "nombre_archivo"
+},
+"158": {
+"titulo": "Guia de producto creedito hipotecario",
+"fuente": "nombre_archivo"
+},
+"159": {
+"titulo": "Compra de Cartera de Crédito Hipotecario Banco de Occidente",
+"fuente": "pagina"
+},
+"160": {
+"titulo": "Proyectos subrogados activos",
+"fuente": "nombre_archivo"
+},
+"161": {
+"titulo": "Leasing Habitacional para Compra de Vivienda Banco de Occidente",
+"fuente": "pagina"
+},
+"162": {
+"titulo": "Crédito para Construcción de Vivienda​ Banco de Occidente",
+"fuente": "pagina"
+},
+"163": {
+"titulo": "Guia de producto leasing habitacional",
+"fuente": "nombre_archivo"
+},
+"164": {
+"titulo": "Acta de entrega constancia recibo bienes cliente vivienda",
+"fuente": "titulo_original"
+},
+"165": {
+"titulo": "Contrato leasing habitacional no familiar en pesos tasa fija",
+"fuente": "titulo_original"
+},
+"166": {
+"titulo": "Contrato leasing habitacional vivienda familiar en uvr",
+"fuente": "titulo_original"
+},
+"167": {
+"titulo": "Contrato leasing habitacional destinado a vivienda no familiar en uvr",
+"fuente": "titulo_original"
+},
+"168": {
+"titulo": "Pagare para operaciones Leasing",
+"fuente": "titulo_original"
+},
+"171": {
+"titulo": "Cesión de Derechos en Leasing Habitacional Banco de Occidente",
+"fuente": "pagina"
+},
+"173": {
+"titulo": "Formato solicitud de productos persona natural",
+"fuente": "nombre_archivo"
+},
+"174": {
+"titulo": "Términos y condiciones campaña libre inversión",
+"fuente": "titulo_original"
+},
+"179": {
+"titulo": "Ahorros e Inversión con Banco de Occidente",
+"fuente": "pagina"
+},
+"180": {
+"titulo": "CDT Banco de Occidente: Inversión Segura y Rentable",
+"fuente": "pagina"
+},
+"181": {
+"titulo": "Guia de uso CDT",
+"fuente": "nombre_archivo"
+},
+"182": {
+"titulo": "Términos y condiciones: campaña «Tu prima en manos BdeO – 1de junio al 30 de junio del 2026»",
+"fuente": "primera_linea"
+},
+"183": {
+"titulo": "Términos y condiciones: campaña «Intereses CDT»",
+"fuente": "primera_linea"
+},
+"184": {
+"titulo": "Occirenta: Fondos de Inversión Colectiva en Renta Fija",
+"fuente": "pagina"
+},
+"185": {
+"titulo": "Cuenta Offshore en Dólares",
+"fuente": "pagina"
+},
+"186": {
+"titulo": "Quiénes Somos - www.occidentalbankbarbados.com",
+"fuente": "pagina"
+},
+"187": {
+"titulo": "Productos y Servicios - www.occidentalbankbarbados.com",
+"fuente": "pagina"
+},
+"188": {
+"titulo": "Seguros para Personas: Vivienda, Vehículos, Mascotas y más",
+"fuente": "pagina"
+},
+"189": {
+"titulo": "Seguro de Incendio y Terremoto | Vivienda Protegida",
+"fuente": "pagina"
+},
+"190": {
+"titulo": "Brochure incendio y terremoto alfa 2024 2026",
+"fuente": "nombre_archivo"
+},
+"191": {
+"titulo": "Protege los Contenidos de tu Hogar |Vivienda Protegida",
+"fuente": "pagina"
+},
+"192": {
+"titulo": "Brochure seguros vivienda 15 feb 2023",
+"fuente": "nombre_archivo"
+},
+"193": {
+"titulo": "Seguro Cuota Protegida para tu Crédito de Vivienda",
+"fuente": "pagina"
+},
+"194": {
+"titulo": "Seguro de Vida \"Vive la Vida\" Banco de Occidente",
+"fuente": "pagina"
+},
+"195": {
+"titulo": "6914 condicionado sfc",
+"fuente": "nombre_archivo"
+},
+"196": {
+"titulo": "Seguro de Accidentes integral",
+"fuente": "pagina"
+},
+"197": {
+"titulo": "Guest",
+"fuente": "nombre_archivo"
+},
+"198": {
+"titulo": "Seguro para vehículos Banco de Occidente",
+"fuente": "pagina"
+},
+"200": {
+"titulo": "Seguro Cuota Protegida para Vehículos Banco de Occidente",
+"fuente": "pagina"
+},
+"201": {
+"titulo": "Seguro todo riesgo para tu carro Banco de Occidente",
+"fuente": "pagina"
+},
+"202": {
+"titulo": "Seguro todo riesgo para tu moto Banco de Occidente",
+"fuente": "pagina"
+},
+"203": {
+"titulo": "Seguro Cuota Protegida Transportador Banco de Occidente",
+"fuente": "pagina"
+},
+"204": {
+"titulo": "Solicitud vinculación persona natural",
+"fuente": "nombre_archivo"
+},
+"205": {
+"titulo": "Fo cdf 1418 hallproducto 6928 6930",
+"fuente": "nombre_archivo"
+},
+"207": {
+"titulo": "Desempleo autos 6930",
+"fuente": "nombre_archivo"
+},
+"208": {
+"titulo": "Itt autos 6929",
+"fuente": "nombre_archivo"
+},
+"209": {
+"titulo": "Seguro para vehículos pesados Banco de Occidente",
+"fuente": "pagina"
+},
+"210": {
+"titulo": "Viaja Tranquilo con el Seguro de Viaje Banco de Occidente",
+"fuente": "pagina"
+},
+"211": {
+"titulo": "Seguro de Viaje Assist Card",
+"fuente": "pagina"
+},
+"212": {
+"titulo": "GetDocument",
+"fuente": "titulo_original"
+},
+"213": {
+"titulo": "Seguro para Mascotas - Protección Completa para tu Compañero",
+"fuente": "pagina"
+},
+"215": {
+"titulo": "Banco de occidente tu mascota tranquila",
+"fuente": "nombre_archivo"
+},
+"216": {
+"titulo": "Servicios de Asistencia en Salud Banco de Occidente",
+"fuente": "pagina"
+},
+"217": {
+"titulo": "Consulta Médica Domiciliaria y Teleconsulta 24/7 - Emermédica",
+"fuente": "pagina"
+},
+"218": {
+"titulo": "Seguro Estamos Contigo con Cobertura por Cáncer",
+"fuente": "pagina"
+},
+"219": {
+"titulo": "Vive la Vida Seguro de Vida Banco de Occidente",
+"fuente": "pagina"
+},
+"220": {
+"titulo": "Seguro de Desempleo Cuota Protegida Independientes",
+"fuente": "pagina"
+},
+"221": {
+"titulo": "Click to Pay",
+"fuente": "pagina"
+},
+"222": {
+"titulo": "Termios y condiciones click to pay visa",
+"fuente": "nombre_archivo"
+},
+"224": {
+"titulo": "Referidos",
+"fuente": "pagina"
+},
+"225": {
+"titulo": "Portafolio Digital",
+"fuente": "pagina"
+},
+"226": {
+"titulo": "Tarifas Productos y Servicios 2026",
+"fuente": "pagina"
+},
+"227": {
+"titulo": "Tarifas persona Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"228": {
+"titulo": "Tarifas empresariales Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"229": {
+"titulo": "Tasas personas Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"230": {
+"titulo": "Tasas empresariales Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"231": {
+"titulo": "Comisiones cobradas por agregadores a comercios 0726",
+"fuente": "titulo_original"
+},
+"232": {
+"titulo": "Consolidado Publicaciones 2Q 2026",
+"fuente": "titulo_original"
+},
+"233": {
+"titulo": "Mastercard Colombia Administradora S.A. | Mastercard Colombia",
+"fuente": "pagina"
+},
+"234": {
+"titulo": "Descubre las cuentas del Banco de Occidente y elige la tuya",
+"fuente": "pagina"
+},
+"235": {
+"titulo": "Cuenta de Ahorros - Banco Occidente",
+"fuente": "pagina"
+},
+"236": {
+"titulo": "Abre tu Cuenta de Nómina Online en el Banco de Occidente",
+"fuente": "pagina"
+},
+"237": {
+"titulo": "Cuenta de Ahorros para Pensionados Banco de Occidente",
+"fuente": "pagina"
+},
+"238": {
+"titulo": "Guia de uso cuenta de pensión",
+"fuente": "nombre_archivo"
+},
+"239": {
+"titulo": "Cuenta AFC Banco de Occidente para Ahorrar para tu Vivienda",
+"fuente": "pagina"
+},
+"240": {
+"titulo": "Guia de uso cuenta afc 022020",
+"fuente": "nombre_archivo"
+},
+"241": {
+"titulo": "Seguro de Depósitos Fogafin",
+"fuente": "pagina"
+},
+"242": {
+"titulo": "En esta guía de uso encontrará toda la información necesaria para que conozca y",
+"fuente": "primera_linea"
+},
+"243": {
+"titulo": "Cuenta Corriente Banco de Occidente para Manejar tu dinero fácil",
+"fuente": "pagina"
+},
+"244": {
+"titulo": "Cuenta Corriente de uso exclusivo para colombianos en el exterior",
+"fuente": "primera_linea"
+},
+"245": {
+"titulo": "Kubo",
+"fuente": "pagina"
+},
+"246": {
+"titulo": "Términos y condiciones: campaña «Mi Primer Aporte»",
+"fuente": "primera_linea"
+},
+"247": {
+"titulo": "Términos y condiciones: campaña «Impulsa tu Kubo Rentable 2026»",
+"fuente": "primera_linea"
+},
+"249": {
+"titulo": "Bre-B",
+"fuente": "pagina"
+},
+"250": {
+"titulo": "Cajeros Automáticos",
+"fuente": "pagina"
+},
+"251": {
+"titulo": "Sistema Kubo",
+"fuente": "pagina"
+},
+"252": {
+"titulo": "Apple Pay Tarjeta Débito",
+"fuente": "pagina"
+},
+"253": {
+"titulo": "Uso de Las Tarjetas Banco de Occidente en billetera Apple Pay",
+"fuente": "primera_linea"
+},
+"254": {
+"titulo": "Google Pay Tarjeta Débito",
+"fuente": "pagina"
+},
+"255": {
+"titulo": "Google Wallet",
+"fuente": "pagina"
+},
+"256": {
+"titulo": "Cuenta Activa",
+"fuente": "pagina"
+},
+"257": {
+"titulo": "Portafolios Integrales",
+"fuente": "pagina"
+},
+"258": {
+"titulo": "Legal y Políticas",
+"fuente": "pagina"
+},
+"259": {
+"titulo": "Políticas Redes Sociales",
+"fuente": "pagina"
+},
+"260": {
+"titulo": "Políticas de Cookies",
+"fuente": "pagina"
+},
+"261": {
+"titulo": "Política de Tratamiento de Datos Personales",
+"fuente": "pagina"
+},
+"262": {
+"titulo": "Fto ser 112 Autorizacion General para Manejo de Datos Personales",
+"fuente": "titulo_original"
+},
+"264": {
+"titulo": "Anx apy 882 aviso de privacidad banco de occidente",
+"fuente": "nombre_archivo"
+},
+"265": {
+"titulo": "Legislación anterior centrales de riesgo",
+"fuente": "nombre_archivo"
+},
+"266": {
+"titulo": "Ley 266 habeas data",
+"fuente": "nombre_archivo"
+},
+"267": {
+"titulo": "Sentencia permanencia del reporte negativo",
+"fuente": "nombre_archivo"
+},
+"268": {
+"titulo": "Reglamentación incumplimiento de obligaciones",
+"fuente": "nombre_archivo"
+},
+"269": {
+"titulo": "Ley 2157 de habeas data",
+"fuente": "nombre_archivo"
+},
+"270": {
+"titulo": "Norma Función Pública (gestor normativo) i=173246",
+"fuente": "titulo_original"
+},
+"271": {
+"titulo": "Términos y Condiciones",
+"fuente": "pagina"
+},
+"272": {
+"titulo": "Ley Borrón y Cuenta Nueva",
+"fuente": "pagina"
+},
+"273": {
+"titulo": "Cuenta Activa Básica",
+"fuente": "pagina"
+},
+"274": {
+"titulo": "Licitación Compañías Aseguradoras",
+"fuente": "pagina"
+},
+"275": {
+"titulo": "Educación Financiera con el Banco de Occidente",
+"fuente": "pagina"
+},
+"276": {
+"titulo": "¿Qué es una cuenta bancaria y cuáles son los diferentes tipos que existen?",
+"fuente": "pagina"
+},
+"277": {
+"titulo": "¿Quieres comprar vehículo usado?",
+"fuente": "pagina"
+},
+"278": {
+"titulo": "Los otros gastos que debes considerar al comprar un vehículo",
+"fuente": "pagina"
+},
+"279": {
+"titulo": "¿Cómo hacer compras con tarjeta de crédito y sacarle mejor provecho?",
+"fuente": "pagina"
+},
+"280": {
+"titulo": "Haz un presupuesto y ten control de tus finanzas",
+"fuente": "pagina"
+},
+"281": {
+"titulo": "Conoce las ventajas de un Crédito de Libre Inversión",
+"fuente": "pagina"
+},
+"282": {
+"titulo": "Tu Patrimonio: Conócelo y proyecta el futuro",
+"fuente": "pagina"
+},
+"283": {
+"titulo": "Todo sobre el fondo de emergencia: del porque al cuanto",
+"fuente": "pagina"
+},
+"284": {
+"titulo": "Latam Pass, la Tarjeta de Crédito especialmente diseñada para viajeros, de Banco de Occidente",
+"fuente": "pagina"
+},
+"285": {
+"titulo": "Consejos para manejar tu dinero",
+"fuente": "pagina"
+},
+"286": {
+"titulo": "Consejos para comprar carro nuevo y ser feliz con tu nave",
+"fuente": "pagina"
+},
+"287": {
+"titulo": "Las ventajas de tener un seguro Todo Riesgo para tu vehículo",
+"fuente": "pagina"
+},
+"288": {
+"titulo": "Compra de cartera, una alternativa para administrar mejor tus deudas",
+"fuente": "pagina"
+},
+"289": {
+"titulo": "Así puedes reducir el consumo de gasolina de tu vehículo",
+"fuente": "pagina"
+},
+"290": {
+"titulo": "El ahorro: Conócelo y úsalo",
+"fuente": "pagina"
+},
+"291": {
+"titulo": "Descubre todo sobre las tasas de interés en Colombia: ¿Qué son y cómo te afectan?",
+"fuente": "pagina"
+},
+"292": {
+"titulo": "Recomendaciones de seguridad al usar medios digitales en tus finanzas personales",
+"fuente": "pagina"
+},
+"293": {
+"titulo": "Ventajas de los vehículos híbridos, desde proteger el ambiente hasta un crédito especial",
+"fuente": "pagina"
+},
+"294": {
+"titulo": "¿Cómo mantener un buen historial crediticio?",
+"fuente": "pagina"
+},
+"295": {
+"titulo": "Sostenibilidad Banco de Occidente",
+"fuente": "pagina"
+},
+"296": {
+"titulo": "Hitos - Informe Gestión",
+"fuente": "pagina"
+},
+"298": {
+"titulo": "Capítulo 3 informe gestión",
+"fuente": "nombre_archivo"
+},
+"299": {
+"titulo": "Estados financieros separados 2025",
+"fuente": "nombre_archivo"
+},
+"300": {
+"titulo": "Estados financieros consolidados 2025",
+"fuente": "nombre_archivo"
+},
+"301": {
+"titulo": "Crédito para Vehículos Eléctricos e Híbridos Banco de Occidente",
+"fuente": "pagina"
+},
+"305": {
+"titulo": "Comunidad Planeta Azul",
+"fuente": "pagina"
+},
+"306": {
+"titulo": "Asamblea de Accionistas",
+"fuente": "pagina"
+},
+"307": {
+"titulo": "Capítulo 1 infrome gestión",
+"fuente": "nombre_archivo"
+},
+"308": {
+"titulo": "Gestión Sostenible",
+"fuente": "pagina"
+},
+"309": {
+"titulo": "Alianza Crédito Porvenir",
+"fuente": "pagina"
+},
+"310": {
+"titulo": "Apple Pay",
+"fuente": "pagina"
+},
+"312": {
+"titulo": "Asistencias Tarjetas de Crédito",
+"fuente": "pagina"
+},
+"313": {
+"titulo": "Asistencias Tarjetas de Crédito",
+"fuente": "pagina"
+},
+"314": {
+"titulo": "Asistencias Tarjetas de Crédito",
+"fuente": "pagina"
+},
+"315": {
+"titulo": "Banco de las Empresas",
+"fuente": "pagina"
+},
+"316": {
+"titulo": "Bienes para la venta",
+"fuente": "pagina"
+},
+"317": {
+"titulo": "Club de Mascotas: Beneficios y Cashback para tu Mascota",
+"fuente": "pagina"
+},
+"318": {
+"titulo": "Crédito de Vivienda para Colombianos en el Exterior",
+"fuente": "pagina"
+},
+"319": {
+"titulo": "Crédito para Carro Nuevo o Usado Banco de Occidente",
+"fuente": "pagina"
+},
+"320": {
+"titulo": "Préstamo Personal Banco de Occidente: Fácil y Rápido",
+"fuente": "pagina"
+},
+"321": {
+"titulo": "Crédito para Mejora de Vivienda​ Banco de Occidente",
+"fuente": "pagina"
+},
+"322": {
+"titulo": "Crédito con Pensiones Voluntarias Banco de Occidente",
+"fuente": "pagina"
+},
+"323": {
+"titulo": "Cuenta de Ahorros Digital",
+"fuente": "pagina"
+},
+"324": {
+"titulo": "Tarjeta Débito Banco de Occidente con Beneficios Imperdibles",
+"fuente": "pagina"
+},
+"325": {
+"titulo": "De tu lado",
+"fuente": "pagina"
+},
+"326": {
+"titulo": "Duplica tu saldo",
+"fuente": "pagina"
+},
+"327": {
+"titulo": "Ecosistema Kubo",
+"fuente": "pagina"
+},
+"328": {
+"titulo": "Certificado de Reembolso Tributario (CERT) - Empresas",
+"fuente": "pagina"
+},
+"329": {
+"titulo": "Formulario Autorización",
+"fuente": "pagina"
+},
+"330": {
+"titulo": "Foros tributarios 2026",
+"fuente": "pagina"
+},
+"331": {
+"titulo": "Mijitos, acá hay beneficios para rato",
+"fuente": "pagina"
+},
+"332": {
+"titulo": "Home Trabaja con Nosotros",
+"fuente": "pagina"
+},
+"333": {
+"titulo": "Icesi",
+"fuente": "pagina"
+},
+"335": {
+"titulo": "Nuestros Beneficios",
+"fuente": "pagina"
+},
+"336": {
+"titulo": "Portafolios de Inversión",
+"fuente": "pagina"
+},
+"337": {
+"titulo": "Prestamo Personal Dinámico",
+"fuente": "pagina"
+},
+"338": {
+"titulo": "Proyectos de vivienda",
+"fuente": "pagina"
+},
+"339": {
+"titulo": "Proyectos Vivienda",
+"fuente": "pagina"
+},
+"340": {
+"titulo": "prueba html",
+"fuente": "pagina"
+},
+"342": {
+"titulo": "Seguro Cuota Protegida para tu Crédito de Vivienda",
+"fuente": "pagina"
+},
+"343": {
+"titulo": "Asistencia Total: Hogar, Vial y Médica en un Solo Lugar",
+"fuente": "pagina"
+},
+"344": {
+"titulo": "Asistencias para Salud, Hogar y Vehículo",
+"fuente": "pagina"
+},
+"345": {
+"titulo": "Seguro Cuenta Protegida Plus Banco de Occidente",
+"fuente": "pagina"
+},
+"346": {
+"titulo": "Seguro de Desempleo Cuota Protegida Empleados Banco de Occidente",
+"fuente": "pagina"
+},
+"347": {
+"titulo": "Seguro Cuota Protegida Libranza Banco de Occidente",
+"fuente": "pagina"
+},
+"348": {
+"titulo": "Cuota Protegida",
+"fuente": "pagina"
+},
+"349": {
+"titulo": "Pensionados Protegidos",
+"fuente": "pagina"
+},
+"350": {
+"titulo": "Protección Fuerzas Armadas",
+"fuente": "pagina"
+},
+"351": {
+"titulo": "Vive la Vida",
+"fuente": "pagina"
+},
+"352": {
+"titulo": "Seguro para Mascotas - Protege a tu Perro o Gato",
+"fuente": "pagina"
+},
+"353": {
+"titulo": "Cuota Protegida Préstamo Personal y Cuenta Activa",
+"fuente": "pagina"
+},
+"354": {
+"titulo": "Asegura tu futuro con los productos del Banco de Occidente",
+"fuente": "pagina"
+},
+"355": {
+"titulo": "Seguro Cuota Protegida Libranza",
+"fuente": "pagina"
+},
+"356": {
+"titulo": "Seguro Vive la vida Tarjeta Crédito Banco de Occidente",
+"fuente": "pagina"
+},
+"357": {
+"titulo": "Seguro de Vivienda | Protege tu Hogar con Banco de Occidente",
+"fuente": "pagina"
+},
+"358": {
+"titulo": "Solicitar Crédito",
+"fuente": "pagina"
+},
+"359": {
+"titulo": "Talento Joven",
+"fuente": "pagina"
+},
+"360": {
+"titulo": "Asistencias Tarjetas de Crédito",
+"fuente": "pagina"
+},
+"361": {
+"titulo": "Tarjeta de Crédito LATAM Pass Platinum Banco de Occidente",
+"fuente": "pagina"
+},
+"362": {
+"titulo": "Tarjeta de Crédito LATAM Pass Signature Banco de Occidente",
+"fuente": "pagina"
+},
+"363": {
+"titulo": "Tarjeta de Crédito Mastercard Joven Banco de Occidente",
+"fuente": "pagina"
+},
+"364": {
+"titulo": "Tarjetas de Crédito Visa y Mastercard Gold Banco de Occidente",
+"fuente": "pagina"
+},
+"365": {
+"titulo": "Tarjeta de Crédito Santafé Banco de Occidente​",
+"fuente": "pagina"
+},
+"366": {
+"titulo": "Descuentos para tus Mascotas con la Tarjeta Banco de Occidente",
+"fuente": "pagina"
+},
+"367": {
+"titulo": "Tienda Rigo",
+"fuente": "pagina"
+},
+"368": {
+"titulo": "Trabaja con nosotros",
+"fuente": "pagina"
+},
+"369": {
+"titulo": "Productos Financieros para Tu Empresa",
+"fuente": "pagina"
+},
+"370": {
+"titulo": "Bre-B | Gou Plus - Empresas",
+"fuente": "pagina"
+},
+"371": {
+"titulo": "Pasarela de Pagos AvalPay",
+"fuente": "pagina"
+},
+"372": {
+"titulo": "App Móvil para Empresas",
+"fuente": "pagina"
+},
+"373": {
+"titulo": "Host to Host",
+"fuente": "pagina"
+},
+"374": {
+"titulo": "OcciRed Portal Empresarial",
+"fuente": "pagina"
+},
+"375": {
+"titulo": "Supply Factor - Empresas",
+"fuente": "pagina"
+},
+"376": {
+"titulo": "SWIFT Envía y Recibe Pagos Internacionales",
+"fuente": "pagina"
+},
+"377": {
+"titulo": "Web Service",
+"fuente": "pagina"
+},
+"378": {
+"titulo": "Crédito de Tesorería Empresarial",
+"fuente": "pagina"
+},
+"379": {
+"titulo": "Créditos para Empresas",
+"fuente": "pagina"
+},
+"380": {
+"titulo": "Créditos Bancóldex",
+"fuente": "pagina"
+},
+"381": {
+"titulo": "Cartera Ordinaria",
+"fuente": "pagina"
+},
+"382": {
+"titulo": "Crédito Constructor",
+"fuente": "pagina"
+},
+"383": {
+"titulo": "Créditos Finagro",
+"fuente": "pagina"
+},
+"384": {
+"titulo": "Créditos Findeter",
+"fuente": "pagina"
+},
+"385": {
+"titulo": "Crédito de Fomento",
+"fuente": "pagina"
+},
+"386": {
+"titulo": "Crédito para Maquinaria y Equipo",
+"fuente": "pagina"
+},
+"387": {
+"titulo": "Crédito Rotativo PYME",
+"fuente": "pagina"
+},
+"388": {
+"titulo": "Cuentas Empresariales",
+"fuente": "pagina"
+},
+"389": {
+"titulo": "Cuenta Corriente Empresarial",
+"fuente": "pagina"
+},
+"390": {
+"titulo": "Cuenta de Ahorros Empresarial",
+"fuente": "pagina"
+},
+"391": {
+"titulo": "Cuentas Maestras",
+"fuente": "pagina"
+},
+"392": {
+"titulo": "Canales Digitales para Empresas",
+"fuente": "pagina"
+},
+"393": {
+"titulo": "Factoring - Pago Anticipado Facturas l Banco de Occidente - Empresas",
+"fuente": "pagina"
+},
+"394": {
+"titulo": "Póliza de Seguro de Crédito Factoring",
+"fuente": "pagina"
+},
+"395": {
+"titulo": "Confirming l Banco de Occidente - Empresas",
+"fuente": "pagina"
+},
+"396": {
+"titulo": "Unidirecto - Facilita Pago a Proveedores",
+"fuente": "pagina"
+},
+"397": {
+"titulo": "Soluciones de Inversión para Empresas",
+"fuente": "pagina"
+},
+"398": {
+"titulo": "Aternativas Inversiones Empresariales",
+"fuente": "pagina"
+},
+"399": {
+"titulo": "Inversiones Empresariales - CDT",
+"fuente": "pagina"
+},
+"400": {
+"titulo": "Mesa de Dinero para Empresas",
+"fuente": "pagina"
+},
+"401": {
+"titulo": "Líneas Verdes - Empresas",
+"fuente": "pagina"
+},
+"402": {
+"titulo": "Leasing para Empresas",
+"fuente": "pagina"
+},
+"403": {
+"titulo": "Aliados Leasing Empresarial",
+"fuente": "pagina"
+},
+"404": {
+"titulo": "Leasing de Importación",
+"fuente": "pagina"
+},
+"405": {
+"titulo": "Leasing Inmobiliario",
+"fuente": "pagina"
+},
+"406": {
+"titulo": "Leasing de Maquinaria y Equipos",
+"fuente": "pagina"
+},
+"407": {
+"titulo": "Leasing Operativo",
+"fuente": "pagina"
+},
+"408": {
+"titulo": "Leasing de Tecnología",
+"fuente": "pagina"
+},
+"409": {
+"titulo": "Leasing de Vehículos para Empresas",
+"fuente": "pagina"
+},
+"410": {
+"titulo": "Servicios de Moneda Extranjera",
+"fuente": "pagina"
+},
+"411": {
+"titulo": "Avales, Garantias, Stanby y otros",
+"fuente": "pagina"
+},
+"412": {
+"titulo": "Capital de Trabajo en Moneda Extranjera",
+"fuente": "pagina"
+},
+"413": {
+"titulo": "Carta de Crédito de Importación",
+"fuente": "pagina"
+},
+"414": {
+"titulo": "Carta de Crédito de Importación",
+"fuente": "pagina"
+},
+"415": {
+"titulo": "Cobranza de Exportación",
+"fuente": "pagina"
+},
+"416": {
+"titulo": "Cobranza de Importación",
+"fuente": "pagina"
+},
+"417": {
+"titulo": "Descuento de Cartera",
+"fuente": "pagina"
+},
+"418": {
+"titulo": "Cartas de Crédito de Exportación",
+"fuente": "pagina"
+},
+"419": {
+"titulo": "Giros Directos",
+"fuente": "pagina"
+},
+"420": {
+"titulo": "Giro Financiado",
+"fuente": "pagina"
+},
+"421": {
+"titulo": "Servicios Financieros para Importadores",
+"fuente": "pagina"
+},
+"422": {
+"titulo": "Letras Avaladas",
+"fuente": "pagina"
+},
+"423": {
+"titulo": "Líneas de Crédtio Especiales de Redescuento",
+"fuente": "pagina"
+},
+"424": {
+"titulo": "Capital de Trabajo",
+"fuente": "pagina"
+},
+"425": {
+"titulo": "Prefinanciación de Exportaciones",
+"fuente": "pagina"
+},
+"426": {
+"titulo": "Conéctate con nosotros",
+"fuente": "pagina"
+},
+"427": {
+"titulo": "Reintegros de Exportación",
+"fuente": "pagina"
+},
+"428": {
+"titulo": "Remesas de Cheques en Moneda Extranjera",
+"fuente": "pagina"
+},
+"429": {
+"titulo": "Mueve tu dinero con Bre‑B - Empresas",
+"fuente": "pagina"
+},
+"430": {
+"titulo": "Volver a convencer",
+"fuente": "pagina"
+},
+"431": {
+"titulo": "Paga tus Impuestos - Empresas",
+"fuente": "pagina"
+},
+"432": {
+"titulo": "Soluciones de Recaudo en Línea",
+"fuente": "pagina"
+},
+"433": {
+"titulo": "Pagos Masivos Inmediatos - Empresas",
+"fuente": "pagina"
+},
+"434": {
+"titulo": "Cheques en Formas Continuas",
+"fuente": "pagina"
+},
+"435": {
+"titulo": "FacilPass - Pago de Peajes",
+"fuente": "pagina"
+},
+"436": {
+"titulo": "Pago Impuestos Nacionales",
+"fuente": "pagina"
+},
+"437": {
+"titulo": "Pago de Impuestos Territoriales",
+"fuente": "pagina"
+},
+"438": {
+"titulo": "PILA - Pagos de Seguridad Social",
+"fuente": "pagina"
+},
+"439": {
+"titulo": "Pagos QR Entre Cuentas",
+"fuente": "pagina"
+},
+"440": {
+"titulo": "Tarjeta Prepago para Empresas",
+"fuente": "pagina"
+},
+"441": {
+"titulo": "Pagos Electrónicos a Terceros",
+"fuente": "pagina"
+},
+"442": {
+"titulo": "Portafolio Aliado - Empresas",
+"fuente": "pagina"
+},
+"443": {
+"titulo": "Hazte Cliente",
+"fuente": "pagina"
+},
+"444": {
+"titulo": "Soluciones de Recaudo en Línea",
+"fuente": "pagina"
+},
+"445": {
+"titulo": "Consignación Nacional - Empresas",
+"fuente": "pagina"
+},
+"446": {
+"titulo": "Débito Automático - Empresas",
+"fuente": "pagina"
+},
+"447": {
+"titulo": "Recaudo Electrónico por PSE",
+"fuente": "pagina"
+},
+"448": {
+"titulo": "Recaudo Electrónico Red AVAL",
+"fuente": "pagina"
+},
+"449": {
+"titulo": "Recaudo Fisico - Empresas",
+"fuente": "pagina"
+},
+"450": {
+"titulo": "Recaudo Tarjetas - Empresas",
+"fuente": "pagina"
+},
+"451": {
+"titulo": "Segmentos de Clientes Empresas",
+"fuente": "pagina"
+},
+"452": {
+"titulo": "Segmento Corporativo e Institucional",
+"fuente": "pagina"
+},
+"453": {
+"titulo": "Segmento Empresarial",
+"fuente": "pagina"
+},
+"454": {
+"titulo": "Segmento Gobierno",
+"fuente": "pagina"
+},
+"455": {
+"titulo": "Segmento Pyme",
+"fuente": "pagina"
+},
+"456": {
+"titulo": "Auto Liviano",
+"fuente": "pagina"
+},
+"457": {
+"titulo": "Protege tu Pyme con Seguros Empresariales | Banco de Occidente​ - Empresas",
+"fuente": "pagina"
+},
+"458": {
+"titulo": "Seguro Decenal: Tranquilidad para Compradores de Vivienda - Empresas",
+"fuente": "pagina"
+},
+"459": {
+"titulo": "Seguro para equipos electrónicos",
+"fuente": "pagina"
+},
+"460": {
+"titulo": "Seguro Empresarial - Garantías Reales",
+"fuente": "pagina"
+},
+"461": {
+"titulo": "Seguro de Inmuebles Comerciales",
+"fuente": "pagina"
+},
+"462": {
+"titulo": "Activos Empresariales",
+"fuente": "pagina"
+},
+"463": {
+"titulo": "Seguros para Maquinaria y Equipo Empresarial",
+"fuente": "pagina"
+},
+"464": {
+"titulo": "Pyme Protegida",
+"fuente": "pagina"
+},
+"465": {
+"titulo": "Equipamiento Tecnológico",
+"fuente": "pagina"
+},
+"466": {
+"titulo": "Seguro Todo Riesgo Construcción | Banco de Occidente​ - Empresas",
+"fuente": "pagina"
+},
+"467": {
+"titulo": "Seguro Todo Riesgo Daño Material para Constructoras - Empresas",
+"fuente": "pagina"
+},
+"468": {
+"titulo": "Seguro de Vehículo Empresarial - Auto Liviano",
+"fuente": "pagina"
+},
+"469": {
+"titulo": "Auto Liviano",
+"fuente": "pagina"
+},
+"470": {
+"titulo": "Seguro para Vehículos Pesados",
+"fuente": "pagina"
+},
+"471": {
+"titulo": "Soluciones de Recaudo en Línea",
+"fuente": "pagina"
+},
+"472": {
+"titulo": "Tarjeta de Crédito Corporativas",
+"fuente": "pagina"
+},
+"473": {
+"titulo": "Soluciones de Recaudo en Línea",
+"fuente": "pagina"
+},
+"474": {
+"titulo": "Tarjeta de Crédito Mastercard Viajera Empresarial - Empresas",
+"fuente": "pagina"
+},
+"475": {
+"titulo": "Tarjeta de Crédito Mastercard Corporate | Banco de Occidente​ - Empresas",
+"fuente": "pagina"
+},
+"476": {
+"titulo": "Tarjeta de Crédito Mastercard BusinessCard",
+"fuente": "pagina"
+},
+"477": {
+"titulo": "Tarjeta de Crédito Mastercard BusinessCard Pyme - Empresas",
+"fuente": "pagina"
+},
+"478": {
+"titulo": "Soluciones de Recaudo en Línea",
+"fuente": "pagina"
+},
+"479": {
+"titulo": "Tarjeta de Crédito Visa Corporativa",
+"fuente": "pagina"
+},
+"480": {
+"titulo": "Tarjeta de Crédito Visa Empresarial",
+"fuente": "pagina"
+},
+"481": {
+"titulo": "Tarjeta de Crédito Visa Viajera",
+"fuente": "pagina"
+},
+"482": {
+"titulo": "Tarjetas de Crédito Empresarial",
+"fuente": "pagina"
+},
+"483": {
+"titulo": "Vida Grupo Deudor - Empresas",
+"fuente": "pagina"
+},
+"485": {
+"titulo": "Winback",
+"fuente": "pagina"
+},
+"486": {
+"titulo": "Token mobile",
+"fuente": "nombre_archivo"
+},
+"487": {
+"titulo": "Presentación general banco de occidente 2025",
+"fuente": "nombre_archivo"
+},
+"489": {
+"titulo": "Certificación cumplimiento de requisitos",
+"fuente": "nombre_archivo"
+},
+"490": {
+"titulo": "Decreto 0533 de 29 de abril de 2024",
+"fuente": "nombre_archivo"
+},
+"491": {
+"titulo": "Derechos de los consumidores financieros",
+"fuente": "nombre_archivo"
+},
+"493": {
+"titulo": "Brochure producto empresarial",
+"fuente": "nombre_archivo"
+},
+"494": {
+"titulo": "Brochure producto Pyme",
+"fuente": "nombre_archivo"
+},
+"495": {
+"titulo": "Boletin empresarial oct dic 2019",
+"fuente": "nombre_archivo"
+},
+"496": {
+"titulo": "Boletin empresarial jul sep 2018",
+"fuente": "nombre_archivo"
+},
+"497": {
+"titulo": "Boletin empresarial abr jun 2018",
+"fuente": "nombre_archivo"
+},
+"498": {
+"titulo": "Boletin empresarial ene mar 2018",
+"fuente": "nombre_archivo"
+},
+"499": {
+"titulo": "Precios de insumos básicos",
+"fuente": "nombre_archivo"
+},
+"500": {
+"titulo": "Política de información y comunicaciones pdf",
+"fuente": "nombre_archivo"
+},
+"513": {
+"titulo": "Presentación asamblea ordinaria de accionistas 2024",
+"fuente": "nombre_archivo"
+},
+"514": {
+"titulo": "Presentación asamblea ordinaria de accionistas 2023",
+"fuente": "nombre_archivo"
+},
+"518": {
+"titulo": "Estado financiero separado a diciembre 31 de 2023",
+"fuente": "nombre_archivo"
+},
+"522": {
+"titulo": "Estado financiero consolidado a diciembre 31 de 2023",
+"fuente": "nombre_archivo"
+},
+"523": {
+"titulo": "Estado financiero consolidado gdiciembre 31 de 2022",
+"fuente": "nombre_archivo"
+},
+"527": {
+"titulo": "Estados financieros separados a junio de 2025",
+"fuente": "estado_financiero"
+},
+"528": {
+"titulo": "Estados financieros separados a marzo de 2025",
+"fuente": "estado_financiero"
+},
+"529": {
+"titulo": "Estados financieros separados a septiembre de 2024",
+"fuente": "estado_financiero"
+},
+"533": {
+"titulo": "Estado financiero trimestral abril junio 2023",
+"fuente": "nombre_archivo"
+},
+"535": {
+"titulo": "Estado financiero trimestral julio septiembre 2022",
+"fuente": "nombre_archivo"
+},
+"536": {
+"titulo": "Estado financiero trimestral abril junio 2022",
+"fuente": "nombre_archivo"
+},
+"537": {
+"titulo": "Estado financiero trimestral enero marzo 2022",
+"fuente": "nombre_archivo"
+},
+"540": {
+"titulo": "Estados financieros consolidados a septiembre de 2025",
+"fuente": "estado_financiero"
+},
+"541": {
+"titulo": "Estados financieros consolidados a junio de 2025",
+"fuente": "estado_financiero"
+},
+"542": {
+"titulo": "Estados financieros consolidados a marzo de 2025",
+"fuente": "estado_financiero"
+},
+"546": {
+"titulo": "Estado financiero trimestral julio septiembre 2023",
+"fuente": "nombre_archivo"
+},
+"549": {
+"titulo": "Estado financiero trimestral julio septiembre 2022",
+"fuente": "nombre_archivo"
+},
+"550": {
+"titulo": "Estados financieros consolidados a junio de 2022",
+"fuente": "estado_financiero"
+},
+"551": {
+"titulo": "Estado financiero trimestral enero marzo 2022",
+"fuente": "nombre_archivo"
+},
+"553": {
+"titulo": "Informe de verificación bajo aseguramiento limitado 2023",
+"fuente": "nombre_archivo"
+},
+"554": {
+"titulo": "Certificación estados financieros",
+"fuente": "nombre_archivo"
+},
+"555": {
+"titulo": "Calle 6 Norte No. 1 – 42, Torre Centenario, Piso",
+"fuente": "titulo_original"
+},
+"556": {
+"titulo": "Calle 6 Norte No. 1 – 42, Torre Centenario, Piso",
+"fuente": "titulo_original"
+},
+"557": {
+"titulo": "Política de Designación del Revisor Fiscal",
+"fuente": "titulo_original"
+},
+"558": {
+"titulo": "Banco de occidente",
+"fuente": "titulo_original"
+},
+"559": {
+"titulo": "Informe de Gobierno",
+"fuente": "titulo_original"
+},
+"560": {
+"titulo": "Informe gobierno",
+"fuente": "titulo_original"
+},
+"561": {
+"titulo": "Informe de gobierno corporativo 2024",
+"fuente": "titulo_original"
+},
+"562": {
+"titulo": "Informe de gobierno corporativo 2025",
+"fuente": "titulo_original"
+},
+"563": {
+"titulo": "Certificación sobre el sistema de administración de riesgo de lavado de",
+"fuente": "titulo_original"
+},
+"567": {
+"titulo": "Tabla de Contenido",
+"fuente": "titulo_original"
+},
+"568": {
+"titulo": "Manual de conflictos de interés y manejo de",
+"fuente": "titulo_original"
+},
+"569": {
+"titulo": "Marco Referencia de Relaciones Institucionales",
+"fuente": "titulo_original"
+},
+"570": {
+"titulo": "Reporte de implementación de mejores",
+"fuente": "titulo_original"
+},
+"574": {
+"titulo": "Política de nombramiento y remuneración de la junta directiva",
+"fuente": "titulo_original"
+},
+"575": {
+"titulo": "Principios de ética y de solución de conflictos de interés que rigen",
+"fuente": "titulo_original"
+},
+"576": {
+"titulo": "Procedimiento para solicitar auditorias especializadas",
+"fuente": "titulo_original"
+},
+"577": {
+"titulo": "Reglamento interno de funcionamiento de la asamblea de",
+"fuente": "titulo_original"
+},
+"578": {
+"titulo": "Reglamento del comité de crédito de la junta directiva:",
+"fuente": "titulo_original"
+},
+"579": {
+"titulo": "Reglamento",
+"fuente": "titulo_original"
+},
+"580": {
+"titulo": "Reglamento interno del comité integral de riesgos",
+"fuente": "titulo_original"
+},
+"582": {
+"titulo": "Estados financieros consolidados a junio de 2026",
+"fuente": "estado_financiero"
+},
+"583": {
+"titulo": "Estados financieros separados a junio de 2026",
+"fuente": "estado_financiero"
+},
+"584": {
+"titulo": "Informe periódico trimestral 2026 ii 1",
+"fuente": "nombre_archivo"
+},
+"585": {
+"titulo": "2026 i ir acciones cfcol",
+"fuente": "nombre_archivo"
+},
+"586": {
+"titulo": "Inforelextraordinaria19mayac",
+"fuente": "nombre_archivo"
+},
+"587": {
+"titulo": "Estados financieros consolidados a marzo de 2026",
+"fuente": "estado_financiero"
+},
+"588": {
+"titulo": "Estados financieros separados a marzo de 2026",
+"fuente": "estado_financiero"
+},
+"589": {
+"titulo": "Informe perio dico trimestral 2026 1",
+"fuente": "nombre_archivo"
+},
+"591": {
+"titulo": "Info relevante crédito subordinado",
+"fuente": "nombre_archivo"
+},
+"592": {
+"titulo": "Pdu",
+"fuente": "nombre_archivo"
+},
+"593": {
+"titulo": "Mjd",
+"fuente": "nombre_archivo"
+},
+"594": {
+"titulo": "Información relevante decisiones aga",
+"fuente": "nombre_archivo"
+},
+"595": {
+"titulo": "Información relevante renuncia miembro jd",
+"fuente": "nombre_archivo"
+},
+"596": {
+"titulo": "Orden del dia 2026",
+"fuente": "nombre_archivo"
+},
+"597": {
+"titulo": "Medidas establecidas en el capítulo vi título i parte iii cbj",
+"fuente": "nombre_archivo"
+},
+"598": {
+"titulo": "Aviso el tiempo",
+"fuente": "nombre_archivo"
+},
+"599": {
+"titulo": "Citación asamblea país jueves",
+"fuente": "nombre_archivo"
+},
+"600": {
+"titulo": "Cap sostenibilidad para ir",
+"fuente": "nombre_archivo"
+},
+"602": {
+"titulo": "Otro si acuerdo grupo aval s a",
+"fuente": "nombre_archivo"
+},
+"603": {
+"titulo": "Encuesta 2025 transmitida",
+"fuente": "nombre_archivo"
+},
+"604": {
+"titulo": "2026 i ir escison fdo",
+"fuente": "nombre_archivo"
+},
+"605": {
+"titulo": "Rac banco de occidente",
+"fuente": "nombre_archivo"
+},
+"606": {
+"titulo": "Estados financieros separados a septiembre de 2025",
+"fuente": "estado_financiero"
+},
+"607": {
+"titulo": "2025 ii ir vp jur",
+"fuente": "nombre_archivo"
+},
+"608": {
+"titulo": "2025 ii ir vp rh",
+"fuente": "nombre_archivo"
+},
+"609": {
+"titulo": "Informe periódico trimestral 2025",
+"fuente": "nombre_archivo"
+},
+"612": {
+"titulo": "Profile e bcooccidente rp25",
+"fuente": "nombre_archivo"
+},
+"615": {
+"titulo": "Informe periódico trimestral 2025 1 con anexos",
+"fuente": "nombre_archivo"
+},
+"617": {
+"titulo": "Aga pdu",
+"fuente": "nombre_archivo"
+},
+"618": {
+"titulo": "Aga miembros jd",
+"fuente": "nombre_archivo"
+},
+"619": {
+"titulo": "Estados financieros separados a diciembre de 2024",
+"fuente": "estado_financiero"
+},
+"620": {
+"titulo": "Estados financieros consolidados a diciembre de 2024",
+"fuente": "estado_financiero"
+},
+"621": {
+"titulo": "Aga decisiones",
+"fuente": "nombre_archivo"
+},
+"622": {
+"titulo": "Carta bonos Banco de Occidente pv 25",
+"fuente": "nombre_archivo"
+},
+"623": {
+"titulo": "Ir vp op y t bo",
+"fuente": "nombre_archivo"
+},
+"624": {
+"titulo": "Ir medidas aga",
+"fuente": "nombre_archivo"
+},
+"626": {
+"titulo": "L pdu jd",
+"fuente": "nombre_archivo"
+},
+"627": {
+"titulo": "Borrador informe asuntos sociales ambientales climáticos",
+"fuente": "nombre_archivo"
+},
+"628": {
+"titulo": "Reporte de implementación de mejores prácticas corporativas 2024",
+"fuente": "nombre_archivo"
+},
+"629": {
+"titulo": "2025 info relevante vices",
+"fuente": "nombre_archivo"
+},
+"630": {
+"titulo": "Estados financieros consolidados a septiembre de 2024",
+"fuente": "estado_financiero"
+},
+"631": {
+"titulo": "Informe periódico trimestral 2024 3",
+"fuente": "nombre_archivo"
+},
+"632": {
+"titulo": "2024 ii ir vp riesgos",
+"fuente": "nombre_archivo"
+},
+"633": {
+"titulo": "Estados financieros consolidados a junio de 2024",
+"fuente": "estado_financiero"
+},
+"634": {
+"titulo": "Estados financieros separados a junio de 2024",
+"fuente": "estado_financiero"
+},
+"635": {
+"titulo": "Informe periódico trimestral 2024 2 versión",
+"fuente": "nombre_archivo"
+},
+"636": {
+"titulo": "Estados financieros consolidados a marzo de 2024",
+"fuente": "estado_financiero"
+},
+"637": {
+"titulo": "Estados financieros separados a marzo de 2024",
+"fuente": "estado_financiero"
+},
+"638": {
+"titulo": "Informe periódico trimestral 2024 1",
+"fuente": "nombre_archivo"
+},
+"639": {
+"titulo": "2024 i ir bono subordinado emisión",
+"fuente": "nombre_archivo"
+},
+"640": {
+"titulo": "2024 i ir bono subordinado mercadeo",
+"fuente": "nombre_archivo"
+},
+"642": {
+"titulo": "2024 l aga reforma estatutaria",
+"fuente": "nombre_archivo"
+},
+"643": {
+"titulo": "2024 i aga decisiones adoptadas por la asamblea",
+"fuente": "nombre_archivo"
+},
+"644": {
+"titulo": "2024 i aga junta directiva",
+"fuente": "nombre_archivo"
+},
+"647": {
+"titulo": "2024 i ir acuerdo entre accionistas",
+"fuente": "nombre_archivo"
+},
+"648": {
+"titulo": "2024 i ir cumplimiento medidas circular básica jurídica",
+"fuente": "nombre_archivo"
+},
+"649": {
+"titulo": "Convocatoria a la asamblea ordinaria de accionistas",
+"fuente": "nombre_archivo"
+},
+"650": {
+"titulo": "Reporte de implementación de mejores prácticas corporativas 2023",
+"fuente": "nombre_archivo"
+},
+"651": {
+"titulo": "Banco de occidente and subsidiaries 29 11 2023",
+"fuente": "nombre_archivo"
+},
+"652": {
+"titulo": "Control de popular sobre corficolombiana Banco de Occidente 11 22 2023",
+"fuente": "nombre_archivo"
+},
+"653": {
+"titulo": "Informe periódico trimestral 2023 3",
+"fuente": "nombre_archivo"
+},
+"654": {
+"titulo": "Estados financieros separados noviembre",
+"fuente": "nombre_archivo"
+},
+"656": {
+"titulo": "Recurso de apelacion interpuesto contra la resolución 1164 del 5 de septiembre de 2022 de la sfc",
+"fuente": "nombre_archivo"
+},
+"657": {
+"titulo": "Informe periódico trimestral con corte al 30 de junio de 2023",
+"fuente": "nombre_archivo"
+},
+"658": {
+"titulo": "Estados financieros consolidados para el segundo trimestre 2023",
+"fuente": "nombre_archivo"
+},
+"659": {
+"titulo": "Novedades de los directores y miembros de la alta gerencia",
+"fuente": "nombre_archivo"
+},
+"661": {
+"titulo": "2023 i ir presidencia bo",
+"fuente": "nombre_archivo"
+},
+"663": {
+"titulo": "Mar 2023 sep estados financieros",
+"fuente": "nombre_archivo"
+},
+"664": {
+"titulo": "Mar 2023 con estados financieros",
+"fuente": "nombre_archivo"
+},
+"665": {
+"titulo": "Informe periódico trimestral 2023 1 sin anexos",
+"fuente": "nombre_archivo"
+},
+"666": {
+"titulo": "Informe de gestión y sostenibilidad 2022 Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"667": {
+"titulo": "2023 aga pdu",
+"fuente": "nombre_archivo"
+},
+"668": {
+"titulo": "2023 aga miembros jd",
+"fuente": "nombre_archivo"
+},
+"669": {
+"titulo": "Estados financieros separados a diciembre de 2022",
+"fuente": "estado_financiero"
+},
+"670": {
+"titulo": "2023 aga decisiones",
+"fuente": "nombre_archivo"
+},
+"671": {
+"titulo": "2023 ir medidas aga",
+"fuente": "nombre_archivo"
+},
+"672": {
+"titulo": "Aviso",
+"fuente": "nombre_archivo"
+},
+"673": {
+"titulo": "Proyecto distribución de utilidades Banco de Occidente 2022",
+"fuente": "nombre_archivo"
+},
+"674": {
+"titulo": "Ir crédito bid bojur",
+"fuente": "nombre_archivo"
+},
+"675": {
+"titulo": "14 09 2022 información relevante",
+"fuente": "nombre_archivo"
+},
+"676": {
+"titulo": "Profile bco occidente rp2022",
+"fuente": "nombre_archivo"
+},
+"679": {
+"titulo": "Información relevante 300622",
+"fuente": "nombre_archivo"
+},
+"680": {
+"titulo": "Decisiones junta directiva 24 junio 2022",
+"fuente": "nombre_archivo"
+},
+"681": {
+"titulo": "Pérdida de vigencia 1ra emisión bonos subordinados bco de occidente",
+"fuente": "nombre_archivo"
+},
+"682": {
+"titulo": "Certificación estados financieros separados y consolidados",
+"fuente": "nombre_archivo"
+},
+"683": {
+"titulo": "Periodo ex dividendo mar 2022 abr 2023",
+"fuente": "nombre_archivo"
+},
+"684": {
+"titulo": "Decisiones adoptadas por la asamblea general ordinaria de accionistas Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"685": {
+"titulo": "Citación asamblea 2022",
+"fuente": "nombre_archivo"
+},
+"686": {
+"titulo": "Pdu junta directiva febrero 25 de 2022",
+"fuente": "nombre_archivo"
+},
+"687": {
+"titulo": "Estados financieros separados",
+"fuente": "nombre_archivo"
+},
+"688": {
+"titulo": "Periodo exdividendo",
+"fuente": "nombre_archivo"
+},
+"689": {
+"titulo": "Proyecto distribución utilidades aprobado asamblea accionistas Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"690": {
+"titulo": "Decisiones adoptadas asamblea general ordinaria accionistas Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"691": {
+"titulo": "Divulgación tablas de amortización",
+"fuente": "nombre_archivo"
+},
+"692": {
+"titulo": "Tabla amortización",
+"fuente": "nombre_archivo"
+},
+"693": {
+"titulo": "Cambio de calificación",
+"fuente": "nombre_archivo"
+},
+"694": {
+"titulo": "Ir publicada tuplús",
+"fuente": "nombre_archivo"
+},
+"695": {
+"titulo": "Nombramiento nuevo presidente",
+"fuente": "nombre_archivo"
+},
+"696": {
+"titulo": "Efrain otero",
+"fuente": "nombre_archivo"
+},
+"697": {
+"titulo": "Reforma estatutos",
+"fuente": "nombre_archivo"
+},
+"698": {
+"titulo": "Desiciones asamblea accionistas",
+"fuente": "nombre_archivo"
+},
+"699": {
+"titulo": "Aviso",
+"fuente": "nombre_archivo"
+},
+"700": {
+"titulo": "Adquisición y enagenacion de acciones junta directiva",
+"fuente": "nombre_archivo"
+},
+"702": {
+"titulo": "Reforma estatutos 1",
+"fuente": "nombre_archivo"
+},
+"703": {
+"titulo": "Adendo no. 7 al prospecto de información de bonos ordinarios, bonos ordinarios verdes, bonos",
+"fuente": "titulo_original"
+},
+"705": {
+"titulo": "Diciembre 04 Diciembre 05 Diciembre 06 Diciembre 07 Diciembre 08",
+"fuente": "titulo_original"
+},
+"706": {
+"titulo": "Bonos ordinarios. demanda en firme",
+"fuente": "titulo_original"
+},
+"707": {
+"titulo": "Bonos subordinados. demanda en firme",
+"fuente": "titulo_original"
+},
+"708": {
+"titulo": "Dv cont¡cto gomez valencia",
+"fuente": "titulo_original"
+},
+"709": {
+"titulo": "Bonos ordinarios. subasta holandesa",
+"fuente": "titulo_original"
+},
+"710": {
+"titulo": "Bonos subordinados. subasta holandesa",
+"fuente": "titulo_original"
+},
+"711": {
+"titulo": "Calle 6 Norte No. 1 – 42, Torre Centenario, Piso",
+"fuente": "titulo_original"
+},
+"712": {
+"titulo": "Banco de Occidente",
+"fuente": "titulo_original"
+},
+"713": {
+"titulo": "Certificación del representante legal de tenedores de bonos",
+"fuente": "titulo_original"
+},
+"714": {
+"titulo": "Prospecto de información",
+"fuente": "titulo_original"
+},
+"716": {
+"titulo": "Bonos ordinarios. subasta holandesa",
+"fuente": "titulo_original"
+},
+"717": {
+"titulo": "Instrucciones de giro para recibir transferencias bancarias",
+"fuente": "nombre_archivo"
+},
+"718": {
+"titulo": "Deberes de las entidades vigiladas",
+"fuente": "nombre_archivo"
+},
+"721": {
+"titulo": "2023 ita anexo",
+"fuente": "nombre_archivo"
+},
+"722": {
+"titulo": "2023 ita anexo",
+"fuente": "nombre_archivo"
+},
+"723": {
+"titulo": "Texto alternativo en elementos no textuales",
+"fuente": "nombre_archivo"
+},
+"724": {
+"titulo": "Visualizacion texto sitio web",
+"fuente": "nombre_archivo"
+},
+"725": {
+"titulo": "Navegación por tabulacion en sitio web",
+"fuente": "nombre_archivo"
+},
+"726": {
+"titulo": "202512 política tratamientodedatos",
+"fuente": "nombre_archivo"
+},
+"727": {
+"titulo": "Calendario pagos 2026",
+"fuente": "nombre_archivo"
+},
+"728": {
+"titulo": "Guia de uso tarjeta de crédito credencial latam pass",
+"fuente": "nombre_archivo"
+},
+"729": {
+"titulo": "Términos y condiciones: campaña «0% en Tasa de Interés en Éxito y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"730": {
+"titulo": "Términos y condiciones: campaña «20% de Dcto»",
+"fuente": "primera_linea"
+},
+"731": {
+"titulo": "Términos y condiciones: campaña «Dafiti 0% y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"732": {
+"titulo": "Términos y condiciones: campaña «Mercadolibre tasa 0% y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"733": {
+"titulo": "Términos y condiciones: campaña «20% de Descuento en ARTURO CALLE y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"734": {
+"titulo": "Términos y condiciones: campaña «0% en Tasa de Interés en Éxito y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"735": {
+"titulo": "Términos y condiciones: campaña «Ollas & sartenes hasta 66% dcto en alianza con Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"736": {
+"titulo": "Términos y condiciones: campaña «Ollas & Sartenes y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"737": {
+"titulo": "Términos y condiciones: campaña «Despegar tasa 0% y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"738": {
+"titulo": "Términos y condiciones: campaña «10% de Descuento en PRICE RES S.A.S»",
+"fuente": "primera_linea"
+},
+"739": {
+"titulo": "Términos y condiciones: campaña «Mac Center tasa 0% y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"740": {
+"titulo": "Términos y condiciones: campaña «Colmédica y Banco de Occidente»",
+"fuente": "primera_linea"
+},
+"741": {
+"titulo": "Términos y condiciones: campaña «Convenio Tributi y Banco de Occidente S.A»",
+"fuente": "primera_linea"
+},
+"742": {
+"titulo": "Actualizado ayudaventas tarjeta de crédito 2025",
+"fuente": "nombre_archivo"
+},
+"750": {
+"titulo": "Términos y condiciones referidos campaña q3",
+"fuente": "nombre_archivo"
+},
+"751": {
+"titulo": "Uso de las tarjetas Banco de Occidente en billetera Google Pay",
+"fuente": "primera_linea"
+},
+"752": {
+"titulo": "Términos y condiciones términos y condiciones de uso de las tarjetas en la billetera virtual de google",
+"fuente": "nombre_archivo"
+},
+"755": {
+"titulo": "Guia de uso cuenta activa",
+"fuente": "nombre_archivo"
+},
+"757": {
+"titulo": "Términos y condiciones: campaña «Impulso desembolsos Libre Inversión»",
+"fuente": "primera_linea"
+},
+"758": {
+"titulo": "Contenido gri 2022",
+"fuente": "nombre_archivo"
+},
+"759": {
+"titulo": "Informe de gestión y sostenibilidad 2022",
+"fuente": "nombre_archivo"
+},
+"760": {
+"titulo": "Informe periódico de fin de ejercicio 2023 informe de gestión y sostenibilidad",
+"fuente": "nombre_archivo"
+},
+"764": {
+"titulo": "Reporte tcfd",
+"fuente": "nombre_archivo"
+},
+"765": {
+"titulo": "Carta de aseguramiento",
+"fuente": "nombre_archivo"
+},
+"767": {
+"titulo": "Carta de verificación informe de EY",
+"fuente": "nombre_archivo"
+},
+"782": {
+"titulo": "Carta del presidente",
+"fuente": "nombre_archivo"
+},
+"783": {
+"titulo": "Actrib 20 26 con caratula banco",
+"fuente": "nombre_archivo"
+},
+"784": {
+"titulo": "Lista documentos crédito constructor",
+"fuente": "nombre_archivo"
+},
+"785": {
+"titulo": "Lista de Documentos: Crédito Constructor",
+"fuente": "titulo_original"
+},
+"786": {
+"titulo": "Reglamento interno crédito constructor",
+"fuente": "titulo_original"
+},
+"787": {
+"titulo": "Por Valor de:",
+"fuente": "titulo_original"
+},
+"788": {
+"titulo": "Convenio de adición al contrato de depósito en cuenta formtext",
+"fuente": "titulo_original"
+},
+"792": {
+"titulo": "Guía de uso de maquinaria y equipo",
+"fuente": "primera_linea"
+},
+"793": {
+"titulo": "Guía de producto de tecnología",
+"fuente": "primera_linea"
+},
+"794": {
+"titulo": "Guía de uso de transporte",
+"fuente": "primera_linea"
+},
+"795": {
+"titulo": "Formtext ciudad, formtext fecha",
+"fuente": "titulo_original"
+},
+"796": {
+"titulo": "Formtext Ciudad y Fecha",
+"fuente": "titulo_original"
+},
+"797": {
+"titulo": "Formtext Ciudad, formtext Fecha",
+"fuente": "titulo_original"
+},
+"798": {
+"titulo": "Ciudad y Fecha: formtext",
+"fuente": "titulo_original"
+},
+"799": {
+"titulo": "Formtext Ciudad y Fecha",
+"fuente": "titulo_original"
+},
+"800": {
+"titulo": "Formtext Ciudad, formtext Fecha",
+"fuente": "titulo_original"
+},
+"801": {
+"titulo": "Guía de uso de importación",
+"fuente": "primera_linea"
+},
+"802": {
+"titulo": "Certificación oea",
+"fuente": "nombre_archivo"
+},
+"803": {
+"titulo": "Guía de producto inmobiliario",
+"fuente": "primera_linea"
+},
+"804": {
+"titulo": "Oferta mercantil leasing operativo general",
+"fuente": "nombre_archivo"
+},
+"808": {
+"titulo": "Brochure portafolio aliado",
+"fuente": "nombre_archivo"
+},
+"809": {
+"titulo": "Guia de uso CDT",
+"fuente": "nombre_archivo"
+},
+"812": {
+"titulo": "Fto ser 076",
+"fuente": "nombre_archivo"
+},
+"813": {
+"titulo": "Recaudo código de barras",
+"fuente": "nombre_archivo"
+},
+"814": {
+"titulo": "Contrato débitos automaticosv20",
+"fuente": "nombre_archivo"
+},
+"815": {
+"titulo": "Fto ser 106",
+"fuente": "nombre_archivo"
+},
+"816": {
+"titulo": "Afiliación occired",
+"fuente": "nombre_archivo"
+},
+"818": {
+"titulo": "3326 informativo e instructivo rapport trustter occired",
+"fuente": "nombre_archivo"
+},
+"819": {
+"titulo": "Contrato de Productos y Servicios",
+"fuente": "titulo_original"
+},
+"820": {
+"titulo": "Solicitud de Vinculación Persona Jurídica",
+"fuente": "titulo_original"
+},
+"821": {
+"titulo": "Seguridad",
+"fuente": "titulo_original"
+},
+"822": {
+"titulo": "Brochure seguro vida grupo deudor",
+"fuente": "nombre_archivo"
+},
+"823": {
+"titulo": "Tr garantiasreales",
+"fuente": "nombre_archivo"
+},
+"824": {
+"titulo": "Brochure Pyme banco de occidente 052025",
+"fuente": "nombre_archivo"
+},
+"825": {
+"titulo": "Mayoclausulado Pyme segura red",
+"fuente": "nombre_archivo"
+},
+"826": {
+"titulo": "Pulso económico mensual agosto",
+"fuente": "nombre_archivo"
+},
+"827": {
+"titulo": "Pulso económico mensual julio",
+"fuente": "nombre_archivo"
+},
+"828": {
+"titulo": "Pulso económico mensual junio",
+"fuente": "nombre_archivo"
+},
+"829": {
+"titulo": "Pulso económico mensual mayo",
+"fuente": "nombre_archivo"
+},
+"830": {
+"titulo": "Occimpacto inflación julio",
+"fuente": "nombre_archivo"
+},
+"831": {
+"titulo": "Pib co ritmo insostenible",
+"fuente": "nombre_archivo"
+},
+"832": {
+"titulo": "Occimpacto banrep estabilidad inesperada",
+"fuente": "nombre_archivo"
+},
+"833": {
+"titulo": "Occimpacto fed julio mercado esceptico",
+"fuente": "nombre_archivo"
+},
+"834": {
+"titulo": "La era de el tigre",
+"fuente": "nombre_archivo"
+},
+"835": {
+"titulo": "Nos la jugamos toda",
+"fuente": "nombre_archivo"
+},
+"836": {
+"titulo": "Dtmf",
+"fuente": "nombre_archivo"
+},
+"837": {
+"titulo": "Los 6 eco canonazos vol 2026",
+"fuente": "nombre_archivo"
+},
+"838": {
+"titulo": "De octubre halloween actividad paranormal",
+"fuente": "nombre_archivo"
+},
+"839": {
+"titulo": "Septiembre rounds monetarios",
+"fuente": "nombre_archivo"
+},
+"840": {
+"titulo": "Agosto la descertificación",
+"fuente": "nombre_archivo"
+},
+"841": {
+"titulo": "Radiografía económica regional antioquia",
+"fuente": "nombre_archivo"
+},
+"842": {
+"titulo": "Radiografía económica regional atlantico",
+"fuente": "nombre_archivo"
+},
+"843": {
+"titulo": "Radiografía económica regional bogotá",
+"fuente": "nombre_archivo"
+},
+"844": {
+"titulo": "Radiografía económica regional eje cafetero",
+"fuente": "nombre_archivo"
+},
+"845": {
+"titulo": "Radiografía económica regional santander",
+"fuente": "nombre_archivo"
+},
+"846": {
+"titulo": "Radiografía económica regional valle del cauca",
+"fuente": "nombre_archivo"
+},
+"847": {
+"titulo": "Tes financiero",
+"fuente": "nombre_archivo"
+},
+"848": {
+"titulo": "Tes agro ganadería",
+"fuente": "nombre_archivo"
+},
+"849": {
+"titulo": "Tes hidrocarburos",
+"fuente": "nombre_archivo"
+},
+"850": {
+"titulo": "Tes comercio",
+"fuente": "nombre_archivo"
+},
+"851": {
+"titulo": "Tes manufactura",
+"fuente": "nombre_archivo"
+},
+"852": {
+"titulo": "Tes transporte",
+"fuente": "nombre_archivo"
+},
+"853": {
+"titulo": "Tes construcción",
+"fuente": "nombre_archivo"
+},
+"854": {
+"titulo": "Tes turismo",
+"fuente": "nombre_archivo"
+},
+"855": {
+"titulo": "Tes floricultor",
+"fuente": "nombre_archivo"
+},
+"856": {
+"titulo": "Tes automotriz",
+"fuente": "nombre_archivo"
+},
+"857": {
+"titulo": "Tes salud",
+"fuente": "nombre_archivo"
+},
+"858": {
+"titulo": "Tes agroalimentos",
+"fuente": "nombre_archivo"
+},
+"859": {
+"titulo": "Radar económico semanal 23 de febrero",
+"fuente": "nombre_archivo"
+},
+"860": {
+"titulo": "Radar económico semanal 9 de febrero",
+"fuente": "nombre_archivo"
+},
+"861": {
+"titulo": "Radar económico semanal 2 de febrero",
+"fuente": "nombre_archivo"
+},
+"862": {
+"titulo": "Pulso económico mensual febrero",
+"fuente": "nombre_archivo"
+},
+"863": {
+"titulo": "Pulso económico mensual enero",
+"fuente": "nombre_archivo"
+},
+"864": {
+"titulo": "Pulso económico mensual diciembre",
+"fuente": "nombre_archivo"
+},
+"865": {
+"titulo": "Pulso económico mensual noviembre",
+"fuente": "nombre_archivo"
+},
+"866": {
+"titulo": "Occimpacto banrep",
+"fuente": "nombre_archivo"
+},
+"867": {
+"titulo": "Occimpacto fed",
+"fuente": "nombre_archivo"
+},
+"868": {
+"titulo": "Occimpacto inflación enero",
+"fuente": "nombre_archivo"
+},
+"869": {
+"titulo": "Occimpacto banrep 10feb",
+"fuente": "nombre_archivo"
+},
+"870": {
+"titulo": "Radar económico 2026 señales clave para anticipar el rumbo de la economía",
+"fuente": "nombre_archivo"
+},
+"871": {
+"titulo": "Termómetro económico sectorial financiero",
+"fuente": "nombre_archivo"
+},
+"872": {
+"titulo": "Informe sectorial agro ganadería",
+"fuente": "nombre_archivo"
+},
+"873": {
+"titulo": "Comercio",
+"fuente": "nombre_archivo"
+},
+"874": {
+"titulo": "Manufactura",
+"fuente": "nombre_archivo"
+},
+"875": {
+"titulo": "Transporte",
+"fuente": "nombre_archivo"
+},
+"876": {
+"titulo": "Vivienda",
+"fuente": "nombre_archivo"
+},
+"877": {
+"titulo": "Tes turismo",
+"fuente": "nombre_archivo"
+},
+"880": {
+"titulo": "Tasas personas 2025",
+"fuente": "nombre_archivo"
+},
+"881": {
+"titulo": "Supplyfactors anexo landing",
+"fuente": "nombre_archivo"
+},
+"882": {
+"titulo": "Oferta mercantil de venta de servicios de la plataforma para factoring y",
+"fuente": "titulo_original"
+},
+"883": {
+"titulo": "Anexo 1 a la oferta mercantil de venta de servicios de la plataforma para",
+"fuente": "titulo_original"
+},
+"884": {
+"titulo": "Tasas empresariales 2025",
+"fuente": "nombre_archivo"
+},
+"885": {
+"titulo": "Empresas comercio exterior productos para importadores",
+"fuente": "nombre_archivo"
+},
+"890": {
+"titulo": "Instrucciones de giro para recibir transferencias bancarias",
+"fuente": "nombre_archivo"
+},
+"892": {
+"titulo": "Puede consultar las tarifa s de los productos y servicios",
+"fuente": "titulo_original"
+},
+"893": {
+"titulo": "Hoja: Formato",
+"fuente": "titulo_original"
+},
+"894": {
+"titulo": "Hoja: Formato",
+"fuente": "titulo_original"
+},
+"895": {
+"titulo": "Señores",
+"fuente": "titulo_original"
+},
+"896": {
+"titulo": "Contrato de productos y servicios",
+"fuente": "nombre_archivo"
+},
+"897": {
+"titulo": "Calendario tributario enero 2027",
+"fuente": "nombre_archivo"
+},
+"898": {
+"titulo": "Calendario tributario febrero 2026",
+"fuente": "nombre_archivo"
+},
+"899": {
+"titulo": "Calendario tributario marzo 2026",
+"fuente": "nombre_archivo"
+},
+"900": {
+"titulo": "Calendario tributario abril 2026",
+"fuente": "nombre_archivo"
+},
+"901": {
+"titulo": "Calendario tributario mayo 2026",
+"fuente": "nombre_archivo"
+},
+"902": {
+"titulo": "Calendario tributario junio 2026",
+"fuente": "nombre_archivo"
+},
+"903": {
+"titulo": "Calendario tributario julio 2026",
+"fuente": "nombre_archivo"
+},
+"904": {
+"titulo": "Calendario tributario agosto 2026",
+"fuente": "nombre_archivo"
+},
+"905": {
+"titulo": "Calendario tributario septiembre 2026",
+"fuente": "nombre_archivo"
+},
+"906": {
+"titulo": "Calendario tributario octubre 2026",
+"fuente": "nombre_archivo"
+},
+"907": {
+"titulo": "Calendario tributario noviembre 2026",
+"fuente": "nombre_archivo"
+},
+"908": {
+"titulo": "Calendario tributario diciembre 2026",
+"fuente": "nombre_archivo"
+},
+"909": {
+"titulo": "Brochure seguro autos livianos",
+"fuente": "nombre_archivo"
+},
+"910": {
+"titulo": "Móvil maquinaria",
+"fuente": "nombre_archivo"
+},
+"911": {
+"titulo": "Enlaces PSE 2026",
+"fuente": "nombre_archivo"
+},
+"912": {
+"titulo": "Brochure seguro autos pesados",
+"fuente": "nombre_archivo"
+},
+"913": {
+"titulo": "Brochureelectrico",
+"fuente": "nombre_archivo"
+},
+"914": {
+"titulo": "Tr danomaterial",
+"fuente": "nombre_archivo"
+},
+"915": {
+"titulo": "Tr daño material constructor",
+"fuente": "nombre_archivo"
+},
+"916": {
+"titulo": "Decenal",
+"fuente": "nombre_archivo"
+},
+"917": {
+"titulo": "Tr construcción",
+"fuente": "nombre_archivo"
+},
+"918": {
+"titulo": "Brochuretrc alterno",
+"fuente": "nombre_archivo"
+},
+"919": {
+"titulo": "Alcorriente septiembre 2024",
+"fuente": "nombre_archivo"
+},
+"920": {
+"titulo": "Alcorrienteoct2026",
+"fuente": "nombre_archivo"
+},
+"921": {
+"titulo": "Sector público",
+"fuente": "nombre_archivo"
+},
+"922": {
+"titulo": "Asesoría 127 ene mar",
+"fuente": "nombre_archivo"
+},
+"923": {
+"titulo": "Informe",
+"fuente": "titulo_original"
+},
+"926": {
+"titulo": "Términos y Condiciones de la campaña Credencial latam",
+"fuente": "titulo_original"
+},
+"927": {
+"titulo": "Términos y condiciones – campaña",
+"fuente": "titulo_original"
+},
+"929": {
+"titulo": "Plantilla de bienes vehículos de carga",
+"fuente": "nombre_archivo"
+},
+"930": {
+"titulo": "Maquinaria amarilla abril Banco de Occidente listados comerciales",
+"fuente": "nombre_archivo"
+},
+"931": {
+"titulo": "Plantilla de bienes maquinaria industrial y amarilla",
+"fuente": "nombre_archivo"
+},
+"932": {
+"titulo": "Plantilla de bienes vehículos automóviles y camionetas nuevas",
+"fuente": "nombre_archivo"
+},
+"933": {
+"titulo": "Fichas obras de arte ac",
+"fuente": "nombre_archivo"
+},
+"934": {
+"titulo": "Inventario acciones club",
+"fuente": "nombre_archivo"
+},
+"937": {
+"titulo": "Guia de uso tarjeta débito activa",
+"fuente": "nombre_archivo"
+},
+"940": {
+"titulo": "Términos y condiciones Campaña",
+"fuente": "titulo_original"
+},
+"942": {
+"titulo": "Cuenta de",
+"fuente": "titulo_original"
+},
+"943": {
+"titulo": "Términos y condiciones de la campaña “tercera campaña sombrilla – duplica",
+"fuente": "titulo_original"
+},
+"944": {
+"titulo": "Términos y Condiciones campaña cuenta de ahorros jóvenes – 16 de",
+"fuente": "titulo_original"
+},
+"945": {
+"titulo": "Términos Y condiciones DE LA campaña “Banca Diplomática",
+"fuente": "titulo_original"
+},
+"946": {
+"titulo": "Términos y condiciones de la campaña “abre tu cuenta nómina y",
+"fuente": "titulo_original"
+},
+"947": {
+"titulo": "Términos y condiciones",
+"fuente": "titulo_original"
+},
+"950": {
+"titulo": "Contrato de prenda sin tenencia del acreedor",
+"fuente": "titulo_original"
+},
+"953": {
+"titulo": "Reglamento de la cuenta de ahorros para el fomento de la construcción",
+"fuente": "titulo_original"
+},
+"954": {
+"titulo": "Hoja: fto-cap-145",
+"fuente": "titulo_original"
+},
+"956": {
+"titulo": "Términos y condiciones de la campaña",
+"fuente": "titulo_original"
+},
+"957": {
+"titulo": "Hoja: fto-cap-025",
+"fuente": "titulo_original"
+},
+"979": {
+"titulo": "Banco de Occidente",
+"fuente": "titulo_original"
+},
+"980": {
+"titulo": "Banco de Occidente",
+"fuente": "titulo_original"
+},
+"981": {
+"titulo": "Modelo de poder para Asamblea de Accionistas",
+"fuente": "titulo_original"
+},
+"982": {
+"titulo": "Bienvenidos",
+"fuente": "titulo_original"
+},
+"983": {
+"titulo": "Principios, deberes y derechos de los accionistas",
+"fuente": "titulo_original"
+},
+"984": {
+"titulo": "Procedimiento para solicitar auditorias especializadas",
+"fuente": "titulo_original"
+},
+"991": {
+"titulo": "Oficina 708",
+"fuente": "titulo_original"
+},
+"992": {
+"titulo": "Bancos",
+"fuente": "titulo_original"
+},
+"993": {
+"titulo": "Fitch Afirma Calificaciones de Banco de Occidente y",
+"fuente": "titulo_original"
+},
+"994": {
+"titulo": "Oficina 708",
+"fuente": "titulo_original"
+},
+"995": {
+"titulo": "Fitch Afirma Calificaciones de Banco de Occidente y",
+"fuente": "titulo_original"
+},
+"996": {
+"titulo": "Oficina 708",
+"fuente": "titulo_original"
+},
+"1001": {
+"titulo": "Guia de uso prestamo personal dinámico",
+"fuente": "nombre_archivo"
+},
+"1004": {
+"titulo": "Términos Y condiciones campaña “Compra de Cartera” – banco DE",
+"fuente": "titulo_original"
+},
+"1005": {
+"titulo": "Certificado individual de seguro",
+"fuente": "titulo_original"
+},
+"1006": {
+"titulo": "6913 cuota protegida sector privado",
+"fuente": "nombre_archivo"
+},
+"1008": {
+"titulo": "6901 protección fuerzas armadas sector militares",
+"fuente": "nombre_archivo"
+},
+"1009": {
+"titulo": "Brochure fuerzas armadas",
+"fuente": "nombre_archivo"
+},
+"1010": {
+"titulo": "6902 pensiondos protegidos sector pensionados",
+"fuente": "nombre_archivo"
+},
+"1011": {
+"titulo": "Brochure pensionados 2024 17 09 24",
+"fuente": "nombre_archivo"
+},
+"1012": {
+"titulo": "1199 vive la vida sector oficial",
+"fuente": "nombre_archivo"
+},
+"1013": {
+"titulo": "Bochure vive la vida libranza",
+"fuente": "nombre_archivo"
+},
+"1014": {
+"titulo": "Brochure segunda capa libranza",
+"fuente": "nombre_archivo"
+},
+"1015": {
+"titulo": "Multiasistencia Élite",
+"fuente": "titulo_original"
+},
+"1016": {
+"titulo": "Multiasistencia Preferente",
+"fuente": "titulo_original"
+},
+"1017": {
+"titulo": "Multiasistencia Preferente Plus",
+"fuente": "titulo_original"
+},
+"1018": {
+"titulo": "Hoja: CDT",
+"fuente": "titulo_original"
+},
+"1020": {
+"titulo": "Programa",
+"fuente": "titulo_original"
+},
+"1023": {
+"titulo": "Procesos y procedimientos utilizados por el banco de occidente",
+"fuente": "titulo_original"
+},
+"1024": {
+"titulo": "Repuélica de colombia + +",
+"fuente": "titulo_original"
+},
+"1025": {
+"titulo": "República de colombia —",
+"fuente": "titulo_original"
+},
+"1026": {
+"titulo": "Circular externa 026 de 2017",
+"fuente": "titulo_original"
+},
+"1027": {
+"titulo": "Código de Ética y Conducta",
+"fuente": "titulo_original"
+},
+"1028": {
+"titulo": "Directorio aliados estratégicos",
+"fuente": "nombre_archivo"
+},
+"1029": {
+"titulo": "Directrices generales en materia de gestión y administración del riesgo",
+"fuente": "titulo_original"
+},
+"1030": {
+"titulo": "Nombre completo de la persona que recibió la capacitación",
+"fuente": "titulo_original"
+},
+"1032": {
+"titulo": "Programa abac",
+"fuente": "titulo_original"
+},
+"1033": {
+"titulo": "Foros tributarios 2026",
+"fuente": "nombre_archivo"
+},
+"1034": {
+"titulo": "Presentación foro tributario 2025",
+"fuente": "nombre_archivo"
+},
+"1035": {
+"titulo": "Presentación foro tributario 2024",
+"fuente": "nombre_archivo"
+},
+"1036": {
+"titulo": "Presentación foro tributario virtual 2023",
+"fuente": "nombre_archivo"
+},
+"1037": {
+"titulo": "Presentación foro tributario 2023",
+"fuente": "nombre_archivo"
+},
+"1040": {
+"titulo": "Presentación foro actualización tributaria seg empresarial",
+"fuente": "nombre_archivo"
+},
+"1041": {
+"titulo": "Presentación foro actualización tributaria seg pymes",
+"fuente": "nombre_archivo"
+},
+"1042": {
+"titulo": "Foro después de la tormenta vendra la calma pdf",
+"fuente": "nombre_archivo"
+},
+"1043": {
+"titulo": "Banco de Occidente tulio restrepo empresas 2 pdf",
+"fuente": "nombre_archivo"
+},
+"1044": {
+"titulo": "Banco de Occidente tulio restrepo gobierno pdf",
+"fuente": "nombre_archivo"
+},
+"1045": {
+"titulo": "Banco de Occidente tulio restrepo corporativo pdf",
+"fuente": "nombre_archivo"
+},
+"1047": {
+"titulo": "Ley crecimiento económico110320 1 pdf",
+"fuente": "nombre_archivo"
+},
+"1048": {
+"titulo": "Juan guillermo morales sept 12 pdf",
+"fuente": "nombre_archivo"
+},
+"1049": {
+"titulo": "Regimen cambiario 2019 pdf",
+"fuente": "nombre_archivo"
+},
+"1050": {
+"titulo": "Desafíos banca nueva normalidad pdf",
+"fuente": "nombre_archivo"
+},
+"1051": {
+"titulo": "Capítulo 2 informe gestión",
+"fuente": "nombre_archivo"
+},
+"1052": {
+"titulo": "Capítulo 4 informe gestión",
+"fuente": "nombre_archivo"
+},
+"1053": {
+"titulo": "Capítulo 5 informe gestión",
+"fuente": "nombre_archivo"
+},
+"1054": {
+"titulo": "Capítulo 6 informe gestión",
+"fuente": "nombre_archivo"
+},
+"1055": {
+"titulo": "Orden del día",
+"fuente": "titulo_original"
+},
+"1056": {
+"titulo": "Banco de Occidente",
+"fuente": "titulo_original"
+},
+"1057": {
+"titulo": "Banco de Occidente",
+"fuente": "titulo_original"
+},
+"1058": {
+"titulo": "Asamblea ordinaria de",
+"fuente": "titulo_original"
+},
+"1061": {
+"titulo": "Guia de uso tarjeta de crédito credencial mascotas",
+"fuente": "nombre_archivo"
+},
+"1062": {
+"titulo": "Términos y condiciones: beneficio «Equipaje de bodega adicional latam pass»",
+"fuente": "primera_linea"
+},
+"1063": {
+"titulo": "Guías de uso tarjeta de crédito santafé",
+"fuente": "nombre_archivo"
+},
+"1064": {
+"titulo": "Guiasdeuso goldmasvis 3 nov 23",
+"fuente": "nombre_archivo"
+},
+"1066": {
+"titulo": "Tarifas persona",
+"fuente": "nombre_archivo"
+},
+"1069": {
+"titulo": "Parte i condiciones generales",
+"fuente": "titulo_original"
+},
+"1070": {
+"titulo": "Brochure cuota protegida libranza",
+"fuente": "nombre_archivo"
+},
+"1072": {
+"titulo": "Manual de",
+"fuente": "titulo_original"
+},
+"1073": {
+"titulo": "Manual de",
+"fuente": "titulo_original"
+},
+"1074": {
+"titulo": "Manual de",
+"fuente": "titulo_original"
+},
+"1075": {
+"titulo": "Manual",
+"fuente": "titulo_original"
+},
+"1076": {
+"titulo": "Manual",
+"fuente": "titulo_original"
+},
+"1077": {
+"titulo": "Manual",
+"fuente": "titulo_original"
+},
+"1078": {
+"titulo": "Actas comité seguridad de la información",
+"fuente": "nombre_archivo"
+},
+"1079": {
+"titulo": "Anexo capacitaciones sensibilización y formación",
+"fuente": "nombre_archivo"
+},
+"1080": {
+"titulo": "Anexo compromiso con la inclusión y educación financiera pdf",
+"fuente": "nombre_archivo"
+},
+"1081": {
+"titulo": "Anexo gestión ambiental",
+"fuente": "nombre_archivo"
+},
+"1082": {
+"titulo": "Cronograma drp plan de recuperación de desastres",
+"fuente": "nombre_archivo"
+},
+"1083": {
+"titulo": "Debida diligencia en derechos humanos",
+"fuente": "nombre_archivo"
+},
+"1084": {
+"titulo": "Decalogo seguridad y salud en el trabajo",
+"fuente": "nombre_archivo"
+},
+"1085": {
+"titulo": "Emisiones financiadas",
+"fuente": "nombre_archivo"
+},
+"1086": {
+"titulo": "Evaluación EY seguridad de la información",
+"fuente": "nombre_archivo"
+},
+"1087": {
+"titulo": "Informe red team pdf",
+"fuente": "nombre_archivo"
+},
+"1088": {
+"titulo": "Lista de exclusión",
+"fuente": "nombre_archivo"
+},
+"1089": {
+"titulo": "Manifiesto de las personas dei",
+"fuente": "nombre_archivo"
+},
+"1090": {
+"titulo": "Participación en gremios cambio climático",
+"fuente": "nombre_archivo"
+},
+"1091": {
+"titulo": "Plan de respuesta a incidentes",
+"fuente": "nombre_archivo"
+},
+"1092": {
+"titulo": "Política corporativa de anticorrupción",
+"fuente": "nombre_archivo"
+},
+"1093": {
+"titulo": "Política prevención del acoso y violencia sexual en el ámbito laboral",
+"fuente": "nombre_archivo"
+},
+"1094": {
+"titulo": "Política seguridad de la información",
+"fuente": "nombre_archivo"
+},
+"1095": {
+"titulo": "Sensibilización seguridad de la información",
+"fuente": "nombre_archivo"
+},
+"1115": {
+"titulo": "Términos y condiciones: campaña «Tercera campaña sombrilla – duplica tus saldos»",
+"fuente": "primera_linea"
+},
+"1116": {
+"titulo": "Descarga de extractos",
+"fuente": "titulo_original"
+},
+"1118": {
+"titulo": "Solicitud plan de pagos y activos leasing",
+"fuente": "titulo_original"
+},
+"1120": {
+"titulo": "Consulta saldo producto - fiduciaria",
+"fuente": "titulo_original"
+},
+"1121": {
+"titulo": "Solicitud y Descarga de Extractos para Leasing",
+"fuente": "titulo_original"
+},
+"1122": {
+"titulo": "Consulta detalle de pagos realizados a Leasing",
+"fuente": "titulo_original"
+},
+"1123": {
+"titulo": "Descarga constancia de cuentas",
+"fuente": "titulo_original"
+},
+"1124": {
+"titulo": "Solicitud extractos moneda extranjera",
+"fuente": "titulo_original"
+},
+"1125": {
+"titulo": "Nuevo Portal Empresarial OcciRed Tarjeta de Crédito",
+"fuente": "titulo_original"
+},
+"1126": {
+"titulo": "Descarga certificados saldos leasing",
+"fuente": "titulo_original"
+},
+"1127": {
+"titulo": "Servicio de descarga de archivos – side bar",
+"fuente": "titulo_original"
+},
+"1128": {
+"titulo": "Solicitud y descarga archivo multicash",
+"fuente": "titulo_original"
+},
+"1129": {
+"titulo": "Consulta de notas débito y crédito",
+"fuente": "titulo_original"
+},
+"1130": {
+"titulo": "Consulta de obligaciones",
+"fuente": "titulo_original"
+},
+"1131": {
+"titulo": "Domiciliar tarjeta de crédito",
+"fuente": "titulo_original"
+},
+"1132": {
+"titulo": "Inscripción de cuenta para transferencia",
+"fuente": "titulo_original"
+},
+"1133": {
+"titulo": "Inscripción de cuentas para transferencias",
+"fuente": "titulo_original"
+},
+"1134": {
+"titulo": "Transferencias a cuentas afc",
+"fuente": "titulo_original"
+},
+"1135": {
+"titulo": "Transacción de Usuario",
+"fuente": "titulo_original"
+},
+"1136": {
+"titulo": "Pago de factoring",
+"fuente": "titulo_original"
+},
+"1137": {
+"titulo": "Pago de leasings propios a través de PSE",
+"fuente": "titulo_original"
+},
+"1138": {
+"titulo": "Pago múltiple de leasing",
+"fuente": "titulo_original"
+},
+"1139": {
+"titulo": "Pago tipo 5 excento de gmf",
+"fuente": "titulo_original"
+},
+"1140": {
+"titulo": "Nuevo Portal Empresarial OcciRed",
+"fuente": "titulo_original"
+},
+"1141": {
+"titulo": "Nuevo Portal Empresarial OcciRed",
+"fuente": "titulo_original"
+},
+"1142": {
+"titulo": "Nuevo Portal Empresarial OcciRed",
+"fuente": "titulo_original"
+},
+"1143": {
+"titulo": "Nuevo Portal Empresarial OcciRed",
+"fuente": "titulo_original"
+},
+"1144": {
+"titulo": "Transferencias internas y aval",
+"fuente": "titulo_original"
+},
+"1145": {
+"titulo": "Transferencias sebra",
+"fuente": "titulo_original"
+},
+"1146": {
+"titulo": "Fondos de",
+"fuente": "titulo_original"
+},
+"1147": {
+"titulo": "Insripción cuentas - fondos de inversión",
+"fuente": "titulo_original"
+},
+"1148": {
+"titulo": "Pago de unidirecto",
+"fuente": "titulo_original"
+},
+"1149": {
+"titulo": "Pago de obligaciones",
+"fuente": "titulo_original"
+},
+"1150": {
+"titulo": "Transacciones masivas",
+"fuente": "titulo_original"
+},
+"1151": {
+"titulo": "Pago de tarjeta de crédito",
+"fuente": "titulo_original"
+},
+"1152": {
+"titulo": "Administración de Beneficiarios",
+"fuente": "titulo_original"
+},
+"1153": {
+"titulo": "Administración de perfiles para crédito rotativo",
+"fuente": "titulo_original"
+},
+"1154": {
+"titulo": "Inscripción de alertas",
+"fuente": "titulo_original"
+},
+"1155": {
+"titulo": "Administración de productos",
+"fuente": "titulo_original"
+},
+"1156": {
+"titulo": "Configuración montos usuarios secundarios",
+"fuente": "titulo_original"
+},
+"1157": {
+"titulo": "Configuración ip fija",
+"fuente": "titulo_original"
+},
+"1158": {
+"titulo": "Configuración montos usuarios secundarios - pagos PSE",
+"fuente": "titulo_original"
+},
+"1159": {
+"titulo": "Configuración topes empresa – pagos PSE",
+"fuente": "titulo_original"
+},
+"1160": {
+"titulo": "Modificación topes empresa",
+"fuente": "titulo_original"
+},
+"1161": {
+"titulo": "Nuevo Portal Empresarial OcciRed",
+"fuente": "titulo_original"
+},
+"1162": {
+"titulo": "¿Qué es Rapport Trusteer?",
+"fuente": "titulo_original"
+},
+"1163": {
+"titulo": "Nuevo login occired",
+"fuente": "titulo_original"
+},
+"1164": {
+"titulo": "Configuración de montos por servicios",
+"fuente": "titulo_original"
+},
+"1165": {
+"titulo": "Instrucciones para activación de usuarios secundarios",
+"fuente": "titulo_original"
+},
+"1166": {
+"titulo": "Instrucciones para cambio de clave de usuarios secundarios",
+"fuente": "titulo_original"
+},
+"1167": {
+"titulo": "Cómo registrarte en la App",
+"fuente": "titulo_original"
+},
+"1168": {
+"titulo": "Instructivo Flujo",
+"fuente": "titulo_original"
+},
+"1169": {
+"titulo": "Cómo realizar el pago de servicios",
+"fuente": "titulo_original"
+},
+"1170": {
+"titulo": "Cómo realizar autorizaciones desde la",
+"fuente": "titulo_original"
+},
+"1171": {
+"titulo": "Cómo realizar tranferencias internas y",
+"fuente": "titulo_original"
+},
+"1172": {
+"titulo": "Proceso",
+"fuente": "titulo_original"
+},
+"1173": {
+"titulo": "Proceso de",
+"fuente": "titulo_original"
+},
+"1174": {
+"titulo": "Perfilamiento servicios App Banco de Occidente Empresas",
+"fuente": "titulo_original"
+},
+"1175": {
+"titulo": "Instrucciones para",
+"fuente": "titulo_original"
+},
+"1176": {
+"titulo": "Tarifas persona Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"1177": {
+"titulo": "Tarifas empresariales Banco de Occidente",
+"fuente": "nombre_archivo"
+},
+"1178": {
+"titulo": "Tasas empresariales Banco de Occidente",
+"fuente": "nombre_archivo"
+}
+}

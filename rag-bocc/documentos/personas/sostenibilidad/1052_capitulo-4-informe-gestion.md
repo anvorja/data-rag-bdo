@@ -21,6 +21,7 @@ caracteres: 241157
 paginas: 36
 hash_contenido: 552d56520fa314b2
 lote: "crawl2-documentos"
+titulo_publico: "Capítulo 4 informe gestión"
 indexar: true
 flags: [tablas_markdown]
 ---

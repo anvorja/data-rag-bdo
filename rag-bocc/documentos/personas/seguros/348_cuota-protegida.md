@@ -21,6 +21,7 @@ caracteres: 10270
 paginas: null
 hash_contenido: ef96a17350c4ae75
 lote: "crawl2-paginas"
+titulo_publico: "Cuota Protegida"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

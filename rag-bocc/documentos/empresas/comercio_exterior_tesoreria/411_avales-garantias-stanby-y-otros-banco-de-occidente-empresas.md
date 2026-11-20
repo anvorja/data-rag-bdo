@@ -22,6 +22,7 @@ caracteres: 4607
 paginas: null
 hash_contenido: 1d6a4bd1adef3127
 lote: "crawl2-paginas"
+titulo_publico: "Avales, Garantias, Stanby y otros"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

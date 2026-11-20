@@ -21,6 +21,7 @@ caracteres: 9201
 paginas: null
 hash_contenido: 8ab152b6aa6f2cd6
 lote: "crawl2-paginas"
+titulo_publico: "Certificado de Reembolso Tributario (CERT) - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 6728
 paginas: 5
 hash_contenido: c7b7fa1d5c97ff06
 lote: "crawl2-documentos"
+titulo_publico: "Deberes de las entidades vigiladas"
 indexar: true
 flags: [candidato_vlm]
 ---

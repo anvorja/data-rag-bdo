@@ -21,6 +21,7 @@ caracteres: 27838
 paginas: 2
 hash_contenido: 1164e029753c6353
 lote: "crawl2-documentos"
+titulo_publico: "Solicitud de Vinculación Persona Jurídica"
 vigencia_validada: true
 indexar: true
 flags: []

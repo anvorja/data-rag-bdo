@@ -21,6 +21,7 @@ caracteres: 1902
 paginas: 28
 hash_contenido: 770f811ee3fc0b5d
 lote: "crawl2-documentos"
+titulo_publico: "Brochure producto Pyme"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

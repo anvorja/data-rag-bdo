@@ -22,6 +22,7 @@ caracteres: 6621
 paginas: null
 hash_contenido: bd43294e1f93e10e
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito LATAM Pass Signature Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

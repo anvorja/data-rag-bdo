@@ -22,6 +22,7 @@ caracteres: 5270
 paginas: null
 hash_contenido: d0ba6cd3a4045c7c
 lote: "lote1"
+titulo_publico: "Tarjetas de Crédito Visa y Mastercard Premium"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

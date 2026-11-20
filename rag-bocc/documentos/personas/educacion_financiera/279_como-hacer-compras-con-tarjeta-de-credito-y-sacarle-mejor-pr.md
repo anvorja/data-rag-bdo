@@ -21,6 +21,7 @@ caracteres: 7954
 paginas: null
 hash_contenido: a14499e14a71d91a
 lote: "lote1"
+titulo_publico: "¿Cómo hacer compras con tarjeta de crédito y sacarle mejor provecho?"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 32435
 paginas: 3
 hash_contenido: 01eb6b220e2436a3
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual noviembre"
 indexar: true
 flags: []
 ---

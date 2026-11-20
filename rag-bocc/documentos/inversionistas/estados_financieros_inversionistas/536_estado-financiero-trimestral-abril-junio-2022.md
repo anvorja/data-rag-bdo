@@ -21,6 +21,7 @@ caracteres: 220817
 paginas: 50
 hash_contenido: 168dbdbad6d8c157
 lote: "crawl2-documentos"
+titulo_publico: "Estado financiero trimestral abril junio 2022"
 indexar: true
 flags: [tablas_numericas]
 ---

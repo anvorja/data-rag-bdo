@@ -22,6 +22,7 @@ caracteres: 2542
 paginas: null
 hash_contenido: 43fdee7b69cd0373
 lote: "lote1"
+titulo_publico: "Legal y Políticas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

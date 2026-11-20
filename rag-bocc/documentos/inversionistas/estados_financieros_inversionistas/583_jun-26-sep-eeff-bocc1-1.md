@@ -21,6 +21,7 @@ caracteres: 282486
 paginas: 58
 hash_contenido: d2fef97164cb1d7e
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a junio de 2026"
 indexar: true
 flags: [tablas_numericas]
 ---

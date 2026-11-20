@@ -21,6 +21,7 @@ caracteres: 24522
 paginas: 12
 hash_contenido: c9e486b92ec259cc
 lote: "lote1"
+titulo_publico: "Guia de uso para crédito de libranza"
 vigencia_validada: true
 indexar: true
 flags: []

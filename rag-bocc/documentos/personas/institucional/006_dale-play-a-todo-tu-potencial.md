@@ -23,6 +23,7 @@ caracteres: 3768
 paginas: null
 hash_contenido: fe7285672a511289
 lote: "lote1"
+titulo_publico: "Dale play a todo tu potencial."
 indexar: true
 flags: [titulo_dudoso]
 ---

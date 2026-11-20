@@ -21,6 +21,7 @@ caracteres: 621
 paginas: 8
 hash_contenido: 07af173ad20b2591
 lote: "crawl2-documentos"
+titulo_publico: "Fichas obras de arte ac"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

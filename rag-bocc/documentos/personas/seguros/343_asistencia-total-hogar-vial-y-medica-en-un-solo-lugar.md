@@ -22,6 +22,7 @@ caracteres: 4976
 paginas: null
 hash_contenido: 3dfef18449b9a544
 lote: "crawl2-paginas"
+titulo_publico: "Asistencia Total: Hogar, Vial y Médica en un Solo Lugar"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 18 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

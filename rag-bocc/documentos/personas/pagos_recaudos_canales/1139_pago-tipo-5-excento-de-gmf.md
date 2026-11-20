@@ -21,6 +21,7 @@ caracteres: 1714
 paginas: 8
 hash_contenido: 44f271b8d38029c8
 lote: "crawl2-documentos"
+titulo_publico: "Pago tipo 5 excento de gmf"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

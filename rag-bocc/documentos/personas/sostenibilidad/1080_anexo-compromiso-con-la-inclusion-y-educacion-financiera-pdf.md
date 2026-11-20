@@ -21,6 +21,7 @@ caracteres: 6285
 paginas: 3
 hash_contenido: e6666a11bf1cb7c1
 lote: "crawl2-documentos"
+titulo_publico: "Anexo compromiso con la inclusión y educación financiera pdf"
 indexar: true
 flags: []
 ---

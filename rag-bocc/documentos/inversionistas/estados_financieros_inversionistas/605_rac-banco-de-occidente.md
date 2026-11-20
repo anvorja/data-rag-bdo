@@ -21,6 +21,7 @@ caracteres: 45649
 paginas: 10
 hash_contenido: 66ac08eb86f06378
 lote: "crawl2-documentos"
+titulo_publico: "Rac banco de occidente"
 indexar: true
 flags: []
 ---

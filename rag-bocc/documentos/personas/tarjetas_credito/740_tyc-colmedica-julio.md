@@ -21,6 +21,7 @@ caracteres: 10659
 paginas: 5
 hash_contenido: d05f28093fae2644
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Colmédica y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: []

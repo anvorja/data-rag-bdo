@@ -21,6 +21,7 @@ caracteres: 2698
 paginas: 8
 hash_contenido: 14331289ba5eb068
 lote: "crawl2-documentos"
+titulo_publico: "Fondos de"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 18804
 paginas: 53
 hash_contenido: 037569357f47f92e
 lote: "crawl2-documentos"
+titulo_publico: "Presentación foro actualización tributaria seg pymes"
 indexar: true
 flags: [candidato_vlm]
 ---

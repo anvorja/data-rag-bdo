@@ -21,6 +21,7 @@ caracteres: 7265
 paginas: 3
 hash_contenido: 79181964906c0dde
 lote: "crawl2-documentos"
+titulo_publico: "Política de información y comunicaciones pdf"
 indexar: true
 flags: []
 ---

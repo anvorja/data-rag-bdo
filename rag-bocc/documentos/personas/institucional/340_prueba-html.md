@@ -21,6 +21,7 @@ caracteres: 2099
 paginas: null
 hash_contenido: 4c711b36471c8e93
 lote: "crawl2-paginas"
+titulo_publico: "prueba html"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS."

@@ -1,6 +1,7 @@
 """Fase 3a-bis · paso 3: híbrido + vigencia + reranker bge (top-20, con contexto) para cada modelo de embeddings elegido.
 Los pares (consulta, fragmento) puntuados por el reranker se comparten entre modelos (caché), así no se repite trabajo.
-Uso: python 15_embeddings_con_reranker.py --modelos voyage-context-4 voyage-4-large [--split dev]
+Uso: python 15_embeddings_con_reranker.py --modelos voyage-context-4 voyage-4-large e5-small [--split dev] [--dispositivo auto|cpu|cuda] [--fp16] [--lote 16]
+En GPU (Colab T4): pipeline/colab/reranker_colab.ipynb
 Salida: rag-bocc/evaluacion/fase3a/embeddings-reranker-<split>.json
 """
 import argparse, json, os, sys, time
@@ -13,7 +14,7 @@ from vigencia import doc_ok
 import almacen
 
 ap = argparse.ArgumentParser(); ap.add_argument('--modelos', nargs='+', required=True); ap.add_argument('--split', default='dev'); ap.add_argument('--topk', type=int, default=20)
-ap.add_argument('--sufijo', default='')
+ap.add_argument('--sufijo', default=''); ap.add_argument('--dispositivo', default='auto'); ap.add_argument('--fp16', action='store_true'); ap.add_argument('--lote', type=int, default=16)
 args = ap.parse_args(); sufijo = args.sufijo
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
 rows = [json.loads(l) for l in open(B + 'rag-bocc/corpus.jsonl')]
@@ -23,12 +24,16 @@ ch = chunk_corpus(rows, 'estructural'); ids = [c['cid'] for c in ch]
 ev = Evaluador(ch, gold)
 bm1 = BM25([c['ctx'] + '\n' + c['texto'] for c in ch])
 from sentence_transformers import CrossEncoder
-ce = CrossEncoder('BAAI/bge-reranker-v2-m3', device='cpu', max_length=512)
+import torch
+disp = ('cuda' if torch.cuda.is_available() else 'cpu') if args.dispositivo == 'auto' else args.dispositivo
+ce = CrossEncoder('BAAI/bge-reranker-v2-m3', device=disp, max_length=512)
+if args.fp16 and disp == 'cuda': ce.model.half()
+print('reranker bge en', disp, '(fp16)' if args.fp16 and disp == 'cuda' else '', flush=True)
 par = {}
 def puntuar(q, cand):
     falta = [i for i in cand if (q, i) not in par]
     if falta:
-        sc = ce.predict([(q, ch[i]['ctx'] + '\n' + ch[i]['texto']) for i in falta], batch_size=16, show_progress_bar=False)
+        sc = ce.predict([(q, ch[i]['ctx'] + '\n' + ch[i]['texto']) for i in falta], batch_size=args.lote, show_progress_bar=False)
         for i, s in zip(falta, sc): par[(q, i)] = float(s)
     return sorted(((i, par[(q, i)]) for i in cand), key=lambda x: -x[1])
 res = {}

@@ -21,6 +21,7 @@ caracteres: 4995
 paginas: null
 hash_contenido: be665b9693703738
 lote: "crawl2-paginas"
+titulo_publico: "Vida Grupo Deudor - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 16 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

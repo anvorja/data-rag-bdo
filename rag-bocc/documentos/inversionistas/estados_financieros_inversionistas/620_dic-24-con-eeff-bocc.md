@@ -21,6 +21,7 @@ caracteres: 780762
 paginas: 165
 hash_contenido: 6a946b47338546ee
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a diciembre de 2024"
 indexar: true
 flags: []
 ---

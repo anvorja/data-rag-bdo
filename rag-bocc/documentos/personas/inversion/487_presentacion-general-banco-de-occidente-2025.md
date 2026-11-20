@@ -21,6 +21,7 @@ caracteres: 99671
 paginas: 59
 hash_contenido: 2f59277ba1ac60a1
 lote: "crawl2-documentos"
+titulo_publico: "Presentación general banco de occidente 2025"
 indexar: true
 flags: [candidato_vlm]
 ---

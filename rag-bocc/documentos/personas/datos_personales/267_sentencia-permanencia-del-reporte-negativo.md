@@ -21,6 +21,7 @@ caracteres: 972856
 paginas: 225
 hash_contenido: 83901c049aa712f7
 lote: "lote1"
+titulo_publico: "Sentencia permanencia del reporte negativo"
 indexar: true
 flags: []
 ---

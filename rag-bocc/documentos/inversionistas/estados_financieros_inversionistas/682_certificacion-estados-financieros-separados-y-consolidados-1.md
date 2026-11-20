@@ -21,6 +21,7 @@ caracteres: 1425
 paginas: 1
 hash_contenido: f4bcdc3fe746e183
 lote: "crawl2-documentos"
+titulo_publico: "Certificación estados financieros separados y consolidados"
 indexar: true
 flags: [candidato_vlm]
 ---

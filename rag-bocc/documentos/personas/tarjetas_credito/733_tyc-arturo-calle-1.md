@@ -21,6 +21,7 @@ caracteres: 9710
 paginas: 5
 hash_contenido: 9e875b5e030698e7
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «20% de Descuento en ARTURO CALLE y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

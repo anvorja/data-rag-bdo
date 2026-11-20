@@ -22,6 +22,7 @@ caracteres: 25917
 paginas: null
 hash_contenido: dc177da71e716baf
 lote: "crawl2-paginas"
+titulo_publico: "Asistencias Tarjetas de Crédito"
 indexar: true
 flags: [tablas_markdown, plantilla_cms_limpiada]
 nota: "Se quitaron 30 líneas de plantilla del CMS."

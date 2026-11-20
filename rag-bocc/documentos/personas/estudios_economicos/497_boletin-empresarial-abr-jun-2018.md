@@ -21,6 +21,7 @@ caracteres: 22732
 paginas: 9
 hash_contenido: af9b07b10eed930b
 lote: "crawl2-documentos"
+titulo_publico: "Boletin empresarial abr jun 2018"
 indexar: true
 flags: []
 ---

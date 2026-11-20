@@ -21,6 +21,7 @@ caracteres: 27578
 paginas: 9
 hash_contenido: 55ac36dae035ff8c
 lote: "crawl2-documentos"
+titulo_publico: "Boletin empresarial jul sep 2018"
 indexar: true
 flags: []
 ---

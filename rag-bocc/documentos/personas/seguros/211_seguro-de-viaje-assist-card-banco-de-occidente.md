@@ -22,6 +22,7 @@ caracteres: 4523
 paginas: null
 hash_contenido: 8115b1651485d9ef
 lote: "lote1"
+titulo_publico: "Seguro de Viaje Assist Card"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

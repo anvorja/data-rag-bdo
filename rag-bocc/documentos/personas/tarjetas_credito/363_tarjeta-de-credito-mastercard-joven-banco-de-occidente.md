@@ -22,6 +22,7 @@ caracteres: 3275
 paginas: null
 hash_contenido: dcdd4e435ac1ce91
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Mastercard Joven Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

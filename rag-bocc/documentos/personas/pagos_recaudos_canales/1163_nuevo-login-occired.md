@@ -21,6 +21,7 @@ caracteres: 1025
 paginas: 3
 hash_contenido: 4881c8727b1ea49f
 lote: "crawl2-documentos"
+titulo_publico: "Nuevo login occired"
 indexar: true
 flags: [candidato_vlm]
 ---

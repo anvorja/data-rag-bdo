@@ -21,6 +21,7 @@ caracteres: 2338
 paginas: 88
 hash_contenido: 9775648f571580f5
 lote: "crawl2-documentos"
+titulo_publico: "Banco de Occidente tulio restrepo gobierno pdf"
 vigencia_validada: true
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]

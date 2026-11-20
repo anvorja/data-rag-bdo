@@ -21,6 +21,7 @@ caracteres: 19865
 paginas: 13
 hash_contenido: 2b088e83d7e5d5d7
 lote: "crawl2-documentos"
+titulo_publico: "Cuenta de"
 vigencia_validada: true
 indexar: true
 flags: []

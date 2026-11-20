@@ -21,6 +21,7 @@ caracteres: 311787
 paginas: 64
 hash_contenido: 598bd0fc13617aa8
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a marzo de 2026"
 indexar: true
 flags: [tablas_numericas]
 ---

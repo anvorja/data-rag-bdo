@@ -21,6 +21,7 @@ caracteres: 1958
 paginas: 24
 hash_contenido: c99fc650015b3fc5
 lote: "crawl2-documentos"
+titulo_publico: "Brochure producto empresarial"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

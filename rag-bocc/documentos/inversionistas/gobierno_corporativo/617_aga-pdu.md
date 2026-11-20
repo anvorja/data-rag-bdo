@@ -21,6 +21,7 @@ caracteres: 970
 paginas: 2
 hash_contenido: 802d97bc01fd5b63
 lote: "crawl2-documentos"
+titulo_publico: "Aga pdu"
 indexar: true
 flags: [candidato_vlm]
 ---

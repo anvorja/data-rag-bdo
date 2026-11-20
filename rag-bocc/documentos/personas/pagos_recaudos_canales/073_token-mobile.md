@@ -22,6 +22,7 @@ caracteres: 2754
 paginas: null
 hash_contenido: ac2a649ec75b9e2c
 lote: "lote1"
+titulo_publico: "Token Mobile"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

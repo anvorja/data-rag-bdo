@@ -21,6 +21,7 @@ caracteres: 19621
 paginas: 8
 hash_contenido: bb552236139563a6
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Conecta aval»"
 vigencia_validada: true
 indexar: true
 flags: []

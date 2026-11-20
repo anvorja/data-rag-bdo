@@ -22,6 +22,7 @@ caracteres: 4414
 paginas: null
 hash_contenido: 370fb19706c3e790
 lote: "crawl2-paginas"
+titulo_publico: "Cuenta de Ahorros Empresarial"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

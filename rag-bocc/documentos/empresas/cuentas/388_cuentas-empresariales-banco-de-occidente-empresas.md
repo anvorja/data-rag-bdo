@@ -22,6 +22,7 @@ caracteres: 2729
 paginas: null
 hash_contenido: 320ab7c1b3330531
 lote: "crawl2-paginas"
+titulo_publico: "Cuentas Empresariales"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 3 líneas de plantilla del CMS."

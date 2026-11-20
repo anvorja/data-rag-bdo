@@ -23,6 +23,7 @@ hash_contenido: f6115bcf846d1e04
 lote: "lote1"
 casi_duplicado_de: 165
 similitud: 0.91
+titulo_publico: "Contrato leasing habitacional destinado a vivienda no familiar en uvr"
 vigencia_validada: true
 indexar: true
 flags: [casi_duplicado]

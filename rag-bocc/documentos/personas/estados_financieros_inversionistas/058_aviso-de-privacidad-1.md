@@ -21,6 +21,7 @@ caracteres: 17400
 paginas: 4
 hash_contenido: 3bd6f91277e51db1
 lote: "lote1"
+titulo_publico: "Aviso de privacidad"
 indexar: true
 flags: []
 ---

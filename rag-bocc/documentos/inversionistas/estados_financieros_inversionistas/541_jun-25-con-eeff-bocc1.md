@@ -21,6 +21,7 @@ caracteres: 317553
 paginas: 62
 hash_contenido: 11c698790101d0a9
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros consolidados a junio de 2025"
 indexar: true
 flags: [tablas_numericas]
 ---

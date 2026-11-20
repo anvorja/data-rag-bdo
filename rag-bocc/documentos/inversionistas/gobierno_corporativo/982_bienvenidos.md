@@ -21,6 +21,7 @@ caracteres: 2941
 paginas: 6
 hash_contenido: 44670f1557f30415
 lote: "crawl2-documentos"
+titulo_publico: "Bienvenidos"
 indexar: true
 flags: [candidato_vlm]
 ---

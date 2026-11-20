@@ -21,6 +21,7 @@ caracteres: 3503
 paginas: null
 hash_contenido: fdf40f4b5e2b71f5
 lote: "crawl2-paginas"
+titulo_publico: "Nuestros Beneficios"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 15 líneas de plantilla del CMS."

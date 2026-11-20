@@ -21,6 +21,7 @@ caracteres: 980
 paginas: 5
 hash_contenido: 86af22c175cd4a3d
 lote: "crawl2-documentos"
+titulo_publico: "Consulta saldo producto - fiduciaria"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 10470
 paginas: 6
 hash_contenido: 0a3863279dfa2de1
 lote: "crawl2-documentos"
+titulo_publico: "Términos y condiciones: campaña «Mercadolibre tasa 0% y Banco de Occidente»"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

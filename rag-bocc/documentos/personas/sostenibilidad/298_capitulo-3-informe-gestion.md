@@ -21,6 +21,7 @@ caracteres: 76979
 paginas: 11
 hash_contenido: 2cd3d137efaa6bac
 lote: "lote1"
+titulo_publico: "Capítulo 3 informe gestión"
 vigencia_validada: true
 indexar: true
 flags: [sin_fecha]

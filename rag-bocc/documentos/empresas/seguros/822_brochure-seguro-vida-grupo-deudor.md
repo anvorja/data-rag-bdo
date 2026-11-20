@@ -21,6 +21,7 @@ caracteres: 7664
 paginas: 6
 hash_contenido: 70545eca00bab8fd
 lote: "crawl2-documentos"
+titulo_publico: "Brochure seguro vida grupo deudor"
 indexar: true
 flags: [candidato_vlm]
 ---

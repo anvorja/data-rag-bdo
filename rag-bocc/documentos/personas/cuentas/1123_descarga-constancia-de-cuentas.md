@@ -21,6 +21,7 @@ caracteres: 1053
 paginas: 5
 hash_contenido: 18452d4ec964bdf9
 lote: "crawl2-documentos"
+titulo_publico: "Descarga constancia de cuentas"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

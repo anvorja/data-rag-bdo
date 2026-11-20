@@ -21,6 +21,7 @@ caracteres: 811
 paginas: null
 hash_contenido: ed762426bf11c9dc
 lote: "crawl2-documentos"
+titulo_publico: "Supplyfactors anexo landing"
 indexar: true
 flags: [ocr]
 ---

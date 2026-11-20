@@ -21,6 +21,7 @@ caracteres: 625
 paginas: null
 hash_contenido: 04c2400c98434106
 lote: "lote1"
+titulo_publico: "Asamblea de Accionistas"
 indexar: true
 flags: []
 ---

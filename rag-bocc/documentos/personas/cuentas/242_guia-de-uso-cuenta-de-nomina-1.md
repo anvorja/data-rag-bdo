@@ -21,6 +21,7 @@ caracteres: 17285
 paginas: 19
 hash_contenido: 4263687059968757
 lote: "lote1"
+titulo_publico: "En esta guía de uso encontrará toda la información necesaria para que conozca y"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm]

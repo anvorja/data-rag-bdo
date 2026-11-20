@@ -22,6 +22,7 @@ caracteres: 4750
 paginas: null
 hash_contenido: 197ad11432659689
 lote: "crawl2-paginas"
+titulo_publico: "Líneas de Crédtio Especiales de Redescuento"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

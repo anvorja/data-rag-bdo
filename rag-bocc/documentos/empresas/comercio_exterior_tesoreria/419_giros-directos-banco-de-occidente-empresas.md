@@ -22,6 +22,7 @@ caracteres: 3740
 paginas: null
 hash_contenido: 2c8d5bb0714ee8b2
 lote: "crawl2-paginas"
+titulo_publico: "Giros Directos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 12 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

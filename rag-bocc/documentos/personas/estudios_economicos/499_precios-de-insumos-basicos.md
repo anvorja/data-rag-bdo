@@ -21,6 +21,7 @@ caracteres: 29224
 paginas: 5
 hash_contenido: f62377893a5bf484
 lote: "crawl2-documentos"
+titulo_publico: "Precios de insumos básicos"
 indexar: true
 flags: []
 ---

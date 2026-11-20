@@ -22,6 +22,7 @@ caracteres: 3634
 paginas: null
 hash_contenido: f874b2b4d2920c41
 lote: "crawl2-paginas"
+titulo_publico: "Leasing para Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 7 líneas de plantilla del CMS."

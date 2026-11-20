@@ -22,6 +22,7 @@ caracteres: 2886
 paginas: null
 hash_contenido: e5518be9488de2dd
 lote: "lote1"
+titulo_publico: "Coberturas Tasas de Interés Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 1094
 paginas: 7
 hash_contenido: 33458943330fb237
 lote: "crawl2-documentos"
+titulo_publico: "Solicitud extractos moneda extranjera"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

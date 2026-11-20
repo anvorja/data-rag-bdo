@@ -21,6 +21,7 @@ caracteres: 2427
 paginas: null
 hash_contenido: 6abe9f7dc1b86d6a
 lote: "lote1"
+titulo_publico: "Paso a Paso TC"
 indexar: true
 flags: []
 ---

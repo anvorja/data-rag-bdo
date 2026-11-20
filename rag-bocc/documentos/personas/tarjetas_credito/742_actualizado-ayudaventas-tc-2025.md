@@ -21,6 +21,7 @@ caracteres: 43555
 paginas: 53
 hash_contenido: a5f9fb2c8530c382
 lote: "crawl2-documentos"
+titulo_publico: "Actualizado ayudaventas tarjeta de crédito 2025"
 indexar: true
 flags: [candidato_vlm]
 ---

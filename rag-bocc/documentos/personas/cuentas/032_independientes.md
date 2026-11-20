@@ -21,6 +21,7 @@ caracteres: 12585
 paginas: null
 hash_contenido: 1f4b657465989218
 lote: "lote1"
+titulo_publico: "Independientes"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 24 líneas de plantilla del CMS."

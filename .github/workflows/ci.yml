@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install ruff
-      - run: ruff check pipeline
-      - run: ruff format --check pipeline || true   # formato informativo por ahora
+      - run: ruff check pipeline api
+      - run: ruff format --check pipeline api || true   # formato informativo por ahora
 
   calidad:
     name: Calidad de datos y secretos
@@ -33,8 +33,20 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Reconstruir corpus.jsonl desde los .md (prueba de que un clon limpio funciona)
+        run: python pipeline/20_reconstruir_corpus.py
       - name: Validar corpus, golden set, tamaños y patrones de secretos
         run: python pipeline/validate.py
+      - name: Contrato de la fase 3b (citas, avisos y verificaciones deterministas)
+        run: python pipeline/fase3b/contrato.py --autoprueba
+      - name: Controles anti-abuso (límites de longitud, ritmo y abstenciones seguidas)
+        run: python pipeline/fase3b/limites.py --autoprueba
+      - name: Reglas previas a la búsqueda (fraude/quejas y consultas de la cuenta propia; falsos positivos sobre el golden)
+        run: python pipeline/fase3b/reglas.py --autoprueba
+      - name: Capa de enmascaramiento de datos personales (autoprueba y medición con datos sintéticos)
+        run: python pipeline/fase3b/enmascarar.py --autoprueba && python pipeline/25_enmascaramiento.py --sin-ner > /dev/null
+      - name: API del panel de pruebas (sin proveedores pagos; LLM y reranker simulados)
+        run: pip install -r requirements-api.txt && python -m api.test_api
       - name: Escaneo de secretos con gitleaks (historial completo)
         uses: gitleaks/gitleaks-action@v2
         env:

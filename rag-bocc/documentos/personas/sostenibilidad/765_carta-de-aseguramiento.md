@@ -21,6 +21,7 @@ caracteres: 15382
 paginas: 6
 hash_contenido: 23ced805f548ed6f
 lote: "crawl2-documentos"
+titulo_publico: "Carta de aseguramiento"
 indexar: true
 flags: []
 ---

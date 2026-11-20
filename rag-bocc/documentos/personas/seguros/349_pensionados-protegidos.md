@@ -21,6 +21,7 @@ caracteres: 9218
 paginas: null
 hash_contenido: 614c97e7f9bac914
 lote: "crawl2-paginas"
+titulo_publico: "Pensionados Protegidos"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 1 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

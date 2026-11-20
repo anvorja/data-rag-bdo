@@ -21,6 +21,7 @@ caracteres: 972
 paginas: null
 hash_contenido: 8e46e50d6a1f505f
 lote: "crawl2-paginas"
+titulo_publico: "Alianza Crédito Porvenir"
 indexar: true
 flags: []
 ---

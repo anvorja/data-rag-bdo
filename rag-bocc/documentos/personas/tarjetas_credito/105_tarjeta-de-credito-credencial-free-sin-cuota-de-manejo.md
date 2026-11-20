@@ -22,6 +22,7 @@ caracteres: 5030
 paginas: null
 hash_contenido: 4ac15cb53e6a7570
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito Credencial Free Sin Cuota de Manejo​"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

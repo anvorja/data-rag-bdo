@@ -21,6 +21,7 @@ caracteres: 26397
 paginas: 2
 hash_contenido: 30b239ed2daf263e
 lote: "crawl2-documentos"
+titulo_publico: "Pulso económico mensual junio"
 indexar: true
 flags: []
 ---

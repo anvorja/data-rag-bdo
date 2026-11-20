@@ -21,6 +21,7 @@ caracteres: 856
 paginas: null
 hash_contenido: 6b42857fd5226db0
 lote: "crawl2-paginas"
+titulo_publico: "Tienda Rigo"
 indexar: true
 flags: []
 ---

@@ -21,6 +21,7 @@ caracteres: 4906
 paginas: null
 hash_contenido: 0546cb06fc837261
 lote: "lote1"
+titulo_publico: "Mastercard Colombia Administradora S.A. | Mastercard Colombia"
 indexar: true
 flags: []
 ---

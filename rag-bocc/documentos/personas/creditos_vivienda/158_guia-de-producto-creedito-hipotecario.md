@@ -21,6 +21,7 @@ caracteres: 49108
 paginas: 17
 hash_contenido: 3c1c7b969b6fc6a6
 lote: "lote1"
+titulo_publico: "Guia de producto creedito hipotecario"
 vigencia_validada: true
 indexar: true
 flags: []

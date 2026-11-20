@@ -21,6 +21,7 @@ caracteres: 3496
 paginas: 11
 hash_contenido: 1f713b8e60d32f86
 lote: "crawl2-documentos"
+titulo_publico: "Nuevo Portal Empresarial OcciRed"
 indexar: true
 flags: [candidato_vlm]
 ---

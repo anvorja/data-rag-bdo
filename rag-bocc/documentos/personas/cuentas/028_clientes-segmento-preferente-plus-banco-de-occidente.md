@@ -22,6 +22,7 @@ caracteres: 2793
 paginas: null
 hash_contenido: 092ebf0e51b2dd83
 lote: "lote1"
+titulo_publico: "Clientes Segmento Preferente Plus Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

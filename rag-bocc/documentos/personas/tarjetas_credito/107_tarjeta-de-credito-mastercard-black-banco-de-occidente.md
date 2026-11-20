@@ -22,6 +22,7 @@ caracteres: 5562
 paginas: null
 hash_contenido: 6c84b52f31eaf1d4
 lote: "lote1"
+titulo_publico: "Tarjeta de Crédito Mastercard Black Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

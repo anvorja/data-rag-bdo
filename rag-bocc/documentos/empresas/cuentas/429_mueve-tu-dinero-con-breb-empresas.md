@@ -21,6 +21,7 @@ caracteres: 8207
 paginas: null
 hash_contenido: 4309dab183254630
 lote: "crawl2-paginas"
+titulo_publico: "Mueve tu dinero con Bre‑B - Empresas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS."

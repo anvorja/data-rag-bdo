@@ -21,6 +21,7 @@ caracteres: 36127
 paginas: 19
 hash_contenido: 03dc5e9d0ee0620a
 lote: "lote1"
+titulo_publico: "Credencial visa infinite"
 indexar: true
 flags: []
 ---

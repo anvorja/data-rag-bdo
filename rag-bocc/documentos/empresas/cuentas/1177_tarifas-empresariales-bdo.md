@@ -6,11 +6,11 @@ tipo_doc: tarifas_tasas
 area: cuentas
 segmento: empresas
 idioma: es
-estado_vigencia: vigente
+estado_vigencia: historico
 anio_documento: 2026
 periodo_fin: null
 vigente_desde: 2026-10-01
-vigente_hasta: 2026-12-31
+vigente_hasta: 2026-11-19
 clasificacion_acceso: publico
 tipo_contenido: "pdf"
 fuente: "www.bancodeoccidente.com.co"
@@ -21,6 +21,7 @@ caracteres: 79829
 paginas: 1
 hash_contenido: f914c9994be9890b
 lote: "recaptura-2026-10-02"
+titulo_publico: "Tarifas empresariales Banco de Occidente"
 vigencia_validada: true
 version_de: 228
 indexar: true

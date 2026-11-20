@@ -21,6 +21,7 @@ caracteres: 15749
 paginas: 9
 hash_contenido: 1a48782e8ee3fc40
 lote: "crawl2-documentos"
+titulo_publico: "Boletin empresarial oct dic 2019"
 indexar: true
 flags: [candidato_vlm]
 ---

@@ -15,14 +15,15 @@ def cargar_golden(B, split):
 
 
 class Evaluador:
-    def __init__(self, chunks, golden):
-        self.ch = chunks; self.gold = golden
+    def __init__(self, chunks, golden, equiv=None):
+        """equiv: doc_id → documentos equivalentes (versiones del mismo contenido); acierta cualquiera de ellos."""
+        self.ch = chunks; self.gold = golden; self.eq = equiv or {}
         self.por_doc = collections.defaultdict(list)
         for i, c in enumerate(chunks): self.por_doc[c['doc']].append(i)
         self._rel = {}
         for q in golden:
             if not q['fuentes']: continue
-            self._rel[q['id']] = [{i for i in self.por_doc.get(f['doc_id'], []) if cubre(chunks[i]['texto'], f['cita_literal'])} for f in q['fuentes']]
+            self._rel[q['id']] = [{i for d in self.eq.get(f['doc_id'], {f['doc_id']}) for i in self.por_doc.get(d, []) if cubre(chunks[i]['texto'], f['cita_literal'])} for f in q['fuentes']]
 
     def inalcanzables(self):
         return [qid for qid, sets in self._rel.items() if any(not s for s in sets)]
@@ -32,7 +33,7 @@ class Evaluador:
         acc = collections.defaultdict(collections.Counter)
         for q in self.gold:
             if not q['fuentes']: continue
-            docs = {f['doc_id'] for f in q['fuentes']}
+            docs = {d for f in q['fuentes'] for d in self.eq.get(f['doc_id'], {f['doc_id']})}
             consultas = [('pregunta', q['pregunta'])] + ([('variante', v) for v in q.get('variantes', [])] if con_variantes else [])
             for kind, texto in consultas:
                 top = [i for i, _ in buscar(texto)][:max(KS)]

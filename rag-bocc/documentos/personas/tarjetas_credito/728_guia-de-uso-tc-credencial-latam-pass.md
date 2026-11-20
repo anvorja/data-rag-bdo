@@ -23,6 +23,7 @@ hash_contenido: 6b9a78ecddf6ac6d
 lote: "crawl2-documentos"
 casi_duplicado_de: 112
 similitud: 0.92
+titulo_publico: "Guia de uso tarjeta de crédito credencial latam pass"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, casi_duplicado]

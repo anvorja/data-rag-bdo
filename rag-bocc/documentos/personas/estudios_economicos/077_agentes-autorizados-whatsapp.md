@@ -21,6 +21,7 @@ caracteres: 2126
 paginas: 1
 hash_contenido: dd87a33c3e548285
 lote: "lote1"
+titulo_publico: "Agentes autorizados whatsapp"
 vigencia_validada: true
 indexar: true
 flags: []

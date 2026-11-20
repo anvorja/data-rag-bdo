@@ -22,6 +22,7 @@ caracteres: 4003
 paginas: null
 hash_contenido: 6859ee6f960b356a
 lote: "crawl2-paginas"
+titulo_publico: "Seguro Cuenta Protegida Plus Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

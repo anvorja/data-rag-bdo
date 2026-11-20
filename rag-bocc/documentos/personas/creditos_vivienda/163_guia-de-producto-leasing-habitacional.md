@@ -21,6 +21,7 @@ caracteres: 56213
 paginas: 18
 hash_contenido: ba666e70d04d074f
 lote: "lote1"
+titulo_publico: "Guia de producto leasing habitacional"
 vigencia_validada: true
 indexar: true
 flags: []

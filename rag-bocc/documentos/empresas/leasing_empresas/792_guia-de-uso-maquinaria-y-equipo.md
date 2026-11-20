@@ -21,6 +21,7 @@ caracteres: 29105
 paginas: 9
 hash_contenido: f8820d0e11319e75
 lote: "crawl2-documentos"
+titulo_publico: "Guía de uso de maquinaria y equipo"
 vigencia_validada: true
 indexar: true
 flags: []

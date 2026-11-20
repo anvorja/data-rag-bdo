@@ -21,6 +21,7 @@ caracteres: 2373
 paginas: 1
 hash_contenido: b8fb6754aba19bb8
 lote: "crawl2-documentos"
+titulo_publico: "Calendario tributario junio 2026"
 indexar: true
 flags: []
 ---

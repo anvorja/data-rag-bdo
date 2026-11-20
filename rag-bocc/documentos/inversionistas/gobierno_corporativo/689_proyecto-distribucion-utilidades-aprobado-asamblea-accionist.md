@@ -21,6 +21,7 @@ caracteres: 1666
 paginas: 1
 hash_contenido: bf3697a7313f6980
 lote: "crawl2-documentos"
+titulo_publico: "Proyecto distribución utilidades aprobado asamblea accionistas Banco de Occidente"
 indexar: true
 flags: []
 ---

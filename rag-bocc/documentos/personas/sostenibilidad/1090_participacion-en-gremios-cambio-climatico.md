@@ -21,6 +21,7 @@ caracteres: 4692
 paginas: 3
 hash_contenido: 69a6a6088b9bd6a6
 lote: "crawl2-documentos"
+titulo_publico: "Participación en gremios cambio climático"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, sin_fecha]

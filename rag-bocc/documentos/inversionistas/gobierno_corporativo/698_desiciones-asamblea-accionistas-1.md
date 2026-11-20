@@ -21,6 +21,7 @@ caracteres: 512
 paginas: 1
 hash_contenido: 6f56ffbc9623a0dc
 lote: "crawl2-documentos"
+titulo_publico: "Desiciones asamblea accionistas"
 vigencia_validada: true
 indexar: true
 flags: []

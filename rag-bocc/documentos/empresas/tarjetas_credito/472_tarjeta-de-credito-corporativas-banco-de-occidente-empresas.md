@@ -22,6 +22,7 @@ caracteres: 2626
 paginas: null
 hash_contenido: 84b20a1cea72d995
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Corporativas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 2 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 3627
 paginas: null
 hash_contenido: d1cb1df1f860a4ed
 lote: "crawl2-paginas"
+titulo_publico: "Remesas de Cheques en Moneda Extranjera"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

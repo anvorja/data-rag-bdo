@@ -21,6 +21,7 @@ caracteres: 7949
 paginas: 3
 hash_contenido: 53a92531acaa63bf
 lote: "lote1"
+titulo_publico: "Términos y condiciones: campaña «Estamos de tu lado»"
 vigencia_validada: true
 indexar: true
 flags: []

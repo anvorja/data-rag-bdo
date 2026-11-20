@@ -21,6 +21,7 @@ caracteres: 29262
 paginas: 17
 hash_contenido: a1c14fbddebfcc64
 lote: "crawl2-documentos"
+titulo_publico: "Informe periódico trimestral con corte al 30 de junio de 2023"
 indexar: true
 flags: []
 ---

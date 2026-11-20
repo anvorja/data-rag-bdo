@@ -21,6 +21,7 @@ caracteres: 248034
 paginas: 55
 hash_contenido: d7479e1a0e530093
 lote: "crawl2-documentos"
+titulo_publico: "Estados financieros separados a marzo de 2026"
 indexar: true
 flags: []
 ---

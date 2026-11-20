@@ -21,6 +21,7 @@ caracteres: 1414
 paginas: null
 hash_contenido: 0f6e38a7774a8491
 lote: "lote1"
+titulo_publico: "Crédito de Vivienda en Colombia"
 indexar: true
 flags: []
 ---

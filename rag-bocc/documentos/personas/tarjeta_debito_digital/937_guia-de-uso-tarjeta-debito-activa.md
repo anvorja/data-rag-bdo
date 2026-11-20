@@ -21,6 +21,7 @@ caracteres: 14422
 paginas: 15
 hash_contenido: 068f781f5c0a53c3
 lote: "crawl2-documentos"
+titulo_publico: "Guia de uso tarjeta débito activa"
 vigencia_validada: true
 indexar: true
 flags: [candidato_vlm, sin_fecha]

@@ -22,6 +22,7 @@ caracteres: 5033
 paginas: null
 hash_contenido: 0643d57f08817999
 lote: "lote1"
+titulo_publico: "Cuenta Corriente Banco de Occidente para Manejar tu dinero fácil"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 3 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

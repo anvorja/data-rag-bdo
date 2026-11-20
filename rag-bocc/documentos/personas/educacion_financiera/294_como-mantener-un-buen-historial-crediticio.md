@@ -21,6 +21,7 @@ caracteres: 9702
 paginas: null
 hash_contenido: 5ad5ac9f881e1a11
 lote: "lote1"
+titulo_publico: "¿Cómo mantener un buen historial crediticio?"
 indexar: true
 flags: []
 ---

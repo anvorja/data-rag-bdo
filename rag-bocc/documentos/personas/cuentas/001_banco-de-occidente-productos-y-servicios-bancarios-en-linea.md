@@ -22,6 +22,7 @@ caracteres: 18460
 paginas: null
 hash_contenido: 53440a430a058dcb
 lote: "lote1"
+titulo_publico: "Banco de Occidente - Productos y servicios bancarios en línea"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 41 líneas de plantilla del CMS."

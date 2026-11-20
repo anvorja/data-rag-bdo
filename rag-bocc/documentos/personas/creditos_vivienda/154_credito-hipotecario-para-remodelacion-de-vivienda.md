@@ -22,6 +22,7 @@ caracteres: 6387
 paginas: null
 hash_contenido: 8324c3fa5b7c0a26
 lote: "lote1"
+titulo_publico: "Crédito Hipotecario para Remodelación de Vivienda"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

@@ -21,6 +21,7 @@ caracteres: 2018
 paginas: 1
 hash_contenido: fb92de8a1a4bf55c
 lote: "crawl2-documentos"
+titulo_publico: "L pdu jd"
 indexar: true
 flags: [ocr]
 ---

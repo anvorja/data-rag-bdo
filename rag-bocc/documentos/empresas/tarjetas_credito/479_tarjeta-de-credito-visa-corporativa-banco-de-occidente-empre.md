@@ -22,6 +22,7 @@ caracteres: 4942
 paginas: null
 hash_contenido: 0b3c0e82e1e2a65a
 lote: "crawl2-paginas"
+titulo_publico: "Tarjeta de Crédito Visa Corporativa"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 4 líneas de plantilla del CMS."

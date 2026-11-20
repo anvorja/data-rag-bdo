@@ -11,7 +11,9 @@ import argparse, calendar, copy, datetime, hashlib, json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from helpers import pdf_text
 
-ap = argparse.ArgumentParser(); ap.add_argument('--fecha', default='2026-10-02'); args = ap.parse_args()
+ap = argparse.ArgumentParser(); ap.add_argument('--fecha', default='2026-10-02')
+ap.add_argument('--dir', default='_raw/recaptura', help='carpeta (relativa a la raíz) con los <slug>.pdf descargados')
+args = ap.parse_args()
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
 OUT = B + 'rag-bocc/'
 BASE = 'https://www.bancodeoccidente.com.co/documents/d/guest/'
@@ -27,7 +29,8 @@ def h(t): return hashlib.sha256(norm(t).encode()).hexdigest()[:16]
 
 def vigencia(slug, texto):
     """(desde, hasta, nota). Tarifas: hasta el 31-dic-2026 (regla confirmada por los expertos). Tasas: el mes que declara el documento."""
-    if slug.startswith('tarifas'): return '2026-10-01', '2026-12-31', 'tarifas: vencen el 31-dic-2026 (expertos del banco)'
+    if slug.startswith('tarifas'):   # el PDF no trae un periodo único: rige desde que se publica (fecha de captura) hasta el 31-dic (regla de los expertos)
+        return args.fecha, f'{args.fecha[:4]}-12-31', 'tarifas: vigentes desde la captura; vencen el 31-dic (expertos del banco)'
     t = re.sub(r'\s+', ' ', texto)
     m = re.search(r'(?i)vigentes? del (\d{1,2}) al (\d{1,2}) de (' + '|'.join(MESES) + r')\w* (?:de|del) (20\d\d)', t)
     if m:
@@ -41,7 +44,7 @@ def vigencia(slug, texto):
 
 nuevos, decis, cambios = [], [], []
 for slug in OBJETIVOS:
-    fn = B + f'_raw/recaptura/{slug}.pdf'
+    fn = B + f'{args.dir}/{slug}.pdf'
     if not os.path.exists(fn): print('falta', fn); continue
     texto, tipo = pdf_text(fn)
     url = BASE + slug
@@ -49,7 +52,10 @@ for slug in OBJETIVOS:
     if not mismos: print('URL desconocida', url); continue
     if any(r['texto'].strip() and h(r['texto']) == h(texto) for r in mismos): print(slug, ': sin cambios'); continue
     d, hasta, nota = vigencia(slug, texto)
-    anterior = next(r for r in mismos)           # fila de esa URL
+    # versión actual = cabeza de la cadena: la que ninguna otra fila de la URL reemplaza (version_de). Con una sola fila, esa.
+    reemplazadas = {r.get('version_de') for r in mismos}
+    cabezas = [r for r in mismos if r['id'] not in reemplazadas]
+    anterior = max(cabezas, key=lambda r: int(r['id']))
     if anterior['texto'].strip() or not anterior.get('duplicado_de'):
         viejo = anterior; nuevo = copy.deepcopy(anterior); nuevo['id'] = str(max(int(r['id']) for r in rows + nuevos) + 1)
     else:                                         # la fila de la URL era un duplicado sin texto de otra versión: se reutiliza para la versión nueva

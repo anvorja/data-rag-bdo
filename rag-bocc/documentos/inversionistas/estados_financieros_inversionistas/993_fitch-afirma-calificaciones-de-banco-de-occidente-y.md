@@ -21,6 +21,7 @@ caracteres: 31924
 paginas: 13
 hash_contenido: 36ba41504c193cd3
 lote: "crawl2-documentos"
+titulo_publico: "Fitch Afirma Calificaciones de Banco de Occidente y"
 indexar: true
 flags: []
 ---

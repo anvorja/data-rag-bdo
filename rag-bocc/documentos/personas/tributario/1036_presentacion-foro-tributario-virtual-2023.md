@@ -21,6 +21,7 @@ caracteres: 21569
 paginas: 83
 hash_contenido: 4b48c01f0a01ab92
 lote: "crawl2-documentos"
+titulo_publico: "Presentación foro tributario virtual 2023"
 indexar: true
 flags: [poco_texto_por_pagina, candidato_vlm]
 ---

@@ -21,6 +21,7 @@ caracteres: 8000
 paginas: 8
 hash_contenido: 804852403988a87b
 lote: "crawl2-documentos"
+titulo_publico: "Tr construcción"
 indexar: true
 flags: [candidato_vlm]
 ---

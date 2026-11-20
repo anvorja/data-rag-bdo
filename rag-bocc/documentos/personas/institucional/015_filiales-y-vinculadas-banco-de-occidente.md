@@ -22,6 +22,7 @@ caracteres: 2810
 paginas: null
 hash_contenido: e2a84b5f0b6e1627
 lote: "lote1"
+titulo_publico: "Filiales y Vinculadas"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

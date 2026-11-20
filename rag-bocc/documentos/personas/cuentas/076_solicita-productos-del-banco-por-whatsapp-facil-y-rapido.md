@@ -22,6 +22,7 @@ caracteres: 2885
 paginas: null
 hash_contenido: 52bb64e87fc3df35
 lote: "lote1"
+titulo_publico: "Solicita Productos del Banco por WhatsApp Fácil y Rápido"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 4 líneas de plantilla del CMS."

@@ -22,6 +22,7 @@ caracteres: 2635
 paginas: null
 hash_contenido: 4eadf087bf25f808
 lote: "lote1"
+titulo_publico: "Mesa de Dinero Banco de Occidente"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 6 líneas de plantilla del CMS."

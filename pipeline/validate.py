@@ -27,6 +27,9 @@ if os.path.exists(idx_path):
         fm = head[1] if len(head) > 2 else ''
         for k in REQ:
             if not re.search(rf'^{k}:', fm, re.M): errores.append(f"{r['archivo']}: falta «{k}» en el frontmatter")
+        if r.get('indexar'):
+            tp = r.get('titulo_publico')
+            if not tp or len(tp) > 160 or '_' in tp or re.search(r'(?i)\b(vf|tyc)\b', tp): avisos.append(f"{r['id']}: titulo_publico ausente o con aspecto de nombre de archivo: {tp!r}")
         if r.get('clasificacion_acceso') not in (None, 'publico') and 'clasificacion_acceso' in r: avisos.append(f"{r['id']}: clasificación distinta de público")
     for root, _, files in os.walk(os.path.join(CORPUS, 'documentos')):
         n_md += sum(1 for f in files if f.endswith('.md'))

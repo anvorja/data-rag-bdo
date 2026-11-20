@@ -22,6 +22,7 @@ caracteres: 2434
 paginas: null
 hash_contenido: ddfa5513c0a75e9b
 lote: "lote1"
+titulo_publico: "Seguro para Mascotas - Protección Completa para tu Compañero"
 indexar: true
 flags: [plantilla_cms_limpiada]
 nota: "Se quitaron 2 líneas de plantilla del CMS. Se quitaron 1 líneas de plantilla del CMS."
