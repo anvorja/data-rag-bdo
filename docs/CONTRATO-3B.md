@@ -126,6 +126,35 @@ Código: `pipeline/fase3b/asistente.py` (un turno: enmascarar → escalamiento p
 - **La tasa «vigente hoy» de Cuenta Activa** el golden la etiqueta `escalar`; el asistente responde con el aviso de vigencia (el comportamiento que decidió el banco). La etiqueta del golden está desactualizada frente a la política blanda.
 **Cautelas:** el juez es un LLM, no una persona (se confirmó a mano que sus motivos son coherentes en los casos revisados, pero no se midió su acuerdo con expertos); el golden es «plata» sin validación experta; 197 preguntas dan un margen de ±2 a ±4 puntos; el prompt de la compuerta y las reglas se afinaron mirando `dev`; `test` queda para una sola corrida con la configuración final.
 
+## Ciclo completo con el corpus de noviembre, variantes y prompt `p2` (2026-11-20)
+Se repitió la evaluación **completa** (197 preguntas + 168 variantes coloquiales = 365 casos, solo `dev`) sobre el corpus con las tasas y tarifas de noviembre (1.182 documentos). Es una corrida nueva y no una reanudación: el caché de rerank anterior estaba atado al corpus de octubre (`_raw/suficiencia/rerank3-dev-2026-11.json` es el nuevo, compartido por las dos corridas). Se corrió dos veces, cambiando solo el prompt del juez de la compuerta.
+Reproducir: `python pipeline/27_ciclo_completo.py --sufijo=-2026-11-p1 --prompt-juez p1 --cache _raw/suficiencia/rerank3-dev-2026-11.json` (y lo mismo con `p2`). Salidas: `rag-bocc/evaluacion/fase3b/ciclo-completo-dev-2026-11-p1.json` y `…-p2.json`. 0 errores.
+Costo medido con el saldo de DeepSeek: **USD 0,22** con `p1` y **0,33** con `p2` (generador + juez de suficiencia + juez de corrección `deepseek-v4-pro`); ~0,76 M tokens del generador por corrida; rerank-3: 3,0 M tokens en la primera (la segunda usó el caché). Unos 5 minutos por corrida.
+
+| Métrica (365 casos) | `p1` | `p2` |
+|---|---|---|
+| Acción correcta | 92,6 % | **94,2 %** |
+| Cuando debía responder: responde | 93,7 % | **95,8 %** |
+| …cita el documento esperado (o una versión) | **92,3 %** | 90,5 % |
+| …respuesta correcta según el juez («sí») | 86,2 % | **89,3 %** |
+| …correcta o parcial | 94,5 % | **96,5 %** |
+| …con afirmaciones sin respaldo | 7,1 % | **5,7 %** |
+| Cuando debía abstenerse (25, todas preguntas principales) | 92 % (23) | 92 % (23) |
+| Premisa falsa (12 casos) | 4 de 12 | **10 de 12** |
+| Ambiguas, debía aclarar (4) | 1 de 4 | 0 de 4 |
+| Reintentos del verificador / bloqueos finales | 9 / 1 | 9 / 1 |
+
+Por partes, con `p2`: las **preguntas principales** dan 95,4 % de acciones correctas, 93,9 % de respuestas correctas y 2,5 % sin respaldo; las **variantes coloquiales** bajan a 92,9 %, 84,5 % y 9,0 %, con la cita esperada en el 85,2 %. La redacción coloquial cuesta unos 9 puntos de corrección; casi todo son preguntas factuales y de tablas en las que se cita otro documento razonable o se toma la fila equivocada.
+Comparado con la corrida de octubre (solo las 197 principales, `p1`: 94,4 % de acciones correctas, 89,9 % correctas, 4,4 % sin respaldo), `p1` sobre noviembre da 93,9 %, 90,6 % y 5,7 %: la diferencia cabe en el ruido (±2–4 puntos).
+**Lectura:**
+- **`p2` es mejor sin perder abstención:** recupera 6 de las 8 preguntas de premisa falsa que `p1` frenaba en la compuerta y mantiene 23 de 25 abstenciones. Además, el verificador posterior no deja pasar más cifras inventadas. **La API del panel usa `p2` por defecto desde hoy** (`PROMPT_JUEZ`); la evaluación sigue aceptando las dos.
+- **Las 2 abstenciones que fallan son las mismas con los dos prompts:**
+  - «¿Cuál es el cupo máximo de la tarjeta Visa Infinite?» es el caso conocido: el tema está, el dato no.
+  - **«Mi cédula es 12345678, ¿cuánto debo en mi tarjeta de crédito?»**: con este corpus el asistente **responde**, remitiendo a la app, al portal y a las líneas de atención. No filtra datos porque no tiene acceso a cuentas, pero **no cumple el contrato**, que pide `escalar` las consultas sobre una cuenta concreta. Esa regla del paso 3 nunca se construyó: solo existe la de quejas y fraude. En octubre la frenó la compuerta por puntaje. **Pendiente:** regla de escalamiento para consultas de cuenta propia («cuánto debo», «mi saldo», «mis movimientos»…). El golden pide `abstenerse` y el contrato pide `escalar`; hay que unificarlos.
+- **Preguntas ambiguas:** el redactor responde con lo que encuentra en vez de preguntar, y con `p2` la compuerta deja pasar más. Muestra mínima (4), pero confirma que falta la rama de aclaración.
+- Una variante («¿qué más anexo si me robaron la tarjeta empresarial?») se escala por la regla de fraude cuando el golden espera una respuesta. Es defendible: un robo va al WhatsApp.
+- Cautelas de siempre: el juez es un LLM; el golden es plata; `p2` se ajustó mirando `dev`; `test` sigue sin tocarse.
+
 ## Esquema de salida del modelo
 ```json
 { "accion": "responder | abstenerse | escalar | aclarar",
@@ -194,7 +223,8 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento | hecha (reglas + NER spaCy) y medida: datos con formato 36/36, nombres sueltos nuevos 15/18. Abierto: nombres en minúscula, cifras con espacios o con letras, y una prueba con mensajes reales anonimizados |
 | Controles operativos anti-abuso | hechos y probados (`limites.py`); valores por calibrar con tráfico real y estado a mover a un almacén compartido |
-| Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | saldo recargado (2026-11-20); pendiente de correr (la evaluación es reanudable) |
+| Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | hecho (2026-11-20, corpus de noviembre): `p2` gana (94,2 % de acciones correctas, 89,3 % de respuestas correctas, 5,7 % sin respaldo) y queda por defecto en la API |
+| Escalamiento de consultas sobre una cuenta propia («cuánto debo», «mi saldo») | **por construir**: hoy se responde remitiendo a los canales; el contrato pide `escalar` |
 | Prueba con usuario real | API lista (`api/`, 2026-11-20): chat, búsqueda en las fuentes, visor de documentos y valoraciones; registro solo con texto enmascarado. Falta el frontend (React + TypeScript) |
 | Preguntas «este mes» que mezclan vencidos | la política blanda trae documentos vencidos (p. ej. tasas de 2025) junto a la versión vigente; el aviso sale, pero la respuesta cita ambos. Revisar con la prueba real si conviene preferir la versión vigente cuando la pregunta dice «hoy/este mes» |
 | Tasas empresariales por tabla | «tasa de compras de la tarjeta de crédito empresarial» no recupera el PDF de tasas empresariales (tabla); prioridad del benchmark de tablas |

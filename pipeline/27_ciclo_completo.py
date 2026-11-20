@@ -1,7 +1,7 @@
 """Fase 3b · evaluación del ciclo completo (pregunta → respuesta con citas y avisos) sobre `dev` (167 preguntas + variantes coloquiales). NO usa el split `test`.
 Mide: acción correcta (contra accion_esperada; escalar y abstenerse cuentan como «no responder»), cita correcta (el documento esperado o una versión equivalente está entre las citas),
 corrección y respaldo de la respuesta (juez LLM deepseek-v4-pro, thinking desactivado, contra respuesta_referencia y los fragmentos citados), avisos de vigencia y comportamiento del verificador.
-Uso: set -a; . ./.env; set +a; python pipeline/27_ciclo_completo.py [--max N] [--juez deepseek-v4-pro] [--sufijo -x]
+Uso: set -a; . ./.env; set +a; python pipeline/27_ciclo_completo.py [--max N] [--juez deepseek-v4-pro] [--sufijo -x] [--prompt-juez p1|p2] [--cache _raw/suficiencia/<archivo>.json]
 Salida: rag-bocc/evaluacion/fase3b/ciclo-completo-dev<sufijo>.json (respuestas del asistente a preguntas sintéticas, sin datos personales)."""
 import argparse, collections, json, os, sys, time
 from concurrent.futures import ThreadPoolExecutor
@@ -11,9 +11,10 @@ from evaluar import cargar_golden
 import suficiencia
 
 ap = argparse.ArgumentParser(); ap.add_argument('--max', type=int, default=0); ap.add_argument('--juez', default='deepseek-v4-pro'); ap.add_argument('--modelo', default='deepseek-flash'); ap.add_argument('--sufijo', default=''); ap.add_argument('--prompt-juez', default='p1', choices=['p1', 'p2'], help='prompt del juez de suficiencia (compuerta); p2 deja pasar las preguntas de premisa falsa')
+ap.add_argument('--cache', default='_raw/suficiencia/rerank3-dev.json', help='caché de rerank-3 (relativo a la raíz); usar uno nuevo si cambió el corpus')
 args = ap.parse_args()
 B = os.environ.get('RAG_BASE', os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) + '/'
-f_cache = B + '_raw/suficiencia/rerank3-dev.json'; cache = json.load(open(f_cache)) if os.path.exists(f_cache) else {}
+f_cache = B + args.cache; cache = json.load(open(f_cache)) if os.path.exists(f_cache) else {}
 a = Asistente(B, modelo=args.modelo, prompt_juez=args.prompt_juez, cache_rerank=cache)
 juez = suficiencia.cliente('deepseek', args.juez)
 CLASE = {'responder': 'responder', 'corregir_premisa': 'responder', 'aclarar': 'aclarar', 'abstenerse': 'no_responder', 'escalar': 'no_responder'}
@@ -72,7 +73,7 @@ def tasa(xs, f): xs = list(xs); return (round(sum(1 for x in xs if f(x)) / len(x
 
 
 if len(res) - len(ok): print('ATENCIÓN:', len(res) - len(ok), 'casos con error (p. ej. saldo agotado, 402); vuelve a ejecutar para completar solo esos.')
-out = dict(prompt_juez=args.prompt_juez, modelo=args.modelo, juez=args.juez, casos=len(items), errores=len(res) - len(ok), segundos=round(time.time() - t0))
+out = dict(corpus_docs=len(a.rec.filas), cache=args.cache, prompt_juez=args.prompt_juez, modelo=args.modelo, juez=args.juez, casos=len(items), errores=len(res) - len(ok), segundos=round(time.time() - t0))
 for kind in ('pregunta', 'variante', 'todos'):
     xs = [d for d in ok if kind == 'todos' or d['kind'] == kind]
     resp = [d for d in xs if d['esperada'] in ('responder', 'corregir_premisa')]

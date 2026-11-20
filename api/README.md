@@ -17,7 +17,7 @@ La primera consulta tarda unos 15–20 s porque carga e5-small, BM25 y spaCy. De
 |---|---|---|
 | `LLM_PROVEEDOR` | `deepseek` | `deepseek` (medido) u `openai` (armado, sin medir) |
 | `LLM_MODELO` | `deepseek-flash` | modelo que redacta y juzga (con OpenAI es obligatorio, o `OPENAI_MODEL_JUEZ`) |
-| `PROMPT_JUEZ` | `p1` | prompt del juez de suficiencia (`p2` acepta mejor las preguntas con premisa falsa) |
+| `PROMPT_JUEZ` | `p2` | prompt del juez de suficiencia: `p2` midió mejor que `p1` en el ciclo completo del 2026-11-20 (`docs/CONTRATO-3B.md`) |
 | `CORS_ORIGENES` | `http://localhost:5173` | orígenes del frontend, separados por coma (Vite usa el 5173) |
 | `REGISTRO_PRUEBAS` | `_raw/pruebas` | dónde se escribe el registro de la prueba (no versionado) |
 

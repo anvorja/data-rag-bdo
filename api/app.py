@@ -19,7 +19,7 @@ Reglas que se mantienen aquí:
   - Las claves salen del entorno (.env); /api/salud dice qué falta, nunca el valor.
 
 Configuración (entorno): RAG_BASE, LLM_PROVEEDOR (deepseek | openai; por defecto deepseek), LLM_MODELO (por defecto el del proveedor),
-PROMPT_JUEZ (p1 | p2; por defecto p1, el medido en el ciclo completo), CORS_ORIGENES (coma; por defecto http://localhost:5173), REGISTRO_PRUEBAS (carpeta).
+PROMPT_JUEZ (p1 | p2; por defecto p2, el mejor en el ciclo completo del 2026-11-20), CORS_ORIGENES (coma; por defecto http://localhost:5173), REGISTRO_PRUEBAS (carpeta).
 Arranque: set -a; . ./.env; set +a; python -m uvicorn api.app:app --port 8000      (pruebas sin proveedores: python -m api.test_api)
 """
 import datetime, json, os, sys, threading, uuid
@@ -192,7 +192,7 @@ class Servicio:
         self.grupos = grupos_version(self.filas)
         self.proveedor = os.environ.get('LLM_PROVEEDOR', 'deepseek')
         self.modelo = os.environ.get('LLM_MODELO') or None
-        self.prompt_juez = os.environ.get('PROMPT_JUEZ', 'p1')
+        self.prompt_juez = os.environ.get('PROMPT_JUEZ', 'p2')
         self.registro = os.environ.get('REGISTRO_PRUEBAS', base + '_raw/pruebas') + '/'
         self.sesiones = {}
         self.turnos = {}                    # turno_id → sesion_id (para validar valoraciones)
