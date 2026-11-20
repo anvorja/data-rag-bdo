@@ -194,7 +194,10 @@ El golden (290 preguntas, plata) ya trae `accion_esperada`, `debe_abstenerse`, `
 | LLM (DeepSeek u OpenAI) | sin decidir; el contrato no depende de ello. Probar ambos con el golden de desarrollo |
 | Capa de enmascaramiento | hecha (reglas + NER spaCy) y medida: datos con formato 36/36, nombres sueltos nuevos 15/18. Abierto: nombres en minúscula, cifras con espacios o con letras, y una prueba con mensajes reales anonimizados |
 | Controles operativos anti-abuso | hechos y probados (`limites.py`); valores por calibrar con tráfico real y estado a mover a un almacén compartido |
-| Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | pendiente de recargar el saldo de DeepSeek (la evaluación es reanudable) |
+| Variantes coloquiales del ciclo completo (168) y prompt `p2` en el ciclo completo | saldo recargado (2026-11-20); pendiente de correr (la evaluación es reanudable) |
+| Prueba con usuario real | API lista (`api/`, 2026-11-20): chat, búsqueda en las fuentes, visor de documentos y valoraciones; registro solo con texto enmascarado. Falta el frontend (React + TypeScript) |
+| Preguntas «este mes» que mezclan vencidos | la política blanda trae documentos vencidos (p. ej. tasas de 2025) junto a la versión vigente; el aviso sale, pero la respuesta cita ambos. Revisar con la prueba real si conviene preferir la versión vigente cuando la pregunta dice «hoy/este mes» |
+| Tasas empresariales por tabla | «tasa de compras de la tarjeta de crédito empresarial» no recupera el PDF de tasas empresariales (tabla); prioridad del benchmark de tablas |
 | Rama de aclaración antes de la compuerta (preguntas ambiguas: 1 de 3) | por construir |
 | Prueba de abuso con intentos reales (*red team*) y conversaciones de varios turnos | pendiente |
 | Verificador de suficiencia | medido con rerank-3 y con DeepSeek (flash y v4-pro, thinking desactivado); combinados: 96,3 % de abstención correcta con ≈4,5–4,8 % de rechazo falso (prompt `p1`). Falta una muestra mayor y revisada por expertos, y medir OpenAI si se elige |

@@ -38,15 +38,17 @@ def _encabezado(n, c, d):
 
 
 class Asistente:
-    def __init__(self, base, modelo='deepseek-flash', prompt_juez='p1', k_gen=4, cache_rerank=None):
-        self.rec = Recuperador(base, cache=cache_rerank)
-        self.cl = suficiencia.cliente('deepseek', modelo); self.modelo = modelo; self.prompt_juez = prompt_juez; self.k = k_gen
+    def __init__(self, base, modelo='deepseek-flash', prompt_juez='p1', k_gen=4, cache_rerank=None, proveedor='deepseek', recuperador=None):
+        """proveedor: 'deepseek' (medido) u 'openai' (armado, sin medir; exige OPENAI_MODEL_JUEZ o `modelo`). El mismo modelo redacta y juzga."""
+        self.rec = recuperador or Recuperador(base, cache=cache_rerank); self.proveedor = proveedor
+        self.cl = suficiencia.cliente(proveedor, modelo); self.modelo = self.cl[1]; self.prompt_juez = prompt_juez; self.k = k_gen
         self.grupos = grupos_version(self.rec.filas)
 
     def _generar(self, q, bloque, extra=None):
         msgs = [{'role': 'system', 'content': SISTEMA}, {'role': 'user', 'content': f'FRAGMENTOS:\n{bloque}\n\nPREGUNTA DEL CLIENTE: {q}\n\nResponde en JSON.'}]
         if extra: msgs += [{'role': 'user', 'content': extra}]
-        r = self.cl[0].chat.completions.create(model=self.cl[1], messages=msgs, response_format={'type': 'json_object'}, max_tokens=700, extra_body={'thinking': {'type': 'disabled'}})
+        kw = dict(extra_body={'thinking': {'type': 'disabled'}}) if self.proveedor == 'deepseek' else dict(temperature=0)
+        r = self.cl[0].chat.completions.create(model=self.cl[1], messages=msgs, response_format={'type': 'json_object'}, max_tokens=700, **kw)
         if getattr(r.choices[0].message, 'reasoning_content', None): raise RuntimeError('el modo thinking no quedó desactivado')
         try: d = json.loads(r.choices[0].message.content)
         except Exception: d = {'accion': 'invalida'}
@@ -67,7 +69,7 @@ class Asistente:
         res = self.rec.buscar(q)
         top1 = res[0][1] if res else 0.0; traza['top1_rerank'] = round(top1, 3)
         if top1 < UMBRAL:                                          # compuerta: abstenerse solo si rerank-3 Y el juez piden abstenerse
-            ok, motivo = suficiencia.por_llm(q, [self.rec.ch[i]['ctx'] + '\n' + self.rec.ch[i]['texto'] for i, _ in res[:self.k]], 'deepseek', _cl=self.cl, prompt=self.prompt_juez) if res else (False, 'sin candidatos')
+            ok, motivo = suficiencia.por_llm(q, [self.rec.ch[i]['ctx'] + '\n' + self.rec.ch[i]['texto'] for i, _ in res[:self.k]], self.proveedor, _cl=self.cl, prompt=self.prompt_juez) if res else (False, 'sin candidatos')
             traza['juez'] = ok
             if not ok: traza['via'] = 'compuerta'; return fin('abstenerse', MSG_ABSTENCION)
         usados = [self.rec.ch[i] for i, _ in res[:self.k]]
