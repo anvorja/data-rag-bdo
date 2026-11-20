@@ -107,6 +107,11 @@ def prueba_asistente_real():
     comprobar(r['traza']['via'] == 'generador' and not r['traza']['reintento'], 'Asistente real: la cifra 0,8 está respaldada')
     e = c.post('/api/chat', json=dict(sesion_id=sid, mensaje='Me robaron la tarjeta, quiero poner una queja')).json()
     comprobar(e['accion'] == 'escalar' and 'whatsapp' in e['respuesta'].lower(), 'Asistente real: escalamiento por reglas')
+    k = c.post('/api/chat', json=dict(sesion_id=sid, mensaje='Mi cédula es 1098765432, ¿cuánto debo en mi tarjeta de crédito?')).json()
+    comprobar(k['accion'] == 'escalar' and k['traza']['via'] == 'cuenta_propia' and '320 11 77' in k['respuesta'] and k['citas'] and k['citas'][0]['doc_id'] == '083',
+              'Asistente real: cuenta propia → app, portal y líneas de atención, con cita al doc 083')
+    g = c.post('/api/chat', json=dict(sesion_id=sid, mensaje='¿Cuánto cobra la pasarela Shopify si consulto mi saldo?')).json()
+    comprobar(g['traza']['via'] != 'cuenta_propia', 'Asistente real: una pregunta general con «mi saldo» no entra en la regla')
 
 
 if __name__ == '__main__':

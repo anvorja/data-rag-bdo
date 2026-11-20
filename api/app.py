@@ -54,7 +54,7 @@ class Cita(BaseModel):
 
 
 class Traza(BaseModel):
-    via: Optional[str] = Field(None, description='limites | escalamiento_reglas | compuerta | verificador | generador')
+    via: Optional[str] = Field(None, description='limites | escalamiento_reglas | cuenta_propia | compuerta | verificador | generador')
     top1_rerank: Optional[float] = None
     juez: Optional[bool] = None
     reintento: bool = False

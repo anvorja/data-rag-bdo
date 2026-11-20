@@ -73,6 +73,10 @@ En pgvector: filtrar `estado_vigencia <> 'historico'` (o sin filtro si hay inten
 - El número principal aparece en el corpus 193 veces: **+57 318 671 4836** (`https://api.whatsapp.com/send?phone=573186714836`). Hay otros dos números de WhatsApp de servicios concretos
   (asistencia de viaje de tarjetas: 316 434 8887; línea de crédito hipotecario: 312 510 4844) que **no** se usan para quejas. **Por confirmar** que el principal sea el de quejas/fraude/reclamaciones.
 
+## Consultas sobre los productos del propio cliente (2026-11-20)
+- Hoy el asistente **no tiene conexión a las bases de datos de clientes**. Si el cliente pide un dato de su producto (cuánto debe, su saldo, sus movimientos, su extracto, su cupo disponible), se le **remite a la aplicación, al portal transaccional y a las líneas de atención** (Bogotá 320 11 77, Cali 895 92 56, Barranquilla 386 97 72, Medellín 231 77 00, 01 800 05 14652 nacional; fuente: doc 083, Preguntas frecuentes). Estas consultas no van al WhatsApp, que queda para quejas, fraude y reclamaciones.
+- **A futuro se considera** integrar la consulta de cuenta, con autenticación del cliente; no se descarta. Ese desarrollo entraría en la misma regla (`pipeline/fase3b/reglas.py`).
+
 ## Datos personales y proveedores (respuestas de cumplimiento/directivas)
 - **Se permite** enviar lo que escribe el cliente a servidores fuera de Colombia (OpenAI, DeepSeek).
 - **Obligatorio quitar** nombres, cédulas y números de cuenta antes de enviar el texto al LLM (capa de enmascaramiento previa) y **pedir autorización del cliente** (consentimiento al iniciar el chat).
